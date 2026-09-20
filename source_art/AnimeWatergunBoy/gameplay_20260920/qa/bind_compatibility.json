@@ -1,0 +1,14 @@
+{
+  "max_inverse_bind_difference": 0.0,
+  "max_node_trs_difference": 0.0,
+  "old_skin_count": 1,
+  "new_skin_count": 1,
+  "animation_names": [
+    "Idle",
+    "Jump",
+    "Run",
+    "RunJump",
+    "Shoot",
+    "Walk"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "modules": {
+    "laya.ui": true,
+    "laya.d3": true,
+    "laya.gltf": true,
+    "laya.physics3D": true
+  },
+  "addons": {
+    "laya.ui": "ui2",
+    "laya.physics3D": "laya.bullet"
+  },
+  "3D": {
+    "defaultPhysicsMemory": 128
+  },
+  "physics3D": {
+    "fixedTimeStep": 0.016666666666666666,
+    "maxSubSteps": 4
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "maximum_vertex_error_m": 9.544434760755394e-06,
+  "mesh_objects": 15,
+  "actions": [
+    "Shoot",
+    "Idle"
+  ],
+  "samples": [
+    {
+      "sample": "Idle:1",
+      "maximum_vertex_error_m": 9.544434760755394e-06,
+      "sampled_vertices": 739
+    },
+    {
+      "sample": "Idle:23",
+      "maximum_vertex_error_m": 9.464818504056893e-06,
+      "sampled_vertices": 739
+    },
+    {
+      "sample": "Idle:46",
+      "maximum_vertex_error_m": 9.240750841854606e-06,
+      "sampled_vertices": 739
+    },
+    {
+      "sample": "Idle:91",
+      "maximum_vertex_error_m": 9.544434760755394e-06,
+      "sampled_vertices": 739
+    },
+    {
+      "sample": "Shoot:1",
+      "maximum_vertex_error_m": 9.027508895087522e-06,
+      "sampled_vertices": 739
+    },
+    {
+      "sample": "Shoot:4",
+      "maximum_vertex_error_m": 9.142102499026805e-06,
+      "sampled_vertices": 739
+    },
+    {
+      "sample": "Shoot:7",
+      "maximum_vertex_error_m": 9.027508895087522e-06,
+      "sampled_vertices": 739
+    }
+  ]
+}

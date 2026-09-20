@@ -1,0 +1,965 @@
+{
+  "date": "2026-09-20",
+  "project": "D:/a/xiang_mu/LH",
+  "backup": "D:/a/xiang_mu/LH/backups/site_repair_20260920_094459",
+  "renderViews": [
+    "01_全场鸟瞰",
+    "02_折返楼梯",
+    "03_楼前红道",
+    "04_亭旁草洲",
+    "05_低视角湖面",
+    "06_西岸台阶",
+    "07_亭子与连接栈道",
+    "08_桥上看梯口"
+  ],
+  "movement": {
+    "method": "Each route is seeded only at its start; real CDP touch joystick events drive the game CharacterController. Heading is aimed at each waypoint. No jump or position changes during movement.",
+    "routes": [
+      {
+        "name": "building_forecourt_red_path",
+        "start": [
+          11,
+          1.7600195500222475,
+          -34
+        ],
+        "waypoints": [
+          {
+            "target": [
+              15.5,
+              -32.7
+            ],
+            "position": [
+              15.413889714718174,
+              2.7218014588402872,
+              -32.724905770553505
+            ],
+            "grounded": true,
+            "distance": 0.08963971574130081,
+            "pass": true
+          },
+          {
+            "target": [
+              17,
+              -30.6
+            ],
+            "position": [
+              16.951268821044774,
+              3.138640512362659,
+              -30.665284970615655
+            ],
+            "grounded": true,
+            "distance": 0.08146689628709944,
+            "pass": true
+          },
+          {
+            "target": [
+              18.7,
+              -27.6
+            ],
+            "position": [
+              18.622870442597343,
+              3.1399999713897704,
+              -27.735201694162022
+            ],
+            "grounded": true,
+            "distance": 0.15565496050370603,
+            "pass": true
+          },
+          {
+            "target": [
+              20,
+              -24.3
+            ],
+            "position": [
+              19.95457484917655,
+              3.139999971389771,
+              -24.413296954494534
+            ],
+            "grounded": true,
+            "distance": 0.12206409883774032,
+            "pass": true
+          },
+          {
+            "target": [
+              30,
+              -24.3
+            ],
+            "position": [
+              29.865924908011316,
+              3.1399999713897704,
+              -24.301508256854213
+            ],
+            "grounded": true,
+            "distance": 0.13408357517053482,
+            "pass": true
+          },
+          {
+            "target": [
+              45,
+              -24.1
+            ],
+            "position": [
+              44.86840940517056,
+              3.13999997138977,
+              -24.101748739952463
+            ],
+            "grounded": true,
+            "distance": 0.13160221403527822,
+            "pass": true
+          },
+          {
+            "target": [
+              59,
+              -24
+            ],
+            "position": [
+              58.84581212101372,
+              3.139999971389771,
+              -24.001105468991927
+            ],
+            "grounded": true,
+            "distance": 0.1541918418334095,
+            "pass": true
+          },
+          {
+            "target": [
+              80,
+              -24.2
+            ],
+            "position": [
+              79.89799794730644,
+              3.139999971389771,
+              -24.199041204424017
+            ],
+            "grounded": true,
+            "distance": 0.10200655882175962,
+            "pass": true
+          },
+          {
+            "target": [
+              85.5,
+              -18
+            ],
+            "position": [
+              85.40172539534446,
+              3.0918238942115974,
+              -18.108751430493953
+            ],
+            "grounded": true,
+            "distance": 0.146576845220125,
+            "pass": true
+          },
+          {
+            "target": [
+              83,
+              -10
+            ],
+            "position": [
+              83.02544940721533,
+              2.5701629393021577,
+              -10.085931016993815
+            ],
+            "grounded": true,
+            "distance": 0.08962037719850967,
+            "pass": true
+          },
+          {
+            "target": [
+              77,
+              3
+            ],
+            "position": [
+              77.04659977925003,
+              1.7607545675258462,
+              2.898795682203752
+            ],
+            "grounded": true,
+            "distance": 0.11141747334577072,
+            "pass": true
+          }
+        ],
+        "pass": true
+      },
+      {
+        "name": "white_stairs_up",
+        "start": [
+          -3,
+          1.7399999952316285,
+          -31.199999999999996
+        ],
+        "waypoints": [
+          {
+            "target": [
+              -3,
+              -34.1
+            ],
+            "position": [
+              -3,
+              1.7599999761581422,
+              -34.01391109953248
+            ],
+            "grounded": true,
+            "distance": 0.08608890046752293,
+            "pass": true
+          },
+          {
+            "target": [
+              -3,
+              -37.42
+            ],
+            "position": [
+              -3,
+              3.08000002861023,
+              -37.333107195633296
+            ],
+            "grounded": true,
+            "distance": 0.08689280436670543,
+            "pass": true
+          },
+          {
+            "target": [
+              -12,
+              -37.42
+            ],
+            "position": [
+              -11.914928515491892,
+              3.9599999046325687,
+              -37.41917865557104
+            ],
+            "grounded": true,
+            "distance": 0.08507544935575814,
+            "pass": true
+          },
+          {
+            "target": [
+              -12,
+              -42.35
+            ],
+            "position": [
+              -11.998019648181584,
+              5.660000190734864,
+              -42.23521699048536
+            ],
+            "grounded": true,
+            "distance": 0.11480009175328389,
+            "pass": true
+          },
+          {
+            "target": [
+              -25,
+              -42.35
+            ],
+            "position": [
+              -24.90724258472105,
+              6.160000190734864,
+              -42.34918112664435
+            ],
+            "grounded": true,
+            "distance": 0.09276102976360338,
+            "pass": true
+          },
+          {
+            "target": [
+              -25,
+              -47.5
+            ],
+            "position": [
+              -24.997448939141595,
+              7.359999999999999,
+              -47.35833960145325
+            ],
+            "grounded": true,
+            "distance": 0.14168336680050567,
+            "pass": true
+          }
+        ],
+        "pass": true
+      },
+      {
+        "name": "west_stairs_roundtrip",
+        "start": [
+          -47.7,
+          1.710000023841858,
+          -28.1
+        ],
+        "waypoints": [
+          {
+            "target": [
+              -47.7,
+              -30.9
+            ],
+            "position": [
+              -47.7,
+              3.166001368253178,
+              -30.806054864062638
+            ],
+            "grounded": true,
+            "distance": 0.09394513593736065,
+            "pass": true
+          },
+          {
+            "target": [
+              -47.7,
+              -34.8
+            ],
+            "position": [
+              -47.69999981905985,
+              4.6620000457763675,
+              -34.70400216586231
+            ],
+            "grounded": true,
+            "distance": 0.09599783413785445,
+            "pass": true
+          },
+          {
+            "target": [
+              -47.7,
+              -38.5
+            ],
+            "position": [
+              -47.69999884979531,
+              6.384000167846679,
+              -38.349009805801224
+            ],
+            "grounded": true,
+            "distance": 0.15099019420315735,
+            "pass": true
+          },
+          {
+            "target": [
+              -47.7,
+              -43.5
+            ],
+            "position": [
+              -47.69999996765388,
+              7.910000190734864,
+              -43.35514360541616
+            ],
+            "grounded": true,
+            "distance": 0.14485639458384375,
+            "pass": true
+          },
+          {
+            "target": [
+              -47.7,
+              -38.5
+            ],
+            "position": [
+              -47.69999999930136,
+              6.384000167846679,
+              -38.604862379854495
+            ],
+            "grounded": true,
+            "distance": 0.1048623798544952,
+            "pass": true
+          },
+          {
+            "target": [
+              -47.7,
+              -34.8
+            ],
+            "position": [
+              -47.69999999997503,
+              4.6620000457763675,
+              -34.93586872953121
+            ],
+            "grounded": true,
+            "distance": 0.13586872953121087,
+            "pass": true
+          },
+          {
+            "target": [
+              -47.7,
+              -28.5
+            ],
+            "position": [
+              -47.69999999999945,
+              1.710000023841858,
+              -28.64988010306219
+            ],
+            "grounded": true,
+            "distance": 0.14988010306219124,
+            "pass": true
+          }
+        ],
+        "pass": true
+      },
+      {
+        "name": "white_stairs_down_final",
+        "start": [
+          -25,
+          7.360000000000001,
+          -48
+        ],
+        "waypoints": [
+          {
+            "target": [
+              -25,
+              -45.3
+            ],
+            "position": [
+              -25,
+              7.359999999999999,
+              -45.39397905673101
+            ],
+            "grounded": true,
+            "distance": 0.09397905673101548,
+            "pass": true
+          },
+          {
+            "target": [
+              -25,
+              -42.35
+            ],
+            "position": [
+              -25,
+              6.160000190734864,
+              -42.47697956941958
+            ],
+            "grounded": true,
+            "distance": 0.1269795694195821,
+            "pass": true
+          },
+          {
+            "target": [
+              -12,
+              -42.35
+            ],
+            "position": [
+              -12.101625314680978,
+              5.660000190734864,
+              -42.350992641438495
+            ],
+            "grounded": true,
+            "distance": 0.10163016245698574,
+            "pass": true
+          },
+          {
+            "target": [
+              -12,
+              -37.42
+            ],
+            "position": [
+              -12.002467858434564,
+              3.9599999046325682,
+              -37.53974370577991
+            ],
+            "grounded": true,
+            "distance": 0.11976913374972224,
+            "pass": true
+          },
+          {
+            "target": [
+              -3,
+              -37.42
+            ],
+            "position": [
+              -3.0869944932636026,
+              3.0800000286102294,
+              -37.42115713192981
+            ],
+            "grounded": true,
+            "distance": 0.08700218855002435,
+            "pass": true
+          },
+          {
+            "target": [
+              -3,
+              -32.25
+            ],
+            "position": [
+              -3.001451540831831,
+              1.7399999952316285,
+              -32.336282998419925
+            ],
+            "grounded": true,
+            "distance": 0.08629520720827594,
+            "pass": true
+          },
+          {
+            "target": [
+              -7,
+              -31.1
+            ],
+            "position": [
+              -6.910650166259646,
+              1.7399999952316285,
+              -31.12762885607206
+            ],
+            "grounded": true,
+            "distance": 0.09352404224197944,
+            "pass": true
+          }
+        ],
+        "pass": true
+      },
+      {
+        "name": "pavilion_roundtrip",
+        "method": "initial spawn then actual CDP touch joystick",
+        "points": [
+          {
+            "target": [
+              -19.55,
+              -16.4
+            ],
+            "position": [
+              -19.624301039875153,
+              1.7399999952316285,
+              -16.48399247985887
+            ],
+            "distance": 0.1121400071311387,
+            "pass": true
+          },
+          {
+            "target": [
+              -17,
+              -13
+            ],
+            "position": [
+              -17.08093917077626,
+              1.7100000238418582,
+              -13.10745393078984
+            ],
+            "distance": 0.13452693636642596,
+            "pass": true
+          },
+          {
+            "target": [
+              -9,
+              -13
+            ],
+            "position": [
+              -9.115390669740348,
+              1.710000023841858,
+              -13.001534373762508
+            ],
+            "distance": 0.11540087073314992,
+            "pass": true
+          },
+          {
+            "target": [
+              -8.2,
+              -11
+            ],
+            "position": [
+              -8.235131022196791,
+              1.7100000238418582,
+              -11.076815234016143
+            ],
+            "distance": 0.0844675612146244,
+            "pass": true
+          },
+          {
+            "target": [
+              -5,
+              -11
+            ],
+            "position": [
+              -5.087721559805897,
+              1.710000023841858,
+              -11.002082868390346
+            ],
+            "distance": 0.08774628422623404,
+            "pass": true
+          },
+          {
+            "target": [
+              -8.2,
+              -11
+            ],
+            "position": [
+              -8.068759732719991,
+              1.710000023841858,
+              -11.000078528453272
+            ],
+            "distance": 0.13124029077400695,
+            "pass": true
+          },
+          {
+            "target": [
+              -9,
+              -13
+            ],
+            "position": [
+              -8.95792584233763,
+              1.710000023841858,
+              -12.877728511773913
+            ],
+            "distance": 0.12930797181929662,
+            "pass": true
+          },
+          {
+            "target": [
+              -17,
+              -13
+            ],
+            "position": [
+              -16.877101420687495,
+              1.710000023841858,
+              -12.998261035904015
+            ],
+            "distance": 0.12291088150834799,
+            "pass": true
+          },
+          {
+            "target": [
+              -19.55,
+              -16.4
+            ],
+            "position": [
+              -19.462697494208772,
+              1.7399999952316285,
+              -16.288892029831658
+            ],
+            "distance": 0.14130360417327095,
+            "pass": true
+          },
+          {
+            "target": [
+              -20.7,
+              -17.7
+            ],
+            "position": [
+              -20.614924636306846,
+              1.7399999952316285,
+              -17.603025138405332
+            ],
+            "distance": 0.1290036483547159,
+            "pass": true
+          }
+        ],
+        "pass": true
+      },
+      {
+        "name": "waterside_arc_steps_roundtrip",
+        "start": [
+          48,
+          3.2949999427795413,
+          -26
+        ],
+        "waypoints": [
+          {
+            "target": [
+              48,
+              -23
+            ],
+            "position": [
+              48,
+              3.139999971389771,
+              -23.110160219992775
+            ],
+            "grounded": true,
+            "distance": 0.1101602199927747,
+            "pass": true
+          },
+          {
+            "target": [
+              48,
+              -21
+            ],
+            "position": [
+              48,
+              2.4675336404110757,
+              -21.14896105023622
+            ],
+            "grounded": true,
+            "distance": 0.14896105023622042,
+            "pass": true
+          },
+          {
+            "target": [
+              48,
+              -19.35
+            ],
+            "position": [
+              48,
+              1.6398211961523352,
+              -19.493536161718723
+            ],
+            "grounded": true,
+            "distance": 0.1435361617187212,
+            "pass": true
+          },
+          {
+            "target": [
+              48,
+              -21
+            ],
+            "position": [
+              48,
+              2.350920978730596,
+              -20.91573572687525
+            ],
+            "grounded": true,
+            "distance": 0.08426427312474871,
+            "pass": true
+          },
+          {
+            "target": [
+              48,
+              -23
+            ],
+            "position": [
+              48,
+              3.139999971389771,
+              -22.843172828410612
+            ],
+            "grounded": true,
+            "distance": 0.15682717158938786,
+            "pass": true
+          },
+          {
+            "target": [
+              48,
+              -26
+            ],
+            "position": [
+              48,
+              3.2949999427795413,
+              -25.85526718611027
+            ],
+            "grounded": true,
+            "distance": 0.14473281388972836,
+            "pass": true
+          }
+        ],
+        "pass": true
+      },
+      {
+        "name": "entrance_threshold_roundtrip",
+        "start": [
+          51.9,
+          3.1399999713897704,
+          -24
+        ],
+        "waypoints": [
+          {
+            "target": [
+              51.9,
+              -26
+            ],
+            "position": [
+              51.900000000000006,
+              3.2949999427795413,
+              -25.855928509816547
+            ],
+            "grounded": true,
+            "distance": 0.14407149018345322,
+            "pass": true
+          },
+          {
+            "target": [
+              51.9,
+              -27.8
+            ],
+            "position": [
+              51.900000000000006,
+              3.2949999427795413,
+              -27.653072427743634
+            ],
+            "grounded": true,
+            "distance": 0.14692757225636655,
+            "pass": true
+          },
+          {
+            "target": [
+              51.9,
+              -30
+            ],
+            "position": [
+              51.900000000000006,
+              3.2949999427795413,
+              -29.867523057227405
+            ],
+            "grounded": true,
+            "distance": 0.1324769427725947,
+            "pass": true
+          },
+          {
+            "target": [
+              51.9,
+              -27.8
+            ],
+            "position": [
+              51.900000000000006,
+              3.2949999427795413,
+              -27.882753459013816
+            ],
+            "grounded": true,
+            "distance": 0.0827534590138157,
+            "pass": true
+          },
+          {
+            "target": [
+              51.9,
+              -26
+            ],
+            "position": [
+              51.900000000000006,
+              3.2949999427795413,
+              -26.14691061531224
+            ],
+            "grounded": true,
+            "distance": 0.14691061531224037,
+            "pass": true
+          },
+          {
+            "target": [
+              51.9,
+              -24
+            ],
+            "position": [
+              51.900000000000006,
+              3.139999971389771,
+              -24.080981331046672
+            ],
+            "grounded": true,
+            "distance": 0.08098133104667227,
+            "pass": true
+          }
+        ],
+        "pass": true
+      }
+    ],
+    "waypoints": 53,
+    "pass": true
+  },
+  "runtime": {
+    "status": {
+      "ready": true,
+      "firstPerson": true,
+      "locked": false,
+      "position": [
+        -26,
+        1.7599999761581422,
+        37.2
+      ],
+      "camera": [
+        -26,
+        2.479999976158142,
+        37.2
+      ],
+      "yaw": 0.32,
+      "pitch": 0.025,
+      "grounded": true,
+      "cameraDistance": 3.4,
+      "fps": 60,
+      "keys": [],
+      "inputMode": "touch",
+      "touch": {
+        "enabled": true,
+        "move": [
+          0,
+          0
+        ],
+        "running": false,
+        "pointers": 0,
+        "moving": false,
+        "looking": false
+      },
+      "speed": 0,
+      "avatar": {
+        "loaded": true,
+        "motion": "Idle",
+        "base": "Idle",
+        "baseTime": 1.0416999999999998,
+        "upper": "UpperIdle",
+        "upperTime": 1.0416999999999998,
+        "shooting": false,
+        "shots": 0,
+        "upperWeight": 0,
+        "airborne": false,
+        "rootLocal": [
+          0,
+          0.0012000000569969416,
+          0
+        ],
+        "meshCount": 44,
+        "visibleMeshes": 30,
+        "heading": 2.821592653589794,
+        "history": [
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 646.7
+          }
+        ]
+      }
+    },
+    "water": [
+      {
+        "node": "凌水湖_狭长主湖_水面.001",
+        "shader": "LingshuiLakeWater20260920",
+        "cubeLoaded": true,
+        "cubeWidth": 256,
+        "renderQueue": 3000
+      },
+      {
+        "node": "湖端_局部浅水湾_水面.001",
+        "shader": "LingshuiLakeWater20260920",
+        "cubeLoaded": true,
+        "cubeWidth": 256,
+        "renderQueue": 3000
+      }
+    ],
+    "sharedWaterMaterials": 1,
+    "scene": "LingshuiWorld",
+    "playerRadius": 0.32,
+    "playerHeight": 1.8,
+    "stepHeight": 0.35,
+    "errors": [],
+    "warnings": [],
+    "failedRequests": [],
+    "pass": true
+  },
+  "dependencies": {
+    "filesChecked": 282,
+    "missing": []
+  },
+  "sceneSchema": "PASS",
+  "prefabSchema": "PASS",
+  "nativeEditorStartup": "PASS (editor_runtime.png and RuntimeManagement logs)",
+  "files": [
+    {
+      "path": "D:/a/xiang_mu/LH/assets/Scene.ls",
+      "bytes": 4204,
+      "sha256": "1a1065718b77d2d1f39774a0fc04ec91565e999082d1aa5802167b0de642a13c"
+    },
+    {
+      "path": "D:/a/xiang_mu/LH/assets/lingshui/LingshuiEnvironment.lh",
+      "bytes": 1120177,
+      "sha256": "bb662ab84b5677158161914f9996704fb7f32038c8a1ef57791352cb0ea82cc9"
+    },
+    {
+      "path": "D:/a/xiang_mu/LH/assets/lingshui/LingshuiLake.glb",
+      "bytes": 78832684,
+      "sha256": "3ef97cca944988234bb2a583a92b5d9d125efc5b2e9461c7650b249c82261b8a"
+    },
+    {
+      "path": "D:/a/xiang_mu/LH/assets/lingshui/LakeWater.shader",
+      "bytes": 4226,
+      "sha256": "bede853ad4bb5083515d76cfb36e7ad2982a6d0d5f2d798c7f3bb8978ce709e8"
+    },
+    {
+      "path": "D:/a/xiang_mu/LH/assets/lingshui/LakeWater.lmat",
+      "bytes": 774,
+      "sha256": "e1be7d3e0d81f1f6706749ad42b716134a0e334f6c5de765b67594bce207a6fe"
+    },
+    {
+      "path": "D:/a/xiang_mu/LH/assets/lingshui/LakeReflection.ltcb",
+      "bytes": 2097174,
+      "sha256": "095b9eed98b5fe301509924b6b50badfa8d044869a11b4cdb38209ea43c51313"
+    },
+    {
+      "path": "D:/a/xiang_mu/LH/assets/resources/LingshuiCollision.json",
+      "bytes": 6569376,
+      "sha256": "92d9e9cc64355264f35435546ff265428540df8b67f25fe6f615457a6dbf1ec0"
+    },
+    {
+      "path": "D:/a/xiang_mu/LH/source_art/凌水湖_游戏修复.blend",
+      "bytes": 9397537,
+      "sha256": "776a846a3995778c40f79e3a0b1ac268515d8550ed1cbc05fee45d53f710ee44"
+    }
+  ],
+  "pass": true
+}

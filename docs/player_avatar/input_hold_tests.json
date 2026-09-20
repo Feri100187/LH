@@ -1,0 +1,186 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-09-20T10:21:25.203Z",
+  "scope": "Production input, PlayerAvatar firing/motion decisions, actual-position speed sampling and installed Laya pointer callbacks; DOM/physics-position fixtures, no live UI",
+  "source_sha256": {
+    "MobileInput.ts": "fcaac0413741b2249cf6903e36b09cc828eb9ee67259851b40cdb5eb48024019",
+    "LingshuiGame.ts": "008b37df37c958c7cbcfc7a676c5c9a910b3347188563604cbc862d9b9d9b3e5",
+    "PlayerAvatar.ts": "c3dc6fab9045582eb98f3b94cbdfd666b2d161cc2031b7cf4ddc439d173ee590",
+    "FirstPersonArms.ts": "436aa720b7b0b907e46009e37dc1a01871598ab83d40345da14fab6c60340156",
+    "PlayerCameraFollow.ts": "e8595c20aa7691049b035bf12356fc43f39d811d7a182317ecaf1b00ad76e76c",
+    "LakeDuck.ts": "dbc540931c8848ea80258c9bc7a57d2f812b1fdbc079aabb230e2411e7e2ffaa"
+  },
+  "engine_source": "D:\\a\\LayaAirIDE\\resources\\engine\\libs\\laya.core.js",
+  "engine_capture_line": 25606,
+  "pulse_duration_fixture_s": 0.2,
+  "node_version": "v24.16.0",
+  "total": 25,
+  "passed": 25,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "native_engine_capture_conflict_reproduced",
+      "status": "PASS",
+      "details": {
+        "source": "D:\\a\\LayaAirIDE\\resources\\engine\\libs\\laya.core.js",
+        "native_callback": "InputManager.__init__: pointerdown",
+        "exception": "InvalidStateError"
+      }
+    },
+    {
+      "name": "first_lock_click_does_not_fire",
+      "status": "PASS",
+      "details": {
+        "shots": 0,
+        "legal_initial_capture": 1,
+        "locked_release_calls": 0
+      }
+    },
+    {
+      "name": "locked_mouse_hold_repeats_and_stops_without_engine_capture",
+      "status": "PASS",
+      "details": {
+        "shots_during_hold": 3,
+        "capture_calls": 0,
+        "release_calls": 0
+      }
+    },
+    {
+      "name": "mouse_tap_between_frames_fires_once",
+      "status": "PASS",
+      "details": {
+        "shots": 1
+      }
+    },
+    {
+      "name": "locked_right_button_never_captures_or_fires",
+      "status": "PASS"
+    },
+    {
+      "name": "F_hold_repeats_without_key_repeat_double_shots",
+      "status": "PASS",
+      "details": {
+        "shots_during_hold": 3,
+        "repeat_events": 10
+      }
+    },
+    {
+      "name": "F_tap_between_frames_fires_once",
+      "status": "PASS"
+    },
+    {
+      "name": "mouse_and_F_hold_release_independently",
+      "status": "PASS"
+    },
+    {
+      "name": "left_mouseup_in_button_chord_releases_hold",
+      "status": "PASS"
+    },
+    {
+      "name": "mouse_pointercancel_releases_hold",
+      "status": "PASS"
+    },
+    {
+      "name": "blur_clears_queued_click_and_all_desktop_hold",
+      "status": "PASS"
+    },
+    {
+      "name": "Escape_clears_queued_click_and_hold",
+      "status": "PASS"
+    },
+    {
+      "name": "hidden_document_cancels_and_does_not_resume_fire",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile_four_fingers_release_shoot_independently",
+      "status": "PASS",
+      "details": {
+        "shots_during_hold": 3,
+        "joystick_and_look_survived_shoot_release": true
+      }
+    },
+    {
+      "name": "mobile_reset_clears_shoot_pointer_set",
+      "status": "PASS"
+    },
+    {
+      "name": "touch_switch_during_pointer_lock_skips_both_engine_capture_paths",
+      "status": "PASS"
+    },
+    {
+      "name": "respawn_clears_all_held_inputs",
+      "status": "PASS"
+    },
+    {
+      "name": "destroy_removes_input_guards_and_listeners",
+      "status": "PASS"
+    },
+    {
+      "name": "actual_speed_zero_double_cadence_60hz_stays_run_right",
+      "status": "PASS",
+      "details": {
+        "render_hz": 60,
+        "raw_speed_samples": [
+          0,
+          8
+        ],
+        "steady_min_speed": 4,
+        "steady_max_speed": 4.000000000000001,
+        "idle_frames_after_motion_started": 0
+      }
+    },
+    {
+      "name": "actual_speed_zero_double_cadence_120hz_stays_run_right",
+      "status": "PASS",
+      "details": {
+        "render_hz": 120,
+        "raw_speed_samples": [
+          0,
+          8
+        ],
+        "steady_min_speed": 3.9999999999999996,
+        "steady_max_speed": 4.000000000000001,
+        "idle_frames_after_motion_started": 0
+      }
+    },
+    {
+      "name": "actual_speed_uses_measured_travel_not_target_speed",
+      "status": "PASS",
+      "details": {
+        "requested_run_speed": 4,
+        "measured_speed": 1.2000000000000015
+      }
+    },
+    {
+      "name": "wall_contact_clears_measured_speed_within_120ms",
+      "status": "PASS",
+      "details": {
+        "stopped_after_s": 0.1,
+        "movement_still_held": true,
+        "final_speed": 0
+      }
+    },
+    {
+      "name": "releasing_movement_clears_speed_on_next_frame",
+      "status": "PASS",
+      "details": {
+        "cleared_within_s": 0.008333333333333333,
+        "final_speed": 0
+      }
+    },
+    {
+      "name": "blur_and_respawn_clear_speed_history_immediately",
+      "status": "PASS"
+    },
+    {
+      "name": "speed_uses_elapsed_time_before_control_dt_clamp",
+      "status": "PASS",
+      "details": {
+        "distance_m": 0.4,
+        "sample_seconds": 0.2,
+        "measured_speed": 2
+      }
+    }
+  ]
+}

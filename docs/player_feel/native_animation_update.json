@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Idle",
+    "duration": 3.0,
+    "native_uuid": "deb0e049-250a-4420-b8cd-34409af8af79",
+    "source_sha256": "37b4ccc9abb331064c2dd5b5f13bd8b234a3ee8488eb7ffdd4309c3656bcce6f",
+    "previous_sha256": "ed86d0e2f2467a6bc0688d4c995030fcc37796295e6555351a3c6af8d82a25cf",
+    "changed": true
+  },
+  {
+    "name": "Jump",
+    "duration": 1.399999976158142,
+    "native_uuid": "541f8384-e89d-44c7-bca0-fb2c3c5df79e",
+    "source_sha256": "dff8f86605da2c6b9467fac3b19fc35046fe1bf234659b3a95110c22eb66d361",
+    "previous_sha256": "93ffe63076efe4576b8bd7e0ec886e7391859a011abbda56d136c943ae931c32",
+    "changed": true
+  },
+  {
+    "name": "Run",
+    "duration": 0.6000000238418579,
+    "native_uuid": "8da791e2-52aa-4bbe-b0da-e51ddefd6f8e",
+    "source_sha256": "28b5cc6b58f5ea166194a2a75efd61dbb4b60b2964c500aecbfe69cfb8347746",
+    "previous_sha256": "d9115222ea6928e4554cd4480cb1dcbb568860ed6079fc13dfdaa110be65dd21",
+    "changed": true
+  },
+  {
+    "name": "RunJump",
+    "duration": 1.600000023841858,
+    "native_uuid": "78a081d5-45fe-45a4-a7b7-8f8d27de6fcb",
+    "source_sha256": "9bd938d6e948ee0962828926b0814af7be1422bdbd6c297bc77538467818f74a",
+    "previous_sha256": "6237eec9a782f48386e48845e1ae86c78dd0efc73062c9c83188d7e4b3d5e000",
+    "changed": true
+  },
+  {
+    "name": "Shoot",
+    "duration": 0.20000000298023224,
+    "native_uuid": "c5dd2631-b19b-4ab0-aaae-5e664b215fcb",
+    "source_sha256": "f9749c8422de54e2cab534f2bf630944a29fd6af3f1336d4f8b15f06680ae531",
+    "previous_sha256": "0b67f833ec7514d5d533d96ceeb686c283f616a3e854626f0822a928ff86528f",
+    "changed": true
+  },
+  {
+    "name": "Walk",
+    "duration": 0.7333333492279053,
+    "native_uuid": "9ce0c109-44f8-49b3-b320-c1575fb602bd",
+    "source_sha256": "e907a24ee4f7ab0b1345b2bb39eff8686704dfb2b111094424509077d2bc0981",
+    "previous_sha256": "ceaa4e3f9602fbc221240615c5cd0787fed1708d53fcf858e293635feb44d4d9",
+    "changed": true
+  },
+  {
+    "name": "JumpAir",
+    "duration": 0.5600000023841858,
+    "native_uuid": "91238c62-4b5a-450d-91ec-7aa51ffa7426",
+    "source_sha256": "ee391a0d2fdb980bb4bd345f22f13bf9979b80ec60e393d5b6d17b75d25daca2",
+    "previous_sha256": "17387d5f144662d13877f19a8972c7cb074789fae91119d8a755909cfc7c2b8d",
+    "changed": true
+  },
+  {
+    "name": "JumpLand",
+    "duration": 0.4339999854564667,
+    "native_uuid": "184f8fb6-b8e0-4678-8914-66d5ac38d853",
+    "source_sha256": "4942becb88530d6c4dc730a1c58f5e569fde703787a0f93ce58d93e5f6383497",
+    "previous_sha256": "501c6b5934c095e276b9c91862168795f2c7942b0b4cc0414798e7f22411406b",
+    "changed": true
+  },
+  {
+    "name": "RunJumpAir",
+    "duration": 0.7839999794960022,
+    "native_uuid": "68dfd897-dabd-4a03-9971-3b0a2afb5956",
+    "source_sha256": "aab03650db134f77226b9a489ad215a674f510a7a70861ddb1c89b8cc62f6d56",
+    "previous_sha256": "227f6b8e1e46ea4b06bf598657fbc477d1c7a08b59a0463b6e171089806fde88",
+    "changed": true
+  },
+  {
+    "name": "RunJumpLand",
+    "duration": 0.4320000112056732,
+    "native_uuid": "5436a1ab-cc9c-4ffe-ae0d-71bbf8de58e5",
+    "source_sha256": "6d6112fe5bbcc35cea1ed5f5696db0aaee3d7ed7df12bf9b02af22d2825849bb",
+    "previous_sha256": "e843714cf5c8145b253d9f1812fc2bef4db5fe35c45623fcc592b3836054d8ad",
+    "changed": true
+  }
+]

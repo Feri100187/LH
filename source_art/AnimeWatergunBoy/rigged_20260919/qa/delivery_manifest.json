@@ -1,0 +1,210 @@
+{
+  "created": "2026-09-19T20:26:47",
+  "asset": "AnimeWatergunBoy rigged animation set",
+  "actions": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Jump",
+    "Shoot",
+    "RunJump"
+  ],
+  "fps": 30,
+  "blender_bones": 64,
+  "exported_joints": 55,
+  "source_static_unchanged": true,
+  "glb_sha256": "44a9720bfb9ca2decee2bb0c7bb2708e26d3946e4b4716ab6c336747ef12d67a",
+  "validation_reports": [
+    "qa/rig_animation_quality.json",
+    "qa/animated_glb_validation.json",
+    "qa/glb_roundtrip_comparison.json",
+    "qa/video_validation.json"
+  ],
+  "files": [
+    {
+      "file": "AnimeWatergunBoy_Rigged.blend",
+      "bytes": 4311742,
+      "sha256": "92eeddcbb9dfc38fae47bff82427689ac7f43e1337c0c900ed927eb15d235c6c"
+    },
+    {
+      "file": "AnimeWatergunBoy_Rigged.glb",
+      "bytes": 5886404,
+      "sha256": "44a9720bfb9ca2decee2bb0c7bb2708e26d3946e4b4716ab6c336747ef12d67a"
+    },
+    {
+      "file": "骨骼与动作说明.md",
+      "bytes": 4078,
+      "sha256": "3c8087fb78d5c2b419d408c016ecb4c4dbba4488905be67f00161842db89034a"
+    },
+    {
+      "file": "previews/00_AllActions.mp4",
+      "bytes": 1942464,
+      "sha256": "70d1d4e9f3da6f14adad9f071f7ebe2ee879b88fd6eab59275b7e6c06f94afa2"
+    },
+    {
+      "file": "previews/01_Idle.mp4",
+      "bytes": 268969,
+      "sha256": "b55e000046ceb9087f8e1d6e5a74d92a78c0da236aa5acf7a4f30f27193d8800"
+    },
+    {
+      "file": "previews/02_Walk.mp4",
+      "bytes": 418124,
+      "sha256": "29fbf26dccafc24e7f6745b169194f86267141bd653f0545a80c1844f4600d5a"
+    },
+    {
+      "file": "previews/03_Run.mp4",
+      "bytes": 398864,
+      "sha256": "a73aaa969aa7d0c22bd25fec594b912c1fd7e4b68b626c5371036c2d51609d05"
+    },
+    {
+      "file": "previews/04_Jump.mp4",
+      "bytes": 390368,
+      "sha256": "abb1dd74b5c8070e04f1b8eb48d10cd5dbe8369608c1951d222106af1fe376e4"
+    },
+    {
+      "file": "previews/05_Shoot.mp4",
+      "bytes": 258477,
+      "sha256": "a0153634e541227d17ff052b460e463bd96c17044f6c55e35c7e9f237952eda1"
+    },
+    {
+      "file": "previews/06_RunJump.mp4",
+      "bytes": 182693,
+      "sha256": "72ab515202f74560b930f67106e734352a061cdadb0d79a0da2f4dccbc54a248"
+    },
+    {
+      "file": "previews/GLB_Idle.png",
+      "bytes": 844613,
+      "sha256": "d7b3cac5f3533b104f41160d43e9b8f0bd35426ad29151beb4510e986ac8b6af"
+    },
+    {
+      "file": "previews/GLB_Jump.png",
+      "bytes": 843136,
+      "sha256": "ed192703376bd7ce6fe0413919c466803fd3dd96a4348868d145eac031fd151e"
+    },
+    {
+      "file": "previews/GLB_Run.png",
+      "bytes": 843806,
+      "sha256": "88545d236995111ea732906ac19718b68784a7632b3567bfe0c704f6df32cc28"
+    },
+    {
+      "file": "previews/GLB_RunJump.png",
+      "bytes": 838554,
+      "sha256": "31f8674e10e39fbbe5252d1c9af97765d1f27e4b54c7e931b6a2d9e23584fb91"
+    },
+    {
+      "file": "previews/GLB_Shoot.png",
+      "bytes": 844697,
+      "sha256": "142b65f6f75cf6e4f32d26d502383ca618c86e9e86dbba5d1dd5b8c8de6cc1fc"
+    },
+    {
+      "file": "previews/GLB_Walk.png",
+      "bytes": 844932,
+      "sha256": "c670f54e574f3114dd0641e2b856befb396102b79c80eceab3ce86990d0cd8b8"
+    },
+    {
+      "file": "scripts/10_build_rig.py",
+      "bytes": 13456,
+      "sha256": "18ace7b167f355d5ca05069f5fdfefe80ae2c0262cdac204c069456489604916"
+    },
+    {
+      "file": "scripts/20_make_actions.py",
+      "bytes": 12251,
+      "sha256": "8e05208b8b06beb23a3609b7e877c9494df5755cf1db02022125f7d9fd0e077e"
+    },
+    {
+      "file": "scripts/30_render_pose_qa.py",
+      "bytes": 1413,
+      "sha256": "93ee3b4acf3c0cd79e93bf3955f0670533baeefefc0e0a04d2c814821fa97135"
+    },
+    {
+      "file": "scripts/31_analyze_deformation.py",
+      "bytes": 1820,
+      "sha256": "ebb12a92c310ef4058c0f76b29fbe242241bc534b0d067f64daac54cba90e083"
+    },
+    {
+      "file": "scripts/32_refine_weights.py",
+      "bytes": 4636,
+      "sha256": "9a74ef6be5951012d27a8a79a97d52b581facc0cd606d94670eec9beb91fc7d5"
+    },
+    {
+      "file": "scripts/33_regenerate_actions.py",
+      "bytes": 823,
+      "sha256": "e372004928dce7b75876ab64e8eee20a2208c60deebe4e0ed2e1b02f8bbd60cd"
+    },
+    {
+      "file": "scripts/40_export_and_measure.py",
+      "bytes": 7012,
+      "sha256": "71287041f1cfd39bbef867e1bc7a0db58a088f6eb56c34e1f789c52c7b12ba63"
+    },
+    {
+      "file": "scripts/41_roundtrip_check.py",
+      "bytes": 3937,
+      "sha256": "9e077c93155178d895facdc6e0af3b171f2bf0f62c5ff6fa5867c0a8e02ef3d4"
+    },
+    {
+      "file": "scripts/50_render_animation_frames.py",
+      "bytes": 1771,
+      "sha256": "412f79a1b319d55ff52e953d57d8852d45ae750df34344cdd1b770b63b527c84"
+    },
+    {
+      "file": "scripts/60_encode_previews.py",
+      "bytes": 3296,
+      "sha256": "478ce4d018ddc3945e3619c0f5c85da976e03973a97dd9a3da06b7e9172c0455"
+    },
+    {
+      "file": "scripts/61_decode_video_review.py",
+      "bytes": 793,
+      "sha256": "2af7f6e6fd3867a201dd0583ffb3cf15810e2fb97bcfd2bc0208c5ca7f05fdb5"
+    },
+    {
+      "file": "scripts/70_prepare_editable_file.py",
+      "bytes": 1486,
+      "sha256": "fc2b8956228448041f14ac014dce1c811c4290a9e2b1bda9d25ef3c9cbca8882"
+    },
+    {
+      "file": "scripts/80_package_animation.py",
+      "bytes": 2384,
+      "sha256": "e3ba4ce72d60f635453b1b77543965598cdb432a68147369e47b9adc9360f666"
+    },
+    {
+      "file": "scripts/inspect_source.py",
+      "bytes": 1963,
+      "sha256": "3d627b88fd34aaab985529215fe5ce3505c45b12713ec235a1cdc554778311e6"
+    },
+    {
+      "file": "scripts/validate_animated_glb.py",
+      "bytes": 34160,
+      "sha256": "4ec9905624b62d2047ed8a21b97ef93b531b290f7ff62ef8c213e5de226c69f6"
+    },
+    {
+      "file": "qa/actions.json",
+      "bytes": 1173,
+      "sha256": "d7a9a6e844e19a901050838318b464c882c2f0669d0e77690cadf92ce8dfec7f"
+    },
+    {
+      "file": "qa/source_preservation.json",
+      "bytes": 166,
+      "sha256": "9a1012d8fe07d5468696a59fa4a2a27f68a1c2d4a6910cd323bb045cb8ebb101"
+    },
+    {
+      "file": "qa/rig_animation_quality.json",
+      "bytes": 10428,
+      "sha256": "fb8d7446cfa1c22372aa929e5eaaf2805c0974f8aa3991d188438eb9e23422b9"
+    },
+    {
+      "file": "qa/animated_glb_validation.json",
+      "bytes": 436401,
+      "sha256": "eb4df57c634253959004282a8ba100a49412bbf97cfa8f3855a7bacd25e9adca"
+    },
+    {
+      "file": "qa/glb_roundtrip_comparison.json",
+      "bytes": 4701,
+      "sha256": "b0faca6c8e8c106eb5b2ab0a8083be4aba41d1d167dee00fcd2896ea21e23b40"
+    },
+    {
+      "file": "qa/video_validation.json",
+      "bytes": 1828,
+      "sha256": "729fdcf4be2d7119a03a4935bb1404cb904e7a459edbcfa15d7586a2a71d682e"
+    }
+  ]
+}

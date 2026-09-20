@@ -1,0 +1,987 @@
+{
+  "version": "5.2.0 LTS",
+  "source": "D:\\a\\xiang_mu\\LH\\source_art\\AnimeWatergunBoy\\AnimeWatergunBoy.blend",
+  "scenes": [
+    "AWB_Presentation",
+    "Scene"
+  ],
+  "objects": [
+    {
+      "name": "AWB.Neck",
+      "verts": 680,
+      "tris": 1356,
+      "bounds": [
+        [
+          -0.0560000017285347,
+          -0.032999999821186066,
+          1.4391999244689941
+        ],
+        [
+          0.04899999871850014,
+          0.06287999451160431,
+          1.6141998767852783
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Jacket continuous shoulder and sleeves",
+      "verts": 8002,
+      "tris": 16000,
+      "bounds": [
+        [
+          -0.33376142382621765,
+          -0.3322848975658417,
+          0.9781929850578308
+        ],
+        [
+          0.3299195468425751,
+          0.1398535817861557,
+          1.4811689853668213
+        ]
+      ],
+      "modifiers": [],
+      "groups": [
+        "Shoulder smoothing"
+      ]
+    },
+    {
+      "name": "AWB.Ribbed waistband",
+      "verts": 448,
+      "tris": 892,
+      "bounds": [
+        [
+          -0.1550000011920929,
+          -0.07800000160932541,
+          0.9682000279426575
+        ],
+        [
+          0.17499999701976776,
+          0.10999999940395355,
+          1.00819993019104
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Pants continuous seat and legs",
+      "verts": 5502,
+      "tris": 11000,
+      "bounds": [
+        [
+          -0.2886708378791809,
+          -0.09116296470165253,
+          0.1132313534617424
+        ],
+        [
+          0.21146215498447418,
+          0.12507088482379913,
+          0.9761853814125061
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.R elastic ankle hem",
+      "verts": 200,
+      "tris": 396,
+      "bounds": [
+        [
+          -0.2783318758010864,
+          -0.08117812871932983,
+          0.10220000147819519
+        ],
+        [
+          -0.15966811776161194,
+          0.03317812457680702,
+          0.1281999945640564
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.L elastic ankle hem",
+      "verts": 200,
+      "tris": 396,
+      "bounds": [
+        [
+          0.08367937803268433,
+          -0.009168749675154686,
+          0.10220000147819519
+        ],
+        [
+          0.19832062721252441,
+          0.09916874766349792,
+          0.1281999945640564
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.White undershirt hem",
+      "verts": 320,
+      "tris": 636,
+      "bounds": [
+        [
+          -0.15129999816417694,
+          -0.0820000022649765,
+          0.954200029373169
+        ],
+        [
+          0.17669999599456787,
+          0.10999999940395355,
+          0.9742000102996826
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Clothes | R ribbed cuff",
+      "verts": 420,
+      "tris": 748,
+      "bounds": [
+        [
+          -0.19232584536075592,
+          -0.33675751090049744,
+          1.1156647205352783
+        ],
+        [
+          -0.11029839515686035,
+          -0.2719336450099945,
+          1.1953531503677368
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Clothes | L ribbed cuff",
+      "verts": 420,
+      "tris": 748,
+      "bounds": [
+        [
+          0.2140129804611206,
+          -0.30132654309272766,
+          1.107882022857666
+        ],
+        [
+          0.2941265404224396,
+          -0.25004667043685913,
+          1.1902769804000854
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Clothes | layered hood and lining",
+      "verts": 1553,
+      "tris": 2999,
+      "bounds": [
+        [
+          -0.1335943192243576,
+          -0.07232360541820526,
+          1.3491460084915161
+        ],
+        [
+          0.11372128874063492,
+          0.16785652935504913,
+          1.5046526193618774
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Clothes | zipper assembly",
+      "verts": 1510,
+      "tris": 2400,
+      "bounds": [
+        [
+          -0.021891744807362556,
+          -0.10582496225833893,
+          0.9766259789466858
+        ],
+        [
+          0.01956106163561344,
+          -0.04854849353432655,
+          1.4752048254013062
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Clothes | collar pockets and stitched detail",
+      "verts": 1539,
+      "tris": 3022,
+      "bounds": [
+        [
+          -0.2214198112487793,
+          -0.09470000118017197,
+          1.0765377283096313
+        ],
+        [
+          0.16054382920265198,
+          -0.03232123330235481,
+          1.5050050020217896
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Clothes | trouser seam and welts",
+      "verts": 435,
+      "tris": 854,
+      "bounds": [
+        [
+          -0.2812701165676117,
+          -0.062364205718040466,
+          0.13871608674526215
+        ],
+        [
+          0.20564250648021698,
+          0.05397713929414749,
+          0.978568434715271
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Head sculpted face and skull",
+      "verts": 5027,
+      "tris": 9999,
+      "bounds": [
+        [
+          -0.101667121052742,
+          -0.11719941347837448,
+          1.545771837234497
+        ],
+        [
+          0.08097385615110397,
+          0.09606292098760605,
+          1.7673804759979248
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Face | R ear",
+      "verts": 478,
+      "tris": 944,
+      "bounds": [
+        [
+          -0.12138441205024719,
+          -0.02245640754699707,
+          1.618503451347351
+        ],
+        [
+          -0.08733879774808884,
+          0.009315891191363335,
+          1.681735873222351
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Face | R eye and eyelids",
+      "verts": 1165,
+      "tris": 2080,
+      "bounds": [
+        [
+          -0.08672644942998886,
+          -0.08953244239091873,
+          1.665390968322754
+        ],
+        [
+          -0.026212874799966812,
+          -0.06583868712186813,
+          1.6908632516860962
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Face | L ear",
+      "verts": 478,
+      "tris": 944,
+      "bounds": [
+        [
+          0.06707019358873367,
+          -0.030483879148960114,
+          1.6242707967758179
+        ],
+        [
+          0.100278839468956,
+          0.001767812529578805,
+          1.6871627569198608
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Face | L eye and eyelids",
+      "verts": 1165,
+      "tris": 2080,
+      "bounds": [
+        [
+          -0.00235552154481411,
+          -0.0906578078866005,
+          1.6673461198806763
+        ],
+        [
+          0.0593482181429863,
+          -0.07238512486219406,
+          1.6935867071151733
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Face | brows",
+      "verts": 20,
+      "tris": 16,
+      "bounds": [
+        [
+          -0.09120417386293411,
+          -0.08362507075071335,
+          1.6946635246276855
+        ],
+        [
+          0.06312263756990433,
+          -0.05993800237774849,
+          1.7070151567459106
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Face | mouth and nose detail",
+      "verts": 303,
+      "tris": 590,
+      "bounds": [
+        [
+          -0.033510737121105194,
+          -0.10114121437072754,
+          1.6042860746383667
+        ],
+        [
+          0.006863114424049854,
+          -0.08284693956375122,
+          1.6377042531967163
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Hair sculpted layered crown",
+      "verts": 5230,
+      "tris": 10499,
+      "bounds": [
+        [
+          -0.11770857125520706,
+          -0.09725743532180786,
+          1.6080138683319092
+        ],
+        [
+          0.09717588871717453,
+          0.12154575437307358,
+          1.7872419357299805
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Hair | layered bangs",
+      "verts": 1920,
+      "tris": 3792,
+      "bounds": [
+        [
+          -0.10593051463365555,
+          -0.10307478159666061,
+          1.6790673732757568
+        ],
+        [
+          0.07138112932443619,
+          -0.03343137353658676,
+          1.7597404718399048
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Hair | crown tufts",
+      "verts": 220,
+      "tris": 432,
+      "bounds": [
+        [
+          -0.0605304092168808,
+          -0.0220877043902874,
+          1.7676063776016235
+        ],
+        [
+          0.04481183737516403,
+          0.031074833124876022,
+          1.8031398057937622
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Hair | nape locks",
+      "verts": 1120,
+      "tris": 2200,
+      "bounds": [
+        [
+          -0.09297502785921097,
+          0.06395410001277924,
+          1.602197527885437
+        ],
+        [
+          0.08193095028400421,
+          0.10779456794261932,
+          1.683688759803772
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Glasses | dark frame bridge and temples",
+      "verts": 1068,
+      "tris": 2100,
+      "bounds": [
+        [
+          -0.11059689521789551,
+          -0.12455190718173981,
+          1.6542783975601196
+        ],
+        [
+          0.09053410589694977,
+          0.043632324784994125,
+          1.695716381072998
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Glasses | transparent lenses",
+      "verts": 74,
+      "tris": 72,
+      "bounds": [
+        [
+          -0.09937378764152527,
+          -0.1186024397611618,
+          1.6561423540115356
+        ],
+        [
+          0.06837370991706848,
+          -0.09996163845062256,
+          1.6933010816574097
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Right hand rear grip",
+      "verts": 4746,
+      "tris": 9500,
+      "bounds": [
+        [
+          -0.1631375402212143,
+          -0.37655484676361084,
+          1.1293823719024658
+        ],
+        [
+          0.022836636751890182,
+          -0.2956763505935669,
+          1.1925365924835205
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Left hand foregrip support",
+      "verts": 4734,
+      "tris": 9463,
+      "bounds": [
+        [
+          0.1992110162973404,
+          -0.3851134479045868,
+          1.1293154954910278
+        ],
+        [
+          0.3052666485309601,
+          -0.27362632751464844,
+          1.2147976160049438
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Hand | R nails",
+      "verts": 125,
+      "tris": 120,
+      "bounds": [
+        [
+          -0.05746747925877571,
+          -0.3486480712890625,
+          1.137164831161499
+        ],
+        [
+          0.013735081069171429,
+          -0.29950445890426636,
+          1.1884567737579346
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Hand | L nails",
+      "verts": 125,
+      "tris": 120,
+      "bounds": [
+        [
+          0.19882053136825562,
+          -0.383469820022583,
+          1.199190616607666
+        ],
+        [
+          0.2938019335269928,
+          -0.30411428213119507,
+          1.2101026773452759
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.R continuous sneaker upper",
+      "verts": 1602,
+      "tris": 3200,
+      "bounds": [
+        [
+          -0.27661487460136414,
+          -0.20084041357040405,
+          0.03920341283082962
+        ],
+        [
+          -0.16764011979103088,
+          0.0613032691180706,
+          0.12220009416341782
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.L continuous sneaker upper",
+      "verts": 1602,
+      "tris": 3200,
+      "bounds": [
+        [
+          0.09477511793375015,
+          -0.1362714022397995,
+          0.039204031229019165
+        ],
+        [
+          0.20034021139144897,
+          0.12652206420898438,
+          0.12219991534948349
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Shoe | R layered sole",
+      "verts": 794,
+      "tris": 1552,
+      "bounds": [
+        [
+          -0.27671656012535095,
+          -0.2074524462223053,
+          -0.0010708216577768326
+        ],
+        [
+          -0.16695444285869598,
+          0.06787088513374329,
+          0.04320000112056732
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Shoe | R tongue laces and panels",
+      "verts": 1469,
+      "tris": 2800,
+      "bounds": [
+        [
+          -0.27635735273361206,
+          -0.1572369635105133,
+          0.04618344455957413
+        ],
+        [
+          -0.16873541474342346,
+          0.05760316923260689,
+          0.13758748769760132
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Shoe | L layered sole",
+      "verts": 794,
+      "tris": 1552,
+      "bounds": [
+        [
+          0.09805838018655777,
+          -0.142958402633667,
+          -0.0010708216577768326
+        ],
+        [
+          0.2057441622018814,
+          0.13320933282375336,
+          0.04320000112056732
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Shoe | L tongue laces and panels",
+      "verts": 1469,
+      "tris": 2800,
+      "bounds": [
+        [
+          0.09577719122171402,
+          -0.09077789634466171,
+          0.04650638997554779
+        ],
+        [
+          0.20048774778842926,
+          0.12290237098932266,
+          0.13758748769760132
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Gun orange trigger",
+      "verts": 144,
+      "tris": 284,
+      "bounds": [
+        [
+          0.011702720075845718,
+          -0.3428800106048584,
+          1.1723440885543823
+        ],
+        [
+          0.029442613944411278,
+          -0.33112001419067383,
+          1.1979637145996094
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Watergun | white receiver and rails",
+      "verts": 1970,
+      "tris": 3800,
+      "bounds": [
+        [
+          -0.08750569075345993,
+          -0.3767124116420746,
+          1.1758038997650146
+        ],
+        [
+          0.3171400725841522,
+          -0.29728978872299194,
+          1.3035401105880737
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Watergun | blue reservoir",
+      "verts": 848,
+      "tris": 1684,
+      "bounds": [
+        [
+          -0.21611998975276947,
+          -0.38655999302864075,
+          1.1872000694274902
+        ],
+        [
+          -0.053999997675418854,
+          -0.2874400019645691,
+          1.2863200902938843
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Watergun | orange fill cap",
+      "verts": 240,
+      "tris": 472,
+      "bounds": [
+        [
+          -0.16571998596191406,
+          -0.35547998547554016,
+          1.282960057258606
+        ],
+        [
+          -0.12749998271465302,
+          -0.3185199797153473,
+          1.300600290298462
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Watergun | blue rear grip and guard",
+      "verts": 790,
+      "tris": 1528,
+      "bounds": [
+        [
+          -0.09459935128688812,
+          -0.35871899127960205,
+          1.0794214010238647
+        ],
+        [
+          0.07298696041107178,
+          -0.3152810037136078,
+          1.209183692932129
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Watergun | green foregrip",
+      "verts": 1568,
+      "tris": 3092,
+      "bounds": [
+        [
+          0.15348000824451447,
+          -0.3689199984073639,
+          1.166200041770935
+        ],
+        [
+          0.3105599880218506,
+          -0.30507999658584595,
+          1.2300400733947754
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    },
+    {
+      "name": "AWB.Watergun | orange muzzle and open bore",
+      "verts": 1308,
+      "tris": 2374,
+      "bounds": [
+        [
+          0.29711997509002686,
+          -0.38649681210517883,
+          1.1897200345993042
+        ],
+        [
+          0.37943997979164124,
+          -0.287503182888031,
+          1.28401780128479
+        ]
+      ],
+      "modifiers": [],
+      "groups": []
+    }
+  ],
+  "Constraint.type": [
+    "CAMERA_SOLVER",
+    "FOLLOW_TRACK",
+    "OBJECT_SOLVER",
+    "COPY_LOCATION",
+    "COPY_ROTATION",
+    "COPY_SCALE",
+    "COPY_TRANSFORMS",
+    "LIMIT_DISTANCE",
+    "LIMIT_LOCATION",
+    "LIMIT_ROTATION",
+    "LIMIT_SCALE",
+    "MAINTAIN_VOLUME",
+    "TRANSFORM",
+    "TRANSFORM_CACHE",
+    "CLAMP_TO",
+    "DAMPED_TRACK",
+    "IK",
+    "LOCKED_TRACK",
+    "SPLINE_IK",
+    "STRETCH_TO",
+    "TRACK_TO",
+    "ACTION",
+    "ARMATURE",
+    "CHILD_OF",
+    "FLOOR",
+    "FOLLOW_PATH",
+    "GEOMETRY_ATTRIBUTE",
+    "PIVOT",
+    "SHRINKWRAP"
+  ],
+  "Constraint.owner_space": [
+    "WORLD",
+    "CUSTOM",
+    "POSE",
+    "LOCAL_WITH_PARENT",
+    "LOCAL"
+  ],
+  "Object.rotation_mode": [
+    "QUATERNION",
+    "XYZ",
+    "XZY",
+    "YXZ",
+    "YZX",
+    "ZXY",
+    "ZYX",
+    "AXIS_ANGLE"
+  ],
+  "Armature.display_type": [
+    "OCTAHEDRAL",
+    "STICK",
+    "BBONE",
+    "ENVELOPE",
+    "WIRE"
+  ],
+  "FModifier.type": [
+    "NULL",
+    "GENERATOR",
+    "FNGENERATOR",
+    "ENVELOPE",
+    "CYCLES",
+    "NOISE",
+    "LIMITS",
+    "STEPPED",
+    "SMOOTH"
+  ],
+  "Keyframe.interpolation": [
+    "CONSTANT",
+    "LINEAR",
+    "BEZIER",
+    "SINE",
+    "QUAD",
+    "CUBIC",
+    "QUART",
+    "QUINT",
+    "EXPO",
+    "CIRC",
+    "BACK",
+    "BOUNCE",
+    "ELASTIC"
+  ],
+  "NlaStrip.blend_type": [
+    "REPLACE",
+    "COMBINE",
+    "ADD",
+    "SUBTRACT",
+    "MULTIPLY"
+  ],
+  "NlaStrip.extrapolation": [
+    "NOTHING",
+    "HOLD",
+    "HOLD_FORWARD"
+  ],
+  "RenderSettings.engine": [
+    "BLENDER_EEVEE"
+  ],
+  "ImageFormatSettings.file_format": [
+    "AVIF",
+    "JPEG",
+    "OPEN_EXR",
+    "PNG",
+    "WEBP",
+    "BMP",
+    "CINEON",
+    "DPX",
+    "IRIS",
+    "JPEG2000",
+    "HDR",
+    "TARGA",
+    "TARGA_RAW",
+    "TIFF",
+    "OPEN_EXR_MULTILAYER",
+    "FFMPEG"
+  ],
+  "mode_enums": [
+    "OBJECT",
+    "EDIT",
+    "POSE",
+    "SCULPT",
+    "VERTEX_PAINT",
+    "WEIGHT_PAINT",
+    "TEXTURE_PAINT",
+    "PARTICLE_EDIT",
+    "EDIT_GPENCIL",
+    "SCULPT_GREASE_PENCIL",
+    "PAINT_GREASE_PENCIL",
+    "WEIGHT_GREASE_PENCIL",
+    "VERTEX_GREASE_PENCIL",
+    "SCULPT_CURVES"
+  ],
+  "camera_type_enums": [
+    "PERSP",
+    "ORTHO",
+    "PANO",
+    "CUSTOM"
+  ],
+  "bone_inherit_scale": [
+    "FULL",
+    "FIX_SHEAR",
+    "ALIGNED",
+    "AVERAGE",
+    "NONE",
+    "NONE_LEGACY"
+  ],
+  "export_animation_enums": {
+    "export_animation_mode": [
+      "ACTIONS",
+      "ACTIVE_ACTIONS",
+      "BROADCAST",
+      "NLA_TRACKS",
+      "SCENE"
+    ],
+    "export_merge_animation": [
+      "NLA_TRACK",
+      "ACTION",
+      "NONE"
+    ]
+  }
+}

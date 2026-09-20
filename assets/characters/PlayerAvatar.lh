@@ -1,0 +1,21 @@
+{
+  "_$ver": 1,
+  "_$id": "dn1s11p3",
+  "_$type": "Sprite3D",
+  "name": "PlayerAvatar",
+  "_$comp": [
+    {
+      "_$type": "9f11d36f-f6c1-4686-a91f-0bd7b98639f0",
+      "controller": {
+        "_$uuid": "6210875d-04b6-4547-aff9-8d27801db747",
+        "_$type": "AnimationController"
+      }
+    }
+  ],
+  "_$child": [
+    {
+      "_$id": "animatedwaterboy",
+      "_$prefab": "22760ead-afd0-48cf-8155-7a1974793221"
+    }
+  ]
+}

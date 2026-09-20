@@ -1,0 +1,5 @@
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.glb filter=lfs diff=lfs merge=lfs -text
+*.lm filter=lfs diff=lfs merge=lfs -text
+*.lani filter=lfs diff=lfs merge=lfs -text
+*.ltcb filter=lfs diff=lfs merge=lfs -text

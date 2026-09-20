@@ -1,0 +1,304 @@
+{
+  "asset": "AnimeWatergunBoy",
+  "created_local": "2026-09-15T21:19:19",
+  "visual_review": [
+    "Final GLB front",
+    "Final GLB side",
+    "Final GLB back",
+    "Final GLB three-quarter",
+    "Final face detail",
+    "Final hands detail",
+    "Final shoes detail"
+  ],
+  "glb_check": {
+    "status": "PASS",
+    "format": "glTF 2.0 binary",
+    "file_bytes": 3391704,
+    "mesh_objects": 43,
+    "triangles": 124736,
+    "primitives": 99,
+    "materials": 44,
+    "embedded_images": 1,
+    "vertex_color_primitives": 2,
+    "bounds_error_m": 2.9802322387695312e-08,
+    "dimensions_m": [
+      0.7132014036178589,
+      0.5544164925813675,
+      1.804210627451539
+    ],
+    "invalid_indices": 0,
+    "nonfinite_positions": 0,
+    "transparent_lenses": true,
+    "skins": 0,
+    "animations": 0,
+    "reimport_views": [
+      "Front",
+      "Side",
+      "Back",
+      "ThreeQuarter",
+      "HandsDetail"
+    ],
+    "material_extensions": [
+      "KHR_materials_specular",
+      "KHR_materials_ior"
+    ]
+  },
+  "files": [
+    {
+      "file": "AnimeWatergunBoy.blend",
+      "bytes": 3560022,
+      "sha256": "c2b5431e59005e96c7b0c305050479dcd4186e60bd85b62badc017d190c08b2f"
+    },
+    {
+      "file": "AnimeWatergunBoy.glb",
+      "bytes": 3391704,
+      "sha256": "201272fcb29a5a8e2f1b03ad1ea89d5d099b1bebfd532eee687ad1d5a9f32688"
+    },
+    {
+      "file": "交付说明.md",
+      "bytes": 3654,
+      "sha256": "37409317c5dafc1a301aefdf01c1009bacf8d648ece8bbcaec6de778a51c4f06"
+    },
+    {
+      "file": "previews/01_Front.png",
+      "bytes": 2071352,
+      "sha256": "0d84211e56f61fbf1b7fdd39eed272ec90de105d0a98929790c6e9e22e7571ab",
+      "pixels": [
+        1280,
+        1600
+      ]
+    },
+    {
+      "file": "previews/02_Side.png",
+      "bytes": 1985684,
+      "sha256": "27a4e9d162250c91b5adbb41f365471687c262bd2be84a33d689829d40a125b8",
+      "pixels": [
+        1280,
+        1600
+      ]
+    },
+    {
+      "file": "previews/03_Back.png",
+      "bytes": 1992986,
+      "sha256": "851202b59bb6adaf29e8c8705933938838612122d01c7d07ddbf4ef8dfb16320",
+      "pixels": [
+        1280,
+        1600
+      ]
+    },
+    {
+      "file": "previews/04_ThreeQuarter.png",
+      "bytes": 2147067,
+      "sha256": "8047f3e061054b498f816a289b3950e649faca71c033f7ecd674976aa42cd15b",
+      "pixels": [
+        1280,
+        1600
+      ]
+    },
+    {
+      "file": "previews/05_FaceDetail.png",
+      "bytes": 2184162,
+      "sha256": "b1d2f8a535dbce2c4424ebbe465552a31a03b8285b7ce75b3e45cf2816c2626a",
+      "pixels": [
+        1280,
+        1600
+      ]
+    },
+    {
+      "file": "previews/06_HandsDetail.png",
+      "bytes": 2301932,
+      "sha256": "95d2926919962a99a386940b9128716b391a9dd95c1347bed6cdc1bce54e04b7",
+      "pixels": [
+        1280,
+        1600
+      ]
+    },
+    {
+      "file": "previews/07_ShoesDetail.png",
+      "bytes": 2067354,
+      "sha256": "d9984259ad255341b1b80f05856afe6c281500750b8f1ed8230306e733d2499b",
+      "pixels": [
+        1280,
+        1600
+      ]
+    },
+    {
+      "file": "textures/FaceAlbedo_1K.png",
+      "bytes": 43362,
+      "sha256": "3b3be3c63a14872ad1177e22aca4abbe323c96adc8bcc5de00dbd5736eefd767",
+      "pixels": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "reference/concept.png",
+      "bytes": 1807217,
+      "sha256": "71c93873ee90de98f92d746b3f4e423e19e49405bda09ebe4260431a20b5543f",
+      "pixels": [
+        1448,
+        1086
+      ]
+    },
+    {
+      "file": "scripts/00_core.py",
+      "bytes": 9932,
+      "sha256": "f31ff01f07e4676dac7ed44706280ccfb320583a3f52a2b32fc87f205e976b9d"
+    },
+    {
+      "file": "scripts/10_body.py",
+      "bytes": 10847,
+      "sha256": "208d0851139afee822786192096095bfcdd0856b129de426db734f1ff536fd5d"
+    },
+    {
+      "file": "scripts/20_face.py",
+      "bytes": 9690,
+      "sha256": "ac84536d53d3db2ecb17472e4805c21effe443602aac29695fcdbe6a15814a7d"
+    },
+    {
+      "file": "scripts/21_hair.py",
+      "bytes": 4625,
+      "sha256": "788ea1f46e789f1d985b89681f691f25da3552972f71e376587b3dfcdb6d6d39"
+    },
+    {
+      "file": "scripts/30_watergun.py",
+      "bytes": 5381,
+      "sha256": "33bda64be816441228d9e399e0ba099a4a3be53e18ae677fb3210981b3eb8c1a"
+    },
+    {
+      "file": "scripts/31_hands.py",
+      "bytes": 3504,
+      "sha256": "4077572dd5060859553429cbc4d84ef67e8efd774b1e5d4ccd8d909fdd7ee155"
+    },
+    {
+      "file": "scripts/32_details.py",
+      "bytes": 3454,
+      "sha256": "a1ed4dcd51741eb1216818440d9a5099ea785470a0654f5a1b73f5a26bb025ad"
+    },
+    {
+      "file": "scripts/40_studio.py",
+      "bytes": 2489,
+      "sha256": "b40999511418ab3cbb172131dfd32da52d78bd9eba150df3d78aed3959a44695"
+    },
+    {
+      "file": "scripts/50_refine.py",
+      "bytes": 3556,
+      "sha256": "bfd6cee75bc1b480a8adc94d213536af01176a6b795a81b2a3a17207a4b9310a"
+    },
+    {
+      "file": "scripts/51_finish_shape.py",
+      "bytes": 6459,
+      "sha256": "f10d116192e7aaff4dc99ee8e60297161043639b4fc609c2f7947a9c6d4b1857"
+    },
+    {
+      "file": "scripts/52_surface_finish.py",
+      "bytes": 4971,
+      "sha256": "44334830aa6ceeb2a73298e672c1cc3ca8058d1157ab6a73c8e55ad14962e13a"
+    },
+    {
+      "file": "scripts/53_final_fit.py",
+      "bytes": 5584,
+      "sha256": "87c44819267e6f2f400d02934cdebb58046ace3ebd5e83b7cf48e0f24962908d"
+    },
+    {
+      "file": "scripts/54_contact_and_shoes.py",
+      "bytes": 8643,
+      "sha256": "f15929953cfd9a5f6aa8b2de8c136fc99b68a372a49f9719c709b61624197c11"
+    },
+    {
+      "file": "scripts/55_natural_grip.py",
+      "bytes": 3020,
+      "sha256": "fb55da6e81a69895a2917f88c5999738c9e179f63db0933171a00d1df9b642d2"
+    },
+    {
+      "file": "scripts/60_package_export.py",
+      "bytes": 7837,
+      "sha256": "7b2a7231b6e347e207c30a425b24529edaffe10e445c7fb2204d416f2a833196"
+    },
+    {
+      "file": "scripts/61_final_mesh.py",
+      "bytes": 3396,
+      "sha256": "85c869eb4a9e4ab34e94277ae9bf27eaf5992cd69d56ecf7bb91bad928783cba"
+    },
+    {
+      "file": "scripts/62_last_seams.py",
+      "bytes": 1734,
+      "sha256": "55f2cb225096ec625c1d0a6e3fcac027311022646151ccd0e758474ee4d9cbf7"
+    },
+    {
+      "file": "scripts/70_render_and_check.py",
+      "bytes": 5396,
+      "sha256": "6714a2f517ae694e73f6556425166220a36e64795f6e79c1ef48a712bc4977ae"
+    },
+    {
+      "file": "scripts/80_delivery_bundle.py",
+      "bytes": 2205,
+      "sha256": "0def5bb6aff501d8dfb9a6d2051ed6f698d29d9d36d4216e93c99bd21a89d490"
+    },
+    {
+      "file": "scripts/render_views.py",
+      "bytes": 921,
+      "sha256": "eb1426d3c059b241128b6d16ca1a1384679651db1f4e12b1942e224a4f1816a8"
+    },
+    {
+      "file": "qa/glb_validation.json",
+      "bytes": 692,
+      "sha256": "188cc321988af7fd1fb1aa0b4bddcccc0c155ed9f63676fc4ec54bfb50917dfa"
+    },
+    {
+      "file": "qa/blend_geometry_report.json",
+      "bytes": 10913,
+      "sha256": "fc86386f2a163a3de6c43e39e7d2e2c6286fccb039e910a2b9117a6f70e6a140"
+    },
+    {
+      "file": "qa/hand_contact_checked.json",
+      "bytes": 423,
+      "sha256": "487f7a54e4e7746c2162d078912a13c13c8d4ffad01737d97a3ca3785407aff9"
+    },
+    {
+      "file": "qa/GLB_checked_Back.png",
+      "bytes": 1996945,
+      "sha256": "003797732292b2c509c6631074a3df18e82458901aa25f2cee9d0126c7495f25",
+      "pixels": [
+        1280,
+        1600
+      ]
+    },
+    {
+      "file": "qa/GLB_checked_Front.png",
+      "bytes": 2073774,
+      "sha256": "cf078f2eb7dd390146f4345496c8569fea89948db505ca1d185562702196cbcf",
+      "pixels": [
+        1280,
+        1600
+      ]
+    },
+    {
+      "file": "qa/GLB_checked_HandsDetail.png",
+      "bytes": 2306462,
+      "sha256": "6673fba7ab4e883d2962e1daba117e9407a7d9c257662f423987f2946f0daf51",
+      "pixels": [
+        1280,
+        1600
+      ]
+    },
+    {
+      "file": "qa/GLB_checked_Side.png",
+      "bytes": 1988443,
+      "sha256": "a9ab9d240f8f7dd2cce1ba3b2d3ed5596c532f6300de7210c3419678c5b39ff4",
+      "pixels": [
+        1280,
+        1600
+      ]
+    },
+    {
+      "file": "qa/GLB_checked_ThreeQuarter.png",
+      "bytes": 2147909,
+      "sha256": "9f21c10e3899eb0c335d9114735f0d6449a925313193c0e8befc108399b7d6c0",
+      "pixels": [
+        1280,
+        1600
+      ]
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "emulation": "Chromium, touch/coarse pointer, 915x412 and 390x844 CSS pixels; trusted multi-touch CDP events",
+  "passed": 17,
+  "total": 17,
+  "results": [
+    {
+      "name": "手机自动显示触控，无需鼠标锁定",
+      "passed": true,
+      "detail": {
+        "ready": true,
+        "firstPerson": true,
+        "locked": false,
+        "position": [
+          -26,
+          1.7599999761581422,
+          37.2
+        ],
+        "camera": [
+          -26,
+          2.479999976158142,
+          37.2
+        ],
+        "yaw": 0.32,
+        "pitch": 0.025,
+        "grounded": true,
+        "cameraDistance": 3.4,
+        "fps": 0,
+        "keys": [],
+        "inputMode": "touch",
+        "touch": {
+          "enabled": true,
+          "move": [
+            0,
+            0
+          ],
+          "running": false,
+          "pointers": 0,
+          "moving": false,
+          "looking": false
+        }
+      }
+    },
+    {
+      "name": "未被桌面入场遮罩挡住",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "name": "摇杆中心死区不漂移",
+      "passed": true,
+      "detail": {
+        "distance": 0
+      }
+    },
+    {
+      "name": "摇杆推动角色移动",
+      "passed": true,
+      "detail": {
+        "metres": 2.100171083266632,
+        "state": {
+          "enabled": true,
+          "move": [
+            8.555687816982857e-8,
+            0.9999999999999964
+          ],
+          "running": false,
+          "pointers": 1,
+          "moving": true,
+          "looking": false
+        }
+      }
+    },
+    {
+      "name": "双指可同时移动和转向",
+      "passed": true,
+      "detail": {
+        "enabled": true,
+        "move": [
+          8.555687816982857e-8,
+          0.9999999999999964
+        ],
+        "running": false,
+        "pointers": 2,
+        "moving": true,
+        "looking": true
+      }
+    },
+    {
+      "name": "抬指后摇杆归零",
+      "passed": true,
+      "detail": {
+        "enabled": true,
+        "move": [
+          0,
+          0
+        ],
+        "running": false,
+        "pointers": 0,
+        "moving": false,
+        "looking": false
+      }
+    },
+    {
+      "name": "点击后保持奔跑，松手不取消",
+      "passed": true,
+      "detail": {
+        "enabled": true,
+        "move": [
+          0,
+          0
+        ],
+        "running": true,
+        "pointers": 0,
+        "moving": false,
+        "looking": false
+      }
+    },
+    {
+      "name": "奔跑速度高于步行",
+      "passed": true,
+      "detail": {
+        "walk": 2.100171083266632,
+        "run": 3.5999999999999965
+      }
+    },
+    {
+      "name": "移动、转向时第三指可跳跃",
+      "passed": true,
+      "detail": {
+        "ready": true,
+        "firstPerson": true,
+        "locked": false,
+        "position": [
+          -19.677943598205783,
+          2.736666678587596,
+          43.312018437973286
+        ],
+        "camera": [
+          -19.81217132438848,
+          3.4333333452542627,
+          43.295833336063716
+        ],
+        "yaw": 1.6907963267948967,
+        "pitch": -0.016,
+        "grounded": false,
+        "cameraDistance": 3.4,
+        "fps": 60,
+        "keys": [],
+        "inputMode": "touch",
+        "touch": {
+          "enabled": true,
+          "move": [
+            8.555687816982857e-8,
+            0.9999999999999964
+          ],
+          "running": true,
+          "pointers": 2,
+          "moving": true,
+          "looking": true
+        }
+      }
+    },
+    {
+      "name": "视角按钮不劫持滑动，切换到越肩",
+      "passed": true,
+      "detail": {
+        "ready": true,
+        "firstPerson": false,
+        "locked": false,
+        "position": [
+          -18.75344020603621,
+          2.76000001192093,
+          43.42349452449834
+        ],
+        "camera": [
+          -22.316888462389848,
+          3.4848636636043673,
+          43.644480735214714
+        ],
+        "yaw": 1.6907963267948967,
+        "pitch": -0.016,
+        "grounded": false,
+        "cameraDistance": 3.4451908676614913,
+        "fps": 60,
+        "keys": [],
+        "inputMode": "touch",
+        "touch": {
+          "enabled": true,
+          "move": [
+            8.555687816982857e-8,
+            0.9999999999999964
+          ],
+          "running": true,
+          "pointers": 2,
+          "moving": true,
+          "looking": true
+        }
+      }
+    },
+    {
+      "name": "按钮可以切回第一人称",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "name": "触摸取消释放所有触点",
+      "passed": true,
+      "detail": {
+        "enabled": true,
+        "move": [
+          0,
+          0
+        ],
+        "running": true,
+        "pointers": 0,
+        "moving": false,
+        "looking": false
+      }
+    },
+    {
+      "name": "旋转屏幕清空移动与奔跑",
+      "passed": true,
+      "detail": {
+        "enabled": true,
+        "move": [
+          0,
+          0
+        ],
+        "running": false,
+        "pointers": 0,
+        "moving": false,
+        "looking": false
+      }
+    },
+    {
+      "name": "竖屏控件在可视区域内",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "h": 844,
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 390.4906921386719,
+          "height": 844,
+          "top": 0,
+          "right": 390.4906921386719,
+          "bottom": 844,
+          "left": 0
+        },
+        "reticle": {
+          "x": 195,
+          "y": 422,
+          "width": 0,
+          "height": 0,
+          "top": 422,
+          "right": 195,
+          "bottom": 422,
+          "left": 195
+        },
+        "buttons": [
+          {
+            "x": 15,
+            "y": 686.6666870117188,
+            "width": 117.33333587646484,
+            "height": 117.33333587646484,
+            "top": 686.6666870117188,
+            "right": 132.33333587646484,
+            "bottom": 804.0000228881836,
+            "left": 15
+          },
+          {
+            "x": 243,
+            "y": 754,
+            "width": 56,
+            "height": 56,
+            "top": 754,
+            "right": 299,
+            "bottom": 810,
+            "left": 243
+          },
+          {
+            "x": 309,
+            "y": 744,
+            "width": 66,
+            "height": 66,
+            "top": 744,
+            "right": 375,
+            "bottom": 810,
+            "left": 309
+          },
+          {
+            "x": 305,
+            "y": 676,
+            "width": 70,
+            "height": 42,
+            "top": 676,
+            "right": 375,
+            "bottom": 718,
+            "left": 305
+          }
+        ]
+      }
+    },
+    {
+      "name": "竖屏画布与准星对齐",
+      "passed": true,
+      "detail": {
+        "w": 390,
+        "h": 844,
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 390.4906921386719,
+          "height": 844,
+          "top": 0,
+          "right": 390.4906921386719,
+          "bottom": 844,
+          "left": 0
+        },
+        "reticle": {
+          "x": 195,
+          "y": 422,
+          "width": 0,
+          "height": 0,
+          "top": 422,
+          "right": 195,
+          "bottom": 422,
+          "left": 195
+        },
+        "buttons": [
+          {
+            "x": 15,
+            "y": 686.6666870117188,
+            "width": 117.33333587646484,
+            "height": 117.33333587646484,
+            "top": 686.6666870117188,
+            "right": 132.33333587646484,
+            "bottom": 804.0000228881836,
+            "left": 15
+          },
+          {
+            "x": 243,
+            "y": 754,
+            "width": 56,
+            "height": 56,
+            "top": 754,
+            "right": 299,
+            "bottom": 810,
+            "left": 243
+          },
+          {
+            "x": 309,
+            "y": 744,
+            "width": 66,
+            "height": 66,
+            "top": 744,
+            "right": 375,
+            "bottom": 810,
+            "left": 309
+          },
+          {
+            "x": 305,
+            "y": 676,
+            "width": 70,
+            "height": 42,
+            "top": 676,
+            "right": 375,
+            "bottom": 718,
+            "left": 305
+          }
+        ]
+      }
+    },
+    {
+      "name": "切走窗口清空移动和奔跑",
+      "passed": true,
+      "detail": {
+        "before": {
+          "enabled": true,
+          "move": [
+            0,
+            0
+          ],
+          "running": false,
+          "pointers": 0,
+          "moving": false,
+          "looking": false
+        },
+        "after": {
+          "enabled": true,
+          "move": [
+            0,
+            0
+          ],
+          "running": false,
+          "pointers": 0,
+          "moving": false,
+          "looking": false
+        },
+        "distance": 0
+      }
+    },
+    {
+      "name": "浏览器无脚本错误",
+      "passed": true,
+      "detail": []
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source": "D:\\a\\xiang_mu\\LH\\source_art\\凌水湖_游戏修复.blend",
+  "source_sha256": "776a846a3995778c40f79e3a0b1ac268515d8550ed1cbc05fee45d53f710ee44",
+  "output": "C:\\Users\\freedom\\Documents\\Codex\\2026-09-14\\zi-q\\work\\site_repair\\water\\delivery\\LakeReflection.ltcb",
+  "size": 256,
+  "bytes": 2097174,
+  "probe_laya_xyz": [
+    -20.0,
+    0.4,
+    8.0
+  ],
+  "engine": "CYCLES",
+  "samples": 16,
+  "hidden_water_and_colliders": [
+    "凌水湖_狭长主湖_水面",
+    "湖端_局部浅水湾_水面"
+  ],
+  "face_pngs": [
+    "C:\\Users\\freedom\\Documents\\Codex\\2026-09-14\\zi-q\\work\\site_repair\\water\\delivery\\LakeReflection_face_0.png",
+    "C:\\Users\\freedom\\Documents\\Codex\\2026-09-14\\zi-q\\work\\site_repair\\water\\delivery\\LakeReflection_face_1.png",
+    "C:\\Users\\freedom\\Documents\\Codex\\2026-09-14\\zi-q\\work\\site_repair\\water\\delivery\\LakeReflection_face_2.png",
+    "C:\\Users\\freedom\\Documents\\Codex\\2026-09-14\\zi-q\\work\\site_repair\\water\\delivery\\LakeReflection_face_3.png",
+    "C:\\Users\\freedom\\Documents\\Codex\\2026-09-14\\zi-q\\work\\site_repair\\water\\delivery\\LakeReflection_face_4.png",
+    "C:\\Users\\freedom\\Documents\\Codex\\2026-09-14\\zi-q\\work\\site_repair\\water\\delivery\\LakeReflection_face_5.png"
+  ],
+  "color": "display-mapped image converted to linear RGB8",
+  "native_cube_sampler_flip_x": true,
+  "rows_flipped_to_match_laya_camera_RT_projection": true
+}

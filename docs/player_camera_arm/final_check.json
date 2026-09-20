@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-20",
+  "shoulder_distance_before": 3.4,
+  "shoulder_distance_after": 2.35,
+  "right_shoulder_offset": 0.65,
+  "source_and_both_scenes_set": true,
+  "changed_mesh": "FP.Sleeves weighted cut",
+  "mesh_index": 13,
+  "source_animation_frames_checked": 98,
+  "roundtrip_animation_frames_checked": 98,
+  "crossfade_poses_checked": 75,
+  "sleeve_boundary_edges": 0,
+  "sleeve_nonmanifold_edges": 0,
+  "sleeve_end_vertices_in_frame": 0,
+  "actual_ide_checks": ["closer right shoulder", "idle", "breathing phase", "three continuous pulses and return to idle"],
+  "published_checks": ["closer right shoulder", "continuous sleeve surface", "perspective switch"],
+  "published_warnings_and_errors": [],
+  "typecheck": "PASS",
+  "scene_schema": "PASS for both scenes",
+  "web": "BUILD PASS and actual browser checked",
+  "single_html": "BUILD PASS; not independently runtime checked"
+}

@@ -1,0 +1,16 @@
+{
+  "source": "D:\\a\\xiang_mu\\LH\\source_art\\AnimeWatergunBoy\\first_person_20260920\\WatergunArms.glb",
+  "destination": "D:\\a\\xiang_mu\\LH\\assets\\characters\\WatergunArms.glb",
+  "uuid": "0329308f-6b61-4c68-be26-f1aa6b54716c",
+  "colored_meshes": [
+    {
+      "mesh": "FP.Sleeves weighted cut",
+      "mesh_index": 13,
+      "material": "AWB.M.Jacket painted fold values"
+    }
+  ],
+  "clips": [
+    "Idle",
+    "Shoot"
+  ]
+}

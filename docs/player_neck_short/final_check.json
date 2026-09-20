@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-20",
+  "head_lowering_m": 0.024,
+  "neck_root_fixed": true,
+  "updated_mesh_indices": [6,7,8,9,10,11,12,13,15,16,17,18,21,26],
+  "source_actions_checked": 20,
+  "source_frames_checked": 564,
+  "minimum_head_neck_overlap_m": 0.0096,
+  "published_ready": true,
+  "published_mesh_count": 44,
+  "published_visual_checks": ["third-person idle proportions", "jump and shooting head-neck attachment"],
+  "published_warnings_and_errors": [],
+  "web": "BUILD PASS and runtime checked",
+  "single_html": "BUILD PASS; not independently runtime checked"
+}

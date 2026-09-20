@@ -1,0 +1,19 @@
+{
+  "changed_mesh_data": [
+    "FP.Sleeves weighted cut"
+  ],
+  "mesh_name_order_unchanged": true,
+  "materials_binary_json_identical": true,
+  "joint_order_unchanged": true,
+  "inverse_bind_binary_identical": true,
+  "animation_clips": [
+    {
+      "name": "Idle",
+      "all_channel_samples_binary_identical": true
+    },
+    {
+      "name": "Shoot",
+      "all_channel_samples_binary_identical": true
+    }
+  ]
+}

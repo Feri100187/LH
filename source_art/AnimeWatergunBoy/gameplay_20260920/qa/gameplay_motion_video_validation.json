@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "file": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/gameplay_20260920/previews/gameplay_motion_preview.mp4",
+  "width": 480,
+  "height": 560,
+  "frames": 268,
+  "fps": 30,
+  "seconds": 8.933333333333334,
+  "file_bytes": 688839,
+  "segments": [
+    {
+      "name": "Idle",
+      "frames": 90,
+      "unique_rendered_frames": 45
+    },
+    {
+      "name": "Walk",
+      "frames": 88,
+      "unique_rendered_frames": 22
+    },
+    {
+      "name": "Run",
+      "frames": 90,
+      "unique_rendered_frames": 18
+    }
+  ],
+  "notes": "Real Cycles renders from the authored Blender skeleton; idle rendered at 15fps and held twice, locomotion rendered at 30fps. In-place cycles repeat without their duplicate endpoint."
+}

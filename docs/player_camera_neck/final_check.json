@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-20",
+  "camera": {
+    "rearward_distance_before_m": 2.35,
+    "rearward_distance_after_m": 1.95,
+    "height_offset_before_m": 0.14,
+    "height_offset_after_m": 0.32,
+    "right_shoulder_offset_m": 0.65,
+    "both_scene_properties_saved": true
+  },
+  "neck": {
+    "mesh_index": 26,
+    "mesh_name": "AWB.Neck.mesh.001",
+    "middle_width_increase_percent": 16,
+    "root_width_increase_percent": 18,
+    "depth_increase_percent": "10-11",
+    "maximum_vertex_displacement_m": 0.0077256397473903435,
+    "other_43_meshes_unchanged": true,
+    "materials_bones_and_20_source_actions_unchanged": true,
+    "game_mesh_updated": true
+  },
+  "typecheck": "PASS",
+  "scene_schema": "PASS",
+  "ide_visual_checks": ["nearer raised shoulder view", "idle neck silhouette", "running with shooting"],
+  "published_model_mesh_count": 44,
+  "published_warnings_and_errors": [],
+  "web_build": "PASS and runtime checked",
+  "single_html_build": "PASS; not independently runtime checked"
+}

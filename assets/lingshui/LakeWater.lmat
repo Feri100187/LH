@@ -1,0 +1,46 @@
+{
+  "version": "LAYAMATERIAL:04",
+  "props": {
+    "type": "LingshuiLakeWater20260920",
+    "shaderPath": "res://c8dcaf2f-fb32-41ad-8270-bdc25c5e6f97",
+    "renderQueue": 3000,
+    "s_Cull": 0,
+    "s_Blend": 1,
+    "s_BlendSrc": 6,
+    "s_BlendDst": 7,
+    "s_DepthTest": 1,
+    "s_DepthWrite": false,
+    "alphaTest": false,
+    "u_DeepColor": [
+      0.032,
+      0.1,
+      0.092
+    ],
+    "u_ProbePosition": [
+      -20,
+      0.4,
+      8
+    ],
+    "u_BoxMin": [
+      -110,
+      -2,
+      -48
+    ],
+    "u_BoxMax": [
+      84,
+      46,
+      43
+    ],
+    "u_SunDirection": [
+      -0.42,
+      0.75,
+      0.51
+    ],
+    "textures": [
+      {
+        "name": "u_EnvironmentCube",
+        "path": "res://e02dac6a-2cce-4d6a-8332-8cc6e9eec8de"
+      }
+    ]
+  }
+}

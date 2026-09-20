@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Idle",
+    "duration": 3.0,
+    "native_uuid": "deb0e049-250a-4420-b8cd-34409af8af79",
+    "source_sha256": "37b4ccc9abb331064c2dd5b5f13bd8b234a3ee8488eb7ffdd4309c3656bcce6f",
+    "previous_sha256": "37b4ccc9abb331064c2dd5b5f13bd8b234a3ee8488eb7ffdd4309c3656bcce6f",
+    "changed": false
+  },
+  {
+    "name": "Jump",
+    "duration": 1.399999976158142,
+    "native_uuid": "541f8384-e89d-44c7-bca0-fb2c3c5df79e",
+    "source_sha256": "dff8f86605da2c6b9467fac3b19fc35046fe1bf234659b3a95110c22eb66d361",
+    "previous_sha256": "dff8f86605da2c6b9467fac3b19fc35046fe1bf234659b3a95110c22eb66d361",
+    "changed": false
+  },
+  {
+    "name": "Run",
+    "duration": 0.6000000238418579,
+    "native_uuid": "8da791e2-52aa-4bbe-b0da-e51ddefd6f8e",
+    "source_sha256": "28b5cc6b58f5ea166194a2a75efd61dbb4b60b2964c500aecbfe69cfb8347746",
+    "previous_sha256": "28b5cc6b58f5ea166194a2a75efd61dbb4b60b2964c500aecbfe69cfb8347746",
+    "changed": false
+  },
+  {
+    "name": "RunBack",
+    "duration": 0.7333333492279053,
+    "native_uuid": "3327bba0-33d1-433b-8345-c905321c01f5",
+    "source_sha256": "ff988461c0351453b0cfab6c16adb0a306bf093361b1efc94799e688239f5bb5",
+    "previous_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": true
+  },
+  {
+    "name": "RunBackLeft",
+    "duration": 0.7333333492279053,
+    "native_uuid": "e3a12288-e018-4ef6-a345-1c6a47d382b0",
+    "source_sha256": "f9439bea23288c2f9e8430989192670ee5f672249d38b7239240897184c712de",
+    "previous_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": true
+  },
+  {
+    "name": "RunBackRight",
+    "duration": 0.7333333492279053,
+    "native_uuid": "2ec1d7c7-f5db-4597-89a1-85e2d1a07de0",
+    "source_sha256": "5058e933ae77cf807d841061f57ebc184b1863426385afddfb97285beea87009",
+    "previous_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": true
+  },
+  {
+    "name": "RunForwardLeft",
+    "duration": 0.6666666865348816,
+    "native_uuid": "b0cb9937-172c-4bdc-9903-077ad3eba193",
+    "source_sha256": "666f878ad77b7ecf49eb0e834522ba387424541121b6f46103551864ab1ad6bc",
+    "previous_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": true
+  },
+  {
+    "name": "RunForwardRight",
+    "duration": 0.6666666865348816,
+    "native_uuid": "1c8f4cfc-8ad3-4472-945f-4c24cdfea323",
+    "source_sha256": "a9803a7ddd656c714768210a852de42bcb99de2c08e93d12134f21f6a3cb3deb",
+    "previous_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": true
+  },
+  {
+    "name": "RunJump",
+    "duration": 1.600000023841858,
+    "native_uuid": "78a081d5-45fe-45a4-a7b7-8f8d27de6fcb",
+    "source_sha256": "9bd938d6e948ee0962828926b0814af7be1422bdbd6c297bc77538467818f74a",
+    "previous_sha256": "9bd938d6e948ee0962828926b0814af7be1422bdbd6c297bc77538467818f74a",
+    "changed": false
+  },
+  {
+    "name": "RunLeft",
+    "duration": 0.6666666865348816,
+    "native_uuid": "5fa75e1e-b6c4-419f-8070-b615162ee166",
+    "source_sha256": "4c0e3fc4fc4b8949abb84080f50878e3507cd46b1279c42ca43f6a727e253afb",
+    "previous_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": true
+  },
+  {
+    "name": "RunRight",
+    "duration": 0.6666666865348816,
+    "native_uuid": "2cde06ae-027c-43e6-a4b2-a57a5923e297",
+    "source_sha256": "e14fc0c43d42a1c9ba16b8aabf1dc6ca3949e63b6a3f885b8a8433ac7dd122aa",
+    "previous_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": true
+  },
+  {
+    "name": "Shoot",
+    "duration": 0.20000000298023224,
+    "native_uuid": "c5dd2631-b19b-4ab0-aaae-5e664b215fcb",
+    "source_sha256": "f9749c8422de54e2cab534f2bf630944a29fd6af3f1336d4f8b15f06680ae531",
+    "previous_sha256": "f9749c8422de54e2cab534f2bf630944a29fd6af3f1336d4f8b15f06680ae531",
+    "changed": false
+  },
+  {
+    "name": "Walk",
+    "duration": 0.7333333492279053,
+    "native_uuid": "9ce0c109-44f8-49b3-b320-c1575fb602bd",
+    "source_sha256": "e907a24ee4f7ab0b1345b2bb39eff8686704dfb2b111094424509077d2bc0981",
+    "previous_sha256": "e907a24ee4f7ab0b1345b2bb39eff8686704dfb2b111094424509077d2bc0981",
+    "changed": false
+  },
+  {
+    "name": "WalkBack",
+    "duration": 0.800000011920929,
+    "native_uuid": "2d2e8440-3130-4d38-be05-40ab1663f962",
+    "source_sha256": "4775b53e6aa7df99401bbac3ffa0182c57994fab573a818ce1415adc5f26b980",
+    "previous_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": true
+  },
+  {
+    "name": "WalkBackLeft",
+    "duration": 0.8666666746139526,
+    "native_uuid": "6ccc32f4-e036-4ff3-8107-c5d1793a4b89",
+    "source_sha256": "281e8eff31575bb710a312fe433eb3bad0914f42a8101e1531715388c9355ed0",
+    "previous_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": true
+  },
+  {
+    "name": "WalkBackRight",
+    "duration": 0.8666666746139526,
+    "native_uuid": "f5879b40-556c-4335-b9a6-032fac07696d",
+    "source_sha256": "e87de764d74e96715b64de0015eb5951126f99b518e70183b0780faab463758b",
+    "previous_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": true
+  },
+  {
+    "name": "WalkForwardLeft",
+    "duration": 0.800000011920929,
+    "native_uuid": "948c83b4-9604-4d66-bbfe-1d8df2c61128",
+    "source_sha256": "95fb0afd456cd56efb5836fcdaab35bf916ba8125dacab68cf81b4b914f86cb3",
+    "previous_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": true
+  },
+  {
+    "name": "WalkForwardRight",
+    "duration": 0.800000011920929,
+    "native_uuid": "5cdccb66-0e83-43d9-b362-c062ac87a646",
+    "source_sha256": "e36d10d7f2fdab2c8e1ceda535e1cdb98b936fe30017989c7acd7ca259097d4f",
+    "previous_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": true
+  },
+  {
+    "name": "WalkLeft",
+    "duration": 0.800000011920929,
+    "native_uuid": "be057c20-a989-4804-a36f-6a1d001604e2",
+    "source_sha256": "027a71d153e2c12080e031a31ff276e86f7a9a0351fff23c3ef01bfa70408916",
+    "previous_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": true
+  },
+  {
+    "name": "WalkRight",
+    "duration": 0.800000011920929,
+    "native_uuid": "dbd275d8-d0bb-4c5a-a2ea-1c3e951c7509",
+    "source_sha256": "da40f3bdd6ec974d7097a79f6a8f693a183168dd57d195baeeffdf89a13c4edf",
+    "previous_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "changed": true
+  },
+  {
+    "name": "JumpAir",
+    "duration": 0.5600000023841858,
+    "native_uuid": "91238c62-4b5a-450d-91ec-7aa51ffa7426",
+    "source_sha256": "ee391a0d2fdb980bb4bd345f22f13bf9979b80ec60e393d5b6d17b75d25daca2",
+    "previous_sha256": "ee391a0d2fdb980bb4bd345f22f13bf9979b80ec60e393d5b6d17b75d25daca2",
+    "changed": false
+  },
+  {
+    "name": "JumpLand",
+    "duration": 0.4339999854564667,
+    "native_uuid": "184f8fb6-b8e0-4678-8914-66d5ac38d853",
+    "source_sha256": "4942becb88530d6c4dc730a1c58f5e569fde703787a0f93ce58d93e5f6383497",
+    "previous_sha256": "4942becb88530d6c4dc730a1c58f5e569fde703787a0f93ce58d93e5f6383497",
+    "changed": false
+  },
+  {
+    "name": "RunJumpAir",
+    "duration": 0.7839999794960022,
+    "native_uuid": "68dfd897-dabd-4a03-9971-3b0a2afb5956",
+    "source_sha256": "aab03650db134f77226b9a489ad215a674f510a7a70861ddb1c89b8cc62f6d56",
+    "previous_sha256": "aab03650db134f77226b9a489ad215a674f510a7a70861ddb1c89b8cc62f6d56",
+    "changed": false
+  },
+  {
+    "name": "RunJumpLand",
+    "duration": 0.4320000112056732,
+    "native_uuid": "5436a1ab-cc9c-4ffe-ae0d-71bbf8de58e5",
+    "source_sha256": "6d6112fe5bbcc35cea1ed5f5696db0aaee3d7ed7df12bf9b02af22d2825849bb",
+    "previous_sha256": "6d6112fe5bbcc35cea1ed5f5696db0aaee3d7ed7df12bf9b02af22d2825849bb",
+    "changed": false
+  }
+]

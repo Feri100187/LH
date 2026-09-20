@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-20",
+  "entry": "http://127.0.0.1:18765/?controls=touch",
+  "method": "Official browser real look drag, jump, shoot and movement controls; real LayaAir keyboard input for all 16 locomotion states and FPS sprint/held fire/perspective switch",
+  "ready": true,
+  "first_person_world_meshes_visible": 0,
+  "first_person_arms_mesh_count": 15,
+  "arms_parent": "PlayerCamera",
+  "look_down_pitch_radians": -1.2950000000000002,
+  "look_down_visual_result": "Only forearms and watergun; no torso, legs, shoulder bulge or exposed sleeve end",
+  "camera_samples": [
+    {"state":"Idle", "player":[-26,1.7599999761581422,37.2], "camera":[-26,2.479999976158142,37.2], "offset":[0,0.72,0]},
+    {"state":"Jump", "player":[-26,2.6699999761581426,37.2], "camera":[-26,3.3899999761581423,37.2], "offset":[0,0.7199999999999998,0]},
+    {"state":"After lateral movement", "player":[-25.936026485167613,1.7599999761581422,37.22326713726663], "camera":[-25.936026485167613,2.479999976158142,37.22326713726663], "offset":[0,0.72,0]}
+  ],
+  "ide_all_16_direction_states": "PASS; ide_direction_states.json",
+  "ide_first_person_run_back": "PASS; ide_fps_run.png",
+  "ide_held_shoot_across_two_perspective_switches": "6 pulses, 0.2s interval; released normally",
+  "invalid_state_errors": [],
+  "published_warnings_and_errors": [],
+  "typecheck": "PASS",
+  "regressions": "68/68 PASS",
+  "builds": {"web":"PASS and runtime checked", "single_html":"BUILD PASS; not independently runtime checked"},
+  "phone_hardware_tested": false
+}

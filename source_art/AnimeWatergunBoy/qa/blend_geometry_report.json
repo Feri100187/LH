@@ -1,0 +1,483 @@
+{
+  "mesh_objects": 43,
+  "triangles": 124736,
+  "zero_area_triangles": 0,
+  "bounds_min_m": [
+    -0.33376142382621765,
+    -0.38655999302864075,
+    -0.0010708216577768326
+  ],
+  "bounds_max_m": [
+    0.37943997979164124,
+    0.16785652935504913,
+    1.8031398057937622
+  ],
+  "dimensions_m": [
+    0.7132014036178589,
+    0.5544165223836899,
+    1.804210627451539
+  ],
+  "texture_images": [
+    {
+      "name": "AWB.FaceAlbedo.1K",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    }
+  ],
+  "objects": [
+    {
+      "name": "AWB.Neck",
+      "vertices": 680,
+      "triangles": 1356,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.Skin"
+      ]
+    },
+    {
+      "name": "AWB.Jacket continuous shoulder and sleeves",
+      "vertices": 8002,
+      "triangles": 16000,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.Jacket painted fold values"
+      ]
+    },
+    {
+      "name": "AWB.Ribbed waistband",
+      "vertices": 448,
+      "triangles": 892,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.RibKnit"
+      ]
+    },
+    {
+      "name": "AWB.Pants continuous seat and legs",
+      "vertices": 5502,
+      "triangles": 11000,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.Pants painted fold values"
+      ]
+    },
+    {
+      "name": "AWB.R elastic ankle hem",
+      "vertices": 200,
+      "triangles": 396,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.RibKnit"
+      ]
+    },
+    {
+      "name": "AWB.L elastic ankle hem",
+      "vertices": 200,
+      "triangles": 396,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.RibKnit"
+      ]
+    },
+    {
+      "name": "AWB.White undershirt hem",
+      "vertices": 320,
+      "triangles": 636,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.Shirt"
+      ]
+    },
+    {
+      "name": "AWB.Clothes | R ribbed cuff",
+      "vertices": 420,
+      "triangles": 748,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.RibKnit",
+        "AWB.M.JacketSeam"
+      ]
+    },
+    {
+      "name": "AWB.Clothes | L ribbed cuff",
+      "vertices": 420,
+      "triangles": 748,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.RibKnit",
+        "AWB.M.JacketSeam"
+      ]
+    },
+    {
+      "name": "AWB.Clothes | layered hood and lining",
+      "vertices": 1553,
+      "triangles": 2999,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.JacketPanel",
+        "AWB.M.HoodInside",
+        "AWB.M.JacketSeam"
+      ]
+    },
+    {
+      "name": "AWB.Clothes | zipper assembly",
+      "vertices": 1510,
+      "triangles": 2400,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.JacketSeam",
+        "AWB.M.Zipper",
+        "AWB.M.GunOrange"
+      ]
+    },
+    {
+      "name": "AWB.Clothes | collar pockets and stitched detail",
+      "vertices": 1539,
+      "triangles": 3022,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.JacketSeam",
+        "AWB.M.JacketPanel",
+        "AWB.M.Zipper",
+        "AWB.M.RibKnit",
+        "AWB.M.Jacket"
+      ]
+    },
+    {
+      "name": "AWB.Clothes | trouser seam and welts",
+      "vertices": 435,
+      "triangles": 854,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.PantsSeam"
+      ]
+    },
+    {
+      "name": "AWB.Head sculpted face and skull",
+      "vertices": 5027,
+      "triangles": 9999,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.Face painted peach"
+      ]
+    },
+    {
+      "name": "AWB.Face | R ear",
+      "vertices": 478,
+      "triangles": 944,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.Skin",
+        "AWB.M.EarInner",
+        "AWB.M.SkinLight"
+      ]
+    },
+    {
+      "name": "AWB.Face | R eye and eyelids",
+      "vertices": 1165,
+      "triangles": 2080,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.EyeWhite",
+        "AWB.M.Lash",
+        "AWB.M.EarInner",
+        "AWB.M.Pupil",
+        "AWB.M.Iris",
+        "AWB.M.IrisLight",
+        "AWB.M.HairLine",
+        "AWB.M.Glint"
+      ]
+    },
+    {
+      "name": "AWB.Face | L ear",
+      "vertices": 478,
+      "triangles": 944,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.Skin",
+        "AWB.M.EarInner",
+        "AWB.M.SkinLight"
+      ]
+    },
+    {
+      "name": "AWB.Face | L eye and eyelids",
+      "vertices": 1165,
+      "triangles": 2080,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.EyeWhite",
+        "AWB.M.Lash",
+        "AWB.M.EarInner",
+        "AWB.M.Pupil",
+        "AWB.M.Iris",
+        "AWB.M.IrisLight",
+        "AWB.M.HairLine",
+        "AWB.M.Glint"
+      ]
+    },
+    {
+      "name": "AWB.Face | brows",
+      "vertices": 20,
+      "triangles": 16,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.HairMid"
+      ]
+    },
+    {
+      "name": "AWB.Face | mouth and nose detail",
+      "vertices": 303,
+      "triangles": 590,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.Lips",
+        "AWB.M.SkinLight",
+        "AWB.M.EarInner"
+      ]
+    },
+    {
+      "name": "AWB.Hair sculpted layered crown",
+      "vertices": 5230,
+      "triangles": 10499,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.HairMid"
+      ]
+    },
+    {
+      "name": "AWB.Hair | layered bangs",
+      "vertices": 1920,
+      "triangles": 3792,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.HairLit",
+        "AWB.M.Hair",
+        "AWB.M.HairMid"
+      ]
+    },
+    {
+      "name": "AWB.Hair | crown tufts",
+      "vertices": 220,
+      "triangles": 432,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.HairMid",
+        "AWB.M.Hair",
+        "AWB.M.HairLit"
+      ]
+    },
+    {
+      "name": "AWB.Hair | nape locks",
+      "vertices": 1120,
+      "triangles": 2200,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.Hair",
+        "AWB.M.HairLit"
+      ]
+    },
+    {
+      "name": "AWB.Glasses | dark frame bridge and temples",
+      "vertices": 1068,
+      "triangles": 2100,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.Frame",
+        "AWB.M.Zipper"
+      ]
+    },
+    {
+      "name": "AWB.Glasses | transparent lenses",
+      "vertices": 74,
+      "triangles": 72,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.Glass"
+      ]
+    },
+    {
+      "name": "AWB.Right hand rear grip",
+      "vertices": 4746,
+      "triangles": 9500,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.Skin"
+      ]
+    },
+    {
+      "name": "AWB.Left hand foregrip support",
+      "vertices": 4734,
+      "triangles": 9463,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.Skin"
+      ]
+    },
+    {
+      "name": "AWB.Hand | R nails",
+      "vertices": 125,
+      "triangles": 120,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.Nails"
+      ]
+    },
+    {
+      "name": "AWB.Hand | L nails",
+      "vertices": 125,
+      "triangles": 120,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.Nails"
+      ]
+    },
+    {
+      "name": "AWB.R continuous sneaker upper",
+      "vertices": 1602,
+      "triangles": 3200,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.ShoeWhite"
+      ]
+    },
+    {
+      "name": "AWB.L continuous sneaker upper",
+      "vertices": 1602,
+      "triangles": 3200,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.ShoeWhite"
+      ]
+    },
+    {
+      "name": "AWB.Shoe | R layered sole",
+      "vertices": 794,
+      "triangles": 1552,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.Outsole",
+        "AWB.M.ShoeWhite",
+        "AWB.M.Sole"
+      ]
+    },
+    {
+      "name": "AWB.Shoe | R tongue laces and panels",
+      "vertices": 1469,
+      "triangles": 2800,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.ShoePale",
+        "AWB.M.ShoeWhite",
+        "AWB.M.Laces",
+        "AWB.M.ShoeGrey"
+      ]
+    },
+    {
+      "name": "AWB.Shoe | L layered sole",
+      "vertices": 794,
+      "triangles": 1552,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.Outsole",
+        "AWB.M.ShoeWhite",
+        "AWB.M.Sole"
+      ]
+    },
+    {
+      "name": "AWB.Shoe | L tongue laces and panels",
+      "vertices": 1469,
+      "triangles": 2800,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.ShoePale",
+        "AWB.M.ShoeWhite",
+        "AWB.M.Laces",
+        "AWB.M.ShoeGrey"
+      ]
+    },
+    {
+      "name": "AWB.Gun orange trigger",
+      "vertices": 144,
+      "triangles": 284,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.GunOrange"
+      ]
+    },
+    {
+      "name": "AWB.Watergun | white receiver and rails",
+      "vertices": 1970,
+      "triangles": 3800,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.GunWhite",
+        "AWB.M.GunBlue",
+        "AWB.M.GunPanel",
+        "AWB.M.GunBlueLight"
+      ]
+    },
+    {
+      "name": "AWB.Watergun | blue reservoir",
+      "vertices": 848,
+      "triangles": 1684,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.GunBlue",
+        "AWB.M.GunBlueDark",
+        "AWB.M.GunBlueLight"
+      ]
+    },
+    {
+      "name": "AWB.Watergun | orange fill cap",
+      "vertices": 240,
+      "triangles": 472,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.GunOrange",
+        "AWB.M.GunOrangeLight"
+      ]
+    },
+    {
+      "name": "AWB.Watergun | blue rear grip and guard",
+      "vertices": 790,
+      "triangles": 1528,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.GunBlue",
+        "AWB.M.GunBlueDark",
+        "AWB.M.GunBlueLight"
+      ]
+    },
+    {
+      "name": "AWB.Watergun | green foregrip",
+      "vertices": 1568,
+      "triangles": 3092,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.GunGreen",
+        "AWB.M.GunGreenLight",
+        "AWB.M.GunWhite"
+      ]
+    },
+    {
+      "name": "AWB.Watergun | orange muzzle and open bore",
+      "vertices": 1308,
+      "triangles": 2374,
+      "zero_area_triangles": 0,
+      "materials": [
+        "AWB.M.GunOrange",
+        "AWB.M.GunOrangeLight",
+        "AWB.M.GunBore"
+      ]
+    }
+  ],
+  "original_scene_preserved": [
+    [
+      "Scene",
+      3
+    ]
+  ]
+}

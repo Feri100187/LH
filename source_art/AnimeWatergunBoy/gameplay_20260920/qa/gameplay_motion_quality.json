@@ -1,0 +1,115 @@
+{
+  "status": "PASS",
+  "actions": [
+    {
+      "name": "Idle",
+      "frames": [
+        1,
+        91
+      ],
+      "seconds": 3.0,
+      "loop": true,
+      "max_wrist_ik_error_m": 7.428568868832906e-07,
+      "max_ankle_ik_error_m": 0.0002794340013992838,
+      "minimum_sole_z_m": -5.4016709327697754e-08,
+      "max_hand_weapon_matrix_difference": 7.748603820800781e-07,
+      "loop_matrix_difference": 0.0,
+      "muzzle_forward_angle_max_deg": 2.0000756716984887
+    },
+    {
+      "name": "Walk",
+      "frames": [
+        1,
+        23
+      ],
+      "seconds": 0.7333333333333333,
+      "loop": true,
+      "max_wrist_ik_error_m": 5.146836054077906e-07,
+      "max_ankle_ik_error_m": 3.6498626328465744e-05,
+      "minimum_sole_z_m": -9.685754776000977e-08,
+      "max_hand_weapon_matrix_difference": 7.897615432739258e-07,
+      "loop_matrix_difference": 0.0,
+      "muzzle_forward_angle_max_deg": 2.8971215858687493,
+      "stance_stride_m": 0.72,
+      "stance_duty": 0.6,
+      "matched_linear_speed_mps": 1.6363636363636362,
+      "measured_stance_ankle_speeds_mps": [
+        1.6363636072684122,
+        1.6363636676918014
+      ],
+      "maximum_stance_ankle_linear_residual_m": 3.0498255865207824e-08,
+      "cadence_steps_per_second": 2.7272727272727275
+    },
+    {
+      "name": "Run",
+      "frames": [
+        1,
+        19
+      ],
+      "seconds": 0.6,
+      "loop": true,
+      "max_wrist_ik_error_m": 4.805480091749757e-07,
+      "max_ankle_ik_error_m": 9.743276481787521e-05,
+      "minimum_sole_z_m": -8.940696716308594e-08,
+      "max_hand_weapon_matrix_difference": 8.121132850646973e-07,
+      "loop_matrix_difference": 0.0,
+      "muzzle_forward_angle_max_deg": 76.99301258061867,
+      "stance_stride_m": 0.9,
+      "stance_duty": 0.38,
+      "matched_linear_speed_mps": 3.9473684210526314,
+      "measured_stance_ankle_speeds_mps": [
+        3.947368466428347,
+        3.9473686021353513
+      ],
+      "maximum_stance_ankle_linear_residual_m": 3.299542827850388e-08,
+      "cadence_steps_per_second": 3.3333333333333335
+    },
+    {
+      "name": "Jump",
+      "frames": [
+        1,
+        43
+      ],
+      "seconds": 1.4,
+      "loop": false,
+      "max_wrist_ik_error_m": 6.289013853719135e-07,
+      "max_ankle_ik_error_m": 4.38183082463378e-05,
+      "minimum_sole_z_m": -8.940696716308594e-08,
+      "max_hand_weapon_matrix_difference": 7.599592208862305e-07,
+      "loop_matrix_difference": null,
+      "muzzle_forward_angle_max_deg": 2.0000756716984887
+    },
+    {
+      "name": "Shoot",
+      "frames": [
+        1,
+        7
+      ],
+      "seconds": 0.2,
+      "loop": true,
+      "max_wrist_ik_error_m": 3.3394895242176905e-07,
+      "max_ankle_ik_error_m": 2.0020480894426034e-06,
+      "minimum_sole_z_m": -5.4016709327697754e-08,
+      "max_hand_weapon_matrix_difference": 7.450580596923828e-07,
+      "loop_matrix_difference": 0.0,
+      "muzzle_forward_angle_max_deg": 0.0
+    },
+    {
+      "name": "RunJump",
+      "frames": [
+        1,
+        49
+      ],
+      "seconds": 1.6,
+      "loop": false,
+      "max_wrist_ik_error_m": 6.952633349471214e-07,
+      "max_ankle_ik_error_m": 7.123928498377539e-05,
+      "minimum_sole_z_m": -1.955777406692505e-07,
+      "max_hand_weapon_matrix_difference": 8.344650268554688e-07,
+      "loop_matrix_difference": null,
+      "muzzle_forward_angle_max_deg": 1.999977817882278
+    }
+  ],
+  "source_sha256": "92eeddcbb9dfc38fae47bff82427689ac7f43e1337c0c900ed927eb15d235c6c",
+  "notes": "World axis Blender forward -Y, glTF forward +Z. Linear-speed match is measured from the linear stance ankle trajectory. Root motion is retained only for original jump source clips and must be stripped by the existing game importer. Two hands remain attached to the independent weapon control. Shoot is a 0.2-second continuous loop with immediate visible water."
+}

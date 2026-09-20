@@ -1,0 +1,392 @@
+{
+  "status": "PASS",
+  "total_bones": 64,
+  "deform_bones": 55,
+  "mesh_objects": 44,
+  "triangles": 125460,
+  "weights": [
+    {
+      "object": "AWB.Neck",
+      "verts": 680,
+      "unweighted": 0,
+      "max_weight_sum_error": 2.9802322387695312e-08,
+      "max_influences": 2
+    },
+    {
+      "object": "AWB.Jacket continuous shoulder and sleeves",
+      "verts": 8002,
+      "unweighted": 0,
+      "max_weight_sum_error": 4.470348358154297e-08,
+      "max_influences": 4
+    },
+    {
+      "object": "AWB.Ribbed waistband",
+      "verts": 448,
+      "unweighted": 0,
+      "max_weight_sum_error": 0.0,
+      "max_influences": 1
+    },
+    {
+      "object": "AWB.Pants continuous seat and legs",
+      "verts": 5502,
+      "unweighted": 0,
+      "max_weight_sum_error": 3.4458935260772705e-08,
+      "max_influences": 3
+    },
+    {
+      "object": "AWB.R elastic ankle hem",
+      "verts": 200,
+      "unweighted": 0,
+      "max_weight_sum_error": 2.9802322387695312e-08,
+      "max_influences": 2
+    },
+    {
+      "object": "AWB.L elastic ankle hem",
+      "verts": 200,
+      "unweighted": 0,
+      "max_weight_sum_error": 2.9802322387695312e-08,
+      "max_influences": 2
+    },
+    {
+      "object": "AWB.White undershirt hem",
+      "verts": 320,
+      "unweighted": 0,
+      "max_weight_sum_error": 0.0,
+      "max_influences": 1
+    },
+    {
+      "object": "AWB.Clothes | R ribbed cuff",
+      "verts": 420,
+      "unweighted": 0,
+      "max_weight_sum_error": 2.9802322387695312e-08,
+      "max_influences": 2
+    },
+    {
+      "object": "AWB.Clothes | L ribbed cuff",
+      "verts": 420,
+      "unweighted": 0,
+      "max_weight_sum_error": 2.9802322387695312e-08,
+      "max_influences": 2
+    },
+    {
+      "object": "AWB.Clothes | layered hood and lining",
+      "verts": 1553,
+      "unweighted": 0,
+      "max_weight_sum_error": 0.0,
+      "max_influences": 1
+    },
+    {
+      "object": "AWB.Clothes | zipper assembly",
+      "verts": 1510,
+      "unweighted": 0,
+      "max_weight_sum_error": 3.4437107387930155e-08,
+      "max_influences": 3
+    },
+    {
+      "object": "AWB.Clothes | collar pockets and stitched detail",
+      "verts": 1539,
+      "unweighted": 0,
+      "max_weight_sum_error": 3.725290298461914e-08,
+      "max_influences": 4
+    },
+    {
+      "object": "AWB.Clothes | trouser seam and welts",
+      "verts": 435,
+      "unweighted": 0,
+      "max_weight_sum_error": 2.9802322387695312e-08,
+      "max_influences": 2
+    },
+    {
+      "object": "AWB.Head sculpted face and skull",
+      "verts": 5027,
+      "unweighted": 0,
+      "max_weight_sum_error": 0.0,
+      "max_influences": 1
+    },
+    {
+      "object": "AWB.Face | R ear",
+      "verts": 478,
+      "unweighted": 0,
+      "max_weight_sum_error": 0.0,
+      "max_influences": 1
+    },
+    {
+      "object": "AWB.Face | R eye and eyelids",
+      "verts": 1165,
+      "unweighted": 0,
+      "max_weight_sum_error": 0.0,
+      "max_influences": 1
+    },
+    {
+      "object": "AWB.Face | L ear",
+      "verts": 478,
+      "unweighted": 0,
+      "max_weight_sum_error": 0.0,
+      "max_influences": 1
+    },
+    {
+      "object": "AWB.Face | L eye and eyelids",
+      "verts": 1165,
+      "unweighted": 0,
+      "max_weight_sum_error": 0.0,
+      "max_influences": 1
+    },
+    {
+      "object": "AWB.Face | brows",
+      "verts": 20,
+      "unweighted": 0,
+      "max_weight_sum_error": 0.0,
+      "max_influences": 1
+    },
+    {
+      "object": "AWB.Face | mouth and nose detail",
+      "verts": 303,
+      "unweighted": 0,
+      "max_weight_sum_error": 0.0,
+      "max_influences": 1
+    },
+    {
+      "object": "AWB.Hair sculpted layered crown",
+      "verts": 5230,
+      "unweighted": 0,
+      "max_weight_sum_error": 0.0,
+      "max_influences": 1
+    },
+    {
+      "object": "AWB.Hair | layered bangs",
+      "verts": 1920,
+      "unweighted": 0,
+      "max_weight_sum_error": 0.0,
+      "max_influences": 1
+    },
+    {
+      "object": "AWB.Hair | crown tufts",
+      "verts": 220,
+      "unweighted": 0,
+      "max_weight_sum_error": 0.0,
+      "max_influences": 1
+    },
+    {
+      "object": "AWB.Hair | nape locks",
+      "verts": 1120,
+      "unweighted": 0,
+      "max_weight_sum_error": 0.0,
+      "max_influences": 1
+    },
+    {
+      "object": "AWB.Glasses | dark frame bridge and temples",
+      "verts": 1068,
+      "unweighted": 0,
+      "max_weight_sum_error": 0.0,
+      "max_influences": 1
+    },
+    {
+      "object": "AWB.Glasses | transparent lenses",
+      "verts": 74,
+      "unweighted": 0,
+      "max_weight_sum_error": 0.0,
+      "max_influences": 1
+    },
+    {
+      "object": "AWB.Right hand rear grip",
+      "verts": 4746,
+      "unweighted": 0,
+      "max_weight_sum_error": 4.470348358154297e-08,
+      "max_influences": 3
+    },
+    {
+      "object": "AWB.Left hand foregrip support",
+      "verts": 4734,
+      "unweighted": 0,
+      "max_weight_sum_error": 3.943569026887417e-08,
+      "max_influences": 3
+    },
+    {
+      "object": "AWB.Hand | R nails",
+      "verts": 125,
+      "unweighted": 0,
+      "max_weight_sum_error": 2.9802322387695312e-08,
+      "max_influences": 2
+    },
+    {
+      "object": "AWB.Hand | L nails",
+      "verts": 125,
+      "unweighted": 0,
+      "max_weight_sum_error": 2.9802322387695312e-08,
+      "max_influences": 2
+    },
+    {
+      "object": "AWB.R continuous sneaker upper",
+      "verts": 1602,
+      "unweighted": 0,
+      "max_weight_sum_error": 2.9802322387695312e-08,
+      "max_influences": 2
+    },
+    {
+      "object": "AWB.L continuous sneaker upper",
+      "verts": 1602,
+      "unweighted": 0,
+      "max_weight_sum_error": 2.9802322387695312e-08,
+      "max_influences": 2
+    },
+    {
+      "object": "AWB.Shoe | R layered sole",
+      "verts": 794,
+      "unweighted": 0,
+      "max_weight_sum_error": 2.9802322387695312e-08,
+      "max_influences": 2
+    },
+    {
+      "object": "AWB.Shoe | R tongue laces and panels",
+      "verts": 1469,
+      "unweighted": 0,
+      "max_weight_sum_error": 2.9802322387695312e-08,
+      "max_influences": 2
+    },
+    {
+      "object": "AWB.Shoe | L layered sole",
+      "verts": 794,
+      "unweighted": 0,
+      "max_weight_sum_error": 2.9802322387695312e-08,
+      "max_influences": 2
+    },
+    {
+      "object": "AWB.Shoe | L tongue laces and panels",
+      "verts": 1469,
+      "unweighted": 0,
+      "max_weight_sum_error": 2.9802322387695312e-08,
+      "max_influences": 2
+    },
+    {
+      "object": "AWB.Gun orange trigger",
+      "verts": 144,
+      "unweighted": 0,
+      "max_weight_sum_error": 0.0,
+      "max_influences": 1
+    },
+    {
+      "object": "AWB.Watergun | white receiver and rails",
+      "verts": 1970,
+      "unweighted": 0,
+      "max_weight_sum_error": 0.0,
+      "max_influences": 1
+    },
+    {
+      "object": "AWB.Watergun | blue reservoir",
+      "verts": 848,
+      "unweighted": 0,
+      "max_weight_sum_error": 0.0,
+      "max_influences": 1
+    },
+    {
+      "object": "AWB.Watergun | orange fill cap",
+      "verts": 240,
+      "unweighted": 0,
+      "max_weight_sum_error": 0.0,
+      "max_influences": 1
+    },
+    {
+      "object": "AWB.Watergun | blue rear grip and guard",
+      "verts": 790,
+      "unweighted": 0,
+      "max_weight_sum_error": 0.0,
+      "max_influences": 1
+    },
+    {
+      "object": "AWB.Watergun | green foregrip",
+      "verts": 1568,
+      "unweighted": 0,
+      "max_weight_sum_error": 0.0,
+      "max_influences": 1
+    },
+    {
+      "object": "AWB.Watergun | orange muzzle and open bore",
+      "verts": 1308,
+      "unweighted": 0,
+      "max_weight_sum_error": 0.0,
+      "max_influences": 1
+    },
+    {
+      "object": "FX_WaterPulse",
+      "verts": 378,
+      "unweighted": 0,
+      "max_weight_sum_error": 0.0,
+      "max_influences": 1
+    }
+  ],
+  "actions": [
+    {
+      "action": "Idle",
+      "frames": [
+        1,
+        91
+      ],
+      "minimum_sole_z_m": -5.4016709327697754e-08,
+      "both_feet_airborne_frames": 0,
+      "maximum_ik_error_m": 2.0724001205392714e-06,
+      "maximum_hand_weapon_matrix_difference": 7.566413842141628e-07,
+      "loop_matrix_difference": 0.0
+    },
+    {
+      "action": "Walk",
+      "frames": [
+        1,
+        33
+      ],
+      "minimum_sole_z_m": -1.0058283805847168e-07,
+      "both_feet_airborne_frames": 0,
+      "maximum_ik_error_m": 4.158388581181436e-05,
+      "maximum_hand_weapon_matrix_difference": 7.534399628639221e-07,
+      "loop_matrix_difference": 0.0
+    },
+    {
+      "action": "Run",
+      "frames": [
+        1,
+        23
+      ],
+      "minimum_sole_z_m": -1.0803341865539551e-07,
+      "both_feet_airborne_frames": 2,
+      "maximum_ik_error_m": 8.806607949122086e-05,
+      "maximum_hand_weapon_matrix_difference": 7.695052772760391e-07,
+      "loop_matrix_difference": 0.0
+    },
+    {
+      "action": "Jump",
+      "frames": [
+        1,
+        43
+      ],
+      "minimum_sole_z_m": -8.940696716308594e-08,
+      "both_feet_airborne_frames": 16,
+      "maximum_ik_error_m": 4.38183082463378e-05,
+      "maximum_hand_weapon_matrix_difference": 7.30453044273105e-07,
+      "loop_matrix_difference": null
+    },
+    {
+      "action": "Shoot",
+      "frames": [
+        1,
+        76
+      ],
+      "minimum_sole_z_m": -5.4016709327697754e-08,
+      "both_feet_airborne_frames": 0,
+      "maximum_ik_error_m": 2.0130532603040735e-06,
+      "maximum_hand_weapon_matrix_difference": 8.344650268554688e-07,
+      "loop_matrix_difference": null
+    },
+    {
+      "action": "RunJump",
+      "frames": [
+        1,
+        49
+      ],
+      "minimum_sole_z_m": -1.955777406692505e-07,
+      "both_feet_airborne_frames": 24,
+      "maximum_ik_error_m": 7.123928498377539e-05,
+      "maximum_hand_weapon_matrix_difference": 7.219268622904451e-07,
+      "loop_matrix_difference": null
+    }
+  ],
+  "notes": "Floor checks include complete sole meshes at every authored frame. Hand-weapon matrices exclude intentional trigger-finger articulation. In-place locomotion intentionally moves stance feet relative to a stationary root."
+}

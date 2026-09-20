@@ -1,0 +1,26 @@
+{
+  "max_inverse_bind_difference": 0.0,
+  "max_node_trs_difference": 0.0,
+  "animation_names": [
+    "Idle",
+    "Jump",
+    "Run",
+    "RunBack",
+    "RunBackLeft",
+    "RunBackRight",
+    "RunForwardLeft",
+    "RunForwardRight",
+    "RunJump",
+    "RunLeft",
+    "RunRight",
+    "Shoot",
+    "Walk",
+    "WalkBack",
+    "WalkBackLeft",
+    "WalkBackRight",
+    "WalkForwardLeft",
+    "WalkForwardRight",
+    "WalkLeft",
+    "WalkRight"
+  ]
+}

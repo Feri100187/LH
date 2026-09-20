@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-20",
+  "entry": "http://127.0.0.1:18765/?controls=touch",
+  "method": "Official browser; real DOM button clicks; read-only data-player-status and console inspection",
+  "artifact": "release/web",
+  "console_filter_since_utc": "2026-09-20T02:49:10Z",
+  "warnings_and_errors_after_refresh": [],
+  "loaded": true,
+  "meshes_total": 44,
+  "first_person_visible_meshes": 30,
+  "third_person_visible_meshes": 44,
+  "grounded_position": [-26, 1.7599999761581422, 37.2],
+  "in_air_position": [-26, 2.859999976158144, 37.2],
+  "root_local_position_in_air_and_on_ground": [0, 0.0012000000569969416, 0],
+  "observed_native_states": [
+    "Idle/", "Jump/", "Jump/UpperIdle", "Jump/Shoot",
+    "Land/Shoot", "Idle/Shoot", "Idle/"
+  ],
+  "final_grounded": true,
+  "final_airborne": false,
+  "final_shooting": false,
+  "final_upper_weight": 0,
+  "final_touch_pointer_count": 0,
+  "visual_checks": ["black clothing", "character visible", "shoes at ground", "no visible capsule"],
+  "temporary_viewport_override_reset": true,
+  "edge_case_regression": "edge_case_tests.json: 12/12 PASS",
+  "single_html": "Build succeeded; no independent browser runtime check in this run",
+  "limits": ["No physical phone multi-touch or performance test", "Shooting is animation and water visual; no hit or damage system"]
+}

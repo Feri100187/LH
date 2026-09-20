@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "mesh_count": 1,
+  "triangles": 656,
+  "length_m": 0.5,
+  "waterline_origin": true,
+  "min_z_blender": -0.12800000607967377,
+  "textures": [
+    {
+      "name": "Duck_BaseColor",
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  ],
+  "render": "D:/a/xiang_mu/LH/source_art/LakeDucks/previews/Duck_roundtrip_threequarter.png"
+}

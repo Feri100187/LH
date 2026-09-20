@@ -1,0 +1,17 @@
+{
+  "method": "Final hand vertices against closed 0.95 mm voxel union of actual gun geometry; static pose only",
+  "results": [
+    {
+      "hand": "R",
+      "min_skin_clearance_mm": 0.66,
+      "vertices_inside": 0,
+      "contact_vertices_under_2mm": 484
+    },
+    {
+      "hand": "L",
+      "min_skin_clearance_mm": 0.651,
+      "vertices_inside": 0,
+      "contact_vertices_under_2mm": 502
+    }
+  ]
+}

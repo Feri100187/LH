@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "videos": [
+    {
+      "file": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/rigged_20260919/previews/01_Idle.mp4",
+      "frames": 90,
+      "seconds": 3.0,
+      "decoded_size": [
+        720,
+        900
+      ],
+      "decoded_frames": 90
+    },
+    {
+      "file": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/rigged_20260919/previews/02_Walk.mp4",
+      "frames": 96,
+      "seconds": 3.2,
+      "decoded_size": [
+        720,
+        900
+      ],
+      "decoded_frames": 96
+    },
+    {
+      "file": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/rigged_20260919/previews/03_Run.mp4",
+      "frames": 88,
+      "seconds": 2.933333333333333,
+      "decoded_size": [
+        720,
+        900
+      ],
+      "decoded_frames": 88
+    },
+    {
+      "file": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/rigged_20260919/previews/04_Jump.mp4",
+      "frames": 84,
+      "seconds": 2.8,
+      "decoded_size": [
+        720,
+        900
+      ],
+      "decoded_frames": 84
+    },
+    {
+      "file": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/rigged_20260919/previews/05_Shoot.mp4",
+      "frames": 75,
+      "seconds": 2.5,
+      "decoded_size": [
+        720,
+        900
+      ],
+      "decoded_frames": 75
+    },
+    {
+      "file": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/rigged_20260919/previews/06_RunJump.mp4",
+      "frames": 71,
+      "seconds": 2.3666666666666667,
+      "decoded_size": [
+        720,
+        900
+      ],
+      "decoded_frames": 71
+    },
+    {
+      "file": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/rigged_20260919/previews/00_AllActions.mp4",
+      "frames": 504,
+      "seconds": 16.8,
+      "decoded_size": [
+        720,
+        900
+      ],
+      "decoded_frames": 504
+    }
+  ]
+}

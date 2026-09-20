@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "actions": [
+    {
+      "name": "Idle",
+      "channels": 165,
+      "max_float_difference": 0.0
+    },
+    {
+      "name": "Walk",
+      "channels": 165,
+      "max_float_difference": 0.0
+    },
+    {
+      "name": "Run",
+      "channels": 165,
+      "max_float_difference": 0.0
+    },
+    {
+      "name": "Jump",
+      "channels": 165,
+      "max_float_difference": 0.0
+    },
+    {
+      "name": "Shoot",
+      "channels": 165,
+      "max_float_difference": 0.0
+    },
+    {
+      "name": "RunJump",
+      "channels": 165,
+      "max_float_difference": 0.0
+    }
+  ]
+}

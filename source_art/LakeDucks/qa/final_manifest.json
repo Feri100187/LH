@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "frozen_date": "2026-09-20",
+  "glb_sha256": "1174E98228A43BC1179DEF55A229797A9A409EC889CFDB096368C6339A452FE4",
+  "texture_sha256": "7BCBE70BF2FB5FDE4E081A85BD362F1CFC2DFCD527D75B10AE308F5A3C495B6E",
+  "glb_bytes": 314344,
+  "texture_bytes": 266107,
+  "embedded_texture_size": [
+    1024,
+    1024
+  ],
+  "exported_png_size": [
+    1024,
+    1024
+  ]
+}

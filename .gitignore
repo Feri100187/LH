@@ -1,0 +1,29 @@
+.DS_Store
+temp
+library
+local
+release
+node_modules
+bin/js/bundles
+
+# Local editor state, temporary exports and recovery copies
+/.chat/
+/.tmp/
+/backups/
+/bin/
+**/__pycache__/
+*.py[cod]
+*.blend[0-9]
+*.log
+
+# Reproducible render frames and duplicate delivery archives
+source_art/**/frames/
+source_art/**/*Delivery.zip
+
+# Local credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key

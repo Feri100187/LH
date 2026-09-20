@@ -1,0 +1,142 @@
+[
+  {
+    "action": "WalkBack",
+    "phase": 0.0,
+    "path": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/directional_20260920/previews/WalkBack_contact.png"
+  },
+  {
+    "action": "WalkBack",
+    "phase": 0.25,
+    "path": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/directional_20260920/previews/WalkBack_spread.png"
+  },
+  {
+    "action": "WalkLeft",
+    "phase": 0.0,
+    "path": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/directional_20260920/previews/WalkLeft_contact.png"
+  },
+  {
+    "action": "WalkLeft",
+    "phase": 0.25,
+    "path": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/directional_20260920/previews/WalkLeft_spread.png"
+  },
+  {
+    "action": "WalkRight",
+    "phase": 0.0,
+    "path": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/directional_20260920/previews/WalkRight_contact.png"
+  },
+  {
+    "action": "WalkRight",
+    "phase": 0.25,
+    "path": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/directional_20260920/previews/WalkRight_spread.png"
+  },
+  {
+    "action": "WalkForwardLeft",
+    "phase": 0.0,
+    "path": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/directional_20260920/previews/WalkForwardLeft_contact.png"
+  },
+  {
+    "action": "WalkForwardLeft",
+    "phase": 0.25,
+    "path": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/directional_20260920/previews/WalkForwardLeft_spread.png"
+  },
+  {
+    "action": "WalkForwardRight",
+    "phase": 0.0,
+    "path": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/directional_20260920/previews/WalkForwardRight_contact.png"
+  },
+  {
+    "action": "WalkForwardRight",
+    "phase": 0.25,
+    "path": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/directional_20260920/previews/WalkForwardRight_spread.png"
+  },
+  {
+    "action": "WalkBackLeft",
+    "phase": 0.0,
+    "path": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/directional_20260920/previews/WalkBackLeft_contact.png"
+  },
+  {
+    "action": "WalkBackLeft",
+    "phase": 0.25,
+    "path": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/directional_20260920/previews/WalkBackLeft_spread.png"
+  },
+  {
+    "action": "WalkBackRight",
+    "phase": 0.0,
+    "path": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/directional_20260920/previews/WalkBackRight_contact.png"
+  },
+  {
+    "action": "WalkBackRight",
+    "phase": 0.25,
+    "path": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/directional_20260920/previews/WalkBackRight_spread.png"
+  },
+  {
+    "action": "RunBack",
+    "phase": 0.0,
+    "path": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/directional_20260920/previews/RunBack_contact.png"
+  },
+  {
+    "action": "RunBack",
+    "phase": 0.25,
+    "path": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/directional_20260920/previews/RunBack_spread.png"
+  },
+  {
+    "action": "RunLeft",
+    "phase": 0.0,
+    "path": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/directional_20260920/previews/RunLeft_contact.png"
+  },
+  {
+    "action": "RunLeft",
+    "phase": 0.25,
+    "path": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/directional_20260920/previews/RunLeft_spread.png"
+  },
+  {
+    "action": "RunRight",
+    "phase": 0.0,
+    "path": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/directional_20260920/previews/RunRight_contact.png"
+  },
+  {
+    "action": "RunRight",
+    "phase": 0.25,
+    "path": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/directional_20260920/previews/RunRight_spread.png"
+  },
+  {
+    "action": "RunForwardLeft",
+    "phase": 0.0,
+    "path": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/directional_20260920/previews/RunForwardLeft_contact.png"
+  },
+  {
+    "action": "RunForwardLeft",
+    "phase": 0.25,
+    "path": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/directional_20260920/previews/RunForwardLeft_spread.png"
+  },
+  {
+    "action": "RunForwardRight",
+    "phase": 0.0,
+    "path": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/directional_20260920/previews/RunForwardRight_contact.png"
+  },
+  {
+    "action": "RunForwardRight",
+    "phase": 0.25,
+    "path": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/directional_20260920/previews/RunForwardRight_spread.png"
+  },
+  {
+    "action": "RunBackLeft",
+    "phase": 0.0,
+    "path": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/directional_20260920/previews/RunBackLeft_contact.png"
+  },
+  {
+    "action": "RunBackLeft",
+    "phase": 0.25,
+    "path": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/directional_20260920/previews/RunBackLeft_spread.png"
+  },
+  {
+    "action": "RunBackRight",
+    "phase": 0.0,
+    "path": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/directional_20260920/previews/RunBackRight_contact.png"
+  },
+  {
+    "action": "RunBackRight",
+    "phase": 0.25,
+    "path": "D:/a/xiang_mu/LH/source_art/AnimeWatergunBoy/directional_20260920/previews/RunBackRight_spread.png"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "source_bounds_blender_min": [
+    -0.4908120036125183,
+    -1.2738889455795288,
+    0.0
+  ],
+  "source_bounds_blender_max": [
+    0.4908120036125183,
+    1.2738900184631348,
+    1.8700209856033325
+  ],
+  "source_scale_to_meters": 0.19624936348741567,
+  "normalized_dry_bounds_min": [
+    -0.09632154554128647,
+    -0.25,
+    0.0
+  ],
+  "normalized_dry_bounds_max": [
+    0.09632154554128647,
+    0.25,
+    0.36699041724205017
+  ],
+  "vertices": 1328,
+  "triangles": 656,
+  "materials": [
+    "MallardDuck_Mat"
+  ],
+  "textures": [
+    {
+      "name": "MallardDuck_BaseColor",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "channels": 4
+    }
+  ]
+}

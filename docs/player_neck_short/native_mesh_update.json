@@ -1,0 +1,170 @@
+[
+  {
+    "index": 6,
+    "mesh": "AWB.R shaped eyebrow.mesh.001",
+    "objects": [
+      "AWB.Face | brows"
+    ],
+    "native_file": "assets\\characters\\AnimeWatergunPlayer-unpacked\\AWB.R shaped eyebrow.mesh.001.lm",
+    "uuid": "21cab5dd-019f-4fdc-94ce-6102cb52d5fb",
+    "old_sha256": "160a997f17da44a1eed7648ed0eef7bf9d02dd9d9dd6b947b654dfa86e816cab",
+    "new_sha256": "6d5c5380574c3727f809b21437052bd604d004cb8d4b3b3046b48da99135d18b",
+    "changed": true
+  },
+  {
+    "index": 7,
+    "mesh": "AWB.L ear outer helix.mesh.001",
+    "objects": [
+      "AWB.Face | L ear"
+    ],
+    "native_file": "assets\\characters\\AnimeWatergunPlayer-unpacked\\AWB.L ear outer helix.mesh.001.lm",
+    "uuid": "ab14de66-dc5a-44b2-a05d-45f073d1b555",
+    "old_sha256": "aece39ab09ecc78c89a2f23bf96386444cb4c88772f5445730cccffc8e85cebe",
+    "new_sha256": "4ee7a490403f5d0081b2cbeb179743213cd03641f0d81e3701f5a7dd886e1de8",
+    "changed": true
+  },
+  {
+    "index": 8,
+    "mesh": "AWB.L almond sclera.mesh.001",
+    "objects": [
+      "AWB.Face | L eye and eyelids"
+    ],
+    "native_file": "assets\\characters\\AnimeWatergunPlayer-unpacked\\AWB.L almond sclera.mesh.001.lm",
+    "uuid": "cee15dec-0aae-4858-8c21-644ec6de8eb6",
+    "old_sha256": "bcc4f53d4243a694b7a24e00a7f02626a6dc0b722cbe500574930871cfc5e1ee",
+    "new_sha256": "824a116438178fc4135bf9d0a193e83d8c9bcd280e37cece127734e6830ab421",
+    "changed": true
+  },
+  {
+    "index": 9,
+    "mesh": "AWB.Quiet closed mouth.mesh.001",
+    "objects": [
+      "AWB.Face | mouth and nose detail"
+    ],
+    "native_file": "assets\\characters\\AnimeWatergunPlayer-unpacked\\AWB.Quiet closed mouth.mesh.001.lm",
+    "uuid": "ea1bb9e7-c2ac-4c80-b57f-35378f334961",
+    "old_sha256": "47b8c88e767ca215b7792d007be83a1bfa57812f6cd5cf8f67e4299084a08dac",
+    "new_sha256": "a4e1dcf3d4e71de7671242d1ea2d2ac9da2e07ed2643a7e2d442f1e36cc3b57c",
+    "changed": true
+  },
+  {
+    "index": 10,
+    "mesh": "AWB.R ear outer helix.mesh.001",
+    "objects": [
+      "AWB.Face | R ear"
+    ],
+    "native_file": "assets\\characters\\AnimeWatergunPlayer-unpacked\\AWB.R ear outer helix.mesh.001.lm",
+    "uuid": "08b792eb-608d-4222-a8d9-01640beda6e3",
+    "old_sha256": "1b683bd05fbe07c0237cfec51ae807eb6195bb2d9f9d30555b0b1749a42d1f2a",
+    "new_sha256": "6df924a615bd00f08e9198666a5d6d9a5acf2c983180c670eda3ca90df295b7c",
+    "changed": true
+  },
+  {
+    "index": 11,
+    "mesh": "AWB.R almond sclera.mesh.001",
+    "objects": [
+      "AWB.Face | R eye and eyelids"
+    ],
+    "native_file": "assets\\characters\\AnimeWatergunPlayer-unpacked\\AWB.R almond sclera.mesh.001.lm",
+    "uuid": "f6ac69d3-9f57-4a7a-84ed-2421b1e06331",
+    "old_sha256": "c1b401d7c8611efbc032bf8cfdddae19a29935ddb42fa39204fb3f7c9e7940f6",
+    "new_sha256": "91e362a8c010f7d5c7eb1adf33cf9c041bd83d51f38cc0254bf70620eed4c213",
+    "changed": true
+  },
+  {
+    "index": 12,
+    "mesh": "AWB.R full rectangular frame.mesh.001",
+    "objects": [
+      "AWB.Glasses | dark frame bridge and temples"
+    ],
+    "native_file": "assets\\characters\\AnimeWatergunPlayer-unpacked\\AWB.R full rectangular frame.mesh.001.lm",
+    "uuid": "068f18f4-0aef-4a97-b65a-f88ed3964290",
+    "old_sha256": "9b53e35dae16dab346ce5aeb104c9701d47dcbea20e8f19843f659037b2d8ebf",
+    "new_sha256": "5803db0bb1d60cfc9d914857b0840bafb7bbb4269af6993f09595fe9e3e363b4",
+    "changed": true
+  },
+  {
+    "index": 13,
+    "mesh": "AWB.R transparent lens.mesh.001",
+    "objects": [
+      "AWB.Glasses | transparent lenses"
+    ],
+    "native_file": "assets\\characters\\AnimeWatergunPlayer-unpacked\\AWB.R transparent lens.mesh.001.lm",
+    "uuid": "8db984ad-faf9-4cbb-be29-3e2f7ee396fa",
+    "old_sha256": "4bbb5e384c47396618d4ccbb0063c038ab4c332d16c9190412b9dd650b5d552c",
+    "new_sha256": "c9b7e4c666735a8a6697d828b53114aee6bc7ca973dc53557ede98ffce038a9f",
+    "changed": true
+  },
+  {
+    "index": 15,
+    "mesh": "AWB.Hair fitted scalp cap.mesh.003",
+    "objects": [
+      "AWB.Hair sculpted layered crown"
+    ],
+    "native_file": "assets\\characters\\AnimeWatergunPlayer-unpacked\\AWB.Hair fitted scalp cap.mesh.003.lm",
+    "uuid": "1376496b-ddc6-4463-9eb3-fbcdad74d161",
+    "old_sha256": "c1c4ed0c0103e454c14c0285f7ce1f4e7e8aded3575b0f25e4b8f5d7880fd3ed",
+    "new_sha256": "4932f73f4817715993c9bf32e4481a1adda24fdd6712eaa0799cf41874c41929",
+    "changed": true
+  },
+  {
+    "index": 16,
+    "mesh": "AWB.Natural crown tuft 0.mesh.001",
+    "objects": [
+      "AWB.Hair | crown tufts"
+    ],
+    "native_file": "assets\\characters\\AnimeWatergunPlayer-unpacked\\AWB.Natural crown tuft 0.mesh.001.lm",
+    "uuid": "6bd7f6e7-adc2-4159-9031-ec077f4400f7",
+    "old_sha256": "92c31ddf329b55d2efd98a862e94d1f0974d20164b68ee152fd8e64e2a23a1b1",
+    "new_sha256": "3717fe6d5009ee156adb236902f436432fb4248b8a3d8be9cd49ee5e8c95e5bd",
+    "changed": true
+  },
+  {
+    "index": 17,
+    "mesh": "AWB.Bangs 00.mesh.001",
+    "objects": [
+      "AWB.Hair | layered bangs"
+    ],
+    "native_file": "assets\\characters\\AnimeWatergunPlayer-unpacked\\AWB.Bangs 00.mesh.001.lm",
+    "uuid": "e11d4248-1db2-4d17-ba0e-34e10960b139",
+    "old_sha256": "10d21d026130c65105564921a7a44bbf859502a90b08ea392b6c6b6048e06778",
+    "new_sha256": "c9a7ab600656d61208338e3aed6bf5d5d51c27aa098850df1a00ec3e17a06582",
+    "changed": true
+  },
+  {
+    "index": 18,
+    "mesh": "AWB.Nape taper 0.mesh",
+    "objects": [
+      "AWB.Hair | nape locks"
+    ],
+    "native_file": "assets\\characters\\AnimeWatergunPlayer-unpacked\\AWB.Nape taper 0.mesh.lm",
+    "uuid": "1d82a4a5-df12-472e-b6e8-72acc82b3056",
+    "old_sha256": "934736cfc4e3eeee6678a16125218fb261beb519fc3330dbe02a77871ddd117b",
+    "new_sha256": "50345ad0ff9c20808464ebc14c790d0bcf649db3a84e4116ef9aa9537f8c0eea",
+    "changed": true
+  },
+  {
+    "index": 21,
+    "mesh": "AWB.Head sculpted face and skull.mesh.001",
+    "objects": [
+      "AWB.Head sculpted face and skull"
+    ],
+    "native_file": "assets\\characters\\AnimeWatergunPlayer-unpacked\\AWB.Head sculpted face and skull.mesh.001.lm",
+    "uuid": "8f2c3fef-1fb1-4844-a9f7-b3b4ce6d168a",
+    "old_sha256": "9495f1810f7748162791d24caded25884111b19542341a27c1cbf8984f28a2ae",
+    "new_sha256": "056b478d0f821c20ba451b3d26755019b399b89369bfd56ebc83a41148ed8516",
+    "changed": true
+  },
+  {
+    "index": 26,
+    "mesh": "AWB.Neck.mesh.001",
+    "objects": [
+      "AWB.Neck"
+    ],
+    "native_file": "assets\\characters\\AnimeWatergunPlayer-unpacked\\AWB.Neck.mesh.001.lm",
+    "uuid": "e3017ea4-5e61-458d-8ad8-1baeaf757263",
+    "old_sha256": "ba14c86e2c4c54893d2cf74641d96ac5be5f3003890933d21ca6218d930389ce",
+    "new_sha256": "9eb9dafe4f9c134cd859514770bc975a1352b692e3467a5e6f6ec3a233dc5f0a",
+    "changed": true
+  }
+]

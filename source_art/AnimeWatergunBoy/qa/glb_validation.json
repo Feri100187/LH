@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "format": "glTF 2.0 binary",
+  "file_bytes": 3391704,
+  "mesh_objects": 43,
+  "triangles": 124736,
+  "primitives": 99,
+  "materials": 44,
+  "embedded_images": 1,
+  "vertex_color_primitives": 2,
+  "bounds_error_m": 2.9802322387695312e-08,
+  "dimensions_m": [
+    0.7132014036178589,
+    0.5544164925813675,
+    1.804210627451539
+  ],
+  "invalid_indices": 0,
+  "nonfinite_positions": 0,
+  "transparent_lenses": true,
+  "skins": 0,
+  "animations": 0,
+  "reimport_views": [
+    "Front",
+    "Side",
+    "Back",
+    "ThreeQuarter",
+    "HandsDetail"
+  ],
+  "material_extensions": [
+    "KHR_materials_specular",
+    "KHR_materials_ior"
+  ]
+}

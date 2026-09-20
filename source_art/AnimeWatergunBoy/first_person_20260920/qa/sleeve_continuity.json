@@ -1,0 +1,3007 @@
+{
+  "topology": {
+    "vertices": 3360,
+    "faces": 3284,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "connected_component_vertices": [
+      1680,
+      1680
+    ]
+  },
+  "source_samples": 98,
+  "imported_samples": 98,
+  "crossfade_samples": 75,
+  "maximum_source_cuff_surface_distance_m": 0.0035960667300969362,
+  "maximum_imported_cuff_surface_distance_m": 0.003758078906685114,
+  "maximum_crossfade_cuff_surface_distance_m": 0.0037579811178147793,
+  "visible_sleeve_end_vertices": 0,
+  "source_checks": [
+    {
+      "sample": "Idle:1",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002088329289108515,
+        "R": 0.0035542703699320555
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:2",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020885635167360306,
+        "R": 0.0035514719784259796
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:3",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020886235870420933,
+        "R": 0.0035485911648720503
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:4",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020887996070086956,
+        "R": 0.0035458276979625225
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:5",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020890284795314074,
+        "R": 0.0035430975258350372
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:6",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020890217274427414,
+        "R": 0.0035403508227318525
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:7",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020892585162073374,
+        "R": 0.003537686774507165
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:8",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020893854089081287,
+        "R": 0.0035351752303540707
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:9",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020894266199320555,
+        "R": 0.003532720496878028
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:10",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020896114874631166,
+        "R": 0.003530357964336872
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:11",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020897395443171263,
+        "R": 0.0035281565506011248
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:12",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020897425711154938,
+        "R": 0.0035260862205177546
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:13",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002089829882606864,
+        "R": 0.0035240808501839638
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:14",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020898685324937105,
+        "R": 0.003522269893437624
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:15",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020899518858641386,
+        "R": 0.0035206389147788286
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:16",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002089939545840025,
+        "R": 0.0035192458890378475
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:17",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020899821538478136,
+        "R": 0.003518050769343972
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:18",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002089979825541377,
+        "R": 0.0035169669426977634
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:19",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020899702794849873,
+        "R": 0.0035160393454134464
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:20",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020899916999042034,
+        "R": 0.0035154332872480154
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:21",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020898545626550913,
+        "R": 0.0035149615723639727
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:22",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020899749360978603,
+        "R": 0.0035147001035511494
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:23",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020898606162518263,
+        "R": 0.003514587879180908
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:24",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002089916029945016,
+        "R": 0.003514825366437435
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:25",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002089802175760269,
+        "R": 0.003515235148370266
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:26",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002089628018438816,
+        "R": 0.0035157622769474983
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:27",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020895469933748245,
+        "R": 0.003516595112159848
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:28",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020893984474241734,
+        "R": 0.0035175613593310118
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:29",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020893176551908255,
+        "R": 0.0035188402980566025
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:30",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020892631728202105,
+        "R": 0.003520077094435692
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:31",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002088990993797779,
+        "R": 0.0035216305404901505
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:32",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020888594444841146,
+        "R": 0.003523392602801323
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:33",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002088781911879778,
+        "R": 0.0035252717789262533
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:34",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020885092671960592,
+        "R": 0.00352730555459857
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:35",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020885136909782887,
+        "R": 0.0035295516718178988
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:36",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002088248962536454,
+        "R": 0.003531787544488907
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:37",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020880589727312326,
+        "R": 0.0035342040937393904
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:38",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002087912755087018,
+        "R": 0.0035367009695619345
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:39",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020878680516034365,
+        "R": 0.003539305878803134
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:40",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002087611937895417,
+        "R": 0.003542015329003334
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:41",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002087407512590289,
+        "R": 0.0035447427071630955
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:42",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020872296299785376,
+        "R": 0.003547505708411336
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:43",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020871153101325035,
+        "R": 0.0035503432154655457
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:44",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020868140272796154,
+        "R": 0.003553214017301798
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:45",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020867730490863323,
+        "R": 0.0035561341792345047
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:46",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020866713020950556,
+        "R": 0.0035588834434747696
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:47",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020863935351371765,
+        "R": 0.0035616662353277206
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:48",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020862752571702003,
+        "R": 0.0035644941963255405
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:49",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002086218912154436,
+        "R": 0.003567152190953493
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:50",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002086036838591099,
+        "R": 0.0035698197316378355
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:51",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002085925079882145,
+        "R": 0.003572439309209585
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:52",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020857572089880705,
+        "R": 0.0035749764647334814
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:53",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020857544150203466,
+        "R": 0.0035773301497101784
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:54",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020855662878602743,
+        "R": 0.003579630982130766
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:55",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020855164621025324,
+        "R": 0.00358183472417295
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:56",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020853974856436253,
+        "R": 0.0035838563926517963
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:57",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002085333224385977,
+        "R": 0.0035857411567121744
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:58",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002085380721837282,
+        "R": 0.0035875483881682158
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:59",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002085180254653096,
+        "R": 0.0035892189480364323
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:60",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002085266401991248,
+        "R": 0.003590644570067525
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:61",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020851674489676952,
+        "R": 0.0035919062793254852
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:62",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020852042362093925,
+        "R": 0.0035930797457695007
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:63",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020851686131209135,
+        "R": 0.003593979636207223
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:64",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020850764121860266,
+        "R": 0.003594748442992568
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:65",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.00208524358458817,
+        "R": 0.0035953030455857515
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:66",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020852270536124706,
+        "R": 0.003595745423808694
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:67",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020852803718298674,
+        "R": 0.0035959926899522543
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:68",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020853031892329454,
+        "R": 0.0035960667300969362
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:69",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020853907335549593,
+        "R": 0.0035958553198724985
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:70",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002085413783788681,
+        "R": 0.0035955552011728287
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:71",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020855434704571962,
+        "R": 0.0035950380843132734
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:72",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020856414921581745,
+        "R": 0.003594314679503441
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:73",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.00208582216873765,
+        "R": 0.003593448083847761
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:74",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002085810760036111,
+        "R": 0.003592449938878417
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:75",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020860163494944572,
+        "R": 0.0035912091843783855
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:76",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020861069206148386,
+        "R": 0.003589748404920101
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:77",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002086256630718708,
+        "R": 0.0035881632938981056
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:78",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020864016842097044,
+        "R": 0.0035864966921508312
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:79",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002086504828184843,
+        "R": 0.0035846505779772997
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:80",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.00208669388666749,
+        "R": 0.0035825995728373528
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:81",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002086753724142909,
+        "R": 0.00358048384077847
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:82",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020869490690529346,
+        "R": 0.0035782719496637583
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:83",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020870917942374945,
+        "R": 0.0035759436432272196
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:84",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002087285974994302,
+        "R": 0.0035734802950173616
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:85",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020874147303402424,
+        "R": 0.003570888889953494
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:86",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020874934270977974,
+        "R": 0.003568252781406045
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:87",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020876708440482616,
+        "R": 0.0035654669627547264
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:88",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020879236981272697,
+        "R": 0.003562783822417259
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:89",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020881830714643,
+        "R": 0.0035599765833467245
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:90",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002088273875415325,
+        "R": 0.003557134186848998
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:91",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002088329289108515,
+        "R": 0.0035542703699320555
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Shoot:1",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020942494738847017,
+        "R": 0.0035601435229182243
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Shoot:2",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020921281538903713,
+        "R": 0.003557402640581131
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Shoot:3",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020910860039293766,
+        "R": 0.003554153023287654
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Shoot:4",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020920392125844955,
+        "R": 0.003553811926394701
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Shoot:5",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020942476112395525,
+        "R": 0.003556664800271392
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Shoot:6",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002095302101224661,
+        "R": 0.003559721866622567
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Shoot:7",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0020942494738847017,
+        "R": 0.0035601435229182243
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    }
+  ],
+  "imported_checks": [
+    {
+      "sample": "Idle:1",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002153652487322688,
+        "R": 0.003724859096109867
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:2",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002153742825612426,
+        "R": 0.0037225978448987007
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:3",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021538594737648964,
+        "R": 0.0037203035317361355
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:4",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021538930013775826,
+        "R": 0.0037181000225245953
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:5",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002154087647795677,
+        "R": 0.003715905826538801
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:6",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002154069487005472,
+        "R": 0.003713773563504219
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:7",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002154290210455656,
+        "R": 0.003711658762767911
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:8",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021543754264712334,
+        "R": 0.0037097036838531494
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:9",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021545051131397486,
+        "R": 0.0037077395245432854
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:10",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002154311165213585,
+        "R": 0.0037058196030557156
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:11",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021545228082686663,
+        "R": 0.0037041164468973875
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:12",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021545924246311188,
+        "R": 0.003702439833432436
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:13",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021546599455177784,
+        "R": 0.0037009194493293762
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:14",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021546930074691772,
+        "R": 0.0036994970869272947
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:15",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021547258365899324,
+        "R": 0.0036982556339353323
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:16",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021546133793890476,
+        "R": 0.0036971101071685553
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:17",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021547905635088682,
+        "R": 0.003696142230182886
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:18",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021547526121139526,
+        "R": 0.0036952258087694645
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:19",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.00215478939935565,
+        "R": 0.0036945431493222713
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:20",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021546303760260344,
+        "R": 0.0036940290592610836
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:21",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002154733520001173,
+        "R": 0.0036936975084245205
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:22",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002154699992388487,
+        "R": 0.0036934774834662676
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:23",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002154604997485876,
+        "R": 0.003693442093208432
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:24",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021547472570091486,
+        "R": 0.0036936283577233553
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:25",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002154615940526128,
+        "R": 0.0036939261481165886
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:26",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021545018535107374,
+        "R": 0.0036943310406059027
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:27",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021545281633734703,
+        "R": 0.003694961778819561
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:28",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002154405927285552,
+        "R": 0.00369580858387053
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:29",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021544157061725855,
+        "R": 0.003696736181154847
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:30",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002154204761609435,
+        "R": 0.003697816515341401
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:31",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021542077884078026,
+        "R": 0.003699058899655938
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:32",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021540995221585035,
+        "R": 0.0037003944162279367
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:33",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021539367735385895,
+        "R": 0.0037018705625087023
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:34",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021538473665714264,
+        "R": 0.003703559283167124
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:35",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002153736539185047,
+        "R": 0.0037052868865430355
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:36",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021537558641284704,
+        "R": 0.0037070591934025288
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:37",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021535807754844427,
+        "R": 0.0037089840043336153
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:38",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.00215343851596117,
+        "R": 0.003711018478497863
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:39",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021533744875341654,
+        "R": 0.0037130380515009165
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:40",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002153202425688505,
+        "R": 0.003715219907462597
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:41",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.00215308740735054,
+        "R": 0.0037173957098275423
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:42",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002153051784262061,
+        "R": 0.003719602944329381
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:43",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021529654040932655,
+        "R": 0.0037218742072582245
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:44",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021527973003685474,
+        "R": 0.003724055364727974
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:45",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002152686007320881,
+        "R": 0.0037263762205839157
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:46",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002152660395950079,
+        "R": 0.003728582989424467
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:47",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002152552828192711,
+        "R": 0.0037308463361114264
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:48",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002152420813217759,
+        "R": 0.00373300863429904
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:49",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021522636525332928,
+        "R": 0.0037351958453655243
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:50",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021521395538002253,
+        "R": 0.003737353254109621
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:51",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021522296592593193,
+        "R": 0.0037394058890640736
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:52",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021520033478736877,
+        "R": 0.0037414354737848043
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:53",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021519933361560106,
+        "R": 0.003743278793990612
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:54",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.00215196143835783,
+        "R": 0.0037451221141964197
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:55",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002151848515495658,
+        "R": 0.003746827831491828
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:56",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002151794033125043,
+        "R": 0.003748444141820073
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:57",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002151692286133766,
+        "R": 0.003749939613044262
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:58",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002151723252609372,
+        "R": 0.0037513726856559515
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:59",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021517290733754635,
+        "R": 0.003752624150365591
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:60",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002151608932763338,
+        "R": 0.003753795986995101
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:61",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021515951957553625,
+        "R": 0.003754840698093176
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:62",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.00215161289088428,
+        "R": 0.0037557717878371477
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:63",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021515798289328814,
+        "R": 0.003756473073735833
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:64",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021515514235943556,
+        "R": 0.0037570944987237453
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:65",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021516592241823673,
+        "R": 0.0037576090544462204
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:66",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002151659457013011,
+        "R": 0.003757873550057411
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:67",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002151664812117815,
+        "R": 0.003758058650419116
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:68",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021517015993595123,
+        "R": 0.003758078906685114
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:69",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002151631051674485,
+        "R": 0.003757977159693837
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:70",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021518312860280275,
+        "R": 0.00375763070769608
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:71",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.00215174094773829,
+        "R": 0.0037572833243757486
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:72",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002151868538931012,
+        "R": 0.003756743622943759
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:73",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021519206929951906,
+        "R": 0.0037559750489890575
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:74",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002151916502043605,
+        "R": 0.0037551787681877613
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:75",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002152079250663519,
+        "R": 0.003754196222871542
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:76",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021521644666790962,
+        "R": 0.0037530832923948765
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:77",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021522522438317537,
+        "R": 0.0037518118042498827
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:78",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002152371685951948,
+        "R": 0.0037504953797906637
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:79",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021525181364268064,
+        "R": 0.003748972900211811
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:80",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.00215258845128119,
+        "R": 0.003747408278286457
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:81",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021526075433939695,
+        "R": 0.0037456804420799017
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:82",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002152628730982542,
+        "R": 0.00374393118545413
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:83",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021527030039578676,
+        "R": 0.003741948865354061
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:84",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002152862958610058,
+        "R": 0.0037400429137051105
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:85",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002153028268367052,
+        "R": 0.0037380473222583532
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:86",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021531381644308567,
+        "R": 0.0037360098212957382
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:87",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021532487589865923,
+        "R": 0.003733764635398984
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:88",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002153361914679408,
+        "R": 0.003731538774445653
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:89",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021534492261707783,
+        "R": 0.0037293608766049147
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:90",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021535640116780996,
+        "R": 0.0037271056789904833
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle:91",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002153652487322688,
+        "R": 0.003724859096109867
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Shoot:1",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021582141052931547,
+        "R": 0.0037294563371688128
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Shoot:2",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002157201524823904,
+        "R": 0.0037274856586009264
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Shoot:3",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021568615920841694,
+        "R": 0.0037250248715281487
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Shoot:4",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002157576149329543,
+        "R": 0.003724694950506091
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Shoot:5",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021587563678622246,
+        "R": 0.003726773429661989
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Shoot:6",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021590259857475758,
+        "R": 0.0037291853222995996
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Shoot:7",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021582141052931547,
+        "R": 0.0037294563371688128
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    }
+  ],
+  "crossfade_checks": [
+    {
+      "sample": "Idle1_Shoot1_blend0",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021537623833864927,
+        "R": 0.0037247883155941963
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle1_Shoot1_blend0.25",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021548231597989798,
+        "R": 0.0037259459495544434
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle1_Shoot1_blend0.5",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021560187451541424,
+        "R": 0.003727152943611145
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle1_Shoot1_blend0.75",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021571950055658817,
+        "R": 0.003728245384991169
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle1_Shoot1_blend1",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021582404151558876,
+        "R": 0.003729472402483225
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle1_Shoot4_blend0",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021537623833864927,
+        "R": 0.0037247883155941963
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle1_Shoot4_blend0.25",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002154723973944783,
+        "R": 0.003724735463038087
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle1_Shoot4_blend0.5",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021557051222771406,
+        "R": 0.003724697744473815
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle1_Shoot4_blend0.75",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002156672766432166,
+        "R": 0.0037247028667479753
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle1_Shoot4_blend1",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002157576149329543,
+        "R": 0.00372475222684443
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle1_Shoot7_blend0",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021537623833864927,
+        "R": 0.0037247883155941963
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle1_Shoot7_blend0.25",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021548231597989798,
+        "R": 0.0037259459495544434
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle1_Shoot7_blend0.5",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021560187451541424,
+        "R": 0.003727152943611145
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle1_Shoot7_blend0.75",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021571950055658817,
+        "R": 0.003728245384991169
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle1_Shoot7_blend1",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021582404151558876,
+        "R": 0.003729472402483225
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle23_Shoot1_blend0",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021547148935496807,
+        "R": 0.0036934535019099712
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle23_Shoot1_blend0.25",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021556373685598373,
+        "R": 0.0037024973426014185
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle23_Shoot1_blend0.5",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002156456932425499,
+        "R": 0.003711497411131859
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle23_Shoot1_blend0.75",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021574129350483418,
+        "R": 0.0037205051630735397
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle23_Shoot1_blend1",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021582404151558876,
+        "R": 0.003729472402483225
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle23_Shoot4_blend0",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021547148935496807,
+        "R": 0.0036934535019099712
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle23_Shoot4_blend0.25",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002155593829229474,
+        "R": 0.0037012689281255007
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle23_Shoot4_blend0.5",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021563649643212557,
+        "R": 0.0037090277764946222
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle23_Shoot4_blend0.75",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021570513490587473,
+        "R": 0.0037169039715081453
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle23_Shoot4_blend1",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002157576149329543,
+        "R": 0.00372475222684443
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle23_Shoot7_blend0",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021547148935496807,
+        "R": 0.0036934535019099712
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle23_Shoot7_blend0.25",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021556373685598373,
+        "R": 0.0037024973426014185
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle23_Shoot7_blend0.5",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002156456932425499,
+        "R": 0.003711497411131859
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle23_Shoot7_blend0.75",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021574129350483418,
+        "R": 0.0037205051630735397
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle23_Shoot7_blend1",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021582404151558876,
+        "R": 0.003729472402483225
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle46_Shoot1_blend0",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021526606287807226,
+        "R": 0.0037286090664565563
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle46_Shoot1_blend0.25",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002154057379812002,
+        "R": 0.0037287818267941475
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle46_Shoot1_blend0.5",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021554583217948675,
+        "R": 0.0037290167529135942
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle46_Shoot1_blend0.75",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021568608935922384,
+        "R": 0.0037291995249688625
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle46_Shoot1_blend1",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021582404151558876,
+        "R": 0.003729472402483225
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle46_Shoot4_blend0",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021526606287807226,
+        "R": 0.0037286090664565563
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle46_Shoot4_blend0.25",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002153966808691621,
+        "R": 0.003727549919858575
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle46_Shoot4_blend0.5",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021552133839577436,
+        "R": 0.0037265722639858723
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle46_Shoot4_blend0.75",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021564520429819822,
+        "R": 0.0037256337236613035
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle46_Shoot4_blend1",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002157576149329543,
+        "R": 0.00372475222684443
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle46_Shoot7_blend0",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021526606287807226,
+        "R": 0.0037286090664565563
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle46_Shoot7_blend0.25",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002154057379812002,
+        "R": 0.0037287818267941475
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle46_Shoot7_blend0.5",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021554583217948675,
+        "R": 0.0037290167529135942
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle46_Shoot7_blend0.75",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021568608935922384,
+        "R": 0.0037291995249688625
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle46_Shoot7_blend1",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021582404151558876,
+        "R": 0.003729472402483225
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle69_Shoot1_blend0",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002151765627786517,
+        "R": 0.0037579811178147793
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle69_Shoot1_blend0.25",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002153373323380947,
+        "R": 0.0037508767563849688
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle69_Shoot1_blend0.5",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002154962159693241,
+        "R": 0.003743712557479739
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle69_Shoot1_blend0.75",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021566119976341724,
+        "R": 0.0037366184405982494
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle69_Shoot1_blend1",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021582404151558876,
+        "R": 0.003729472402483225
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle69_Shoot4_blend0",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002151765627786517,
+        "R": 0.0037579811178147793
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle69_Shoot4_blend0.25",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002153228735551238,
+        "R": 0.003749630181118846
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle69_Shoot4_blend0.5",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002154784742742777,
+        "R": 0.003741375869140029
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle69_Shoot4_blend0.75",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002156117931008339,
+        "R": 0.003733034711331129
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle69_Shoot4_blend1",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002157576149329543,
+        "R": 0.00372475222684443
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle69_Shoot7_blend0",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002151765627786517,
+        "R": 0.0037579811178147793
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle69_Shoot7_blend0.25",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002153373323380947,
+        "R": 0.0037508767563849688
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle69_Shoot7_blend0.5",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002154962159693241,
+        "R": 0.003743712557479739
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle69_Shoot7_blend0.75",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021566119976341724,
+        "R": 0.0037366184405982494
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle69_Shoot7_blend1",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021582404151558876,
+        "R": 0.003729472402483225
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle91_Shoot1_blend0",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021537623833864927,
+        "R": 0.0037247883155941963
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle91_Shoot1_blend0.25",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021548231597989798,
+        "R": 0.0037259459495544434
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle91_Shoot1_blend0.5",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021560187451541424,
+        "R": 0.003727152943611145
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle91_Shoot1_blend0.75",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021571950055658817,
+        "R": 0.003728245384991169
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle91_Shoot1_blend1",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021582404151558876,
+        "R": 0.003729472402483225
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle91_Shoot4_blend0",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021537623833864927,
+        "R": 0.0037247883155941963
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle91_Shoot4_blend0.25",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002154723973944783,
+        "R": 0.003724735463038087
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle91_Shoot4_blend0.5",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021557051222771406,
+        "R": 0.003724697744473815
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle91_Shoot4_blend0.75",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002156672766432166,
+        "R": 0.0037247028667479753
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle91_Shoot4_blend1",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.002157576149329543,
+        "R": 0.00372475222684443
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle91_Shoot7_blend0",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021537623833864927,
+        "R": 0.0037247883155941963
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle91_Shoot7_blend0.25",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021548231597989798,
+        "R": 0.0037259459495544434
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle91_Shoot7_blend0.5",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021560187451541424,
+        "R": 0.003727152943611145
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle91_Shoot7_blend0.75",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021571950055658817,
+        "R": 0.003728245384991169
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    },
+    {
+      "sample": "Idle91_Shoot7_blend1",
+      "max_join_distance_to_cuff_m": {
+        "L": 0.0021582404151558876,
+        "R": 0.003729472402483225
+      },
+      "end_vertices_in_frame_4x3_16x9": [
+        0,
+        0
+      ]
+    }
+  ],
+  "status": "PASS"
+}

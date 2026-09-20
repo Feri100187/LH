@@ -1,0 +1,372 @@
+{
+  "bones": 62,
+  "deform_bones": 53,
+  "calibration": [
+    {
+      "joint": "knee.R",
+      "error_m": 6.925089620785857e-05,
+      "pole_angle": -1.8798621771937625
+    },
+    {
+      "joint": "elbow.R",
+      "error_m": 0.0004630347152239078,
+      "pole_angle": 2.141661564992912
+    },
+    {
+      "joint": "knee.L",
+      "error_m": 0.0001070563869436313,
+      "pole_angle": -1.4835298641951802
+    },
+    {
+      "joint": "elbow.L",
+      "error_m": 0.000260467278281587,
+      "pole_angle": 1.4901965308618468
+    }
+  ],
+  "weights": [
+    {
+      "object": "AWB.Neck",
+      "vertices": 680,
+      "min_sum": 0.9999999701976776,
+      "max_sum": 1.0000000223517418,
+      "max_influences": 2,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Jacket continuous shoulder and sleeves",
+      "vertices": 8002,
+      "min_sum": 0.9999999552965164,
+      "max_sum": 1.0000000447034836,
+      "max_influences": 4,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Ribbed waistband",
+      "vertices": 448,
+      "min_sum": 1.0,
+      "max_sum": 1.0,
+      "max_influences": 1,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Pants continuous seat and legs",
+      "vertices": 5502,
+      "min_sum": 0.9999999701976776,
+      "max_sum": 1.0000000298023224,
+      "max_influences": 2,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.R elastic ankle hem",
+      "vertices": 200,
+      "min_sum": 1.0000000298023224,
+      "max_sum": 1.0000000298023224,
+      "max_influences": 2,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.L elastic ankle hem",
+      "vertices": 200,
+      "min_sum": 1.0000000298023224,
+      "max_sum": 1.0000000298023224,
+      "max_influences": 2,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.White undershirt hem",
+      "vertices": 320,
+      "min_sum": 1.0,
+      "max_sum": 1.0,
+      "max_influences": 1,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Clothes | R ribbed cuff",
+      "vertices": 420,
+      "min_sum": 0.9999999701976776,
+      "max_sum": 1.0000000298023224,
+      "max_influences": 2,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Clothes | L ribbed cuff",
+      "vertices": 420,
+      "min_sum": 0.9999999701976776,
+      "max_sum": 1.0000000298023224,
+      "max_influences": 2,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Clothes | layered hood and lining",
+      "vertices": 1553,
+      "min_sum": 1.0,
+      "max_sum": 1.0,
+      "max_influences": 1,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Clothes | zipper assembly",
+      "vertices": 1510,
+      "min_sum": 0.9999999701976776,
+      "max_sum": 1.0000000298023224,
+      "max_influences": 2,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Clothes | collar pockets and stitched detail",
+      "vertices": 1539,
+      "min_sum": 0.9999999664723873,
+      "max_sum": 1.0000000298023224,
+      "max_influences": 3,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Clothes | trouser seam and welts",
+      "vertices": 435,
+      "min_sum": 0.9999999701976776,
+      "max_sum": 1.0000000298023224,
+      "max_influences": 2,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Head sculpted face and skull",
+      "vertices": 5027,
+      "min_sum": 1.0,
+      "max_sum": 1.0,
+      "max_influences": 1,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Face | R ear",
+      "vertices": 478,
+      "min_sum": 1.0,
+      "max_sum": 1.0,
+      "max_influences": 1,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Face | R eye and eyelids",
+      "vertices": 1165,
+      "min_sum": 1.0,
+      "max_sum": 1.0,
+      "max_influences": 1,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Face | L ear",
+      "vertices": 478,
+      "min_sum": 1.0,
+      "max_sum": 1.0,
+      "max_influences": 1,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Face | L eye and eyelids",
+      "vertices": 1165,
+      "min_sum": 1.0,
+      "max_sum": 1.0,
+      "max_influences": 1,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Face | brows",
+      "vertices": 20,
+      "min_sum": 1.0,
+      "max_sum": 1.0,
+      "max_influences": 1,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Face | mouth and nose detail",
+      "vertices": 303,
+      "min_sum": 1.0,
+      "max_sum": 1.0,
+      "max_influences": 1,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Hair sculpted layered crown",
+      "vertices": 5230,
+      "min_sum": 1.0,
+      "max_sum": 1.0,
+      "max_influences": 1,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Hair | layered bangs",
+      "vertices": 1920,
+      "min_sum": 1.0,
+      "max_sum": 1.0,
+      "max_influences": 1,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Hair | crown tufts",
+      "vertices": 220,
+      "min_sum": 1.0,
+      "max_sum": 1.0,
+      "max_influences": 1,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Hair | nape locks",
+      "vertices": 1120,
+      "min_sum": 1.0,
+      "max_sum": 1.0,
+      "max_influences": 1,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Glasses | dark frame bridge and temples",
+      "vertices": 1068,
+      "min_sum": 1.0,
+      "max_sum": 1.0,
+      "max_influences": 1,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Glasses | transparent lenses",
+      "vertices": 74,
+      "min_sum": 1.0,
+      "max_sum": 1.0,
+      "max_influences": 1,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Right hand rear grip",
+      "vertices": 4746,
+      "min_sum": 0.999999962747097,
+      "max_sum": 1.0000000447034836,
+      "max_influences": 3,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Left hand foregrip support",
+      "vertices": 4734,
+      "min_sum": 0.9999999674037099,
+      "max_sum": 1.0000000394356903,
+      "max_influences": 3,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Hand | R nails",
+      "vertices": 125,
+      "min_sum": 0.9999999701976776,
+      "max_sum": 1.0000000298023224,
+      "max_influences": 2,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Hand | L nails",
+      "vertices": 125,
+      "min_sum": 0.9999999701976776,
+      "max_sum": 1.0000000298023224,
+      "max_influences": 2,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.R continuous sneaker upper",
+      "vertices": 1602,
+      "min_sum": 0.9999999701976776,
+      "max_sum": 1.0000000298023224,
+      "max_influences": 2,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.L continuous sneaker upper",
+      "vertices": 1602,
+      "min_sum": 0.9999999701976776,
+      "max_sum": 1.0000000298023224,
+      "max_influences": 2,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Shoe | R layered sole",
+      "vertices": 794,
+      "min_sum": 0.9999999701976776,
+      "max_sum": 1.0000000298023224,
+      "max_influences": 2,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Shoe | R tongue laces and panels",
+      "vertices": 1469,
+      "min_sum": 0.9999999701976776,
+      "max_sum": 1.0000000298023224,
+      "max_influences": 2,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Shoe | L layered sole",
+      "vertices": 794,
+      "min_sum": 0.9999999701976776,
+      "max_sum": 1.0000000298023224,
+      "max_influences": 2,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Shoe | L tongue laces and panels",
+      "vertices": 1469,
+      "min_sum": 0.9999999701976776,
+      "max_sum": 1.0000000298023224,
+      "max_influences": 2,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Gun orange trigger",
+      "vertices": 144,
+      "min_sum": 1.0,
+      "max_sum": 1.0,
+      "max_influences": 1,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Watergun | white receiver and rails",
+      "vertices": 1970,
+      "min_sum": 1.0,
+      "max_sum": 1.0,
+      "max_influences": 1,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Watergun | blue reservoir",
+      "vertices": 848,
+      "min_sum": 1.0,
+      "max_sum": 1.0,
+      "max_influences": 1,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Watergun | orange fill cap",
+      "vertices": 240,
+      "min_sum": 1.0,
+      "max_sum": 1.0,
+      "max_influences": 1,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Watergun | blue rear grip and guard",
+      "vertices": 790,
+      "min_sum": 1.0,
+      "max_sum": 1.0,
+      "max_influences": 1,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Watergun | green foregrip",
+      "vertices": 1568,
+      "min_sum": 1.0,
+      "max_sum": 1.0,
+      "max_influences": 1,
+      "unweighted": 0
+    },
+    {
+      "object": "AWB.Watergun | orange muzzle and open bore",
+      "vertices": 1308,
+      "min_sum": 1.0,
+      "max_sum": 1.0,
+      "max_influences": 1,
+      "unweighted": 0
+    }
+  ]
+}

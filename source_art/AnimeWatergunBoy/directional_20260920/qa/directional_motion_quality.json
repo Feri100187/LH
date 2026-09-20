@@ -1,0 +1,484 @@
+{
+  "status": "PASS",
+  "actions": [
+    {
+      "name": "WalkBack",
+      "direction_blender": [
+        0.0,
+        1.0,
+        0
+      ],
+      "direction_glb": [
+        0.0,
+        0,
+        -1.0
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "seconds": 0.8,
+      "loop": true,
+      "stance_stride_m": 0.58,
+      "stance_duty": 0.6,
+      "reference_speed_mps": 1.2083333333333335,
+      "measured_stance_speeds_mps": [
+        1.2083333151947173,
+        1.2083333427352565
+      ],
+      "stance_linear_residual_m": 1.852001482727239e-08,
+      "max_wrist_ik_error_m": 4.500668737452911e-07,
+      "max_ankle_ik_error_m": 4.299069452117463e-05,
+      "minimum_sole_z_m": -8.568167686462402e-08,
+      "minimum_ankle_x_separation_m": 0.2799999862909317,
+      "max_hand_weapon_matrix_difference": 7.674098014831543e-07,
+      "loop_matrix_difference": 0.0,
+      "max_root_rotation_difference": 0.0
+    },
+    {
+      "name": "WalkLeft",
+      "direction_blender": [
+        1.0,
+        0.0,
+        0
+      ],
+      "direction_glb": [
+        1.0,
+        0,
+        -0.0
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "seconds": 0.8,
+      "loop": true,
+      "stance_stride_m": 0.4,
+      "stance_duty": 0.62,
+      "reference_speed_mps": 0.806451612903226,
+      "measured_stance_speeds_mps": [
+        0.8064515383115833,
+        0.806451608559915
+      ],
+      "stance_linear_residual_m": 3.578052615305083e-08,
+      "max_wrist_ik_error_m": 6.407932472003854e-07,
+      "max_ankle_ik_error_m": 5.273438379465303e-05,
+      "minimum_sole_z_m": -8.754432201385498e-08,
+      "minimum_ankle_x_separation_m": 0.13741936534643173,
+      "max_hand_weapon_matrix_difference": 7.525086402893066e-07,
+      "loop_matrix_difference": 0.0,
+      "max_root_rotation_difference": 0.0
+    },
+    {
+      "name": "WalkRight",
+      "direction_blender": [
+        -1.0,
+        0.0,
+        0
+      ],
+      "direction_glb": [
+        -1.0,
+        0,
+        -0.0
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "seconds": 0.8,
+      "loop": true,
+      "stance_stride_m": 0.4,
+      "stance_duty": 0.62,
+      "reference_speed_mps": 0.806451612903226,
+      "measured_stance_speeds_mps": [
+        0.8064515039856943,
+        0.8064516293151034
+      ],
+      "stance_linear_residual_m": 2.3841857987871862e-08,
+      "max_wrist_ik_error_m": 6.478150224472331e-07,
+      "max_ankle_ik_error_m": 4.8296139413618534e-05,
+      "minimum_sole_z_m": -1.0803341865539551e-07,
+      "minimum_ankle_x_separation_m": 0.13741936534643173,
+      "max_hand_weapon_matrix_difference": 7.599592208862305e-07,
+      "loop_matrix_difference": 0.0,
+      "max_root_rotation_difference": 0.0
+    },
+    {
+      "name": "WalkForwardLeft",
+      "direction_blender": [
+        0.7071067811865475,
+        -0.7071067811865475,
+        0
+      ],
+      "direction_glb": [
+        0.7071067811865475,
+        0,
+        0.7071067811865475
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "seconds": 0.8,
+      "loop": true,
+      "stance_stride_m": 0.62,
+      "stance_duty": 0.62,
+      "reference_speed_mps": 1.2500000000000002,
+      "measured_stance_speeds_mps": [
+        1.2499999310038006,
+        1.250000006077875
+      ],
+      "stance_linear_residual_m": 2.4755001604148674e-08,
+      "max_wrist_ik_error_m": 5.173193018686756e-07,
+      "max_ankle_ik_error_m": 6.451024200588288e-05,
+      "minimum_sole_z_m": -7.520429790019989e-08,
+      "minimum_ankle_x_separation_m": 0.10644663870334625,
+      "max_hand_weapon_matrix_difference": 7.748603820800781e-07,
+      "loop_matrix_difference": 0.0,
+      "max_root_rotation_difference": 0.0
+    },
+    {
+      "name": "WalkForwardRight",
+      "direction_blender": [
+        -0.7071067811865475,
+        -0.7071067811865475,
+        0
+      ],
+      "direction_glb": [
+        -0.7071067811865475,
+        0,
+        0.7071067811865475
+      ],
+      "frames": [
+        1,
+        25
+      ],
+      "seconds": 0.8,
+      "loop": true,
+      "stance_stride_m": 0.62,
+      "stance_duty": 0.62,
+      "reference_speed_mps": 1.2500000000000002,
+      "measured_stance_speeds_mps": [
+        1.2499999482200355,
+        1.2500000043844746
+      ],
+      "stance_linear_residual_m": 2.6473489178613363e-08,
+      "max_wrist_ik_error_m": 6.012853964376502e-07,
+      "max_ankle_ik_error_m": 6.25728174423653e-05,
+      "minimum_sole_z_m": -1.1175870895385742e-07,
+      "minimum_ankle_x_separation_m": 0.10644663125276566,
+      "max_hand_weapon_matrix_difference": 7.972121238708496e-07,
+      "loop_matrix_difference": 0.0,
+      "max_root_rotation_difference": 0.0
+    },
+    {
+      "name": "WalkBackLeft",
+      "direction_blender": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "direction_glb": [
+        0.7071067811865475,
+        0,
+        -0.7071067811865475
+      ],
+      "frames": [
+        1,
+        27
+      ],
+      "seconds": 0.8666666666666667,
+      "loop": true,
+      "stance_stride_m": 0.52,
+      "stance_duty": 0.64,
+      "reference_speed_mps": 0.9375000000000001,
+      "measured_stance_speeds_mps": [
+        0.9374999562577636,
+        0.9375000231775068
+      ],
+      "stance_linear_residual_m": 2.506342916541726e-08,
+      "max_wrist_ik_error_m": 5.310858305453281e-07,
+      "max_ankle_ik_error_m": 4.635537533735659e-05,
+      "minimum_sole_z_m": -8.381903171539307e-08,
+      "minimum_ankle_x_separation_m": 0.11273786425590515,
+      "max_hand_weapon_matrix_difference": 7.599592208862305e-07,
+      "loop_matrix_difference": 0.0,
+      "max_root_rotation_difference": 0.0
+    },
+    {
+      "name": "WalkBackRight",
+      "direction_blender": [
+        -0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "direction_glb": [
+        -0.7071067811865475,
+        0,
+        -0.7071067811865475
+      ],
+      "frames": [
+        1,
+        27
+      ],
+      "seconds": 0.8666666666666667,
+      "loop": true,
+      "stance_stride_m": 0.52,
+      "stance_duty": 0.64,
+      "reference_speed_mps": 0.9375000000000001,
+      "measured_stance_speeds_mps": [
+        0.9374999812437171,
+        0.9375000347020361
+      ],
+      "stance_linear_residual_m": 3.202334081242597e-08,
+      "max_wrist_ik_error_m": 4.3501438429936765e-07,
+      "max_ankle_ik_error_m": 3.865963923404551e-05,
+      "minimum_sole_z_m": -6.612390279769897e-08,
+      "minimum_ankle_x_separation_m": 0.11273786425590515,
+      "max_hand_weapon_matrix_difference": 7.525086402893066e-07,
+      "loop_matrix_difference": 0.0,
+      "max_root_rotation_difference": 0.0
+    },
+    {
+      "name": "RunBack",
+      "direction_blender": [
+        0.0,
+        1.0,
+        0
+      ],
+      "direction_glb": [
+        0.0,
+        0,
+        -1.0
+      ],
+      "frames": [
+        1,
+        23
+      ],
+      "seconds": 0.7333333333333333,
+      "loop": true,
+      "stance_stride_m": 0.72,
+      "stance_duty": 0.45,
+      "reference_speed_mps": 2.1818181818181817,
+      "measured_stance_speeds_mps": [
+        2.1818181206895533,
+        2.1818182515827083
+      ],
+      "stance_linear_residual_m": 2.643262775325894e-08,
+      "max_wrist_ik_error_m": 4.0011768287711e-07,
+      "max_ankle_ik_error_m": 9.23756833311208e-05,
+      "minimum_sole_z_m": -7.683411240577698e-08,
+      "minimum_ankle_x_separation_m": 0.2800000011920929,
+      "max_hand_weapon_matrix_difference": 8.307397365570068e-07,
+      "loop_matrix_difference": 0.0,
+      "max_root_rotation_difference": 0.0
+    },
+    {
+      "name": "RunLeft",
+      "direction_blender": [
+        1.0,
+        0.0,
+        0
+      ],
+      "direction_glb": [
+        1.0,
+        0,
+        -0.0
+      ],
+      "frames": [
+        1,
+        21
+      ],
+      "seconds": 0.6666666666666666,
+      "loop": true,
+      "stance_stride_m": 0.5,
+      "stance_duty": 0.42,
+      "reference_speed_mps": 1.7857142857142856,
+      "measured_stance_speeds_mps": [
+        1.7857140302658077,
+        1.785714104771615
+      ],
+      "stance_linear_residual_m": 5.21540642894891e-08,
+      "max_wrist_ik_error_m": 3.9092480010822133e-07,
+      "max_ankle_ik_error_m": 7.766053777609923e-05,
+      "minimum_sole_z_m": -1.0244548320770264e-07,
+      "minimum_ankle_x_separation_m": 0.09900355339050293,
+      "max_hand_weapon_matrix_difference": 8.195638656616211e-07,
+      "loop_matrix_difference": 0.0,
+      "max_root_rotation_difference": 0.0
+    },
+    {
+      "name": "RunRight",
+      "direction_blender": [
+        -1.0,
+        0.0,
+        0
+      ],
+      "direction_glb": [
+        -1.0,
+        0,
+        -0.0
+      ],
+      "frames": [
+        1,
+        21
+      ],
+      "seconds": 0.6666666666666666,
+      "loop": true,
+      "stance_stride_m": 0.5,
+      "stance_duty": 0.42,
+      "reference_speed_mps": 1.7857142857142856,
+      "measured_stance_speeds_mps": [
+        1.7857140228152273,
+        1.785714447498322
+      ],
+      "stance_linear_residual_m": 3.5431649947348376e-08,
+      "max_wrist_ik_error_m": 2.950279395762582e-07,
+      "max_ankle_ik_error_m": 9.483205315503948e-05,
+      "minimum_sole_z_m": -8.707866072654724e-08,
+      "minimum_ankle_x_separation_m": 0.09900356084108353,
+      "max_hand_weapon_matrix_difference": 8.307397365570068e-07,
+      "loop_matrix_difference": 0.0,
+      "max_root_rotation_difference": 0.0
+    },
+    {
+      "name": "RunForwardLeft",
+      "direction_blender": [
+        0.7071067811865475,
+        -0.7071067811865475,
+        0
+      ],
+      "direction_glb": [
+        0.7071067811865475,
+        0,
+        0.7071067811865475
+      ],
+      "frames": [
+        1,
+        21
+      ],
+      "seconds": 0.6666666666666666,
+      "loop": true,
+      "stance_stride_m": 0.64,
+      "stance_duty": 0.43,
+      "reference_speed_mps": 2.2325581395348837,
+      "measured_stance_speeds_mps": [
+        2.2325579057538745,
+        2.232558179708391
+      ],
+      "stance_linear_residual_m": 3.307356855053456e-08,
+      "max_wrist_ik_error_m": 3.6286698764222625e-07,
+      "max_ankle_ik_error_m": 8.102876256374559e-05,
+      "minimum_sole_z_m": -6.612390279769897e-08,
+      "minimum_ankle_x_separation_m": 0.12045099586248398,
+      "max_hand_weapon_matrix_difference": 8.381903171539307e-07,
+      "loop_matrix_difference": 0.0,
+      "max_root_rotation_difference": 0.0
+    },
+    {
+      "name": "RunForwardRight",
+      "direction_blender": [
+        -0.7071067811865475,
+        -0.7071067811865475,
+        0
+      ],
+      "direction_glb": [
+        -0.7071067811865475,
+        0,
+        0.7071067811865475
+      ],
+      "frames": [
+        1,
+        21
+      ],
+      "seconds": 0.6666666666666666,
+      "loop": true,
+      "stance_stride_m": 0.64,
+      "stance_duty": 0.43,
+      "reference_speed_mps": 2.2325581395348837,
+      "measured_stance_speeds_mps": [
+        2.232558025608975,
+        2.2325582508311976
+      ],
+      "stance_linear_residual_m": 3.0585733779009416e-08,
+      "max_wrist_ik_error_m": 4.2146848510894033e-07,
+      "max_ankle_ik_error_m": 7.25813585189539e-05,
+      "minimum_sole_z_m": -9.12696123123169e-08,
+      "minimum_ankle_x_separation_m": 0.12045099586248398,
+      "max_hand_weapon_matrix_difference": 8.009374141693115e-07,
+      "loop_matrix_difference": 0.0,
+      "max_root_rotation_difference": 0.0
+    },
+    {
+      "name": "RunBackLeft",
+      "direction_blender": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "direction_glb": [
+        0.7071067811865475,
+        0,
+        -0.7071067811865475
+      ],
+      "frames": [
+        1,
+        23
+      ],
+      "seconds": 0.7333333333333333,
+      "loop": true,
+      "stance_stride_m": 0.58,
+      "stance_duty": 0.46,
+      "reference_speed_mps": 1.719367588932806,
+      "measured_stance_speeds_mps": [
+        1.7193675332694205,
+        1.7193676331287147
+      ],
+      "stance_linear_residual_m": 5.1150947810718606e-08,
+      "max_wrist_ik_error_m": 3.911377414586153e-07,
+      "max_ankle_ik_error_m": 8.601514050330312e-05,
+      "minimum_sole_z_m": -1.1362135410308838e-07,
+      "minimum_ankle_x_separation_m": 0.11816658824682236,
+      "max_hand_weapon_matrix_difference": 8.307397365570068e-07,
+      "loop_matrix_difference": 0.0,
+      "max_root_rotation_difference": 0.0
+    },
+    {
+      "name": "RunBackRight",
+      "direction_blender": [
+        -0.7071067811865475,
+        0.7071067811865475,
+        0
+      ],
+      "direction_glb": [
+        -0.7071067811865475,
+        0,
+        -0.7071067811865475
+      ],
+      "frames": [
+        1,
+        23
+      ],
+      "seconds": 0.7333333333333333,
+      "loop": true,
+      "stance_stride_m": 0.58,
+      "stance_duty": 0.46,
+      "reference_speed_mps": 1.719367588932806,
+      "measured_stance_speeds_mps": [
+        1.7193675332694198,
+        1.7193676654572627
+      ],
+      "stance_linear_residual_m": 4.4541556054600306e-08,
+      "max_wrist_ik_error_m": 4.826228243321671e-07,
+      "max_ankle_ik_error_m": 8.396933378177436e-05,
+      "minimum_sole_z_m": -8.789356797933578e-08,
+      "minimum_ankle_x_separation_m": 0.11816660314798355,
+      "max_hand_weapon_matrix_difference": 8.419156074523926e-07,
+      "loop_matrix_difference": 0.0,
+      "max_root_rotation_difference": 0.0
+    }
+  ],
+  "coordinates": "Anatomical Left = Blender +X = glTF +X; Right = -X. Forward = Blender -Y = glTF +Z; Back = Blender +Y = glTF -Z.",
+  "source_blend_sha256": "ab4cd0173d5ea283f188531b9e1fdb613a231097c5b387c981c5609434149601",
+  "notes": "14 new true foot-IK cycles. Original 6 gameplay actions remain unchanged. No root or rig yaw used to fake direction. Wider lateral stance keeps knees/ankles ordered and avoids crossing the legs."
+}

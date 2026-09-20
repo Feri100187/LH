@@ -1,0 +1,192 @@
+{
+  "passed": 7,
+  "total": 7,
+  "method": "Built Web scene, seeded actor at entrance; trusted touch input for movement; unchanged player controller.",
+  "tests": [
+    {
+      "name": "能穿过原先的隐形墙走到门前",
+      "pass": true,
+      "detail": {
+        "start": [
+          49.95,
+          3.139999971389771,
+          -25
+        ],
+        "end": [
+          49.95,
+          3.2900000667572025,
+          -30.54940000000002
+        ]
+      }
+    },
+    {
+      "name": "门厅地面连续且角色落地",
+      "pass": true,
+      "detail": {
+        "ready": true,
+        "firstPerson": true,
+        "locked": false,
+        "position": [
+          49.95,
+          3.2900000667572025,
+          -30.54940000000002
+        ],
+        "camera": [
+          49.95,
+          4.010000066757202,
+          -30.54940000000002
+        ],
+        "yaw": 0,
+        "pitch": 0,
+        "grounded": true,
+        "cameraDistance": 3.4,
+        "fps": 60,
+        "keys": [],
+        "inputMode": "touch",
+        "touch": {
+          "enabled": true,
+          "move": [
+            0,
+            0
+          ],
+          "running": false,
+          "pointers": 0,
+          "moving": false,
+          "looking": false
+        }
+      }
+    },
+    {
+      "name": "闭合门面具有正确碰撞",
+      "pass": true,
+      "detail": {
+        "before": [
+          49.95,
+          3.2900000667572025,
+          -30.54940000000002
+        ],
+        "after": [
+          49.95,
+          3.2900000667572025,
+          -30.54940000000002
+        ]
+      }
+    },
+    {
+      "name": "门前可以正常退回门廊",
+      "pass": true,
+      "detail": {
+        "ready": true,
+        "firstPerson": true,
+        "locked": false,
+        "position": [
+          49.95,
+          3.2900000667572025,
+          -27.624400000000023
+        ],
+        "camera": [
+          49.95,
+          4.010000066757202,
+          -27.624400000000023
+        ],
+        "yaw": 0,
+        "pitch": 0,
+        "grounded": true,
+        "cameraDistance": 3.4,
+        "fps": 60,
+        "keys": [],
+        "inputMode": "touch",
+        "touch": {
+          "enabled": true,
+          "move": [
+            0,
+            0
+          ],
+          "running": false,
+          "pointers": 0,
+          "moving": false,
+          "looking": false
+        }
+      }
+    },
+    {
+      "name": "左侧回墙防止穿出",
+      "pass": true,
+      "detail": {
+        "ready": true,
+        "firstPerson": true,
+        "locked": false,
+        "position": [
+          47.5501500000001,
+          3.290000066757202,
+          -29.99999885767613
+        ],
+        "camera": [
+          47.5501500000001,
+          4.010000066757202,
+          -29.99999885767613
+        ],
+        "yaw": 0,
+        "pitch": 0,
+        "grounded": true,
+        "cameraDistance": 3.4,
+        "fps": 60,
+        "keys": [],
+        "inputMode": "touch",
+        "touch": {
+          "enabled": true,
+          "move": [
+            0,
+            0
+          ],
+          "running": false,
+          "pointers": 0,
+          "moving": false,
+          "looking": false
+        }
+      }
+    },
+    {
+      "name": "右侧回墙防止穿出",
+      "pass": true,
+      "detail": {
+        "ready": true,
+        "firstPerson": true,
+        "locked": false,
+        "position": [
+          56.249099999999906,
+          3.2900000667572025,
+          -29.999998854750103
+        ],
+        "camera": [
+          56.249099999999906,
+          4.010000066757202,
+          -29.999998854750103
+        ],
+        "yaw": 0,
+        "pitch": 0,
+        "grounded": true,
+        "cameraDistance": 3.4,
+        "fps": 60,
+        "keys": [],
+        "inputMode": "touch",
+        "touch": {
+          "enabled": true,
+          "move": [
+            0,
+            0
+          ],
+          "running": false,
+          "pointers": 0,
+          "moving": false,
+          "looking": false
+        }
+      }
+    },
+    {
+      "name": "运行无脚本错误",
+      "pass": true,
+      "detail": []
+    }
+  ]
+}

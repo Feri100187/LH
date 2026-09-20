@@ -1,0 +1,948 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-09-20T10:00:17.212223+00:00",
+  "read_only_scene_audit": true,
+  "coordinate_system": "Game Y up; route x/z coordinates already include GLB and prefab transforms",
+  "files": {
+    "glb": "D:\\a\\xiang_mu\\LH\\assets\\lingshui\\LingshuiLake.glb",
+    "glb_sha256": "3ef97cca944988234bb2a583a92b5d9d125efc5b2e9461c7650b249c82261b8a",
+    "prefab": "D:\\a\\xiang_mu\\LH\\assets\\lingshui\\LingshuiEnvironment.lh",
+    "prefab_sha256": "bb662ab84b5677158161914f9996704fb7f32038c8a1ef57791352cb0ea82cc9",
+    "scene": "D:\\a\\xiang_mu\\LH\\assets\\LingshuiGame.ls"
+  },
+  "scene_environment_instance_world_matrix": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "spawn_y_up": [
+    -26.0,
+    1.76,
+    37.2
+  ],
+  "spawn_eye_y_up": [
+    -26.0,
+    2.48,
+    37.2
+  ],
+  "default_yaw_rad": 0.32,
+  "water_y": 0.04,
+  "water_vertex_y_range": [
+    0.03999999910593033,
+    0.03999999910593033
+  ],
+  "water_triangles": 272,
+  "water_boundary_edges": 276,
+  "native_mesh_checks": [
+    {
+      "name": "亭台旁_狭长低矮草洲.001",
+      "native_file": "D:\\a\\xiang_mu\\LH\\assets\\lingshui\\site_fixed\\SiteFixed_00.lm",
+      "native_sha256": "9ec899c2ef84ec4e5042b48a76426b569c904113df5e974e2bfa2f558390fe0e",
+      "vertices": 756,
+      "triangles": 428,
+      "max_position_difference": 0.0,
+      "same_triangle_topology_ignoring_winding": true
+    },
+    {
+      "name": "连续坡地_照片湖形约束.001",
+      "native_file": "D:\\a\\xiang_mu\\LH\\assets\\lingshui\\site_fixed\\SiteFixed_02.lm",
+      "native_sha256": "92133c6af375d25116358d39b622ac5db7a9a91f1ca8c1e76a7b361c79775320",
+      "vertices": 36924,
+      "triangles": 72570,
+      "max_position_difference": 0.0,
+      "same_triangle_topology_ignoring_winding": true
+    },
+    {
+      "name": "凌水湖_狭长主湖_水面.001",
+      "native_file": "D:\\a\\xiang_mu\\LH\\assets\\lingshui\\site_fixed\\SiteFixed_03.lm",
+      "native_sha256": "51786c0d36fbe59cc858abc4958321a55fcf4cfbef54264b35d2b29cf0313f05",
+      "vertices": 265,
+      "triangles": 218,
+      "max_position_difference": 0.0,
+      "same_triangle_topology_ignoring_winding": true
+    },
+    {
+      "name": "湖端_局部浅水湾_水面.001",
+      "native_file": "D:\\a\\xiang_mu\\LH\\assets\\lingshui\\site_fixed\\SiteFixed_05.lm",
+      "native_sha256": "689eacd90c6a7fd2ff85c204f190a7a38c1899d901e63b0faf4c2e7b61746fd1",
+      "vertices": 77,
+      "triangles": 54,
+      "max_position_difference": 0.0,
+      "same_triangle_topology_ignoring_winding": true
+    },
+    {
+      "name": "红桥_平直桥面与实体桥墩.001",
+      "native_file": "D:\\a\\xiang_mu\\LH\\assets\\lingshui\\site_fixed\\SiteFixed_08.lm",
+      "native_sha256": "9c197b94bb256ae92d02268691118fbd9b6d9d5c121cf4571b61f7fe70f02045",
+      "vertices": 360,
+      "triangles": 180,
+      "max_position_difference": 0.0,
+      "same_triangle_topology_ignoring_winding": true
+    },
+    {
+      "name": "亭台与短桥｜实体灰色侧梁.001",
+      "native_file": "D:\\a\\xiang_mu\\LH\\assets\\lingshui\\site_fixed\\SiteFixed_11.lm",
+      "native_sha256": "9d215ae9a41de80ac6569a45f141d013fdf71c25643391221447a4781cdf917d",
+      "vertices": 976,
+      "triangles": 496,
+      "max_position_difference": 0.0,
+      "same_triangle_topology_ignoring_winding": true
+    },
+    {
+      "name": "离岸曲线栈道_两侧留水_密集棕色栏杆.001",
+      "native_file": "D:\\a\\xiang_mu\\LH\\assets\\lingshui\\site_fixed\\SiteFixed_25.lm",
+      "native_sha256": "722f61643f45063a302a69beb737948cc5bb62770ab3bf22a63a3648175a3bb6",
+      "vertices": 59856,
+      "triangles": 32364,
+      "max_position_difference": 0.0,
+      "same_triangle_topology_ignoring_winding": true
+    }
+  ],
+  "checked_visible_object_transforms": 804,
+  "nearby_above_water_obstacle_objects": 38,
+  "obstacle_check_method": "Conservative XZ projection of actual above-water triangles; includes reeds, foliage, rocks, terrain and structures. No old rectangular shoreline assumptions.",
+  "containment_proof": "Center is in actual water triangles; distance to every water boundary exceeds maximum ellipse radius plus 0.30m duck body envelope, covering the complete continuous route.",
+  "body_envelope_radius_m": 0.3,
+  "minimum_all_phase_body_gap_m": 0.9355339059327378,
+  "routes": [
+    {
+      "id": "near_1",
+      "center_xz": [
+        -24.8,
+        30.0
+      ],
+      "radii_xz": [
+        0.65,
+        0.5
+      ],
+      "period_s": 42,
+      "phase_rad": 0.0,
+      "direction": 1,
+      "center_y_up": [
+        -24.8,
+        0.04,
+        30.0
+      ],
+      "water": true,
+      "water_boundary_clearance_m": 2.537709151729832,
+      "nearest_obstacles": [
+        [
+          2.537708188079058,
+          "连续坡地_照片湖形约束.001"
+        ],
+        [
+          3.01806954050469,
+          "岸石_1.022"
+        ],
+        [
+          4.9949435279672665,
+          "岸石_1.021"
+        ],
+        [
+          5.908024827984715,
+          "broadleaf｜独立折面叶冠.012"
+        ],
+        [
+          6.243135038357756,
+          "岸上红褐慢行道_与水上栈道连续.001"
+        ],
+        [
+          6.337530739968449,
+          "芦苇｜弯垂长叶.063"
+        ]
+      ],
+      "spawn_distance_xz_m": 7.299315036357866,
+      "spawn_heading_offset_degrees": -8.872327236160734,
+      "route_plus_body_radius_m": 0.95,
+      "guaranteed_water_edge_clearance_m": 1.5877091517298318,
+      "guaranteed_obstacle_clearance_m": 1.587708188079058,
+      "water_containment_samples_passed": 128,
+      "spawn_eye_visibility_rays": [
+        {
+          "target": [
+            -24.8,
+            0.24000000000000002,
+            30.0
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -24.150000000000002,
+            0.24000000000000002,
+            30.0
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -24.340380592228744,
+            0.24000000000000002,
+            30.353553390593273
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -24.8,
+            0.24000000000000002,
+            30.5
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -25.259619407771257,
+            0.24000000000000002,
+            30.353553390593273
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -25.45,
+            0.24000000000000002,
+            30.0
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -25.259619407771257,
+            0.24000000000000002,
+            29.646446609406727
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -24.8,
+            0.24000000000000002,
+            29.5
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -24.340380592228744,
+            0.24000000000000002,
+            29.646446609406727
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        }
+      ],
+      "spawn_eye_visibility_clear_count": 9
+    },
+    {
+      "id": "near_2",
+      "center_xz": [
+        -21.8,
+        29.8
+      ],
+      "radii_xz": [
+        0.55,
+        0.5
+      ],
+      "period_s": 47,
+      "phase_rad": 2.1,
+      "direction": -1,
+      "center_y_up": [
+        -21.8,
+        0.04,
+        29.8
+      ],
+      "water": true,
+      "water_boundary_clearance_m": 2.9449664149149535,
+      "nearest_obstacles": [
+        [
+          2.944965434854426,
+          "连续坡地_照片湖形约束.001"
+        ],
+        [
+          3.048329644584624,
+          "岸石_1.021"
+        ],
+        [
+          5.609666342636683,
+          "岸石_1.022"
+        ],
+        [
+          6.58934408390238,
+          "柳树｜73000片叶与层叠垂帘.006"
+        ],
+        [
+          6.672387484703953,
+          "岸上红褐慢行道_与水上栈道连续.001"
+        ],
+        [
+          6.786614252370655,
+          "柳树｜树干、分叉与垂枝.006"
+        ]
+      ],
+      "spawn_distance_xz_m": 8.50881895447306,
+      "spawn_heading_offset_degrees": 11.243189237074976,
+      "route_plus_body_radius_m": 0.8500000000000001,
+      "guaranteed_water_edge_clearance_m": 2.0949664149149534,
+      "guaranteed_obstacle_clearance_m": 2.0949654348544264,
+      "water_containment_samples_passed": 128,
+      "spawn_eye_visibility_rays": [
+        {
+          "target": [
+            -21.8,
+            0.24000000000000002,
+            29.8
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -21.25,
+            0.24000000000000002,
+            29.8
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -21.4110912703474,
+            0.24000000000000002,
+            30.153553390593274
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -21.8,
+            0.24000000000000002,
+            30.3
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -22.188908729652603,
+            0.24000000000000002,
+            30.153553390593274
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -22.35,
+            0.24000000000000002,
+            29.8
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -22.188908729652603,
+            0.24000000000000002,
+            29.446446609406728
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -21.8,
+            0.24000000000000002,
+            29.3
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -21.4110912703474,
+            0.24000000000000002,
+            29.446446609406728
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        }
+      ],
+      "spawn_eye_visibility_clear_count": 9
+    },
+    {
+      "id": "near_3",
+      "center_xz": [
+        -23.4,
+        27.0
+      ],
+      "radii_xz": [
+        0.7,
+        0.55
+      ],
+      "period_s": 53,
+      "phase_rad": 4.2,
+      "direction": 1,
+      "center_y_up": [
+        -23.4,
+        0.04,
+        27.0
+      ],
+      "water": true,
+      "water_boundary_clearance_m": 5.628464565174709,
+      "nearest_obstacles": [
+        [
+          5.628463634469511,
+          "连续坡地_照片湖形约束.001"
+        ],
+        [
+          6.2463021359266815,
+          "岸石_1.022"
+        ],
+        [
+          6.271958405787803,
+          "岸石_1.021"
+        ],
+        [
+          8.852211313964792,
+          "芦苇｜弯垂长叶.063"
+        ],
+        [
+          8.949984697857502,
+          "broadleaf｜独立折面叶冠.012"
+        ],
+        [
+          9.052247743622267,
+          "芦苇｜弯垂长叶.065"
+        ]
+      ],
+      "spawn_distance_xz_m": 10.526157893552616,
+      "spawn_heading_offset_degrees": -4.034371995000751,
+      "route_plus_body_radius_m": 1.0,
+      "guaranteed_water_edge_clearance_m": 4.628464565174709,
+      "guaranteed_obstacle_clearance_m": 4.628463634469511,
+      "water_containment_samples_passed": 128,
+      "spawn_eye_visibility_rays": [
+        {
+          "target": [
+            -23.4,
+            0.24000000000000002,
+            27.0
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -22.7,
+            0.24000000000000002,
+            27.0
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -22.905025253169416,
+            0.24000000000000002,
+            27.388908729652602
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -23.4,
+            0.24000000000000002,
+            27.55
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -23.89497474683058,
+            0.24000000000000002,
+            27.388908729652602
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -24.099999999999998,
+            0.24000000000000002,
+            27.0
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -23.89497474683058,
+            0.24000000000000002,
+            26.611091270347398
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -23.4,
+            0.24000000000000002,
+            26.45
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -22.905025253169416,
+            0.24000000000000002,
+            26.611091270347398
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        }
+      ],
+      "spawn_eye_visibility_clear_count": 9
+    },
+    {
+      "id": "far_1",
+      "center_xz": [
+        -20.0,
+        22.0
+      ],
+      "radii_xz": [
+        0.9,
+        0.65
+      ],
+      "period_s": 68,
+      "phase_rad": 1.3,
+      "direction": -1,
+      "center_y_up": [
+        -20.0,
+        0.04,
+        22.0
+      ],
+      "water": true,
+      "water_boundary_clearance_m": 10.847498546626102,
+      "nearest_obstacles": [
+        [
+          10.512762519013824,
+          "岸石_1.021"
+        ],
+        [
+          10.84749731530462,
+          "连续坡地_照片湖形约束.001"
+        ],
+        [
+          11.897267687755859,
+          "柳树｜73000片叶与层叠垂帘.006"
+        ],
+        [
+          12.292729972176438,
+          "岸石_1.022"
+        ],
+        [
+          12.342624443407589,
+          "柳树｜树干、分叉与垂枝.006"
+        ],
+        [
+          12.785293657788579,
+          "芦苇｜弯垂长叶.062"
+        ]
+      ],
+      "spawn_distance_xz_m": 16.3413585726524,
+      "spawn_heading_offset_degrees": 3.2063264743520943,
+      "route_plus_body_radius_m": 1.2,
+      "guaranteed_water_edge_clearance_m": 9.647498546626101,
+      "guaranteed_obstacle_clearance_m": 9.312762519013823,
+      "water_containment_samples_passed": 128,
+      "spawn_eye_visibility_rays": [
+        {
+          "target": [
+            -20.0,
+            0.24000000000000002,
+            22.0
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -19.1,
+            0.24000000000000002,
+            22.0
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -19.36360389693211,
+            0.24000000000000002,
+            22.459619407771257
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -20.0,
+            0.24000000000000002,
+            22.65
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -20.63639610306789,
+            0.24000000000000002,
+            22.459619407771257
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -20.9,
+            0.24000000000000002,
+            22.0
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -20.63639610306789,
+            0.24000000000000002,
+            21.540380592228743
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -20.0,
+            0.24000000000000002,
+            21.35
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -19.36360389693211,
+            0.24000000000000002,
+            21.540380592228743
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        }
+      ],
+      "spawn_eye_visibility_clear_count": 9
+    },
+    {
+      "id": "far_2",
+      "center_xz": [
+        -16.5,
+        21.5
+      ],
+      "radii_xz": [
+        1.1,
+        0.7
+      ],
+      "period_s": 73,
+      "phase_rad": 4.9,
+      "direction": 1,
+      "center_y_up": [
+        -16.5,
+        0.04,
+        21.5
+      ],
+      "water": true,
+      "water_boundary_clearance_m": 11.575849605268454,
+      "nearest_obstacles": [
+        [
+          11.236933886399013,
+          "柳树｜73000片叶与层叠垂帘.006"
+        ],
+        [
+          11.575849036411677,
+          "连续坡地_照片湖形约束.001"
+        ],
+        [
+          11.656068888163578,
+          "岸石_1.021"
+        ],
+        [
+          11.781302866146541,
+          "芦苇｜弯垂长叶.062"
+        ],
+        [
+          11.997489307457029,
+          "柳树｜树干、分叉与垂枝.006"
+        ],
+        [
+          12.042034106741752,
+          "岸石_0.020"
+        ]
+      ],
+      "spawn_distance_xz_m": 18.3504768330417,
+      "spawn_heading_offset_degrees": 12.843295920081959,
+      "route_plus_body_radius_m": 1.4000000000000001,
+      "guaranteed_water_edge_clearance_m": 10.175849605268454,
+      "guaranteed_obstacle_clearance_m": 9.836933886399013,
+      "water_containment_samples_passed": 128,
+      "spawn_eye_visibility_rays": [
+        {
+          "target": [
+            -16.5,
+            0.24000000000000002,
+            21.5
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -15.4,
+            0.24000000000000002,
+            21.5
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -15.722182540694797,
+            0.24000000000000002,
+            21.994974746830582
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -16.5,
+            0.24000000000000002,
+            22.2
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -17.2778174593052,
+            0.24000000000000002,
+            21.994974746830582
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -17.6,
+            0.24000000000000002,
+            21.5
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -17.277817459305204,
+            0.24000000000000002,
+            21.005025253169418
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -16.5,
+            0.24000000000000002,
+            20.8
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        },
+        {
+          "target": [
+            -15.722182540694797,
+            0.24000000000000002,
+            21.005025253169418
+          ],
+          "clear": true,
+          "nearest_occluder": null
+        }
+      ],
+      "spawn_eye_visibility_clear_count": 9
+    }
+  ],
+  "pair_clearances": [
+    {
+      "a": "near_1",
+      "b": "near_2",
+      "center_distance_m": 3.0066592756745814,
+      "minimum_route_center_gap_m": 1.8066592756745814,
+      "guaranteed_duck_body_gap_m": 1.2066592756745815
+    },
+    {
+      "a": "near_1",
+      "b": "near_3",
+      "center_distance_m": 3.3105890714493706,
+      "minimum_route_center_gap_m": 1.9605890714493708,
+      "guaranteed_duck_body_gap_m": 1.360589071449371
+    },
+    {
+      "a": "near_1",
+      "b": "far_1",
+      "center_distance_m": 9.329523031752482,
+      "minimum_route_center_gap_m": 7.779523031752481,
+      "guaranteed_duck_body_gap_m": 7.179523031752481
+    },
+    {
+      "a": "near_1",
+      "b": "far_2",
+      "center_distance_m": 11.880235687897779,
+      "minimum_route_center_gap_m": 10.130235687897779,
+      "guaranteed_duck_body_gap_m": 9.530235687897779
+    },
+    {
+      "a": "near_2",
+      "b": "near_3",
+      "center_distance_m": 3.2249030993194197,
+      "minimum_route_center_gap_m": 1.9749030993194199,
+      "guaranteed_duck_body_gap_m": 1.37490309931942
+    },
+    {
+      "a": "near_2",
+      "b": "far_1",
+      "center_distance_m": 8.0049984384758,
+      "minimum_route_center_gap_m": 6.5549984384758,
+      "guaranteed_duck_body_gap_m": 5.9549984384758
+    },
+    {
+      "a": "near_2",
+      "b": "far_2",
+      "center_distance_m": 9.847842403288144,
+      "minimum_route_center_gap_m": 8.197842403288144,
+      "guaranteed_duck_body_gap_m": 7.597842403288144
+    },
+    {
+      "a": "near_3",
+      "b": "far_1",
+      "center_distance_m": 6.046486583132388,
+      "minimum_route_center_gap_m": 4.446486583132388,
+      "guaranteed_duck_body_gap_m": 3.846486583132388
+    },
+    {
+      "a": "near_3",
+      "b": "far_2",
+      "center_distance_m": 8.823831367382311,
+      "minimum_route_center_gap_m": 7.0238313673823125,
+      "guaranteed_duck_body_gap_m": 6.423831367382313
+    },
+    {
+      "a": "far_1",
+      "b": "far_2",
+      "center_distance_m": 3.5355339059327378,
+      "minimum_route_center_gap_m": 1.5355339059327378,
+      "guaranteed_duck_body_gap_m": 0.9355339059327378
+    }
+  ],
+  "landmark_bounds": [
+    {
+      "name": "亭台旁_狭长低矮草洲.001",
+      "min_y_up": [
+        -20.877037048339844,
+        -1.9500000476837158,
+        -8.896736145019531
+      ],
+      "max_y_up": [
+        -3.697591781616211,
+        0.5,
+        -0.018460512161254883
+      ]
+    },
+    {
+      "name": "红桥_平直桥面与实体桥墩.001",
+      "min_y_up": [
+        -36.0,
+        -1.6299999952316284,
+        -53.0
+      ],
+      "max_y_up": [
+        86.0,
+        6.565000057220459,
+        -45.0
+      ]
+    },
+    {
+      "name": "亭台与短桥｜实体灰色侧梁.001",
+      "min_y_up": [
+        -20.493999481201172,
+        0.36000001430511475,
+        -17.107999801635742
+      ],
+      "max_y_up": [
+        -1.5,
+        0.949999988079071,
+        -7.5
+      ]
+    },
+    {
+      "name": "离岸曲线栈道_两侧留水.001",
+      "min_y_up": [
+        -103.71591186523438,
+        0.5600000023841858,
+        -35.47708511352539
+      ],
+      "max_y_up": [
+        11.261198997497559,
+        0.8799999952316284,
+        27.318132400512695
+      ]
+    }
+  ],
+  "placement_notes": [
+    "Route center Y=0.04 is the waterline anchor, not necessarily the asset pivot. Align the imported duck belly waterline using a local model offset.",
+    "Recommended duck overall length about 0.50m; body envelope radius 0.30m is used for all-phase collision clearance.",
+    "LakeWater.shader vertex stage has no displacement; its animated ripples affect shading only. Optional visual bob should stay around +/-0.008m.",
+    "Ellipse parameterization x=cx+rx*cos(theta), z=cz+rz*sin(theta); use the tangent for heading. Independent periods/phases are safe for any relative phase.",
+    "Visibility rays test environment geometry from the initial first-person eye to 0.20m above the water; they do not include player arms or future placed actors."
+  ]
+}

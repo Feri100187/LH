@@ -1,0 +1,19 @@
+{
+  "description": "Two real IDE mouse presses 85ms apart; second press occurs inside the active firing cycle",
+  "logs": [
+    {
+      "rawMessage": "[玩家射击] 本轮 2 次，间隔 0.200 秒，已释放扳机。",
+      "message": "[玩家射击] 本轮 2 次，间隔 0.200 秒，已释放扳机。",
+      "level": 1,
+      "group": "Play",
+      "timestamp": 1789882855551,
+      "sourceResolved": true,
+      "sourceResolutionTimedOut": false,
+      "sourceId": "http://localhost:18090/js/bundles/bundle.js",
+      "source": "../../../src/LingshuiGame.ts",
+      "line": 86,
+      "sourceLink": "file:///D:/a/xiang_mu/LH/src/LingshuiGame.ts",
+      "sourceLabel": "LingshuiGame.ts:86"
+    }
+  ]
+}

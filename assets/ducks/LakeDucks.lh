@@ -1,0 +1,203 @@
+{
+  "_$ver": 1,
+  "_$id": "bd5sffne",
+  "_$type": "Sprite3D",
+  "name": "LakeDucks",
+  "_$child": [
+    {
+      "_$id": "lakeduck1",
+      "_$type": "Sprite3D",
+      "name": "Duck_01",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -24.8,
+          "y": 0.04,
+          "z": 30
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "bab764cf-12ab-4cf2-bfb3-5320c2093938",
+          "radiusX": 0.65,
+          "radiusZ": 0.5,
+          "periodSeconds": 42,
+          "phaseDegrees": 0,
+          "direction": 1,
+          "bobHeight": 0.006
+        }
+      ],
+      "_$child": [
+        {
+          "_$id": "duckmodel1",
+          "_$prefab": "2565d79f-2c4f-4888-ba14-c6cf63715c51",
+          "name": "DuckModel",
+          "transform": {
+            "localScale": {
+              "_$type": "Vector3",
+              "x": 1.06,
+              "y": 1.06,
+              "z": 1.06
+            }
+          }
+        }
+      ]
+    },
+    {
+      "_$id": "lakeduck2",
+      "_$type": "Sprite3D",
+      "name": "Duck_02",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -21.8,
+          "y": 0.04,
+          "z": 29.8
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "bab764cf-12ab-4cf2-bfb3-5320c2093938",
+          "radiusX": 0.55,
+          "radiusZ": 0.5,
+          "periodSeconds": 47,
+          "phaseDegrees": 120.32113697747288,
+          "direction": -1,
+          "bobHeight": 0.006
+        }
+      ],
+      "_$child": [
+        {
+          "_$id": "duckmodel2",
+          "_$prefab": "2565d79f-2c4f-4888-ba14-c6cf63715c51",
+          "name": "DuckModel",
+          "transform": {
+            "localScale": {
+              "_$type": "Vector3",
+              "x": 0.98,
+              "y": 0.98,
+              "z": 0.98
+            }
+          }
+        }
+      ]
+    },
+    {
+      "_$id": "lakeduck3",
+      "_$type": "Sprite3D",
+      "name": "Duck_03",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -23.4,
+          "y": 0.04,
+          "z": 27
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "bab764cf-12ab-4cf2-bfb3-5320c2093938",
+          "radiusX": 0.7,
+          "radiusZ": 0.55,
+          "periodSeconds": 53,
+          "phaseDegrees": 240.64227395494575,
+          "direction": 1,
+          "bobHeight": 0.006
+        }
+      ],
+      "_$child": [
+        {
+          "_$id": "duckmodel3",
+          "_$prefab": "2565d79f-2c4f-4888-ba14-c6cf63715c51",
+          "name": "DuckModel",
+          "transform": {
+            "localScale": {
+              "_$type": "Vector3",
+              "x": 1.02,
+              "y": 1.02,
+              "z": 1.02
+            }
+          }
+        }
+      ]
+    },
+    {
+      "_$id": "lakeduck4",
+      "_$type": "Sprite3D",
+      "name": "Duck_04",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -20,
+          "y": 0.04,
+          "z": 22
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "bab764cf-12ab-4cf2-bfb3-5320c2093938",
+          "radiusX": 0.9,
+          "radiusZ": 0.65,
+          "periodSeconds": 68,
+          "phaseDegrees": 74.48451336700703,
+          "direction": -1,
+          "bobHeight": 0.006
+        }
+      ],
+      "_$child": [
+        {
+          "_$id": "duckmodel4",
+          "_$prefab": "2565d79f-2c4f-4888-ba14-c6cf63715c51",
+          "name": "DuckModel",
+          "transform": {
+            "localScale": {
+              "_$type": "Vector3",
+              "x": 0.94,
+              "y": 0.94,
+              "z": 0.94
+            }
+          }
+        }
+      ]
+    },
+    {
+      "_$id": "lakeduck5",
+      "_$type": "Sprite3D",
+      "name": "Duck_05",
+      "transform": {
+        "localPosition": {
+          "_$type": "Vector3",
+          "x": -16.5,
+          "y": 0.04,
+          "z": 21.5
+        }
+      },
+      "_$comp": [
+        {
+          "_$type": "bab764cf-12ab-4cf2-bfb3-5320c2093938",
+          "radiusX": 1.1,
+          "radiusZ": 0.7,
+          "periodSeconds": 73,
+          "phaseDegrees": 280.7493196141034,
+          "direction": 1,
+          "bobHeight": 0.006
+        }
+      ],
+      "_$child": [
+        {
+          "_$id": "duckmodel5",
+          "_$prefab": "2565d79f-2c4f-4888-ba14-c6cf63715c51",
+          "name": "DuckModel",
+          "transform": {
+            "localScale": {
+              "_$type": "Vector3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

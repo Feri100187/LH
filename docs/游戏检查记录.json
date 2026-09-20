@@ -1,0 +1,399 @@
+{
+  "passed": 16,
+  "total": 16,
+  "results": [
+    {
+      "name": "默认第一人称",
+      "pass": true,
+      "detail": {
+        "ready": true,
+        "firstPerson": true,
+        "locked": true,
+        "position": [
+          -26,
+          1.7599999761581422,
+          37.2
+        ],
+        "camera": [
+          -26,
+          2.479999976158142,
+          37.2
+        ],
+        "yaw": 0.32,
+        "pitch": 0.025,
+        "grounded": true,
+        "cameraDistance": 3.4,
+        "fps": 60,
+        "keys": []
+      }
+    },
+    {
+      "name": "W 移动",
+      "pass": true,
+      "detail": {
+        "distance": 2.3251666844604877
+      }
+    },
+    {
+      "name": "Shift 奔跑",
+      "pass": true,
+      "detail": {
+        "walk": 2.3251666844604877,
+        "run": 3.999999999999993
+      }
+    },
+    {
+      "name": "斜向移动归一化",
+      "pass": true,
+      "detail": {
+        "distance": 2.3036276126826913
+      }
+    },
+    {
+      "name": "Space 跳跃与落地",
+      "pass": true,
+      "detail": {
+        "start": [
+          -18.008561263044072,
+          1.7599999761581422,
+          44.590490062638246
+        ],
+        "air": [
+          -18.008561263044072,
+          2.7849999761581428,
+          44.590490062638246
+        ],
+        "end": [
+          -18.008561263044072,
+          1.7599999761581422,
+          44.590490062638246
+        ]
+      }
+    },
+    {
+      "name": "鼠标锁定并转向",
+      "pass": true,
+      "detail": {
+        "from": [
+          1.5707963267948966,
+          0
+        ],
+        "to": [
+          1.5367963267948965,
+          0.39
+        ]
+      }
+    },
+    {
+      "name": "V 切换越肩第三人称",
+      "pass": true,
+      "detail": {
+        "ready": true,
+        "firstPerson": false,
+        "locked": true,
+        "position": [
+          -18.008561263044072,
+          1.7599999761581422,
+          44.590490062638246
+        ],
+        "camera": [
+          -21.128540745389408,
+          1.1276541465892809,
+          45.3468198106326
+        ],
+        "yaw": 1.5367963267948965,
+        "pitch": 0.39,
+        "grounded": true,
+        "cameraDistance": 3.4108954203965003,
+        "fps": 60,
+        "keys": []
+      }
+    },
+    {
+      "name": "V 返回第一人称",
+      "pass": true,
+      "detail": {
+        "ready": true,
+        "firstPerson": true,
+        "locked": true,
+        "position": [
+          -18.008561263044072,
+          1.7599999761581422,
+          44.590490062638246
+        ],
+        "camera": [
+          -18.008561263044072,
+          2.479999976158142,
+          44.590490062638246
+        ],
+        "yaw": 1.5367963267948965,
+        "pitch": 0.39,
+        "grounded": true,
+        "cameraDistance": 3.4,
+        "fps": 60,
+        "keys": []
+      }
+    },
+    {
+      "name": "第三人称墙体避障",
+      "pass": true,
+      "detail": {
+        "ready": true,
+        "firstPerson": false,
+        "locked": true,
+        "position": [
+          45,
+          3.1100000000000003,
+          -26.8
+        ],
+        "camera": [
+          44.63657352941176,
+          3.7082764705882356,
+          -28.701
+        ],
+        "yaw": 3.141592653589793,
+        "pitch": 0,
+        "grounded": true,
+        "cameraDistance": 1.937009810344793,
+        "fps": 60,
+        "keys": []
+      }
+    },
+    {
+      "name": "西北多层台阶可连续登顶",
+      "pass": true,
+      "detail": {
+        "start": [
+          -48,
+          2.3127268668915013,
+          -28.079809379883365
+        ],
+        "end": [
+          -48,
+          7.910000190734864,
+          -43.84777217947547
+        ]
+      }
+    },
+    {
+      "name": "曲线栈道接入凉亭",
+      "pass": true,
+      "detail": {
+        "route": [
+          {
+            "ready": true,
+            "firstPerson": true,
+            "locked": true,
+            "position": [
+              -17.02927999999999,
+              1.710000023841858,
+              -13.03903999999999
+            ],
+            "camera": [
+              -17.074910000000052,
+              2.430000023841858,
+              -13.099880000000073
+            ],
+            "yaw": 2.498091544796525,
+            "pitch": 0,
+            "grounded": true,
+            "cameraDistance": 3.4,
+            "fps": 60,
+            "keys": []
+          },
+          {
+            "ready": true,
+            "firstPerson": true,
+            "locked": true,
+            "position": [
+              -8.96036467081047,
+              1.710000023841858,
+              -13.000112521477112
+            ],
+            "camera": [
+              -9.035514367978037,
+              2.430000023841858,
+              -12.999899177596722
+            ],
+            "yaw": 1.5679574157242158,
+            "pitch": 0,
+            "grounded": true,
+            "cameraDistance": 3.4,
+            "fps": 60,
+            "keys": []
+          },
+          {
+            "ready": true,
+            "firstPerson": true,
+            "locked": true,
+            "position": [
+              -8.227895128084219,
+              1.710000023841858,
+              -11.06142441421495
+            ],
+            "camera": [
+              -8.227895128084219,
+              2.430000023841858,
+              -11.06142441421495
+            ],
+            "yaw": 2.7153033363818584,
+            "pitch": 0,
+            "grounded": true,
+            "cameraDistance": 3.4,
+            "fps": 60,
+            "keys": []
+          },
+          {
+            "ready": true,
+            "firstPerson": true,
+            "locked": true,
+            "position": [
+              -5.078465300029284,
+              1.710000023841858,
+              -11.001493135588131
+            ],
+            "camera": [
+              -5.153601697355659,
+              2.430000023841858,
+              -11.002922924663942
+            ],
+            "yaw": 1.589823277550976,
+            "pitch": 0,
+            "grounded": true,
+            "cameraDistance": 3.4,
+            "fps": 60,
+            "keys": []
+          }
+        ]
+      }
+    },
+    {
+      "name": "高架红桥桥面可通行",
+      "pass": true,
+      "detail": {
+        "start": [
+          -15,
+          7.359999999999999,
+          -49
+        ],
+        "end": [
+          -5.024399999999921,
+          7.359999999999999,
+          -49
+        ]
+      }
+    },
+    {
+      "name": "Esc 释放鼠标",
+      "pass": true,
+      "detail": {
+        "ready": true,
+        "firstPerson": true,
+        "locked": false,
+        "position": [
+          -5.024399999999921,
+          7.359999999999999,
+          -49
+        ],
+        "camera": [
+          -5.024399999999921,
+          8.08,
+          -49
+        ],
+        "yaw": 1.5707963267948966,
+        "pitch": 0,
+        "grounded": true,
+        "cameraDistance": 3.4,
+        "fps": 60,
+        "keys": []
+      }
+    },
+    {
+      "name": "释放后不继续移动",
+      "pass": true,
+      "detail": {
+        "before": [
+          -5.024399999999921,
+          7.359999999999999,
+          -49
+        ],
+        "after": [
+          -5.024399999999921,
+          7.359999999999999,
+          -49
+        ]
+      }
+    },
+    {
+      "name": "窗口失焦清空按键",
+      "pass": true,
+      "detail": {
+        "before": {
+          "ready": true,
+          "firstPerson": true,
+          "locked": false,
+          "position": [
+            -5.024399999999921,
+            7.359999999999999,
+            -49
+          ],
+          "camera": [
+            -5.024399999999921,
+            8.08,
+            -49
+          ],
+          "yaw": 1.5707963267948966,
+          "pitch": 0,
+          "grounded": true,
+          "cameraDistance": 3.4,
+          "fps": 60,
+          "keys": []
+        },
+        "after": {
+          "ready": true,
+          "firstPerson": true,
+          "locked": false,
+          "position": [
+            -5.024399999999921,
+            7.359999999999999,
+            -49
+          ],
+          "camera": [
+            -5.024399999999921,
+            8.08,
+            -49
+          ],
+          "yaw": 1.5707963267948966,
+          "pitch": 0,
+          "grounded": true,
+          "cameraDistance": 3.4,
+          "fps": 60,
+          "keys": []
+        }
+      }
+    },
+    {
+      "name": "十字准星位于屏幕中心",
+      "pass": true,
+      "detail": {
+        "x": 518,
+        "y": 452.66668701171875,
+        "w": 1036,
+        "h": 905
+      }
+    }
+  ],
+  "engine": "LayaAir 3.4.1",
+  "date": "2026-09-15",
+  "method": "Playwright headed Chromium; actual keyboard and pointer lock, seeded positions for landmark traversal",
+  "finalChecks": {
+    "typeScript": "passed",
+    "sceneSchema": "passed",
+    "webBuild": "passed",
+    "editorPlay": "loaded with native preview",
+    "boundsRespawn": "passed",
+    "waterNormalTexture": "loaded",
+    "waterNormalAnimation": "nonzero scrolling UV",
+    "foliageColors": "VEC4 RGBA with ENABLEVERTEXCOLOR"
+  }
+}

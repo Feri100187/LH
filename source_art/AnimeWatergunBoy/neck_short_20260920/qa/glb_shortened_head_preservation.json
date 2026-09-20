@@ -1,0 +1,1349 @@
+{
+  "status": "PASS",
+  "changed_mesh_indices": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    15,
+    16,
+    17,
+    18,
+    21,
+    26
+  ],
+  "changed_mesh_count": 14,
+  "mesh_comparison": [
+    {
+      "index": 0,
+      "name": "AWB.Detail.pocket opening -1.mesh.001",
+      "byte_identical": true,
+      "differences": []
+    },
+    {
+      "index": 1,
+      "name": "AWB.L ribbed cuff.mesh.001",
+      "byte_identical": true,
+      "differences": []
+    },
+    {
+      "index": 2,
+      "name": "AWB.Hood outer drape.mesh.001",
+      "byte_identical": true,
+      "differences": []
+    },
+    {
+      "index": 3,
+      "name": "AWB.R ribbed cuff.mesh.001",
+      "byte_identical": true,
+      "differences": []
+    },
+    {
+      "index": 4,
+      "name": "AWB.R pants pocket welt.mesh.001",
+      "byte_identical": true,
+      "differences": []
+    },
+    {
+      "index": 5,
+      "name": "AWB.Detail.zipper tape -0.005.mesh.001",
+      "byte_identical": true,
+      "differences": []
+    },
+    {
+      "index": 6,
+      "name": "AWB.R shaped eyebrow.mesh.001",
+      "byte_identical": false,
+      "differences": [
+        {
+          "primitive": 0,
+          "semantic": "POSITION",
+          "old_shape": [
+            20,
+            3
+          ],
+          "new_shape": [
+            20,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 0,
+          "semantic": "NORMAL",
+          "old_shape": [
+            20,
+            3
+          ],
+          "new_shape": [
+            20,
+            3
+          ],
+          "maximum_difference": 9.484589099884033e-05
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "name": "AWB.L ear outer helix.mesh.001",
+      "byte_identical": false,
+      "differences": [
+        {
+          "primitive": 0,
+          "semantic": "POSITION",
+          "old_shape": [
+            360,
+            3
+          ],
+          "new_shape": [
+            360,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 0,
+          "semantic": "NORMAL",
+          "old_shape": [
+            360,
+            3
+          ],
+          "new_shape": [
+            360,
+            3
+          ],
+          "maximum_difference": 0.0012974143028259277
+        },
+        {
+          "primitive": 1,
+          "semantic": "POSITION",
+          "old_shape": [
+            14,
+            3
+          ],
+          "new_shape": [
+            14,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 2,
+          "semantic": "POSITION",
+          "old_shape": [
+            104,
+            3
+          ],
+          "new_shape": [
+            104,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 2,
+          "semantic": "NORMAL",
+          "old_shape": [
+            104,
+            3
+          ],
+          "new_shape": [
+            104,
+            3
+          ],
+          "maximum_difference": 0.00010959804058074951
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "name": "AWB.L almond sclera.mesh.001",
+      "byte_identical": false,
+      "differences": [
+        {
+          "primitive": 0,
+          "semantic": "POSITION",
+          "old_shape": [
+            281,
+            3
+          ],
+          "new_shape": [
+            281,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 0,
+          "semantic": "NORMAL",
+          "old_shape": [
+            281,
+            3
+          ],
+          "new_shape": [
+            281,
+            3
+          ],
+          "maximum_difference": 0.000316619873046875
+        },
+        {
+          "primitive": 1,
+          "semantic": "POSITION",
+          "old_shape": [
+            175,
+            3
+          ],
+          "new_shape": [
+            175,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 1,
+          "semantic": "NORMAL",
+          "old_shape": [
+            175,
+            3
+          ],
+          "new_shape": [
+            175,
+            3
+          ],
+          "maximum_difference": 0.00019194185733795166
+        },
+        {
+          "primitive": 2,
+          "semantic": "POSITION",
+          "old_shape": [
+            283,
+            3
+          ],
+          "new_shape": [
+            283,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 2,
+          "semantic": "NORMAL",
+          "old_shape": [
+            283,
+            3
+          ],
+          "new_shape": [
+            283,
+            3
+          ],
+          "maximum_difference": 0.0001999232918024063
+        },
+        {
+          "primitive": 3,
+          "semantic": "POSITION",
+          "old_shape": [
+            192,
+            3
+          ],
+          "new_shape": [
+            192,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 3,
+          "semantic": "NORMAL",
+          "old_shape": [
+            192,
+            3
+          ],
+          "new_shape": [
+            192,
+            3
+          ],
+          "maximum_difference": 0.0005998937413096428
+        },
+        {
+          "primitive": 4,
+          "semantic": "POSITION",
+          "old_shape": [
+            164,
+            3
+          ],
+          "new_shape": [
+            164,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 4,
+          "semantic": "NORMAL",
+          "old_shape": [
+            164,
+            3
+          ],
+          "new_shape": [
+            164,
+            3
+          ],
+          "maximum_difference": 0.00039555132389068604
+        },
+        {
+          "primitive": 5,
+          "semantic": "POSITION",
+          "old_shape": [
+            60,
+            3
+          ],
+          "new_shape": [
+            60,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 5,
+          "semantic": "NORMAL",
+          "old_shape": [
+            60,
+            3
+          ],
+          "new_shape": [
+            60,
+            3
+          ],
+          "maximum_difference": 0.00039196014404296875
+        },
+        {
+          "primitive": 6,
+          "semantic": "POSITION",
+          "old_shape": [
+            128,
+            3
+          ],
+          "new_shape": [
+            128,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 6,
+          "semantic": "NORMAL",
+          "old_shape": [
+            128,
+            3
+          ],
+          "new_shape": [
+            128,
+            3
+          ],
+          "maximum_difference": 0.0005947351455688477
+        },
+        {
+          "primitive": 7,
+          "semantic": "POSITION",
+          "old_shape": [
+            42,
+            3
+          ],
+          "new_shape": [
+            42,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 7,
+          "semantic": "NORMAL",
+          "old_shape": [
+            42,
+            3
+          ],
+          "new_shape": [
+            42,
+            3
+          ],
+          "maximum_difference": 0.00029975175857543945
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "name": "AWB.Quiet closed mouth.mesh.001",
+      "byte_identical": false,
+      "differences": [
+        {
+          "primitive": 0,
+          "semantic": "POSITION",
+          "old_shape": [
+            147,
+            3
+          ],
+          "new_shape": [
+            147,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 0,
+          "semantic": "NORMAL",
+          "old_shape": [
+            147,
+            3
+          ],
+          "new_shape": [
+            147,
+            3
+          ],
+          "maximum_difference": 0.00019724667072296143
+        },
+        {
+          "primitive": 1,
+          "semantic": "POSITION",
+          "old_shape": [
+            96,
+            3
+          ],
+          "new_shape": [
+            96,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 1,
+          "semantic": "NORMAL",
+          "old_shape": [
+            96,
+            3
+          ],
+          "new_shape": [
+            96,
+            3
+          ],
+          "maximum_difference": 0.00012189149856567383
+        },
+        {
+          "primitive": 2,
+          "semantic": "POSITION",
+          "old_shape": [
+            60,
+            3
+          ],
+          "new_shape": [
+            60,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 2,
+          "semantic": "NORMAL",
+          "old_shape": [
+            60,
+            3
+          ],
+          "new_shape": [
+            60,
+            3
+          ],
+          "maximum_difference": 0.00021094083786010742
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "name": "AWB.R ear outer helix.mesh.001",
+      "byte_identical": false,
+      "differences": [
+        {
+          "primitive": 0,
+          "semantic": "POSITION",
+          "old_shape": [
+            360,
+            3
+          ],
+          "new_shape": [
+            360,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 0,
+          "semantic": "NORMAL",
+          "old_shape": [
+            360,
+            3
+          ],
+          "new_shape": [
+            360,
+            3
+          ],
+          "maximum_difference": 0.000403672456741333
+        },
+        {
+          "primitive": 1,
+          "semantic": "POSITION",
+          "old_shape": [
+            14,
+            3
+          ],
+          "new_shape": [
+            14,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 2,
+          "semantic": "POSITION",
+          "old_shape": [
+            104,
+            3
+          ],
+          "new_shape": [
+            104,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 2,
+          "semantic": "NORMAL",
+          "old_shape": [
+            104,
+            3
+          ],
+          "new_shape": [
+            104,
+            3
+          ],
+          "maximum_difference": 9.987130761146545e-05
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "name": "AWB.R almond sclera.mesh.001",
+      "byte_identical": false,
+      "differences": [
+        {
+          "primitive": 0,
+          "semantic": "POSITION",
+          "old_shape": [
+            281,
+            3
+          ],
+          "new_shape": [
+            281,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 0,
+          "semantic": "NORMAL",
+          "old_shape": [
+            281,
+            3
+          ],
+          "new_shape": [
+            281,
+            3
+          ],
+          "maximum_difference": 0.00022840499877929688
+        },
+        {
+          "primitive": 1,
+          "semantic": "POSITION",
+          "old_shape": [
+            175,
+            3
+          ],
+          "new_shape": [
+            175,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 1,
+          "semantic": "NORMAL",
+          "old_shape": [
+            175,
+            3
+          ],
+          "new_shape": [
+            175,
+            3
+          ],
+          "maximum_difference": 0.00012031197547912598
+        },
+        {
+          "primitive": 2,
+          "semantic": "POSITION",
+          "old_shape": [
+            283,
+            3
+          ],
+          "new_shape": [
+            283,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 2,
+          "semantic": "NORMAL",
+          "old_shape": [
+            283,
+            3
+          ],
+          "new_shape": [
+            283,
+            3
+          ],
+          "maximum_difference": 0.00029950588941574097
+        },
+        {
+          "primitive": 3,
+          "semantic": "POSITION",
+          "old_shape": [
+            192,
+            3
+          ],
+          "new_shape": [
+            192,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 3,
+          "semantic": "NORMAL",
+          "old_shape": [
+            192,
+            3
+          ],
+          "new_shape": [
+            192,
+            3
+          ],
+          "maximum_difference": 0.00080089271068573
+        },
+        {
+          "primitive": 4,
+          "semantic": "POSITION",
+          "old_shape": [
+            164,
+            3
+          ],
+          "new_shape": [
+            164,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 4,
+          "semantic": "NORMAL",
+          "old_shape": [
+            164,
+            3
+          ],
+          "new_shape": [
+            164,
+            3
+          ],
+          "maximum_difference": 0.0006992220878601074
+        },
+        {
+          "primitive": 5,
+          "semantic": "POSITION",
+          "old_shape": [
+            60,
+            3
+          ],
+          "new_shape": [
+            60,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 5,
+          "semantic": "NORMAL",
+          "old_shape": [
+            60,
+            3
+          ],
+          "new_shape": [
+            60,
+            3
+          ],
+          "maximum_difference": 0.0006926953792572021
+        },
+        {
+          "primitive": 6,
+          "semantic": "POSITION",
+          "old_shape": [
+            128,
+            3
+          ],
+          "new_shape": [
+            128,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 6,
+          "semantic": "NORMAL",
+          "old_shape": [
+            128,
+            3
+          ],
+          "new_shape": [
+            128,
+            3
+          ],
+          "maximum_difference": 0.001300215721130371
+        },
+        {
+          "primitive": 7,
+          "semantic": "POSITION",
+          "old_shape": [
+            42,
+            3
+          ],
+          "new_shape": [
+            42,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 7,
+          "semantic": "NORMAL",
+          "old_shape": [
+            42,
+            3
+          ],
+          "new_shape": [
+            42,
+            3
+          ],
+          "maximum_difference": 0.00039646029472351074
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "name": "AWB.R full rectangular frame.mesh.001",
+      "byte_identical": false,
+      "differences": [
+        {
+          "primitive": 0,
+          "semantic": "POSITION",
+          "old_shape": [
+            1044,
+            3
+          ],
+          "new_shape": [
+            1044,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 0,
+          "semantic": "NORMAL",
+          "old_shape": [
+            1044,
+            3
+          ],
+          "new_shape": [
+            1044,
+            3
+          ],
+          "maximum_difference": 0.0006714463233947754
+        },
+        {
+          "primitive": 1,
+          "semantic": "POSITION",
+          "old_shape": [
+            24,
+            3
+          ],
+          "new_shape": [
+            24,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 1,
+          "semantic": "NORMAL",
+          "old_shape": [
+            24,
+            3
+          ],
+          "new_shape": [
+            24,
+            3
+          ],
+          "maximum_difference": 0.00021401047706604004
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "name": "AWB.R transparent lens.mesh.001",
+      "byte_identical": false,
+      "differences": [
+        {
+          "primitive": 0,
+          "semantic": "POSITION",
+          "old_shape": [
+            74,
+            3
+          ],
+          "new_shape": [
+            74,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 0,
+          "semantic": "NORMAL",
+          "old_shape": [
+            74,
+            3
+          ],
+          "new_shape": [
+            74,
+            3
+          ],
+          "maximum_difference": 9.895861148834229e-05
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "name": "AWB.Gun orange trigger.mesh.001",
+      "byte_identical": true,
+      "differences": []
+    },
+    {
+      "index": 15,
+      "name": "AWB.Hair fitted scalp cap.mesh.003",
+      "byte_identical": false,
+      "differences": [
+        {
+          "primitive": 0,
+          "semantic": "POSITION",
+          "old_shape": [
+            5216,
+            3
+          ],
+          "new_shape": [
+            5216,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 0,
+          "semantic": "NORMAL",
+          "old_shape": [
+            5216,
+            3
+          ],
+          "new_shape": [
+            5216,
+            3
+          ],
+          "maximum_difference": 0.005004912614822388
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "name": "AWB.Natural crown tuft 0.mesh.001",
+      "byte_identical": false,
+      "differences": [
+        {
+          "primitive": 0,
+          "semantic": "POSITION",
+          "old_shape": [
+            166,
+            3
+          ],
+          "new_shape": [
+            166,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 0,
+          "semantic": "NORMAL",
+          "old_shape": [
+            166,
+            3
+          ],
+          "new_shape": [
+            166,
+            3
+          ],
+          "maximum_difference": 0.0003003254532814026
+        },
+        {
+          "primitive": 1,
+          "semantic": "POSITION",
+          "old_shape": [
+            110,
+            3
+          ],
+          "new_shape": [
+            110,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 1,
+          "semantic": "NORMAL",
+          "old_shape": [
+            110,
+            3
+          ],
+          "new_shape": [
+            110,
+            3
+          ],
+          "maximum_difference": 0.00020581483840942383
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "name": "AWB.Bangs 00.mesh.001",
+      "byte_identical": false,
+      "differences": [
+        {
+          "primitive": 0,
+          "semantic": "POSITION",
+          "old_shape": [
+            354,
+            3
+          ],
+          "new_shape": [
+            354,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 0,
+          "semantic": "NORMAL",
+          "old_shape": [
+            354,
+            3
+          ],
+          "new_shape": [
+            354,
+            3
+          ],
+          "maximum_difference": 0.00021019577980041504
+        },
+        {
+          "primitive": 1,
+          "semantic": "POSITION",
+          "old_shape": [
+            960,
+            3
+          ],
+          "new_shape": [
+            960,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 1,
+          "semantic": "NORMAL",
+          "old_shape": [
+            960,
+            3
+          ],
+          "new_shape": [
+            960,
+            3
+          ],
+          "maximum_difference": 0.0003988109529018402
+        },
+        {
+          "primitive": 2,
+          "semantic": "POSITION",
+          "old_shape": [
+            1062,
+            3
+          ],
+          "new_shape": [
+            1062,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 2,
+          "semantic": "NORMAL",
+          "old_shape": [
+            1062,
+            3
+          ],
+          "new_shape": [
+            1062,
+            3
+          ],
+          "maximum_difference": 0.0003988109529018402
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "name": "AWB.Nape taper 0.mesh",
+      "byte_identical": false,
+      "differences": [
+        {
+          "primitive": 0,
+          "semantic": "POSITION",
+          "old_shape": [
+            1120,
+            3
+          ],
+          "new_shape": [
+            1120,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 0,
+          "semantic": "NORMAL",
+          "old_shape": [
+            1120,
+            3
+          ],
+          "new_shape": [
+            1120,
+            3
+          ],
+          "maximum_difference": 0.0010709762573242188
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "name": "AWB.L index fitted nail.mesh.001",
+      "byte_identical": true,
+      "differences": []
+    },
+    {
+      "index": 20,
+      "name": "AWB.R index fitted nail.mesh.001",
+      "byte_identical": true,
+      "differences": []
+    },
+    {
+      "index": 21,
+      "name": "AWB.Head sculpted face and skull.mesh.001",
+      "byte_identical": false,
+      "differences": [
+        {
+          "primitive": 0,
+          "semantic": "POSITION",
+          "old_shape": [
+            5045,
+            3
+          ],
+          "new_shape": [
+            5045,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 0,
+          "semantic": "NORMAL",
+          "old_shape": [
+            5045,
+            3
+          ],
+          "new_shape": [
+            5045,
+            3
+          ],
+          "maximum_difference": 0.00022163987159729004
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "name": "AWB.Jacket tailored body.mesh.001",
+      "byte_identical": true,
+      "differences": []
+    },
+    {
+      "index": 23,
+      "name": "AWB.L closed vamp.mesh",
+      "byte_identical": true,
+      "differences": []
+    },
+    {
+      "index": 24,
+      "name": "AWB.L elastic ankle hem.mesh.001",
+      "byte_identical": true,
+      "differences": []
+    },
+    {
+      "index": 25,
+      "name": "AWB.L palm.mesh.001",
+      "byte_identical": true,
+      "differences": []
+    },
+    {
+      "index": 26,
+      "name": "AWB.Neck.mesh.001",
+      "byte_identical": false,
+      "differences": [
+        {
+          "primitive": 0,
+          "semantic": "POSITION",
+          "old_shape": [
+            680,
+            3
+          ],
+          "new_shape": [
+            680,
+            3
+          ],
+          "maximum_difference": 0.024000048637390137
+        },
+        {
+          "primitive": 0,
+          "semantic": "NORMAL",
+          "old_shape": [
+            680,
+            3
+          ],
+          "new_shape": [
+            680,
+            3
+          ],
+          "maximum_difference": 0.062484681606292725
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "name": "AWB.Right trouser cut.mesh.001",
+      "byte_identical": true,
+      "differences": []
+    },
+    {
+      "index": 28,
+      "name": "AWB.R closed vamp.mesh",
+      "byte_identical": true,
+      "differences": []
+    },
+    {
+      "index": 29,
+      "name": "AWB.R elastic ankle hem.mesh.001",
+      "byte_identical": true,
+      "differences": []
+    },
+    {
+      "index": 30,
+      "name": "AWB.Ribbed waistband.mesh.001",
+      "byte_identical": true,
+      "differences": []
+    },
+    {
+      "index": 31,
+      "name": "AWB.R palm.mesh.001",
+      "byte_identical": true,
+      "differences": []
+    },
+    {
+      "index": 32,
+      "name": "AWB.L rubber outsole.mesh.001",
+      "byte_identical": true,
+      "differences": []
+    },
+    {
+      "index": 33,
+      "name": "AWB.L padded tongue.mesh.001",
+      "byte_identical": true,
+      "differences": []
+    },
+    {
+      "index": 34,
+      "name": "AWB.R rubber outsole.mesh.001",
+      "byte_identical": true,
+      "differences": []
+    },
+    {
+      "index": 35,
+      "name": "AWB.R padded tongue.mesh.001",
+      "byte_identical": true,
+      "differences": []
+    },
+    {
+      "index": 36,
+      "name": "AWB.Gun blue rear pistol grip.mesh.001",
+      "byte_identical": true,
+      "differences": []
+    },
+    {
+      "index": 37,
+      "name": "AWB.Gun blue water reservoir.mesh.001",
+      "byte_identical": true,
+      "differences": []
+    },
+    {
+      "index": 38,
+      "name": "AWB.Gun green front pump.mesh.001",
+      "byte_identical": true,
+      "differences": []
+    },
+    {
+      "index": 39,
+      "name": "AWB.Gun orange fill cap.mesh.001",
+      "byte_identical": true,
+      "differences": []
+    },
+    {
+      "index": 40,
+      "name": "AWB.Gun orange muzzle collar.mesh.001",
+      "byte_identical": true,
+      "differences": []
+    },
+    {
+      "index": 41,
+      "name": "AWB.Gun white main shell.mesh.001",
+      "byte_identical": true,
+      "differences": []
+    },
+    {
+      "index": 42,
+      "name": "AWB.White undershirt hem.mesh.002",
+      "byte_identical": true,
+      "differences": []
+    },
+    {
+      "index": 43,
+      "name": "Water pulse mesh",
+      "byte_identical": true,
+      "differences": []
+    }
+  ],
+  "other_meshes_byte_identical": 30,
+  "materials_identical": true,
+  "nodes_and_default_trs_identical": true,
+  "skin_joint_order_and_inverse_bind_bytes_identical": true,
+  "animations": [
+    {
+      "name": "Idle",
+      "all_samples_byte_identical": true
+    },
+    {
+      "name": "Jump",
+      "all_samples_byte_identical": true
+    },
+    {
+      "name": "Run",
+      "all_samples_byte_identical": true
+    },
+    {
+      "name": "RunBack",
+      "all_samples_byte_identical": true
+    },
+    {
+      "name": "RunBackLeft",
+      "all_samples_byte_identical": true
+    },
+    {
+      "name": "RunBackRight",
+      "all_samples_byte_identical": true
+    },
+    {
+      "name": "RunForwardLeft",
+      "all_samples_byte_identical": true
+    },
+    {
+      "name": "RunForwardRight",
+      "all_samples_byte_identical": true
+    },
+    {
+      "name": "RunJump",
+      "all_samples_byte_identical": true
+    },
+    {
+      "name": "RunLeft",
+      "all_samples_byte_identical": true
+    },
+    {
+      "name": "RunRight",
+      "all_samples_byte_identical": true
+    },
+    {
+      "name": "Shoot",
+      "all_samples_byte_identical": true
+    },
+    {
+      "name": "Walk",
+      "all_samples_byte_identical": true
+    },
+    {
+      "name": "WalkBack",
+      "all_samples_byte_identical": true
+    },
+    {
+      "name": "WalkBackLeft",
+      "all_samples_byte_identical": true
+    },
+    {
+      "name": "WalkBackRight",
+      "all_samples_byte_identical": true
+    },
+    {
+      "name": "WalkForwardLeft",
+      "all_samples_byte_identical": true
+    },
+    {
+      "name": "WalkForwardRight",
+      "all_samples_byte_identical": true
+    },
+    {
+      "name": "WalkLeft",
+      "all_samples_byte_identical": true
+    },
+    {
+      "name": "WalkRight",
+      "all_samples_byte_identical": true
+    }
+  ],
+  "import_instruction": "Replace the 14 listed mesh resources. No skeleton, prefab transform, material, or animation replacement is needed. Neck-only replacement is incorrect because the complete head assembly moved down."
+}

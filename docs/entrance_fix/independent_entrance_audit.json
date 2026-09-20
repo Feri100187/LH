@@ -1,0 +1,421 @@
+{
+  "checkedAt": "2026-09-20T09:19:36.164146+08:00",
+  "targetMesh": 37,
+  "targetName": "临湖楼_双层高退进门厅与白色挑檐_网格.001",
+  "backup": "D:\\a\\xiang_mu\\LH\\backups\\entrance_fix_20260920_090522",
+  "method": "Independent read-only binary geometry and static collision audit; no editor/browser execution.",
+  "preservation": {
+    "meshCountBefore": 85,
+    "meshCountAfter": 85,
+    "changedMeshIndices": [
+      37
+    ],
+    "nodesEqual": true,
+    "materialsEqual": true,
+    "scenesEqual": true,
+    "texturesEqual": true,
+    "samplersEqual": true,
+    "changedEmbeddedImages": [],
+    "materialSlotsBefore": [
+      27,
+      24,
+      25,
+      28,
+      29,
+      30,
+      31
+    ],
+    "materialSlotsAfter": [
+      27,
+      24,
+      25,
+      28,
+      29,
+      30,
+      31
+    ],
+    "prefabExactUnchanged": false,
+    "prefabOnlyEntranceMeshReferenceChanged": true,
+    "prefabChanges": [
+      {
+        "path": "$._$child[7]._$child[1]._$comp[0].sharedMesh._$uuid",
+        "before": "43275236-c4e9-4834-bbd2-1dde45172e6e@lm37",
+        "after": "de10a742-3ae6-428a-b6e9-695f1ed44ecb"
+      }
+    ],
+    "prefabChangeExplanation": "仅入口节点 #44 的 MeshFilter.sharedMesh UUID 改为独立固定网格，避免编辑器旧子资源缓存；其余节点字段和所有材质引用保持一致。"
+  },
+  "nativeLayaImport": {
+    "file": "D:\\a\\xiang_mu\\LH\\library\\43\\43275236-c4e9-4834-bbd2-1dde45172e6e@lm37.lm",
+    "modifiedAt": "2026-09-20T09:16:59.842331+08:00",
+    "sha256": "b29f91b60fc822a4d0b6b93d3a5c9247297d6f5b159505b7ccbb20d4346df2db",
+    "version": "LAYAMODEL:0501",
+    "nativeVertices": 15656,
+    "glbVertices": 15656,
+    "flags": "POSITION,NORMAL,UV",
+    "maxDifference": {
+      "POSITION": 0.0,
+      "NORMAL": 0.0,
+      "TEXCOORD_0": 0.0
+    },
+    "mismatches": {
+      "POSITION": 0,
+      "NORMAL": 0,
+      "TEXCOORD_0": 0
+    },
+    "indicesMismatch": 0,
+    "invalidIndices": 0,
+    "nonfinite": 0,
+    "nativeSubmeshCount": 7,
+    "expectedSubmeshCount": 7,
+    "submeshesEqual": true
+  },
+  "geometry": {
+    "sourceJsonMismatch": [],
+    "triangleCount": 10052,
+    "nonfinite": 0,
+    "degenerateAreaBelow1e-10": 0,
+    "minimumTriangleArea": 3.420381073631142e-10,
+    "normalLengthRange": [
+      0.9999998455306797,
+      1.0000001728928078
+    ]
+  },
+  "doorFrontClosure": {
+    "testedXRange": [
+      47.27,
+      56.53
+    ],
+    "slices": [
+      {
+        "height": 2.44,
+        "gaps": []
+      },
+      {
+        "height": 2.47,
+        "gaps": []
+      },
+      {
+        "height": 2.49,
+        "gaps": []
+      },
+      {
+        "height": 2.5,
+        "gaps": []
+      },
+      {
+        "height": 2.51,
+        "gaps": []
+      },
+      {
+        "height": 3.1,
+        "gaps": []
+      },
+      {
+        "height": 3.9,
+        "gaps": []
+      },
+      {
+        "height": 5.44,
+        "gaps": []
+      },
+      {
+        "height": 5.455,
+        "gaps": []
+      },
+      {
+        "height": 5.47,
+        "gaps": []
+      },
+      {
+        "height": 5.48,
+        "gaps": []
+      },
+      {
+        "height": 5.49,
+        "gaps": []
+      },
+      {
+        "height": 5.5,
+        "gaps": []
+      },
+      {
+        "height": 5.53,
+        "gaps": []
+      },
+      {
+        "height": 5.58,
+        "gaps": []
+      },
+      {
+        "height": 5.6,
+        "gaps": []
+      },
+      {
+        "height": 8.7,
+        "gaps": []
+      },
+      {
+        "height": 8.73,
+        "gaps": []
+      },
+      {
+        "height": 8.74,
+        "gaps": []
+      }
+    ],
+    "allSlicesClosed": true
+  },
+  "collisionPreservation": {
+    "nonEntranceChunksEqual": true,
+    "trunksEqual": true,
+    "oldEntranceChunks": 5,
+    "newEntranceChunks": 6,
+    "boxes": [
+      {
+        "name": "玻璃楼梯核前立面",
+        "center": [
+          59,
+          9.45,
+          -26.7
+        ],
+        "size": [
+          4.4,
+          14.4,
+          0.3
+        ]
+      },
+      {
+        "name": "临湖楼入口左侧实体",
+        "center": [
+          34.135000000000005,
+          9.45,
+          -36.0
+        ],
+        "size": [
+          26.270000000000003,
+          14.399999999999999,
+          14
+        ]
+      },
+      {
+        "name": "临湖楼入口右侧实体",
+        "center": [
+          69.765,
+          9.45,
+          -36.0
+        ],
+        "size": [
+          26.47,
+          14.399999999999999,
+          14
+        ]
+      },
+      {
+        "name": "临湖楼入口后侧实体",
+        "center": [
+          51.900000000000006,
+          9.45,
+          -38.39
+        ],
+        "size": [
+          9.259999999999998,
+          14.399999999999999,
+          9.219999999999999
+        ]
+      },
+      {
+        "name": "临湖楼入口上方实体",
+        "center": [
+          51.900000000000006,
+          12.7525,
+          -31.39
+        ],
+        "size": [
+          9.259999999999998,
+          7.794999999999998,
+          4.780000000000001
+        ]
+      }
+    ]
+  },
+  "staticApproachChecks": {
+    "doorRays": [
+      {
+        "x": 48.7,
+        "height": 3.1,
+        "firstHitBlenderY": 31.0125,
+        "object": "临湖楼_双层高退进门厅与白色挑檐"
+      },
+      {
+        "x": 48.7,
+        "height": 3.9,
+        "firstHitBlenderY": 31.0125,
+        "object": "临湖楼_双层高退进门厅与白色挑檐"
+      },
+      {
+        "x": 48.7,
+        "height": 5.45,
+        "firstHitBlenderY": 31.0125,
+        "object": "临湖楼_双层高退进门厅与白色挑檐"
+      },
+      {
+        "x": 49.95,
+        "height": 3.1,
+        "firstHitBlenderY": 30.91,
+        "object": "临湖楼_双层高退进门厅与白色挑檐"
+      },
+      {
+        "x": 49.95,
+        "height": 3.9,
+        "firstHitBlenderY": 30.91,
+        "object": "临湖楼_双层高退进门厅与白色挑檐"
+      },
+      {
+        "x": 49.95,
+        "height": 5.45,
+        "firstHitBlenderY": 30.91,
+        "object": "临湖楼_双层高退进门厅与白色挑檐"
+      },
+      {
+        "x": 50.8,
+        "height": 3.1,
+        "firstHitBlenderY": 31.0125,
+        "object": "临湖楼_双层高退进门厅与白色挑檐"
+      },
+      {
+        "x": 50.8,
+        "height": 3.9,
+        "firstHitBlenderY": 31.0125,
+        "object": "临湖楼_双层高退进门厅与白色挑檐"
+      },
+      {
+        "x": 50.8,
+        "height": 5.45,
+        "firstHitBlenderY": 31.0125,
+        "object": "临湖楼_双层高退进门厅与白色挑檐"
+      },
+      {
+        "x": 51.9,
+        "height": 3.1,
+        "firstHitBlenderY": 31.01,
+        "object": "临湖楼_双层高退进门厅与白色挑檐"
+      },
+      {
+        "x": 51.9,
+        "height": 3.9,
+        "firstHitBlenderY": 31.01,
+        "object": "临湖楼_双层高退进门厅与白色挑檐"
+      },
+      {
+        "x": 51.9,
+        "height": 5.45,
+        "firstHitBlenderY": 31.01,
+        "object": "临湖楼_双层高退进门厅与白色挑檐"
+      },
+      {
+        "x": 52.5,
+        "height": 3.1,
+        "firstHitBlenderY": 31.0125,
+        "object": "临湖楼_双层高退进门厅与白色挑檐"
+      },
+      {
+        "x": 52.5,
+        "height": 3.9,
+        "firstHitBlenderY": 31.0125,
+        "object": "临湖楼_双层高退进门厅与白色挑檐"
+      },
+      {
+        "x": 52.5,
+        "height": 5.45,
+        "firstHitBlenderY": 31.0125,
+        "object": "临湖楼_双层高退进门厅与白色挑檐"
+      },
+      {
+        "x": 53.65,
+        "height": 3.1,
+        "firstHitBlenderY": 30.91,
+        "object": "临湖楼_双层高退进门厅与白色挑檐"
+      },
+      {
+        "x": 53.65,
+        "height": 3.9,
+        "firstHitBlenderY": 30.91,
+        "object": "临湖楼_双层高退进门厅与白色挑檐"
+      },
+      {
+        "x": 53.65,
+        "height": 5.45,
+        "firstHitBlenderY": 30.91,
+        "object": "临湖楼_双层高退进门厅与白色挑檐"
+      },
+      {
+        "x": 54.8,
+        "height": 3.1,
+        "firstHitBlenderY": 31.0125,
+        "object": "临湖楼_双层高退进门厅与白色挑檐"
+      },
+      {
+        "x": 54.8,
+        "height": 3.9,
+        "firstHitBlenderY": 31.0125,
+        "object": "临湖楼_双层高退进门厅与白色挑檐"
+      },
+      {
+        "x": 54.8,
+        "height": 5.45,
+        "firstHitBlenderY": 31.0125,
+        "object": "临湖楼_双层高退进门厅与白色挑檐"
+      }
+    ],
+    "floorSupportRays": [
+      {
+        "x": 49.95,
+        "blenderY": 27.7,
+        "floorHeight": 2.43,
+        "object": "临湖楼_双层高退进门厅与白色挑檐"
+      },
+      {
+        "x": 49.95,
+        "blenderY": 29.5,
+        "floorHeight": 2.43,
+        "object": "临湖楼_双层高退进门厅与白色挑檐"
+      },
+      {
+        "x": 49.95,
+        "blenderY": 30.4,
+        "floorHeight": 2.43,
+        "object": "临湖楼_双层高退进门厅与白色挑檐"
+      },
+      {
+        "x": 53.65,
+        "blenderY": 29.5,
+        "floorHeight": 2.43,
+        "object": "临湖楼_双层高退进门厅与白色挑檐"
+      },
+      {
+        "x": 51.9,
+        "blenderY": 30.4,
+        "floorHeight": 2.43,
+        "object": "临湖楼_双层高退进门厅与白色挑檐"
+      }
+    ],
+    "doorBlockAtCorrectDepth": true,
+    "continuousPorchFloor": true,
+    "note": "Static mesh ray tests; capsule dynamics and visual in-game acceptance are performed separately by the main agent."
+  },
+  "passed": true,
+  "standaloneEntranceReference": {
+    "checkedAt": "2026-09-20T09:27:06.298358+08:00",
+    "nodeId": "#44",
+    "nodeName": "临湖楼_双层高退进门厅与白色挑檐.001",
+    "meshUUID": "de10a742-3ae6-428a-b6e9-695f1ed44ecb",
+    "meshFile": "D:\\a\\xiang_mu\\LH\\assets\\lingshui\\LingshuiEntrance_Fixed.lm",
+    "meshBytes": 561714,
+    "sha256": "b29f91b60fc822a4d0b6b93d3a5c9247297d6f5b159505b7ccbb20d4346df2db",
+    "matchesPreviouslyVerifiedNativeLM": true,
+    "materialReferencesUnchanged": true,
+    "prefabOnlyExpectedFieldChanged": true,
+    "passed": true
+  }
+}

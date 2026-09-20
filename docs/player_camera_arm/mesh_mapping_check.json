@@ -1,0 +1,11 @@
+{
+  "joint_order_identical": true,
+  "mesh_names_identical": true,
+  "material_names_identical": true,
+  "sleeves": [
+    [
+      13,
+      "FP.Sleeves weighted cut"
+    ]
+  ]
+}

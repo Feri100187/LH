@@ -1,0 +1,171 @@
+{
+  "mesh": "AWB.Neck",
+  "mesh_data": "AWB.Neck.mesh.001",
+  "max_vertex_displacement_m": 0.0077256397473903435,
+  "max_abs_axis_displacement_m": [
+    0.0077256397473903435,
+    0.004393320707115005,
+    0.0
+  ],
+  "changed_vertices": 640,
+  "vertex_count": 680,
+  "z_coordinates_unchanged": true,
+  "weights_unchanged": true,
+  "topology_unchanged": true,
+  "sections": [
+    {
+      "z": 1.4404,
+      "width_scale": 1.12,
+      "depth_scale": 1.08,
+      "before_width_m": 0.09799999743700027,
+      "after_width_m": 0.10975999712944032,
+      "before_depth_m": 0.0859999991953373,
+      "after_depth_m": 0.09287999913096429
+    },
+    {
+      "z": 1.44622,
+      "width_scale": 1.1240690077143023,
+      "depth_scale": 1.0820345038571513,
+      "before_width_m": 0.0957968719303608,
+      "after_width_m": 0.10768229477289476,
+      "before_depth_m": 0.08487499877810478,
+      "after_depth_m": 0.09183767719274293
+    },
+    {
+      "z": 1.454462,
+      "width_scale": 1.1397649919530024,
+      "depth_scale": 1.0898824959765012,
+      "before_width_m": 0.09262499958276749,
+      "after_width_m": 0.10557073190409984,
+      "before_depth_m": 0.0832500010728836,
+      "after_depth_m": 0.09073271895936079
+    },
+    {
+      "z": 1.464423,
+      "width_scale": 1.163614165801281,
+      "depth_scale": 1.1018070829006406,
+      "before_width_m": 0.0891406238079071,
+      "after_width_m": 0.10372529261124364,
+      "before_depth_m": 0.08149999938905239,
+      "after_depth_m": 0.08979727658325581
+    },
+    {
+      "z": 1.4754,
+      "width_scale": 1.1796660317628151,
+      "depth_scale": 1.1098330158814076,
+      "before_width_m": 0.0860000029206276,
+      "after_width_m": 0.10145128217696726,
+      "before_depth_m": 0.0800000000745058,
+      "after_depth_m": 0.0887866413532016
+    },
+    {
+      "z": 1.488142,
+      "width_scale": 1.178069349298308,
+      "depth_scale": 1.1090346746491542,
+      "before_width_m": 0.08289062604308128,
+      "after_width_m": 0.09765090588550215,
+      "before_depth_m": 0.07867187447845936,
+      "after_depth_m": 0.08724983671625727
+    },
+    {
+      "z": 1.502712,
+      "width_scale": 1.1716934022748222,
+      "depth_scale": 1.1058467011374111,
+      "before_width_m": 0.07962499931454659,
+      "after_width_m": 0.09329608635299147,
+      "before_depth_m": 0.07737499848008156,
+      "after_depth_m": 0.0855648868197104
+    },
+    {
+      "z": 1.517376,
+      "width_scale": 1.164417679807572,
+      "depth_scale": 1.1022088399037862,
+      "before_width_m": 0.07704687491059303,
+      "after_width_m": 0.08971474331981698,
+      "before_depth_m": 0.07639062590897083,
+      "after_depth_m": 0.08419842316265086
+    },
+    {
+      "z": 1.532931,
+      "width_scale": 1.1600745355103717,
+      "depth_scale": 1.100037267755186,
+      "before_width_m": 0.07600000128149986,
+      "after_width_m": 0.0881656661854236,
+      "before_depth_m": 0.07642749883234501,
+      "after_depth_m": 0.08407309699689546
+    },
+    {
+      "z": 1.548738,
+      "width_scale": 1.1443050764625098,
+      "depth_scale": 1.090844627936464,
+      "before_width_m": 0.07699999958276749,
+      "after_width_m": 0.08811149041017197,
+      "before_depth_m": 0.07753553614020348,
+      "after_depth_m": 0.08457922307271452
+    },
+    {
+      "z": 1.563057,
+      "width_scale": 1.1141628750964607,
+      "depth_scale": 1.0732616771396022,
+      "before_width_m": 0.079500000923872,
+      "after_width_m": 0.08857594959951251,
+      "before_depth_m": 0.07915769144892693,
+      "after_depth_m": 0.08495691668297446
+    },
+    {
+      "z": 1.575821,
+      "width_scale": 1.1000034209361345,
+      "depth_scale": 1.0650019955460783,
+      "before_width_m": 0.08275000005960464,
+      "after_width_m": 0.09102528314803043,
+      "before_depth_m": 0.08120251633226871,
+      "after_depth_m": 0.0864808419372292
+    },
+    {
+      "z": 1.586962,
+      "width_scale": 1.069386074692429,
+      "depth_scale": 1.0449989021323869,
+      "before_width_m": 0.0859999991953373,
+      "after_width_m": 0.09196720156305381,
+      "before_depth_m": 0.08354749903082848,
+      "after_depth_m": 0.08730704476312241
+    },
+    {
+      "z": 1.596538,
+      "width_scale": 1.031314574824371,
+      "depth_scale": 1.0201255222185892,
+      "before_width_m": 0.08954687416553497,
+      "after_width_m": 0.09235099645688016,
+      "before_depth_m": 0.0865523386746645,
+      "after_depth_m": 0.08829424968973232
+    },
+    {
+      "z": 1.604558,
+      "width_scale": 1.0211754609989874,
+      "depth_scale": 1.0135522950393518,
+      "before_width_m": 0.09362500160932541,
+      "after_width_m": 0.09560755417943381,
+      "before_depth_m": 0.09014537557959557,
+      "after_depth_m": 0.09136705230588343
+    },
+    {
+      "z": 1.61089,
+      "width_scale": 1.005820732947665,
+      "depth_scale": 1.0037252690865055,
+      "before_width_m": 0.09739062562584877,
+      "after_width_m": 0.09795751044922285,
+      "before_depth_m": 0.09352545440196991,
+      "after_depth_m": 0.09387386188605495
+    },
+    {
+      "z": 1.6154,
+      "width_scale": 1.0,
+      "depth_scale": 1.0,
+      "before_width_m": 0.10000000149011612,
+      "after_width_m": 0.10000000149011612,
+      "before_depth_m": 0.09587999433279037,
+      "after_depth_m": 0.09587999433279037
+    }
+  ],
+  "notes": "Only neck XY ring radii changed. Height, centerline, head, collar, clothes and skin weights untouched. Visible neck width +16\u201318%, depth +10\u201311%, tapering to zero change inside skull."
+}

@@ -1,0 +1,167 @@
+{
+  "status": "PASS",
+  "actions": [
+    {
+      "action": "Idle",
+      "frames_checked": 91,
+      "neck_top_vertices_checked_per_frame": 40,
+      "maximum_top_signed_distance_to_head_m": -0.00961839483352378,
+      "minimum_world_vertical_head_drop_m": 0.02399854175746441,
+      "maximum_world_vertical_head_drop_m": 0.02399991825222969
+    },
+    {
+      "action": "Jump",
+      "frames_checked": 43,
+      "neck_top_vertices_checked_per_frame": 40,
+      "maximum_top_signed_distance_to_head_m": -0.009618693438824266,
+      "minimum_world_vertical_head_drop_m": 0.023979445919394493,
+      "maximum_world_vertical_head_drop_m": 0.023999633267521858
+    },
+    {
+      "action": "Run",
+      "frames_checked": 19,
+      "neck_top_vertices_checked_per_frame": 40,
+      "maximum_top_signed_distance_to_head_m": -0.009618408643291332,
+      "minimum_world_vertical_head_drop_m": 0.02396523207426071,
+      "maximum_world_vertical_head_drop_m": 0.023987114429473877
+    },
+    {
+      "action": "RunBack",
+      "frames_checked": 23,
+      "neck_top_vertices_checked_per_frame": 40,
+      "maximum_top_signed_distance_to_head_m": -0.009616169387300033,
+      "minimum_world_vertical_head_drop_m": 0.0239799153059721,
+      "maximum_world_vertical_head_drop_m": 0.023988857865333557
+    },
+    {
+      "action": "RunBackLeft",
+      "frames_checked": 23,
+      "neck_top_vertices_checked_per_frame": 40,
+      "maximum_top_signed_distance_to_head_m": -0.009616462397389114,
+      "minimum_world_vertical_head_drop_m": 0.02397729456424713,
+      "maximum_world_vertical_head_drop_m": 0.023995481431484222
+    },
+    {
+      "action": "RunBackRight",
+      "frames_checked": 23,
+      "neck_top_vertices_checked_per_frame": 40,
+      "maximum_top_signed_distance_to_head_m": -0.009616607661882881,
+      "minimum_world_vertical_head_drop_m": 0.023981334641575813,
+      "maximum_world_vertical_head_drop_m": 0.023993507027626038
+    },
+    {
+      "action": "RunForwardLeft",
+      "frames_checked": 21,
+      "neck_top_vertices_checked_per_frame": 40,
+      "maximum_top_signed_distance_to_head_m": -0.00961806150735356,
+      "minimum_world_vertical_head_drop_m": 0.023980434983968735,
+      "maximum_world_vertical_head_drop_m": 0.02399328164756298
+    },
+    {
+      "action": "RunForwardRight",
+      "frames_checked": 21,
+      "neck_top_vertices_checked_per_frame": 40,
+      "maximum_top_signed_distance_to_head_m": -0.009618206655432004,
+      "minimum_world_vertical_head_drop_m": 0.0239753145724535,
+      "maximum_world_vertical_head_drop_m": 0.02399539202451706
+    },
+    {
+      "action": "RunJump",
+      "frames_checked": 49,
+      "neck_top_vertices_checked_per_frame": 40,
+      "maximum_top_signed_distance_to_head_m": -0.009618351519748103,
+      "minimum_world_vertical_head_drop_m": 0.023977579548954964,
+      "maximum_world_vertical_head_drop_m": 0.023998696357011795
+    },
+    {
+      "action": "RunLeft",
+      "frames_checked": 21,
+      "neck_top_vertices_checked_per_frame": 40,
+      "maximum_top_signed_distance_to_head_m": -0.00961722217471106,
+      "minimum_world_vertical_head_drop_m": 0.023979609832167625,
+      "maximum_world_vertical_head_drop_m": 0.023999836295843124
+    },
+    {
+      "action": "RunRight",
+      "frames_checked": 21,
+      "neck_top_vertices_checked_per_frame": 40,
+      "maximum_top_signed_distance_to_head_m": -0.009617514529963955,
+      "minimum_world_vertical_head_drop_m": 0.023979438468813896,
+      "maximum_world_vertical_head_drop_m": 0.023999879136681557
+    },
+    {
+      "action": "Shoot",
+      "frames_checked": 7,
+      "neck_top_vertices_checked_per_frame": 40,
+      "maximum_top_signed_distance_to_head_m": -0.009618671982025262,
+      "minimum_world_vertical_head_drop_m": 0.023999778553843498,
+      "maximum_world_vertical_head_drop_m": 0.023999778553843498
+    },
+    {
+      "action": "Walk",
+      "frames_checked": 23,
+      "neck_top_vertices_checked_per_frame": 40,
+      "maximum_top_signed_distance_to_head_m": -0.009618532028980553,
+      "minimum_world_vertical_head_drop_m": 0.023978108540177345,
+      "maximum_world_vertical_head_drop_m": 0.02399972639977932
+    },
+    {
+      "action": "WalkBack",
+      "frames_checked": 25,
+      "neck_top_vertices_checked_per_frame": 40,
+      "maximum_top_signed_distance_to_head_m": -0.009617999094189145,
+      "minimum_world_vertical_head_drop_m": 0.023984096944332123,
+      "maximum_world_vertical_head_drop_m": 0.023999562487006187
+    },
+    {
+      "action": "WalkBackLeft",
+      "frames_checked": 27,
+      "neck_top_vertices_checked_per_frame": 40,
+      "maximum_top_signed_distance_to_head_m": -0.009617988107493147,
+      "minimum_world_vertical_head_drop_m": 0.02398393489420414,
+      "maximum_world_vertical_head_drop_m": 0.02399994246661663
+    },
+    {
+      "action": "WalkBackRight",
+      "frames_checked": 27,
+      "neck_top_vertices_checked_per_frame": 40,
+      "maximum_top_signed_distance_to_head_m": -0.009617996183806099,
+      "minimum_world_vertical_head_drop_m": 0.02398834191262722,
+      "maximum_world_vertical_head_drop_m": 0.023998979479074478
+    },
+    {
+      "action": "WalkForwardLeft",
+      "frames_checked": 25,
+      "neck_top_vertices_checked_per_frame": 40,
+      "maximum_top_signed_distance_to_head_m": -0.00961850200110348,
+      "minimum_world_vertical_head_drop_m": 0.023988457396626472,
+      "maximum_world_vertical_head_drop_m": 0.023998979479074478
+    },
+    {
+      "action": "WalkForwardRight",
+      "frames_checked": 25,
+      "neck_top_vertices_checked_per_frame": 40,
+      "maximum_top_signed_distance_to_head_m": -0.009618532014428638,
+      "minimum_world_vertical_head_drop_m": 0.023983724415302277,
+      "maximum_world_vertical_head_drop_m": 0.0239998921751976
+    },
+    {
+      "action": "WalkLeft",
+      "frames_checked": 25,
+      "neck_top_vertices_checked_per_frame": 40,
+      "maximum_top_signed_distance_to_head_m": -0.009618190539185889,
+      "minimum_world_vertical_head_drop_m": 0.02398718148469925,
+      "maximum_world_vertical_head_drop_m": 0.02399936132133007
+    },
+    {
+      "action": "WalkRight",
+      "frames_checked": 25,
+      "neck_top_vertices_checked_per_frame": 40,
+      "maximum_top_signed_distance_to_head_m": -0.009618332514946815,
+      "minimum_world_vertical_head_drop_m": 0.023987671360373497,
+      "maximum_world_vertical_head_drop_m": 0.023999394848942757
+    }
+  ],
+  "fixed_neck_root_vertices": 200,
+  "notes": "Negative signed distance means every tested top-ring neck vertex remains inside the head. Hidden neck root is byte-identical to source geometry. No skeleton shift is needed."
+}

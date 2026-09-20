@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "source_url": "https://poly.pizza/m/frSLi6b6Vid",
+  "download_url": "https://static.poly.pizza/b5b79a83-4dc0-4d6d-94ae-fb618129e1f7.glb",
+  "source_title": "Mallard duck",
+  "author": "Poly by Google",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "source_sha256": "729f23cb3a217cdcc3b0a2456db49eba6357d785ee252cf155c9c911919f0ac1",
+  "body_length_m": 0.5,
+  "width_m": 0.19264309108257294,
+  "full_height_m": 0.36699041724205017,
+  "glb_bounds_min": [
+    -0.09632154554128647,
+    -0.12800000607967377,
+    -0.25
+  ],
+  "glb_bounds_max": [
+    0.09632154554128647,
+    0.2389904111623764,
+    0.25
+  ],
+  "origin": "waterline, centered horizontally",
+  "forward_glb": [
+    0,
+    0,
+    1
+  ],
+  "waterline_above_source_feet_m": 0.128,
+  "mesh_count": 1,
+  "triangles": 656,
+  "materials": 1,
+  "textures": [
+    {
+      "name": "MallardDuck_BaseColor",
+      "dimensions": [
+        1024,
+        1024
+      ]
+    }
+  ],
+  "animation_clips": 0,
+  "import_notes": "Use uniform scale 1.0. Set model root Y to the actual lake surface; feet and lower belly remain underwater. Rotate around local Y to follow swim heading. GLB contains only the duck; preview floor, lights and cameras are excluded."
+}
