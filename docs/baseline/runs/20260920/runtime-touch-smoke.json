@@ -1,0 +1,2535 @@
+{
+  "schemaVersion": 1,
+  "probe": "LH DOM runtime baseline",
+  "createdAt": "2026-09-20T12:19:10.813Z",
+  "url": "http://127.0.0.1:18766/?controls=touch",
+  "inputSource": "synthetic-touch-input",
+  "status": "PASS",
+  "lastOperation": "touchSmoke",
+  "active": null,
+  "latest": {
+    "player": {
+      "ready": true,
+      "firstPerson": true,
+      "locked": false,
+      "position": [
+        -26.58124370559398,
+        1.660000011920929,
+        41.38813675154472
+      ],
+      "camera": [
+        -26.58124370559398,
+        2.380000011920929,
+        41.38813675154472
+      ],
+      "yaw": 3.2800000000000007,
+      "pitch": 0.025,
+      "grounded": true,
+      "cameraDistance": 1.95,
+      "fps": 60,
+      "keys": [],
+      "inputMode": "touch",
+      "touch": {
+        "enabled": true,
+        "move": [
+          0,
+          0
+        ],
+        "running": false,
+        "shooting": false,
+        "shootPointers": 0,
+        "pointers": 0,
+        "moving": false,
+        "looking": false
+      },
+      "triggerHeld": false,
+      "speed": 0,
+      "avatar": {
+        "loaded": true,
+        "motion": "Idle",
+        "direction": "Forward",
+        "base": "Idle",
+        "baseTime": 16.491466666666906,
+        "upper": "UpperIdle",
+        "upperTime": 15.558166666666898,
+        "shooting": false,
+        "triggerHeld": false,
+        "shotQueued": false,
+        "shots": 6,
+        "shotInterval": 0.20000000298023224,
+        "upperWeight": 0,
+        "airborne": false,
+        "rootLocal": [
+          0,
+          0.0012000000569969416,
+          0
+        ],
+        "meshCount": 44,
+        "visibleMeshes": 0,
+        "gaitRates": {
+          "walk": 0.05,
+          "run": 0.05
+        },
+        "gunDirection": [
+          -0.13788217306137085,
+          -0.034899573773145676,
+          0.9898337125778198
+        ],
+        "gunForwardDotBody": 0.9993909506312343,
+        "heading": -0.13840734641020758,
+        "history": [
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 1734.9
+          },
+          {
+            "base": "Walk",
+            "upper": "",
+            "time": 33813.7
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 34647
+          },
+          {
+            "base": "WalkBack",
+            "upper": "",
+            "time": 34880.3
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 35697
+          },
+          {
+            "base": "WalkLeft",
+            "upper": "",
+            "time": 35930.4
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 36763.7
+          },
+          {
+            "base": "WalkRight",
+            "upper": "",
+            "time": 36997
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 37813.6
+          },
+          {
+            "base": "WalkForwardLeft",
+            "upper": "",
+            "time": 38046.9
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 38863.6
+          },
+          {
+            "base": "WalkBackRight",
+            "upper": "",
+            "time": 39097
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 39930.3
+          },
+          {
+            "base": "WalkForwardRight",
+            "upper": "",
+            "time": 40163.6
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 40980.2
+          },
+          {
+            "base": "WalkBackLeft",
+            "upper": "",
+            "time": 41213.6
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 42030.3
+          },
+          {
+            "base": "Run",
+            "upper": "",
+            "time": 42263.7
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 43096.9
+          },
+          {
+            "base": "Jump",
+            "upper": "",
+            "time": 43280.2
+          },
+          {
+            "base": "Land",
+            "upper": "",
+            "time": 43946.9
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 44263.5
+          },
+          {
+            "base": "Idle",
+            "upper": "Shoot",
+            "time": 45730.2
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 46996.8
+          }
+        ]
+      },
+      "firstPersonArms": {
+        "visible": true,
+        "cameraParent": "PlayerCamera",
+        "meshes": 15,
+        "base": "Idle",
+        "localMountPosition": [
+          0,
+          0,
+          0
+        ],
+        "shooting": false
+      },
+      "cameraFollowPhase": "afterPhysicsAndAnimation",
+      "firstPersonCameraOffset": [
+        0,
+        0.72,
+        0
+      ]
+    },
+    "ducks": [
+      {
+        "name": "Duck_01",
+        "position": [
+          -24.163846969604492,
+          0.03999999910593033,
+          30.10265350341797
+        ],
+        "waterLevel": 0.04,
+        "radius": [
+          0.65,
+          0.5
+        ],
+        "period": 42,
+        "age": 85.38220000000545
+      },
+      {
+        "name": "Duck_02",
+        "position": [
+          -22.34650993347168,
+          0.03999999910593033,
+          29.743764877319336
+        ],
+        "waterLevel": 0.04,
+        "radius": [
+          0.55,
+          0.5
+        ],
+        "period": 47,
+        "age": 85.36550000000545
+      },
+      {
+        "name": "Duck_03",
+        "position": [
+          -23.52736473083496,
+          0.03999999910593033,
+          27.54081916809082
+        ],
+        "waterLevel": 0.04,
+        "radius": [
+          0.7,
+          0.55
+        ],
+        "period": 53,
+        "age": 85.36550000000545
+      },
+      {
+        "name": "Duck_04",
+        "position": [
+          -19.141420364379883,
+          0.03999999910593033,
+          21.805076599121094
+        ],
+        "waterLevel": 0.04,
+        "radius": [
+          0.9,
+          0.65
+        ],
+        "period": 68,
+        "age": 85.36550000000545
+      },
+      {
+        "name": "Duck_05",
+        "position": [
+          -15.455451965332031,
+          0.03999999910593033,
+          21.28055191040039
+        ],
+        "waterLevel": 0.04,
+        "radius": [
+          1.1,
+          0.7
+        ],
+        "period": 73,
+        "age": 85.36550000000545
+      }
+    ],
+    "readAt": "2026-09-20T12:20:43.820Z",
+    "playerUnchangedForMs": 0.2,
+    "visible": true,
+    "focused": true
+  },
+  "smoke": null,
+  "touchSmoke": {
+    "runId": "touch-smoke-1789906783067-1",
+    "status": "PASS",
+    "startedAt": "2026-09-20T12:19:43.067Z",
+    "inputSource": "synthetic-touch-input",
+    "steps": [
+      {
+        "id": "ready-idle",
+        "label": "就绪与待机",
+        "reportKey": "touchSmoke",
+        "inputSource": "synthetic-touch-input",
+        "equivalentKeys": [],
+        "holdMs": 750,
+        "settleMs": 0,
+        "elapsedMs": 753.4,
+        "start": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": true,
+          "grounded": true,
+          "position": [
+            -26,
+            1.7599999761581422,
+            37.2
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 53,
+          "keys": [],
+          "triggerHeld": false,
+          "cameraDistance": 1.95,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": false,
+            "shootPointers": 0,
+            "pointers": 0,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "Idle",
+            "upper": "UpperIdle",
+            "direction": "Forward",
+            "heading": -0.138,
+            "shooting": false,
+            "shots": 0,
+            "visibleMeshes": 0
+          },
+          "arms": {
+            "visible": true,
+            "base": "Idle",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "end": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": true,
+          "grounded": true,
+          "position": [
+            -26,
+            1.7599999761581422,
+            37.2
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 53,
+          "keys": [],
+          "triggerHeld": false,
+          "cameraDistance": 1.95,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": false,
+            "shootPointers": 0,
+            "pointers": 0,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "Idle",
+            "upper": "UpperIdle",
+            "direction": "Forward",
+            "heading": -0.138,
+            "shooting": false,
+            "shots": 0,
+            "visibleMeshes": 0
+          },
+          "arms": {
+            "visible": true,
+            "base": "Idle",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "observedSampleCount": 7,
+        "observedStates": [
+          "Idle"
+        ],
+        "observedDirections": [
+          "Forward"
+        ],
+        "maxSpeed": 0,
+        "status": "PASS",
+        "assertions": [
+          {
+            "name": "玩家和动画加载",
+            "status": "PASS",
+            "actual": true
+          },
+          {
+            "name": "地面待机",
+            "status": "PASS",
+            "actual": "Idle"
+          }
+        ]
+      },
+      {
+        "id": "walk-forward",
+        "label": "W 前进",
+        "reportKey": "touchSmoke",
+        "inputSource": "synthetic-touch-input",
+        "equivalentKeys": [
+          "KeyW"
+        ],
+        "holdMs": 850,
+        "settleMs": 200,
+        "elapsedMs": 1071.2,
+        "start": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": true,
+          "grounded": true,
+          "position": [
+            -26,
+            1.7599999761581422,
+            37.2
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 53,
+          "keys": [],
+          "triggerHeld": false,
+          "cameraDistance": 1.95,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": false,
+            "shootPointers": 0,
+            "pointers": 0,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "Idle",
+            "upper": "UpperIdle",
+            "direction": "Forward",
+            "heading": -0.138,
+            "shooting": false,
+            "shots": 0,
+            "visibleMeshes": 0
+          },
+          "arms": {
+            "visible": true,
+            "base": "Idle",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "end": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": true,
+          "grounded": true,
+          "position": [
+            -26.197276013952404,
+            1.7599999761581422,
+            38.61621593919117
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 60,
+          "keys": [],
+          "triggerHeld": false,
+          "cameraDistance": 1.95,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": false,
+            "shootPointers": 0,
+            "pointers": 0,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "Walk",
+            "upper": "UpperIdle",
+            "direction": "Forward",
+            "heading": -0.138,
+            "shooting": false,
+            "shots": 0,
+            "visibleMeshes": 0
+          },
+          "arms": {
+            "visible": true,
+            "base": "Idle",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "observedSampleCount": 11,
+        "observedStates": [
+          "Idle",
+          "Walk"
+        ],
+        "observedDirections": [
+          "Forward"
+        ],
+        "maxSpeed": 1.652,
+        "status": "PASS",
+        "assertions": [
+          {
+            "name": "真实原生动作状态",
+            "status": "PASS",
+            "actual": "Walk"
+          },
+          {
+            "name": "观察到有效移动速度",
+            "status": "PASS",
+            "actual": 1.652
+          },
+          {
+            "name": "位移沿输入方向",
+            "status": "PASS",
+            "actual": 1.43
+          },
+          {
+            "name": "身体保持面向视线",
+            "status": "PASS",
+            "actual": 0
+          }
+        ]
+      },
+      {
+        "id": "walk-back",
+        "label": "S 后退",
+        "reportKey": "touchSmoke",
+        "inputSource": "synthetic-touch-input",
+        "equivalentKeys": [
+          "KeyS"
+        ],
+        "holdMs": 850,
+        "settleMs": 200,
+        "elapsedMs": 1053.9,
+        "start": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": true,
+          "grounded": true,
+          "position": [
+            -26.197276013952404,
+            1.7599999761581422,
+            38.61621593919117
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 60,
+          "keys": [],
+          "triggerHeld": false,
+          "cameraDistance": 1.95,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": false,
+            "shootPointers": 0,
+            "pointers": 0,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "Walk",
+            "upper": "UpperIdle",
+            "direction": "Forward",
+            "heading": -0.138,
+            "shooting": false,
+            "shots": 0,
+            "visibleMeshes": 0
+          },
+          "arms": {
+            "visible": true,
+            "base": "Idle",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "end": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": true,
+          "grounded": true,
+          "position": [
+            -26.05439271742652,
+            1.7599999761581422,
+            37.590477442503754
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 60,
+          "keys": [],
+          "triggerHeld": false,
+          "cameraDistance": 1.95,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": false,
+            "shootPointers": 0,
+            "pointers": 0,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "WalkBack",
+            "upper": "UpperIdle",
+            "direction": "Back",
+            "heading": -0.138,
+            "shooting": false,
+            "shots": 0,
+            "visibleMeshes": 0
+          },
+          "arms": {
+            "visible": true,
+            "base": "Idle",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "observedSampleCount": 11,
+        "observedStates": [
+          "Idle",
+          "WalkBack"
+        ],
+        "observedDirections": [
+          "Forward",
+          "Back"
+        ],
+        "maxSpeed": 1.218,
+        "status": "PASS",
+        "assertions": [
+          {
+            "name": "真实原生动作状态",
+            "status": "PASS",
+            "actual": "WalkBack"
+          },
+          {
+            "name": "观察到有效移动速度",
+            "status": "PASS",
+            "actual": 1.218
+          },
+          {
+            "name": "位移沿输入方向",
+            "status": "PASS",
+            "actual": 1.036
+          },
+          {
+            "name": "身体保持面向视线",
+            "status": "PASS",
+            "actual": 0
+          }
+        ]
+      },
+      {
+        "id": "walk-left",
+        "label": "A 左移",
+        "reportKey": "touchSmoke",
+        "inputSource": "synthetic-touch-input",
+        "equivalentKeys": [
+          "KeyA"
+        ],
+        "holdMs": 850,
+        "settleMs": 200,
+        "elapsedMs": 1060.8,
+        "start": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": true,
+          "grounded": true,
+          "position": [
+            -26.05439271742652,
+            1.7599999761581422,
+            37.590477442503754
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 60,
+          "keys": [],
+          "triggerHeld": false,
+          "cameraDistance": 1.95,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": false,
+            "shootPointers": 0,
+            "pointers": 0,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "WalkBack",
+            "upper": "UpperIdle",
+            "direction": "Back",
+            "heading": -0.138,
+            "shooting": false,
+            "shots": 0,
+            "visibleMeshes": 0
+          },
+          "arms": {
+            "visible": true,
+            "base": "Idle",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "end": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": true,
+          "grounded": true,
+          "position": [
+            -25.356436833177664,
+            1.7599999761581422,
+            37.68770128453872
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 60,
+          "keys": [],
+          "triggerHeld": false,
+          "cameraDistance": 1.95,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": false,
+            "shootPointers": 0,
+            "pointers": 0,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "WalkLeft",
+            "upper": "UpperIdle",
+            "direction": "Left",
+            "heading": -0.138,
+            "shooting": false,
+            "shots": 0,
+            "visibleMeshes": 0
+          },
+          "arms": {
+            "visible": true,
+            "base": "Idle",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "observedSampleCount": 10,
+        "observedStates": [
+          "Idle",
+          "WalkLeft"
+        ],
+        "observedDirections": [
+          "Left"
+        ],
+        "maxSpeed": 0.813,
+        "status": "PASS",
+        "assertions": [
+          {
+            "name": "真实原生动作状态",
+            "status": "PASS",
+            "actual": "WalkLeft"
+          },
+          {
+            "name": "观察到有效移动速度",
+            "status": "PASS",
+            "actual": 0.813
+          },
+          {
+            "name": "位移沿输入方向",
+            "status": "PASS",
+            "actual": 0.705
+          },
+          {
+            "name": "身体保持面向视线",
+            "status": "PASS",
+            "actual": 0
+          }
+        ]
+      },
+      {
+        "id": "walk-right",
+        "label": "D 右移",
+        "reportKey": "touchSmoke",
+        "inputSource": "synthetic-touch-input",
+        "equivalentKeys": [
+          "KeyD"
+        ],
+        "holdMs": 850,
+        "settleMs": 200,
+        "elapsedMs": 1053.9,
+        "start": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": true,
+          "grounded": true,
+          "position": [
+            -25.356436833177664,
+            1.7599999761581422,
+            37.68770128453872
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 60,
+          "keys": [],
+          "triggerHeld": false,
+          "cameraDistance": 1.95,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": false,
+            "shootPointers": 0,
+            "pointers": 0,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "WalkLeft",
+            "upper": "UpperIdle",
+            "direction": "Left",
+            "heading": -0.138,
+            "shooting": false,
+            "shots": 0,
+            "visibleMeshes": 0
+          },
+          "arms": {
+            "visible": true,
+            "base": "Idle",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "end": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": true,
+          "grounded": true,
+          "position": [
+            -26.041023149369146,
+            1.7599999761581422,
+            37.59233979627457
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 60,
+          "keys": [],
+          "triggerHeld": false,
+          "cameraDistance": 1.95,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": false,
+            "shootPointers": 0,
+            "pointers": 0,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "Idle",
+            "upper": "UpperIdle",
+            "direction": "Right",
+            "heading": -0.138,
+            "shooting": false,
+            "shots": 0,
+            "visibleMeshes": 0
+          },
+          "arms": {
+            "visible": true,
+            "base": "Idle",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "observedSampleCount": 11,
+        "observedStates": [
+          "Idle",
+          "WalkRight"
+        ],
+        "observedDirections": [
+          "Left",
+          "Right"
+        ],
+        "maxSpeed": 0.814,
+        "status": "PASS",
+        "assertions": [
+          {
+            "name": "真实原生动作状态",
+            "status": "PASS",
+            "actual": "WalkRight"
+          },
+          {
+            "name": "观察到有效移动速度",
+            "status": "PASS",
+            "actual": 0.814
+          },
+          {
+            "name": "位移沿输入方向",
+            "status": "PASS",
+            "actual": 0.691
+          },
+          {
+            "name": "身体保持面向视线",
+            "status": "PASS",
+            "actual": 0
+          }
+        ]
+      },
+      {
+        "id": "walk-forward-left",
+        "label": "W+A 左前",
+        "reportKey": "touchSmoke",
+        "inputSource": "synthetic-touch-input",
+        "equivalentKeys": [
+          "KeyW",
+          "KeyA"
+        ],
+        "holdMs": 850,
+        "settleMs": 200,
+        "elapsedMs": 1052.3,
+        "start": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": true,
+          "grounded": true,
+          "position": [
+            -26.041023149369146,
+            1.7599999761581422,
+            37.59233979627457
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 60,
+          "keys": [],
+          "triggerHeld": false,
+          "cameraDistance": 1.95,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": false,
+            "shootPointers": 0,
+            "pointers": 0,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "Idle",
+            "upper": "UpperIdle",
+            "direction": "Right",
+            "heading": -0.138,
+            "shooting": false,
+            "shots": 0,
+            "visibleMeshes": 0
+          },
+          "arms": {
+            "visible": true,
+            "base": "Idle",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "end": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": true,
+          "grounded": true,
+          "position": [
+            -25.395299575084504,
+            1.7599999761581422,
+            38.44707411868944
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 60,
+          "keys": [],
+          "triggerHeld": false,
+          "cameraDistance": 1.95,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": false,
+            "shootPointers": 0,
+            "pointers": 0,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "WalkForwardLeft",
+            "upper": "UpperIdle",
+            "direction": "ForwardLeft",
+            "heading": -0.138,
+            "shooting": false,
+            "shots": 0,
+            "visibleMeshes": 0
+          },
+          "arms": {
+            "visible": true,
+            "base": "Idle",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "observedSampleCount": 11,
+        "observedStates": [
+          "Idle",
+          "WalkForwardLeft"
+        ],
+        "observedDirections": [
+          "ForwardLeft"
+        ],
+        "maxSpeed": 1.26,
+        "status": "PASS",
+        "assertions": [
+          {
+            "name": "真实原生动作状态",
+            "status": "PASS",
+            "actual": "WalkForwardLeft"
+          },
+          {
+            "name": "观察到有效移动速度",
+            "status": "PASS",
+            "actual": 1.26
+          },
+          {
+            "name": "位移沿输入方向",
+            "status": "PASS",
+            "actual": 1.071
+          },
+          {
+            "name": "身体保持面向视线",
+            "status": "PASS",
+            "actual": 0
+          }
+        ]
+      },
+      {
+        "id": "walk-back-right",
+        "label": "S+D 右后",
+        "reportKey": "touchSmoke",
+        "inputSource": "synthetic-touch-input",
+        "equivalentKeys": [
+          "KeyS",
+          "KeyD"
+        ],
+        "holdMs": 850,
+        "settleMs": 200,
+        "elapsedMs": 1059,
+        "start": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": true,
+          "grounded": true,
+          "position": [
+            -25.395299575084504,
+            1.7599999761581422,
+            38.44707411868944
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 60,
+          "keys": [],
+          "triggerHeld": false,
+          "cameraDistance": 1.95,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": false,
+            "shootPointers": 0,
+            "pointers": 0,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "WalkForwardLeft",
+            "upper": "UpperIdle",
+            "direction": "ForwardLeft",
+            "heading": -0.138,
+            "shooting": false,
+            "shots": 0,
+            "visibleMeshes": 0
+          },
+          "arms": {
+            "visible": true,
+            "base": "Idle",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "end": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": true,
+          "grounded": true,
+          "position": [
+            -25.889165284431872,
+            1.7599999761581422,
+            37.7933517067259
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 60,
+          "keys": [],
+          "triggerHeld": false,
+          "cameraDistance": 1.95,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": false,
+            "shootPointers": 0,
+            "pointers": 0,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "WalkBackRight",
+            "upper": "UpperIdle",
+            "direction": "BackRight",
+            "heading": -0.138,
+            "shooting": false,
+            "shots": 0,
+            "visibleMeshes": 0
+          },
+          "arms": {
+            "visible": true,
+            "base": "Idle",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "observedSampleCount": 10,
+        "observedStates": [
+          "Idle",
+          "WalkBackRight"
+        ],
+        "observedDirections": [
+          "BackRight"
+        ],
+        "maxSpeed": 0.946,
+        "status": "PASS",
+        "assertions": [
+          {
+            "name": "真实原生动作状态",
+            "status": "PASS",
+            "actual": "WalkBackRight"
+          },
+          {
+            "name": "观察到有效移动速度",
+            "status": "PASS",
+            "actual": 0.946
+          },
+          {
+            "name": "位移沿输入方向",
+            "status": "PASS",
+            "actual": 0.819
+          },
+          {
+            "name": "身体保持面向视线",
+            "status": "PASS",
+            "actual": 0
+          }
+        ]
+      },
+      {
+        "id": "walk-forward-right",
+        "label": "W+D 右前",
+        "reportKey": "touchSmoke",
+        "inputSource": "synthetic-touch-input",
+        "equivalentKeys": [
+          "KeyW",
+          "KeyD"
+        ],
+        "holdMs": 850,
+        "settleMs": 200,
+        "elapsedMs": 1053.8,
+        "start": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": true,
+          "grounded": true,
+          "position": [
+            -25.889165284431872,
+            1.7599999761581422,
+            37.7933517067259
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 60,
+          "keys": [],
+          "triggerHeld": false,
+          "cameraDistance": 1.95,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": false,
+            "shootPointers": 0,
+            "pointers": 0,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "WalkBackRight",
+            "upper": "UpperIdle",
+            "direction": "BackRight",
+            "heading": -0.138,
+            "shooting": false,
+            "shots": 0,
+            "visibleMeshes": 0
+          },
+          "arms": {
+            "visible": true,
+            "base": "Idle",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "end": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": true,
+          "grounded": true,
+          "position": [
+            -26.74410074446829,
+            1.7599999761581422,
+            38.43922723384601
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 60,
+          "keys": [],
+          "triggerHeld": false,
+          "cameraDistance": 1.95,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": false,
+            "shootPointers": 0,
+            "pointers": 0,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "Idle",
+            "upper": "UpperIdle",
+            "direction": "ForwardRight",
+            "heading": -0.138,
+            "shooting": false,
+            "shots": 0,
+            "visibleMeshes": 0
+          },
+          "arms": {
+            "visible": true,
+            "base": "Idle",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "observedSampleCount": 11,
+        "observedStates": [
+          "Idle",
+          "WalkForwardRight"
+        ],
+        "observedDirections": [
+          "BackRight",
+          "ForwardRight"
+        ],
+        "maxSpeed": 1.262,
+        "status": "PASS",
+        "assertions": [
+          {
+            "name": "真实原生动作状态",
+            "status": "PASS",
+            "actual": "WalkForwardRight"
+          },
+          {
+            "name": "观察到有效移动速度",
+            "status": "PASS",
+            "actual": 1.262
+          },
+          {
+            "name": "位移沿输入方向",
+            "status": "PASS",
+            "actual": 1.071
+          },
+          {
+            "name": "身体保持面向视线",
+            "status": "PASS",
+            "actual": 0
+          }
+        ]
+      },
+      {
+        "id": "walk-back-left",
+        "label": "S+A 左后",
+        "reportKey": "touchSmoke",
+        "inputSource": "synthetic-touch-input",
+        "equivalentKeys": [
+          "KeyS",
+          "KeyA"
+        ],
+        "holdMs": 850,
+        "settleMs": 200,
+        "elapsedMs": 1055.6,
+        "start": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": true,
+          "grounded": true,
+          "position": [
+            -26.74410074446829,
+            1.7599999761581422,
+            38.43922723384601
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 60,
+          "keys": [],
+          "triggerHeld": false,
+          "cameraDistance": 1.95,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": false,
+            "shootPointers": 0,
+            "pointers": 0,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "Idle",
+            "upper": "UpperIdle",
+            "direction": "ForwardRight",
+            "heading": -0.138,
+            "shooting": false,
+            "shots": 0,
+            "visibleMeshes": 0
+          },
+          "arms": {
+            "visible": true,
+            "base": "Idle",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "end": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": true,
+          "grounded": true,
+          "position": [
+            -26.102998823285,
+            1.7599999761581422,
+            37.95488598986921
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 60,
+          "keys": [],
+          "triggerHeld": false,
+          "cameraDistance": 1.95,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": false,
+            "shootPointers": 0,
+            "pointers": 0,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "WalkBackLeft",
+            "upper": "UpperIdle",
+            "direction": "BackLeft",
+            "heading": -0.138,
+            "shooting": false,
+            "shots": 0,
+            "visibleMeshes": 0
+          },
+          "arms": {
+            "visible": true,
+            "base": "Idle",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "observedSampleCount": 10,
+        "observedStates": [
+          "Idle",
+          "WalkBackLeft"
+        ],
+        "observedDirections": [
+          "ForwardRight",
+          "BackLeft"
+        ],
+        "maxSpeed": 0.946,
+        "status": "PASS",
+        "assertions": [
+          {
+            "name": "真实原生动作状态",
+            "status": "PASS",
+            "actual": "WalkBackLeft"
+          },
+          {
+            "name": "观察到有效移动速度",
+            "status": "PASS",
+            "actual": 0.946
+          },
+          {
+            "name": "位移沿输入方向",
+            "status": "PASS",
+            "actual": 0.803
+          },
+          {
+            "name": "身体保持面向视线",
+            "status": "PASS",
+            "actual": 0
+          }
+        ]
+      },
+      {
+        "id": "run-forward",
+        "label": "Shift+W 奔跑",
+        "reportKey": "touchSmoke",
+        "inputSource": "synthetic-touch-input",
+        "equivalentKeys": [
+          "ShiftLeft",
+          "KeyW"
+        ],
+        "holdMs": 850,
+        "settleMs": 200,
+        "elapsedMs": 1066.1,
+        "start": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": true,
+          "grounded": true,
+          "position": [
+            -26.102998823285,
+            1.7599999761581422,
+            37.95488598986921
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 60,
+          "keys": [],
+          "triggerHeld": false,
+          "cameraDistance": 1.95,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": false,
+            "shootPointers": 0,
+            "pointers": 0,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "WalkBackLeft",
+            "upper": "UpperIdle",
+            "direction": "BackLeft",
+            "heading": -0.138,
+            "shooting": false,
+            "shots": 0,
+            "visibleMeshes": 0
+          },
+          "arms": {
+            "visible": true,
+            "base": "Idle",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "end": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": true,
+          "grounded": true,
+          "position": [
+            -26.58124370559398,
+            1.660000011920929,
+            41.38813675154472
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 60,
+          "keys": [],
+          "triggerHeld": false,
+          "cameraDistance": 1.95,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": false,
+            "shootPointers": 0,
+            "pointers": 0,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "Run",
+            "upper": "UpperIdle",
+            "direction": "Forward",
+            "heading": -0.138,
+            "shooting": false,
+            "shots": 0,
+            "visibleMeshes": 0
+          },
+          "arms": {
+            "visible": true,
+            "base": "Idle",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "observedSampleCount": 11,
+        "observedStates": [
+          "Idle",
+          "Run"
+        ],
+        "observedDirections": [
+          "BackLeft",
+          "Forward"
+        ],
+        "maxSpeed": 4,
+        "status": "PASS",
+        "assertions": [
+          {
+            "name": "真实原生动作状态",
+            "status": "PASS",
+            "actual": "Run"
+          },
+          {
+            "name": "观察到有效移动速度",
+            "status": "PASS",
+            "actual": 4
+          },
+          {
+            "name": "位移沿输入方向",
+            "status": "PASS",
+            "actual": 3.466
+          },
+          {
+            "name": "身体保持面向视线",
+            "status": "PASS",
+            "actual": 0
+          }
+        ]
+      },
+      {
+        "id": "jump-land",
+        "label": "Space 起跳与落地",
+        "reportKey": "touchSmoke",
+        "inputSource": "synthetic-touch-input",
+        "equivalentKeys": [
+          "Space"
+        ],
+        "holdMs": 750,
+        "settleMs": 1800,
+        "elapsedMs": 2555.3,
+        "start": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": true,
+          "grounded": true,
+          "position": [
+            -26.58124370559398,
+            1.660000011920929,
+            41.38813675154472
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 60,
+          "keys": [],
+          "triggerHeld": false,
+          "cameraDistance": 1.95,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": false,
+            "shootPointers": 0,
+            "pointers": 0,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "Run",
+            "upper": "UpperIdle",
+            "direction": "Forward",
+            "heading": -0.138,
+            "shooting": false,
+            "shots": 0,
+            "visibleMeshes": 0
+          },
+          "arms": {
+            "visible": true,
+            "base": "Idle",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "end": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": true,
+          "grounded": true,
+          "position": [
+            -26.58124370559398,
+            1.660000011920929,
+            41.38813675154472
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 60,
+          "keys": [],
+          "triggerHeld": false,
+          "cameraDistance": 1.95,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": false,
+            "shootPointers": 0,
+            "pointers": 0,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "Idle",
+            "upper": "UpperIdle",
+            "direction": "Forward",
+            "heading": -0.138,
+            "shooting": false,
+            "shots": 0,
+            "visibleMeshes": 0
+          },
+          "arms": {
+            "visible": true,
+            "base": "Idle",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "observedSampleCount": 25,
+        "observedStates": [
+          "Idle",
+          "Jump",
+          "Land"
+        ],
+        "observedDirections": [
+          "Forward"
+        ],
+        "maxSpeed": 0,
+        "status": "PASS",
+        "assertions": [
+          {
+            "name": "起跳前在地面",
+            "status": "PASS",
+            "actual": true
+          },
+          {
+            "name": "观察到腾空",
+            "status": "PASS",
+            "actual": 1
+          },
+          {
+            "name": "起跳高度增加",
+            "status": "PASS",
+            "actual": 1.12
+          },
+          {
+            "name": "在时限内落地",
+            "status": "PASS",
+            "actual": true
+          }
+        ]
+      },
+      {
+        "id": "fire-hold",
+        "label": "F 长按连射",
+        "reportKey": "touchSmoke",
+        "inputSource": "synthetic-touch-input",
+        "equivalentKeys": [
+          "KeyF"
+        ],
+        "holdMs": 1000,
+        "settleMs": 0,
+        "elapsedMs": 1003.2,
+        "start": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": true,
+          "grounded": true,
+          "position": [
+            -26.58124370559398,
+            1.660000011920929,
+            41.38813675154472
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 60,
+          "keys": [],
+          "triggerHeld": false,
+          "cameraDistance": 1.95,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": false,
+            "shootPointers": 0,
+            "pointers": 0,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "Idle",
+            "upper": "UpperIdle",
+            "direction": "Forward",
+            "heading": -0.138,
+            "shooting": false,
+            "shots": 0,
+            "visibleMeshes": 0
+          },
+          "arms": {
+            "visible": true,
+            "base": "Idle",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "end": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": true,
+          "grounded": true,
+          "position": [
+            -26.58124370559398,
+            1.660000011920929,
+            41.38813675154472
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 60,
+          "keys": [],
+          "triggerHeld": true,
+          "cameraDistance": 1.95,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": true,
+            "shootPointers": 1,
+            "pointers": 1,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "Idle",
+            "upper": "Shoot",
+            "direction": "Forward",
+            "heading": -0.138,
+            "shooting": true,
+            "shots": 5,
+            "visibleMeshes": 0
+          },
+          "arms": {
+            "visible": true,
+            "base": "Shoot",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "observedSampleCount": 10,
+        "observedStates": [
+          "Idle"
+        ],
+        "observedDirections": [
+          "Forward"
+        ],
+        "maxSpeed": 0,
+        "status": "PASS",
+        "assertions": [
+          {
+            "name": "长按触发至少三次发射",
+            "status": "PASS",
+            "actual": 5
+          },
+          {
+            "name": "射击动作与扳机状态",
+            "status": "PASS",
+            "actual": true
+          }
+        ]
+      },
+      {
+        "id": "fire-release",
+        "label": "F 松开停止连射",
+        "reportKey": "touchSmoke",
+        "inputSource": "synthetic-touch-input",
+        "equivalentKeys": [],
+        "holdMs": 850,
+        "settleMs": 0,
+        "elapsedMs": 857.7,
+        "start": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": true,
+          "grounded": true,
+          "position": [
+            -26.58124370559398,
+            1.660000011920929,
+            41.38813675154472
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 60,
+          "keys": [],
+          "triggerHeld": true,
+          "cameraDistance": 1.95,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": true,
+            "shootPointers": 1,
+            "pointers": 1,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "Idle",
+            "upper": "Shoot",
+            "direction": "Forward",
+            "heading": -0.138,
+            "shooting": true,
+            "shots": 5,
+            "visibleMeshes": 0
+          },
+          "arms": {
+            "visible": true,
+            "base": "Shoot",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "end": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": true,
+          "grounded": true,
+          "position": [
+            -26.58124370559398,
+            1.660000011920929,
+            41.38813675154472
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 60,
+          "keys": [],
+          "triggerHeld": false,
+          "cameraDistance": 1.95,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": false,
+            "shootPointers": 0,
+            "pointers": 0,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "Idle",
+            "upper": "UpperIdle",
+            "direction": "Forward",
+            "heading": -0.138,
+            "shooting": false,
+            "shots": 6,
+            "visibleMeshes": 0
+          },
+          "arms": {
+            "visible": true,
+            "base": "Idle",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "observedSampleCount": 9,
+        "observedStates": [
+          "Idle"
+        ],
+        "observedDirections": [
+          "Forward"
+        ],
+        "maxSpeed": 0,
+        "status": "PASS",
+        "assertions": [
+          {
+            "name": "松开后停止射击",
+            "status": "PASS",
+            "actual": false
+          },
+          {
+            "name": "尾段发射数稳定",
+            "status": "PASS",
+            "actual": [
+              6,
+              6,
+              6,
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "id": "view-1",
+        "label": "V 切换视角 1/2",
+        "reportKey": "touchSmoke",
+        "inputSource": "synthetic-touch-input",
+        "equivalentKeys": [
+          "KeyV"
+        ],
+        "holdMs": 750,
+        "settleMs": 150,
+        "elapsedMs": 3615.5,
+        "start": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": true,
+          "grounded": true,
+          "position": [
+            -26.58124370559398,
+            1.660000011920929,
+            41.38813675154472
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 60,
+          "keys": [],
+          "triggerHeld": false,
+          "cameraDistance": 1.95,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": false,
+            "shootPointers": 0,
+            "pointers": 0,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "Idle",
+            "upper": "UpperIdle",
+            "direction": "Forward",
+            "heading": -0.138,
+            "shooting": false,
+            "shots": 6,
+            "visibleMeshes": 0
+          },
+          "arms": {
+            "visible": true,
+            "base": "Idle",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "end": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": false,
+          "grounded": true,
+          "position": [
+            -26.58124370559398,
+            1.660000011920929,
+            41.38813675154472
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 60,
+          "keys": [],
+          "triggerHeld": false,
+          "cameraDistance": 1.984,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": false,
+            "shootPointers": 0,
+            "pointers": 1,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "Idle",
+            "upper": "UpperIdle",
+            "direction": "Forward",
+            "heading": -0.138,
+            "shooting": false,
+            "shots": 6,
+            "visibleMeshes": 44
+          },
+          "arms": {
+            "visible": false,
+            "base": "Idle",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "observedSampleCount": 2,
+        "observedStates": [
+          "Idle"
+        ],
+        "observedDirections": [
+          "Forward"
+        ],
+        "maxSpeed": 0,
+        "status": "PASS",
+        "assertions": [
+          {
+            "name": "视角标志改变",
+            "status": "PASS",
+            "actual": false
+          },
+          {
+            "name": "世界角色与相机双臂互斥",
+            "status": "PASS",
+            "actual": {
+              "firstPerson": false,
+              "worldMeshes": 44,
+              "armsVisible": false
+            }
+          }
+        ]
+      },
+      {
+        "id": "view-2",
+        "label": "V 切换视角 2/2",
+        "reportKey": "touchSmoke",
+        "inputSource": "synthetic-touch-input",
+        "equivalentKeys": [
+          "KeyV"
+        ],
+        "holdMs": 750,
+        "settleMs": 150,
+        "elapsedMs": 942.9,
+        "start": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": false,
+          "grounded": true,
+          "position": [
+            -26.58124370559398,
+            1.660000011920929,
+            41.38813675154472
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 60,
+          "keys": [],
+          "triggerHeld": false,
+          "cameraDistance": 1.984,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": false,
+            "shootPointers": 0,
+            "pointers": 1,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "Idle",
+            "upper": "UpperIdle",
+            "direction": "Forward",
+            "heading": -0.138,
+            "shooting": false,
+            "shots": 6,
+            "visibleMeshes": 44
+          },
+          "arms": {
+            "visible": false,
+            "base": "Idle",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "end": {
+          "ready": true,
+          "locked": false,
+          "firstPerson": true,
+          "grounded": true,
+          "position": [
+            -26.58124370559398,
+            1.660000011920929,
+            41.38813675154472
+          ],
+          "yaw": 3.28,
+          "speed": 0,
+          "fps": 12,
+          "keys": [],
+          "triggerHeld": false,
+          "cameraDistance": 1.95,
+          "touch": {
+            "enabled": true,
+            "move": [
+              0,
+              0
+            ],
+            "running": false,
+            "shooting": false,
+            "shootPointers": 0,
+            "pointers": 1,
+            "moving": false,
+            "looking": false
+          },
+          "avatar": {
+            "loaded": true,
+            "motion": "Idle",
+            "base": "Idle",
+            "upper": "UpperIdle",
+            "direction": "Forward",
+            "heading": -0.138,
+            "shooting": false,
+            "shots": 6,
+            "visibleMeshes": 0
+          },
+          "arms": {
+            "visible": true,
+            "base": "Idle",
+            "meshes": 15,
+            "cameraParent": "PlayerCamera"
+          }
+        },
+        "observedSampleCount": 9,
+        "observedStates": [
+          "Idle"
+        ],
+        "observedDirections": [
+          "Forward"
+        ],
+        "maxSpeed": 0,
+        "status": "PASS",
+        "assertions": [
+          {
+            "name": "视角标志改变",
+            "status": "PASS",
+            "actual": true
+          },
+          {
+            "name": "世界角色与相机双臂互斥",
+            "status": "PASS",
+            "actual": {
+              "firstPerson": true,
+              "worldMeshes": 0,
+              "armsVisible": true
+            }
+          }
+        ]
+      }
+    ],
+    "limitations": "会正常移动角色；障碍、地形、人工操作和低帧率会影响结果，不能代替真实硬件输入、原生指针捕获验收。",
+    "inputReadyAt": "2026-09-20T12:19:43.074Z",
+    "errorCountSinceProbeLoad": 0,
+    "endedAt": "2026-09-20T12:20:02.343Z",
+    "elapsedMs": 19275.6,
+    "releasedAllOwnedKeys": true,
+    "releasedAllOwnedPointers": true,
+    "restoredOwnedRunToggle": true
+  },
+  "performance": null,
+  "samples": [
+    {"elapsedMs":52.5,"stage":"就绪与待机","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26,1.7599999761581422,37.2],"yaw":3.28,"speed":0,"fps":53,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":153.1,"stage":"就绪与待机","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26,1.7599999761581422,37.2],"yaw":3.28,"speed":0,"fps":53,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":253.2,"stage":"就绪与待机","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26,1.7599999761581422,37.2],"yaw":3.28,"speed":0,"fps":53,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":351.7,"stage":"就绪与待机","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26,1.7599999761581422,37.2],"yaw":3.28,"speed":0,"fps":53,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":453.4,"stage":"就绪与待机","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26,1.7599999761581422,37.2],"yaw":3.28,"speed":0,"fps":53,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":552.9,"stage":"就绪与待机","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26,1.7599999761581422,37.2],"yaw":3.28,"speed":0,"fps":53,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":651.2,"stage":"就绪与待机","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26,1.7599999761581422,37.2],"yaw":3.28,"speed":0,"fps":53,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":768,"stage":"W 前进","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26,1.7599999761581422,37.2],"yaw":3.28,"speed":0,"fps":53,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":853.1,"stage":"W 前进","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.003801649472656,1.7599999761581422,37.22729149109681],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,1],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":953.4,"stage":"W 前进","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.03032213830886,1.7599999761581422,37.41767824036495],"yaw":3.28,"speed":1.652,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,1],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"Walk","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":1052.2,"stage":"W 前进","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.056888155881264,1.7599999761581422,37.60839183383785],"yaw":3.28,"speed":1.65,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,1],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"Walk","base":"Walk","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":1151.5,"stage":"W 前进","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.079675288349108,1.7599999761581422,37.77197735831631],"yaw":3.28,"speed":1.65,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,1],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"Walk","base":"Walk","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":1253,"stage":"W 前进","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.106218541553414,1.7599999761581422,37.96252752968683],"yaw":3.28,"speed":1.65,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,1],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"Walk","base":"Walk","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":1353.2,"stage":"W 前进","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.132784559125817,1.7599999761581422,38.15324112315972],"yaw":3.28,"speed":1.65,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,1],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"Walk","base":"Walk","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":1452.9,"stage":"W 前进","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.132784559125817,1.7599999761581422,38.15324112315972],"yaw":3.28,"speed":1.65,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,1],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"Walk","base":"Walk","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":1552.9,"stage":"W 前进","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.159327812330122,1.7599999761581422,38.343791294530234],"yaw":3.28,"speed":1.65,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,1],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"Walk","base":"Walk","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":1653,"stage":"W 前进","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.18211494479797,1.7599999761581422,38.5073768190087],"yaw":3.28,"speed":1.648,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,1],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"Walk","base":"Walk","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":1752.9,"stage":"W 前进","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.197276013952404,1.7599999761581422,38.61621593919117],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Walk","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":1853.1,"stage":"S 后退","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.197276013952404,1.7599999761581422,38.61621593919117],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":1953,"stage":"S 后退","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.183256641093283,1.7599999761581422,38.51557289139854],"yaw":3.28,"speed":0.973,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,-1],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkBack","base":"Idle","upper":"UpperIdle","direction":"Back","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":2053,"stage":"S 后退","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.163656414769854,1.7599999761581422,38.37486570467647],"yaw":3.28,"speed":1.217,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,-1],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkBack","base":"WalkBack","upper":"UpperIdle","direction":"Back","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":2151.7,"stage":"S 后退","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.14682980537898,1.7599999761581422,38.25406991230187],"yaw":3.28,"speed":1.218,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,-1],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkBack","base":"WalkBack","upper":"UpperIdle","direction":"Back","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":2253.1,"stage":"S 后退","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.127246388855145,1.7599999761581422,38.11348340069706],"yaw":3.28,"speed":1.217,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,-1],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkBack","base":"WalkBack","upper":"UpperIdle","direction":"Back","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":2352.1,"stage":"S 后退","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.11041977946427,1.7599999761581422,37.99268760832247],"yaw":3.28,"speed":1.217,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,-1],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkBack","base":"WalkBack","upper":"UpperIdle","direction":"Back","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":2452.8,"stage":"S 后退","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.11041977946427,1.7599999761581422,37.99268760832247],"yaw":3.28,"speed":1.217,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,-1],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkBack","base":"WalkBack","upper":"UpperIdle","direction":"Back","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":2553,"stage":"S 后退","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.090819553140825,1.7599999761581422,37.85198042160041],"yaw":3.28,"speed":1.218,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,-1],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkBack","base":"WalkBack","upper":"UpperIdle","direction":"Back","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":2653.2,"stage":"S 后退","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.073992943749953,1.7599999761581422,37.731184629225815],"yaw":3.28,"speed":1.216,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,-1],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkBack","base":"WalkBack","upper":"UpperIdle","direction":"Back","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":2753.2,"stage":"S 后退","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.05439271742652,1.7599999761581422,37.590477442503754],"yaw":3.28,"speed":1.218,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,-1],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkBack","base":"WalkBack","upper":"UpperIdle","direction":"Back","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":2852.6,"stage":"S 后退","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.05439271742652,1.7599999761581422,37.590477442503754],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"WalkBack","upper":"UpperIdle","direction":"Back","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":2951.6,"stage":"A 左移","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.040942609802524,1.7599999761581422,37.59235101527318],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[-1,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Left","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":3053,"stage":"A 左移","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.94695293556776,1.7599999761581422,37.60544358666192],"yaw":3.28,"speed":0.813,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[-1,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkLeft","base":"Idle","upper":"UpperIdle","direction":"Left","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":3151.6,"stage":"A 左移","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.853043800899616,1.7599999761581422,37.61852493905204],"yaw":3.28,"speed":0.813,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[-1,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkLeft","base":"WalkLeft","upper":"UpperIdle","direction":"Left","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":3252.6,"stage":"A 左移","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.759054126664864,1.7599999761581422,37.63161751044077],"yaw":3.28,"speed":0.812,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[-1,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkLeft","base":"WalkLeft","upper":"UpperIdle","direction":"Left","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":3352.9,"stage":"A 左移","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.759054126664864,1.7599999761581422,37.63161751044077],"yaw":3.28,"speed":0.812,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[-1,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkLeft","base":"WalkLeft","upper":"UpperIdle","direction":"Left","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":3453,"stage":"A 左移","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.665144991996712,1.7599999761581422,37.644698862830886],"yaw":3.28,"speed":0.812,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[-1,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkLeft","base":"WalkLeft","upper":"UpperIdle","direction":"Left","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":3553,"stage":"A 左移","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.58444434625273,1.7599999761581422,37.65594029944744],"yaw":3.28,"speed":0.812,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[-1,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkLeft","base":"WalkLeft","upper":"UpperIdle","direction":"Left","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":3653,"stage":"A 左移","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.49061575115119,1.7599999761581422,37.66901043283894],"yaw":3.28,"speed":0.812,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[-1,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkLeft","base":"WalkLeft","upper":"UpperIdle","direction":"Left","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":3752.9,"stage":"A 左移","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.396706616483044,1.7599999761581422,37.682091785229055],"yaw":3.28,"speed":0.813,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[-1,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkLeft","base":"WalkLeft","upper":"UpperIdle","direction":"Left","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":3852.9,"stage":"A 左移","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.356436833177664,1.7599999761581422,37.68770128453872],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"WalkLeft","upper":"UpperIdle","direction":"Left","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":3951.5,"stage":"D 右移","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.356436833177664,1.7599999761581422,37.68770128453872],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Left","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":4052.9,"stage":"D 右移","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.436976399788428,1.7599999761581422,37.676482285919406],"yaw":3.28,"speed":0.678,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[1,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkRight","base":"Idle","upper":"UpperIdle","direction":"Right","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":4152.9,"stage":"D 右移","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.5175965059658,1.7599999761581422,37.66525206830147],"yaw":3.28,"speed":0.812,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[1,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkRight","base":"WalkRight","upper":"UpperIdle","direction":"Right","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":4251.9,"stage":"D 右移","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.5175965059658,1.7599999761581422,37.66525206830147],"yaw":3.28,"speed":0.812,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[1,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkRight","base":"WalkRight","upper":"UpperIdle","direction":"Right","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":4353.3,"stage":"D 右移","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.611505640633954,1.7599999761581422,37.65217071591135],"yaw":3.28,"speed":0.813,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[1,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkRight","base":"WalkRight","upper":"UpperIdle","direction":"Right","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":4453.3,"stage":"D 右移","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.705414775302106,1.7599999761581422,37.63908936352124],"yaw":3.28,"speed":0.814,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[1,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkRight","base":"WalkRight","upper":"UpperIdle","direction":"Right","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":4553.2,"stage":"D 右移","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.786034881479477,1.7599999761581422,37.627859145903315],"yaw":3.28,"speed":0.812,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[1,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkRight","base":"WalkRight","upper":"UpperIdle","direction":"Right","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":4653.3,"stage":"D 右移","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.880024555714236,1.7599999761581422,37.614766574514576],"yaw":3.28,"speed":0.812,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[1,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkRight","base":"WalkRight","upper":"UpperIdle","direction":"Right","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":4753.1,"stage":"D 右移","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.973933690382385,1.7599999761581422,37.60168522212446],"yaw":3.28,"speed":0.812,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[1,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkRight","base":"WalkRight","upper":"UpperIdle","direction":"Right","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":4852.7,"stage":"D 右移","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.041023149369146,1.7599999761581422,37.59233979627457],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"WalkRight","upper":"UpperIdle","direction":"Right","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":4952.8,"stage":"D 右移","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.041023149369146,1.7599999761581422,37.59233979627457],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Right","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":5052.8,"stage":"W+A 左前","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.003034940504303,1.7599999761581422,37.64262420164078],"yaw":3.28,"speed":0.839,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[-0.7071067811865475,0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkForwardLeft","base":"Idle","upper":"UpperIdle","direction":"ForwardLeft","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":5152.9,"stage":"W+A 左前","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.003034940504303,1.7599999761581422,37.64262420164078],"yaw":3.28,"speed":0.839,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[-0.7071067811865475,0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkForwardLeft","base":"Idle","upper":"UpperIdle","direction":"ForwardLeft","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":5253.1,"stage":"W+A 左前","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.91444643743148,1.7599999761581422,37.75988743495479],"yaw":3.28,"speed":1.26,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[-0.7071067811865475,0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkForwardLeft","base":"Idle","upper":"UpperIdle","direction":"ForwardLeft","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":5352.9,"stage":"W+A 左前","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.825781957940933,1.7599999761581422,37.877251237079534],"yaw":3.28,"speed":1.259,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[-0.7071067811865475,0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkForwardLeft","base":"WalkForwardLeft","upper":"UpperIdle","direction":"ForwardLeft","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":5453,"stage":"W+A 左前","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.737193454868112,1.7599999761581422,37.99451447039353],"yaw":3.28,"speed":1.26,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[-0.7071067811865475,0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkForwardLeft","base":"WalkForwardLeft","upper":"UpperIdle","direction":"ForwardLeft","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":5553.1,"stage":"W+A 左前","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.64852897537756,1.7599999761581422,38.11187827251828],"yaw":3.28,"speed":1.26,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[-0.7071067811865475,0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkForwardLeft","base":"WalkForwardLeft","upper":"UpperIdle","direction":"ForwardLeft","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":5652.8,"stage":"W+A 左前","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.559940472304742,1.7599999761581422,38.22914150583228],"yaw":3.28,"speed":1.26,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[-0.7071067811865475,0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkForwardLeft","base":"WalkForwardLeft","upper":"UpperIdle","direction":"ForwardLeft","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":5752.9,"stage":"W+A 左前","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.483888078157324,1.7599999761581422,38.32981088537544],"yaw":3.28,"speed":1.259,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[-0.7071067811865475,0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkForwardLeft","base":"WalkForwardLeft","upper":"UpperIdle","direction":"ForwardLeft","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":5855.3,"stage":"W+A 左前","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.395299575084504,1.7599999761581422,38.44707411868944],"yaw":3.28,"speed":1.259,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[-0.7071067811865475,0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkForwardLeft","base":"WalkForwardLeft","upper":"UpperIdle","direction":"ForwardLeft","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":5951.7,"stage":"W+A 左前","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.395299575084504,1.7599999761581422,38.44707411868944],"yaw":3.28,"speed":1.259,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[-0.7071067811865475,0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkForwardLeft","base":"WalkForwardLeft","upper":"UpperIdle","direction":"ForwardLeft","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":6053.2,"stage":"W+A 左前","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.395299575084504,1.7599999761581422,38.44707411868944],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"WalkForwardLeft","upper":"UpperIdle","direction":"ForwardLeft","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":6153.2,"stage":"S+D 右后","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.41433166772579,1.7599999761581422,38.42188163160097],"yaw":3.28,"speed":0.473,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0.7071067811865475,-0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkBackRight","base":"Idle","upper":"UpperIdle","direction":"BackRight","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":6253.2,"stage":"S+D 右后","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.480773045030396,1.7599999761581422,38.333934206615446],"yaw":3.28,"speed":0.944,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0.7071067811865475,-0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkBackRight","base":"Idle","upper":"UpperIdle","direction":"BackRight","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":6353.1,"stage":"S+D 右后","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.537812340640954,1.7599999761581422,38.25843217195806],"yaw":3.28,"speed":0.945,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0.7071067811865475,-0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkBackRight","base":"WalkBackRight","upper":"UpperIdle","direction":"BackRight","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":6452.8,"stage":"S+D 右后","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.604253717945564,1.7599999761581422,38.17048474697254],"yaw":3.28,"speed":0.944,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0.7071067811865475,-0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkBackRight","base":"WalkBackRight","upper":"UpperIdle","direction":"BackRight","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":6553.2,"stage":"S+D 右后","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.67069509525017,1.7599999761581422,38.082537321987026],"yaw":3.28,"speed":0.946,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0.7071067811865475,-0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkBackRight","base":"WalkBackRight","upper":"UpperIdle","direction":"BackRight","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":6653.2,"stage":"S+D 右后","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.737193454868073,1.7599999761581422,37.994514470393455],"yaw":3.28,"speed":0.945,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0.7071067811865475,-0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkBackRight","base":"WalkBackRight","upper":"UpperIdle","direction":"BackRight","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":6753.2,"stage":"S+D 右后","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.737193454868073,1.7599999761581422,37.994514470393455],"yaw":3.28,"speed":0.945,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0.7071067811865475,-0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkBackRight","base":"WalkBackRight","upper":"UpperIdle","direction":"BackRight","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":6853.1,"stage":"S+D 右后","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.80369181448598,1.7599999761581422,37.90649161879989],"yaw":3.28,"speed":0.945,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0.7071067811865475,-0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkBackRight","base":"WalkBackRight","upper":"UpperIdle","direction":"BackRight","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":6952.1,"stage":"S+D 右后","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.870133191790586,1.7599999761581422,37.818544193814375],"yaw":3.28,"speed":0.946,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0.7071067811865475,-0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkBackRight","base":"WalkBackRight","upper":"UpperIdle","direction":"BackRight","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":7053.2,"stage":"S+D 右后","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.889165284431872,1.7599999761581422,37.7933517067259],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"WalkBackRight","upper":"UpperIdle","direction":"BackRight","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":7152.8,"stage":"W+D 右前","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.889165284431872,1.7599999761581422,37.7933517067259],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"BackRight","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":7253,"stage":"W+D 右前","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-25.989834663975042,1.7599999761581422,37.869404100873325],"yaw":3.28,"speed":1.051,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0.7071067811865475,0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkForwardRight","base":"Idle","upper":"UpperIdle","direction":"ForwardRight","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":7352.9,"stage":"W+D 右前","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.10709789728906,1.7599999761581422,37.957992603946145],"yaw":3.28,"speed":1.26,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0.7071067811865475,0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkForwardRight","base":"WalkForwardRight","upper":"UpperIdle","direction":"ForwardRight","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":7453.3,"stage":"W+D 右前","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.224461699413805,1.7599999761581422,38.04665708343669],"yaw":3.28,"speed":1.26,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0.7071067811865475,0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkForwardRight","base":"WalkForwardRight","upper":"UpperIdle","direction":"ForwardRight","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":7553.2,"stage":"W+D 右前","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.224461699413805,1.7599999761581422,38.04665708343669],"yaw":3.28,"speed":1.26,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0.7071067811865475,0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkForwardRight","base":"WalkForwardRight","upper":"UpperIdle","direction":"ForwardRight","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":7653.4,"stage":"W+D 右前","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.34182550153856,1.7599999761581422,38.135321562927246],"yaw":3.28,"speed":1.26,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0.7071067811865475,0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkForwardRight","base":"WalkForwardRight","upper":"UpperIdle","direction":"ForwardRight","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":7753.2,"stage":"W+D 右前","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.459189303663305,1.7599999761581422,38.22398604241779],"yaw":3.28,"speed":1.26,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0.7071067811865475,0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkForwardRight","base":"WalkForwardRight","upper":"UpperIdle","direction":"ForwardRight","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":7853.3,"stage":"W+D 右前","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.57645253697732,1.7599999761581422,38.31257454549061],"yaw":3.28,"speed":1.259,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0.7071067811865475,0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkForwardRight","base":"WalkForwardRight","upper":"UpperIdle","direction":"ForwardRight","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":7966.8,"stage":"W+D 右前","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.693816339102074,1.7599999761581422,38.401239024981166],"yaw":3.28,"speed":1.262,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0.7071067811865475,0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkForwardRight","base":"WalkForwardRight","upper":"UpperIdle","direction":"ForwardRight","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":8051.5,"stage":"W+D 右前","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.74410074446829,1.7599999761581422,38.43922723384601],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"WalkForwardRight","upper":"UpperIdle","direction":"ForwardRight","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":8153,"stage":"W+D 右前","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.74410074446829,1.7599999761581422,38.43922723384601],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"ForwardRight","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":8252.9,"stage":"S+A 左后","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.74410074446829,1.7599999761581422,38.43922723384601],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"ForwardRight","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":8352.8,"stage":"S+A 左后","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.668674136418975,1.7599999761581422,38.38224492054874],"yaw":3.28,"speed":0.787,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[-0.7071067811865475,-0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkBackLeft","base":"Idle","upper":"UpperIdle","direction":"BackLeft","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":8452.9,"stage":"S+A 左后","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58072671143347,1.7599999761581422,38.31580354324413],"yaw":3.28,"speed":0.945,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[-0.7071067811865475,-0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkBackLeft","base":"WalkBackLeft","upper":"UpperIdle","direction":"BackLeft","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":8552,"stage":"S+A 左后","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.4927927834515,1.760164045651194,38.249371459820104],"yaw":3.28,"speed":0.945,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[-0.7071067811865475,-0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkBackLeft","base":"WalkBackLeft","upper":"UpperIdle","direction":"BackLeft","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":8653.1,"stage":"S+A 左后","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.417290748794134,1.7599999761581422,38.19233216420954],"yaw":3.28,"speed":0.944,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[-0.7071067811865475,-0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkBackLeft","base":"WalkBackLeft","upper":"UpperIdle","direction":"BackLeft","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":8752.8,"stage":"S+A 左后","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.32934332380863,1.7599999761581422,38.125890786904925],"yaw":3.28,"speed":0.946,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[-0.7071067811865475,-0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkBackLeft","base":"WalkBackLeft","upper":"UpperIdle","direction":"BackLeft","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":8852.9,"stage":"S+A 左后","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.253841289151257,1.7599999761581422,38.06885149129435],"yaw":3.28,"speed":0.944,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[-0.7071067811865475,-0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkBackLeft","base":"WalkBackLeft","upper":"UpperIdle","direction":"BackLeft","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":8952.9,"stage":"S+A 左后","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.165818437557707,1.7599999761581422,38.00235313167644],"yaw":3.28,"speed":0.944,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[-0.7071067811865475,-0.7071067811865475],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"WalkBackLeft","base":"WalkBackLeft","upper":"UpperIdle","direction":"BackLeft","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":9052.9,"stage":"S+A 左后","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.102998823285,1.7599999761581422,37.95488598986921],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"WalkBackLeft","upper":"UpperIdle","direction":"BackLeft","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":9152.8,"stage":"S+A 左后","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.102998823285,1.7599999761581422,37.95488598986921],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"WalkBackLeft","upper":"UpperIdle","direction":"BackLeft","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":9264.1,"stage":"Shift+W 奔跑","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.102998823285,1.7599999761581422,37.95488598986921],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"BackLeft","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":9352.8,"stage":"Shift+W 奔跑","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.148969050259765,1.7599999761581422,38.28489959297047],"yaw":3.28,"speed":2.285,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,1],"running":true,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"Run","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":9453,"stage":"Shift+W 奔跑","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.204210583515167,1.7593910417793417,38.681470561403096],"yaw":3.28,"speed":3.332,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,1],"running":true,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"Run","base":"Run","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":9551.5,"stage":"Shift+W 奔跑","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.26855786401047,1.660000011920929,39.14341037078619],"yaw":3.28,"speed":3.992,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,1],"running":true,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"Run","base":"Run","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":9653.4,"stage":"Shift+W 奔跑","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.332905144505773,1.660000011920929,39.60535018016925],"yaw":3.28,"speed":4,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,1],"running":true,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"Run","base":"Run","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":9752.9,"stage":"Shift+W 奔跑","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.397307611347976,1.660000011920929,40.06768616434594],"yaw":3.28,"speed":4,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,1],"running":true,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"Run","base":"Run","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":9852.9,"stage":"Shift+W 奔跑","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.397307611347976,1.660000011920929,40.06768616434594],"yaw":3.28,"speed":4,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,1],"running":true,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"Run","base":"Run","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":9952.2,"stage":"Shift+W 奔跑","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.461654891843278,1.660000011920929,40.52962597372901],"yaw":3.28,"speed":4,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,1],"running":true,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"Run","base":"Run","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":10052.8,"stage":"Shift+W 奔跑","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.516896425098682,1.660000011920929,40.92619694216166],"yaw":3.28,"speed":3.996,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,1],"running":true,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"Run","base":"Run","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":10152.8,"stage":"Shift+W 奔跑","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":3.996,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,1],"running":true,"shooting":false,"shootPointers":0,"pointers":1,"moving":true,"looking":false},"avatar":{"loaded":true,"motion":"Run","base":"Run","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":10252.9,"stage":"Shift+W 奔跑","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Run","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":10352.8,"stage":"Space 起跳与落地","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":10451,"stage":"Space 起跳与落地","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":false,"position":[-26.58124370559398,2.278333345254262,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Jump","base":"Jump","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":10551.8,"stage":"Space 起跳与落地","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":false,"position":[-26.58124370559398,2.651666678587596,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Jump","base":"Jump","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":10653.3,"stage":"Space 起跳与落地","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":false,"position":[-26.58124370559398,2.7800000119209294,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Jump","base":"Jump","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":10753,"stage":"Space 起跳与落地","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":false,"position":[-26.58124370559398,2.7800000119209294,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Jump","base":"Jump","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":10853.2,"stage":"Space 起跳与落地","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":false,"position":[-26.58124370559398,2.663333345254264,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Jump","base":"Jump","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":10953.2,"stage":"Space 起跳与落地","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":false,"position":[-26.58124370559398,2.3016666785875985,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Jump","base":"Jump","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":11052.9,"stage":"Space 起跳与落地","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":false,"position":[-26.58124370559398,1.695000011920933,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Jump","base":"Jump","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":11151.6,"stage":"Space 起跳与落地","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Land","base":"Land","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":11251.4,"stage":"Space 起跳与落地","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Land","base":"Land","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":11352.7,"stage":"Space 起跳与落地","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Land","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":11451.7,"stage":"Space 起跳与落地","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Land","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":11552.9,"stage":"Space 起跳与落地","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":11652.2,"stage":"Space 起跳与落地","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":11753.1,"stage":"Space 起跳与落地","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":11851.9,"stage":"Space 起跳与落地","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":11953,"stage":"Space 起跳与落地","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":12052.9,"stage":"Space 起跳与落地","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":12151.6,"stage":"Space 起跳与落地","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":12252.8,"stage":"Space 起跳与落地","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":12352.8,"stage":"Space 起跳与落地","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":12453,"stage":"Space 起跳与落地","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":12551.9,"stage":"Space 起跳与落地","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":12652.2,"stage":"Space 起跳与落地","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":12752.9,"stage":"Space 起跳与落地","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":12852.4,"stage":"F 长按连射","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":0,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":12952.8,"stage":"F 长按连射","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":true,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":true,"shootPointers":1,"pointers":1,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"Shoot","direction":"Forward","heading":-0.138,"shooting":true,"shots":1,"visibleMeshes":0},"arms":{"visible":true,"base":"Shoot","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":13052.8,"stage":"F 长按连射","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":true,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":true,"shootPointers":1,"pointers":1,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"Shoot","direction":"Forward","heading":-0.138,"shooting":true,"shots":1,"visibleMeshes":0},"arms":{"visible":true,"base":"Shoot","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":13152.1,"stage":"F 长按连射","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":true,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":true,"shootPointers":1,"pointers":1,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"Shoot","direction":"Forward","heading":-0.138,"shooting":true,"shots":2,"visibleMeshes":0},"arms":{"visible":true,"base":"Shoot","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":13252.9,"stage":"F 长按连射","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":true,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":true,"shootPointers":1,"pointers":1,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"Shoot","direction":"Forward","heading":-0.138,"shooting":true,"shots":2,"visibleMeshes":0},"arms":{"visible":true,"base":"Shoot","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":13351.9,"stage":"F 长按连射","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":true,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":true,"shootPointers":1,"pointers":1,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"Shoot","direction":"Forward","heading":-0.138,"shooting":true,"shots":3,"visibleMeshes":0},"arms":{"visible":true,"base":"Shoot","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":13452.9,"stage":"F 长按连射","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":true,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":true,"shootPointers":1,"pointers":1,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"Shoot","direction":"Forward","heading":-0.138,"shooting":true,"shots":3,"visibleMeshes":0},"arms":{"visible":true,"base":"Shoot","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":13552.7,"stage":"F 长按连射","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":true,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":true,"shootPointers":1,"pointers":1,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"Shoot","direction":"Forward","heading":-0.138,"shooting":true,"shots":4,"visibleMeshes":0},"arms":{"visible":true,"base":"Shoot","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":13652.9,"stage":"F 长按连射","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":true,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":true,"shootPointers":1,"pointers":1,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"Shoot","direction":"Forward","heading":-0.138,"shooting":true,"shots":4,"visibleMeshes":0},"arms":{"visible":true,"base":"Shoot","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":13752.8,"stage":"F 长按连射","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":true,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":true,"shootPointers":1,"pointers":1,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"Shoot","direction":"Forward","heading":-0.138,"shooting":true,"shots":5,"visibleMeshes":0},"arms":{"visible":true,"base":"Shoot","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":13854.3,"stage":"F 松开停止连射","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":true,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":true,"shootPointers":1,"pointers":1,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"Shoot","direction":"Forward","heading":-0.138,"shooting":true,"shots":6,"visibleMeshes":0},"arms":{"visible":true,"base":"Shoot","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":13952.8,"stage":"F 松开停止连射","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":true,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":true,"shootPointers":1,"pointers":1,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"Shoot","direction":"Forward","heading":-0.138,"shooting":true,"shots":6,"visibleMeshes":0},"arms":{"visible":true,"base":"Shoot","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":14053.1,"stage":"F 松开停止连射","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"Shoot","direction":"Forward","heading":-0.138,"shooting":true,"shots":6,"visibleMeshes":0},"arms":{"visible":true,"base":"Shoot","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":14153,"stage":"F 松开停止连射","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"Shoot","direction":"Forward","heading":-0.138,"shooting":false,"shots":6,"visibleMeshes":0},"arms":{"visible":true,"base":"Shoot","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":14253.2,"stage":"F 松开停止连射","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":6,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":14353,"stage":"F 松开停止连射","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":6,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":14453,"stage":"F 松开停止连射","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":6,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":14553.1,"stage":"F 松开停止连射","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":6,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":14653,"stage":"F 松开停止连射","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":0,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":6,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":18176.4,"stage":"V 切换视角 1/2","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":false,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.984,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":6,"visibleMeshes":44},"arms":{"visible":false,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":18253.3,"stage":"V 切换视角 1/2","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":false,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.984,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":6,"visibleMeshes":44},"arms":{"visible":false,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":18363,"stage":"V 切换视角 2/2","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":false,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.984,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":6,"visibleMeshes":44},"arms":{"visible":false,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":18458.2,"stage":"V 切换视角 2/2","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":false,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.984,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":6,"visibleMeshes":44},"arms":{"visible":false,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":18554.5,"stage":"V 切换视角 2/2","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":false,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.984,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":6,"visibleMeshes":44},"arms":{"visible":false,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":18663.1,"stage":"V 切换视角 2/2","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":false,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":60,"keys":[],"triggerHeld":false,"cameraDistance":1.984,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":6,"visibleMeshes":44},"arms":{"visible":false,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":18794.5,"stage":"V 切换视角 2/2","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":12,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":6,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":18855.9,"stage":"V 切换视角 2/2","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":12,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":6,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":18963.3,"stage":"V 切换视角 2/2","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":12,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":6,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":19067.4,"stage":"V 切换视角 2/2","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":12,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":6,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5},
+    {"elapsedMs":19159.2,"stage":"V 切换视角 2/2","visible":true,"focused":true,"player":{"ready":true,"locked":false,"firstPerson":true,"grounded":true,"position":[-26.58124370559398,1.660000011920929,41.38813675154472],"yaw":3.28,"speed":0,"fps":12,"keys":[],"triggerHeld":false,"cameraDistance":1.95,"touch":{"enabled":true,"move":[0,0],"running":false,"shooting":false,"shootPointers":0,"pointers":1,"moving":false,"looking":false},"avatar":{"loaded":true,"motion":"Idle","base":"Idle","upper":"UpperIdle","direction":"Forward","heading":-0.138,"shooting":false,"shots":6,"visibleMeshes":0},"arms":{"visible":true,"base":"Idle","meshes":15,"cameraParent":"PlayerCamera"}},"duckCount":5}
+  ],
+  "sampleLimit": 200,
+  "droppedSamples": 0,
+  "errors": [],
+  "errorCount": 0,
+  "droppedErrors": 0,
+  "notVerified": [
+    "真实物理键盘与鼠标点击/锁定交互",
+    "pointer capture",
+    "手机硬件及多指输入",
+    "GPU 帧时",
+    "全场景障碍和碰撞覆盖",
+    "模型/材质的人工画面验收"
+  ],
+  "notes": [
+    "只读取公开 HUD JSON；键盘测试派发 document KeyboardEvent，触屏测试派发公开控件的 PointerEvent。",
+    "FPS 和 RAF 测量来自当前可见页面，可能受工具、窗口焦点、浏览器调度影响。"
+  ],
+  "updatedAt": "2026-09-20T12:20:43.820Z"
+}

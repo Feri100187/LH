@@ -3,15 +3,21 @@
 
 // Run the actual LakeDuck class against serialized routes and native mesh vertices.
 const fs = require("node:fs"), path = require("node:path"), crypto = require("node:crypto"), assert = require("node:assert/strict");
-const root = path.resolve(__dirname, "..");
-const ts = require(process.env.TYPESCRIPT_PATH || path.resolve(root, "../../LayaAirIDE/resources/node_modules/typescript"));
+const suite = require("./testing/context.cjs").createSuite("lake-ducks");
+const { readWaterSurface } = require("./testing/lake-geometry.cjs");
+const root = suite.root, ts = suite.ts;
 const sourcePath = path.join(root, "src/LakeDuck.ts");
 const source = fs.readFileSync(sourcePath, "utf8");
 const readJSON = file => JSON.parse(fs.readFileSync(file, "utf8").replace(/^\uFEFF/, ""));
 const groupPath = path.join(root, "assets/ducks/LakeDucks.lh");
 const group = readJSON(groupPath), groupUUID = readJSON(groupPath + ".meta").uuid;
 const scriptUUID = readJSON(sourcePath + ".meta").uuid;
-const audit = readJSON(path.join(root, "docs/lake_ducks/placement_audit.json"));
+const water = readWaterSurface(path.join(root, "assets/lingshui/LingshuiLake.glb"));
+const routes = group._$child.map(node => {
+    const p = node.transform.localPosition, settings = node._$comp.find(comp => comp._$type === scriptUUID);
+    return { center_y_up: [p.x, p.y, p.z], radii_xz: [settings.radiusX, settings.radiusZ],
+        period_s: settings.periodSeconds, phase_rad: settings.phaseDegrees * Math.PI / 180, direction: settings.direction };
+});
 const resources = new Map();
 function index(directory) {
     for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
@@ -148,10 +154,9 @@ function continuousRadiusBound(vertices, scale) {
         return Math.hypot(x, z) + Math.hypot(x, y, z) * factor;
     }));
 }
-const tests = [], routeMeasurements = [];
+const tests = suite.tests, routeMeasurements = [];
 function test(name, body) {
-    try { tests.push({ name, status: "PASS", details: body() }); }
-    catch (error) { tests.push({ name, status: "FAIL", error: error.message, stack: error.stack }); }
+    try { suite.test(name, body, { kind: name.startsWith("two_scenes_") || name.startsWith("serialized_routes_") ? "asset_contract" : "logic" }); }
     finally { for (const actor of created.splice(0)) actor.onDestroy(); }
 }
 
@@ -183,18 +188,22 @@ test("two_scenes_each_reference_one_group_of_five_shared_ducks", () => {
     return { scenes, group_uuid: groupUUID, shared_duck_prefab_uuid: duckUUID, native_model_vertices: modelVertices.length };
 });
 
-test("serialized_routes_match_verified_water_placements", () => {
-    assert.equal(audit.status, "PASS"); assert.equal(audit.routes.length, 5);
+test("serialized_routes_fit_current_water_surface_geometry", () => {
+    assert.equal(routes.length, 5); near(water.waterY, .04, 1e-6);
+    const checked = [];
     for (let i = 0; i < group._$child.length; i++) {
-        const f = fixture(group._$child[i]), route = audit.routes[i];
+        const f = fixture(group._$child[i]), route = routes[i];
         f.center.forEach((v, j) => near(v, route.center_y_up[j]));
+        near(f.center[1], water.waterY, 1e-6);
         near(f.actor.radiusX, route.radii_xz[0]); near(f.actor.radiusZ, route.radii_xz[1]);
         near(f.actor.periodSeconds, route.period_s); near(f.actor.phaseDegrees * Math.PI / 180, route.phase_rad);
         assert.equal(f.actor.direction, route.direction); assert.ok(f.actor.bobHeight <= .006);
+        assert.ok(route.period_s >= 12 && route.radii_xz.every(radius => radius >= .5 && radius <= 1.5));
+        const envelope = water.envelope([f.center[0], f.center[2]], Math.max(...route.radii_xz) + .30);
+        assert.equal(envelope.fully_inside, true, "The complete route plus duck body must fit the current water triangles");
+        checked.push({ duck: group._$child[i].name, ...envelope });
     }
-    const water = fs.readFileSync(path.join(root, "assets/lingshui/LingshuiLake.glb"));
-    assert.equal(crypto.createHash("sha256").update(water).digest("hex"), audit.files.glb_sha256);
-    return { routes: 5, verified_water_geometry_unchanged: true };
+    return { water_geometry: water.evidence, routes: checked };
 });
 
 for (const serialized of group._$child) test(`${serialized.name}_multiple_cycles_waterline_tangent_bob_and_radius`, () => {
@@ -248,13 +257,13 @@ test("absolute_pose_returns_after_1000_cycles_without_accumulation", () => {
 test("all_phase_scaled_body_separation_remains_above_0_8m", () => {
     assert.equal(routeMeasurements.length, 5); let minGap = Infinity;
     for (let i = 0; i < 5; i++) for (let j = i + 1; j < 5; j++) {
-        const a = audit.routes[i], b = audit.routes[j];
+        const a = routes[i], b = routes[j];
         const gap = Math.hypot(a.center_y_up[0] - b.center_y_up[0], a.center_y_up[2] - b.center_y_up[2])
             - Math.max(...a.radii_xz) - Math.max(...b.radii_xz)
             - routeMeasurements[i].conservative_all_tilt_phases_radius_bound_m - routeMeasurements[j].conservative_all_tilt_phases_radius_bound_m;
         minGap = Math.min(minGap, gap); assert.ok(gap >= .8);
     }
-    return { minimum_all_phase_body_gap_m: minGap, conservative_original_audit_gap_m: audit.minimum_all_phase_body_gap_m };
+    return { minimum_all_phase_body_gap_m: minGap };
 });
 
 test("real_onUpdate_has_bounded_time_and_destroy_releases_wake_resources", () => {
@@ -270,16 +279,11 @@ test("real_onUpdate_has_bounded_time_and_destroy_releases_wake_resources", () =>
     return { bounded_motion_age_s: expectedAge, wake_vertices: mesh.vertices.length / 3, resources_released: true };
 });
 
-const passed = tests.filter(test => test.status === "PASS").length;
 const sha = file => crypto.createHash("sha256").update(fs.readFileSync(file)).digest("hex");
-const report = { status: passed === tests.length ? "PASS" : "FAIL", checked_utc: new Date().toISOString(),
+suite.finish({
     scope: "Real LakeDuck.applyPose/onStart/onUpdate with lightweight Laya objects; actual prefab route settings and native mesh vertices; no live rendering",
     source: sourcePath, source_sha256: sha(sourcePath), group_prefab: groupPath, group_sha256: sha(groupPath),
     duck_prefab: duckPath, duck_prefab_sha256: sha(duckPath),
     native_meshes: meshes.map(({ file, version, name, vertices, sha256 }) => ({ file, version, name, vertices: vertices.length, sha256 })),
-    total: tests.length, passed, failed: tests.length - passed, tests };
-const output = path.join(root, "docs/lake_ducks/runtime_math_tests.json");
-fs.mkdirSync(path.dirname(output), { recursive: true }); fs.writeFileSync(output, JSON.stringify(report, null, 2) + "\n");
-console.log(JSON.stringify({ status: report.status, passed, failed: report.failed, output,
-    failures: tests.filter(test => test.status === "FAIL").map(({ name, error }) => ({ name, error })) }, null, 2));
-process.exitCode = report.status === "PASS" ? 0 : 1;
+    water_geometry: water.evidence
+});

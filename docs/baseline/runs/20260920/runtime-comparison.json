@@ -1,0 +1,189 @@
+{
+  "computedAt": "2026-09-20T12:48:03.403421+00:00",
+  "runs": [
+    {
+      "source": "runtime-touch-smoke.json",
+      "runId": "touch-smoke-1789906783067-1",
+      "status": "PASS",
+      "stepCount": 15,
+      "passedSteps": 15,
+      "fpsSamples": 158,
+      "hudFPS": {
+        "min": 12,
+        "max": 60,
+        "median": 60.0,
+        "mean": 58.12658227848101
+      },
+      "measurements": [
+        {
+          "phase": "walk-forward",
+          "status": "PASS",
+          "wallMs": 1071.2,
+          "holdMs": 850,
+          "settleMs": 200,
+          "distanceMeters": 1.4298900000000254,
+          "distancePerWallSecondIncludingSettle": 1.3348487677371408,
+          "peakReportedSpeed": 1.652,
+          "shotDelta": 0
+        },
+        {
+          "phase": "run-forward",
+          "status": "PASS",
+          "wallMs": 1066.1,
+          "holdMs": 850,
+          "settleMs": 200,
+          "distanceMeters": 3.4664000000000286,
+          "distancePerWallSecondIncludingSettle": 3.2514773473408023,
+          "peakReportedSpeed": 4,
+          "shotDelta": 0
+        },
+        {
+          "phase": "fire-hold",
+          "status": "PASS",
+          "wallMs": 1003.2,
+          "holdMs": 1000,
+          "settleMs": 0,
+          "distanceMeters": 0.0,
+          "distancePerWallSecondIncludingSettle": 0.0,
+          "peakReportedSpeed": 0,
+          "shotDelta": 5
+        },
+        {
+          "phase": "fire-release",
+          "status": "PASS",
+          "wallMs": 857.7,
+          "holdMs": 850,
+          "settleMs": 0,
+          "distanceMeters": 0.0,
+          "distancePerWallSecondIncludingSettle": 0.0,
+          "peakReportedSpeed": 0,
+          "shotDelta": 1
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "source": "runtime-touch-tps-attempt.json",
+      "runId": "touch-smoke-1789907580525-1",
+      "status": "FAIL",
+      "stepCount": 15,
+      "passedSteps": 12,
+      "fpsSamples": 128,
+      "hudFPS": {
+        "min": 5,
+        "max": 15,
+        "median": 13.0,
+        "mean": 11.6953125
+      },
+      "measurements": [
+        {
+          "phase": "walk-forward",
+          "status": "PASS",
+          "wallMs": 1531.9,
+          "holdMs": 850,
+          "settleMs": 200,
+          "distanceMeters": 3.558059999999947,
+          "distancePerWallSecondIncludingSettle": 2.3226450812715886,
+          "peakReportedSpeed": 4.089,
+          "shotDelta": 0
+        },
+        {
+          "phase": "run-forward",
+          "status": "PASS",
+          "wallMs": 1101.4,
+          "holdMs": 850,
+          "settleMs": 200,
+          "distanceMeters": 10.400000000000055,
+          "distancePerWallSecondIncludingSettle": 9.442527692028376,
+          "peakReportedSpeed": 12.285,
+          "shotDelta": 0
+        },
+        {
+          "phase": "fire-hold",
+          "status": "FAIL",
+          "wallMs": 1030.7,
+          "holdMs": 1000,
+          "settleMs": 0,
+          "distanceMeters": 0.0,
+          "distancePerWallSecondIncludingSettle": 0.0,
+          "peakReportedSpeed": 0,
+          "shotDelta": 2
+        },
+        {
+          "phase": "fire-release",
+          "status": "FAIL",
+          "wallMs": 859.6,
+          "holdMs": 850,
+          "settleMs": 0,
+          "distanceMeters": 0.0,
+          "distancePerWallSecondIncludingSettle": 0.0,
+          "peakReportedSpeed": 0,
+          "shotDelta": 0
+        }
+      ],
+      "errors": 0
+    },
+    {
+      "source": "runtime-touch-tps-visible.json",
+      "runId": "touch-smoke-1789908224926-2",
+      "status": "PASS",
+      "stepCount": 15,
+      "passedSteps": 15,
+      "fpsSamples": 170,
+      "hudFPS": {
+        "min": 38,
+        "max": 56,
+        "median": 47.0,
+        "mean": 47.95882352941177
+      },
+      "measurements": [
+        {
+          "phase": "walk-forward",
+          "status": "PASS",
+          "wallMs": 1086.5,
+          "holdMs": 850,
+          "settleMs": 200,
+          "distanceMeters": 2.0745449999997096,
+          "distancePerWallSecondIncludingSettle": 1.9093833410029541,
+          "peakReportedSpeed": 3.527,
+          "shotDelta": 0
+        },
+        {
+          "phase": "run-forward",
+          "status": "PASS",
+          "wallMs": 1092.4,
+          "holdMs": 850,
+          "settleMs": 200,
+          "distanceMeters": 4.7112000000001615,
+          "distancePerWallSecondIncludingSettle": 4.312705968509851,
+          "peakReportedSpeed": 12.884,
+          "shotDelta": 0
+        },
+        {
+          "phase": "fire-hold",
+          "status": "PASS",
+          "wallMs": 1031.4,
+          "holdMs": 1000,
+          "settleMs": 0,
+          "distanceMeters": 0.0,
+          "distancePerWallSecondIncludingSettle": 0.0,
+          "peakReportedSpeed": 0,
+          "shotDelta": 5
+        },
+        {
+          "phase": "fire-release",
+          "status": "PASS",
+          "wallMs": 869.9,
+          "holdMs": 850,
+          "settleMs": 0,
+          "distanceMeters": 0.0,
+          "distancePerWallSecondIncludingSettle": 0.0,
+          "peakReportedSpeed": 0,
+          "shotDelta": 1
+        }
+      ],
+      "errors": 0
+    }
+  ],
+  "interpretation": "Low-frame-rate displacement differs in the unchanged controller. State assertions passing do not validate speed ceilings. HUD delay can obscure release timing; failed attempts are retained. No gameplay fix was applied."
+}

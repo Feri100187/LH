@@ -1,0 +1,2358 @@
+{
+  "schemaVersion": 1,
+  "sourceCommit": "8b074607fde912add41031b4904eb740ec516874",
+  "files": {
+    "assets/atlas/AtlasConfig.atlascfg": {
+      "sha256": "0ca9832329abe3388d26461fb185ade4008e30ac26578358392c0bab733d67f0",
+      "bytes": 217
+    },
+    "assets/atlas/AtlasConfig.atlascfg.meta": {
+      "sha256": "38f2d694466b7b07ad7b019511f2835600a103dd20118c18219b3354b2973dc4",
+      "bytes": 52
+    },
+    "assets/atlas/comp/btn_close.png": {
+      "sha256": "7907a01e5f2096ef4b2a3286f5f2256953b7a2ca83db61831f9b2cdce277ac4c",
+      "bytes": 2460
+    },
+    "assets/atlas/comp/btn_close.png.meta": {
+      "sha256": "3ec87a6c50287f8945185cd79e2d20b64314c3c61c731c5f4bbf49cd12e17a91",
+      "bytes": 94
+    },
+    "assets/atlas/comp/button.png": {
+      "sha256": "4fdb2d3487f940584650dd8a441b0c57974232c5963154c99499f0bdbdd4e6b7",
+      "bytes": 1717
+    },
+    "assets/atlas/comp/button.png.meta": {
+      "sha256": "9fc3e99da205f44533e2f8e138710a1625c2930940b5f3fc3f30e9d4e6e7f166",
+      "bytes": 186
+    },
+    "assets/atlas/comp/check_circle.png": {
+      "sha256": "6743954275b505bc9a7cba90c2a5769d78a07384698e1b618e6191de53a89de3",
+      "bytes": 2970
+    },
+    "assets/atlas/comp/check_circle.png.meta": {
+      "sha256": "46508b42ad8cbd8bb1cef9e4784818e55abd0d1fcf2a7dacfa6ba399b8813b5b",
+      "bytes": 113
+    },
+    "assets/atlas/comp/checkbox.png": {
+      "sha256": "f1fc8bc21acca1c0324de86ee0e4271d4e53239b1031c99a7c6bba33d6c5fb7b",
+      "bytes": 2050
+    },
+    "assets/atlas/comp/checkbox.png.meta": {
+      "sha256": "a59da1f0f606888e2cb3b0a11d91f79b6589e85f6dc79f6487ba8edc77ef030f",
+      "bytes": 113
+    },
+    "assets/atlas/comp/clip_num.png": {
+      "sha256": "32cba36b04d619855279781356395703d3a013ca8de755141998f82cc8943594",
+      "bytes": 3563
+    },
+    "assets/atlas/comp/clip_num.png.meta": {
+      "sha256": "5198b430e9c231f19b489ada85392711a602617406c21fc4c2e538df661d645d",
+      "bytes": 94
+    },
+    "assets/atlas/comp/clip_tree_arrow.png": {
+      "sha256": "7c3e6509de678a553cebe9e7f03f5698e1e48925ecdd047c0d54298d46c7e75c",
+      "bytes": 1520
+    },
+    "assets/atlas/comp/clip_tree_arrow.png.meta": {
+      "sha256": "95cb723982b3217c6fdc6b4af4f601e3a14874c83375d76b5c10af25fae300cc",
+      "bytes": 94
+    },
+    "assets/atlas/comp/clip_tree_folder.png": {
+      "sha256": "d0fc81d4fd22c338bd52887db5ae08c5379304fdbbf5d086194d09b8062a1818",
+      "bytes": 1183
+    },
+    "assets/atlas/comp/clip_tree_folder.png.meta": {
+      "sha256": "061055e685203c38af26a413bc782f671db03d186d903da0bb3c5560397638c7",
+      "bytes": 94
+    },
+    "assets/atlas/comp/colorPicker.png": {
+      "sha256": "f0f4be934bb016b4cd152f508244f548bb3cc3c8af1bd15f80395d9077fc84e6",
+      "bytes": 1733
+    },
+    "assets/atlas/comp/colorPicker.png.meta": {
+      "sha256": "d219dcefc5262d3218fe6db25aa77fdb8cf06eacdb63764b91e68f7feed12518",
+      "bytes": 94
+    },
+    "assets/atlas/comp/combobox.png": {
+      "sha256": "f5031e5f091d8d069debc7b00b72587154c2af2f399252af17d4ae24b7bd9ce6",
+      "bytes": 4519
+    },
+    "assets/atlas/comp/combobox.png.meta": {
+      "sha256": "15474d4fd5e03eea48664fa9f201c7eea579d14f783ce8163171d5578ac10e1f",
+      "bytes": 184
+    },
+    "assets/atlas/comp/fontClip.png": {
+      "sha256": "1dc4899f5edcfa92a86a7ba42832e6e45a3326362b48b923b12167180496ae17",
+      "bytes": 21133
+    },
+    "assets/atlas/comp/fontClip.png.meta": {
+      "sha256": "3b93f65246b12910592313481f4d0257da168b66353dd2c42954bd85321419ce",
+      "bytes": 94
+    },
+    "assets/atlas/comp/fontClip_num.png": {
+      "sha256": "c8a97882b41c324f9ebb5c48bd166dc9903f02845da1d508958b26128767bb71",
+      "bytes": 21184
+    },
+    "assets/atlas/comp/fontClip_num.png.meta": {
+      "sha256": "f7c94cef3593f213067339a41032ed376a8ec00d06fbb0077ac743d2ae67e752",
+      "bytes": 94
+    },
+    "assets/atlas/comp/hscroll$bar.png": {
+      "sha256": "521611e3d2e072f582efc1cf45ff2e19fdbfb8f6f37bdec0314324a3d8cd898f",
+      "bytes": 1460
+    },
+    "assets/atlas/comp/hscroll$bar.png.meta": {
+      "sha256": "9ba183b3fe0394793a4d53a64881b791aaa79a34de4621235cb97fa769165f15",
+      "bytes": 186
+    },
+    "assets/atlas/comp/hscroll$down.png": {
+      "sha256": "09434c7a9611ff6fe958268335f60d04dc90ae1d4d8e5c516d55374bdc0d27ef",
+      "bytes": 2077
+    },
+    "assets/atlas/comp/hscroll$down.png.meta": {
+      "sha256": "7a98e4066d87ec59a34aa062dbb56baf003364342d35b6574f4b5a167f1e1392",
+      "bytes": 113
+    },
+    "assets/atlas/comp/hscroll$up.png": {
+      "sha256": "3fc648571a47065dcda721693d04d0fea9c22eb3317c18f4551c6ecb15587d26",
+      "bytes": 2101
+    },
+    "assets/atlas/comp/hscroll$up.png.meta": {
+      "sha256": "59b6b48851d5749888e4fbf9e3228301e7a145c146527b2de3ce2e420ccee57d",
+      "bytes": 113
+    },
+    "assets/atlas/comp/hscroll.png": {
+      "sha256": "d4c0f907baa00969c3bb5e273ef36bcb07808b1795d8d01d616b435ae1b73010",
+      "bytes": 1240
+    },
+    "assets/atlas/comp/hscroll.png.meta": {
+      "sha256": "a11766b7729120ea57ecd21033e3ec15be0c9cce20fa730d64d534ca786319d7",
+      "bytes": 163
+    },
+    "assets/atlas/comp/hslider$bar.png": {
+      "sha256": "48d16d59ca7972cfd7ad3275ff91086e40b2e9a88bb62949c9fa4c8a59829e01",
+      "bytes": 1896
+    },
+    "assets/atlas/comp/hslider$bar.png.meta": {
+      "sha256": "bb7bd07f75b4aa7b2c74ba2d1c3d7fb27bfd86863400041a67e6a05e7f839026",
+      "bytes": 113
+    },
+    "assets/atlas/comp/hslider.png": {
+      "sha256": "33554719ca29364d12706c152b872dc4b9b826d3dd5357c542d1aea00b184cec",
+      "bytes": 1335
+    },
+    "assets/atlas/comp/hslider.png.meta": {
+      "sha256": "354847e8fafeaf9d1c8d8bfeb2917332a5886ebaa2157045d60d52a551c6ef94",
+      "bytes": 163
+    },
+    "assets/atlas/comp/image.png": {
+      "sha256": "9b4fcc530d1fa6c59c0cec0d141ac4356de73103b13e3bf2c87e6d178b4dc169",
+      "bytes": 226644
+    },
+    "assets/atlas/comp/image.png.meta": {
+      "sha256": "107edd8fcc015f0d68c33e6e87cb12aaaf314fc028a6b817279c1212bc717287",
+      "bytes": 94
+    },
+    "assets/atlas/comp/img_bg.png": {
+      "sha256": "5181e19814cccfd30c94b85fcc53c8b85538c35a9251c7e4e975ad7fb184fb4e",
+      "bytes": 1997
+    },
+    "assets/atlas/comp/img_bg.png.meta": {
+      "sha256": "c5b5c80f5b2afd5a4baeb4211ea06c2721615309a9e1c738fd74fd9c89e6a36b",
+      "bytes": 94
+    },
+    "assets/atlas/comp/img_bg2.png": {
+      "sha256": "19fc4ba5adc257459525725a8c21181aca0b88d67475f3e9dc95a972672169be",
+      "bytes": 1373
+    },
+    "assets/atlas/comp/img_bg2.png.meta": {
+      "sha256": "53773f8c8fccd6574fae9a6424bf699b479ed8fe7def9681f88185e8d8a817af",
+      "bytes": 94
+    },
+    "assets/atlas/comp/img_bg3.png": {
+      "sha256": "fa5f53d482eda375a6a49bc094b92c9b9c827ad4b64ff700de265f1b6eda4d63",
+      "bytes": 1364
+    },
+    "assets/atlas/comp/img_bg3.png.meta": {
+      "sha256": "a44bcc41fff9aa1dd270b18805e9986f46d4282df0a0f6bb12cf89d8fb3558bc",
+      "bytes": 94
+    },
+    "assets/atlas/comp/img_bg4.png": {
+      "sha256": "b9b57bcfc7a3e056c302eecb5a6feb0d5fca42c73056f8d8cec2acbd2dc68819",
+      "bytes": 1345
+    },
+    "assets/atlas/comp/img_bg4.png.meta": {
+      "sha256": "988c41cb8720fb6ae6b3b6a58bfabdc3c6420cece6ef25d82d01cc205ff8dcc1",
+      "bytes": 94
+    },
+    "assets/atlas/comp/img_bg5.png": {
+      "sha256": "821988e1397ca5d1382369a229bf3243daaa2190aa70375733d85d1081dc7f04",
+      "bytes": 1345
+    },
+    "assets/atlas/comp/img_bg5.png.meta": {
+      "sha256": "c720d14e9428fc2ec1e94a74306d443d0440c8aba8219373b019feb52e14c86d",
+      "bytes": 94
+    },
+    "assets/atlas/comp/img_blank.png": {
+      "sha256": "7c67ce11ca2a653dfa76e24e2015e33b94a072518c77868fb59df30d45e12d7b",
+      "bytes": 1029
+    },
+    "assets/atlas/comp/img_blank.png.meta": {
+      "sha256": "341c7c8d1b4b77fd7c30cf87cdf761470d17af3756ef0d8f3b54531fbf66f8b5",
+      "bytes": 94
+    },
+    "assets/atlas/comp/label.png": {
+      "sha256": "70a381b147203306226f768f86f1555467b14bee9393dd0c2cf223dae9b10207",
+      "bytes": 921
+    },
+    "assets/atlas/comp/label.png.meta": {
+      "sha256": "a8b8ac0d01626a206f06327c8ad482d2e2229106dfc240fb81e2cd22787ee3ca",
+      "bytes": 94
+    },
+    "assets/atlas/comp/progress$bar.png": {
+      "sha256": "f300178eb0be0789024aab0bd9ba67f029d41582e52e81e470130d58606ca446",
+      "bytes": 1529
+    },
+    "assets/atlas/comp/progress$bar.png.meta": {
+      "sha256": "144c4d6bb85482d60c1548500e257084bfb45a5ad58e1c0b0be5ce5fa6623eae",
+      "bytes": 165
+    },
+    "assets/atlas/comp/progress.png": {
+      "sha256": "2013098431949920c7a6f845af160e83e618f9555d48ab6bb017773e83964c2e",
+      "bytes": 1389
+    },
+    "assets/atlas/comp/progress.png.meta": {
+      "sha256": "7262d23e36fbef46a69a32c9428f053d50ff754974cf2dca8ac4a1b05312dca9",
+      "bytes": 165
+    },
+    "assets/atlas/comp/radio.png": {
+      "sha256": "6743954275b505bc9a7cba90c2a5769d78a07384698e1b618e6191de53a89de3",
+      "bytes": 2970
+    },
+    "assets/atlas/comp/radio.png.meta": {
+      "sha256": "a37068775ef220a802b3a7895a1abb321d9759aa7df3c73a394391de0ad73fb0",
+      "bytes": 113
+    },
+    "assets/atlas/comp/radiogroup.png": {
+      "sha256": "6743954275b505bc9a7cba90c2a5769d78a07384698e1b618e6191de53a89de3",
+      "bytes": 2970
+    },
+    "assets/atlas/comp/radiogroup.png.meta": {
+      "sha256": "644662bb346daf9ae4cd0d69621fce3c962e16454ae96049848d5de4b7d562d5",
+      "bytes": 113
+    },
+    "assets/atlas/comp/tab.png": {
+      "sha256": "79d8c6adcf1178a5129d94ae3516598e243b3c72aeb36591f2cc7bef6732db55",
+      "bytes": 2202
+    },
+    "assets/atlas/comp/tab.png.meta": {
+      "sha256": "c952273d962abe97463c587167149168a7825f0424725f2de4ffcf789a86870f",
+      "bytes": 184
+    },
+    "assets/atlas/comp/textarea.png": {
+      "sha256": "4da1c53a8ce0fa369046faf513877094e4ebe492afd24e309df653aa02b23c47",
+      "bytes": 1588
+    },
+    "assets/atlas/comp/textarea.png.meta": {
+      "sha256": "981985a9b1492531d00dc5e7664b85b38e985bbb834ab518469a7e05c76ded04",
+      "bytes": 158
+    },
+    "assets/atlas/comp/textinput.png": {
+      "sha256": "4da1c53a8ce0fa369046faf513877094e4ebe492afd24e309df653aa02b23c47",
+      "bytes": 1588
+    },
+    "assets/atlas/comp/textinput.png.meta": {
+      "sha256": "a7602ae1bc033333aaeee67d7a3a16e8ace59eeac0f698e37a95679a895ac529",
+      "bytes": 158
+    },
+    "assets/atlas/comp/vscroll$bar.png": {
+      "sha256": "2ba29ed911a7179f38b11c3caea1ca01024ea992213ab7a1ce8f986ee45c267d",
+      "bytes": 1466
+    },
+    "assets/atlas/comp/vscroll$bar.png.meta": {
+      "sha256": "e07779983b106cc639928a6371dfc5db1fbac55be723754a1010f99d32ae3d16",
+      "bytes": 186
+    },
+    "assets/atlas/comp/vscroll$down.png": {
+      "sha256": "ed0cfc30f67139844c5cd94b98a93f841a8332a21b9cdf312863092285224f9e",
+      "bytes": 2119
+    },
+    "assets/atlas/comp/vscroll$down.png.meta": {
+      "sha256": "15917c76bd78ab628fe518e59b366d4fc583f46f3d57ad13671faf61bfb29569",
+      "bytes": 113
+    },
+    "assets/atlas/comp/vscroll$up.png": {
+      "sha256": "fecdbb37890784395a32fcd88f928405e69ea9fdfed63fc949fb70b133daa54e",
+      "bytes": 2087
+    },
+    "assets/atlas/comp/vscroll$up.png.meta": {
+      "sha256": "ec69b4f65cb2d6d58f6887cf0775546b42de2ac01f8b58b91fe515c01b706f9e",
+      "bytes": 113
+    },
+    "assets/atlas/comp/vscroll.png": {
+      "sha256": "b9b57bcfc7a3e056c302eecb5a6feb0d5fca42c73056f8d8cec2acbd2dc68819",
+      "bytes": 1345
+    },
+    "assets/atlas/comp/vscroll.png.meta": {
+      "sha256": "52b5e5fecb89f20c538bcaee627db1fedcfe8b44f6bd5f523527d8adea3db446",
+      "bytes": 165
+    },
+    "assets/atlas/comp/vslider$bar.png": {
+      "sha256": "578003b88295ed25565262de587d38d60b0ffe879d61a871d2fd424f7dbae971",
+      "bytes": 2121
+    },
+    "assets/atlas/comp/vslider$bar.png.meta": {
+      "sha256": "78f0944c24377ed6838023e5a737261657ee9149441b973d6341fa6bab5386d9",
+      "bytes": 186
+    },
+    "assets/atlas/comp/vslider.png": {
+      "sha256": "c717e9fb9d37faf28b4d10c8a423b410dba61a36b3a7dde06fbbefc675f6131d",
+      "bytes": 1370
+    },
+    "assets/atlas/comp/vslider.png.meta": {
+      "sha256": "e228157be2f0c469cfb5cf1c6cdf9b75a1899c6b59ce5ee436216b489c86ecf3",
+      "bytes": 163
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AnimeWatergunPlayer.lh": {
+      "sha256": "1969404fdd7e707e37e2d473bfc9d71cdd5152f937be91548708ed34d3965b7a",
+      "bytes": 325172
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AnimeWatergunPlayer.lh.meta": {
+      "sha256": "e16a5d3be7223f7d25cbad7c469d0051594ea0b1e059544b880ab17b71aa6fc4",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Bangs 00.mesh.001.lm": {
+      "sha256": "c9a7ab600656d61208338e3aed6bf5d5d51c27aa098850df1a00ec3e17a06582",
+      "bytes": 150815
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Bangs 00.mesh.001.lm.meta": {
+      "sha256": "62456669008a9acc293eebfae634790bf38aaceeb9ea6b0d579bf6280e19fb76",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Detail.pocket opening -1.mesh.001.lm": {
+      "sha256": "72309d6d3156d7f269fd7427bc39d07dbf2c929799418b3852b24b622a4c212f",
+      "bytes": 140287
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Detail.pocket opening -1.mesh.001.lm.meta": {
+      "sha256": "b1a621bc5de5fd78d54eb7441298a2d0ddb61888b963f41b84970f65b798118c",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Detail.zipper tape -0.005.mesh.001.lm": {
+      "sha256": "11518056c5f934a3cd73a130c666cf74a1312e6a6776293c61576211376ea592",
+      "bytes": 223959
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Detail.zipper tape -0.005.mesh.001.lm.meta": {
+      "sha256": "75cde3b3d37b68366478bb582135cee1149d409b18a64f62c9111b8910498d60",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Gun blue rear pistol grip.mesh.001.lm": {
+      "sha256": "4e53f16755fea60f2326afa8162c1add001c945f5b7beea36da51ebc3bb17fd4",
+      "bytes": 125583
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Gun blue rear pistol grip.mesh.001.lm.meta": {
+      "sha256": "36f01f7eb550194abf15d8f6c83c1c0afe3c8db21a122c3ff37840a30f720ad0",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Gun blue water reservoir.mesh.001.lm": {
+      "sha256": "64440449ff434739ca857e0aa176744a29502892f56744ca06730cbbd41c9f3a",
+      "bytes": 51924
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Gun blue water reservoir.mesh.001.lm.meta": {
+      "sha256": "12ab898b42f2920a6820abb3838f852801b95e30b7c947b3dd037fead5b18fe0",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Gun green front pump.mesh.001.lm": {
+      "sha256": "d3fa69a8bff1429255e641c13b6280bd48b21267c47bd41692d4b33276a3f23b",
+      "bytes": 104724
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Gun green front pump.mesh.001.lm.meta": {
+      "sha256": "6d910c43330f93ec113bf5daf1bc36f0e26dc347dc22e13657f9ef2c6bdbfa8f",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Gun orange fill cap.mesh.001.lm": {
+      "sha256": "aa13c0ef0c2eacd3c12e3c49ef87ba160e5ed333ae8281b86068bff926985954",
+      "bytes": 34757
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Gun orange fill cap.mesh.001.lm.meta": {
+      "sha256": "360aa4583a5d4a2764f287c4d548d5a9d104e44f0822d01e4c4866d5f3a9e9e3",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Gun orange muzzle collar.mesh.001.lm": {
+      "sha256": "5e01a9308493dbb47de023083cf535b9e276293ab3c0b582b9341dc73c74a03f",
+      "bytes": 86771
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Gun orange muzzle collar.mesh.001.lm.meta": {
+      "sha256": "0c7ab000fa3edc9b2433a7816540f6962ce7865b22ad329d120b167a34b92d20",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Gun orange trigger.mesh.001.lm": {
+      "sha256": "8f3b75dffb7eca6d2454be2fd3f0f2a4347ee8c1469b4bb5093ce926302d35c9",
+      "bytes": 31472
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Gun orange trigger.mesh.001.lm.meta": {
+      "sha256": "c73fe2d855225dff45c7bc0c03393f8b565baaacf53722f99cc1e7ef0760de5c",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Gun white main shell.mesh.001.lm": {
+      "sha256": "4d56ce8c9ed254775f2d6ac3a243d7e413b6f07f18777b3138ff79dfb6a00bb5",
+      "bytes": 388181
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Gun white main shell.mesh.001.lm.meta": {
+      "sha256": "0b34a06cec4c83fd8df8eb8cfe52a75930a4fec067b7ef90cb1a0384700a6863",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Hair fitted scalp cap.mesh.003.lm": {
+      "sha256": "4932f73f4817715993c9bf32e4481a1adda24fdd6712eaa0799cf41874c41929",
+      "bytes": 338653
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Hair fitted scalp cap.mesh.003.lm.meta": {
+      "sha256": "3f43444d4eef3de8bbfb6fb2124c79d116c82437d8d034d71a7fac296a5246b2",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Head sculpted face and skull.mesh.001.lm": {
+      "sha256": "056b478d0f821c20ba451b3d26755019b399b89369bfd56ebc83a41148ed8516",
+      "bytes": 326761
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Head sculpted face and skull.mesh.001.lm.meta": {
+      "sha256": "1d707bd79bb2ce751566f5b4682d3bae073937ca02f8cf26f5e0a1fa143a2d35",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Hood outer drape.mesh.001.lm": {
+      "sha256": "b4189a6629c11d7ec542df5d5ddb73ca7eb5ac48f86f00562e46a5df5290e369",
+      "bytes": 103261
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Hood outer drape.mesh.001.lm.meta": {
+      "sha256": "f401c06295888d735a7266b07d323bccf22ad1a885cfe67d59ab598706d77286",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Jacket tailored body.mesh.001.lm": {
+      "sha256": "2047b261ba5a784237351a820e89ab984badaa6dfaa965c881236845c45f5a89",
+      "bytes": 644589
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Jacket tailored body.mesh.001.lm.meta": {
+      "sha256": "9c93d1096293904000301bfca1f11e0b927a34116ba77d8908b610ac36e4c584",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.L almond sclera.mesh.001.lm": {
+      "sha256": "824a116438178fc4135bf9d0a193e83d8c9bcd280e37cece127734e6830ab421",
+      "bytes": 86101
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.L almond sclera.mesh.001.lm.meta": {
+      "sha256": "2715b06be172889ef48c1455230db3dd85de58212fe01cf0e56136e9607b13d2",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.L closed vamp.mesh.lm": {
+      "sha256": "bbfd41034c607f3299b7ca88dab9fd3296360aec09a77c36f44a6c75e668c483",
+      "bytes": 106933
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.L closed vamp.mesh.lm.meta": {
+      "sha256": "b42a49c6c9fe8dde275af9daca464bf08427dc425c12dcae0aa83230bd256e92",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.L ear outer helix.mesh.001.lm": {
+      "sha256": "4ee7a490403f5d0081b2cbeb179743213cd03641f0d81e3701f5a7dd886e1de8",
+      "bytes": 35031
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.L ear outer helix.mesh.001.lm.meta": {
+      "sha256": "d376306911e2cb6114913a68695dd16438c0599b5205d2a3a7c78bd98d0e867b",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.L elastic ankle hem.mesh.001.lm": {
+      "sha256": "45f23f0b74a320a5652d322c8ecf5b2e35320d6a8723ecb7029493518911b78f",
+      "bytes": 17205
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.L elastic ankle hem.mesh.001.lm.meta": {
+      "sha256": "85bfc99a6bb80dc8fbc01d9d9e01090ca1574ad61ccef4163e164603892741a6",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.L index fitted nail.mesh.001.lm": {
+      "sha256": "7622eca1d99449408dff2ed4cdb99d06372018520e16ddb8cb14fdfe7109ee0d",
+      "bytes": 10654
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.L index fitted nail.mesh.001.lm.meta": {
+      "sha256": "f9fcda6bc67595bf64e662554bf5292d99a29bed5ca53f672549ae0444862591",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.L padded tongue.mesh.001.lm": {
+      "sha256": "d5bc05b6d3373db280c3e5ada8492d99dca86a4f9e68f260e5d892f854061c99",
+      "bytes": 101539
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.L padded tongue.mesh.001.lm.meta": {
+      "sha256": "407c3d6389fccece55c590411e9bc6220fad7c41760adce22ee94fe7a7d34bf4",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.L palm.mesh.001.lm": {
+      "sha256": "0a34edd73c2f48a44fa33d7d5921734f355c5eec8d87ec5640cdce732623ab93",
+      "bytes": 308235
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.L palm.mesh.001.lm.meta": {
+      "sha256": "bd243a35450edf91464e76b26f59eb4b74a7932a2d571b41a5098cee31c99f60",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.L ribbed cuff.mesh.001.lm": {
+      "sha256": "0ccaec74c0f8f682cd46526216b464c8e790a69bc79dbb26136ed4234c6ca14e",
+      "bytes": 30801
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.L ribbed cuff.mesh.001.lm.meta": {
+      "sha256": "5ec237908d4dd8b513c04049e256a03aa1022acef7a9acf5293b162d242ee2b3",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.L rubber outsole.mesh.001.lm": {
+      "sha256": "529a88cba92d12a8af7a011cbfa27b3416b16c777d371a7f4c86c961f692946b",
+      "bytes": 55117
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.L rubber outsole.mesh.001.lm.meta": {
+      "sha256": "3ed82b19d4671c1ca6f66eb3e3e29c5e9ef03f78ddb3f66649040a3a454f4ef7",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Animated water.lmat": {
+      "sha256": "6df041f6800eea085b7d5eaa316abfbf3befefdf7138a2500e4ae0293787a8e9",
+      "bytes": 3274
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Animated water.lmat.meta": {
+      "sha256": "231ea5945c1eaf2f616f3d6b81273e5648ebe6a41f846975e7795aaa66a3766a",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.EarInner.lmat": {
+      "sha256": "59183441538254898882fb5e82af14be22a1dbe9abad935df32f7f2706cf8a60",
+      "bytes": 3122
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.EarInner.lmat.meta": {
+      "sha256": "7c1bbb9b58c6e5a9b089fe5befeaaf564ac92cac67f13c286fae92a623b04f08",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.EyeWhite.lmat": {
+      "sha256": "5ebf4e49d213796329f39ed14c5a3456f3fd818e75fcd9e777b3ab02a6370a91",
+      "bytes": 3157
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.EyeWhite.lmat.meta": {
+      "sha256": "f2abb68f2ff7d2e64c0d18f7d066e004ad9ac015de9123a7d86f3d598179f680",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Face painted peach.lmat": {
+      "sha256": "926411e85b71d617752295f770e418853f49f7fe7f0d98559ff7d502a1b65bc8",
+      "bytes": 3499
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Face painted peach.lmat.meta": {
+      "sha256": "fe98e85810f0bf206fa76715f736bd96a0646c6b822bc2fc33ee2eae6d2f37d7",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Frame.lmat": {
+      "sha256": "6f18e40632e68f7fb2b5b12fad1ffc3f83bb19d92f8a1dab5a8951f801cf7b02",
+      "bytes": 3142
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Frame.lmat.meta": {
+      "sha256": "f30c2bc83d1c605bdb013d2ca1da5e68718145cfc938d4133e6c9fae86b1d4d7",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Glass.lmat": {
+      "sha256": "4bfc90084801d36bb4b039c99380bf0a78ced692b6005f0c8993f4420382e4c1",
+      "bytes": 3262
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Glass.lmat.meta": {
+      "sha256": "965d2a1ce1677ebf4c4eea4344cc1997c99933584a8c4dc55adf6aecd2487991",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Glint.lmat": {
+      "sha256": "6f25180103d783f80296d8bb5d5b547a9f05006ef1f35aac04c5f33800d01130",
+      "bytes": 3117
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Glint.lmat.meta": {
+      "sha256": "a65883b974882f3454cbe875fb203203c72f09c2071ed20963e8343ac8b2ddca",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.GunBlue.lmat": {
+      "sha256": "0abd5490802ce36b0f3212e5a452043f6b4bfc6d6a0357f799a26df4d21ba580",
+      "bytes": 3176
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.GunBlue.lmat.meta": {
+      "sha256": "4b89bbf5f2d02c492d428cdb9740bb3496b1faa3d6a1e05d01940b859bc000e0",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.GunBlueDark.lmat": {
+      "sha256": "4765d22e20f29ae93e92bb86d07d21ef0356641c7195cdfd68a4ee35c4345a3c",
+      "bytes": 3136
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.GunBlueDark.lmat.meta": {
+      "sha256": "3f83a9a644b1b8abdb494fc265f0f9bd90beb689aa1aa39cad798334f036e02e",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.GunBlueLight.lmat": {
+      "sha256": "befa9f0c4ac7cef314b23d8b1a18091efb346537c7331d023caaf23f486088bf",
+      "bytes": 3174
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.GunBlueLight.lmat.meta": {
+      "sha256": "a533bf288a9983c61608273848a10882b5f25d3b4aef8143666c7906b09fc810",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.GunBore.lmat": {
+      "sha256": "bc9230679075f3a858e65f5d88f9abc3229ef54932e513b0af3ce05497421f57",
+      "bytes": 3123
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.GunBore.lmat.meta": {
+      "sha256": "d8d6eb984b52959c80c4cf207628d69adf214350e204f0095b83633c40098c62",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.GunGreen.lmat": {
+      "sha256": "4179747054d3a12ac747f2c4f59ff9f55eed35a7cf80a7ea4de3944d9bdfce6c",
+      "bytes": 3175
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.GunGreen.lmat.meta": {
+      "sha256": "017c9058bb11fc1a27795da827a081733c9e7a0f0ca22124fe11af4c8ae794c7",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.GunGreenLight.lmat": {
+      "sha256": "c112b0eee01e8c9e645e570347d134af17c9645df799e0bd9f2860703f2da813",
+      "bytes": 3175
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.GunGreenLight.lmat.meta": {
+      "sha256": "235719a6ce5e8358814fc609da405de8a5414f1f570f241388431718be3e9971",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.GunOrange.lmat": {
+      "sha256": "2c42c8183f4e66d95c3a17f44192ae2a6462463e83664e58fcc9f044611f9e0e",
+      "bytes": 3175
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.GunOrange.lmat.meta": {
+      "sha256": "3b951b06f54e2039996e159a929d57597ee3877cea3a681e94f6680bb1f4be96",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.GunOrangeLight.lmat": {
+      "sha256": "29a9a55d4cffa76f3dc691df23de04a8f0b55da4c6e8a36921ab8bfeeded95b0",
+      "bytes": 3158
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.GunOrangeLight.lmat.meta": {
+      "sha256": "3487beeb0850b9a76413265d870390588a17a473ff20f8270421e9d2ef2ed0f2",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.GunPanel.lmat": {
+      "sha256": "7e0a83656cca1808ed84b78c7a8e1edde2e15cbbbb82cb53de4691fd2ab90cd0",
+      "bytes": 3174
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.GunPanel.lmat.meta": {
+      "sha256": "287361b430ae67a91d767335d5b8290214901fcd071a57a84a854984223b6c81",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.GunWhite.lmat": {
+      "sha256": "24bff61ca1d2887c39820d9f7c31b82f52777e1af04177b31a15904db3046212",
+      "bytes": 3172
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.GunWhite.lmat.meta": {
+      "sha256": "4965ad26d35ab503b1e7079f1fc93986477b5cee53156c1e519ed00dd286e055",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Hair.lmat": {
+      "sha256": "8083d8d8d2f5ecf1c5631ce479dda5caea23b11d6886b35882a2eafbd1a10e85",
+      "bytes": 3178
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Hair.lmat.meta": {
+      "sha256": "f93bb991760677a03275fc01bb182d8a4a7e40982b7c6458b0ead6baf8107cc5",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.HairLine.lmat": {
+      "sha256": "aec98c25bc5da62c3db685b1d265ca9657046bb60ef281b8f9de93be8ad79860",
+      "bytes": 3139
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.HairLine.lmat.meta": {
+      "sha256": "cbed3af212629ca92fc2971c46c4cfa6731c9c695e6b49c138c400e0d70de4d4",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.HairLit.lmat": {
+      "sha256": "f185dacfea572176acb7d2e1c3407e0573b8e23f7def5aa7357a5750b623b1d1",
+      "bytes": 3178
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.HairLit.lmat.meta": {
+      "sha256": "67718e7ed871539ca14ec461bc0757bafacc90ab7568512fce4d0357c95a7cbd",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.HairMid.lmat": {
+      "sha256": "2d99e8d5dcb26454566b172787cbfe6e26402572a1993ec1e7d8fb2da7d841cd",
+      "bytes": 3178
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.HairMid.lmat.meta": {
+      "sha256": "ea0d9f430011eceab0467370a87237ec367fd9e5b2ef157bc19fcf440bb5dc61",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.HoodInside.lmat": {
+      "sha256": "d0f6b59604bde538190a513518cab040ff66b80e1973a641449e2831b0ae6a35",
+      "bytes": 3138
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.HoodInside.lmat.meta": {
+      "sha256": "13d46291a518c2d877f21d154bbe39c70d22588a7abb7c362a2db08cbe66d9ad",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Iris.lmat": {
+      "sha256": "2c5ab221e47f1b02ea4151ebaffd0c6d8ffc51d3019fb3fdd10e03cc7fdac52a",
+      "bytes": 3175
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Iris.lmat.meta": {
+      "sha256": "ee977219ef022d56a4dffad0e871a055786ad640a1de7b940febe296a39ce9e5",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.IrisLight.lmat": {
+      "sha256": "b75a60a643f6632fde810b3f8fd6a1170593199071e38b321291132d4fcc5db3",
+      "bytes": 3161
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.IrisLight.lmat.meta": {
+      "sha256": "1b11e16f04e5e8c5fa73859064f8f465abf49e43cd4263250f007d373b2192c3",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Jacket painted fold values.lmat": {
+      "sha256": "df84e1252de1154f6ec5e0f6f4a59bab5ec2a6770c1028f7e65acc62914e64f3",
+      "bytes": 3148
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Jacket painted fold values.lmat.meta": {
+      "sha256": "949a71a7781ff2a87d13e5b602f4e85bd285e612be1e1d53b0ea82e6c920cb82",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Jacket.lmat": {
+      "sha256": "bff3603743cd1399aa8474dbb549558004f964eafed3c9127e4bb688663ae7b6",
+      "bytes": 3178
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Jacket.lmat.meta": {
+      "sha256": "fddf250abf9c05f7285905feee36a72a96633b77646c3f9adf14772d321f9242",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.JacketPanel.lmat": {
+      "sha256": "08f72e425b0cdbac2ab1017820f5adcc7c06a40cb427c87fa00df00c02f26f77",
+      "bytes": 3176
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.JacketPanel.lmat.meta": {
+      "sha256": "da2ae2b8377ab9669e4840dfb9c3e43b7a99dce9e242005cd563ab0c6afe0e71",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.JacketSeam.lmat": {
+      "sha256": "b016f915086db9a1de2b60841e2c064b44c1ce24ef52217904de9d6f0bda795f",
+      "bytes": 3179
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.JacketSeam.lmat.meta": {
+      "sha256": "5528e0e8abe3361f6eae79e629fe1d0a30126f617687cba23f100c939d1f3cc8",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Laces.lmat": {
+      "sha256": "c2c89eedebda75b74b2677fef7a2e5b7adbdf62d9819a4d30958be73a42cc465",
+      "bytes": 3171
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Laces.lmat.meta": {
+      "sha256": "1bbe8795c457dd583374bf2c936aa22dd4151ad2d6b1f25dfb82b9597ea7dc94",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Lash.lmat": {
+      "sha256": "9d98a32e131697ab1baadd6c12b4829c7c25089d1530057366dea6d6882a6bba",
+      "bytes": 3178
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Lash.lmat.meta": {
+      "sha256": "f15b6dfb9325667f5635c0c2b104323aaa47f1f418ab2d97ae274cb76bcdb70a",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Lips.lmat": {
+      "sha256": "5d9c3a083c269b103c4e0d6959ea4dfbe0060ac08ce3fa4e0ccbcba1b753ae57",
+      "bytes": 3135
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Lips.lmat.meta": {
+      "sha256": "a0eb8ecccb9329482974c99b90f8b1243f412f78c91cd3f6417a97b8de79ac9e",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Nails.lmat": {
+      "sha256": "d2961b2c2cbd562e5ded57dbdf8cc4b8cb9bef10e29bd83b9dac2c01b77f8262",
+      "bytes": 3171
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Nails.lmat.meta": {
+      "sha256": "3a9899cd276ded184cb4fb11cf077c1c230b99fd5b1f835a017792c22392b787",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Outsole.lmat": {
+      "sha256": "bf5b3e0adfc0c34fe1da2a786e5ae90a93f7589e7637f4935140abe59c42538c",
+      "bytes": 3134
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Outsole.lmat.meta": {
+      "sha256": "bc3ceb8281d95462862ec9a47334b27c2003b5a1a5c4a50ab92abe120183e660",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Pants painted fold values.lmat": {
+      "sha256": "df84e1252de1154f6ec5e0f6f4a59bab5ec2a6770c1028f7e65acc62914e64f3",
+      "bytes": 3148
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Pants painted fold values.lmat.meta": {
+      "sha256": "25a3221f085e06acc856aaa68688eb7931eb8371fc6312d39e4e92ae6c4306d3",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.PantsSeam.lmat": {
+      "sha256": "987382d20076939c3aa8f80ec0e6c726a556b6ebf4147764abd946de290ead8e",
+      "bytes": 3139
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.PantsSeam.lmat.meta": {
+      "sha256": "cad1d837857e57fb675393e161f42c12a2922e05558c986295c9e0d3a9bdf463",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Pupil.lmat": {
+      "sha256": "cda0ce3acd38e11433a82a044ce27699c7a12692d8870cc14741f4151f4f0757",
+      "bytes": 3178
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Pupil.lmat.meta": {
+      "sha256": "5c85e8bcf29182e21f0d95c66d814d45ffb67a07f9c76fd38a79cd28836e8727",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.RibKnit.lmat": {
+      "sha256": "06b62960da8629a6aec85100f90a1ea90c25afea49471a0f6fbdbc7a60bbb5df",
+      "bytes": 3178
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.RibKnit.lmat.meta": {
+      "sha256": "80ef3b3298be54c8b6f354a5ecd4db8962f64eee8913948540a05fbdc4ae5591",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Shirt.lmat": {
+      "sha256": "0714d57e6afd77793f3d93f147aaea85ab800a4f24d6fca0040f86f116ab21eb",
+      "bytes": 3133
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Shirt.lmat.meta": {
+      "sha256": "0068a5773aec04cc3a1a6daf54d043f0ffdc0f467aad4843398d9f11e2835994",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.ShoeGrey.lmat": {
+      "sha256": "aa9fddb3f5cd2f7292053d1f664045ccf1909fb984b18b7e72206b7df6f2fd3f",
+      "bytes": 3133
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.ShoeGrey.lmat.meta": {
+      "sha256": "a3c203491e698a074d52741d89b2882233590a283a318439ba8bfd4b626327ca",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.ShoePale.lmat": {
+      "sha256": "60ff584e3d0c01a66f5f20e053f08ee01add01035a8fc6dfaf54c6f1b4a458f2",
+      "bytes": 3171
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.ShoePale.lmat.meta": {
+      "sha256": "109f95ffe61da7f4120212f662da44cd1dda005cb6616de356c1f96fc0188e63",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.ShoeWhite.lmat": {
+      "sha256": "c8b20aa70255e71f44212d4367c911f00d163f4ec5e79bc12185b6510f81d6d6",
+      "bytes": 3172
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.ShoeWhite.lmat.meta": {
+      "sha256": "a5e38301398e3b5c8d38cf27e9e1b599c75702065582de5a2fd05d526c995c6a",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Skin.lmat": {
+      "sha256": "bbdae771fc3ae082953b754948e23a4a8e180fe69af25ca83251c88ed4233dba",
+      "bytes": 3159
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Skin.lmat.meta": {
+      "sha256": "88859981d3c524f668936499c273201ae61c003583e12ea6899114de0b2e4e3d",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.SkinLight.lmat": {
+      "sha256": "d6a6709446dead555d98544bc780494da5ce48c5dc8ddfd9f7993942e572a2db",
+      "bytes": 3174
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.SkinLight.lmat.meta": {
+      "sha256": "ee4d0263e522cfa7e20135add070eccc5e3afbfdcc3ec115c1d80fa2f05f4cbd",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Sole.lmat": {
+      "sha256": "b07d8ea4cd5fb03cd31efe5fb32462ded456d6c4cced69d47abc8b7bd3669da1",
+      "bytes": 3133
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Sole.lmat.meta": {
+      "sha256": "99a54bfede61421fa8dca3f4fb81eb2acd806442d413d2466ff5f045d96e015a",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Zipper.lmat": {
+      "sha256": "77d4c259b4001b28cbd7f0263c7a31200432db4e8d9245e9130ae1824fc8ad38",
+      "bytes": 3152
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Zipper.lmat.meta": {
+      "sha256": "d5bdfd8dcb5da59f7cac955be26a7ce5a9b537e120180c4975f93e1ca2b27299",
+      "bytes": 47
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Nape taper 0.mesh.lm": {
+      "sha256": "50345ad0ff9c20808464ebc14c790d0bcf649db3a84e4116ef9aa9537f8c0eea",
+      "bytes": 75867
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Nape taper 0.mesh.lm.meta": {
+      "sha256": "db3f33f7e1247aacb9f97bb0e8aae97c8f81975349974ef567a74006e2c61960",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Natural crown tuft 0.mesh.001.lm": {
+      "sha256": "3717fe6d5009ee156adb236902f436432fb4248b8a3d8be9cd49ee5e8c95e5bd",
+      "bytes": 21413
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Natural crown tuft 0.mesh.001.lm.meta": {
+      "sha256": "1389d9c5b6d5fce4d0a44c41541e166e1e2213e28f4c4c6165c1404ad3f7bcad",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Neck.mesh.001.lm": {
+      "sha256": "9eb9dafe4f9c134cd859514770bc975a1352b692e3467a5e6f6ec3a233dc5f0a",
+      "bytes": 47927
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Neck.mesh.001.lm.meta": {
+      "sha256": "b6df2f2170c48f0a4738eebf0479da218de36bd10eaac464a5d09c019f333a4a",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Quiet closed mouth.mesh.001.lm": {
+      "sha256": "a4e1dcf3d4e71de7671242d1ea2d2ac9da2e07ed2643a7e2d442f1e36cc3b57c",
+      "bytes": 23807
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Quiet closed mouth.mesh.001.lm.meta": {
+      "sha256": "8390e86c6afb9a5b311c6a457af7192f34118ae0da4e9e812e355307ca170155",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.R almond sclera.mesh.001.lm": {
+      "sha256": "91e362a8c010f7d5c7eb1adf33cf9c041bd83d51f38cc0254bf70620eed4c213",
+      "bytes": 86101
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.R almond sclera.mesh.001.lm.meta": {
+      "sha256": "587ab271ce3c5447f711cf54f9e641e56196a62b79bd7de54587acb4bd37ebeb",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.R closed vamp.mesh.lm": {
+      "sha256": "8faf3446406072f273a2640abc8817e298f2e8f83add0d4176237d24124a860f",
+      "bytes": 106933
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.R closed vamp.mesh.lm.meta": {
+      "sha256": "7422e5c3df6b0e437e913fe8244b19d5b3fd01a1e368928f90129805155e876f",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.R ear outer helix.mesh.001.lm": {
+      "sha256": "6df924a615bd00f08e9198666a5d6d9a5acf2c983180c670eda3ca90df295b7c",
+      "bytes": 35031
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.R ear outer helix.mesh.001.lm.meta": {
+      "sha256": "0f8f48aae799f21e242d5f71de87ef56f9bd557ff9dacf168e67380b20e4f095",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.R elastic ankle hem.mesh.001.lm": {
+      "sha256": "104473e9d28e5c2394ad9b7af147c7d758a856bf3ef69dcbed75774fb68a15e8",
+      "bytes": 17205
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.R elastic ankle hem.mesh.001.lm.meta": {
+      "sha256": "d0231db40ccba2db322ffb9d082c60f3fa816e580f60a8b6fa85b8433dccbb52",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.R full rectangular frame.mesh.001.lm": {
+      "sha256": "5803db0bb1d60cfc9d914857b0840bafb7bbb4269af6993f09595fe9e3e363b4",
+      "bytes": 72605
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.R full rectangular frame.mesh.001.lm.meta": {
+      "sha256": "4e7877589fcb5c7361ab55124fd1737165fb07ee04815b0bf0c75a3e649e2fcf",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.R index fitted nail.mesh.001.lm": {
+      "sha256": "dd35fb8b4f3823bebbdd59eb6227e5825158738dd252b16165313a0d00c68296",
+      "bytes": 10654
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.R index fitted nail.mesh.001.lm.meta": {
+      "sha256": "9960354056ff927a24f1d41b41e06d6ed1a5bff7574a265435e7f7f67ff4ea4b",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.R padded tongue.mesh.001.lm": {
+      "sha256": "a70de57f9c51fd720998c93a95b9d899bae7e6267dda06c86fb9967a01fe7b66",
+      "bytes": 101539
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.R padded tongue.mesh.001.lm.meta": {
+      "sha256": "d8da5d8d1a6896dd333e74fef1d53b77b5c70d2fa96712b53303ce30731ccd40",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.R palm.mesh.001.lm": {
+      "sha256": "76ad74e85eda5d8e3bc5e4714a4abcffcae164ac655a69b5011ae1030ed56358",
+      "bytes": 308249
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.R palm.mesh.001.lm.meta": {
+      "sha256": "594dc6c0d776cf3e781e43728eee719b157a635168fc190023f201101c5b2bfa",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.R pants pocket welt.mesh.001.lm": {
+      "sha256": "27e06d3e5b5fc7d234368a78a51da5f58bf3d5f2c02bc5b749e3ffc5954602f4",
+      "bytes": 33219
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.R pants pocket welt.mesh.001.lm.meta": {
+      "sha256": "4077d780f99c9aea64cc45498551ea05eb561c8788f9f2f6371283a4f0a0e9f6",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.R ribbed cuff.mesh.001.lm": {
+      "sha256": "6fb9870131c32b30be3e68219e9cefcdc97cfc5cffa877ae8ce106cac51c0f53",
+      "bytes": 30801
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.R ribbed cuff.mesh.001.lm.meta": {
+      "sha256": "503a17e4feb8651de889e86e6dc099a7ffc2c76703645c5d0cc8d29a28874437",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.R rubber outsole.mesh.001.lm": {
+      "sha256": "1a4e3468c168a2a386b4ce44d3efa4066f9ffad7c5cd81cb7752573a64764ce4",
+      "bytes": 55117
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.R rubber outsole.mesh.001.lm.meta": {
+      "sha256": "b2989f4ca916c55077ebffda8107d2598357fcb6f213c9d89be93d2e754d5ed1",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.R shaped eyebrow.mesh.001.lm": {
+      "sha256": "6d5c5380574c3727f809b21437052bd604d004cb8d4b3b3046b48da99135d18b",
+      "bytes": 5400
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.R shaped eyebrow.mesh.001.lm.meta": {
+      "sha256": "015791c464aa9f6cb8c725cd1b771b1b2e66aff8ea51edfb35b8943449c3c397",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.R transparent lens.mesh.001.lm": {
+      "sha256": "c9b7e4c666735a8a6697d828b53114aee6bc7ca973dc53557ede98ffce038a9f",
+      "bytes": 8112
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.R transparent lens.mesh.001.lm.meta": {
+      "sha256": "731674bc56a8c57326a0c118e4607e79f6e45252b3d3c940e40e6d0a41b57536",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Ribbed waistband.mesh.001.lm": {
+      "sha256": "37c2153a9273223bee0ba8459f143330ca1c545464ab55c85a573d30f78787d6",
+      "bytes": 33075
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Ribbed waistband.mesh.001.lm.meta": {
+      "sha256": "fa2dffd0750774db0f897975a53c1f6299130928c7104048a34704781a76a4b5",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Right trouser cut.mesh.001.lm": {
+      "sha256": "6e55b79238b50e59a9c42c1b28690f2e1f5e2e68fb737548305b532c8b896189",
+      "bytes": 444577
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.Right trouser cut.mesh.001.lm.meta": {
+      "sha256": "3ca3463cdcca0b33eaabc5bc8fe6c9f33400ace9e9617cc880e315775ff9fdf8",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.White undershirt hem.mesh.002.lm": {
+      "sha256": "350bfd53b6307919bd9ad264907e447b71fc8408371732f40c47ce889a84fe67",
+      "bytes": 24883
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/AWB.White undershirt hem.mesh.002.lm.meta": {
+      "sha256": "9f7baf7be375d384488853389f587cab598a5fa2dd66301a8fbe7b8035333e48",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/Idle.lani": {
+      "sha256": "37b4ccc9abb331064c2dd5b5f13bd8b234a3ee8488eb7ffdd4309c3656bcce6f",
+      "bytes": 648370
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/Idle.lani.meta": {
+      "sha256": "569d711613dfd71b2ed7cd94c30b69d04e992c740dd31158c362da5b53508a89",
+      "bytes": 109
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/Jump.lani": {
+      "sha256": "dff8f86605da2c6b9467fac3b19fc35046fe1bf234659b3a95110c22eb66d361",
+      "bytes": 309490
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/Jump.lani.meta": {
+      "sha256": "3322daef44f4b6439b1fdb992554860c512ccb0fdd954599cfaf6bf9f79ffcb5",
+      "bytes": 109
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/JumpAir.lani": {
+      "sha256": "ee391a0d2fdb980bb4bd345f22f13bf9979b80ec60e393d5b6d17b75d25daca2",
+      "bytes": 132993
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/JumpAir.lani.meta": {
+      "sha256": "b1dead6fd58a3ec724fb76054cdc32099879504064594dbba258249dfbe0a8fb",
+      "bytes": 109
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/JumpLand.lani": {
+      "sha256": "4942becb88530d6c4dc730a1c58f5e569fde703787a0f93ce58d93e5f6383497",
+      "bytes": 111814
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/JumpLand.lani.meta": {
+      "sha256": "ba1d1214cd7b764823cd2dfb86551b7fbb1593b915879206d0df3d854e6583b8",
+      "bytes": 109
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/Run.lani": {
+      "sha256": "28b5cc6b58f5ea166194a2a75efd61dbb4b60b2964c500aecbfe69cfb8347746",
+      "bytes": 140049
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/Run.lani.meta": {
+      "sha256": "56d6363c0a8a8c5d2952865210952d81bbf18f115f0a369300e7f18c265818e0",
+      "bytes": 109
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/RunBack.lani": {
+      "sha256": "ff988461c0351453b0cfab6c16adb0a306bf093361b1efc94799e688239f5bb5",
+      "bytes": 168293
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/RunBack.lani.meta": {
+      "sha256": "2ce8540e518a9ec3ca8068ec198cb50fa0095b005257dc6fd270e0b642b0d721",
+      "bytes": 109
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/RunBackLeft.lani": {
+      "sha256": "f9439bea23288c2f9e8430989192670ee5f672249d38b7239240897184c712de",
+      "bytes": 168297
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/RunBackLeft.lani.meta": {
+      "sha256": "c48e7dc2a9a27f0c100a083a8c695e63f9934e6e4db880ac40d7eeab3934fa2b",
+      "bytes": 109
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/RunBackRight.lani": {
+      "sha256": "5058e933ae77cf807d841061f57ebc184b1863426385afddfb97285beea87009",
+      "bytes": 168298
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/RunBackRight.lani.meta": {
+      "sha256": "2cd9d2ccb85f5ebbf4b8a273bb8252f2c44b0f4049c6e06c4a33b27f9862a70d",
+      "bytes": 109
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/RunForwardLeft.lani": {
+      "sha256": "666f878ad77b7ecf49eb0e834522ba387424541121b6f46103551864ab1ad6bc",
+      "bytes": 154180
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/RunForwardLeft.lani.meta": {
+      "sha256": "bafb51b6c4956171e3e719cc667a18eea8961e5fbb0eb846b24865e8636a4892",
+      "bytes": 109
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/RunForwardRight.lani": {
+      "sha256": "a9803a7ddd656c714768210a852de42bcb99de2c08e93d12134f21f6a3cb3deb",
+      "bytes": 154181
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/RunForwardRight.lani.meta": {
+      "sha256": "9244ecee62b63d6dfb791678771e1f521a3b00f6cf35ed77bc89e6e4a7796029",
+      "bytes": 109
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/RunJump.lani": {
+      "sha256": "9bd938d6e948ee0962828926b0814af7be1422bdbd6c297bc77538467818f74a",
+      "bytes": 351853
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/RunJump.lani.meta": {
+      "sha256": "2d8a10ebbb5652a13e41bae2fbd4afdf64da02439953fde02340ea100646a30c",
+      "bytes": 109
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/RunJumpAir.lani": {
+      "sha256": "aab03650db134f77226b9a489ad215a674f510a7a70861ddb1c89b8cc62f6d56",
+      "bytes": 189476
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/RunJumpAir.lani.meta": {
+      "sha256": "3c7db4dffdf9fdbc6f4d0dd586e95ef885b3bf5101dee49d8c71701d503430da",
+      "bytes": 109
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/RunJumpLand.lani": {
+      "sha256": "6d6112fe5bbcc35cea1ed5f5696db0aaee3d7ed7df12bf9b02af22d2825849bb",
+      "bytes": 104757
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/RunJumpLand.lani.meta": {
+      "sha256": "e58a83961a9de1c7655f5dae4f1f5af6e1dd59ea740004946e36edb52b31f9e6",
+      "bytes": 109
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/RunLeft.lani": {
+      "sha256": "4c0e3fc4fc4b8949abb84080f50878e3507cd46b1279c42ca43f6a727e253afb",
+      "bytes": 154173
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/RunLeft.lani.meta": {
+      "sha256": "9528ec00831f79c4765819456c7e767dd93c9c7e88bbbb9d69ff55494682cdf4",
+      "bytes": 109
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/RunRight.lani": {
+      "sha256": "e14fc0c43d42a1c9ba16b8aabf1dc6ca3949e63b6a3f885b8a8433ac7dd122aa",
+      "bytes": 154174
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/RunRight.lani.meta": {
+      "sha256": "0aebb580fc21f09c4226b76ed5a7ec6eca1c2d6b952f2e1f7c90ebd348538ac9",
+      "bytes": 109
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/Shoot.lani": {
+      "sha256": "f9749c8422de54e2cab534f2bf630944a29fd6af3f1336d4f8b15f06680ae531",
+      "bytes": 55331
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/Shoot.lani.meta": {
+      "sha256": "41728590609d0bbb5fe1c3003d16dbb17c6b212206b8482cb2b24d244347c448",
+      "bytes": 109
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/Walk.lani": {
+      "sha256": "e907a24ee4f7ab0b1345b2bb39eff8686704dfb2b111094424509077d2bc0981",
+      "bytes": 168290
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/Walk.lani.meta": {
+      "sha256": "f4fc5281c4d7eb41e78e24cc601aa0c99474e09f463cfdacaa05834abc6754bc",
+      "bytes": 109
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/WalkBack.lani": {
+      "sha256": "4775b53e6aa7df99401bbac3ffa0182c57994fab573a818ce1415adc5f26b980",
+      "bytes": 182414
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/WalkBack.lani.meta": {
+      "sha256": "6aa1859d3ce4dc1add0636f0925a6053ea152c44517067f24b7cb79a8fee62d8",
+      "bytes": 109
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/WalkBackLeft.lani": {
+      "sha256": "281e8eff31575bb710a312fe433eb3bad0914f42a8101e1531715388c9355ed0",
+      "bytes": 196538
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/WalkBackLeft.lani.meta": {
+      "sha256": "e4241a5120d4876635bc3809eb008e63a53371616e465659a13fe56cf21cd88f",
+      "bytes": 109
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/WalkBackRight.lani": {
+      "sha256": "e87de764d74e96715b64de0015eb5951126f99b518e70183b0780faab463758b",
+      "bytes": 196539
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/WalkBackRight.lani.meta": {
+      "sha256": "a8387aef1a43140c389db8564ae3ae9fb63bb9d8c2d46be0afa9cd818b1ce73f",
+      "bytes": 109
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/WalkForwardLeft.lani": {
+      "sha256": "95fb0afd456cd56efb5836fcdaab35bf916ba8125dacab68cf81b4b914f86cb3",
+      "bytes": 182421
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/WalkForwardLeft.lani.meta": {
+      "sha256": "3aa9a8ee6d2f35bbe583d946cef0cd790c71c5bfcf32bd6479002b75f89dcf41",
+      "bytes": 109
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/WalkForwardRight.lani": {
+      "sha256": "e36d10d7f2fdab2c8e1ceda535e1cdb98b936fe30017989c7acd7ca259097d4f",
+      "bytes": 182422
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/WalkForwardRight.lani.meta": {
+      "sha256": "654d5149cd5ba272e7356664af5e2c6fcc9b1fe92121983a56d41f5a7b15d672",
+      "bytes": 109
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/WalkLeft.lani": {
+      "sha256": "027a71d153e2c12080e031a31ff276e86f7a9a0351fff23c3ef01bfa70408916",
+      "bytes": 182414
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/WalkLeft.lani.meta": {
+      "sha256": "e6011ded1e33dbe1006d17bdbf6aa4121612918b288a84bb21a14b015971e129",
+      "bytes": 109
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/WalkRight.lani": {
+      "sha256": "da40f3bdd6ec974d7097a79f6a8f693a183168dd57d195baeeffdf89a13c4edf",
+      "bytes": 182415
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/WalkRight.lani.meta": {
+      "sha256": "54a57e0921433313aae500d3900178f9beed074f1ae92e07d601f21693ee0bdc",
+      "bytes": 109
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/Water pulse mesh.lm": {
+      "sha256": "a3286331e68061752b76ef2e545a6d562b4cb2b295964a62319666a4ac538ed6",
+      "bytes": 25400
+    },
+    "assets/characters/AnimeWatergunPlayer-unpacked/Water pulse mesh.lm.meta": {
+      "sha256": "fddd60427c6b415756f9730a27ff824451e34f6fce4427c6ae8a777f3247cd2c",
+      "bytes": 52
+    },
+    "assets/characters/AnimeWatergunPlayer.glb": {
+      "sha256": "b02caf88c1d207049a797757eafd7da229cdcb479109bf0db5a57258aab0cafd",
+      "bytes": 7613724
+    },
+    "assets/characters/AnimeWatergunPlayer.glb.meta": {
+      "sha256": "9e5389ea5936e4131466f3457c970e3db83a84d772163a403e73fb7daccf89a7",
+      "bytes": 124
+    },
+    "assets/characters/PlayerAnimation.controller": {
+      "sha256": "83a0fe012faa4bb54dcf04827e112b8c20b09b950c626e6cc18f57abc0924e1a",
+      "bytes": 240692
+    },
+    "assets/characters/PlayerAnimation.controller.meta": {
+      "sha256": "78157a6842ad14ba306da42c0045dc7c61d3c52311d3df0778aca1b95f560b9e",
+      "bytes": 52
+    },
+    "assets/characters/PlayerAvatar.lh": {
+      "sha256": "a61a3160ace688b961d0d26ca36818d5f6ccba2c8746ed66d4188730baacfd68",
+      "bytes": 426
+    },
+    "assets/characters/PlayerAvatar.lh.meta": {
+      "sha256": "bf966aa9c06d04f35c5ec644f600db02fc19c0e4ca576a34a738d5b2183946de",
+      "bytes": 52
+    },
+    "assets/characters/PlayerUpperBody.lavm": {
+      "sha256": "4db9bc8ff133a32eb971bac8c429c56e6cb0755825b3d8de3cdbdea5f46fa0ab",
+      "bytes": 4254
+    },
+    "assets/characters/PlayerUpperBody.lavm.meta": {
+      "sha256": "17c9b1ebcc0c5a19855ed0bcb5ee950824abb85342381b686bd7278e0e943ec0",
+      "bytes": 52
+    },
+    "assets/characters/textures/AnimeWatergunPlayer_tex_0.png": {
+      "sha256": "3bc0fdf37969ff5d5567b0cfa186f689021152c923cf857a17ad2568b4f9f990",
+      "bytes": 28810
+    },
+    "assets/characters/textures/AnimeWatergunPlayer_tex_0.png.meta": {
+      "sha256": "09da439a27195f96a3b62259d4fbe22879af3f6901a826db43af803b4a6592b9",
+      "bytes": 255
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.Gun blue rear pistol grip.mesh.001.lm": {
+      "sha256": "4e53f16755fea60f2326afa8162c1add001c945f5b7beea36da51ebc3bb17fd4",
+      "bytes": 125583
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.Gun blue rear pistol grip.mesh.001.lm.meta": {
+      "sha256": "f8d3f1234f51239e306349636caffdc1bbf32a56cbc1e7c42e6adde57701b76a",
+      "bytes": 52
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.Gun blue water reservoir.mesh.001.lm": {
+      "sha256": "64440449ff434739ca857e0aa176744a29502892f56744ca06730cbbd41c9f3a",
+      "bytes": 51924
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.Gun blue water reservoir.mesh.001.lm.meta": {
+      "sha256": "3bc4a761d4b5ae5a14562da46d090b2cc812845443338dd44284443658ad3553",
+      "bytes": 52
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.Gun green front pump.mesh.001.lm": {
+      "sha256": "d3fa69a8bff1429255e641c13b6280bd48b21267c47bd41692d4b33276a3f23b",
+      "bytes": 104724
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.Gun green front pump.mesh.001.lm.meta": {
+      "sha256": "b7ec61db1cade16f07eaed6e3bd5f6a1f26526aa634c68df8b7c19551d795c87",
+      "bytes": 52
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.Gun orange fill cap.mesh.001.lm": {
+      "sha256": "aa13c0ef0c2eacd3c12e3c49ef87ba160e5ed333ae8281b86068bff926985954",
+      "bytes": 34757
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.Gun orange fill cap.mesh.001.lm.meta": {
+      "sha256": "f8e482d838fb00ec64e2f2cd8a25b37969b1bdb0df904fc981c273aa405ed44a",
+      "bytes": 52
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.Gun orange muzzle collar.mesh.001.lm": {
+      "sha256": "5e01a9308493dbb47de023083cf535b9e276293ab3c0b582b9341dc73c74a03f",
+      "bytes": 86771
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.Gun orange muzzle collar.mesh.001.lm.meta": {
+      "sha256": "e99476ce62907e717313c95cfebf5f601fc73e632d227fd673dc2e1211d0e26e",
+      "bytes": 52
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.Gun orange trigger.mesh.001.lm": {
+      "sha256": "8f3b75dffb7eca6d2454be2fd3f0f2a4347ee8c1469b4bb5093ce926302d35c9",
+      "bytes": 31472
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.Gun orange trigger.mesh.001.lm.meta": {
+      "sha256": "d13aad0e2c82ac0db0b80a2eddbff68ffe43b2f0bd64471efe8a02f4bb74e060",
+      "bytes": 52
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.Gun white main shell.mesh.001.lm": {
+      "sha256": "4d56ce8c9ed254775f2d6ac3a243d7e413b6f07f18777b3138ff79dfb6a00bb5",
+      "bytes": 388181
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.Gun white main shell.mesh.001.lm.meta": {
+      "sha256": "1159d251e0465b813d64e2bfa3ef503db125cb706cd0a0d524df55570b17a838",
+      "bytes": 52
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.L index fitted nail.mesh.001.lm": {
+      "sha256": "7622eca1d99449408dff2ed4cdb99d06372018520e16ddb8cb14fdfe7109ee0d",
+      "bytes": 10654
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.L index fitted nail.mesh.001.lm.meta": {
+      "sha256": "3dcb2b95061854565e50f7784b3a486ae81cd3291e8c670b8f094cdb3bae201d",
+      "bytes": 52
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.L palm.mesh.001.lm": {
+      "sha256": "0a34edd73c2f48a44fa33d7d5921734f355c5eec8d87ec5640cdce732623ab93",
+      "bytes": 308235
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.L palm.mesh.001.lm.meta": {
+      "sha256": "0453c5b8e941228e845ee1e0a3beb25d01f717c742647828e4ae48cbbcb430be",
+      "bytes": 52
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.L ribbed cuff.mesh.001.lm": {
+      "sha256": "0ccaec74c0f8f682cd46526216b464c8e790a69bc79dbb26136ed4234c6ca14e",
+      "bytes": 30801
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.L ribbed cuff.mesh.001.lm.meta": {
+      "sha256": "7b49965b52bbe0aa31aeee1957105a09ea7c5f42133dff79a6ec546683bb9743",
+      "bytes": 52
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.Animated water.lmat": {
+      "sha256": "6df041f6800eea085b7d5eaa316abfbf3befefdf7138a2500e4ae0293787a8e9",
+      "bytes": 3274
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.Animated water.lmat.meta": {
+      "sha256": "18ff8cdf31cee1010447d3c3152f9f0c3d8e7b471577376f5a8f1792d128b65f",
+      "bytes": 47
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.GunBlue.lmat": {
+      "sha256": "0abd5490802ce36b0f3212e5a452043f6b4bfc6d6a0357f799a26df4d21ba580",
+      "bytes": 3176
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.GunBlue.lmat.meta": {
+      "sha256": "585d2e89dab32d543cfca7dad461a943e146b6516d662c9be0ef706c3bd9e982",
+      "bytes": 47
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.GunBlueDark.lmat": {
+      "sha256": "4765d22e20f29ae93e92bb86d07d21ef0356641c7195cdfd68a4ee35c4345a3c",
+      "bytes": 3136
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.GunBlueDark.lmat.meta": {
+      "sha256": "bd0ed0fd294bc4806687bf68c2587d31584c7a23d3b94be281def76ee47d50a3",
+      "bytes": 47
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.GunBlueLight.lmat": {
+      "sha256": "befa9f0c4ac7cef314b23d8b1a18091efb346537c7331d023caaf23f486088bf",
+      "bytes": 3174
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.GunBlueLight.lmat.meta": {
+      "sha256": "d069dd8c6742461eab330625ed08c42d9b0c80f11dc3f58b62523e0104657586",
+      "bytes": 47
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.GunBore.lmat": {
+      "sha256": "bc9230679075f3a858e65f5d88f9abc3229ef54932e513b0af3ce05497421f57",
+      "bytes": 3123
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.GunBore.lmat.meta": {
+      "sha256": "a66e7232fbe04749c5712e4823b6b5608788cfd04579951fe5318cc9b1d72624",
+      "bytes": 47
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.GunGreen.lmat": {
+      "sha256": "4179747054d3a12ac747f2c4f59ff9f55eed35a7cf80a7ea4de3944d9bdfce6c",
+      "bytes": 3175
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.GunGreen.lmat.meta": {
+      "sha256": "860ded1a3976f6835926a8330932dd07ed2a0c2b9d2c76011815b54ecb0c0d8f",
+      "bytes": 47
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.GunGreenLight.lmat": {
+      "sha256": "c112b0eee01e8c9e645e570347d134af17c9645df799e0bd9f2860703f2da813",
+      "bytes": 3175
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.GunGreenLight.lmat.meta": {
+      "sha256": "fbf650591cc318aa59bc33fe9fd0769dde79a265df390612b920ed7c2093e2f7",
+      "bytes": 47
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.GunOrange.lmat": {
+      "sha256": "2c42c8183f4e66d95c3a17f44192ae2a6462463e83664e58fcc9f044611f9e0e",
+      "bytes": 3175
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.GunOrange.lmat.meta": {
+      "sha256": "746662a1e784d9e4d62fe6da5e952fb59302707f3ee28132e1daabbf283a4ce7",
+      "bytes": 47
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.GunOrangeLight.lmat": {
+      "sha256": "29a9a55d4cffa76f3dc691df23de04a8f0b55da4c6e8a36921ab8bfeeded95b0",
+      "bytes": 3158
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.GunOrangeLight.lmat.meta": {
+      "sha256": "256b98b3cf82ed2882e4d76ae35028e52114c10e2c8764dd018e03ba78957508",
+      "bytes": 47
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.GunPanel.lmat": {
+      "sha256": "7e0a83656cca1808ed84b78c7a8e1edde2e15cbbbb82cb53de4691fd2ab90cd0",
+      "bytes": 3174
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.GunPanel.lmat.meta": {
+      "sha256": "2d993a07b834f413477b73dd78d615327581f61eb6d5bcc6e5ffd62f970900a4",
+      "bytes": 47
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.GunWhite.lmat": {
+      "sha256": "24bff61ca1d2887c39820d9f7c31b82f52777e1af04177b31a15904db3046212",
+      "bytes": 3172
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.GunWhite.lmat.meta": {
+      "sha256": "0f3e52cdf0531597afa2eb78c8bce61f4c33b0d3dc0fcbc8918f657b63b79b79",
+      "bytes": 47
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.Jacket painted fold values.lmat": {
+      "sha256": "9e06a1401a1c53446f097dbe80bb40589aff22c75ef36179947172baf95608fa",
+      "bytes": 3130
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.Jacket painted fold values.lmat.meta": {
+      "sha256": "933b21cd6f86044ecb413c5cb6a2e915547f37644334fdd2fc4a877f126659fa",
+      "bytes": 47
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.JacketSeam.lmat": {
+      "sha256": "b016f915086db9a1de2b60841e2c064b44c1ce24ef52217904de9d6f0bda795f",
+      "bytes": 3179
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.JacketSeam.lmat.meta": {
+      "sha256": "e15fc60b0adfada7a36dc9f8b574d52e59a077c35d1b16a691dce214b2108d76",
+      "bytes": 47
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.Nails.lmat": {
+      "sha256": "d2961b2c2cbd562e5ded57dbdf8cc4b8cb9bef10e29bd83b9dac2c01b77f8262",
+      "bytes": 3171
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.Nails.lmat.meta": {
+      "sha256": "a660367bfd18aba96f5c56d529484b7b7096c299f707a8f6a2458d4ef222d4ac",
+      "bytes": 47
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.RibKnit.lmat": {
+      "sha256": "06b62960da8629a6aec85100f90a1ea90c25afea49471a0f6fbdbc7a60bbb5df",
+      "bytes": 3178
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.RibKnit.lmat.meta": {
+      "sha256": "2cce7239c7695b91071e0989f37c4841e655d384ddfad8c26f0b3efdc8cc29ad",
+      "bytes": 47
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.Skin.lmat": {
+      "sha256": "bbdae771fc3ae082953b754948e23a4a8e180fe69af25ca83251c88ed4233dba",
+      "bytes": 3159
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.M.Skin.lmat.meta": {
+      "sha256": "5174a82c174d77c4bf161573353c9fb530547910fcfb370395b1f33e5ba7bad1",
+      "bytes": 47
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.R index fitted nail.mesh.001.lm": {
+      "sha256": "dd35fb8b4f3823bebbdd59eb6227e5825158738dd252b16165313a0d00c68296",
+      "bytes": 10654
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.R index fitted nail.mesh.001.lm.meta": {
+      "sha256": "463f86b258054a12559cd9587b7c1c4c83594266af63d1645ad96b9d50461b4a",
+      "bytes": 52
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.R palm.mesh.001.lm": {
+      "sha256": "76ad74e85eda5d8e3bc5e4714a4abcffcae164ac655a69b5011ae1030ed56358",
+      "bytes": 308249
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.R palm.mesh.001.lm.meta": {
+      "sha256": "fe477ed943047d13060e76e45b368974a62df843becd988eddbc8c956eeef156",
+      "bytes": 52
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.R ribbed cuff.mesh.001.lm": {
+      "sha256": "6fb9870131c32b30be3e68219e9cefcdc97cfc5cffa877ae8ce106cac51c0f53",
+      "bytes": 30801
+    },
+    "assets/characters/WatergunArms-unpacked/AWB.R ribbed cuff.mesh.001.lm.meta": {
+      "sha256": "2361a1a965872dc7cf728fdc6f8cc94f67782a38f3b5a88412ec0407e0e1164a",
+      "bytes": 52
+    },
+    "assets/characters/WatergunArms-unpacked/FP.Sleeves weighted cut.lm": {
+      "sha256": "b9e15fecf1a9fcee79d5bae25880c79415fb52e2a7a279707bd7381e615ffdc7",
+      "bytes": 284071
+    },
+    "assets/characters/WatergunArms-unpacked/FP.Sleeves weighted cut.lm.meta": {
+      "sha256": "b63217f65f95a0a394006bf2df07865b33aab94ffde176da59b5bd777cfb886f",
+      "bytes": 52
+    },
+    "assets/characters/WatergunArms-unpacked/Idle.lani": {
+      "sha256": "f126f1de5083bccf0fcd8077fa27edb107a4e95de9a6bf23afcfc679598ef2d7",
+      "bytes": 651937
+    },
+    "assets/characters/WatergunArms-unpacked/Idle.lani.meta": {
+      "sha256": "36f0761a4125bb32e1dff6ee87bfa205393982556162b3f8ce1b9a9cbb67964d",
+      "bytes": 109
+    },
+    "assets/characters/WatergunArms-unpacked/Shoot.lani": {
+      "sha256": "9fd09357b2ed078da0d7702aeb935e04cb217f31bbb2d557b5b1c196ff5b9623",
+      "bytes": 55622
+    },
+    "assets/characters/WatergunArms-unpacked/Shoot.lani.meta": {
+      "sha256": "2f84f6505e4b10336edc214752ee2fa75dd3b268b50dfc69b749cb49e101e703",
+      "bytes": 109
+    },
+    "assets/characters/WatergunArms-unpacked/Water pulse mesh.lm": {
+      "sha256": "a3286331e68061752b76ef2e545a6d562b4cb2b295964a62319666a4ac538ed6",
+      "bytes": 25400
+    },
+    "assets/characters/WatergunArms-unpacked/Water pulse mesh.lm.meta": {
+      "sha256": "1214f44aa24c7397cc8c328c9a94c42526e70aa217798fb7976024426219958c",
+      "bytes": 52
+    },
+    "assets/characters/WatergunArms-unpacked/WatergunArms.lh": {
+      "sha256": "b5cc65e33773d1cc1406a2fccde8002411e9c85b8abe2a1c4a340042abc63904",
+      "bytes": 163181
+    },
+    "assets/characters/WatergunArms-unpacked/WatergunArms.lh.meta": {
+      "sha256": "eea3677b7ba2ea9ed09c1ae9b3b1e03b9dfe5a954a2e1c5a85f6d942e15c2b31",
+      "bytes": 47
+    },
+    "assets/characters/WatergunArms.glb": {
+      "sha256": "06598a3317256ad8f2d56041611b45fc69c454f40dcffa5929275c87523ef715",
+      "bytes": 2142888
+    },
+    "assets/characters/WatergunArms.glb.meta": {
+      "sha256": "dda611bf6d6910a066f891308252b92d79b457660dc2eea3a6c51edde9a2b7c6",
+      "bytes": 124
+    },
+    "assets/ducks/Duck-unpacked/Duck.lh": {
+      "sha256": "357e8eebf8fdb52a56478abf369128c452185c5071f028e429bd82b6cf0ed0a4",
+      "bytes": 795
+    },
+    "assets/ducks/Duck-unpacked/Duck.lh.meta": {
+      "sha256": "eb2a20905e5836dfec3a6d795ad0cc58685082f166d5b0a8eabfe329a678c5e5",
+      "bytes": 47
+    },
+    "assets/ducks/Duck-unpacked/Duck_Mallard_Feathers.lmat": {
+      "sha256": "444c3c93377dab6dbec4c767f83d0adae967ec378789b1df73193fb7874c8112",
+      "bytes": 3465
+    },
+    "assets/ducks/Duck-unpacked/Duck_Mallard_Feathers.lmat.meta": {
+      "sha256": "5ba3db18b72b3cb12dd342c7dd76f614829dc96412d5f6821b594296a78496d4",
+      "bytes": 47
+    },
+    "assets/ducks/Duck-unpacked/Duck_Mallard_Mesh.lm": {
+      "sha256": "7b6587a779b0ba99804331f9f0ea1f5602317f762c1279b03d2c058996b00c27",
+      "bytes": 46614
+    },
+    "assets/ducks/Duck-unpacked/Duck_Mallard_Mesh.lm.meta": {
+      "sha256": "a776bd1600c0a27818883feddd17a4b9b1b2da41e6404f486770c3e177e2e8bb",
+      "bytes": 52
+    },
+    "assets/ducks/Duck.glb": {
+      "sha256": "1174e98228a43bc1179def55a229797a9a409ec889cfdb096368c6339a452fe4",
+      "bytes": 314344
+    },
+    "assets/ducks/Duck.glb.meta": {
+      "sha256": "e44f8f5c829e0c6a6f608b1e0b2754e8290445250792a4dc32b053077deb2a07",
+      "bytes": 124
+    },
+    "assets/ducks/LakeDucks.lh": {
+      "sha256": "0141e67b49c65c2e0f6a67fb5639a5ea48195808f16d73f98a4457192d0692a7",
+      "bytes": 4599
+    },
+    "assets/ducks/LakeDucks.lh.meta": {
+      "sha256": "d2c35ca015f7ef17fe41fda226ed97b09d0ab8179613029829c9fe8a227d8819",
+      "bytes": 52
+    },
+    "assets/ducks/textures/Duck_tex_0.png": {
+      "sha256": "4853b6c5e3ef961d57d59736593c5248650fc449b08bd155ccc560530d0f8966",
+      "bytes": 169053
+    },
+    "assets/ducks/textures/Duck_tex_0.png.meta": {
+      "sha256": "8a2490d721095057357815b9eb7377abb99d6be9622ac6c75a0a7971a520cd33",
+      "bytes": 255
+    },
+    "assets/lingshui/Foliage.lmat": {
+      "sha256": "1a3e44c46825518b8187c56ccd6688df44f178e7f2b054d5e40ea97e5dd647fa",
+      "bytes": 3113
+    },
+    "assets/lingshui/Foliage.lmat.meta": {
+      "sha256": "006b537b577dfdb1faa9f0abcd35e5f3c0d22e739ffe3d7df0b70abbdc0e206e",
+      "bytes": 47
+    },
+    "assets/lingshui/LakeReflection.ltcb": {
+      "sha256": "095b9eed98b5fe301509924b6b50badfa8d044869a11b4cdb38209ea43c51313",
+      "bytes": 2097174
+    },
+    "assets/lingshui/LakeReflection.ltcb.meta": {
+      "sha256": "7be73df596cf37a2982914d783e8a7df8991282811b79b1e5ac2cce717159313",
+      "bytes": 54
+    },
+    "assets/lingshui/LakeRipple.png": {
+      "sha256": "95a4bd47cb5d10ed6d81f215031b6f06ed418d1b8742b8103eceb40b8510c802",
+      "bytes": 558689
+    },
+    "assets/lingshui/LakeRipple.png.meta": {
+      "sha256": "7ed412b707bdf4a628546769a6b91f34f7c234a2791aa568f034cad0620f7f65",
+      "bytes": 52
+    },
+    "assets/lingshui/LakeWater.lmat": {
+      "sha256": "e1be7d3e0d81f1f6706749ad42b716134a0e334f6c5de765b67594bce207a6fe",
+      "bytes": 774
+    },
+    "assets/lingshui/LakeWater.lmat.meta": {
+      "sha256": "0fb3933fd9740dd49ee0ee72df7dd9867bb182a961ce2cbda60afa258889e5f7",
+      "bytes": 47
+    },
+    "assets/lingshui/LakeWater.shader": {
+      "sha256": "bede853ad4bb5083515d76cfb36e7ad2982a6d0d5f2d798c7f3bb8978ce709e8",
+      "bytes": 4226
+    },
+    "assets/lingshui/LakeWater.shader.meta": {
+      "sha256": "8a7eb4def4b040edba532dc1bd3ada1c851c0b466fba1000ddccc602db6c9b58",
+      "bytes": 52
+    },
+    "assets/lingshui/LingshuiEntrance_Fixed.lm": {
+      "sha256": "b29f91b60fc822a4d0b6b93d3a5c9247297d6f5b159505b7ccbb20d4346df2db",
+      "bytes": 561714
+    },
+    "assets/lingshui/LingshuiEntrance_Fixed.lm.meta": {
+      "sha256": "c39416813e94d8e47e1fcba9190ad0f0ded629065b065e4f5fe866c21d552530",
+      "bytes": 52
+    },
+    "assets/lingshui/LingshuiEnvironment.lh": {
+      "sha256": "bb662ab84b5677158161914f9996704fb7f32038c8a1ef57791352cb0ea82cc9",
+      "bytes": 1120177
+    },
+    "assets/lingshui/LingshuiEnvironment.lh.meta": {
+      "sha256": "b8429b2ec0cf01b6755e99849d648c6b38e32ae207bedf42de3cc643446dc607",
+      "bytes": 53
+    },
+    "assets/lingshui/LingshuiLake.glb": {
+      "sha256": "3ef97cca944988234bb2a583a92b5d9d125efc5b2e9461c7650b249c82261b8a",
+      "bytes": 78832684
+    },
+    "assets/lingshui/LingshuiLake.glb.meta": {
+      "sha256": "874417deb4eea3db87ef842d7f66ade872d3dcc7f4299854fc0c5693ec88f971",
+      "bytes": 52
+    },
+    "assets/lingshui/site_fixed/SiteFixed_00.lm": {
+      "sha256": "9ec899c2ef84ec4e5042b48a76426b569c904113df5e974e2bfa2f558390fe0e",
+      "bytes": 26980
+    },
+    "assets/lingshui/site_fixed/SiteFixed_00.lm.meta": {
+      "sha256": "58483b1d79506b7c49b51fd66cb825ddc2e326a8f59662e1896637630eb1ab6c",
+      "bytes": 52
+    },
+    "assets/lingshui/site_fixed/SiteFixed_02.lm": {
+      "sha256": "92133c6af375d25116358d39b622ac5db7a9a91f1ca8c1e76a7b361c79775320",
+      "bytes": 1617170
+    },
+    "assets/lingshui/site_fixed/SiteFixed_02.lm.meta": {
+      "sha256": "e2b9898311f00415826b5aec4efffa2f1bc5ff1c05dab68aae73b5ca8a9f0942",
+      "bytes": 52
+    },
+    "assets/lingshui/site_fixed/SiteFixed_03.lm": {
+      "sha256": "51786c0d36fbe59cc858abc4958321a55fcf4cfbef54264b35d2b29cf0313f05",
+      "bytes": 9970
+    },
+    "assets/lingshui/site_fixed/SiteFixed_03.lm.meta": {
+      "sha256": "cc94d6b4cf52218b357de70626e22b116a53b5401ab9c014346404e37991f556",
+      "bytes": 52
+    },
+    "assets/lingshui/site_fixed/SiteFixed_05.lm": {
+      "sha256": "689eacd90c6a7fd2ff85c204f190a7a38c1899d901e63b0faf4c2e7b61746fd1",
+      "bytes": 2970
+    },
+    "assets/lingshui/site_fixed/SiteFixed_05.lm.meta": {
+      "sha256": "36b7ded81667e12548f02e79f98cdb2ac167edcc2b6aa1eefbc3f2d7b28a5629",
+      "bytes": 52
+    },
+    "assets/lingshui/site_fixed/SiteFixed_08.lm": {
+      "sha256": "9c197b94bb256ae92d02268691118fbd9b6d9d5c121cf4571b61f7fe70f02045",
+      "bytes": 12820
+    },
+    "assets/lingshui/site_fixed/SiteFixed_08.lm.meta": {
+      "sha256": "de18e9a01ce894adad122d958fba9a6b94661b99b8cd002f92b51fbcbc8763c8",
+      "bytes": 52
+    },
+    "assets/lingshui/site_fixed/SiteFixed_10.lm": {
+      "sha256": "9a0f3532632460b91c70169a3ddd07afb5a0b1dc14f9c539d018187748d100cb",
+      "bytes": 1127462
+    },
+    "assets/lingshui/site_fixed/SiteFixed_10.lm.meta": {
+      "sha256": "f293bfef92c1c055933a3fe126adee33e8cee5ed5d4f3a0e2370b1bff7915cf5",
+      "bytes": 52
+    },
+    "assets/lingshui/site_fixed/SiteFixed_11.lm": {
+      "sha256": "9d215ae9a41de80ac6569a45f141d013fdf71c25643391221447a4781cdf917d",
+      "bytes": 34390
+    },
+    "assets/lingshui/site_fixed/SiteFixed_11.lm.meta": {
+      "sha256": "af2c93c3047893fd9d38fbfe7d09b8da98d8e35d42bfa1c3c389244a22eaef8d",
+      "bytes": 52
+    },
+    "assets/lingshui/site_fixed/SiteFixed_12.lm": {
+      "sha256": "fa2499b52ae2550d879e866c9dd9d26b63a834c0c6887b3d399f8db251b98352",
+      "bytes": 971190
+    },
+    "assets/lingshui/site_fixed/SiteFixed_12.lm.meta": {
+      "sha256": "6c27a91b0ac826464aa07e0efe64635b10d428dcbd3eadf213d0d56c60465968",
+      "bytes": 52
+    },
+    "assets/lingshui/site_fixed/SiteFixed_14.lm": {
+      "sha256": "ca9de099e4f9474ecead30d119e25507e22e027510dbc8e8d04bb3d9f369dc36",
+      "bytes": 29582
+    },
+    "assets/lingshui/site_fixed/SiteFixed_14.lm.meta": {
+      "sha256": "952e31bca7322873e52523e55b21d4c7138e18d35532191da864c32f05c5afe0",
+      "bytes": 52
+    },
+    "assets/lingshui/site_fixed/SiteFixed_19.lm": {
+      "sha256": "76102d326c0a634201ece1330cd9e28c71c0d7c82b7c54d3be99f5f1b28d20c8",
+      "bytes": 325598
+    },
+    "assets/lingshui/site_fixed/SiteFixed_19.lm.meta": {
+      "sha256": "2f126704563215b5ba62f7a6591c4de0e64052ca1990dc651566eb8c8db6160f",
+      "bytes": 52
+    },
+    "assets/lingshui/site_fixed/SiteFixed_23.lm": {
+      "sha256": "24111170a85baf05276532a43ef2ac497860798d6c36a2f36bc56ffb626912ef",
+      "bytes": 174286
+    },
+    "assets/lingshui/site_fixed/SiteFixed_23.lm.meta": {
+      "sha256": "d866a4035aa157aded49f0020ba9de000e3077b33e1b0c8dacc6acc9152e5014",
+      "bytes": 52
+    },
+    "assets/lingshui/site_fixed/SiteFixed_25.lm": {
+      "sha256": "722f61643f45063a302a69beb737948cc5bb62770ab3bf22a63a3648175a3bb6",
+      "bytes": 2109758
+    },
+    "assets/lingshui/site_fixed/SiteFixed_25.lm.meta": {
+      "sha256": "7ef81acb58e23c0f8268e0e2e01f7597f01768c9e0c117fe5a82a3d060b8b806",
+      "bytes": 52
+    },
+    "assets/lingshui/site_fixed/SiteFixed_27.lm": {
+      "sha256": "d5f1bec032b50bb8145b463df520d79d2266b2dd11db45bc0d1f72953ec1dd73",
+      "bytes": 98678
+    },
+    "assets/lingshui/site_fixed/SiteFixed_27.lm.meta": {
+      "sha256": "7dae721b9cb62fae09fb56e49dde4c7e91b2ad5c438b570d1b9cbf5830c0d7cd",
+      "bytes": 52
+    },
+    "assets/lingshui/site_fixed/SiteFixed_29.lm": {
+      "sha256": "20fa7a09c42551de444604ef96892650755848b72e9f43cbe78ecadcac13d928",
+      "bytes": 412124
+    },
+    "assets/lingshui/site_fixed/SiteFixed_29.lm.meta": {
+      "sha256": "0fad6574ee36f8dab67b043a712ed28d666d6867422b6462e16a04220968d04e",
+      "bytes": 52
+    },
+    "assets/lingshui/surface_01.png": {
+      "sha256": "e07065ad959a3d98a4e96a3cb960b13fcddab72ba41b11d60c1c3162d515e40f",
+      "bytes": 286913
+    },
+    "assets/lingshui/surface_01.png.meta": {
+      "sha256": "fa1e97dcbdb4893c488a2f92ab115c077db55f75c31d1b35395262254dc80f7a",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_03.png": {
+      "sha256": "76ca6bc0f68bdb3a6052ff5ad9a88db06f9e8937a57a481ad2a949c88cc7d5d4",
+      "bytes": 315996
+    },
+    "assets/lingshui/surface_03.png.meta": {
+      "sha256": "027849f73c72f7b56df45667874af6dd2576f1b2ab999543e9fe8f03834261e7",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_04.png": {
+      "sha256": "b092aa83e4d3be8e5a68ee91d2587b48ae4e507978059e9f32a715301ca5e314",
+      "bytes": 322345
+    },
+    "assets/lingshui/surface_04.png.meta": {
+      "sha256": "951ca3224275513eda66972623e4d3f8c672006635f8cc8aceedb0085e6a8cdc",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_06.png": {
+      "sha256": "bc13738aa91224ab8a82f48285c9266dc8af78ab1d789a210a6531835f9c0444",
+      "bytes": 242763
+    },
+    "assets/lingshui/surface_06.png.meta": {
+      "sha256": "fe736a3d6d8aa96b9a1f8d7fad905449e1a1ab24180f89f32bacc182ac4e8fb6",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_07.png": {
+      "sha256": "84e9e6526fe0375b5b15c2132d1a59fd8cf18e805355a8c17b293b3d747fca16",
+      "bytes": 272041
+    },
+    "assets/lingshui/surface_07.png.meta": {
+      "sha256": "1a636412d46a7a3827b29c2c28e40f7215bee81ee0434f72a70f715f3a5d64a5",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_08.png": {
+      "sha256": "e86650953567629728e7a7e94a67aec551c812f331085eb149c047166bf795a0",
+      "bytes": 184806
+    },
+    "assets/lingshui/surface_08.png.meta": {
+      "sha256": "9893563edfe79b73000f683fd7b86862fabd1013418d155c2c0c7e9c8780a2f7",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_09.png": {
+      "sha256": "57f4e45ee8ba0f09f4fe1ba39f77730d2fff57019a3abe9f1f94607480ff7ad8",
+      "bytes": 192640
+    },
+    "assets/lingshui/surface_09.png.meta": {
+      "sha256": "5b6a317c6f06467bf0c377445bfed7ce8d6437e9070be7327ccbdf1ba9aa7455",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_10.png": {
+      "sha256": "ccddf50ab175d3aded30674cf667717ef3cd3890ce6284d8c08641cf52e8d5b3",
+      "bytes": 154599
+    },
+    "assets/lingshui/surface_10.png.meta": {
+      "sha256": "43de9c442be584d4c0d8d9a8d9f4eb8074c0851add2b5e53fe135619c36ff834",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_11.png": {
+      "sha256": "6114af40e169ab7f66ecf8e38a07f1d22adcd037e0a40fc62627730c832b9755",
+      "bytes": 166127
+    },
+    "assets/lingshui/surface_11.png.meta": {
+      "sha256": "c7b07ec19fb52444e599ac55af5c77443dffb2b067724cbc397c803643a1fd50",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_12.png": {
+      "sha256": "9c518def5f88bdda4dc834c9c207011bbde65a800b9dddb120e2392c419531b4",
+      "bytes": 190910
+    },
+    "assets/lingshui/surface_12.png.meta": {
+      "sha256": "48c7d570273833ca5a0a8061896780aa79551632ac0cddb22bf20267608f019c",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_13.png": {
+      "sha256": "3ead8b9b4ac386613980c0d70799d4b2604fba04220f8a1851202fc1692a8aaf",
+      "bytes": 220604
+    },
+    "assets/lingshui/surface_13.png.meta": {
+      "sha256": "cec1e875bdffaeb3ba52b9b393cd01ade66b210d2449b9b33d532ba69076a7cd",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_14.png": {
+      "sha256": "9e3cea6b60062a7ab73492b17a750fec1461002025971b3b7f9804f5753dbc56",
+      "bytes": 180233
+    },
+    "assets/lingshui/surface_14.png.meta": {
+      "sha256": "4b7320726780aabbf0368c99b57ee8e2b7d26b499d1d2770cffa6b9bc9d535a7",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_15.png": {
+      "sha256": "ce5785fa85afc83a1bcbd1b81dde473272d55d054ce4cb94f890edaa6af5c2bf",
+      "bytes": 190932
+    },
+    "assets/lingshui/surface_15.png.meta": {
+      "sha256": "215f4edcad43b81fa03bb034b9e228ba254f241fd57dbb82811d858db5cf89ff",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_18.png": {
+      "sha256": "2993ec27c4ddde0b51ab83c024006926c5fd4be920f886affd7ca714efc565c0",
+      "bytes": 205832
+    },
+    "assets/lingshui/surface_18.png.meta": {
+      "sha256": "f28862edcf55a8884840c0899a6a75ca41e4de4a4e8c5139c5e5312d045ea0ce",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_19.png": {
+      "sha256": "fefff2ae5c9a04e10601f798c16c49724d8b0b8129dab7ace7dbfc4e9f1fe7ce",
+      "bytes": 223631
+    },
+    "assets/lingshui/surface_19.png.meta": {
+      "sha256": "45d0e50b88ff69f29cb36514caff379bf35037040e2072a3cefc3e473bb8bba1",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_20.png": {
+      "sha256": "5e06a5056d6c714a26df2e84b3d45635b232391e49875140607d6251c01f58c1",
+      "bytes": 218362
+    },
+    "assets/lingshui/surface_20.png.meta": {
+      "sha256": "110af3874baccb5e4ec3bbafd22cb6fcbb9865ea5e3f94720b8350470fbd312d",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_21.png": {
+      "sha256": "7f1c6851c74e7874a228ad516d03ae1d4446113708410ecbab9d48fe0110b0e7",
+      "bytes": 210371
+    },
+    "assets/lingshui/surface_21.png.meta": {
+      "sha256": "1370b0d99a8b15d355d25e8efafef512d8cfa464dac4a52ef862c35d1e41b529",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_22.png": {
+      "sha256": "568bcdd7e18ae386825a1f5e78dc0b1625fd649671f0e9ac1b93039b68c7d6f7",
+      "bytes": 253420
+    },
+    "assets/lingshui/surface_22.png.meta": {
+      "sha256": "66afe39b782af24238919796a0285e6fcc364ef040533b789905c9d7a5c7cb52",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_25.png": {
+      "sha256": "2b712f935a4887d4a45959d7e86eacf45a8bbf060e2207cf49a0d0dea264d074",
+      "bytes": 231139
+    },
+    "assets/lingshui/surface_25.png.meta": {
+      "sha256": "45af1e9511fbdc98bcc3567d75ea363698c4de495f410426a802504437871f2f",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_29.png": {
+      "sha256": "28d16b91f44b0e92e24abb637c130ddf5a18fbdca9a2a9b7fa21ccbdc5f654bb",
+      "bytes": 204717
+    },
+    "assets/lingshui/surface_29.png.meta": {
+      "sha256": "4264f56f098706bb74d01e4cdf5c4f6984aafb90f5555c772fed91ea08ef809a",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_31.png": {
+      "sha256": "e2613395b829b51440e657f00eb485ff96b2e0e37e1238609b1263ba79657058",
+      "bytes": 212313
+    },
+    "assets/lingshui/surface_31.png.meta": {
+      "sha256": "6b18eb1b1c4baf21eefcacf6989e00ef06264aa84ad097f6587e3b428432b5ae",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_32.png": {
+      "sha256": "a7fb8324ee03a7d4349d8be2ad68286d00527f7c63594a2f0c64136fdfed4dd4",
+      "bytes": 217009
+    },
+    "assets/lingshui/surface_32.png.meta": {
+      "sha256": "29ef4af662e5544f577a0dfbf9fac8f77949a41c7c460e674aa99eb6b1066729",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_52.png": {
+      "sha256": "c6c03741d9ada4852e6219e97172ca086283d43d166f79db873119edf023ff80",
+      "bytes": 216776
+    },
+    "assets/lingshui/surface_52.png.meta": {
+      "sha256": "dff6777ced5fb34ee7e212f2b6090b22fb88c2c8e9f50711948666658ce92e4e",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_53.png": {
+      "sha256": "c2c2da4a70be099bc0530c7ff6a1fe69bfb52769ed09d1e5eb01201d099de58c",
+      "bytes": 6756
+    },
+    "assets/lingshui/surface_53.png.meta": {
+      "sha256": "64f609098940516dcaf4bdfc21af8ff6518af903729bd3c1a0fbf1515098a4b8",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_54.png": {
+      "sha256": "aeb39779f115c2f3b983da6fca07ad8c663c82cec70befdc0ff39c952b57b3f8",
+      "bytes": 203003
+    },
+    "assets/lingshui/surface_54.png.meta": {
+      "sha256": "039a4678829741f1e82a9bb9be442d59297df1ee09629b423bcfc0b9cc38a57a",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_56.png": {
+      "sha256": "0c2b186223c39ee3d1c852b20fbd9744f4906b710f6c30f2a2dde4d13ef7a61b",
+      "bytes": 207493
+    },
+    "assets/lingshui/surface_56.png.meta": {
+      "sha256": "661deb9fb6577e64d2ff5cbe8470156e0b8edc7189eebe2245986024777e74a2",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_60.png": {
+      "sha256": "6778c384707145b937e4bc7ff0862d45dfb0be9eeff767b94ed415be99c582f7",
+      "bytes": 212375
+    },
+    "assets/lingshui/surface_60.png.meta": {
+      "sha256": "2f6d69f2f7e324a10fcac6a34aa4058dc5d528d33e460bb321961187915ad3ce",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_63.png": {
+      "sha256": "59e18a3de29db4546cbb8bf66c5f5575892389fe573d7d4548a734d333c72ae5",
+      "bytes": 163981
+    },
+    "assets/lingshui/surface_63.png.meta": {
+      "sha256": "e584b50a74803c670c720fddc644c6e9fdc4f4113826cf636064042f0e6d8ebe",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_64.png": {
+      "sha256": "73a96f08bc08313dca7fdbc9e840bd1ffd3d78c531aff9224efc48b7b1cd7536",
+      "bytes": 93982
+    },
+    "assets/lingshui/surface_64.png.meta": {
+      "sha256": "1557c102f83167e5cd79ea0852a49ffac02d3047244748c17442afa3a1458ade",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_65.png": {
+      "sha256": "84922b4e01a2342642ed2e713370cd8a39302ee59fd75b860abd46d378d61b5c",
+      "bytes": 20708
+    },
+    "assets/lingshui/surface_65.png.meta": {
+      "sha256": "0c25effd02108e23952063aa1e5fb7c04e61f20a8a7b78a3ee750f6144f941b5",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_66.png": {
+      "sha256": "8a5ee120de4320ab3100427a17a30e0ab5f92573c225b4c97455fe15a631ed9c",
+      "bytes": 178318
+    },
+    "assets/lingshui/surface_66.png.meta": {
+      "sha256": "515c288567c8eec4d6fb827189cbcc30649cc34b323508a3dbbd074c7b0ea496",
+      "bytes": 118
+    },
+    "assets/lingshui/surface_68.png": {
+      "sha256": "776ec3467cd3f5da5e664cbb83a98994b3549f84595e59f14484fbd4894a45ce",
+      "bytes": 205731
+    },
+    "assets/lingshui/surface_68.png.meta": {
+      "sha256": "f25f77935ef1560d6b75a15835522e22b2c5b8193560e6d060128535b28f347f",
+      "bytes": 118
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_0.png": {
+      "sha256": "dde0c37c88273d7c45d7bd603b21684e7a84c2a32d621fb6b54eeca8e815c8c1",
+      "bytes": 147470
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_0.png.meta": {
+      "sha256": "7d6d78df03ade5fcbe35a1db1c1977b9f4a88484791fa6f6efa0db7626022907",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_1.png": {
+      "sha256": "1345df92f517c25fb50400e1e0505beacbc99a7f5d906c5a8e83b541e9745682",
+      "bytes": 50391
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_1.png.meta": {
+      "sha256": "5e658d64bafe7c58a1f4c53c1d930266072ecc04dca094d1dbb64577959a4421",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_10.png": {
+      "sha256": "e5c6fe29a2f5570fadae0d18753261fe4f94e5369dfee528a9cc07957f10ecef",
+      "bytes": 119414
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_10.png.meta": {
+      "sha256": "5a0f47c70aac9e3c964c8b6a3f7ba60aa9a576d8f9ee11575bfacec113240601",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_11.png": {
+      "sha256": "50139f8c493657071cafd7b546a70e98b02a52fe195ebc2245c2e55b89abbaa8",
+      "bytes": 148374
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_11.png.meta": {
+      "sha256": "4619e21df712df98b3021792b417520415b6dfdb48a869dd4798a665675d6401",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_12.png": {
+      "sha256": "e12d0f77c185354ecade77d9bb97888a26ae2b932ed1cf858eadfe49b4467c0d",
+      "bytes": 96629
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_12.png.meta": {
+      "sha256": "81a641da9e21ae0ffd74903f43db7b65663bb47181bf50cf8dca751f2fbbb591",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_13.png": {
+      "sha256": "658ea1f8f0f2bef41043ac19a9092db2716e118238d04aeb08aee8d68885b75e",
+      "bytes": 146329
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_13.png.meta": {
+      "sha256": "7ef2ae0ea60b308f0239fa9e97114086ca6974fae72e3bdca9003907371326b8",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_14.png": {
+      "sha256": "e7a059a5ddcf66294b580c380354bf10efc32333c69459772bc9ed638233f455",
+      "bytes": 8392
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_14.png.meta": {
+      "sha256": "1854c93b0d909e4f53249ca7858ef96778e3521d68babf27ef7912a150bad207",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_15.png": {
+      "sha256": "e1077242b5394c0837236e892c1f6fc76ef81eed5735e07e72e769ee28b35658",
+      "bytes": 208982
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_15.png.meta": {
+      "sha256": "4728a5978e823cf0f1dfc230bc2971dfa225c1a460bdf9d5d144a31a76d9e16f",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_16.png": {
+      "sha256": "b0cced44f7284561ac3846b91ba74d4513bcd6b87c5048ae9aae0553b5032b5e",
+      "bytes": 177314
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_16.png.meta": {
+      "sha256": "a5e19185ce82b9cd2447d4c2b7a6f03b7ea7b41deb4d7c47dc371f46b8309eba",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_17.png": {
+      "sha256": "3fea8bfec259e9febf960790cc2250f5059284f8150ed265a0fe87b60664fbde",
+      "bytes": 144149
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_17.png.meta": {
+      "sha256": "1404b9525a490029426a4dd988ba71a79321b5bf3b8cd4295929b480172b0f8c",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_18.png": {
+      "sha256": "fafd8a54e273d83e96f6df690b40b75bcb493d3a103d177c0f164c77e62e829a",
+      "bytes": 215630
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_18.png.meta": {
+      "sha256": "cb84557e737e24b4b753fe9f3736ebd8d2041831ebecefac5e54fca11d93bd80",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_19.png": {
+      "sha256": "62173263b0228f3d9b6870492ceae687c5d35209ef384cce3ee9dae1f2e54f84",
+      "bytes": 143205
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_19.png.meta": {
+      "sha256": "5c522af40fb419c9cc4f7a93445040b519fcf620d0a1bf1222f6b0d20ed4cb87",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_2.png": {
+      "sha256": "1f6750ffb886aed48d1cb6496e48ef8b8f2dec1c456647649aa13008dbb516df",
+      "bytes": 152477
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_2.png.meta": {
+      "sha256": "2e692c46dc92dc8129e240ce6e9ef4756672f748c0b42dad611df96d82e6bf8c",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_20.png": {
+      "sha256": "d1eed2b4b1796a01ca969a13b25ed9c94be0e9ec6797146f4ef20878789673e6",
+      "bytes": 124983
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_20.png.meta": {
+      "sha256": "85be3cd993a3aa322df9618b4f7ed986295771d7896e913acba2a5d6ac0d45e8",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_21.png": {
+      "sha256": "92fa035f84391e698a6ecfc0561280c3aa4961f7a87c6f6805d1e4a3a7938e4d",
+      "bytes": 168755
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_21.png.meta": {
+      "sha256": "3960fe85c4cf156415f57ccd02e208d6e92afa31e16ca318fb72ec493dfb6ee8",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_22.png": {
+      "sha256": "ceb7d3df56f2ceb8558c84638e544a9fa70c6b9a5f1730c76eec1a885f827734",
+      "bytes": 117702
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_22.png.meta": {
+      "sha256": "79c08df0b8fe5952f952a6ccf5c95fb39413ca9cf0776c64fdb8b5b65ff210a4",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_23.png": {
+      "sha256": "c2f03f881b5b85f5f2865d2a0bc4a52d1b166c4332c310ee5662aee6fc92b13f",
+      "bytes": 122102
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_23.png.meta": {
+      "sha256": "7d612b16c5613e1cecb2dd864e456ea0d5c37cdc62dcfa9fab5f866f753e732f",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_24.png": {
+      "sha256": "cac29ca3b1e25046ce4eef14feb111e18660fee9939b3a7d036385ecb8cf15ea",
+      "bytes": 140857
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_24.png.meta": {
+      "sha256": "12c2e826aa4864441c78ca904346f717b46302de0585c293e45562dd894f69c6",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_25.png": {
+      "sha256": "dc7af8f9e1a849104d288c86c27cbe635e50d69f8211c2c059640e182ac8f8ef",
+      "bytes": 130852
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_25.png.meta": {
+      "sha256": "6ce57ea8bc51d2ed68e684ae62ce21907c3ebe7e22eca71996ee9cd75d9fabc0",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_26.png": {
+      "sha256": "e0255d6c9a94dcffb4789ed63ce6a0d40aeb2c53a4761d7cff7fc42349cb796f",
+      "bytes": 144726
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_26.png.meta": {
+      "sha256": "e2171839449d0dd98567a57062b63a04b5cb7baa2f005d45f69d710d0e026d8d",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_27.png": {
+      "sha256": "7d118be7a255595c9d7703a1576691fa5a5a56d382411deb1ef8dcdb75c4cba6",
+      "bytes": 9503
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_27.png.meta": {
+      "sha256": "fe322bf2367f5291ad09be2b0d1c2490045f84ea0ea1fedb388e78be035310f4",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_28.png": {
+      "sha256": "e2df5cd53adc91451c715bc9731be7370014aea9e4204ee4a0288aebad9a6367",
+      "bytes": 110391
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_28.png.meta": {
+      "sha256": "9fa756d1883e8f5e14bfa6cfe5585da72d4e19cb2894557046d1f63e365ab7e2",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_29.png": {
+      "sha256": "2b5263c0910d212b9efaff4b81b4795dba7b2ef512b89922b25922c64a699705",
+      "bytes": 151099
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_29.png.meta": {
+      "sha256": "a9259ea994003fbba82f6c5b070333d85afa33f52a867ebbf786bddaae6d8a7e",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_3.png": {
+      "sha256": "6d198a32be3a25d4e2dc933543b9d56c6d6acc3ed8fc64ce271e51bd38944867",
+      "bytes": 96180
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_3.png.meta": {
+      "sha256": "427dfeb8227a6858790f033cdd726c4e29a1cd7274a6be6b2f9e17efa1883db9",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_30.png": {
+      "sha256": "32a952d5ff5c75f019f253eeb73d613483d072d6943ed085fc5bc82a32a652ed",
+      "bytes": 149689
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_30.png.meta": {
+      "sha256": "764a2dfc33df4eaf80e91d2aca314abaa714d31d8652cbc6be2a1bb8875afcd9",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_4.png": {
+      "sha256": "3db42535de44ab9081b6c75ef25dcd8a7ee776ef3d852fbae09533eec00b8fc0",
+      "bytes": 87423
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_4.png.meta": {
+      "sha256": "19b3aa17767b9016cd1d63d44b852030fcd34a0befd475ef203ed29dc2cd3bdf",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_5.png": {
+      "sha256": "16ec8d901e570ba1d8bd2613b33c3195c96287f45bbe3edd0f70caf3cefdd4d6",
+      "bytes": 111995
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_5.png.meta": {
+      "sha256": "975a628b08cc4c8075b9ee926bccf347cebfd192d5daa39aadbf00f2592a87e1",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_6.png": {
+      "sha256": "ba0170fdfb0e30fae8984a72b55c6abea6b9fe7c6571988cd9a171255e2bc37a",
+      "bytes": 119394
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_6.png.meta": {
+      "sha256": "12e1055cd83bc7310b62328906c4b8f8cef325f20f9214632339d8a18e5fd9ca",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_7.png": {
+      "sha256": "ac921099baa71ae87bdb2b5fa79b6f5b7c0cbed32d936e7068eb5caf1fae4918",
+      "bytes": 122078
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_7.png.meta": {
+      "sha256": "214994c88d8fc9b73396e30d5ff858344f6253217e6ba19fd8db4896f53f621c",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_8.png": {
+      "sha256": "87d1165d9cdad3ceba9f03ac48383852f6d47da6d7b056f23760bd445f64bc5d",
+      "bytes": 151881
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_8.png.meta": {
+      "sha256": "ea4e4729ab2701c5b2ef13d10fd9ecbc05596a41649ead43f4401424cc27dc19",
+      "bytes": 255
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_9.png": {
+      "sha256": "5e16be56f54c4efae7f33d017ea768bf41123134d7656e10b4108938b6ef6545",
+      "bytes": 108499
+    },
+    "assets/lingshui/textures/LingshuiLake_tex_9.png.meta": {
+      "sha256": "34013becd41eed4ab652ce102461486679acff20776ab50841835e4d123ae2a7",
+      "bytes": 255
+    },
+    "assets/LingshuiGame.ls": {
+      "sha256": "3d33e9d3ca122991dc1d737842977faea580940fe52269857f8e9f3c4ba0a2f9",
+      "bytes": 5302
+    },
+    "assets/LingshuiGame.ls.meta": {
+      "sha256": "b34e42e15c3fffd7cc0e3458cb76332864d750302d082687048c96566608ab87",
+      "bytes": 53
+    },
+    "assets/resources/layaAir.png": {
+      "sha256": "ef747ba1544684249c7b6127a4b30aad5b86491490251f3dc832e083f4ddd8e0",
+      "bytes": 7731
+    },
+    "assets/resources/layaAir.png.meta": {
+      "sha256": "016a74d873a9b35305fd2fadc7d92e2ec124b629e3102351ae658b1960bfdb6a",
+      "bytes": 140
+    },
+    "assets/resources/LingshuiCollision.json": {
+      "sha256": "92d9e9cc64355264f35435546ff265428540df8b67f25fe6f615457a6dbf1ec0",
+      "bytes": 6569376
+    },
+    "assets/resources/LingshuiCollision.json.meta": {
+      "sha256": "097b519935349de4353cf9bef0a7b7653f8bb50d8c49093ad90225c206f4c43d",
+      "bytes": 52
+    },
+    "assets/Scene.ls": {
+      "sha256": "3d33e9d3ca122991dc1d737842977faea580940fe52269857f8e9f3c4ba0a2f9",
+      "bytes": 5302
+    },
+    "assets/Scene.ls.meta": {
+      "sha256": "c1dfa6db92ca9d4e698fcb7984a0f7e9e0f96842bc7266752bd831497d82a772",
+      "bytes": 54
+    },
+    "settings/BuildSettings.json": {
+      "sha256": "a81eaccf3ef80bd3b9ce83f115a91643aee466e8e97fc6b757b1701117985beb",
+      "bytes": 250
+    },
+    "settings/EditorSettings.json": {
+      "sha256": "6a7d4785dd22698fcb9d79005c2dd86f2509260e00af3aeea6ac42a501f3b011",
+      "bytes": 105
+    },
+    "settings/PlayerSettings.json": {
+      "sha256": "c4ffce9a1b1f271ef28c635c3741b93ae14a9bf864ca0e557a973238810ebd68",
+      "bytes": 324
+    },
+    "settings/SceneViewSettings.json": {
+      "sha256": "76b93656d7c5f4fbfc320b92bbf2b4cffff6b4d83a39af3c6c564aa660c7265e",
+      "bytes": 43
+    },
+    "LH.laya": {
+      "sha256": "5a2ecc718c2ef16bafb6472f1437ba70be081a20c8c7a576840cc133491ac811",
+      "bytes": 24
+    },
+    "src/FirstPersonArms.ts.meta": {
+      "sha256": "1b4507bbe50b973e90dcbc8e431ab2e319f940d837d632bc991809b891de322b",
+      "bytes": 52
+    },
+    "src/LakeDuck.ts.meta": {
+      "sha256": "635ad149865acec8811839a3cf168aa088dedd18af9f7d7d1ae63c17f853c042",
+      "bytes": 52
+    },
+    "src/LingshuiGame.ts.meta": {
+      "sha256": "a9a33545df7a31810bc79fd1e1a84b09dfb6dd63d314b620befab7750804ede6",
+      "bytes": 52
+    },
+    "src/Main.ts.meta": {
+      "sha256": "7cdedfb9f1d605a6496d6dbe1531b8563ce327c83450983ce10ac8e62778547a",
+      "bytes": 54
+    },
+    "src/MobileInput.ts.meta": {
+      "sha256": "129d6ecfd3b17ab9c2bfbd30253e18747955e80467627d9efff5e20f54f370fe",
+      "bytes": 52
+    },
+    "src/PlayerAvatar.ts.meta": {
+      "sha256": "d6ff0d063386144a560f024c3ee9155ba26a874d257a19e59a5f330e04b5c483",
+      "bytes": 52
+    },
+    "src/PlayerCameraFollow.ts.meta": {
+      "sha256": "fc5248906ff079c9cde8e3e9a493c7b2085a156bbfa2653b74ffaf23ac3c407e",
+      "bytes": 52
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "runId": "3ebfd955-8f26-4421-abe1-d98a4daef591",
+  "category": "environment",
+  "project": "D:\\a\\baseline-checks\\LH-stable-20260920",
+  "startedAt": "2026-09-20T11:52:26.656Z",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "Node >=20",
+      "status": "PASS",
+      "detail": "v24.16.0"
+    },
+    {
+      "name": "Locked TypeScript",
+      "status": "PASS",
+      "detail": "5.9.3"
+    },
+    {
+      "name": "Python >=3.10",
+      "status": "PASS",
+      "detail": "3.12.10"
+    },
+    {
+      "name": "Git",
+      "status": "PASS",
+      "detail": {
+        "version": "git version 2.55.0.windows.3",
+        "commit": "8b074607fde912add41031b4904eb740ec516874"
+      }
+    },
+    {
+      "name": "Git LFS restored",
+      "status": "PASS",
+      "detail": {
+        "version": "git-lfs/3.7.1 (GitHub; windows amd64; go 1.25.1; git b84b3384)",
+        "files": 125,
+        "unresolvedPointers": 0
+      }
+    },
+    {
+      "name": "LayaAir IDE 3.4.1",
+      "status": "PASS",
+      "detail": {
+        "root": "D:\\a\\LayaAirIDE",
+        "executable": "D:\\a\\LayaAirIDE\\LayaAirIDE.exe",
+        "resources": "D:\\a\\LayaAirIDE\\resources",
+        "engineLibs": "D:\\a\\LayaAirIDE\\resources\\engine\\libs",
+        "version": "3.4.1"
+      }
+    }
+  ],
+  "finishedAt": "2026-09-20T11:52:27.504Z"
+}

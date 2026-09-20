@@ -6,13 +6,13 @@ const fs = require("node:fs");
 const path = require("node:path");
 const crypto = require("node:crypto");
 const assert = require("node:assert/strict");
-const root = path.resolve(__dirname, "..");
-const ide = path.resolve(root, "../../LayaAirIDE/resources");
-const ts = require(process.env.TYPESCRIPT_PATH || path.join(ide, "node_modules/typescript"));
-const enginePath = path.join(ide, "engine/libs/laya.core.js");
-const engineSource = fs.readFileSync(enginePath, "utf8").replace(/\r\n/g, "\n");
-const downBody = engineSource.match(/canvas\.addEventListener\("pointerdown", ev => \{([\s\S]*?)\n\s*\}\);/)[1];
-const upBody = engineSource.match(/canvas\.addEventListener\("pointerup", ev => \{([\s\S]*?)\n\s*\}, true\);/)[1];
+const suite = require("./testing/context.cjs").createSuite("player-input");
+const root = suite.root, ts = suite.ts;
+const engine = suite.readEngineSource("laya.core.js");
+const enginePath = engine.path || null, engineSource = engine.source || "";
+const downMatch = engineSource.match(/canvas\.addEventListener\("pointerdown", ev => \{([\s\S]*?)\n\s*\}\);/);
+const upMatch = engineSource.match(/canvas\.addEventListener\("pointerup", ev => \{([\s\S]*?)\n\s*\}, true\);/);
+const downBody = downMatch?.[1] || "", upBody = upMatch?.[1] || "";
 const sources = Object.fromEntries(["MobileInput", "LingshuiGame", "PlayerAvatar", "FirstPersonArms", "PlayerCameraFollow", "LakeDuck"].map(name =>
     [name, fs.readFileSync(path.join(root, "src", name + ".ts"), "utf8")]));
 
@@ -112,7 +112,7 @@ function environment(coarse = false) {
     env.unlock = () => { doc.pointerLockElement = null; env.dispatch(doc, "pointerlockchange"); };
     doc.exitPointerLock = () => { if (!env.deferUnlock) env.unlock(); };
     env.canvas = doc.body.appendChild(new Element(env, "canvas"));
-    // Install the actual engine callback bodies before the game, matching Laya's initialization order.
+    // Installed callbacks, when available. Missing-engine fixtures exercise logic only; engine contracts are NOT TESTED.
     env.engineDown = new Function("canvas", `return function(ev){${downBody}\n}`)(env.canvas);
     env.engineUp = new Function("canvas", `return function(ev){${upBody}\n}`)(env.canvas);
     env.canvas.addEventListener("pointerdown", env.engineDown);
@@ -178,10 +178,15 @@ function fixture(coarse = false) {
         motionName: () => load("PlayerAvatar").PlayerMotion[avatar.motion] };
 }
 
-const tests = [];
+const tests = suite.tests;
+const engineContracts = new Set([
+    "native_engine_capture_conflict_reproduced", "first_lock_click_does_not_fire",
+    "locked_mouse_hold_repeats_and_stops_without_engine_capture", "locked_right_button_never_captures_or_fires",
+    "mouse_pointercancel_releases_hold", "touch_switch_during_pointer_lock_skips_both_engine_capture_paths",
+    "destroy_removes_input_guards_and_listeners"
+]);
 function test(name, body) {
-    try { tests.push({ name, status: "PASS", details: body() }); }
-    catch (error) { tests.push({ name, status: "FAIL", error: error.message, stack: error.stack }); }
+    suite.test(name, body, engineContracts.has(name) ? { kind: "engine_contract", dependency: engine } : {});
 }
 function stopped(f) {
     assert.equal(f.avatar.triggerHeld, false);
@@ -190,6 +195,7 @@ function stopped(f) {
 }
 
 test("native_engine_capture_conflict_reproduced", () => {
+    assert.ok(downMatch && upMatch, "Installed Laya engine pointer callbacks no longer match the checked source contract");
     const env = environment(); env.activePointers.add(1); env.document.pointerLockElement = env.canvas;
     assert.throws(() => env.engineDown({ pointerId: 1 }), error => error.name === "InvalidStateError");
     return { source: enginePath, native_callback: "InputManager.__init__: pointerdown", exception: "InvalidStateError" };
@@ -411,14 +417,10 @@ test("speed_uses_elapsed_time_before_control_dt_clamp", () => {
     return { distance_m: 0.4, sample_seconds: 0.2, measured_speed: f.game.actualSpeed };
 });
 
-const passed = tests.filter(t => t.status === "PASS").length;
-const report = { status: passed === tests.length ? "PASS" : "FAIL", checked_utc: new Date().toISOString(),
+suite.finish({
     scope: "Production input, PlayerAvatar firing/motion decisions, actual-position speed sampling and installed Laya pointer callbacks; DOM/physics-position fixtures, no live UI",
     source_sha256: Object.fromEntries(Object.entries(sources).map(([name, source]) => [name + ".ts", crypto.createHash("sha256").update(source).digest("hex")])),
-    engine_source: enginePath, engine_capture_line: engineSource.slice(0, engineSource.indexOf("canvas.setPointerCapture(ev.pointerId)")).split("\n").length,
-    pulse_duration_fixture_s: 0.2, node_version: process.version, total: tests.length, passed, failed: tests.length - passed, tests };
-const output = path.join(root, "docs/player_avatar/input_hold_tests.json");
-fs.mkdirSync(path.dirname(output), { recursive: true }); fs.writeFileSync(output, JSON.stringify(report, null, 2) + "\n");
-console.log(JSON.stringify({ status: report.status, passed, failed: report.failed, output,
-    failures: tests.filter(t => t.status === "FAIL").map(({ name, error }) => ({ name, error })) }, null, 2));
-process.exitCode = report.status === "PASS" ? 0 : 1;
+    engine_source: enginePath,
+    engine_capture_line: engine.available && downMatch ? engineSource.slice(0, engineSource.indexOf("canvas.setPointerCapture(ev.pointerId)")).split("\n").length : null,
+    engine_callbacks_used: !!(engine.available && downMatch && upMatch), pulse_duration_fixture_s: 0.2
+});

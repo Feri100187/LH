@@ -1,0 +1,22 @@
+{
+  "name": "lh-game",
+  "version": "0.1.0",
+  "private": true,
+  "description": "LayaAir LH project validation tools",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "doctor": "node tools/doctor.cjs",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "node tools/testing/run-tests.cjs",
+    "assets:check": "node tools/assets.cjs check",
+    "assets:prepare": "node tools/assets.cjs prepare",
+    "assets:import": "node tools/assets.cjs import",
+    "build": "node tools/build.cjs",
+    "serve": "node tools/serve.cjs"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3"
+  }
+}

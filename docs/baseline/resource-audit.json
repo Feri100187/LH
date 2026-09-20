@@ -1,0 +1,2120 @@
+{
+  "schemaVersion": 1,
+  "auditedAt": "2026-09-20T11:31:24.216Z",
+  "formalManifestPresent": true,
+  "formalManifestPath": "config/assets.manifest.json",
+  "riskScope": "Resource snapshot remains valid. The old rigged fallback was removed by the formal importer; the two legacy sync writers are now verification-only aliases, and all six authoring project roots resolve from actual __file__. Historical findings are retained with resolved status.",
+  "projectRoot": "D:/a/xiang_mu/LH",
+  "method": "The original audit read current files/.meta UUIDs and compared GLB accessor/native-cache bytes without edits. Subsequent authorized maintenance changed only the eight listed tool scripts and these two audit documents. No Blender authoring recipe, UI, commit, model/asset/src/settings/manifest/package changes were made by this subtask.",
+  "engineVersion": "3.4.1",
+  "entrypoints": {
+    "project": {
+      "path": "LH.laya",
+      "uuid": null,
+      "bytes": 24
+    },
+    "settings": {
+      "path": "settings/BuildSettings.json",
+      "uuid": null,
+      "bytes": 250
+    },
+    "startup": {
+      "uuid": "e13ac28a-6bc3-4a66-b660-a19c07c4ef7e",
+      "path": "assets/Scene.ls",
+      "builtin": null
+    },
+    "scenes": [
+      {
+        "path": "assets/Scene.ls",
+        "uuid": "e13ac28a-6bc3-4a66-b660-a19c07c4ef7e",
+        "bytes": 5302,
+        "sha256": "3d33e9d3ca122991dc1d737842977faea580940fe52269857f8e9f3c4ba0a2f9"
+      },
+      {
+        "path": "assets/LingshuiGame.ls",
+        "uuid": "482d8130-7c2c-428c-a196-e35801bed1b4",
+        "bytes": 5302,
+        "sha256": "3d33e9d3ca122991dc1d737842977faea580940fe52269857f8e9f3c4ba0a2f9"
+      }
+    ],
+    "sceneBytesIdentical": true,
+    "relationship": "Independent UUIDs and independent entry scenes, currently identical content; neither loads the other.",
+    "entryScript": {
+      "path": "src/LingshuiGame.ts",
+      "uuid": "05c791e1-eeac-4708-a700-002e211a5589",
+      "bytes": 28750
+    },
+    "mainScriptAttached": false,
+    "serializedCameraParameters": {
+      "_$type": "05c791e1-eeac-4708-a700-002e211a5589",
+      "shoulderDistance": 1.95,
+      "shoulderOffset": 0.65,
+      "shoulderHeight": 0.32
+    },
+    "browserServedDirectory": "release/web",
+    "launchScriptBuildsAutomatically": false
+  },
+  "runtimeDependencyClosure": {
+    "reachableFiles": 181,
+    "unresolvedUUIDs": [],
+    "duplicateMetaUUIDs": [],
+    "engineBuiltins": [
+      {
+        "name": "DefaultSkyProcedural.lmat",
+        "uuid": "a41f5cce-adac-4f00-816f-52e312722234",
+        "verifiedMeta": "D:/a/LayaAirIDE/resources/internal/DefaultSkyProcedural.lmat.meta",
+        "assetExists": true,
+        "materialType": "SkyProcedural"
+      },
+      {
+        "name": "Capsule.lm",
+        "uuid": "81a027ba-bf6c-4112-8e81-2a9b06c53290",
+        "verifiedMeta": "D:/a/LayaAirIDE/resources/internal/Capsule.lm.meta",
+        "assetExists": true
+      }
+    ],
+    "note": "Collision JSON is an explicit TypeScript import; added separately to the resource graph. Player/FPS/duck runtime uses unpacked native assets; their GLBs are authoring/import inputs."
+  },
+  "world": {
+    "editableSource": {
+      "path": "source_art/凌水湖_游戏修复.blend",
+      "uuid": null,
+      "bytes": 9397537,
+      "sha256": "776a846a3995778c40f79e3a0b1ac268515d8550ed1cbc05fee45d53f710ee44"
+    },
+    "historicalSource": "source_art/凌水湖_场景.blend",
+    "gameGLB": {
+      "path": "assets/lingshui/LingshuiLake.glb",
+      "uuid": "43275236-c4e9-4834-bbd2-1dde45172e6e",
+      "bytes": 78832684,
+      "sha256": "3ef97cca944988234bb2a583a92b5d9d125efc5b2e9461c7650b249c82261b8a",
+      "meshes": 85,
+      "materials": 56,
+      "images": 31,
+      "nodes": 1185,
+      "deformJoints": 0,
+      "clips": []
+    },
+    "prefab": {
+      "path": "assets/lingshui/LingshuiEnvironment.lh",
+      "uuid": "761ed02f-fa79-41bc-b5f5-fda957facc9b",
+      "bytes": 1120177,
+      "sha256": "bb662ab84b5677158161914f9996704fb7f32038c8a1ef57791352cb0ea82cc9"
+    },
+    "visibleMeshNodes": 804,
+    "nativeMeshOverrides": [
+      {
+        "object": "亭台旁_狭长低矮草洲.001",
+        "path": "assets/lingshui/site_fixed/SiteFixed_00.lm",
+        "uuid": "3cabf3cc-5726-4690-8de1-587ed8f37f51",
+        "bytes": 26980,
+        "baseGLBMeshIndex": 0,
+        "vertices": 756,
+        "triangles": 428,
+        "positionBytesIdenticalToCurrentGLB": true,
+        "indexValuesIdenticalToCurrentGLB": false,
+        "indexValuesIdenticalAfterLayaPrimitiveReversal": true
+      },
+      {
+        "object": "连续坡地_照片湖形约束.001",
+        "path": "assets/lingshui/site_fixed/SiteFixed_02.lm",
+        "uuid": "67f87770-135a-458a-891e-79c7ae380f00",
+        "bytes": 1617170,
+        "baseGLBMeshIndex": 2,
+        "vertices": 36924,
+        "triangles": 72570,
+        "positionBytesIdenticalToCurrentGLB": true,
+        "indexValuesIdenticalToCurrentGLB": false,
+        "indexValuesIdenticalAfterLayaPrimitiveReversal": true
+      },
+      {
+        "object": "凌水湖_狭长主湖_水面.001",
+        "path": "assets/lingshui/site_fixed/SiteFixed_03.lm",
+        "uuid": "c3c54473-bd59-45db-9511-ef788698936e",
+        "bytes": 9970,
+        "baseGLBMeshIndex": 3,
+        "vertices": 265,
+        "triangles": 218,
+        "positionBytesIdenticalToCurrentGLB": true,
+        "indexValuesIdenticalToCurrentGLB": false,
+        "indexValuesIdenticalAfterLayaPrimitiveReversal": true
+      },
+      {
+        "object": "湖端_局部浅水湾_水面.001",
+        "path": "assets/lingshui/site_fixed/SiteFixed_05.lm",
+        "uuid": "0bf1a631-af4e-44cc-96e3-cac454302846",
+        "bytes": 2970,
+        "baseGLBMeshIndex": 5,
+        "vertices": 77,
+        "triangles": 54,
+        "positionBytesIdenticalToCurrentGLB": true,
+        "indexValuesIdenticalToCurrentGLB": false,
+        "indexValuesIdenticalAfterLayaPrimitiveReversal": true
+      },
+      {
+        "object": "红桥_平直桥面与实体桥墩.001",
+        "path": "assets/lingshui/site_fixed/SiteFixed_08.lm",
+        "uuid": "7eb543a9-8553-4872-9e43-3f19fae5d572",
+        "bytes": 12820,
+        "baseGLBMeshIndex": 8,
+        "vertices": 360,
+        "triangles": 180,
+        "positionBytesIdenticalToCurrentGLB": true,
+        "indexValuesIdenticalToCurrentGLB": false,
+        "indexValuesIdenticalAfterLayaPrimitiveReversal": true
+      },
+      {
+        "object": "红桥_连续浅色道路栏杆.001",
+        "path": "assets/lingshui/site_fixed/SiteFixed_10.lm",
+        "uuid": "0baa4cef-9fe5-4729-9194-6dccd5d714f0",
+        "bytes": 1127462,
+        "baseGLBMeshIndex": 10,
+        "vertices": 32208,
+        "triangles": 16104,
+        "positionBytesIdenticalToCurrentGLB": true,
+        "indexValuesIdenticalToCurrentGLB": false,
+        "indexValuesIdenticalAfterLayaPrimitiveReversal": true
+      },
+      {
+        "object": "亭台与短桥｜实体灰色侧梁.001",
+        "path": "assets/lingshui/site_fixed/SiteFixed_11.lm",
+        "uuid": "cc8a65f1-a3aa-4316-9153-e31bc6fc8f04",
+        "bytes": 34390,
+        "baseGLBMeshIndex": 11,
+        "vertices": 976,
+        "triangles": 496,
+        "positionBytesIdenticalToCurrentGLB": true,
+        "indexValuesIdenticalToCurrentGLB": false,
+        "indexValuesIdenticalAfterLayaPrimitiveReversal": true
+      },
+      {
+        "object": "凉亭｜上下檐梁、斗拱与椽架.001",
+        "path": "assets/lingshui/site_fixed/SiteFixed_12.lm",
+        "uuid": "6deb2e86-f35f-48c4-8c85-dfca6f3eac33",
+        "bytes": 971190,
+        "baseGLBMeshIndex": 12,
+        "vertices": 27482,
+        "triangles": 15264,
+        "positionBytesIdenticalToCurrentGLB": true,
+        "indexValuesIdenticalToCurrentGLB": false,
+        "indexValuesIdenticalAfterLayaPrimitiveReversal": true
+      },
+      {
+        "object": "凉亭｜内沿木条坐凳.001",
+        "path": "assets/lingshui/site_fixed/SiteFixed_14.lm",
+        "uuid": "71af6786-444c-418a-8966-201d067239a6",
+        "bytes": 29582,
+        "baseGLBMeshIndex": 14,
+        "vertices": 840,
+        "triangles": 420,
+        "positionBytesIdenticalToCurrentGLB": true,
+        "indexValuesIdenticalToCurrentGLB": false,
+        "indexValuesIdenticalAfterLayaPrimitiveReversal": true
+      },
+      {
+        "object": "栏杆｜连续扶手与密集直棂.001",
+        "path": "assets/lingshui/site_fixed/SiteFixed_19.lm",
+        "uuid": "1c761ad4-da22-4670-9c37-9be4b2dce103",
+        "bytes": 325598,
+        "baseGLBMeshIndex": 19,
+        "vertices": 9240,
+        "triangles": 4956,
+        "positionBytesIdenticalToCurrentGLB": true,
+        "indexValuesIdenticalToCurrentGLB": false,
+        "indexValuesIdenticalAfterLayaPrimitiveReversal": true
+      },
+      {
+        "object": "岸上红褐慢行道_与水上栈道连续.001",
+        "path": "assets/lingshui/site_fixed/SiteFixed_23.lm",
+        "uuid": "b0c3a8df-f9f5-41ab-8992-f487aa6deeeb",
+        "bytes": 174286,
+        "baseGLBMeshIndex": 23,
+        "vertices": 4936,
+        "triangles": 2692,
+        "positionBytesIdenticalToCurrentGLB": true,
+        "indexValuesIdenticalToCurrentGLB": false,
+        "indexValuesIdenticalAfterLayaPrimitiveReversal": true
+      },
+      {
+        "object": "离岸曲线栈道_两侧留水_密集棕色栏杆.001",
+        "path": "assets/lingshui/site_fixed/SiteFixed_25.lm",
+        "uuid": "58c76bec-34ac-4062-bad0-bfdd8c42c237",
+        "bytes": 2109758,
+        "baseGLBMeshIndex": 25,
+        "vertices": 59856,
+        "triangles": 32364,
+        "positionBytesIdenticalToCurrentGLB": true,
+        "indexValuesIdenticalToCurrentGLB": false,
+        "indexValuesIdenticalAfterLayaPrimitiveReversal": true
+      },
+      {
+        "object": "临湖长楼_连续硬质前场.001",
+        "path": "assets/lingshui/site_fixed/SiteFixed_27.lm",
+        "uuid": "2655af91-2d43-4051-9265-1bcd3d30b65a",
+        "bytes": 98678,
+        "baseGLBMeshIndex": 27,
+        "vertices": 2802,
+        "triangles": 1472,
+        "positionBytesIdenticalToCurrentGLB": true,
+        "indexValuesIdenticalToCurrentGLB": false,
+        "indexValuesIdenticalAfterLayaPrimitiveReversal": true
+      },
+      {
+        "object": "桥前白色折返楼梯_落在坡地.001",
+        "path": "assets/lingshui/site_fixed/SiteFixed_29.lm",
+        "uuid": "73c8ee7e-2358-4c2b-9334-0059ea4d9dd5",
+        "bytes": 412124,
+        "baseGLBMeshIndex": 29,
+        "vertices": 11756,
+        "triangles": 5952,
+        "positionBytesIdenticalToCurrentGLB": true,
+        "indexValuesIdenticalToCurrentGLB": false,
+        "indexValuesIdenticalAfterLayaPrimitiveReversal": true
+      },
+      {
+        "object": "临湖楼_双层高退进门厅与白色挑檐.001",
+        "path": "assets/lingshui/LingshuiEntrance_Fixed.lm",
+        "uuid": "de10a742-3ae6-428a-b6e9-695f1ed44ecb",
+        "bytes": 561714,
+        "baseGLBMeshIndex": 37,
+        "vertices": 15656,
+        "triangles": 10052,
+        "positionBytesIdenticalToCurrentGLB": true,
+        "indexValuesIdenticalToCurrentGLB": false,
+        "indexValuesIdenticalAfterLayaPrimitiveReversal": true
+      }
+    ],
+    "currentGLBContainsOverrideGeometry": true,
+    "foliage": {
+      "path": "assets/lingshui/Foliage.lmat",
+      "uuid": "9d6d732a-4cb8-4207-8ab1-206fba8d8a8b",
+      "bytes": 3113,
+      "bindingCount": 293,
+      "vertexColorEnabled": true
+    },
+    "collision": {
+      "path": "assets/resources/LingshuiCollision.json",
+      "uuid": "3870065b-ca93-4596-9e47-082fd7b2a160",
+      "bytes": 6569376,
+      "sha256": "92d9e9cc64355264f35435546ff265428540df8b67f25fe6f615457a6dbf1ec0",
+      "chunks": 1361,
+      "boxes": 5,
+      "trunks": 204,
+      "totalStaticColliders": 1570,
+      "triangles": 188370,
+      "coordinateSystem": "X,Z,-Y from Blender, metres",
+      "loadedBy": "src/LingshuiGame.ts direct TypeScript import"
+    },
+    "rebuildBoundary": "World source/GLB coexist with explicit native override UUIDs and custom material/collision data. A full world/cubemap generator is not present in repository-local tools/source_art."
+  },
+  "water": {
+    "material": {
+      "path": "assets/lingshui/LakeWater.lmat",
+      "uuid": "32cda929-d7cc-4361-8cdc-067cd0b53450",
+      "bytes": 774,
+      "sha256": "e1be7d3e0d81f1f6706749ad42b716134a0e334f6c5de765b67594bce207a6fe",
+      "shaderType": "LingshuiLakeWater20260920",
+      "shader": {
+        "uuid": "c8dcaf2f-fb32-41ad-8270-bdc25c5e6f97",
+        "path": "assets/lingshui/LakeWater.shader",
+        "builtin": null
+      },
+      "textures": [
+        {
+          "name": "u_EnvironmentCube",
+          "uuid": "e02dac6a-2cce-4d6a-8332-8cc6e9eec8de",
+          "path": "assets/lingshui/LakeReflection.ltcb",
+          "builtin": null
+        }
+      ],
+      "renderQueue": 3000,
+      "depthWrite": false,
+      "probePosition": [
+        -20,
+        0.4,
+        8
+      ],
+      "boxMin": [
+        -110,
+        -2,
+        -48
+      ],
+      "boxMax": [
+        84,
+        46,
+        43
+      ]
+    },
+    "shader": {
+      "path": "assets/lingshui/LakeWater.shader",
+      "uuid": "c8dcaf2f-fb32-41ad-8270-bdc25c5e6f97",
+      "bytes": 4226,
+      "sha256": "bede853ad4bb5083515d76cfb36e7ad2982a6d0d5f2d798c7f3bb8978ce709e8"
+    },
+    "reflection": {
+      "path": "assets/lingshui/LakeReflection.ltcb",
+      "uuid": "e02dac6a-2cce-4d6a-8332-8cc6e9eec8de",
+      "bytes": 2097174,
+      "sha256": "095b9eed98b5fe301509924b6b50badfa8d044869a11b4cdb38209ea43c51313",
+      "signature": "LAYATEXTURECUBE:0000",
+      "format": 1,
+      "mipCount": 9,
+      "faceSize": 256,
+      "faces": 6,
+      "parserEvidence": "D:/a/LayaAirIDE/resources/engine/libs/laya.d3.js:19876",
+      "dynamicProbe": false
+    },
+    "waterNodes": [
+      {
+        "name": "凌水湖_狭长主湖_水面.001",
+        "mesh": {
+          "uuid": "c3c54473-bd59-45db-9511-ef788698936e",
+          "path": "assets/lingshui/site_fixed/SiteFixed_03.lm",
+          "builtin": null
+        }
+      },
+      {
+        "name": "湖端_局部浅水湾_水面.001",
+        "mesh": {
+          "uuid": "0bf1a631-af4e-44cc-96e3-cac454302846",
+          "path": "assets/lingshui/site_fixed/SiteFixed_05.lm",
+          "builtin": null
+        }
+      }
+    ],
+    "waves": "Analytic shader slopes driven by engine u_Time; Fresnel, distance attenuation and static environment cube.",
+    "legacyRipple": {
+      "path": "assets/lingshui/LakeRipple.png",
+      "uuid": "f4556b40-ddd1-44c2-b472-957a1ec99122",
+      "bytes": 558689,
+      "currentlyReferenced": false
+    },
+    "legacyRuntimeNormalTransformConsumedByCurrentShader": false
+  },
+  "player": {
+    "sourceBlend": {
+      "path": "source_art/AnimeWatergunBoy/neck_short_20260920/AnimeWatergunBoy_NeckShort.blend",
+      "uuid": null,
+      "bytes": 4586423,
+      "sha256": "fe93d4319d7fd884a0f67bcf691da0810ebb47559b6fc60c2ad1d198377083d8"
+    },
+    "sourceGLB": {
+      "path": "source_art/AnimeWatergunBoy/neck_short_20260920/AnimeWatergunBoy_NeckShort.glb",
+      "uuid": null,
+      "bytes": 6939624,
+      "sha256": "eb5244f8e98d15b890cb33a8a76569b6fe3dc537e95a602d75a4c93f20960cc3",
+      "meshes": 44,
+      "materials": 45,
+      "images": 1,
+      "nodes": 100,
+      "deformJoints": 55,
+      "clips": [
+        {
+          "name": "Idle",
+          "index": 0,
+          "seconds": 3,
+          "channels": 165
+        },
+        {
+          "name": "Jump",
+          "index": 1,
+          "seconds": 1.399999976158142,
+          "channels": 165
+        },
+        {
+          "name": "Run",
+          "index": 2,
+          "seconds": 0.6000000238418579,
+          "channels": 165
+        },
+        {
+          "name": "RunBack",
+          "index": 3,
+          "seconds": 0.7333333492279053,
+          "channels": 165
+        },
+        {
+          "name": "RunBackLeft",
+          "index": 4,
+          "seconds": 0.7333333492279053,
+          "channels": 165
+        },
+        {
+          "name": "RunBackRight",
+          "index": 5,
+          "seconds": 0.7333333492279053,
+          "channels": 165
+        },
+        {
+          "name": "RunForwardLeft",
+          "index": 6,
+          "seconds": 0.6666666865348816,
+          "channels": 165
+        },
+        {
+          "name": "RunForwardRight",
+          "index": 7,
+          "seconds": 0.6666666865348816,
+          "channels": 165
+        },
+        {
+          "name": "RunJump",
+          "index": 8,
+          "seconds": 1.600000023841858,
+          "channels": 165
+        },
+        {
+          "name": "RunLeft",
+          "index": 9,
+          "seconds": 0.6666666865348816,
+          "channels": 165
+        },
+        {
+          "name": "RunRight",
+          "index": 10,
+          "seconds": 0.6666666865348816,
+          "channels": 165
+        },
+        {
+          "name": "Shoot",
+          "index": 11,
+          "seconds": 0.20000000298023224,
+          "channels": 165
+        },
+        {
+          "name": "Walk",
+          "index": 12,
+          "seconds": 0.7333333492279053,
+          "channels": 165
+        },
+        {
+          "name": "WalkBack",
+          "index": 13,
+          "seconds": 0.800000011920929,
+          "channels": 165
+        },
+        {
+          "name": "WalkBackLeft",
+          "index": 14,
+          "seconds": 0.8666666746139526,
+          "channels": 165
+        },
+        {
+          "name": "WalkBackRight",
+          "index": 15,
+          "seconds": 0.8666666746139526,
+          "channels": 165
+        },
+        {
+          "name": "WalkForwardLeft",
+          "index": 16,
+          "seconds": 0.800000011920929,
+          "channels": 165
+        },
+        {
+          "name": "WalkForwardRight",
+          "index": 17,
+          "seconds": 0.800000011920929,
+          "channels": 165
+        },
+        {
+          "name": "WalkLeft",
+          "index": 18,
+          "seconds": 0.800000011920929,
+          "channels": 165
+        },
+        {
+          "name": "WalkRight",
+          "index": 19,
+          "seconds": 0.800000011920929,
+          "channels": 165
+        }
+      ]
+    },
+    "gameGLB": {
+      "path": "assets/characters/AnimeWatergunPlayer.glb",
+      "uuid": "d49b4ea3-1d69-470a-b1aa-31dc650744fc",
+      "bytes": 7613724,
+      "sha256": "b02caf88c1d207049a797757eafd7da229cdcb479109bf0db5a57258aab0cafd",
+      "meshes": 44,
+      "materials": 45,
+      "images": 1,
+      "nodes": 100,
+      "deformJoints": 55,
+      "clips": [
+        {
+          "name": "Idle",
+          "index": 0,
+          "seconds": 3,
+          "channels": 164
+        },
+        {
+          "name": "Jump",
+          "index": 1,
+          "seconds": 1.399999976158142,
+          "channels": 164
+        },
+        {
+          "name": "Run",
+          "index": 2,
+          "seconds": 0.6000000238418579,
+          "channels": 164
+        },
+        {
+          "name": "RunBack",
+          "index": 3,
+          "seconds": 0.7333333492279053,
+          "channels": 164
+        },
+        {
+          "name": "RunBackLeft",
+          "index": 4,
+          "seconds": 0.7333333492279053,
+          "channels": 164
+        },
+        {
+          "name": "RunBackRight",
+          "index": 5,
+          "seconds": 0.7333333492279053,
+          "channels": 164
+        },
+        {
+          "name": "RunForwardLeft",
+          "index": 6,
+          "seconds": 0.6666666865348816,
+          "channels": 164
+        },
+        {
+          "name": "RunForwardRight",
+          "index": 7,
+          "seconds": 0.6666666865348816,
+          "channels": 164
+        },
+        {
+          "name": "RunJump",
+          "index": 8,
+          "seconds": 1.600000023841858,
+          "channels": 164
+        },
+        {
+          "name": "RunLeft",
+          "index": 9,
+          "seconds": 0.6666666865348816,
+          "channels": 164
+        },
+        {
+          "name": "RunRight",
+          "index": 10,
+          "seconds": 0.6666666865348816,
+          "channels": 164
+        },
+        {
+          "name": "Shoot",
+          "index": 11,
+          "seconds": 0.20000000298023224,
+          "channels": 164
+        },
+        {
+          "name": "Walk",
+          "index": 12,
+          "seconds": 0.7333333492279053,
+          "channels": 164
+        },
+        {
+          "name": "WalkBack",
+          "index": 13,
+          "seconds": 0.800000011920929,
+          "channels": 164
+        },
+        {
+          "name": "WalkBackLeft",
+          "index": 14,
+          "seconds": 0.8666666746139526,
+          "channels": 164
+        },
+        {
+          "name": "WalkBackRight",
+          "index": 15,
+          "seconds": 0.8666666746139526,
+          "channels": 164
+        },
+        {
+          "name": "WalkForwardLeft",
+          "index": 16,
+          "seconds": 0.800000011920929,
+          "channels": 164
+        },
+        {
+          "name": "WalkForwardRight",
+          "index": 17,
+          "seconds": 0.800000011920929,
+          "channels": 164
+        },
+        {
+          "name": "WalkLeft",
+          "index": 18,
+          "seconds": 0.800000011920929,
+          "channels": 164
+        },
+        {
+          "name": "WalkRight",
+          "index": 19,
+          "seconds": 0.800000011920929,
+          "channels": 164
+        },
+        {
+          "name": "JumpAir",
+          "index": 20,
+          "seconds": 0.5600000023841858,
+          "channels": 164
+        },
+        {
+          "name": "JumpLand",
+          "index": 21,
+          "seconds": 0.4339999854564667,
+          "channels": 164
+        },
+        {
+          "name": "RunJumpAir",
+          "index": 22,
+          "seconds": 0.7839999794960022,
+          "channels": 164
+        },
+        {
+          "name": "RunJumpLand",
+          "index": 23,
+          "seconds": 0.4320000112056732,
+          "channels": 164
+        }
+      ]
+    },
+    "importer": {
+      "scaleFactor": 1,
+      "AnimCompression": false
+    },
+    "sourceToGame": {
+      "meshDifferences": [
+        {
+          "mesh": 22,
+          "name": "AWB.Jacket tailored body.mesh.001",
+          "semantic": "COLOR_0",
+          "sourceType": "VEC3",
+          "gameType": "VEC4"
+        },
+        {
+          "mesh": 27,
+          "name": "AWB.Right trouser cut.mesh.001",
+          "semantic": "COLOR_0",
+          "sourceType": "VEC3",
+          "gameType": "VEC4"
+        }
+      ],
+      "allOtherGeometryAccessorsByteIdentical": true,
+      "nodesAndDefaultTRSIdentical": true,
+      "inverseBindBytesIdentical": true,
+      "sourceActions": [
+        {
+          "name": "Idle",
+          "retainedChannelsByteIdentical": 164,
+          "rootTranslationChannelsRemoved": 1
+        },
+        {
+          "name": "Jump",
+          "retainedChannelsByteIdentical": 164,
+          "rootTranslationChannelsRemoved": 1
+        },
+        {
+          "name": "Run",
+          "retainedChannelsByteIdentical": 164,
+          "rootTranslationChannelsRemoved": 1
+        },
+        {
+          "name": "RunBack",
+          "retainedChannelsByteIdentical": 164,
+          "rootTranslationChannelsRemoved": 1
+        },
+        {
+          "name": "RunBackLeft",
+          "retainedChannelsByteIdentical": 164,
+          "rootTranslationChannelsRemoved": 1
+        },
+        {
+          "name": "RunBackRight",
+          "retainedChannelsByteIdentical": 164,
+          "rootTranslationChannelsRemoved": 1
+        },
+        {
+          "name": "RunForwardLeft",
+          "retainedChannelsByteIdentical": 164,
+          "rootTranslationChannelsRemoved": 1
+        },
+        {
+          "name": "RunForwardRight",
+          "retainedChannelsByteIdentical": 164,
+          "rootTranslationChannelsRemoved": 1
+        },
+        {
+          "name": "RunJump",
+          "retainedChannelsByteIdentical": 164,
+          "rootTranslationChannelsRemoved": 1
+        },
+        {
+          "name": "RunLeft",
+          "retainedChannelsByteIdentical": 164,
+          "rootTranslationChannelsRemoved": 1
+        },
+        {
+          "name": "RunRight",
+          "retainedChannelsByteIdentical": 164,
+          "rootTranslationChannelsRemoved": 1
+        },
+        {
+          "name": "Shoot",
+          "retainedChannelsByteIdentical": 164,
+          "rootTranslationChannelsRemoved": 1
+        },
+        {
+          "name": "Walk",
+          "retainedChannelsByteIdentical": 164,
+          "rootTranslationChannelsRemoved": 1
+        },
+        {
+          "name": "WalkBack",
+          "retainedChannelsByteIdentical": 164,
+          "rootTranslationChannelsRemoved": 1
+        },
+        {
+          "name": "WalkBackLeft",
+          "retainedChannelsByteIdentical": 164,
+          "rootTranslationChannelsRemoved": 1
+        },
+        {
+          "name": "WalkBackRight",
+          "retainedChannelsByteIdentical": 164,
+          "rootTranslationChannelsRemoved": 1
+        },
+        {
+          "name": "WalkForwardLeft",
+          "retainedChannelsByteIdentical": 164,
+          "rootTranslationChannelsRemoved": 1
+        },
+        {
+          "name": "WalkForwardRight",
+          "retainedChannelsByteIdentical": 164,
+          "rootTranslationChannelsRemoved": 1
+        },
+        {
+          "name": "WalkLeft",
+          "retainedChannelsByteIdentical": 164,
+          "rootTranslationChannelsRemoved": 1
+        },
+        {
+          "name": "WalkRight",
+          "retainedChannelsByteIdentical": 164,
+          "rootTranslationChannelsRemoved": 1
+        }
+      ]
+    },
+    "wrapper": {
+      "path": "assets/characters/PlayerAvatar.lh",
+      "uuid": "e85fe60a-f535-4c66-b60d-9152dcd80153",
+      "bytes": 426
+    },
+    "native": {
+      "prefab": {
+        "path": "assets/characters/AnimeWatergunPlayer-unpacked/AnimeWatergunPlayer.lh",
+        "uuid": "22760ead-afd0-48cf-8155-7a1974793221",
+        "bytes": 325172,
+        "sha256": "1969404fdd7e707e37e2d473bfc9d71cdd5152f937be91548708ed34d3965b7a"
+      },
+      "meshCount": 44,
+      "nativeMeshesMatchingImportCache": 44,
+      "nativeClipsMatchingImportCache": 24,
+      "clips": [
+        {
+          "name": "Idle",
+          "index": 0,
+          "seconds": 3,
+          "channels": 164,
+          "path": "assets/characters/AnimeWatergunPlayer-unpacked/Idle.lani",
+          "uuid": "deb0e049-250a-4420-b8cd-34409af8af79",
+          "bytes": 648370,
+          "cacheEqual": true
+        },
+        {
+          "name": "Jump",
+          "index": 1,
+          "seconds": 1.399999976158142,
+          "channels": 164,
+          "path": "assets/characters/AnimeWatergunPlayer-unpacked/Jump.lani",
+          "uuid": "541f8384-e89d-44c7-bca0-fb2c3c5df79e",
+          "bytes": 309490,
+          "cacheEqual": true
+        },
+        {
+          "name": "Run",
+          "index": 2,
+          "seconds": 0.6000000238418579,
+          "channels": 164,
+          "path": "assets/characters/AnimeWatergunPlayer-unpacked/Run.lani",
+          "uuid": "8da791e2-52aa-4bbe-b0da-e51ddefd6f8e",
+          "bytes": 140049,
+          "cacheEqual": true
+        },
+        {
+          "name": "RunBack",
+          "index": 3,
+          "seconds": 0.7333333492279053,
+          "channels": 164,
+          "path": "assets/characters/AnimeWatergunPlayer-unpacked/RunBack.lani",
+          "uuid": "3327bba0-33d1-433b-8345-c905321c01f5",
+          "bytes": 168293,
+          "cacheEqual": true
+        },
+        {
+          "name": "RunBackLeft",
+          "index": 4,
+          "seconds": 0.7333333492279053,
+          "channels": 164,
+          "path": "assets/characters/AnimeWatergunPlayer-unpacked/RunBackLeft.lani",
+          "uuid": "e3a12288-e018-4ef6-a345-1c6a47d382b0",
+          "bytes": 168297,
+          "cacheEqual": true
+        },
+        {
+          "name": "RunBackRight",
+          "index": 5,
+          "seconds": 0.7333333492279053,
+          "channels": 164,
+          "path": "assets/characters/AnimeWatergunPlayer-unpacked/RunBackRight.lani",
+          "uuid": "2ec1d7c7-f5db-4597-89a1-85e2d1a07de0",
+          "bytes": 168298,
+          "cacheEqual": true
+        },
+        {
+          "name": "RunForwardLeft",
+          "index": 6,
+          "seconds": 0.6666666865348816,
+          "channels": 164,
+          "path": "assets/characters/AnimeWatergunPlayer-unpacked/RunForwardLeft.lani",
+          "uuid": "b0cb9937-172c-4bdc-9903-077ad3eba193",
+          "bytes": 154180,
+          "cacheEqual": true
+        },
+        {
+          "name": "RunForwardRight",
+          "index": 7,
+          "seconds": 0.6666666865348816,
+          "channels": 164,
+          "path": "assets/characters/AnimeWatergunPlayer-unpacked/RunForwardRight.lani",
+          "uuid": "1c8f4cfc-8ad3-4472-945f-4c24cdfea323",
+          "bytes": 154181,
+          "cacheEqual": true
+        },
+        {
+          "name": "RunJump",
+          "index": 8,
+          "seconds": 1.600000023841858,
+          "channels": 164,
+          "path": "assets/characters/AnimeWatergunPlayer-unpacked/RunJump.lani",
+          "uuid": "78a081d5-45fe-45a4-a7b7-8f8d27de6fcb",
+          "bytes": 351853,
+          "cacheEqual": true
+        },
+        {
+          "name": "RunLeft",
+          "index": 9,
+          "seconds": 0.6666666865348816,
+          "channels": 164,
+          "path": "assets/characters/AnimeWatergunPlayer-unpacked/RunLeft.lani",
+          "uuid": "5fa75e1e-b6c4-419f-8070-b615162ee166",
+          "bytes": 154173,
+          "cacheEqual": true
+        },
+        {
+          "name": "RunRight",
+          "index": 10,
+          "seconds": 0.6666666865348816,
+          "channels": 164,
+          "path": "assets/characters/AnimeWatergunPlayer-unpacked/RunRight.lani",
+          "uuid": "2cde06ae-027c-43e6-a4b2-a57a5923e297",
+          "bytes": 154174,
+          "cacheEqual": true
+        },
+        {
+          "name": "Shoot",
+          "index": 11,
+          "seconds": 0.20000000298023224,
+          "channels": 164,
+          "path": "assets/characters/AnimeWatergunPlayer-unpacked/Shoot.lani",
+          "uuid": "c5dd2631-b19b-4ab0-aaae-5e664b215fcb",
+          "bytes": 55331,
+          "cacheEqual": true
+        },
+        {
+          "name": "Walk",
+          "index": 12,
+          "seconds": 0.7333333492279053,
+          "channels": 164,
+          "path": "assets/characters/AnimeWatergunPlayer-unpacked/Walk.lani",
+          "uuid": "9ce0c109-44f8-49b3-b320-c1575fb602bd",
+          "bytes": 168290,
+          "cacheEqual": true
+        },
+        {
+          "name": "WalkBack",
+          "index": 13,
+          "seconds": 0.800000011920929,
+          "channels": 164,
+          "path": "assets/characters/AnimeWatergunPlayer-unpacked/WalkBack.lani",
+          "uuid": "2d2e8440-3130-4d38-be05-40ab1663f962",
+          "bytes": 182414,
+          "cacheEqual": true
+        },
+        {
+          "name": "WalkBackLeft",
+          "index": 14,
+          "seconds": 0.8666666746139526,
+          "channels": 164,
+          "path": "assets/characters/AnimeWatergunPlayer-unpacked/WalkBackLeft.lani",
+          "uuid": "6ccc32f4-e036-4ff3-8107-c5d1793a4b89",
+          "bytes": 196538,
+          "cacheEqual": true
+        },
+        {
+          "name": "WalkBackRight",
+          "index": 15,
+          "seconds": 0.8666666746139526,
+          "channels": 164,
+          "path": "assets/characters/AnimeWatergunPlayer-unpacked/WalkBackRight.lani",
+          "uuid": "f5879b40-556c-4335-b9a6-032fac07696d",
+          "bytes": 196539,
+          "cacheEqual": true
+        },
+        {
+          "name": "WalkForwardLeft",
+          "index": 16,
+          "seconds": 0.800000011920929,
+          "channels": 164,
+          "path": "assets/characters/AnimeWatergunPlayer-unpacked/WalkForwardLeft.lani",
+          "uuid": "948c83b4-9604-4d66-bbfe-1d8df2c61128",
+          "bytes": 182421,
+          "cacheEqual": true
+        },
+        {
+          "name": "WalkForwardRight",
+          "index": 17,
+          "seconds": 0.800000011920929,
+          "channels": 164,
+          "path": "assets/characters/AnimeWatergunPlayer-unpacked/WalkForwardRight.lani",
+          "uuid": "5cdccb66-0e83-43d9-b362-c062ac87a646",
+          "bytes": 182422,
+          "cacheEqual": true
+        },
+        {
+          "name": "WalkLeft",
+          "index": 18,
+          "seconds": 0.800000011920929,
+          "channels": 164,
+          "path": "assets/characters/AnimeWatergunPlayer-unpacked/WalkLeft.lani",
+          "uuid": "be057c20-a989-4804-a36f-6a1d001604e2",
+          "bytes": 182414,
+          "cacheEqual": true
+        },
+        {
+          "name": "WalkRight",
+          "index": 19,
+          "seconds": 0.800000011920929,
+          "channels": 164,
+          "path": "assets/characters/AnimeWatergunPlayer-unpacked/WalkRight.lani",
+          "uuid": "dbd275d8-d0bb-4c5a-a2ea-1c3e951c7509",
+          "bytes": 182415,
+          "cacheEqual": true
+        },
+        {
+          "name": "JumpAir",
+          "index": 20,
+          "seconds": 0.5600000023841858,
+          "channels": 164,
+          "path": "assets/characters/AnimeWatergunPlayer-unpacked/JumpAir.lani",
+          "uuid": "91238c62-4b5a-450d-91ec-7aa51ffa7426",
+          "bytes": 132993,
+          "cacheEqual": true
+        },
+        {
+          "name": "JumpLand",
+          "index": 21,
+          "seconds": 0.4339999854564667,
+          "channels": 164,
+          "path": "assets/characters/AnimeWatergunPlayer-unpacked/JumpLand.lani",
+          "uuid": "184f8fb6-b8e0-4678-8914-66d5ac38d853",
+          "bytes": 111814,
+          "cacheEqual": true
+        },
+        {
+          "name": "RunJumpAir",
+          "index": 22,
+          "seconds": 0.7839999794960022,
+          "channels": 164,
+          "path": "assets/characters/AnimeWatergunPlayer-unpacked/RunJumpAir.lani",
+          "uuid": "68dfd897-dabd-4a03-9971-3b0a2afb5956",
+          "bytes": 189476,
+          "cacheEqual": true
+        },
+        {
+          "name": "RunJumpLand",
+          "index": 23,
+          "seconds": 0.4320000112056732,
+          "channels": 164,
+          "path": "assets/characters/AnimeWatergunPlayer-unpacked/RunJumpLand.lani",
+          "uuid": "5436a1ab-cc9c-4ffe-ae0d-71bbf8de58e5",
+          "bytes": 104757,
+          "cacheEqual": true
+        }
+      ]
+    },
+    "controller": {
+      "path": "assets/characters/PlayerAnimation.controller",
+      "uuid": "6210875d-04b6-4547-aff9-8d27801db747",
+      "bytes": 240692,
+      "sha256": "83a0fe012faa4bb54dcf04827e112b8c20b09b950c626e6cc18f57abc0924e1a",
+      "layers": [
+        {
+          "name": "Movement",
+          "defaultWeight": 1,
+          "mask": null,
+          "states": [
+            {
+              "id": "0",
+              "name": "Idle",
+              "clip": {
+                "uuid": "deb0e049-250a-4420-b8cd-34409af8af79",
+                "path": "assets/characters/AnimeWatergunPlayer-unpacked/Idle.lani",
+                "builtin": null
+              },
+              "looping": 1,
+              "speed": 1,
+              "transitions": 20
+            },
+            {
+              "id": "1",
+              "name": "Walk",
+              "clip": {
+                "uuid": "9ce0c109-44f8-49b3-b320-c1575fb602bd",
+                "path": "assets/characters/AnimeWatergunPlayer-unpacked/Walk.lani",
+                "builtin": null
+              },
+              "looping": 1,
+              "speed": 1,
+              "transitions": 20
+            },
+            {
+              "id": "2",
+              "name": "Run",
+              "clip": {
+                "uuid": "8da791e2-52aa-4bbe-b0da-e51ddefd6f8e",
+                "path": "assets/characters/AnimeWatergunPlayer-unpacked/Run.lani",
+                "builtin": null
+              },
+              "looping": 1,
+              "speed": 1,
+              "transitions": 20
+            },
+            {
+              "id": "3",
+              "name": "Jump",
+              "clip": {
+                "uuid": "91238c62-4b5a-450d-91ec-7aa51ffa7426",
+                "path": "assets/characters/AnimeWatergunPlayer-unpacked/JumpAir.lani",
+                "builtin": null
+              },
+              "looping": 2,
+              "speed": 0.78,
+              "transitions": 20
+            },
+            {
+              "id": "4",
+              "name": "RunJump",
+              "clip": {
+                "uuid": "68dfd897-dabd-4a03-9971-3b0a2afb5956",
+                "path": "assets/characters/AnimeWatergunPlayer-unpacked/RunJumpAir.lani",
+                "builtin": null
+              },
+              "looping": 2,
+              "speed": 1.09,
+              "transitions": 20
+            },
+            {
+              "id": "5",
+              "name": "Land",
+              "clip": {
+                "uuid": "184f8fb6-b8e0-4678-8914-66d5ac38d853",
+                "path": "assets/characters/AnimeWatergunPlayer-unpacked/JumpLand.lani",
+                "builtin": null
+              },
+              "looping": 2,
+              "speed": 2,
+              "transitions": 20
+            },
+            {
+              "id": "6",
+              "name": "RunLand",
+              "clip": {
+                "uuid": "5436a1ab-cc9c-4ffe-ae0d-71bbf8de58e5",
+                "path": "assets/characters/AnimeWatergunPlayer-unpacked/RunJumpLand.lani",
+                "builtin": null
+              },
+              "looping": 2,
+              "speed": 2,
+              "transitions": 20
+            },
+            {
+              "id": "7",
+              "name": "WalkBack",
+              "clip": {
+                "uuid": "2d2e8440-3130-4d38-be05-40ab1663f962",
+                "path": "assets/characters/AnimeWatergunPlayer-unpacked/WalkBack.lani",
+                "builtin": null
+              },
+              "looping": 1,
+              "speed": 1,
+              "transitions": 20
+            },
+            {
+              "id": "8",
+              "name": "WalkLeft",
+              "clip": {
+                "uuid": "be057c20-a989-4804-a36f-6a1d001604e2",
+                "path": "assets/characters/AnimeWatergunPlayer-unpacked/WalkLeft.lani",
+                "builtin": null
+              },
+              "looping": 1,
+              "speed": 1,
+              "transitions": 20
+            },
+            {
+              "id": "9",
+              "name": "WalkRight",
+              "clip": {
+                "uuid": "dbd275d8-d0bb-4c5a-a2ea-1c3e951c7509",
+                "path": "assets/characters/AnimeWatergunPlayer-unpacked/WalkRight.lani",
+                "builtin": null
+              },
+              "looping": 1,
+              "speed": 1,
+              "transitions": 20
+            },
+            {
+              "id": "10",
+              "name": "WalkForwardLeft",
+              "clip": {
+                "uuid": "948c83b4-9604-4d66-bbfe-1d8df2c61128",
+                "path": "assets/characters/AnimeWatergunPlayer-unpacked/WalkForwardLeft.lani",
+                "builtin": null
+              },
+              "looping": 1,
+              "speed": 1,
+              "transitions": 20
+            },
+            {
+              "id": "11",
+              "name": "WalkForwardRight",
+              "clip": {
+                "uuid": "5cdccb66-0e83-43d9-b362-c062ac87a646",
+                "path": "assets/characters/AnimeWatergunPlayer-unpacked/WalkForwardRight.lani",
+                "builtin": null
+              },
+              "looping": 1,
+              "speed": 1,
+              "transitions": 20
+            },
+            {
+              "id": "12",
+              "name": "WalkBackLeft",
+              "clip": {
+                "uuid": "6ccc32f4-e036-4ff3-8107-c5d1793a4b89",
+                "path": "assets/characters/AnimeWatergunPlayer-unpacked/WalkBackLeft.lani",
+                "builtin": null
+              },
+              "looping": 1,
+              "speed": 1,
+              "transitions": 20
+            },
+            {
+              "id": "13",
+              "name": "WalkBackRight",
+              "clip": {
+                "uuid": "f5879b40-556c-4335-b9a6-032fac07696d",
+                "path": "assets/characters/AnimeWatergunPlayer-unpacked/WalkBackRight.lani",
+                "builtin": null
+              },
+              "looping": 1,
+              "speed": 1,
+              "transitions": 20
+            },
+            {
+              "id": "14",
+              "name": "RunBack",
+              "clip": {
+                "uuid": "3327bba0-33d1-433b-8345-c905321c01f5",
+                "path": "assets/characters/AnimeWatergunPlayer-unpacked/RunBack.lani",
+                "builtin": null
+              },
+              "looping": 1,
+              "speed": 1,
+              "transitions": 20
+            },
+            {
+              "id": "15",
+              "name": "RunLeft",
+              "clip": {
+                "uuid": "5fa75e1e-b6c4-419f-8070-b615162ee166",
+                "path": "assets/characters/AnimeWatergunPlayer-unpacked/RunLeft.lani",
+                "builtin": null
+              },
+              "looping": 1,
+              "speed": 1,
+              "transitions": 20
+            },
+            {
+              "id": "16",
+              "name": "RunRight",
+              "clip": {
+                "uuid": "2cde06ae-027c-43e6-a4b2-a57a5923e297",
+                "path": "assets/characters/AnimeWatergunPlayer-unpacked/RunRight.lani",
+                "builtin": null
+              },
+              "looping": 1,
+              "speed": 1,
+              "transitions": 20
+            },
+            {
+              "id": "17",
+              "name": "RunForwardLeft",
+              "clip": {
+                "uuid": "b0cb9937-172c-4bdc-9903-077ad3eba193",
+                "path": "assets/characters/AnimeWatergunPlayer-unpacked/RunForwardLeft.lani",
+                "builtin": null
+              },
+              "looping": 1,
+              "speed": 1,
+              "transitions": 20
+            },
+            {
+              "id": "18",
+              "name": "RunForwardRight",
+              "clip": {
+                "uuid": "1c8f4cfc-8ad3-4472-945f-4c24cdfea323",
+                "path": "assets/characters/AnimeWatergunPlayer-unpacked/RunForwardRight.lani",
+                "builtin": null
+              },
+              "looping": 1,
+              "speed": 1,
+              "transitions": 20
+            },
+            {
+              "id": "19",
+              "name": "RunBackLeft",
+              "clip": {
+                "uuid": "e3a12288-e018-4ef6-a345-1c6a47d382b0",
+                "path": "assets/characters/AnimeWatergunPlayer-unpacked/RunBackLeft.lani",
+                "builtin": null
+              },
+              "looping": 1,
+              "speed": 1,
+              "transitions": 20
+            },
+            {
+              "id": "20",
+              "name": "RunBackRight",
+              "clip": {
+                "uuid": "2ec1d7c7-f5db-4597-89a1-85e2d1a07de0",
+                "path": "assets/characters/AnimeWatergunPlayer-unpacked/RunBackRight.lani",
+                "builtin": null
+              },
+              "looping": 1,
+              "speed": 1,
+              "transitions": 20
+            }
+          ],
+          "editorOnlyNodes": [
+            "进入",
+            "任何状态"
+          ]
+        },
+        {
+          "name": "UpperBody",
+          "defaultWeight": 0,
+          "mask": {
+            "uuid": "a642fce1-47a2-4d7a-a690-42f0281c87bc",
+            "path": "assets/characters/PlayerUpperBody.lavm",
+            "builtin": null
+          },
+          "states": [
+            {
+              "id": "20",
+              "name": "UpperIdle",
+              "clip": {
+                "uuid": "deb0e049-250a-4420-b8cd-34409af8af79",
+                "path": "assets/characters/AnimeWatergunPlayer-unpacked/Idle.lani",
+                "builtin": null
+              },
+              "looping": 1,
+              "speed": 1,
+              "transitions": 1
+            },
+            {
+              "id": "21",
+              "name": "Shoot",
+              "clip": {
+                "uuid": "c5dd2631-b19b-4ab0-aaae-5e664b215fcb",
+                "path": "assets/characters/AnimeWatergunPlayer-unpacked/Shoot.lani",
+                "builtin": null
+              },
+              "looping": 1,
+              "speed": 1,
+              "transitions": 1
+            }
+          ],
+          "editorOnlyNodes": [
+            "进入"
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "id": 0,
+          "name": "Motion",
+          "type": 0,
+          "val": 0
+        },
+        {
+          "id": 1,
+          "name": "Fire",
+          "type": 1,
+          "val": false
+        }
+      ],
+      "effectiveMovementStates": 21,
+      "effectiveUpperStates": 2,
+      "externalBindings": [
+        {
+          "uuid": "6210875d-04b6-4547-aff9-8d27801db747",
+          "path": "assets/characters/PlayerAnimation.controller",
+          "builtin": null
+        },
+        {
+          "uuid": "6210875d-04b6-4547-aff9-8d27801db747",
+          "path": "assets/characters/PlayerAnimation.controller",
+          "builtin": null
+        }
+      ],
+      "resourceType": "AnimationController",
+      "legacyEmbeddedLayers": [
+        {
+          "name": "Movement",
+          "states": [
+            "RunLand",
+            "Land",
+            "RunJump",
+            "Jump",
+            "Run",
+            "Walk",
+            "Idle"
+          ]
+        },
+        {
+          "name": "UpperBody",
+          "states": [
+            "Shoot",
+            "UpperIdle"
+          ]
+        }
+      ],
+      "legacyLayersAreAuthoritative": false
+    },
+    "upperMask": {
+      "path": "assets/characters/PlayerUpperBody.lavm",
+      "uuid": "a642fce1-47a2-4d7a-a690-42f0281c87bc",
+      "bytes": 4254,
+      "sha256": "4db9bc8ff133a32eb971bac8c429c56e6cb0755825b3d8de3cdbdea5f46fa0ab",
+      "skeleton": {
+        "uuid": "22760ead-afd0-48cf-8155-7a1974793221",
+        "path": "assets/characters/AnimeWatergunPlayer-unpacked/AnimeWatergunPlayer.lh",
+        "builtin": null
+      },
+      "enabledPaths": 45,
+      "pathsMissingFromCurrentSkeleton": []
+    },
+    "materialOverrides": [
+      {
+        "path": "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Jacket painted fold values.lmat",
+        "uuid": "1dbe25e4-cf61-4a08-a145-066bde43311d",
+        "bytes": 3148,
+        "defines": [
+          "SPECULAR",
+          "ENABLEVERTEXCOLOR"
+        ]
+      },
+      {
+        "path": "assets/characters/AnimeWatergunPlayer-unpacked/AWB.M.Pants painted fold values.lmat",
+        "uuid": "bf81c025-824a-4c77-be19-3bd274bf34ff",
+        "bytes": 3148,
+        "defines": [
+          "SPECULAR",
+          "ENABLEVERTEXCOLOR"
+        ]
+      }
+    ],
+    "intentionallyUnboundOriginalClips": [
+      "Jump",
+      "RunJump"
+    ]
+  },
+  "firstPerson": {
+    "sourceBlend": {
+      "path": "source_art/AnimeWatergunBoy/first_person_20260920/WatergunArms.blend",
+      "uuid": null,
+      "bytes": 1379802,
+      "sha256": "28a1d5c268320feba752b56b90ab1b565f476cb7a3bf781f01ca2b8b4b13dbaa"
+    },
+    "sourceGLB": {
+      "path": "source_art/AnimeWatergunBoy/first_person_20260920/WatergunArms.glb",
+      "uuid": null,
+      "bytes": 2086448,
+      "sha256": "79559dddc8b123f46e440866430766b7cd6e6077cc43f2eab214651dd06d6418",
+      "meshes": 15,
+      "materials": 16,
+      "images": 0,
+      "nodes": 71,
+      "deformJoints": 55,
+      "clips": [
+        {
+          "name": "Idle",
+          "index": 0,
+          "seconds": 3,
+          "channels": 165
+        },
+        {
+          "name": "Shoot",
+          "index": 1,
+          "seconds": 0.20000000298023224,
+          "channels": 165
+        }
+      ]
+    },
+    "gameGLB": {
+      "path": "assets/characters/WatergunArms.glb",
+      "uuid": "0329308f-6b61-4c68-be26-f1aa6b54716c",
+      "bytes": 2142888,
+      "sha256": "06598a3317256ad8f2d56041611b45fc69c454f40dcffa5929275c87523ef715",
+      "meshes": 15,
+      "materials": 16,
+      "images": 0,
+      "nodes": 71,
+      "deformJoints": 55,
+      "clips": [
+        {
+          "name": "Idle",
+          "index": 0,
+          "seconds": 3,
+          "channels": 165
+        },
+        {
+          "name": "Shoot",
+          "index": 1,
+          "seconds": 0.20000000298023224,
+          "channels": 165
+        }
+      ]
+    },
+    "sourceToGame": {
+      "meshDifferences": [
+        {
+          "mesh": 13,
+          "name": "FP.Sleeves weighted cut",
+          "semantic": "COLOR_0",
+          "sourceType": "VEC3",
+          "gameType": "VEC4"
+        }
+      ],
+      "allOtherGeometryAccessorsByteIdentical": true,
+      "nodesAndDefaultTRSIdentical": true,
+      "inverseBindBytesIdentical": true,
+      "sourceActions": [
+        {
+          "name": "Idle",
+          "retainedChannelsByteIdentical": 165,
+          "rootTranslationChannelsRemoved": 0
+        },
+        {
+          "name": "Shoot",
+          "retainedChannelsByteIdentical": 165,
+          "rootTranslationChannelsRemoved": 0
+        }
+      ]
+    },
+    "native": {
+      "prefab": {
+        "path": "assets/characters/WatergunArms-unpacked/WatergunArms.lh",
+        "uuid": "8ffde5eb-70bb-405c-9625-b001db920911",
+        "bytes": 163181,
+        "sha256": "b5cc65e33773d1cc1406a2fccde8002411e9c85b8abe2a1c4a340042abc63904"
+      },
+      "meshCount": 15,
+      "nativeMeshesMatchingImportCache": 15,
+      "nativeClipsMatchingImportCache": 2,
+      "clips": [
+        {
+          "name": "Idle",
+          "index": 0,
+          "seconds": 3,
+          "channels": 165,
+          "path": "assets/characters/WatergunArms-unpacked/Idle.lani",
+          "uuid": "094c6f34-edee-41ee-a06c-fceb6678f7dd",
+          "bytes": 651937,
+          "cacheEqual": true
+        },
+        {
+          "name": "Shoot",
+          "index": 1,
+          "seconds": 0.20000000298023224,
+          "channels": 165,
+          "path": "assets/characters/WatergunArms-unpacked/Shoot.lani",
+          "uuid": "8e7c9d6e-79ad-4090-8571-8728d5c5d74e",
+          "bytes": 55622,
+          "cacheEqual": true
+        }
+      ]
+    },
+    "sleeve": {
+      "index": 13,
+      "name": "FP.Sleeves weighted cut",
+      "path": "assets/characters/WatergunArms-unpacked/FP.Sleeves weighted cut.lm",
+      "uuid": "504a46e8-612f-4576-a965-f9327911163e",
+      "cacheEqual": true,
+      "vertices": 3520,
+      "triangles": 6712,
+      "actualGeometryTopology": {
+        "exportedPositionRecords": 3520,
+        "uniqueGeometricVertices": 3360,
+        "triangles": 6712,
+        "connectedComponents": 2,
+        "boundaryEdges": 0,
+        "nonManifoldEdges": 0
+      },
+      "authoring": "Current build-first-person-arms.py builds two 42-ring x40-side continuous sweeps, closed off-screen and overlapping cuffs by10mm."
+    },
+    "materialOverrides": [
+      {
+        "path": "assets/characters/WatergunArms-unpacked/AWB.M.Jacket painted fold values.lmat",
+        "uuid": "28f7caea-aa01-490b-b2ba-1bef87bdcaab",
+        "bytes": 3130,
+        "defines": [
+          "ENABLEVERTEXCOLOR"
+        ]
+      }
+    ],
+    "mount": "LingshuiWorld/PlayerCamera/FirstPersonArms/ArmsRig",
+    "transform": {
+      "localPosition": {
+        "_$type": "Vector3",
+        "x": 0,
+        "y": -1.6,
+        "z": -0.2
+      },
+      "localRotationEuler": {
+        "_$type": "Vector3",
+        "x": 0,
+        "y": 180,
+        "z": 0
+      }
+    },
+    "runtime": "FirstPersonArms.ts independently uses native Idle/Shoot; no full-world body rendered in FPS."
+  },
+  "ducks": {
+    "sourceBlend": {
+      "path": "source_art/LakeDucks/Duck.blend",
+      "uuid": null,
+      "bytes": 387000,
+      "sha256": "efd84690f805294e687111320587fda788d45507224b771c95038c0ecc4e5ab4"
+    },
+    "sourceGLB": {
+      "path": "source_art/LakeDucks/Duck.glb",
+      "uuid": null,
+      "bytes": 314344,
+      "sha256": "1174e98228a43bc1179def55a229797a9a409ec889cfdb096368c6339a452fe4",
+      "meshes": 1,
+      "materials": 1,
+      "images": 1,
+      "nodes": 1,
+      "deformJoints": 0,
+      "clips": []
+    },
+    "gameGLB": {
+      "path": "assets/ducks/Duck.glb",
+      "uuid": "988dc0ea-43a0-4a9b-9dbd-dc6646a6a628",
+      "bytes": 314344,
+      "sha256": "1174e98228a43bc1179def55a229797a9a409ec889cfdb096368c6339a452fe4",
+      "meshes": 1,
+      "materials": 1,
+      "images": 1,
+      "nodes": 1,
+      "deformJoints": 0,
+      "clips": []
+    },
+    "sourceAndGameGLBByteIdentical": true,
+    "native": {
+      "prefab": {
+        "path": "assets/ducks/Duck-unpacked/Duck.lh",
+        "uuid": "2565d79f-2c4f-4888-ba14-c6cf63715c51",
+        "bytes": 795,
+        "sha256": "357e8eebf8fdb52a56478abf369128c452185c5071f028e429bd82b6cf0ed0a4"
+      },
+      "meshCount": 1,
+      "nativeMeshesMatchingImportCache": 1,
+      "nativeClipsMatchingImportCache": 0,
+      "clips": []
+    },
+    "flock": {
+      "path": "assets/ducks/LakeDucks.lh",
+      "uuid": "3846e38d-77a3-4fd6-8e87-af451a6f9834",
+      "bytes": 4599,
+      "sha256": "0141e67b49c65c2e0f6a67fb5639a5ea48195808f16d73f98a4457192d0692a7"
+    },
+    "instances": [
+      {
+        "name": "Duck_01",
+        "position": {
+          "_$type": "Vector3",
+          "x": -24.8,
+          "y": 0.04,
+          "z": 30
+        },
+        "scale": {
+          "_$type": "Vector3",
+          "x": 1.06,
+          "y": 1.06,
+          "z": 1.06
+        },
+        "prefab": {
+          "uuid": "2565d79f-2c4f-4888-ba14-c6cf63715c51",
+          "path": "assets/ducks/Duck-unpacked/Duck.lh",
+          "builtin": null
+        },
+        "route": {
+          "_$type": "bab764cf-12ab-4cf2-bfb3-5320c2093938",
+          "radiusX": 0.65,
+          "radiusZ": 0.5,
+          "periodSeconds": 42,
+          "phaseDegrees": 0,
+          "direction": 1,
+          "bobHeight": 0.006
+        }
+      },
+      {
+        "name": "Duck_02",
+        "position": {
+          "_$type": "Vector3",
+          "x": -21.8,
+          "y": 0.04,
+          "z": 29.8
+        },
+        "scale": {
+          "_$type": "Vector3",
+          "x": 0.98,
+          "y": 0.98,
+          "z": 0.98
+        },
+        "prefab": {
+          "uuid": "2565d79f-2c4f-4888-ba14-c6cf63715c51",
+          "path": "assets/ducks/Duck-unpacked/Duck.lh",
+          "builtin": null
+        },
+        "route": {
+          "_$type": "bab764cf-12ab-4cf2-bfb3-5320c2093938",
+          "radiusX": 0.55,
+          "radiusZ": 0.5,
+          "periodSeconds": 47,
+          "phaseDegrees": 120.32113697747288,
+          "direction": -1,
+          "bobHeight": 0.006
+        }
+      },
+      {
+        "name": "Duck_03",
+        "position": {
+          "_$type": "Vector3",
+          "x": -23.4,
+          "y": 0.04,
+          "z": 27
+        },
+        "scale": {
+          "_$type": "Vector3",
+          "x": 1.02,
+          "y": 1.02,
+          "z": 1.02
+        },
+        "prefab": {
+          "uuid": "2565d79f-2c4f-4888-ba14-c6cf63715c51",
+          "path": "assets/ducks/Duck-unpacked/Duck.lh",
+          "builtin": null
+        },
+        "route": {
+          "_$type": "bab764cf-12ab-4cf2-bfb3-5320c2093938",
+          "radiusX": 0.7,
+          "radiusZ": 0.55,
+          "periodSeconds": 53,
+          "phaseDegrees": 240.64227395494575,
+          "direction": 1,
+          "bobHeight": 0.006
+        }
+      },
+      {
+        "name": "Duck_04",
+        "position": {
+          "_$type": "Vector3",
+          "x": -20,
+          "y": 0.04,
+          "z": 22
+        },
+        "scale": {
+          "_$type": "Vector3",
+          "x": 0.94,
+          "y": 0.94,
+          "z": 0.94
+        },
+        "prefab": {
+          "uuid": "2565d79f-2c4f-4888-ba14-c6cf63715c51",
+          "path": "assets/ducks/Duck-unpacked/Duck.lh",
+          "builtin": null
+        },
+        "route": {
+          "_$type": "bab764cf-12ab-4cf2-bfb3-5320c2093938",
+          "radiusX": 0.9,
+          "radiusZ": 0.65,
+          "periodSeconds": 68,
+          "phaseDegrees": 74.48451336700703,
+          "direction": -1,
+          "bobHeight": 0.006
+        }
+      },
+      {
+        "name": "Duck_05",
+        "position": {
+          "_$type": "Vector3",
+          "x": -16.5,
+          "y": 0.04,
+          "z": 21.5
+        },
+        "scale": {
+          "_$type": "Vector3",
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "prefab": {
+          "uuid": "2565d79f-2c4f-4888-ba14-c6cf63715c51",
+          "path": "assets/ducks/Duck-unpacked/Duck.lh",
+          "builtin": null
+        },
+        "route": {
+          "_$type": "bab764cf-12ab-4cf2-bfb3-5320c2093938",
+          "radiusX": 1.1,
+          "radiusZ": 0.7,
+          "periodSeconds": 73,
+          "phaseDegrees": 280.7493196141034,
+          "direction": 1,
+          "bobHeight": 0.006
+        }
+      }
+    ],
+    "groupBindings": [
+      {
+        "scene": "assets/Scene.ls",
+        "count": 1
+      },
+      {
+        "scene": "assets/LingshuiGame.ls",
+        "count": 1
+      }
+    ],
+    "material": {
+      "path": "assets/ducks/Duck-unpacked/Duck_Mallard_Feathers.lmat",
+      "uuid": "3e8a12dd-be42-4fed-8857-c576575d2a96",
+      "bytes": 3465
+    },
+    "texture": {
+      "uuid": "5939ba2a-c394-4d71-aff3-d549507862c9",
+      "path": "assets/ducks/textures/Duck_tex_0.png",
+      "builtin": null,
+      "width": 1024,
+      "height": 1024
+    },
+    "license": {
+      "title": "Mallard duck",
+      "author": "Poly by Google",
+      "sourceURL": "https://poly.pizza/m/frSLi6b6Vid",
+      "license": "CC BY3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/3.0/",
+      "credits": {
+        "path": "ASSET_CREDITS.md",
+        "uuid": null,
+        "bytes": 1000
+      },
+      "attribution": {
+        "path": "source_art/LakeDucks/ATTRIBUTION.md",
+        "uuid": null,
+        "bytes": 1291
+      },
+      "fullLicense": {
+        "path": "source_art/LakeDucks/original/LICENSE_CC_BY_3.0.txt",
+        "uuid": null,
+        "bytes": 19467
+      },
+      "embeddedMetadata": {
+        "SourceTitle": "Mallard duck",
+        "Author": "Poly by Google",
+        "SourceURL": "https://poly.pizza/m/frSLi6b6Vid",
+        "License": "CC BY 3.0",
+        "LicenseURL": "https://creativecommons.org/licenses/by/3.0/",
+        "Changes": "Normalized to 0.50 m length; waterline origin; Blender -Y/glTF +Z forward; source geometry retained; source base color resized from 2K to 1K.",
+        "Forward": "Blender -Y / glTF +Z",
+        "Waterline": "Blender Z=0 / glTF Y=0"
+      },
+      "releaseCopies": [
+        {
+          "directory": "release/web",
+          "creditsPresent": true,
+          "licensePresent": true
+        },
+        {
+          "directory": "release/single-html",
+          "creditsPresent": true,
+          "licensePresent": true
+        }
+      ]
+    }
+  },
+  "preservation": {
+    "mustKeep": [
+      "assets/Scene.ls + .meta",
+      "assets/LingshuiGame.ls + .meta",
+      "assets/lingshui/LingshuiEnvironment.lh + .meta",
+      "assets/lingshui/site_fixed/* + .meta",
+      "assets/lingshui/LingshuiEntrance_Fixed.lm + .meta",
+      "assets/lingshui/LakeWater.lmat/.shader + .meta",
+      "assets/lingshui/LakeReflection.ltcb + .meta",
+      "assets/lingshui/Foliage.lmat + .meta",
+      "assets/resources/LingshuiCollision.json + .meta",
+      "assets/characters/*-unpacked/* + .meta",
+      "assets/characters/PlayerAvatar.lh/PlayerAnimation.controller/PlayerUpperBody.lavm + .meta",
+      "assets/ducks/* + .meta",
+      "canonical authored source GLB/Blend and original duck license"
+    ],
+    "cacheRule": "library is regenerable and Git-ignored. Native binary resources and their UUIDs remain authoritative runtime deliverables; cache equality is a synchronization check, not permission to discard them."
+  },
+  "risks": [
+    {
+      "id": "legacy-player-source-fallback",
+      "present": false,
+      "evidence": "The preparer resolves the approved neck_short source from config/assets.manifest.json and rejects old overrides.",
+      "impact": "No-argument or old --animations-only commands can restore old geometry, long neck and fewer directional clips.",
+      "status": "RESOLVED",
+      "historicalEvidence": "prepare-player-assets.py without --model-source defaults to rigged_20260919."
+    },
+    {
+      "id": "historical-readme-command",
+      "present": false,
+      "evidence": "Both README files now direct to the manifest-aware npm assets entry; old commands are only linked as archived history.",
+      "impact": "The active guide no longer imports the gameplay-only historical model.",
+      "status": "RESOLVED",
+      "historicalEvidence": "Historical README paragraph shows a gameplay-only --animations command."
+    },
+    {
+      "id": "report-driven-clip-sync",
+      "present": false,
+      "evidence": "Both sync-player-animation-clips.py and sync-player-geometry.py delegate only to node tools/assets.cjs sync --asset player. Old write arguments fail with exit code2. Neither helper reads historical reports, creates resource UUIDs nor copies/writes runtime files.",
+      "impact": "Archived risk: the old mutating behavior is retired. The formal validator checks manifest/lock, current GLB mappings and native cache equality.",
+      "status": "RESOLVED",
+      "historicalEvidence": "sync-player-animation-clips.py uses the mutable generated game_model_import.json for index/name mapping."
+    },
+    {
+      "id": "embedded-controller-is-stale",
+      "present": true,
+      "evidence": "External Movement has 21 effective clip states; prefab embedded Movement has 7.",
+      "impact": "Keep both external controller UUID bindings. PlayerAvatar explicitly overwrites Animator.controller at initialization."
+    },
+    {
+      "id": "world-unpack-is-not-complete-scene-rebuild",
+      "present": true,
+      "evidence": "14 site_fixed + entrance native UUIDs, water/foliage overrides and independent collision JSON are active.",
+      "impact": "Current GLB contains patch geometry, but re-unpacking must preserve current UUID/scene/material/collision bindings."
+    },
+    {
+      "id": "world-rebake-tooling-not-in-repository",
+      "present": true,
+      "evidence": "No repository-local world Blender export/collision generator/cube bake script found in tools or source_art.",
+      "impact": "Freeze current GLB, native overrides, custom materials/shader/cube, collision and repaired .blend. Do not promise one-command full rebaking."
+    },
+    {
+      "id": "authoring-hardcodes-old-checkout",
+      "present": false,
+      "impact": "Archived risk: moving or cloning the project no longer falls back to D:/a/xiang_mu/LH. Blender recipes were not run; only their root guards were executed in isolation.",
+      "status": "RESOLVED",
+      "historicalFiles": [
+        "tools/author-directional-motion.py",
+        "tools/author-gameplay-motion.py",
+        "tools/build-first-person-arms.py",
+        "tools/prepare-lake-duck.py",
+        "tools/refine-character-neck.py",
+        "tools/shorten-character-neck.py"
+      ],
+      "evidence": "All six authoring recipes use Path(__file__).resolve(strict=True), require an actual file inside tools and an LH.laya project marker, and fail clearly if __file__ is missing or invalid."
+    },
+    {
+      "id": "launch-script-serves-stale-release",
+      "present": true,
+      "evidence": "serve.cjs accepts --root/--port, prints its exact root, rejects missing index.html and occupied ports. The launcher still serves an existing release; it does not build.",
+      "impact": "README requires a fresh build and a distinct test port. Serving stale existing output remains possible if that documented step is skipped.",
+      "status": "DOCUMENTED"
+    },
+    {
+      "id": "legacy-water-normal-map-description",
+      "present": true,
+      "evidence": "Current water uses analytic u_Time waves and LakeReflection cube. LakeRipple is not referenced by current shader/material.",
+      "impact": "Do not restore the old normal-map recipe when rebuilding the baseline."
+    }
+  ],
+  "recommendedManifestFields": [
+    "schemaVersion and LayaAir version",
+    "startupScene UUID/path and scene mirror equality policy",
+    "canonical source Blend/GLB per asset group, SHA256, forbidden source fallbacks",
+    "game derivative paths/UUIDs/importer flags and expected mesh/skin/clip counts",
+    "COLOR_0 compatibility conversion, root-channel removal and four jump-cut ranges",
+    "native mesh-index/object-name -> .lm path/UUID and clip-name/index -> .lani path/UUID mappings",
+    "controller UUID/type, 21+2 state mappings and 45-path upper mask",
+    "independent FPS source, 15 meshes, sleeve index13 and camera child transform",
+    "world14 patch + entrance mapping, water/foliage material overrides and collision hash/counts",
+    "current custom water shader/cube, probe parameters and cube hash",
+    "duck source/license/attribution and five serialized instance routes",
+    "per-machine executable configuration rather than hardcoded checkout paths",
+    "build platform/output, credits/license copy steps and verification commands",
+    "clean-cache import preconditions and native synchronization verification"
+  ],
+  "maintenanceUpdatedAt": "2026-09-20T11:49:11.517Z",
+  "toolMaintenance": {
+    "completedAt": "2026-09-20T11:49:11.517Z",
+    "changedTools": [
+      "tools/sync-player-animation-clips.py",
+      "tools/sync-player-geometry.py",
+      "tools/author-directional-motion.py",
+      "tools/author-gameplay-motion.py",
+      "tools/build-first-person-arms.py",
+      "tools/prepare-lake-duck.py",
+      "tools/refine-character-neck.py",
+      "tools/shorten-character-neck.py"
+    ],
+    "scope": "Retire legacy runtime writers and make project-root discovery portable; no algorithm edits.",
+    "blenderAuthoringExecuted": false,
+    "algorithmsOutsideRootGuardsUnchanged": true,
+    "validation": {
+      "guards": [
+        {
+          "script": "author-directional-motion.py",
+          "compile": "PASS",
+          "algorithm_unchanged": "PASS",
+          "cwd_independent_root": "PASS",
+          "missing_none_virtual_wrong_location_fail_closed": "PASS"
+        },
+        {
+          "script": "author-gameplay-motion.py",
+          "compile": "PASS",
+          "algorithm_unchanged": "PASS",
+          "cwd_independent_root": "PASS",
+          "missing_none_virtual_wrong_location_fail_closed": "PASS"
+        },
+        {
+          "script": "build-first-person-arms.py",
+          "compile": "PASS",
+          "algorithm_unchanged": "PASS",
+          "cwd_independent_root": "PASS",
+          "missing_none_virtual_wrong_location_fail_closed": "PASS"
+        },
+        {
+          "script": "prepare-lake-duck.py",
+          "compile": "PASS",
+          "algorithm_unchanged": "PASS",
+          "cwd_independent_root": "PASS",
+          "missing_none_virtual_wrong_location_fail_closed": "PASS"
+        },
+        {
+          "script": "refine-character-neck.py",
+          "compile": "PASS",
+          "algorithm_unchanged": "PASS",
+          "cwd_independent_root": "PASS",
+          "missing_none_virtual_wrong_location_fail_closed": "PASS"
+        },
+        {
+          "script": "shorten-character-neck.py",
+          "compile": "PASS",
+          "algorithm_unchanged": "PASS",
+          "cwd_independent_root": "PASS",
+          "missing_none_virtual_wrong_location_fail_closed": "PASS"
+        }
+      ],
+      "legacy_static_checks": "PASS",
+      "protected_before": {
+        "files": 588,
+        "aggregate_sha256": "c4e5d57dfac06804b3b255498d709bbd1f225704c7699dbc8c7227e7bd2d8090"
+      },
+      "legacy_parameter_rejection": [
+        {
+          "script": "sync-player-geometry.py",
+          "legacy_write_parameters": "rejected",
+          "exit_code": 2
+        },
+        {
+          "script": "sync-player-animation-clips.py",
+          "legacy_write_parameters": "rejected",
+          "exit_code": 2
+        }
+      ],
+      "protected_after": {
+        "files": 588,
+        "aggregate_sha256": "c4e5d57dfac06804b3b255498d709bbd1f225704c7699dbc8c7227e7bd2d8090"
+      },
+      "protected_files_unchanged": true,
+      "delegated_checks": [
+        {
+          "path": ".test-reports\\assets-2026-09-20T11-45-40-001Z-c5978771\\assets-result.json",
+          "status": "PASS",
+          "command": "sync",
+          "nativeVerification": [
+            {
+              "name": "player",
+              "nativeMeshes": 44,
+              "nativeClips": 24,
+              "cacheAndCommittedRuntimeIdentical": true,
+              "runtimeWrites": 0
+            }
+          ]
+        },
+        {
+          "path": ".test-reports\\assets-2026-09-20T11-45-40-145Z-b98f42a3\\assets-result.json",
+          "status": "PASS",
+          "command": "sync",
+          "nativeVerification": [
+            {
+              "name": "player",
+              "nativeMeshes": 44,
+              "nativeClips": 24,
+              "cacheAndCommittedRuntimeIdentical": true,
+              "runtimeWrites": 0
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

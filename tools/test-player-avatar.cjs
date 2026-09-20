@@ -7,26 +7,11 @@ const fs = require("node:fs");
 const path = require("node:path");
 const crypto = require("node:crypto");
 const assert = require("node:assert/strict");
-
-const root = path.resolve(__dirname, "..");
+const suite = require("./testing/context.cjs").createSuite("player-avatar");
+const root = suite.root;
 const sourcePath = path.join(root, "src", "PlayerAvatar.ts");
-const reportPath = path.join(root, "docs", "player_avatar", "edge_case_tests.json");
 const source = fs.readFileSync(sourcePath, "utf8");
-
-function loadTypeScript() {
-    const candidates = [
-        process.env.TYPESCRIPT_PATH,
-        "typescript",
-        path.resolve(root, "../../LayaAirIDE/resources/node_modules/typescript")
-    ].filter(Boolean);
-    for (const candidate of candidates) {
-        try { return { compiler: require(candidate), location: require.resolve(candidate) }; }
-        catch (_) { /* Try the installed IDE compiler next. */ }
-    }
-    throw new Error("TypeScript compiler unavailable. Set TYPESCRIPT_PATH to typescript.js or its package directory.");
-}
-
-const { compiler: ts, location: compilerPath } = loadTypeScript();
+const ts = suite.ts;
 const compiled = ts.transpileModule(source, {
     fileName: sourcePath,
     reportDiagnostics: true,
@@ -110,15 +95,8 @@ function assertGroundedIdle(f) {
     assert.equal(PlayerMotion[f.avatar.motion], "Idle", "A grounded stationary character must return to Idle");
 }
 
-const tests = [];
-function test(name, body) {
-    try {
-        const details = body();
-        tests.push({ name, status: "PASS", details });
-    } catch (error) {
-        tests.push({ name, status: "FAIL", error: error.message, stack: error.stack });
-    }
-}
+const tests = suite.tests;
+function test(name, body) { suite.test(name, body); }
 
 test("brief_ground_loss_then_landing", () => {
     const f = fixture();
@@ -313,25 +291,10 @@ test("released_movement_does_not_follow_residual_speed", () => {
     return { stopped_on_release: true };
 });
 
-const passed = tests.filter(t => t.status === "PASS").length;
-const report = {
-    status: passed === tests.length ? "PASS" : "FAIL",
-    checked_utc: new Date().toISOString(),
+suite.finish({
     source: path.relative(root, sourcePath).replace(/\\/g, "/"),
     source_sha256: crypto.createHash("sha256").update(source).digest("hex"),
     execution: "Transpiled production PlayerAvatar class; calls its real step() and beginAir() methods",
     scope: "State decisions and heading; rendering, native Animator transitions and Bullet physics are not simulated",
-    node_version: process.version,
-    typescript_version: ts.version,
-    compiler_path: compilerPath,
-    total: tests.length,
-    passed,
-    failed: tests.length - passed,
-    tests
-};
-fs.mkdirSync(path.dirname(reportPath), { recursive: true });
-fs.writeFileSync(reportPath, JSON.stringify(report, null, 2) + "\n", "utf8");
-console.log(JSON.stringify({ status: report.status, passed, failed: report.failed,
-    source_sha256: report.source_sha256, report: reportPath,
-    failures: tests.filter(t => t.status === "FAIL").map(({ name, error }) => ({ name, error })) }, null, 2));
-process.exitCode = report.status === "PASS" ? 0 : 1;
+    compiler_path: require.resolve("typescript")
+});

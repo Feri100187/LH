@@ -1,0 +1,197 @@
+{
+  "avatar": {
+    "airborne": false,
+    "base": "Idle",
+    "baseTime": 16.781866666666673,
+    "direction": "Forward",
+    "gaitRates": {
+      "run": 0.05,
+      "walk": 0.05
+    },
+    "gunDirection": [
+      -0.13788197934627533,
+      -0.03489966318011284,
+      0.9898333549499512
+    ],
+    "gunForwardDotBody": 0.9993905696972954,
+    "heading": -0.13840734641020758,
+    "history": [
+      {
+        "base": "Idle",
+        "time": 3336.8,
+        "upper": ""
+      },
+      {
+        "base": "Walk",
+        "time": 260604.6,
+        "upper": ""
+      },
+      {
+        "base": "Idle",
+        "time": 261590.5,
+        "upper": ""
+      },
+      {
+        "base": "WalkLeft",
+        "time": 263673.7,
+        "upper": ""
+      },
+      {
+        "base": "Idle",
+        "time": 264683.4,
+        "upper": ""
+      },
+      {
+        "base": "WalkRight",
+        "time": 264909,
+        "upper": ""
+      },
+      {
+        "base": "Idle",
+        "time": 265784.4,
+        "upper": ""
+      },
+      {
+        "base": "WalkForwardLeft",
+        "time": 266021.8,
+        "upper": ""
+      },
+      {
+        "base": "Idle",
+        "time": 266921.7,
+        "upper": ""
+      },
+      {
+        "base": "WalkBackRight",
+        "time": 267252.1,
+        "upper": ""
+      },
+      {
+        "base": "Idle",
+        "time": 268162.9,
+        "upper": ""
+      },
+      {
+        "base": "WalkForwardRight",
+        "time": 268434.6,
+        "upper": ""
+      },
+      {
+        "base": "Idle",
+        "time": 269313.4,
+        "upper": ""
+      },
+      {
+        "base": "WalkBackLeft",
+        "time": 269588.9,
+        "upper": ""
+      },
+      {
+        "base": "Idle",
+        "time": 270487.3,
+        "upper": ""
+      },
+      {
+        "base": "Run",
+        "time": 270756.7,
+        "upper": ""
+      },
+      {
+        "base": "Idle",
+        "time": 271649.6,
+        "upper": ""
+      },
+      {
+        "base": "Jump",
+        "time": 271855,
+        "upper": ""
+      },
+      {
+        "base": "Land",
+        "time": 272532.5,
+        "upper": ""
+      },
+      {
+        "base": "Idle",
+        "time": 272939.1,
+        "upper": ""
+      },
+      {
+        "base": "Idle",
+        "time": 274243.9,
+        "upper": "Shoot"
+      },
+      {
+        "base": "Idle",
+        "time": 276174.9,
+        "upper": ""
+      }
+    ],
+    "loaded": true,
+    "meshCount": 44,
+    "motion": "Idle",
+    "rootLocal": [
+      0,
+      0.0012000000569969416,
+      0
+    ],
+    "shooting": false,
+    "shotInterval": 0.20000000298023224,
+    "shotQueued": false,
+    "shots": 2,
+    "triggerHeld": false,
+    "upper": "UpperIdle",
+    "upperTime": 15.966433333333333,
+    "upperWeight": 0,
+    "visibleMeshes": 44
+  },
+  "camera": [
+    -28.34728510278755,
+    2.4512550898872396,
+    49.45131780691812
+  ],
+  "cameraDistance": 2.0727284554177454,
+  "cameraFollowPhase": "afterPhysicsAndAnimation",
+  "firstPerson": false,
+  "firstPersonArms": {
+    "base": "Idle",
+    "cameraParent": "PlayerCamera",
+    "localMountPosition": [
+      0,
+      0,
+      0
+    ],
+    "meshes": 15,
+    "shooting": false,
+    "visible": false
+  },
+  "firstPersonCameraOffset": null,
+  "fps": 14,
+  "grounded": true,
+  "inputMode": "touch",
+  "keys": [],
+  "locked": false,
+  "pitch": 0.025,
+  "position": [
+    -27.972450435731425,
+    1.660000011920929,
+    51.47174422353142
+  ],
+  "ready": true,
+  "speed": 0,
+  "touch": {
+    "enabled": true,
+    "looking": false,
+    "move": [
+      0,
+      0
+    ],
+    "moving": false,
+    "pointers": 0,
+    "running": false,
+    "shootPointers": 0,
+    "shooting": false
+  },
+  "triggerHeld": false,
+  "yaw": 3.2800000000000007
+}

@@ -1,0 +1,12 @@
+{
+  "runId": "cac6d538-180f-4e41-b92e-e98070a08620",
+  "category": "build",
+  "startedAt": "2026-09-20T11:59:21.170Z",
+  "project": "D:\\a\\baseline-checks\\LH-stable-20260920",
+  "engineVersion": "3.4.1",
+  "platform": "web",
+  "output": "D:\\a\\baseline-checks\\LH-stable-20260920\\release\\web",
+  "status": "PASS",
+  "nativeStatus": 1,
+  "finishedAt": "2026-09-20T11:59:32.865Z"
+}

@@ -1,0 +1,92 @@
+{
+  "avatar": {
+    "airborne": false,
+    "base": "Idle",
+    "baseTime": 72.81030000000908,
+    "direction": "Forward",
+    "gaitRates": {
+      "run": 0.05,
+      "walk": 0.05
+    },
+    "gunDirection": [
+      0.314375102519989,
+      -0.03489961102604866,
+      -0.9486571550369264
+    ],
+    "gunForwardDotBody": 0.999390865921428,
+    "heading": 2.8215926535897933,
+    "history": [
+      {
+        "base": "Idle",
+        "time": 1951.7,
+        "upper": ""
+      }
+    ],
+    "loaded": true,
+    "meshCount": 44,
+    "motion": "Idle",
+    "rootLocal": [
+      0,
+      0.0012000000569969416,
+      0
+    ],
+    "shooting": false,
+    "shotInterval": 0.20000000298023224,
+    "shotQueued": false,
+    "shots": 0,
+    "triggerHeld": false,
+    "upper": "UpperIdle",
+    "upperTime": 72.81030000000908,
+    "upperWeight": 0,
+    "visibleMeshes": 44
+  },
+  "camera": [
+    -25.996299390989687,
+    2.54486368800808,
+    39.20648098226875
+  ],
+  "cameraDistance": 2.023890415157928,
+  "cameraFollowPhase": "afterPhysicsAndAnimation",
+  "firstPerson": false,
+  "firstPersonArms": {
+    "base": "Idle",
+    "cameraParent": "PlayerCamera",
+    "localMountPosition": [
+      0,
+      0,
+      0
+    ],
+    "meshes": 15,
+    "shooting": false,
+    "visible": false
+  },
+  "firstPersonCameraOffset": null,
+  "fps": 1,
+  "grounded": true,
+  "inputMode": "touch",
+  "keys": [],
+  "locked": false,
+  "pitch": 0.025,
+  "position": [
+    -26,
+    1.7599999761581422,
+    37.2
+  ],
+  "ready": true,
+  "speed": 0,
+  "touch": {
+    "enabled": true,
+    "looking": false,
+    "move": [
+      0,
+      0
+    ],
+    "moving": false,
+    "pointers": 0,
+    "running": false,
+    "shootPointers": 0,
+    "shooting": false
+  },
+  "triggerHeld": false,
+  "yaw": 0.32
+}

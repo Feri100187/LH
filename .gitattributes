@@ -1,3 +1,7 @@
+# Preserve committed bytes across Windows/macOS/Linux checkouts. Asset locks include
+# .meta, shaders and JSON; automatic CRLF conversion would change their hashes.
+* -text
+
 *.blend filter=lfs diff=lfs merge=lfs -text
 *.glb filter=lfs diff=lfs merge=lfs -text
 *.lm filter=lfs diff=lfs merge=lfs -text

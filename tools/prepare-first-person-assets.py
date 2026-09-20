@@ -1,9 +1,12 @@
 """Apply the existing Laya vertex-color compatibility treatment to the FPS derivative."""
 from pathlib import Path
-import json, struct, uuid
+import json, struct, argparse, shutil, importlib.util
 ROOT=Path(__file__).resolve().parents[1]
-src=ROOT/'source_art/AnimeWatergunBoy/first_person_20260920/WatergunArms.glb'
-dest=ROOT/'assets/characters/WatergunArms.glb'
+spec=importlib.util.spec_from_file_location('asset_manifest',ROOT/'tools/asset-manifest.py')
+contract=importlib.util.module_from_spec(spec);spec.loader.exec_module(contract)
+parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--output-dir',type=Path);args=parser.parse_args()
+group,src=contract.approved_source('firstPerson')
+dest,report_dir,canonical_meta=contract.preparation_paths('firstPerson',args.output_dir)
 raw=src.read_bytes();p=12;g=None;data=None
 while p<len(raw):
  n,t=struct.unpack_from('<II',raw,p);p+=8;c=raw[p:p+n];p+=n
@@ -33,8 +36,9 @@ g['buffers'][0]['byteLength']=len(data)
 js=json.dumps(g,separators=(',',':')).encode();js+=b' '*((-len(js))%4);data+=b'\0'*((-len(data))%4)
 out=struct.pack('<III',0x46546c67,2,28+len(js)+len(data))+struct.pack('<II',len(js),0x4e4f534a)+js+struct.pack('<II',len(data),0x004e4942)+data
 mp=dest.with_suffix('.glb.meta')
-meta=json.loads(mp.read_text()) if mp.exists() else {'uuid':str(uuid.uuid4())}
-meta['importer']={'scaleFactor':1,'AnimCompression':False};mp.write_text(json.dumps(meta,indent=2));dest.write_bytes(out)
+meta=json.loads(canonical_meta.read_text(encoding='utf-8-sig'))
+if meta.get('importer')!={'scaleFactor':1,'AnimCompression':False}:raise ValueError('Unexpected stable FPS import settings.')
+shutil.copyfile(canonical_meta,mp);dest.write_bytes(out)
 report={'source':str(src),'destination':str(dest),'uuid':meta['uuid'],'colored_meshes':colored,'clips':[a['name'] for a in g['animations']]}
-(ROOT/'docs/player_view_direction/fps_import.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
+(report_dir/'fps_import.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 print(json.dumps(report))

@@ -8,7 +8,17 @@ from mathutils import Vector, Matrix, Quaternion, Euler
 from math import sin, cos, pi
 import numpy as np
 
-ROOT = 'D:/a/xiang_mu/LH'
+# BEGIN PROJECT ROOT GUARD
+from pathlib import Path
+try:
+    _script_file = Path(__file__).resolve(strict=True)
+except (NameError, TypeError, OSError) as exc:
+    raise RuntimeError("Cannot locate this authoring script. Run Blender with --python and the actual script file path.") from exc
+_project_directory = _script_file.parent.parent
+if not _script_file.is_file() or _script_file.parent.name != "tools" or not (_project_directory / "LH.laya").is_file():
+    raise RuntimeError("Authoring script must be inside the tools directory of an LH project containing LH.laya.")
+ROOT = _project_directory.as_posix()
+# END PROJECT ROOT GUARD
 SOURCE = ROOT + '/source_art/AnimeWatergunBoy/rigged_20260919'
 OUT = ROOT + '/source_art/AnimeWatergunBoy/gameplay_20260920'
 for sub in ['', '/qa', '/previews']:

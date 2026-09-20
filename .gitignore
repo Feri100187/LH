@@ -27,3 +27,8 @@ source_art/**/*Delivery.zip
 !.env.sample
 *.pem
 *.key
+
+# Per-machine tooling and fresh verification output
+/project.local.json
+/.test-reports/
+/.baseline-cache/

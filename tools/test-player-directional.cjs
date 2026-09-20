@@ -6,9 +6,9 @@ const fs = require("node:fs");
 const path = require("node:path");
 const crypto = require("node:crypto");
 const assert = require("node:assert/strict");
-const root = path.resolve(__dirname, "..");
-const ide = path.resolve(root, "../../LayaAirIDE/resources");
-const ts = require(process.env.TYPESCRIPT_PATH || path.join(ide, "node_modules/typescript"));
+const suite = require("./testing/context.cjs").createSuite("player-directional");
+const root = suite.root, ts = suite.ts;
+const engine = suite.readEngineSource("laya.d3.js");
 const names = ["PlayerAvatar", "LingshuiGame", "FirstPersonArms", "PlayerCameraFollow", "MobileInput", "LakeDuck"];
 const sources = Object.fromEntries(names.map(name => [name, fs.readFileSync(path.join(root, "src", name + ".ts"), "utf8")]));
 
@@ -164,9 +164,12 @@ function input(right, forward, yaw = 0, running = false, extra = {}) {
 const angularError = (actual, expected) => expected + Math.round((actual - expected) / (2 * Math.PI)) * 2 * Math.PI - actual;
 const vector = v => [v.x, v.y, v.z];
 function near(a, b, tolerance = 1e-7) { assert.ok(Math.abs(a - b) <= tolerance, `${a} should equal ${b}`); }
-const tests = [];
-function test(name, body) { try { tests.push({ name, status: "PASS", details: body() }); }
-    catch (error) { tests.push({ name, status: "FAIL", error: error.message, stack: error.stack }); } }
+const tests = suite.tests;
+function test(name, body) {
+    suite.test(name, body, name === "engine_after_scene_hook_runs_after_physics_and_animation_before_renderers"
+        ? { kind: "engine_contract", dependency: engine }
+        : name === "scene_asset_parents_FPS_mount_under_PlayerCamera" ? { kind: "asset_contract" } : {});
+}
 
 const directions = [
     { keys: "W", right: 0, forward: 1, suffix: "" },
@@ -299,8 +302,8 @@ test("camera_reads_post_physics_position_through_real_follow_callback", () => {
 });
 
 test("engine_after_scene_hook_runs_after_physics_and_animation_before_renderers", () => {
-    const source = fs.readFileSync(path.join(ide, "engine/libs/laya.d3.js"), "utf8");
-    const begin = source.indexOf("_update() {\r\n            var delta = this.timer.delta");
+    const source = engine.source;
+    const begin = source.indexOf("_update() {\n            var delta = this.timer.delta");
     assert.ok(begin >= 0, "Installed Scene3D update must be located");
     const section = source.slice(begin, source.indexOf("_binarySearchIndexInCameraPool", begin));
     const order = ["physicsManager.update(", "this._componentDriver.callUpdate()", "value.update(delta)",
@@ -354,13 +357,7 @@ test("switching_TPS_FPS_preserves_continuous_shooting_and_phase", () => {
     return { shots_while_held: shots, resumed_FPS_phase: played.phase, stopped_after_release: true };
 });
 
-const passed = tests.filter(t => t.status === "PASS").length;
-const report = { status: passed === tests.length ? "PASS" : "FAIL", checked_utc: new Date().toISOString(),
+suite.finish({
     scope: "Real production direction, visibility, FPS mount and post-physics helper methods; scene/Animator doubles and installed engine ordering evidence; no live UI or deformation rendering",
-    source_sha256: Object.fromEntries(Object.entries(sources).map(([name, source]) => [name + ".ts", crypto.createHash("sha256").update(source).digest("hex")])),
-    total: tests.length, passed, failed: tests.length - passed, tests };
-const output = path.join(root, "docs/player_avatar/directional_tests.json");
-fs.mkdirSync(path.dirname(output), { recursive: true }); fs.writeFileSync(output, JSON.stringify(report, null, 2) + "\n");
-console.log(JSON.stringify({ status: report.status, passed, failed: report.failed, output,
-    failures: tests.filter(t => t.status === "FAIL").map(({ name, error }) => ({ name, error })) }, null, 2));
-process.exitCode = report.status === "PASS" ? 0 : 1;
+    source_sha256: Object.fromEntries(Object.entries(sources).map(([name, source]) => [name + ".ts", crypto.createHash("sha256").update(source).digest("hex")]))
+});

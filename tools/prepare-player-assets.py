@@ -1,14 +1,18 @@
 """Create the game's in-place GLB derivative; never overwrite the authored source."""
 from pathlib import Path
-import json,struct,math,uuid,copy,hashlib,argparse
+import json,struct,math,copy,hashlib,argparse,shutil,importlib.util
 ROOT=Path(__file__).resolve().parents[1]
+spec=importlib.util.spec_from_file_location('asset_manifest',ROOT/'tools/asset-manifest.py')
+contract=importlib.util.module_from_spec(spec);spec.loader.exec_module(contract)
 parser=argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--animations',type=Path,help='Re-authored GLB animations; retain the original game geometry and bind pose')
 parser.add_argument('--model-source',type=Path,help='Authored GLB geometry source, including approved mesh refinements')
+parser.add_argument('--output-dir',type=Path,help='Staging output inside .baseline-cache; never writes directly to assets')
 args=parser.parse_args()
-SRC=args.model_source or ROOT/'source_art/AnimeWatergunBoy/rigged_20260919/AnimeWatergunBoy_Rigged.glb'
-DEST=ROOT/'assets/characters/AnimeWatergunPlayer.glb'
-DOC=ROOT/'docs/player_avatar';DOC.mkdir(parents=True,exist_ok=True)
+group,SRC=contract.approved_source('player',args.model_source)
+if args.animations and args.animations.resolve()!=SRC:
+ raise ValueError('The approved player GLB already includes all current animations. Historical --animations sources are not allowed by the stable import entry.')
+DEST,DOC,canonical_meta=contract.preparation_paths('player',args.output_dir)
 raw=SRC.read_bytes();pos=12;g=None;data=None
 while pos<len(raw):
  n,t=struct.unpack_from('<II',raw,pos);pos+=8;c=raw[pos:pos+n];pos+=n
@@ -110,7 +114,7 @@ def cut(source,name,start,end):
   si=len(out['samplers']);out['samplers'].append({'input':append([[t-start] for t in ts],'SCALAR'),'output':append(vals,g['accessors'][s['output']]['type']),'interpolation':'LINEAR'})
   out['channels'].append({'sampler':si,'target':copy.deepcopy(c['target'])})
  g['animations'].append(out)
-for args in [('Jump','JumpAir',.29*1.4,.69*1.4),('Jump','JumpLand',.69*1.4,1.4),('RunJump','RunJumpAir',.24*1.6,.73*1.6),('RunJump','RunJumpLand',.73*1.6,1.6)]:cut(*args)
+for cut_args in [('Jump','JumpAir',.29*1.4,.69*1.4),('Jump','JumpLand',.69*1.4,1.4),('RunJump','RunJumpAir',.24*1.6,.73*1.6),('RunJump','RunJumpLand',.73*1.6,1.6)]:cut(*cut_args)
 parents={c:p for p,n in enumerate(g['nodes']) for c in n.get('children',[])}
 def path(i):
  arr=[]
@@ -128,8 +132,9 @@ mask={'_avatarPathMap':upper}
 g['buffers'][0]['byteLength']=len(data)
 jb=json.dumps(g,separators=(',',':'),ensure_ascii=False).encode('utf-8');jb+=b' '*((-len(jb))%4);data+=b'\0'*((-len(data))%4)
 glb=struct.pack('<III',0x46546c67,2,12+8+len(jb)+8+len(data))+struct.pack('<II',len(jb),0x4e4f534a)+jb+struct.pack('<II',len(data),0x004e4942)+data
-meta_path=DEST.with_suffix('.glb.meta');meta=json.loads(meta_path.read_text()) if meta_path.exists() else {'uuid':str(uuid.uuid4())}
-meta['importer']={'scaleFactor':1,'AnimCompression':False};meta_path.write_text(json.dumps(meta,indent=2),encoding='utf-8')
+meta_path=DEST.with_suffix('.glb.meta');meta=json.loads(canonical_meta.read_text(encoding='utf-8-sig'))
+if meta.get('importer')!={'scaleFactor':1,'AnimCompression':False}:raise ValueError('Unexpected stable player import settings.')
+shutil.copyfile(canonical_meta,meta_path)
 DEST.write_bytes(glb)
 clips=[]
 for i,a in enumerate(g['animations']):

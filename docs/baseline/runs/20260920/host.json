@@ -1,0 +1,23 @@
+{
+  "cpu": [
+    "Intel(R) Core(TM) i9-14900HX"
+  ],
+  "gpu": [
+    {
+      "Name": "GameViewer Virtual Display Adapter",
+      "DriverVersion": "15.6.5.199"
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 5070 Laptop GPU",
+      "DriverVersion": "32.0.16.1088"
+    },
+    {
+      "Name": "Intel(R) UHD Graphics",
+      "DriverVersion": "32.0.101.7076"
+    }
+  ],
+  "memoryGiB": 15.7,
+  "os": "Microsoft Windows 11 家庭版 中文版",
+  "edge": "153.0.4234.48",
+  "note": "Normal user session; another 3D application and the original LayaAir IDE remain open. This is not an isolated hardware benchmark."
+}

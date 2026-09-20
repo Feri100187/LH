@@ -1,0 +1,239 @@
+{
+  "runId": "f0da6375-8b74-415e-af3e-905955f71698",
+  "startedAt": "2026-09-20T12:00:28.686Z",
+  "project": "D:\\a\\baseline-checks\\LH-stable-20260920",
+  "directory": "D:\\a\\baseline-checks\\LH-stable-20260920\\.test-reports\\final-v2-import",
+  "category": "asset_contract",
+  "command": "import",
+  "status": "PASS",
+  "assetCheck": {
+    "status": "PASS",
+    "category": "asset_contract",
+    "checkedAt": "2026-09-20T12:00:29.282Z",
+    "root": "D:\\a\\baseline-checks\\LH-stable-20260920",
+    "manifestSHA256": "d100ccfdf5c1255b1e6c2dc669169aedc43351b0e58319cfe84108783903ab27",
+    "lockSHA256": "a389f6572c172f6331e74b74ddd867bd5e1a7679156632b14b134e6de9b89deb",
+    "passed": 10,
+    "total": 10,
+    "checks": [
+      {
+        "name": "project_engine_pin",
+        "category": "asset_contract",
+        "status": "PASS",
+        "details": "3.4.1"
+      },
+      {
+        "name": "protected_runtime_bytes_and_metadata",
+        "category": "asset_contract",
+        "status": "PASS",
+        "details": {
+          "files": 588,
+          "allMatch": true
+        }
+      },
+      {
+        "name": "unique_resource_UUIDs",
+        "category": "asset_contract",
+        "status": "PASS",
+        "details": {
+          "uuids": 296
+        }
+      },
+      {
+        "name": "manifest_sources_and_UUIDs",
+        "category": "asset_contract",
+        "status": "PASS",
+        "details": {
+          "sourcesAndPrimaryResources": 28
+        }
+      },
+      {
+        "name": "scene_and_entry_relationship",
+        "category": "asset_contract",
+        "status": "PASS",
+        "details": {
+          "identicalSceneData": true,
+          "startupUUID": "e13ac28a-6bc3-4a66-b660-a19c07c4ef7e"
+        }
+      },
+      {
+        "name": "resource_references",
+        "category": "asset_contract",
+        "status": "PASS",
+        "details": {
+          "distinctReferences": 304,
+          "builtinAllowlist": [
+            "81a027ba-bf6c-4112-8e81-2a9b06c53290",
+            "a41f5cce-adac-4f00-816f-52e312722234"
+          ]
+        }
+      },
+      {
+        "name": "player_mesh_and_animation_contract",
+        "category": "asset_contract",
+        "status": "PASS",
+        "details": {
+          "meshes": 44,
+          "gameClips": [
+            "Idle",
+            "Jump",
+            "JumpAir",
+            "JumpLand",
+            "Run",
+            "RunBack",
+            "RunBackLeft",
+            "RunBackRight",
+            "RunForwardLeft",
+            "RunForwardRight",
+            "RunJump",
+            "RunJumpAir",
+            "RunJumpLand",
+            "RunLeft",
+            "RunRight",
+            "Shoot",
+            "Walk",
+            "WalkBack",
+            "WalkBackLeft",
+            "WalkBackRight",
+            "WalkForwardLeft",
+            "WalkForwardRight",
+            "WalkLeft",
+            "WalkRight"
+          ]
+        }
+      },
+      {
+        "name": "firstPerson_mesh_and_animation_contract",
+        "category": "asset_contract",
+        "status": "PASS",
+        "details": {
+          "meshes": 15,
+          "gameClips": [
+            "Idle",
+            "Shoot"
+          ]
+        }
+      },
+      {
+        "name": "ducks_mesh_and_animation_contract",
+        "category": "asset_contract",
+        "status": "PASS",
+        "details": {
+          "meshes": 1,
+          "gameClips": []
+        }
+      },
+      {
+        "name": "duck_group_count",
+        "category": "asset_contract",
+        "status": "PASS",
+        "details": {
+          "instances": 5
+        }
+      }
+    ]
+  },
+  "prepared": [
+    {
+      "name": "world",
+      "mode": "verify-committed-runtime",
+      "written": false
+    },
+    {
+      "name": "player",
+      "mode": "prepared-glb-native-sync",
+      "file": "D:\\a\\baseline-checks\\LH-stable-20260920\\.baseline-cache\\imports\\f0da6375-8b74-415e-af3e-905955f71698\\player\\AnimeWatergunPlayer.glb",
+      "sha256": "b02caf88c1d207049a797757eafd7da229cdcb479109bf0db5a57258aab0cafd",
+      "matchesApprovedRuntime": true
+    },
+    {
+      "name": "firstPerson",
+      "mode": "prepared-glb-native-sync",
+      "file": "D:\\a\\baseline-checks\\LH-stable-20260920\\.baseline-cache\\imports\\f0da6375-8b74-415e-af3e-905955f71698\\firstPerson\\WatergunArms.glb",
+      "sha256": "06598a3317256ad8f2d56041611b45fc69c454f40dcffa5929275c87523ef715",
+      "matchesApprovedRuntime": true
+    },
+    {
+      "name": "ducks",
+      "mode": "frozen-glb-native-sync",
+      "file": "D:\\a\\baseline-checks\\LH-stable-20260920\\.baseline-cache\\imports\\f0da6375-8b74-415e-af3e-905955f71698\\ducks\\Duck.glb",
+      "sha256": "1174e98228a43bc1179def55a229797a9a409ec889cfdb096368c6339a452fe4",
+      "matchesApprovedRuntime": true
+    }
+  ],
+  "ideImport": {
+    "runId": "f7374be1-4c4c-42f3-90d0-8c58dcc0e8fb",
+    "category": "asset_import",
+    "project": "D:\\a\\baseline-checks\\LH-stable-20260920",
+    "status": "PASS",
+    "startedAt": "2026-09-20T12:00:29.746Z",
+    "requestPath": "D:\\a\\baseline-checks\\LH-stable-20260920\\.test-reports\\final-v2-import\\ide-import\\request.json",
+    "resultPath": "D:\\a\\baseline-checks\\LH-stable-20260920\\.test-reports\\final-v2-import\\ide-import\\native-result.json",
+    "stdoutPath": "D:\\a\\baseline-checks\\LH-stable-20260920\\.test-reports\\final-v2-import\\ide-import\\ide-stdout.log",
+    "stderrPath": "D:\\a\\baseline-checks\\LH-stable-20260920\\.test-reports\\final-v2-import\\ide-import\\ide-stderr.log",
+    "before": {
+      "library": true,
+      "local": true,
+      "release": true,
+      "bin/js/bundles": true
+    },
+    "engineVersion": "3.4.1",
+    "ideExecutable": "D:\\a\\LayaAirIDE\\LayaAirIDE.exe",
+    "userDataDirectory": "D:\\a\\baseline-checks\\LH-stable-20260920\\.test-reports\\final-v2-import\\ide-import\\ide-user-data",
+    "arguments": [
+      "--project=D:\\a\\baseline-checks\\LH-stable-20260920",
+      "--script=StableBaselineTools.importReady",
+      "--script-args=\"D:\\a\\baseline-checks\\LH-stable-20260920\\.test-reports\\final-v2-import\\ide-import\\request.json\"",
+      "--user-data-dir=D:\\a\\baseline-checks\\LH-stable-20260920\\.test-reports\\final-v2-import\\ide-import\\ide-user-data"
+    ],
+    "timeoutMs": 600000,
+    "process": {
+      "pid": 42508,
+      "timedOut": false,
+      "exitCode": 0,
+      "signal": null
+    },
+    "native": {
+      "runId": "f7374be1-4c4c-42f3-90d0-8c58dcc0e8fb",
+      "category": "asset_import",
+      "engineVersion": "3.4.1",
+      "project": "D:\\a\\baseline-checks\\LH-stable-20260920",
+      "status": "PASS",
+      "startedAt": "2026-09-20T12:00:33.516Z",
+      "finishedAt": "2026-09-20T12:00:33.520Z"
+    },
+    "finishedAt": "2026-09-20T12:00:34.065Z",
+    "after": {
+      "library": true,
+      "local": true,
+      "release": true,
+      "bin/js/bundles": true
+    },
+    "reportPath": "D:\\a\\baseline-checks\\LH-stable-20260920\\.test-reports\\final-v2-import\\ide-import\\ide-run.json",
+    "directory": "D:\\a\\baseline-checks\\LH-stable-20260920\\.test-reports\\final-v2-import\\ide-import"
+  },
+  "nativeCache": [
+    {
+      "name": "player",
+      "nativeMeshes": 44,
+      "nativeClips": 24,
+      "cacheAndCommittedRuntimeIdentical": true,
+      "runtimeWrites": 0
+    },
+    {
+      "name": "firstPerson",
+      "nativeMeshes": 15,
+      "nativeClips": 2,
+      "cacheAndCommittedRuntimeIdentical": true,
+      "runtimeWrites": 0
+    },
+    {
+      "name": "ducks",
+      "nativeMeshes": 1,
+      "nativeClips": 0,
+      "cacheAndCommittedRuntimeIdentical": true,
+      "runtimeWrites": 0
+    }
+  ],
+  "finishedAt": "2026-09-20T12:00:34.234Z"
+}

@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "engineVersion": "3.4.1",
+  "baselineName": "LH stable before watergun hit gameplay",
+  "sourceCommit": "8b074607fde912add41031b4904eb740ec516874",
+  "scenes": {
+    "startup": {
+      "path": "assets/Scene.ls",
+      "sha256": "3d33e9d3ca122991dc1d737842977faea580940fe52269857f8e9f3c4ba0a2f9",
+      "uuid": "e13ac28a-6bc3-4a66-b660-a19c07c4ef7e"
+    },
+    "mirror": {
+      "path": "assets/LingshuiGame.ls",
+      "sha256": "3d33e9d3ca122991dc1d737842977faea580940fe52269857f8e9f3c4ba0a2f9",
+      "uuid": "482d8130-7c2c-428c-a196-e35801bed1b4"
+    }
+  },
+  "groups": {
+    "world": {
+      "mode": "curated-runtime",
+      "sourceBlend": {
+        "path": "source_art/凌水湖_游戏修复.blend",
+        "sha256": "776a846a3995778c40f79e3a0b1ac268515d8550ed1cbc05fee45d53f710ee44"
+      },
+      "sourceGlb": {
+        "path": "assets/lingshui/LingshuiLake.glb",
+        "sha256": "3ef97cca944988234bb2a583a92b5d9d125efc5b2e9461c7650b249c82261b8a",
+        "uuid": "43275236-c4e9-4834-bbd2-1dde45172e6e"
+      },
+      "runtimePrefab": {
+        "path": "assets/lingshui/LingshuiEnvironment.lh",
+        "sha256": "bb662ab84b5677158161914f9996704fb7f32038c8a1ef57791352cb0ea82cc9",
+        "uuid": "761ed02f-fa79-41bc-b5f5-fda957facc9b"
+      },
+      "collision": {
+        "path": "assets/resources/LingshuiCollision.json",
+        "sha256": "92d9e9cc64355264f35435546ff265428540df8b67f25fe6f615457a6dbf1ec0",
+        "uuid": "3870065b-ca93-4596-9e47-082fd7b2a160"
+      },
+      "waterMaterial": {
+        "path": "assets/lingshui/LakeWater.lmat",
+        "sha256": "e1be7d3e0d81f1f6706749ad42b716134a0e334f6c5de765b67594bce207a6fe",
+        "uuid": "32cda929-d7cc-4361-8cdc-067cd0b53450"
+      },
+      "waterShader": {
+        "path": "assets/lingshui/LakeWater.shader",
+        "sha256": "bede853ad4bb5083515d76cfb36e7ad2982a6d0d5f2d798c7f3bb8978ce709e8",
+        "uuid": "c8dcaf2f-fb32-41ad-8270-bdc25c5e6f97"
+      },
+      "reflectionCube": {
+        "path": "assets/lingshui/LakeReflection.ltcb",
+        "sha256": "095b9eed98b5fe301509924b6b50badfa8d044869a11b4cdb38209ea43c51313",
+        "uuid": "e02dac6a-2cce-4d6a-8332-8cc6e9eec8de"
+      },
+      "foliageMaterial": {
+        "path": "assets/lingshui/Foliage.lmat",
+        "sha256": "1a3e44c46825518b8187c56ccd6688df44f178e7f2b054d5e40ea97e5dd647fa",
+        "uuid": "9d6d732a-4cb8-4207-8ab1-206fba8d8a8b"
+      },
+      "nativePatchDirectories": [
+        "assets/lingshui/site_fixed"
+      ],
+      "nativePatchFiles": [
+        "assets/lingshui/LingshuiEntrance_Fixed.lm"
+      ],
+      "policy": "Restore committed runtime resources and metadata through Git LFS; never unpack the world GLB over the curated prefab/materials."
+    },
+    "player": {
+      "mode": "prepared-glb-native-sync",
+      "sourceBlend": {
+        "path": "source_art/AnimeWatergunBoy/neck_short_20260920/AnimeWatergunBoy_NeckShort.blend",
+        "sha256": "fe93d4319d7fd884a0f67bcf691da0810ebb47559b6fc60c2ad1d198377083d8"
+      },
+      "sourceGlb": {
+        "path": "source_art/AnimeWatergunBoy/neck_short_20260920/AnimeWatergunBoy_NeckShort.glb",
+        "sha256": "eb5244f8e98d15b890cb33a8a76569b6fe3dc537e95a602d75a4c93f20960cc3"
+      },
+      "gameGlb": {
+        "path": "assets/characters/AnimeWatergunPlayer.glb",
+        "sha256": "b02caf88c1d207049a797757eafd7da229cdcb479109bf0db5a57258aab0cafd",
+        "uuid": "d49b4ea3-1d69-470a-b1aa-31dc650744fc"
+      },
+      "wrapperPrefab": {
+        "path": "assets/characters/PlayerAvatar.lh",
+        "sha256": "a61a3160ace688b961d0d26ca36818d5f6ccba2c8746ed66d4188730baacfd68",
+        "uuid": "e85fe60a-f535-4c66-b60d-9152dcd80153"
+      },
+      "runtimePrefab": {
+        "path": "assets/characters/AnimeWatergunPlayer-unpacked/AnimeWatergunPlayer.lh",
+        "sha256": "1969404fdd7e707e37e2d473bfc9d71cdd5152f937be91548708ed34d3965b7a",
+        "uuid": "22760ead-afd0-48cf-8155-7a1974793221"
+      },
+      "nativeDirectory": "assets/characters/AnimeWatergunPlayer-unpacked",
+      "controller": {
+        "path": "assets/characters/PlayerAnimation.controller",
+        "sha256": "83a0fe012faa4bb54dcf04827e112b8c20b09b950c626e6cc18f57abc0924e1a",
+        "uuid": "6210875d-04b6-4547-aff9-8d27801db747"
+      },
+      "upperBodyMask": {
+        "path": "assets/characters/PlayerUpperBody.lavm",
+        "sha256": "4db9bc8ff133a32eb971bac8c429c56e6cb0755825b3d8de3cdbdea5f46fa0ab",
+        "uuid": "a642fce1-47a2-4d7a-a690-42f0281c87bc"
+      },
+      "sourceAnimations": [
+        "Idle",
+        "Jump",
+        "Run",
+        "RunBack",
+        "RunBackLeft",
+        "RunBackRight",
+        "RunForwardLeft",
+        "RunForwardRight",
+        "RunJump",
+        "RunLeft",
+        "RunRight",
+        "Shoot",
+        "Walk",
+        "WalkBack",
+        "WalkBackLeft",
+        "WalkBackRight",
+        "WalkForwardLeft",
+        "WalkForwardRight",
+        "WalkLeft",
+        "WalkRight"
+      ],
+      "gameAnimations": [
+        "Idle",
+        "Jump",
+        "JumpAir",
+        "JumpLand",
+        "Run",
+        "RunBack",
+        "RunBackLeft",
+        "RunBackRight",
+        "RunForwardLeft",
+        "RunForwardRight",
+        "RunJump",
+        "RunJumpAir",
+        "RunJumpLand",
+        "RunLeft",
+        "RunRight",
+        "Shoot",
+        "Walk",
+        "WalkBack",
+        "WalkBackLeft",
+        "WalkBackRight",
+        "WalkForwardLeft",
+        "WalkForwardRight",
+        "WalkLeft",
+        "WalkRight"
+      ],
+      "movementStates": [
+        "Idle",
+        "Walk",
+        "Run",
+        "Jump",
+        "RunJump",
+        "Land",
+        "RunLand",
+        "WalkBack",
+        "WalkLeft",
+        "WalkRight",
+        "WalkForwardLeft",
+        "WalkForwardRight",
+        "WalkBackLeft",
+        "WalkBackRight",
+        "RunBack",
+        "RunLeft",
+        "RunRight",
+        "RunForwardLeft",
+        "RunForwardRight",
+        "RunBackLeft",
+        "RunBackRight"
+      ],
+      "meshCount": 44,
+      "skinJoints": 55
+    },
+    "firstPerson": {
+      "mode": "prepared-glb-native-sync",
+      "sourceBlend": {
+        "path": "source_art/AnimeWatergunBoy/first_person_20260920/WatergunArms.blend",
+        "sha256": "28a1d5c268320feba752b56b90ab1b565f476cb7a3bf781f01ca2b8b4b13dbaa"
+      },
+      "sourceGlb": {
+        "path": "source_art/AnimeWatergunBoy/first_person_20260920/WatergunArms.glb",
+        "sha256": "79559dddc8b123f46e440866430766b7cd6e6077cc43f2eab214651dd06d6418"
+      },
+      "gameGlb": {
+        "path": "assets/characters/WatergunArms.glb",
+        "sha256": "06598a3317256ad8f2d56041611b45fc69c454f40dcffa5929275c87523ef715",
+        "uuid": "0329308f-6b61-4c68-be26-f1aa6b54716c"
+      },
+      "runtimePrefab": {
+        "path": "assets/characters/WatergunArms-unpacked/WatergunArms.lh",
+        "sha256": "b5cc65e33773d1cc1406a2fccde8002411e9c85b8abe2a1c4a340042abc63904",
+        "uuid": "8ffde5eb-70bb-405c-9625-b001db920911"
+      },
+      "nativeDirectory": "assets/characters/WatergunArms-unpacked",
+      "sourceAnimations": [
+        "Idle",
+        "Shoot"
+      ],
+      "gameAnimations": [
+        "Idle",
+        "Shoot"
+      ],
+      "meshCount": 15,
+      "skinJoints": 55
+    },
+    "ducks": {
+      "mode": "frozen-glb-native-sync",
+      "sourceBlend": {
+        "path": "source_art/LakeDucks/Duck.blend",
+        "sha256": "efd84690f805294e687111320587fda788d45507224b771c95038c0ecc4e5ab4"
+      },
+      "sourceGlb": {
+        "path": "source_art/LakeDucks/Duck.glb",
+        "sha256": "1174e98228a43bc1179def55a229797a9a409ec889cfdb096368c6339a452fe4"
+      },
+      "gameGlb": {
+        "path": "assets/ducks/Duck.glb",
+        "sha256": "1174e98228a43bc1179def55a229797a9a409ec889cfdb096368c6339a452fe4",
+        "uuid": "988dc0ea-43a0-4a9b-9dbd-dc6646a6a628"
+      },
+      "runtimePrefab": {
+        "path": "assets/ducks/Duck-unpacked/Duck.lh",
+        "sha256": "357e8eebf8fdb52a56478abf369128c452185c5071f028e429bd82b6cf0ed0a4",
+        "uuid": "2565d79f-2c4f-4888-ba14-c6cf63715c51"
+      },
+      "nativeDirectory": "assets/ducks/Duck-unpacked",
+      "groupPrefab": {
+        "path": "assets/ducks/LakeDucks.lh",
+        "sha256": "0141e67b49c65c2e0f6a67fb5639a5ea48195808f16d73f98a4457192d0692a7",
+        "uuid": "3846e38d-77a3-4fd6-8e87-af451a6f9834"
+      },
+      "sourceAnimations": [],
+      "gameAnimations": [],
+      "meshCount": 1,
+      "instanceCount": 5,
+      "waterLevel": 0.04,
+      "attribution": {
+        "path": "ASSET_CREDITS.md",
+        "sha256": "9e04d693e1eebb8e05c24d66d7485ce7e3a0367e98dde3dfe009d323135203a1"
+      },
+      "license": {
+        "path": "source_art/LakeDucks/original/LICENSE_CC_BY_3.0.txt",
+        "sha256": "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+      }
+    }
+  },
+  "archiveSourceDirectories": [
+    "source_art/AnimeWatergunBoy/rigged_20260919",
+    "source_art/AnimeWatergunBoy/gameplay_20260920",
+    "source_art/AnimeWatergunBoy/directional_20260920",
+    "source_art/AnimeWatergunBoy/neck_refine_20260920"
+  ],
+  "build": {
+    "platforms": [
+      "web",
+      "single-html"
+    ],
+    "defaultPlatform": "web",
+    "outputRoot": "release",
+    "options": {
+      "name": "LH",
+      "sourcemap": true,
+      "sourcesContent": true
+    },
+    "notices": [
+      {
+        "source": "ASSET_CREDITS.md",
+        "destination": "ASSET_CREDITS.md"
+      },
+      {
+        "source": "source_art/LakeDucks/original/LICENSE_CC_BY_3.0.txt",
+        "destination": "LICENSE_DUCK_CC_BY_3.0.txt"
+      }
+    ]
+  },
+  "builtinResourceUUIDs": [
+    "81a027ba-bf6c-4112-8e81-2a9b06c53290",
+    "a41f5cce-adac-4f00-816f-52e312722234"
+  ],
+  "builtinResourceEvidence": {
+    "81a027ba-bf6c-4112-8e81-2a9b06c53290": "resources/internal/Capsule.lm.meta",
+    "a41f5cce-adac-4f00-816f-52e312722234": "resources/internal/DefaultSkyProcedural.lmat.meta"
+  }
+}

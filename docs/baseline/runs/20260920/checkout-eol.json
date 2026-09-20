@@ -1,0 +1,7 @@
+{
+  "category": "checkout-byte-preservation",
+  "convertedFilesRestoredFromGit": 336,
+  "remainingProtectedMismatches": [],
+  "method": "New Git checkout-index prefix with candidate * -text; copied only checkout EOL differences from this clone git objects",
+  "runtimeSourceCopiedFromOriginalWorkspace": false
+}

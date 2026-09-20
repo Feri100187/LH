@@ -2,7 +2,18 @@
 import bpy,os,sys,json,math,hashlib
 from mathutils import Vector,Matrix
 import numpy as np
-ROOT='D:/a/xiang_mu/LH';OUT=ROOT+'/source_art/LakeDucks'
+# BEGIN PROJECT ROOT GUARD
+from pathlib import Path
+try:
+    _script_file = Path(__file__).resolve(strict=True)
+except (NameError, TypeError, OSError) as exc:
+    raise RuntimeError("Cannot locate this authoring script. Run Blender with --python and the actual script file path.") from exc
+_project_directory = _script_file.parent.parent
+if not _script_file.is_file() or _script_file.parent.name != "tools" or not (_project_directory / "LH.laya").is_file():
+    raise RuntimeError("Authoring script must be inside the tools directory of an LH project containing LH.laya.")
+ROOT = _project_directory.as_posix()
+# END PROJECT ROOT GUARD
+OUT=ROOT+'/source_art/LakeDucks'
 SOURCE=OUT+'/original/MallardDuck_PolyByGoogle_frSLi6b6Vid.glb'
 for d in ['', '/qa','/previews']:os.makedirs(OUT+d,exist_ok=True)
 bpy.ops.wm.read_factory_settings(use_empty=True)

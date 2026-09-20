@@ -1,0 +1,175 @@
+{
+  "ducks": [
+    {
+      "age": 84.29900000000431,
+      "name": "Duck_01",
+      "period": 42,
+      "position": [
+        -24.150650024414062,
+        0.03999999910593033,
+        30.022357940673828
+      ],
+      "radius": [
+        0.65,
+        0.5
+      ],
+      "waterLevel": 0.04
+    },
+    {
+      "age": 84.2782000000043,
+      "name": "Duck_02",
+      "period": 47,
+      "position": [
+        -22.331787109375,
+        0.03999999910593033,
+        29.67239570617676
+      ],
+      "radius": [
+        0.55,
+        0.5
+      ],
+      "waterLevel": 0.04
+    },
+    {
+      "age": 84.2782000000043,
+      "name": "Duck_03",
+      "period": 53,
+      "position": [
+        -23.437829971313477,
+        0.03999999910593033,
+        27.549196243286133
+      ],
+      "radius": [
+        0.7,
+        0.55
+      ],
+      "waterLevel": 0.04
+    },
+    {
+      "age": 84.2782000000043,
+      "name": "Duck_04",
+      "period": 68,
+      "position": [
+        -19.118680953979492,
+        0.03999999910593033,
+        21.868253707885746
+      ],
+      "radius": [
+        0.9,
+        0.65
+      ],
+      "waterLevel": 0.04
+    },
+    {
+      "age": 84.2782000000043,
+      "name": "Duck_05",
+      "period": 73,
+      "position": [
+        -15.49224853515625,
+        0.03999999910593033,
+        21.219396591186523
+      ],
+      "radius": [
+        1.1,
+        0.7
+      ],
+      "waterLevel": 0.04
+    }
+  ],
+  "player": {
+    "avatar": {
+      "airborne": false,
+      "base": "Idle",
+      "baseTime": 29.24696666666826,
+      "direction": "Forward",
+      "gaitRates": {
+        "run": 0.05,
+        "walk": 0.05
+      },
+      "gunDirection": [
+        0.31437498331069946,
+        -0.03489955514669418,
+        -0.9486571550369264
+      ],
+      "gunForwardDotBody": 0.9993908284221718,
+      "heading": 2.8215926535897933,
+      "history": [
+        {
+          "base": "Idle",
+          "time": 1951.7,
+          "upper": ""
+        }
+      ],
+      "loaded": true,
+      "meshCount": 44,
+      "motion": "Idle",
+      "rootLocal": [
+        0,
+        0.0012000000569969416,
+        0
+      ],
+      "shooting": false,
+      "shotInterval": 0.20000000298023224,
+      "shotQueued": false,
+      "shots": 0,
+      "triggerHeld": false,
+      "upper": "UpperIdle",
+      "upperTime": 29.24696666666826,
+      "upperWeight": 0,
+      "visibleMeshes": 0
+    },
+    "camera": [
+      -26,
+      2.479999976158142,
+      37.2
+    ],
+    "cameraDistance": 1.95,
+    "cameraFollowPhase": "afterPhysicsAndAnimation",
+    "firstPerson": true,
+    "firstPersonArms": {
+      "base": "Idle",
+      "cameraParent": "PlayerCamera",
+      "localMountPosition": [
+        0,
+        0,
+        0
+      ],
+      "meshes": 15,
+      "shooting": false,
+      "visible": true
+    },
+    "firstPersonCameraOffset": [
+      0,
+      0.72,
+      0
+    ],
+    "fps": 60,
+    "grounded": true,
+    "inputMode": "touch",
+    "keys": [],
+    "locked": false,
+    "pitch": 0.025,
+    "position": [
+      -26,
+      1.7599999761581422,
+      37.2
+    ],
+    "ready": true,
+    "speed": 0,
+    "touch": {
+      "enabled": true,
+      "looking": false,
+      "move": [
+        0,
+        0
+      ],
+      "moving": false,
+      "pointers": 0,
+      "running": false,
+      "shootPointers": 0,
+      "shooting": false
+    },
+    "triggerHeld": false,
+    "yaw": 0.32
+  }
+}
