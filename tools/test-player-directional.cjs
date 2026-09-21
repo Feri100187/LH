@@ -9,7 +9,7 @@ const assert = require("node:assert/strict");
 const suite = require("./testing/context.cjs").createSuite("player-directional");
 const root = suite.root, ts = suite.ts;
 const engine = suite.readEngineSource("laya.d3.js");
-const names = ["PlayerAvatar", "LingshuiGame", "FirstPersonArms", "PlayerCameraFollow", "MobileInput", "LakeDuck"];
+const names = ["PlayerAvatar", "LingshuiGame", "FirstPersonArms", "PlayerCameraFollow", "MobileInput", "LakeDuck", "WaterGunSystem", "PhysicsWaterQuery", "WaterShotResolver", "TrainingProgress", "TrainingRangeView", "TrainingHud", "WeaponMuzzle", "WaterShotEffects"];
 const sources = Object.fromEntries(names.map(name => [name, fs.readFileSync(path.join(root, "src", name + ".ts"), "utf8")]));
 
 class Vector3 {

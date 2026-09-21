@@ -10,6 +10,8 @@ const suites = [
     ["player-input", "test-player-input.cjs"],
     ["player-directional", "test-player-directional.cjs"],
     ["frame-stability", "test-frame-stability.cjs"],
+    ["water-shot", "test-water-shot.cjs"],
+    ["watergun-integration", "test-watergun-integration.cjs"],
     ["lake-ducks", "test-lake-ducks.cjs"],
     ["asset-entry-contract", "testing/asset-entry-contract.cjs"]
 ];

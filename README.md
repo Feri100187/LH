@@ -1,6 +1,6 @@
 # LH · 凌水湖
 
-LayaAir **3.4.1** 三维漫游项目：湖区场景、动漫水枪玩家、八方向动画、第一人称/右肩视角、水面与 5 只鸭子。当前水枪只有动作和水流表现，尚无命中、伤害或敌人玩法。
+LayaAir **3.4.1** 三维漫游项目：湖区场景、动漫水枪玩家、八方向动画、第一人称/右肩视角、水面与 5 只鸭子。M1 增加出生点旁的三个训练靶、18 米水枪命中、遮挡、水花、完成进度和重置；尚无敌人、伤害战斗或联机。
 
 ## 从全新目录开始
 
@@ -41,12 +41,13 @@ IDE 路径也可通过各命令的 `--ide` 参数或不入库的 `project.local.
 
 ## 验证与操作
 
+- [M1 验收结果](docs/m1/acceptance.md)、[逐发数值记录](docs/m1/numeric-results.md)、[实现与测试入口](docs/m1/implementation.md)
 - [M0.1 跨帧率修复验收](docs/m0.1/acceptance.md)、[数值前后对比](docs/m0.1/numeric-results.md)
 - [修复说明与复测入口](docs/m0.1/implementation.md)、[3.4.1 物理子步语义](docs/m0.1/physics-semantics.md)
 - [M0 稳定基线历史验收](docs/baseline/acceptance.md)
 - [测试分类与依赖](docs/baseline/testing.md)、[构建入口](docs/baseline/build.md)、[实际运行测试](docs/baseline/runtime-testing.md)
 - [当前功能与资源说明](README_凌水湖游戏.md)、[第三方素材许可](ASSET_CREDITS.md)
 
-WASD 移动，Shift 奔跑，Space 跳跃，左键/F 长按或点射，V 切换视角，Esc 释放鼠标。触屏提供摇杆和操作按钮；桌面加 `?controls=touch` 可检查触屏布局。
+WASD 移动，Shift 奔跑，Space 跳跃，左键/F 长按或点射，V 切换视角，Esc 释放鼠标。训练靶在出生点后方草坪；R 或“重新开始”重置三个靶。触屏提供摇杆和操作按钮；桌面加 `?controls=touch` 可检查触屏布局。
 
 每次验证写入新的 `.test-reports/` 子目录；历史 `docs` 报告仅用于追溯，不参与本轮 PASS 判断。缓存、发布产物、机器配置不提交 Git；模型源文件与运行二进制通过 Git LFS 管理。

@@ -1,6 +1,6 @@
 # 当前功能与资源
 
-本文件描述稳定基线的功能边界。**当前 M0.1 实际验收结论见 [docs/m0.1/acceptance.md](docs/m0.1/acceptance.md)**；[M0 基线验收](docs/baseline/acceptance.md)及下列历史修复报告不代表本轮重新验证。
+本文件描述当前功能边界。**本轮 M1 实际验收见 [docs/m1/acceptance.md](docs/m1/acceptance.md)**；[M0.1 验收](docs/m0.1/acceptance.md)、[M0 基线验收](docs/baseline/acceptance.md)及下列历史修复报告不代表本轮重新验证。
 
 ## 当前有效资源
 
@@ -15,6 +15,7 @@
 | 第一人称 | `WatergunArms-unpacked/WatergunArms.lh`；源 `first_person_20260920/WatergunArms.blend/.glb` |
 | 水面 | `LakeWater.lmat`、`LakeWater.shader`、`LakeReflection.ltcb` |
 | 鸭群 | `assets/ducks/LakeDucks.lh`，共享 1 个模型/1K 贴图的 5 个实例 |
+| 训练靶组 | `WaterGunSystem.ts` 配置，`TrainingRangeView.ts` 创建独立运行时组，不改原场景 UUID |
 
 精确路径、UUID、动画名称和文件哈希以 [assets.manifest.json](config/assets.manifest.json) 与 [assets.lock.json](config/assets.lock.json) 为准。`rigged_20260919`、`gameplay_20260920`、`directional_20260920`、`neck_refine_20260920` 是归档制作阶段，不能替代当前完整人物源。
 
@@ -24,7 +25,8 @@
 - 右肩镜头：后拉 1.95 米、横向 0.65 米、抬高 0.32 米。颈部保留加厚与缩短 2.4 厘米的当前比例。
 - 胶囊碰撞高 1.8 米、半径 0.32 米、台阶高 0.35 米；步行目标 1.65 米/秒、奔跑目标 4 米/秒、跳跃初速度 6.5 米/秒。后退/侧移按方向步程限速，动画跟随实际位移。
 - 行走/奔跑各八方向，身体始终朝视线方向；待机和行走枪口向前，奔跑侧持。跳跃、跑跳及对应落地动作保留。
-- 上身射击与腿部移动可同时播放，点按/长按触发 0.2 秒短循环。只包含动作和水流，当前没有命中、伤害、弹药、敌人或网络同步。
+- 上身射击与腿部移动可同时播放，点按/长按沿用单调时钟的约 0.2 秒周期。每次实际发射只结算一次，18 米内检测墙与靶；旧演示水流由真实遮挡终点的水束/水花替代。
+- 出生点后方草坪有近、中、掩体三个训练靶，命中变绿并显示勾，3/3 提示完成；R 或 HUD 按钮重置，旧发射不会重新计入。没有伤害、弹药、敌人或网络同步。
 - 水面动态波纹、视角相关反射与静态环境倒影；鸭群小范围巡游、浮动与水痕，水位 Y=0.04。
 - 触屏摇杆、跑步、跳跃、射击及切换视角按钮；失焦清空输入，第三人称相机避障、深水/越界返回安全点。
 

@@ -1,0 +1,1922 @@
+{
+  "protocol": "m1-final-first-person-regression-summary-v1",
+  "source": "This turn, corrected M1 build; unchanged m01-postphysics-v1 assertions",
+  "runs": [
+    {
+      "file": "final-m01-fp-15.json",
+      "runId": "m01-1789989070261-1",
+      "status": "PASS",
+      "requestedFps": 15,
+      "actualOnUpdateHzRange": [
+        14.771638,
+        15.182995
+      ],
+      "passedCases": 17,
+      "totalCases": 17,
+      "maxDistanceErrorMeters": 0.1349330000000002,
+      "maxDistanceErrorPercent": 1.522404311393252,
+      "speedWindowsFailed": 0,
+      "maxStopDriftMeters": 0,
+      "movementCases": [
+        {
+          "label": "Walk Forward · 15 FPS",
+          "inputWallSeconds": 2.5026,
+          "configuredSpeed": 1.65,
+          "expectedDistance": 4.12929,
+          "projectedDistance": 4.07,
+          "distanceTolerance": 0.178879,
+          "longWindowSpeed": {
+            "n": 27,
+            "mean": 1.650341,
+            "min": 1.639344,
+            "max": 1.656938,
+            "p50": 1.650103,
+            "p95": 1.655691
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 15,
+            "actualOnUpdateHz": 14.784624,
+            "observedOnUpdateCount": 37,
+            "wallSeconds": 2.5026,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Walk Back · 15 FPS",
+          "inputWallSeconds": 2.5096,
+          "configuredSpeed": 1.218403,
+          "expectedDistance": 3.057704,
+          "projectedDistance": 3.08662,
+          "distanceTolerance": 0.132345,
+          "longWindowSpeed": {
+            "n": 28,
+            "mean": 1.219997,
+            "min": 1.213473,
+            "max": 1.22491,
+            "p50": 1.219165,
+            "p95": 1.223987
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 15,
+            "actualOnUpdateHz": 15.141855,
+            "observedOnUpdateCount": 38,
+            "wallSeconds": 2.5096,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Walk Left · 15 FPS",
+          "inputWallSeconds": 2.5038,
+          "configuredSpeed": 0.813172,
+          "expectedDistance": 2.03602,
+          "projectedDistance": 2.005824,
+          "distanceTolerance": 0.088186,
+          "longWindowSpeed": {
+            "n": 27,
+            "mean": 0.81336,
+            "min": 0.809428,
+            "max": 0.817053,
+            "p50": 0.813375,
+            "p95": 0.813986
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 15,
+            "actualOnUpdateHz": 14.777538,
+            "observedOnUpdateCount": 37,
+            "wallSeconds": 2.5038,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Walk Right · 15 FPS",
+          "inputWallSeconds": 2.5036,
+          "configuredSpeed": 0.813172,
+          "expectedDistance": 2.035857,
+          "projectedDistance": 2.005824,
+          "distanceTolerance": 0.088181,
+          "longWindowSpeed": {
+            "n": 27,
+            "mean": 0.813206,
+            "min": 0.812309,
+            "max": 0.814292,
+            "p50": 0.813223,
+            "p95": 0.813986
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 15,
+            "actualOnUpdateHz": 14.778719,
+            "observedOnUpdateCount": 37,
+            "wallSeconds": 2.5036,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Walk ForwardLeft · 15 FPS",
+          "inputWallSeconds": 2.5036,
+          "configuredSpeed": 1.260417,
+          "expectedDistance": 3.15558,
+          "projectedDistance": 3.109028,
+          "distanceTolerance": 0.136681,
+          "longWindowSpeed": {
+            "n": 27,
+            "mean": 1.260417,
+            "min": 1.258843,
+            "max": 1.262152,
+            "p50": 1.260495,
+            "p95": 1.261442
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 15,
+            "actualOnUpdateHz": 14.778719,
+            "observedOnUpdateCount": 37,
+            "wallSeconds": 2.5036,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Walk ForwardRight · 15 FPS",
+          "inputWallSeconds": 2.5037,
+          "configuredSpeed": 1.260417,
+          "expectedDistance": 3.155706,
+          "projectedDistance": 3.109028,
+          "distanceTolerance": 0.136685,
+          "longWindowSpeed": {
+            "n": 27,
+            "mean": 1.260566,
+            "min": 1.259787,
+            "max": 1.261442,
+            "p50": 1.260495,
+            "p95": 1.261205
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 15,
+            "actualOnUpdateHz": 14.778128,
+            "observedOnUpdateCount": 37,
+            "wallSeconds": 2.5037,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Walk BackLeft · 15 FPS",
+          "inputWallSeconds": 2.509,
+          "configuredSpeed": 0.945313,
+          "expectedDistance": 2.37179,
+          "projectedDistance": 2.39477,
+          "distanceTolerance": 0.102664,
+          "longWindowSpeed": {
+            "n": 28,
+            "mean": 0.945152,
+            "min": 0.943562,
+            "max": 0.94786,
+            "p50": 0.945017,
+            "p95": 0.946081
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 15,
+            "actualOnUpdateHz": 15.145476,
+            "observedOnUpdateCount": 38,
+            "wallSeconds": 2.509,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Walk BackRight · 15 FPS",
+          "inputWallSeconds": 2.5017,
+          "configuredSpeed": 0.945313,
+          "expectedDistance": 2.36489,
+          "projectedDistance": 2.331754,
+          "distanceTolerance": 0.102457,
+          "longWindowSpeed": {
+            "n": 27,
+            "mean": 0.945527,
+            "min": 0.944632,
+            "max": 0.947682,
+            "p50": 0.945372,
+            "p95": 0.946614
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 15,
+            "actualOnUpdateHz": 14.789943,
+            "observedOnUpdateCount": 37,
+            "wallSeconds": 2.5017,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run Forward · 15 FPS",
+          "inputWallSeconds": 2.5004,
+          "configuredSpeed": 4,
+          "expectedDistance": 10.0016,
+          "projectedDistance": 9.866667,
+          "distanceTolerance": 0.433381,
+          "longWindowSpeed": {
+            "n": 27,
+            "mean": 4.000475,
+            "min": 3.98903,
+            "max": 4.011533,
+            "p50": 4.00025,
+            "p95": 4.003253
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 15,
+            "actualOnUpdateHz": 14.797632,
+            "observedOnUpdateCount": 37,
+            "wallSeconds": 2.5004,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run Back · 15 FPS",
+          "inputWallSeconds": 2.5048,
+          "configuredSpeed": 2.210909,
+          "expectedDistance": 5.537885,
+          "projectedDistance": 5.453576,
+          "distanceTolerance": 0.239834,
+          "longWindowSpeed": {
+            "n": 27,
+            "mean": 2.211125,
+            "min": 2.208562,
+            "max": 2.213538,
+            "p50": 2.211047,
+            "p95": 2.212707
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 15,
+            "actualOnUpdateHz": 14.771638,
+            "observedOnUpdateCount": 37,
+            "wallSeconds": 2.5048,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run Left · 15 FPS",
+          "inputWallSeconds": 2.5028,
+          "configuredSpeed": 1.809524,
+          "expectedDistance": 4.528877,
+          "projectedDistance": 4.584127,
+          "distanceTolerance": 0.196184,
+          "longWindowSpeed": {
+            "n": 28,
+            "mean": 1.809674,
+            "min": 1.808281,
+            "max": 1.811675,
+            "p50": 1.809298,
+            "p95": 1.810995
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 15,
+            "actualOnUpdateHz": 15.182995,
+            "observedOnUpdateCount": 38,
+            "wallSeconds": 2.5028,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run Right · 15 FPS",
+          "inputWallSeconds": 2.5033,
+          "configuredSpeed": 1.809524,
+          "expectedDistance": 4.529781,
+          "projectedDistance": 4.463492,
+          "distanceTolerance": 0.196211,
+          "longWindowSpeed": {
+            "n": 27,
+            "mean": 1.809587,
+            "min": 1.806926,
+            "max": 1.812356,
+            "p50": 1.809637,
+            "p95": 1.810995
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 15,
+            "actualOnUpdateHz": 14.78049,
+            "observedOnUpdateCount": 37,
+            "wallSeconds": 2.5033,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run ForwardLeft · 15 FPS",
+          "inputWallSeconds": 2.5017,
+          "configuredSpeed": 2.262326,
+          "expectedDistance": 5.659661,
+          "projectedDistance": 5.580403,
+          "distanceTolerance": 0.245201,
+          "longWindowSpeed": {
+            "n": 27,
+            "mean": 2.262389,
+            "min": 2.259501,
+            "max": 2.265015,
+            "p50": 2.262467,
+            "p95": 2.26459
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 15,
+            "actualOnUpdateHz": 14.789943,
+            "observedOnUpdateCount": 37,
+            "wallSeconds": 2.5017,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run ForwardRight · 15 FPS",
+          "inputWallSeconds": 2.5039,
+          "configuredSpeed": 2.262326,
+          "expectedDistance": 5.664638,
+          "projectedDistance": 5.731225,
+          "distanceTolerance": 0.24535,
+          "longWindowSpeed": {
+            "n": 28,
+            "mean": 2.262438,
+            "min": 2.258655,
+            "max": 2.266292,
+            "p50": 2.262467,
+            "p95": 2.264165
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 15,
+            "actualOnUpdateHz": 15.176325,
+            "observedOnUpdateCount": 38,
+            "wallSeconds": 2.5039,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run BackLeft · 15 FPS",
+          "inputWallSeconds": 2.503,
+          "configuredSpeed": 1.742292,
+          "expectedDistance": 4.360957,
+          "projectedDistance": 4.297655,
+          "distanceTolerance": 0.188905,
+          "longWindowSpeed": {
+            "n": 27,
+            "mean": 1.742028,
+            "min": 1.735243,
+            "max": 1.745675,
+            "p50": 1.742401,
+            "p95": 1.743709
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 15,
+            "actualOnUpdateHz": 14.782261,
+            "observedOnUpdateCount": 37,
+            "wallSeconds": 2.503,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run BackRight · 15 FPS",
+          "inputWallSeconds": 2.5038,
+          "configuredSpeed": 1.742292,
+          "expectedDistance": 4.362351,
+          "projectedDistance": 4.413808,
+          "distanceTolerance": 0.188947,
+          "longWindowSpeed": {
+            "n": 28,
+            "mean": 1.742274,
+            "min": 1.737839,
+            "max": 1.746659,
+            "p50": 1.742401,
+            "p95": 1.744037
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 15,
+            "actualOnUpdateHz": 15.176931,
+            "observedOnUpdateCount": 38,
+            "wallSeconds": 2.5038,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        }
+      ],
+      "fireAssertions": [
+        {
+          "label": "连续射击 2s / 释放 500ms · 15 FPS",
+          "status": "PASS",
+          "assertions": [
+            {
+              "label": "2秒约5Hz，计数允许±1",
+              "status": "PASS",
+              "actual": 10,
+              "limit": {
+                "ideal": 10.008,
+                "toleranceShots": 1
+              }
+            },
+            {
+              "label": "相邻发射间隔0.2秒±一实际帧",
+              "status": "PASS",
+              "actual": {
+                "n": 9,
+                "mean": 0.2,
+                "min": 0.1334,
+                "max": 0.2666,
+                "p50": 0.2,
+                "p95": 0.2
+              },
+              "limit": "0.2 ± one observed game frame"
+            },
+            {
+              "label": "同一真实游戏帧不补发多枪",
+              "status": "PASS",
+              "actual": 1,
+              "limit": 1
+            },
+            {
+              "label": "松开500ms无新增发射且输入清空",
+              "status": "PASS",
+              "actual": {
+                "added": 0,
+                "clear": true
+              },
+              "limit": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "final-m01-fp-30.json",
+      "runId": "m01-1789989197369-2",
+      "status": "PASS",
+      "requestedFps": 30,
+      "actualOnUpdateHzRange": [
+        29.97003,
+        30.445199
+      ],
+      "passedCases": 17,
+      "totalCases": 17,
+      "maxDistanceErrorMeters": 0.05954800000000038,
+      "maxDistanceErrorPercent": 1.1626133750807484,
+      "speedWindowsFailed": 0,
+      "maxStopDriftMeters": 0,
+      "movementCases": [
+        {
+          "label": "Walk Forward · 30 FPS",
+          "inputWallSeconds": 2.5021,
+          "configuredSpeed": 1.65,
+          "expectedDistance": 4.128465,
+          "projectedDistance": 4.125,
+          "distanceTolerance": 0.178854,
+          "longWindowSpeed": {
+            "n": 54,
+            "mean": 1.650247,
+            "min": 1.642445,
+            "max": 1.660691,
+            "p50": 1.65,
+            "p95": 1.653203
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 30,
+            "actualOnUpdateHz": 29.974821,
+            "observedOnUpdateCount": 75,
+            "wallSeconds": 2.5021,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Walk Back · 30 FPS",
+          "inputWallSeconds": 2.5092,
+          "configuredSpeed": 1.218403,
+          "expectedDistance": 3.057217,
+          "projectedDistance": 3.08662,
+          "distanceTolerance": 0.13233,
+          "longWindowSpeed": {
+            "n": 56,
+            "mean": 1.218284,
+            "min": 1.213549,
+            "max": 1.221916,
+            "p50": 1.218159,
+            "p95": 1.221227
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 30,
+            "actualOnUpdateHz": 30.288538,
+            "observedOnUpdateCount": 76,
+            "wallSeconds": 2.5092,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Walk Left · 30 FPS",
+          "inputWallSeconds": 2.501,
+          "configuredSpeed": 0.813172,
+          "expectedDistance": 2.033743,
+          "projectedDistance": 2.03293,
+          "distanceTolerance": 0.088118,
+          "longWindowSpeed": {
+            "n": 55,
+            "mean": 0.812946,
+            "min": 0.811063,
+            "max": 0.81567,
+            "p50": 0.813009,
+            "p95": 0.815057
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 30,
+            "actualOnUpdateHz": 29.988005,
+            "observedOnUpdateCount": 75,
+            "wallSeconds": 2.501,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Walk Right · 30 FPS",
+          "inputWallSeconds": 2.5065,
+          "configuredSpeed": 0.813172,
+          "expectedDistance": 2.038216,
+          "projectedDistance": 2.060036,
+          "distanceTolerance": 0.088252,
+          "longWindowSpeed": {
+            "n": 56,
+            "mean": 0.813041,
+            "min": 0.810902,
+            "max": 0.81521,
+            "p50": 0.813009,
+            "p95": 0.815057
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 30,
+            "actualOnUpdateHz": 30.321165,
+            "observedOnUpdateCount": 76,
+            "wallSeconds": 2.5065,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Walk ForwardLeft · 30 FPS",
+          "inputWallSeconds": 2.502,
+          "configuredSpeed": 1.260417,
+          "expectedDistance": 3.153563,
+          "projectedDistance": 3.151042,
+          "distanceTolerance": 0.136621,
+          "longWindowSpeed": {
+            "n": 56,
+            "mean": 1.260025,
+            "min": 1.256647,
+            "max": 1.263338,
+            "p50": 1.260165,
+            "p95": 1.262389
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 30,
+            "actualOnUpdateHz": 29.976019,
+            "observedOnUpdateCount": 75,
+            "wallSeconds": 2.502,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Walk ForwardRight · 30 FPS",
+          "inputWallSeconds": 2.5079,
+          "configuredSpeed": 1.260417,
+          "expectedDistance": 3.161,
+          "projectedDistance": 3.193056,
+          "distanceTolerance": 0.136844,
+          "longWindowSpeed": {
+            "n": 56,
+            "mean": 1.260095,
+            "min": 1.257148,
+            "max": 1.264526,
+            "p50": 1.259913,
+            "p95": 1.262626
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 30,
+            "actualOnUpdateHz": 30.304239,
+            "observedOnUpdateCount": 76,
+            "wallSeconds": 2.5079,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Walk BackLeft · 30 FPS",
+          "inputWallSeconds": 2.5021,
+          "configuredSpeed": 0.945313,
+          "expectedDistance": 2.365268,
+          "projectedDistance": 2.36326,
+          "distanceTolerance": 0.102468,
+          "longWindowSpeed": {
+            "n": 56,
+            "mean": 0.94518,
+            "min": 0.940422,
+            "max": 0.948752,
+            "p50": 0.94527,
+            "p95": 0.948038
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 30,
+            "actualOnUpdateHz": 29.974821,
+            "observedOnUpdateCount": 75,
+            "wallSeconds": 2.5021,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Walk BackRight · 30 FPS",
+          "inputWallSeconds": 2.5042,
+          "configuredSpeed": 0.945313,
+          "expectedDistance": 2.367253,
+          "projectedDistance": 2.394775,
+          "distanceTolerance": 0.102528,
+          "longWindowSpeed": {
+            "n": 55,
+            "mean": 0.945188,
+            "min": 0.940609,
+            "max": 0.949645,
+            "p50": 0.945163,
+            "p95": 0.946259
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 30,
+            "actualOnUpdateHz": 30.349014,
+            "observedOnUpdateCount": 76,
+            "wallSeconds": 2.5042,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run Forward · 30 FPS",
+          "inputWallSeconds": 2.5025,
+          "configuredSpeed": 4,
+          "expectedDistance": 10.01,
+          "projectedDistance": 10,
+          "distanceTolerance": 0.433633,
+          "longWindowSpeed": {
+            "n": 55,
+            "mean": 3.999314,
+            "min": 3.990423,
+            "max": 4.004756,
+            "p50": 3.9995,
+            "p95": 4.003253
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 30,
+            "actualOnUpdateHz": 29.97003,
+            "observedOnUpdateCount": 75,
+            "wallSeconds": 2.5025,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run Back · 30 FPS",
+          "inputWallSeconds": 2.5064,
+          "configuredSpeed": 2.210909,
+          "expectedDistance": 5.541422,
+          "projectedDistance": 5.60097,
+          "distanceTolerance": 0.23994,
+          "longWindowSpeed": {
+            "n": 55,
+            "mean": 2.210646,
+            "min": 2.207377,
+            "max": 2.212707,
+            "p50": 2.210633,
+            "p95": 2.211877
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 30,
+            "actualOnUpdateHz": 30.322375,
+            "observedOnUpdateCount": 76,
+            "wallSeconds": 2.5064,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run Left · 30 FPS",
+          "inputWallSeconds": 2.5079,
+          "configuredSpeed": 1.809524,
+          "expectedDistance": 4.538105,
+          "projectedDistance": 4.584127,
+          "distanceTolerance": 0.196461,
+          "longWindowSpeed": {
+            "n": 56,
+            "mean": 1.809216,
+            "min": 1.805552,
+            "max": 1.811675,
+            "p50": 1.809298,
+            "p95": 1.810316
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 30,
+            "actualOnUpdateHz": 30.304239,
+            "observedOnUpdateCount": 76,
+            "wallSeconds": 2.5079,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run Right · 30 FPS",
+          "inputWallSeconds": 2.502,
+          "configuredSpeed": 1.809524,
+          "expectedDistance": 4.527429,
+          "projectedDistance": 4.52381,
+          "distanceTolerance": 0.19614,
+          "longWindowSpeed": {
+            "n": 56,
+            "mean": 1.809231,
+            "min": 1.803033,
+            "max": 1.811335,
+            "p50": 1.809298,
+            "p95": 1.810316
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 30,
+            "actualOnUpdateHz": 29.976019,
+            "observedOnUpdateCount": 75,
+            "wallSeconds": 2.502,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run ForwardLeft · 30 FPS",
+          "inputWallSeconds": 2.5003,
+          "configuredSpeed": 2.262326,
+          "expectedDistance": 5.656494,
+          "projectedDistance": 5.655814,
+          "distanceTolerance": 0.245106,
+          "longWindowSpeed": {
+            "n": 54,
+            "mean": 2.262108,
+            "min": 2.257359,
+            "max": 2.265441,
+            "p50": 2.262043,
+            "p95": 2.26374
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 30,
+            "actualOnUpdateHz": 29.9964,
+            "observedOnUpdateCount": 75,
+            "wallSeconds": 2.5003,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run ForwardRight · 30 FPS",
+          "inputWallSeconds": 2.5021,
+          "configuredSpeed": 2.262326,
+          "expectedDistance": 5.660566,
+          "projectedDistance": 5.655814,
+          "distanceTolerance": 0.245228,
+          "longWindowSpeed": {
+            "n": 55,
+            "mean": 2.261568,
+            "min": 2.252864,
+            "max": 2.265441,
+            "p50": 2.261873,
+            "p95": 2.26459
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 30,
+            "actualOnUpdateHz": 29.974821,
+            "observedOnUpdateCount": 75,
+            "wallSeconds": 2.5021,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run BackLeft · 30 FPS",
+          "inputWallSeconds": 2.5093,
+          "configuredSpeed": 1.742292,
+          "expectedDistance": 4.371933,
+          "projectedDistance": 4.413808,
+          "distanceTolerance": 0.189234,
+          "longWindowSpeed": {
+            "n": 55,
+            "mean": 1.742416,
+            "min": 1.739509,
+            "max": 1.771635,
+            "p50": 1.741944,
+            "p95": 1.743382
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 30,
+            "actualOnUpdateHz": 30.287331,
+            "observedOnUpdateCount": 76,
+            "wallSeconds": 2.5093,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run BackRight · 30 FPS",
+          "inputWallSeconds": 2.5015,
+          "configuredSpeed": 1.742292,
+          "expectedDistance": 4.358343,
+          "projectedDistance": 4.355731,
+          "distanceTolerance": 0.188827,
+          "longWindowSpeed": {
+            "n": 55,
+            "mean": 1.742112,
+            "min": 1.737428,
+            "max": 1.745347,
+            "p50": 1.742292,
+            "p95": 1.744037
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 30,
+            "actualOnUpdateHz": 29.982011,
+            "observedOnUpdateCount": 75,
+            "wallSeconds": 2.5015,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        }
+      ],
+      "fireAssertions": [
+        {
+          "label": "连续射击 2s / 释放 500ms · 30 FPS",
+          "status": "PASS",
+          "assertions": [
+            {
+              "label": "2秒约5Hz，计数允许±1",
+              "status": "PASS",
+              "actual": 10,
+              "limit": {
+                "ideal": 10.018,
+                "toleranceShots": 1
+              }
+            },
+            {
+              "label": "相邻发射间隔0.2秒±一实际帧",
+              "status": "PASS",
+              "actual": {
+                "n": 9,
+                "mean": 0.203578,
+                "min": 0.1998,
+                "max": 0.2323,
+                "p50": 0.2,
+                "p95": 0.2002
+              },
+              "limit": "0.2 ± one observed game frame"
+            },
+            {
+              "label": "同一真实游戏帧不补发多枪",
+              "status": "PASS",
+              "actual": 1,
+              "limit": 1
+            },
+            {
+              "label": "松开500ms无新增发射且输入清空",
+              "status": "PASS",
+              "actual": {
+                "added": 0,
+                "clear": true
+              },
+              "limit": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "final-m01-fp-60.json",
+      "runId": "m01-1789989261127-3",
+      "status": "PASS",
+      "requestedFps": 60,
+      "actualOnUpdateHzRange": [
+        59.88263,
+        60.387922
+      ],
+      "passedCases": 17,
+      "totalCases": 17,
+      "maxDistanceErrorMeters": 0.05186700000000144,
+      "maxDistanceErrorPercent": 0.6465149216556183,
+      "speedWindowsFailed": 0,
+      "maxStopDriftMeters": 0,
+      "movementCases": [
+        {
+          "label": "Walk Forward · 60 FPS",
+          "inputWallSeconds": 2.5053,
+          "configuredSpeed": 1.65,
+          "expectedDistance": 4.133745,
+          "projectedDistance": 4.1525,
+          "distanceTolerance": 0.179012,
+          "longWindowSpeed": {
+            "n": 111,
+            "mean": 1.649928,
+            "min": 1.641791,
+            "max": 1.654697,
+            "p50": 1.65,
+            "p95": 1.651492
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 60,
+            "actualOnUpdateHz": 60.272223,
+            "observedOnUpdateCount": 151,
+            "wallSeconds": 2.5053,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Walk Back · 60 FPS",
+          "inputWallSeconds": 2.5058,
+          "configuredSpeed": 1.218403,
+          "expectedDistance": 3.053074,
+          "projectedDistance": 3.066314,
+          "distanceTolerance": 0.132206,
+          "longWindowSpeed": {
+            "n": 111,
+            "mean": 1.218231,
+            "min": 1.213307,
+            "max": 1.223058,
+            "p50": 1.218324,
+            "p95": 1.219032
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 60,
+            "actualOnUpdateHz": 60.260196,
+            "observedOnUpdateCount": 151,
+            "wallSeconds": 2.5058,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Walk Left · 60 FPS",
+          "inputWallSeconds": 2.5049,
+          "configuredSpeed": 0.813172,
+          "expectedDistance": 2.036915,
+          "projectedDistance": 2.03293,
+          "distanceTolerance": 0.088213,
+          "longWindowSpeed": {
+            "n": 110,
+            "mean": 0.813028,
+            "min": 0.810255,
+            "max": 0.814854,
+            "p50": 0.81312,
+            "p95": 0.81375
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 60,
+            "actualOnUpdateHz": 59.88263,
+            "observedOnUpdateCount": 150,
+            "wallSeconds": 2.5049,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Walk Right · 60 FPS",
+          "inputWallSeconds": 2.5021,
+          "configuredSpeed": 0.813172,
+          "expectedDistance": 2.034638,
+          "projectedDistance": 2.03293,
+          "distanceTolerance": 0.088145,
+          "longWindowSpeed": {
+            "n": 111,
+            "mean": 0.813138,
+            "min": 0.811549,
+            "max": 0.814696,
+            "p50": 0.81312,
+            "p95": 0.81375
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 60,
+            "actualOnUpdateHz": 59.949642,
+            "observedOnUpdateCount": 150,
+            "wallSeconds": 2.5021,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Walk ForwardLeft · 60 FPS",
+          "inputWallSeconds": 2.5004,
+          "configuredSpeed": 1.260417,
+          "expectedDistance": 3.151547,
+          "projectedDistance": 3.151042,
+          "distanceTolerance": 0.13656,
+          "longWindowSpeed": {
+            "n": 111,
+            "mean": 1.260234,
+            "min": 1.254396,
+            "max": 1.263269,
+            "p50": 1.260335,
+            "p95": 1.261312
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 60,
+            "actualOnUpdateHz": 59.990402,
+            "observedOnUpdateCount": 150,
+            "wallSeconds": 2.5004,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Walk ForwardRight · 60 FPS",
+          "inputWallSeconds": 2.5023,
+          "configuredSpeed": 1.260417,
+          "expectedDistance": 3.153941,
+          "projectedDistance": 3.172049,
+          "distanceTolerance": 0.136632,
+          "longWindowSpeed": {
+            "n": 111,
+            "mean": 1.26018,
+            "min": 1.253647,
+            "max": 1.263024,
+            "p50": 1.260335,
+            "p95": 1.261068
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 60,
+            "actualOnUpdateHz": 60.344483,
+            "observedOnUpdateCount": 151,
+            "wallSeconds": 2.5023,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Walk BackLeft · 60 FPS",
+          "inputWallSeconds": 2.5005,
+          "configuredSpeed": 0.945313,
+          "expectedDistance": 2.363755,
+          "projectedDistance": 2.36326,
+          "distanceTolerance": 0.102423,
+          "longWindowSpeed": {
+            "n": 110,
+            "mean": 0.945167,
+            "min": 0.939674,
+            "max": 0.9511,
+            "p50": 0.945252,
+            "p95": 0.945618
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 60,
+            "actualOnUpdateHz": 59.988002,
+            "observedOnUpdateCount": 150,
+            "wallSeconds": 2.5005,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Walk BackRight · 60 FPS",
+          "inputWallSeconds": 2.5004,
+          "configuredSpeed": 0.945313,
+          "expectedDistance": 2.363661,
+          "projectedDistance": 2.363265,
+          "distanceTolerance": 0.10242,
+          "longWindowSpeed": {
+            "n": 110,
+            "mean": 0.945184,
+            "min": 0.939488,
+            "max": 0.95244,
+            "p50": 0.945252,
+            "p95": 0.946167
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 60,
+            "actualOnUpdateHz": 59.990402,
+            "observedOnUpdateCount": 150,
+            "wallSeconds": 2.5004,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run Forward · 60 FPS",
+          "inputWallSeconds": 2.5037,
+          "configuredSpeed": 4,
+          "expectedDistance": 10.0148,
+          "projectedDistance": 10.066667,
+          "distanceTolerance": 0.433777,
+          "longWindowSpeed": {
+            "n": 112,
+            "mean": 3.999177,
+            "min": 3.977725,
+            "max": 4.005168,
+            "p50": 3.9992,
+            "p95": 4.003616
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 60,
+            "actualOnUpdateHz": 60.31074,
+            "observedOnUpdateCount": 151,
+            "wallSeconds": 2.5037,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run Back · 60 FPS",
+          "inputWallSeconds": 2.5028,
+          "configuredSpeed": 2.210909,
+          "expectedDistance": 5.533463,
+          "projectedDistance": 5.564121,
+          "distanceTolerance": 0.239701,
+          "longWindowSpeed": {
+            "n": 112,
+            "mean": 2.210541,
+            "min": 2.199472,
+            "max": 2.227146,
+            "p50": 2.210766,
+            "p95": 2.212051
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 60,
+            "actualOnUpdateHz": 60.332428,
+            "observedOnUpdateCount": 151,
+            "wallSeconds": 2.5028,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run Left · 60 FPS",
+          "inputWallSeconds": 2.5018,
+          "configuredSpeed": 1.809524,
+          "expectedDistance": 4.527067,
+          "projectedDistance": 4.553968,
+          "distanceTolerance": 0.196129,
+          "longWindowSpeed": {
+            "n": 111,
+            "mean": 1.809396,
+            "min": 1.79445,
+            "max": 1.824948,
+            "p50": 1.809407,
+            "p95": 1.810809
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 60,
+            "actualOnUpdateHz": 60.356543,
+            "observedOnUpdateCount": 151,
+            "wallSeconds": 2.5018,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run Right · 60 FPS",
+          "inputWallSeconds": 2.5007,
+          "configuredSpeed": 1.809524,
+          "expectedDistance": 4.525077,
+          "projectedDistance": 4.52381,
+          "distanceTolerance": 0.19607,
+          "longWindowSpeed": {
+            "n": 111,
+            "mean": 1.809275,
+            "min": 1.793785,
+            "max": 1.82566,
+            "p50": 1.809407,
+            "p95": 1.810809
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 60,
+            "actualOnUpdateHz": 59.983205,
+            "observedOnUpdateCount": 150,
+            "wallSeconds": 2.5007,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run ForwardLeft · 60 FPS",
+          "inputWallSeconds": 2.5005,
+          "configuredSpeed": 2.262326,
+          "expectedDistance": 5.656946,
+          "projectedDistance": 5.693519,
+          "distanceTolerance": 0.245119,
+          "longWindowSpeed": {
+            "n": 110,
+            "mean": 2.262325,
+            "min": 2.258261,
+            "max": 2.285177,
+            "p50": 2.262326,
+            "p95": 2.263494
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 60,
+            "actualOnUpdateHz": 60.387922,
+            "observedOnUpdateCount": 151,
+            "wallSeconds": 2.5005,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run ForwardRight · 60 FPS",
+          "inputWallSeconds": 2.5006,
+          "configuredSpeed": 2.262326,
+          "expectedDistance": 5.657172,
+          "projectedDistance": 5.655814,
+          "distanceTolerance": 0.245126,
+          "longWindowSpeed": {
+            "n": 110,
+            "mean": 2.262078,
+            "min": 2.258261,
+            "max": 2.266127,
+            "p50": 2.26218,
+            "p95": 2.263932
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 60,
+            "actualOnUpdateHz": 59.985603,
+            "observedOnUpdateCount": 150,
+            "wallSeconds": 2.5006,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run BackLeft · 60 FPS",
+          "inputWallSeconds": 2.5009,
+          "configuredSpeed": 1.742292,
+          "expectedDistance": 4.357298,
+          "projectedDistance": 4.384769,
+          "distanceTolerance": 0.188795,
+          "longWindowSpeed": {
+            "n": 110,
+            "mean": 1.741971,
+            "min": 1.725726,
+            "max": 1.74997,
+            "p50": 1.74218,
+            "p95": 1.74353
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 60,
+            "actualOnUpdateHz": 60.378264,
+            "observedOnUpdateCount": 151,
+            "wallSeconds": 2.5009,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run BackRight · 60 FPS",
+          "inputWallSeconds": 2.5036,
+          "configuredSpeed": 1.742292,
+          "expectedDistance": 4.362002,
+          "projectedDistance": 4.355731,
+          "distanceTolerance": 0.188936,
+          "longWindowSpeed": {
+            "n": 110,
+            "mean": 1.742236,
+            "min": 1.740552,
+            "max": 1.745897,
+            "p50": 1.742292,
+            "p95": 1.743192
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 60,
+            "actualOnUpdateHz": 59.913724,
+            "observedOnUpdateCount": 150,
+            "wallSeconds": 2.5036,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        }
+      ],
+      "fireAssertions": [
+        {
+          "label": "连续射击 2s / 释放 500ms · 60 FPS",
+          "status": "PASS",
+          "assertions": [
+            {
+              "label": "2秒约5Hz，计数允许±1",
+              "status": "PASS",
+              "actual": 11,
+              "limit": {
+                "ideal": 10.0385,
+                "toleranceShots": 1
+              }
+            },
+            {
+              "label": "相邻发射间隔0.2秒±一实际帧",
+              "status": "PASS",
+              "actual": {
+                "n": 10,
+                "mean": 0.20001,
+                "min": 0.1999,
+                "max": 0.2001,
+                "p50": 0.2,
+                "p95": 0.2001
+              },
+              "limit": "0.2 ± one observed game frame"
+            },
+            {
+              "label": "同一真实游戏帧不补发多枪",
+              "status": "PASS",
+              "actual": 1,
+              "limit": 1
+            },
+            {
+              "label": "松开500ms无新增发射且输入清空",
+              "status": "PASS",
+              "actual": {
+                "added": 0,
+                "clear": true
+              },
+              "limit": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "final-m01-fp-240.json",
+      "runId": "m01-1789989402431-4",
+      "status": "PASS",
+      "requestedFps": 240,
+      "actualOnUpdateHzRange": [
+        236.251935,
+        238.761798
+      ],
+      "passedCases": 17,
+      "totalCases": 17,
+      "maxDistanceErrorMeters": 0.04946699999999993,
+      "maxDistanceErrorPercent": 0.6424899047403567,
+      "speedWindowsFailed": 0,
+      "maxStopDriftMeters": 0,
+      "movementCases": [
+        {
+          "label": "Walk Forward · 240 FPS",
+          "inputWallSeconds": 2.5028,
+          "configuredSpeed": 1.65,
+          "expectedDistance": 4.12962,
+          "projectedDistance": 4.1525,
+          "distanceTolerance": 0.178889,
+          "longWindowSpeed": {
+            "n": 437,
+            "mean": 1.649743,
+            "min": 1.584857,
+            "max": 1.703978,
+            "p50": 1.648681,
+            "p95": 1.688453
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 240,
+            "actualOnUpdateHz": 237.334186,
+            "observedOnUpdateCount": 594,
+            "wallSeconds": 2.5028,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Walk Back · 240 FPS",
+          "inputWallSeconds": 2.5031,
+          "configuredSpeed": 1.218403,
+          "expectedDistance": 3.049785,
+          "projectedDistance": 3.046007,
+          "distanceTolerance": 0.132107,
+          "longWindowSpeed": {
+            "n": 437,
+            "mean": 1.218458,
+            "min": 1.172163,
+            "max": 1.25425,
+            "p50": 1.217672,
+            "p95": 1.247045
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 240,
+            "actualOnUpdateHz": 237.305741,
+            "observedOnUpdateCount": 594,
+            "wallSeconds": 2.5031,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Walk Left · 240 FPS",
+          "inputWallSeconds": 2.5008,
+          "configuredSpeed": 0.813172,
+          "expectedDistance": 2.033581,
+          "projectedDistance": 2.03293,
+          "distanceTolerance": 0.088113,
+          "longWindowSpeed": {
+            "n": 440,
+            "mean": 0.813322,
+            "min": 0.798794,
+            "max": 0.835931,
+            "p50": 0.813009,
+            "p95": 0.832123
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 240,
+            "actualOnUpdateHz": 238.323736,
+            "observedOnUpdateCount": 596,
+            "wallSeconds": 2.5008,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Walk Right · 240 FPS",
+          "inputWallSeconds": 2.5004,
+          "configuredSpeed": 0.813172,
+          "expectedDistance": 2.033255,
+          "projectedDistance": 2.03293,
+          "distanceTolerance": 0.088103,
+          "longWindowSpeed": {
+            "n": 440,
+            "mean": 0.813521,
+            "min": 0.798323,
+            "max": 0.83693,
+            "p50": 0.812847,
+            "p95": 0.832123
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 240,
+            "actualOnUpdateHz": 238.761798,
+            "observedOnUpdateCount": 597,
+            "wallSeconds": 2.5004,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Walk ForwardLeft · 240 FPS",
+          "inputWallSeconds": 2.501,
+          "configuredSpeed": 1.260417,
+          "expectedDistance": 3.152303,
+          "projectedDistance": 3.172049,
+          "distanceTolerance": 0.136583,
+          "longWindowSpeed": {
+            "n": 439,
+            "mean": 1.260057,
+            "min": 1.212582,
+            "max": 1.301389,
+            "p50": 1.259409,
+            "p95": 1.290046
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 240,
+            "actualOnUpdateHz": 237.904838,
+            "observedOnUpdateCount": 595,
+            "wallSeconds": 2.501,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Walk ForwardRight · 240 FPS",
+          "inputWallSeconds": 2.5034,
+          "configuredSpeed": 1.260417,
+          "expectedDistance": 3.155328,
+          "projectedDistance": 3.151042,
+          "distanceTolerance": 0.136674,
+          "longWindowSpeed": {
+            "n": 439,
+            "mean": 1.260409,
+            "min": 1.213307,
+            "max": 1.298794,
+            "p50": 1.259913,
+            "p95": 1.290557
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 240,
+            "actualOnUpdateHz": 237.67676,
+            "observedOnUpdateCount": 595,
+            "wallSeconds": 2.5034,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Walk BackLeft · 240 FPS",
+          "inputWallSeconds": 2.5024,
+          "configuredSpeed": 0.945313,
+          "expectedDistance": 2.365551,
+          "projectedDistance": 2.379015,
+          "distanceTolerance": 0.102477,
+          "longWindowSpeed": {
+            "n": 437,
+            "mean": 0.945444,
+            "min": 0.912847,
+            "max": 0.970997,
+            "p50": 0.945123,
+            "p95": 0.967343
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 240,
+            "actualOnUpdateHz": 237.372123,
+            "observedOnUpdateCount": 594,
+            "wallSeconds": 2.5024,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Walk BackRight · 240 FPS",
+          "inputWallSeconds": 2.5023,
+          "configuredSpeed": 0.945313,
+          "expectedDistance": 2.365457,
+          "projectedDistance": 2.363265,
+          "distanceTolerance": 0.102474,
+          "longWindowSpeed": {
+            "n": 438,
+            "mean": 0.945191,
+            "min": 0.908171,
+            "max": 0.975652,
+            "p50": 0.945123,
+            "p95": 0.967343
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 240,
+            "actualOnUpdateHz": 237.381609,
+            "observedOnUpdateCount": 594,
+            "wallSeconds": 2.5023,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run Forward · 240 FPS",
+          "inputWallSeconds": 2.5043,
+          "configuredSpeed": 4,
+          "expectedDistance": 10.0172,
+          "projectedDistance": 10.066667,
+          "distanceTolerance": 0.433849,
+          "longWindowSpeed": {
+            "n": 440,
+            "mean": 3.999675,
+            "min": 3.924647,
+            "max": 4.125083,
+            "p50": 3.996803,
+            "p95": 4.095653
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 240,
+            "actualOnUpdateHz": 238.389969,
+            "observedOnUpdateCount": 597,
+            "wallSeconds": 2.5043,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run Back · 240 FPS",
+          "inputWallSeconds": 2.5006,
+          "configuredSpeed": 2.210909,
+          "expectedDistance": 5.528599,
+          "projectedDistance": 5.527273,
+          "distanceTolerance": 0.239555,
+          "longWindowSpeed": {
+            "n": 437,
+            "mean": 2.210413,
+            "min": 2.125733,
+            "max": 2.280957,
+            "p50": 2.210467,
+            "p95": 2.262434
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 240,
+            "actualOnUpdateHz": 237.54299,
+            "observedOnUpdateCount": 594,
+            "wallSeconds": 2.5006,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run Left · 240 FPS",
+          "inputWallSeconds": 2.5058,
+          "configuredSpeed": 1.809524,
+          "expectedDistance": 4.534305,
+          "projectedDistance": 4.553968,
+          "distanceTolerance": 0.196347,
+          "longWindowSpeed": {
+            "n": 437,
+            "mean": 1.809811,
+            "min": 1.74711,
+            "max": 1.866854,
+            "p50": 1.807355,
+            "p95": 1.852796
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 240,
+            "actualOnUpdateHz": 237.050044,
+            "observedOnUpdateCount": 594,
+            "wallSeconds": 2.5058,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run Right · 240 FPS",
+          "inputWallSeconds": 2.5006,
+          "configuredSpeed": 1.809524,
+          "expectedDistance": 4.524896,
+          "projectedDistance": 4.553968,
+          "distanceTolerance": 0.196064,
+          "longWindowSpeed": {
+            "n": 434,
+            "mean": 1.809385,
+            "min": 1.735668,
+            "max": 1.869467,
+            "p50": 1.809162,
+            "p95": 1.851695
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 240,
+            "actualOnUpdateHz": 236.343278,
+            "observedOnUpdateCount": 591,
+            "wallSeconds": 2.5006,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run ForwardLeft · 240 FPS",
+          "inputWallSeconds": 2.502,
+          "configuredSpeed": 2.262326,
+          "expectedDistance": 5.66034,
+          "projectedDistance": 5.693519,
+          "distanceTolerance": 0.245221,
+          "longWindowSpeed": {
+            "n": 438,
+            "mean": 2.261599,
+            "min": 2.175602,
+            "max": 2.33307,
+            "p50": 2.261873,
+            "p95": 2.315049
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 240,
+            "actualOnUpdateHz": 236.610711,
+            "observedOnUpdateCount": 592,
+            "wallSeconds": 2.502,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run ForwardRight · 240 FPS",
+          "inputWallSeconds": 2.5015,
+          "configuredSpeed": 2.262326,
+          "expectedDistance": 5.659208,
+          "projectedDistance": 5.655814,
+          "distanceTolerance": 0.245187,
+          "longWindowSpeed": {
+            "n": 438,
+            "mean": 2.262851,
+            "min": 2.211462,
+            "max": 2.336802,
+            "p50": 2.260066,
+            "p95": 2.315966
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 240,
+            "actualOnUpdateHz": 236.658005,
+            "observedOnUpdateCount": 592,
+            "wallSeconds": 2.5015,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run BackLeft · 240 FPS",
+          "inputWallSeconds": 2.505,
+          "configuredSpeed": 1.742292,
+          "expectedDistance": 4.364441,
+          "projectedDistance": 4.355731,
+          "distanceTolerance": 0.18901,
+          "longWindowSpeed": {
+            "n": 438,
+            "mean": 1.742491,
+            "min": 1.682534,
+            "max": 1.7957,
+            "p50": 1.7409,
+            "p95": 1.78325
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 240,
+            "actualOnUpdateHz": 237.125749,
+            "observedOnUpdateCount": 594,
+            "wallSeconds": 2.505,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        },
+        {
+          "label": "Run BackRight · 240 FPS",
+          "inputWallSeconds": 2.5019,
+          "configuredSpeed": 1.742292,
+          "expectedDistance": 4.35904,
+          "projectedDistance": 4.384769,
+          "distanceTolerance": 0.188848,
+          "longWindowSpeed": {
+            "n": 438,
+            "mean": 1.74274,
+            "min": 1.68287,
+            "max": 1.792125,
+            "p50": 1.741944,
+            "p95": 1.782897
+          },
+          "stopDrift": 0,
+          "frameRate": {
+            "requestedFps": 240,
+            "actualOnUpdateHz": 237.819257,
+            "observedOnUpdateCount": 595,
+            "wallSeconds": 2.5019,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "status": "PASS"
+        }
+      ],
+      "fireAssertions": [
+        {
+          "label": "连续射击 2s / 释放 500ms · 240 FPS",
+          "status": "PASS",
+          "assertions": [
+            {
+              "label": "2秒约5Hz，计数允许±1",
+              "status": "PASS",
+              "actual": 10,
+              "limit": {
+                "ideal": 10.0105,
+                "toleranceShots": 1
+              }
+            },
+            {
+              "label": "相邻发射间隔0.2秒±一实际帧",
+              "status": "PASS",
+              "actual": {
+                "n": 9,
+                "mean": 0.200144,
+                "min": 0.1988,
+                "max": 0.2012,
+                "p50": 0.2,
+                "p95": 0.2011
+              },
+              "limit": "0.2 ± one observed game frame"
+            },
+            {
+              "label": "同一真实游戏帧不补发多枪",
+              "status": "PASS",
+              "actual": 1,
+              "limit": 1
+            },
+            {
+              "label": "松开500ms无新增发射且输入清空",
+              "status": "PASS",
+              "actual": {
+                "added": 0,
+                "clear": true
+              },
+              "limit": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

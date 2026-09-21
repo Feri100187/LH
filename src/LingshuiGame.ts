@@ -3,6 +3,7 @@ import { MobileInput } from "./MobileInput";
 import { PlayerAvatar } from "./PlayerAvatar";
 import { PlayerCameraFollow } from "./PlayerCameraFollow";
 import { FirstPersonArms } from "./FirstPersonArms";
+import { WaterGunSystem } from "./WaterGunSystem";
 import "./LakeDuck";
 const { regClass, property } = Laya;
 
@@ -62,6 +63,7 @@ export class LingshuiGame extends Laya.Script {
     private camera: Laya.Camera;
     private cameraFollow: PlayerCameraFollow;
     private firstPersonArms: FirstPersonArms;
+    private waterGun: WaterGunSystem;
     private keys = new Set<string>();
     private yaw = 0.32;
     private pitch = 0.025;
@@ -208,6 +210,8 @@ export class LingshuiGame extends Laya.Script {
         });
         this.updateInputPresentation();
         this.setPerspective(false);
+        this.waterGun = new WaterGunSystem(this.world, this.player, this.camera, this.avatar, armsMount,
+            () => this.frameCount, () => this.releaseInput("training-reset"));
         this.ready = true;
         this.updateCamera(1);
         // Read-only status is useful for automated regression checks and local debugging.
@@ -330,6 +334,7 @@ export class LingshuiGame extends Laya.Script {
     };
     private handleKeyUp = (event: KeyboardEvent) => { this.keys.delete(event.code); this.syncShootHeld(); };
     private releaseInput = (reason = "release") => {
+        this.waterGun?.cancelPending();
         this.keys.clear();
         this.jumpQueued = false;
         this.shootQueued = false;
@@ -515,6 +520,7 @@ export class LingshuiGame extends Laya.Script {
         const dt = Math.min(Laya.timer.delta / 1000, .05);
         this.updateCamera(dt);
         const nowMs = this.monotonicNow();
+        this.waterGun?.updateAfterPhysics(nowMs, !this.thirdPerson);
         if (nowMs - this.publishedAtMs >= 100) this.publishStatus(nowMs);
     }
 
@@ -578,13 +584,14 @@ export class LingshuiGame extends Laya.Script {
             cameraDistance: this.cameraLength, fps: Math.round(this.fps), keys: Array.from(this.keys),
             inputMode: this.mobileInput?.enabled ? "touch" : "desktop", touch: this.mobileInput?.getStatus(),
             triggerHeld: this.mouseHeld || this.keys.has("KeyF") || !!this.mobileInput?.shooting,
-            speed: this.actualSpeed, avatar: this.avatar?.getStatus(), firstPersonArms: this.firstPersonArms?.getStatus(),
+            speed: this.actualSpeed, avatar: this.avatar?.getStatus(), firstPersonArms: this.firstPersonArms?.getStatus(), training: this.waterGun?.getStatus(),
             cameraFollowPhase: "afterPhysicsAndAnimation",
             firstPersonCameraOffset: p && c && !this.thirdPerson ? [c.x - p.x, c.y - p.y, c.z - p.z] : null };
     }
 
     onDestroy() {
         this.ready = false;
+        this.waterGun?.destroy();
         if (this.cameraFollow) { this.cameraFollow.follow = null; this.cameraFollow.destroy(); }
         this.releaseInput();
         this.canvas?.removeEventListener("pointerdown", this.routeLockedPointerDown, true);

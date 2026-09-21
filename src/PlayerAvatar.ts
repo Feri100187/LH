@@ -28,6 +28,8 @@ export interface PlayerMotionFrame {
     nowMs?: number;
 }
 
+export interface PlayerShotEvent { readonly id: number; readonly atMs: number; }
+
 /** Presentation follows the existing CharacterController. Physics owns all root motion. */
 @regClass()
 export class PlayerAvatar extends Laya.Script {
@@ -61,6 +63,7 @@ export class PlayerAvatar extends Laya.Script {
     private shotEvents: { id: number; atMs: number }[] = [];
     private shotEventCursor = 0;
     private fireCount = 0;
+    private shotListener: ((event: PlayerShotEvent) => void) = null;
     private burstCount = 0;
     private upperWeight = 0;
     private heading = Math.PI;
@@ -125,6 +128,9 @@ export class PlayerAvatar extends Laya.Script {
 
     clearShootRequest() { this.pendingShot = false; }
 
+    /** One owner; replacing or removing it never replays the diagnostic history. */
+    setShotListener(listener: ((event: PlayerShotEvent) => void) | null) { this.shotListener = listener; }
+
     setTriggerHeld(held: boolean) {
         // A released held trigger must not leave an old automatic request behind.
         // A new frame-between tap can be requested after this release is applied.
@@ -149,6 +155,7 @@ export class PlayerAvatar extends Laya.Script {
             this.shotEvents[this.shotEventCursor] = event;
             this.shotEventCursor = (this.shotEventCursor + 1) % 256;
         }
+        this.shotListener?.({ id: event.id, atMs: event.atMs });
     }
 
     private updateFire(dt: number, nowMs: number) {

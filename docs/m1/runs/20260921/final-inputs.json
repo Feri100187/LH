@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-09-21T11:42:59.675970+00:00",
+  "mainRuntimeMatchesTestedBuild": true,
+  "runtimeSources": {
+    "src/LingshuiGame.ts": "2e755b9b3dca987047f055c5a742a27e797706a902510f13518c0cbfbcdf885c",
+    "src/PlayerAvatar.ts": "e70656c7bf18033abf69d131f7ac8b2db4287ffccaf0bf3d01cb5053a6d27650",
+    "src/WaterGunSystem.ts": "f70d8833f9a8c67912cde8b9acca8e2606f22a49fd5e774d88cf4dbba9008ec5",
+    "src/PhysicsWaterQuery.ts": "a57d2fc12fc64af6d0a5cf6ee4e9e45b2f23072848e1bc51774b158d685d7cd6",
+    "src/WaterShotResolver.ts": "9995b19aa32961e68dabdd52e850e2bbf915efde0395cce1d563edbea4bc0883",
+    "src/TrainingProgress.ts": "7bfc9b39187a6535591996fc1d6c8ae4065f145ac3acf4855d5d7c1e9d25049e",
+    "src/TrainingRangeView.ts": "a204591a5404ac1b77fdec00ad12c139123685afb4d70e762c61d92be064cb14",
+    "src/TrainingHud.ts": "7ff0e18cda437694df6645c01ab1d9151e12e8ee76aff45c3de16e9cf0ba3a20",
+    "src/WeaponMuzzle.ts": "88fa4d6854679a4feb5b614c03f67355d4da2fbbbd03bfb7922e8336cc1388fa",
+    "src/WaterShotEffects.ts": "d485f31cd03e0e4b2eb9137f45999368dcd8d2768d99393e0c3dc962ea98b4cd"
+  },
+  "newScriptMetadata": {
+    "src/PhysicsWaterQuery.ts.meta": "03d4e38c28d7dd8ba59f795edd3a08c7ff702744438ab459e64ef1a1a7c591d1",
+    "src/TrainingHud.ts.meta": "a542c94a7797e113556cdebce484f0a6ba3888a836e4597f9f280f690d333eef",
+    "src/TrainingProgress.ts.meta": "3c5eb1ac71a58219b27b4d3ee4df8b45cfa3b5a16dd887bfb0730b02be2af788",
+    "src/TrainingRangeView.ts.meta": "b5e63e15643aa721f18a6bac9dcd5927a34c56095b7ccaee60549adb967d89db",
+    "src/WaterGunSystem.ts.meta": "66b65fcf5f2ffe84eaab7d820561e40c2fd8f08b3d7262ab0f2b307d5cdf4a9a",
+    "src/WaterShotEffects.ts.meta": "eff0c88d5e119e99659568c8e55ea65ba2b4734ac41736c3f43f8c047f863ffe",
+    "src/WaterShotResolver.ts.meta": "2a88e0301f4e70220c00dd91e16b98c2a32bd5808be8e577020a5b745d8ecc88",
+    "src/WeaponMuzzle.ts.meta": "46bd1a5599e988aa6045a961626f55907de61da85d494e139a729b9260ab52c6"
+  },
+  "testProbeSources": {
+    "tools/testing/m01-runtime.js": "d81143a828db02290c0d69dd77b88bb126feb6603bb8aff027dfdae925211e44",
+    "tools/testing/m1-runtime.js": "810afbe6ce18890de9a0e7ab439f1b5e18bae85b1cae359e8db1033ba23caa24"
+  },
+  "m01ProbeUnchanged": true,
+  "unchangedAssetPaths": true,
+  "engine": "LayaAir 3.4.1"
+}

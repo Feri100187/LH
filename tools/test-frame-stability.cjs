@@ -7,7 +7,7 @@ const fs = require("node:fs"), path = require("node:path"), crypto = require("no
 const assert = require("node:assert/strict");
 const suite = require("./testing/context.cjs").createSuite("frame-stability");
 const { ts, root } = suite;
-const sourceNames = ["LingshuiGame", "MobileInput", "PlayerAvatar", "PlayerCameraFollow", "FirstPersonArms", "LakeDuck"];
+const sourceNames = ["LingshuiGame", "MobileInput", "PlayerAvatar", "PlayerCameraFollow", "FirstPersonArms", "LakeDuck", "WaterGunSystem", "PhysicsWaterQuery", "WaterShotResolver", "TrainingProgress", "TrainingRangeView", "TrainingHud", "WeaponMuzzle", "WaterShotEffects"];
 const sources = Object.fromEntries(sourceNames.map(name => [name, fs.readFileSync(path.join(root, "src", name + ".ts"), "utf8")]));
 const compiled = Object.fromEntries(sourceNames.map(name => [name, ts.transpileModule(sources[name], { compilerOptions: {
     module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2018, experimentalDecorators: true

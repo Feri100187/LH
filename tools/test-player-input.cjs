@@ -13,7 +13,7 @@ const enginePath = engine.path || null, engineSource = engine.source || "";
 const downMatch = engineSource.match(/canvas\.addEventListener\("pointerdown", ev => \{([\s\S]*?)\n\s*\}\);/);
 const upMatch = engineSource.match(/canvas\.addEventListener\("pointerup", ev => \{([\s\S]*?)\n\s*\}, true\);/);
 const downBody = downMatch?.[1] || "", upBody = upMatch?.[1] || "";
-const sources = Object.fromEntries(["MobileInput", "LingshuiGame", "PlayerAvatar", "FirstPersonArms", "PlayerCameraFollow", "LakeDuck"].map(name =>
+const sources = Object.fromEntries(["MobileInput", "LingshuiGame", "PlayerAvatar", "FirstPersonArms", "PlayerCameraFollow", "LakeDuck", "WaterGunSystem", "PhysicsWaterQuery", "WaterShotResolver", "TrainingProgress", "TrainingRangeView", "TrainingHud", "WeaponMuzzle", "WaterShotEffects"].map(name =>
     [name, fs.readFileSync(path.join(root, "src", name + ".ts"), "utf8")]));
 
 class Target {
