@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "kind": "negative_control",
+  "mutation": "Only in-memory source changed speed * physicsStepSeconds back to speed * render dt",
+  "productionFilesWritten": 0,
+  "expectedSuiteStatus": "FAIL",
+  "actualSuiteStatus": "FAIL",
+  "detectedBy": [
+    "production_movement_distance_all_eight_directions_at_15_fps",
+    "production_movement_distance_all_eight_directions_at_30_fps",
+    "production_movement_distance_all_eight_directions_at_120_fps",
+    "production_movement_distance_all_eight_directions_at_240_fps",
+    "changed_fixed_step_120hz_does_not_use_a_hardcoded_60_multiplier"
+  ]
+}

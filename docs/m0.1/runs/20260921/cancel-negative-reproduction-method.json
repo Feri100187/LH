@@ -1,0 +1,42 @@
+{
+  "status": "FAIL",
+  "category": "archived_candidate_regression",
+  "expectedFailureReproduced": true,
+  "method": "Executed the actual input suite with all three archived candidate1 TypeScript sources substituted only at fs.readFileSync in this process. TypeScript transpilation and production event handlers/onUpdate/PlayerAvatar methods were executed. DOM and Animator are the documented suite fixtures; no browser input or native animation was exercised.",
+  "timeline": "Held input emits at 16.6667ms. An independent pointer cancels at 50ms. Old candidate resets nextShotAtMs to zero and emits again at 66.6667ms, 50ms after the first shot; required deadline remains 216.6667ms.",
+  "productionFilesWritten": 0,
+  "engineVersion": "3.4.1",
+  "testEntry": "tools/test-player-input.cjs",
+  "archivedSources": [
+    {
+      "production": "D:\\a\\xiang_mu\\LH\\src\\LingshuiGame.ts",
+      "source": "D:\\a\\xiang_mu\\LH\\.baseline-cache\\m01-candidate1\\LingshuiGame.ts",
+      "sha256": "311f9e9b08b399602ce57d647b4f4aec0e66da2c44c9b35f387d8f167775d8d6"
+    },
+    {
+      "production": "D:\\a\\xiang_mu\\LH\\src\\MobileInput.ts",
+      "source": "D:\\a\\xiang_mu\\LH\\.baseline-cache\\m01-candidate1\\MobileInput.ts",
+      "sha256": "31d9cff60a78da29147dc00487cc42a41bf250814205268ef553a2e9b0bea7e1"
+    },
+    {
+      "production": "D:\\a\\xiang_mu\\LH\\src\\PlayerAvatar.ts",
+      "source": "D:\\a\\xiang_mu\\LH\\.baseline-cache\\m01-candidate1\\PlayerAvatar.ts",
+      "sha256": "3315d928ef9bc56d8b02424ed912d81fed6902325df5c27e0ec429a437bf8dd1"
+    }
+  ],
+  "suiteReport": "player-input.json",
+  "failedTests": [
+    {
+      "name": "canceling_move_pointer_preserves_independent_shoot_deadline",
+      "error": "Cancellation reset an independent held trigger's deadline: {\"firstShotAtMs\":16.666666666666668,\"originalDeadlineMs\":216.66666666666666,\"afterCancel\":{\"deadline\":0,\"firing\":false,\"jumpQueued\":false,\"shootQueued\":false,\"avatarRequest\":false,\"remainingInput\":true},\"nextFrameEvents\":[{\"id\":1,\"atMs\":16.666666666666668},{\"id\":2,\"atMs\":66.66666666666667}],\"beforeDeadlineEvents\":[{\"id\":1,\"atMs\":16.666666666666668},{\"id\":2,\"atMs\":66.66666666666667}],\"atDeadlineEvents\":[{\"id\":1,\"atMs\":16.666666666666668},{\"id\":2,\"atMs\":66.66666666666667}]}\n+ actual - expected\n\n+ 0\n- 216.66666666666666\n"
+    },
+    {
+      "name": "canceling_one_of_two_shoot_pointers_preserves_original_deadline",
+      "error": "Cancellation reset an independent held trigger's deadline: {\"firstShotAtMs\":16.666666666666668,\"originalDeadlineMs\":216.66666666666666,\"afterCancel\":{\"deadline\":0,\"firing\":false,\"jumpQueued\":false,\"shootQueued\":false,\"avatarRequest\":false,\"remainingInput\":true},\"nextFrameEvents\":[{\"id\":1,\"atMs\":16.666666666666668},{\"id\":2,\"atMs\":66.66666666666667}],\"beforeDeadlineEvents\":[{\"id\":1,\"atMs\":16.666666666666668},{\"id\":2,\"atMs\":66.66666666666667}],\"atDeadlineEvents\":[{\"id\":1,\"atMs\":16.666666666666668},{\"id\":2,\"atMs\":66.66666666666667}]}\n+ actual - expected\n\n+ 0\n- 216.66666666666666\n"
+    },
+    {
+      "name": "mouse_cancel_while_F_is_held_preserves_original_deadline",
+      "error": "Cancellation reset an independent held trigger's deadline: {\"firstShotAtMs\":16.666666666666668,\"originalDeadlineMs\":216.66666666666666,\"afterCancel\":{\"deadline\":0,\"firing\":false,\"jumpQueued\":false,\"shootQueued\":false,\"avatarRequest\":false,\"remainingInput\":true},\"nextFrameEvents\":[{\"id\":1,\"atMs\":16.666666666666668},{\"id\":2,\"atMs\":66.66666666666667}],\"beforeDeadlineEvents\":[{\"id\":1,\"atMs\":16.666666666666668},{\"id\":2,\"atMs\":66.66666666666667}],\"atDeadlineEvents\":[{\"id\":1,\"atMs\":16.666666666666668},{\"id\":2,\"atMs\":66.66666666666667}]}\n+ actual - expected\n\n+ 0\n- 216.66666666666666\n"
+    }
+  ]
+}

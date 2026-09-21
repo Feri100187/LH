@@ -1,0 +1,2667 @@
+{
+  "schemaVersion": 1,
+  "numericProtocol": "m01-postphysics-v1",
+  "backgroundProtocol": "m01-native-interruption-v2",
+  "boundaryProtocol": "m01-recovery-observation-v3",
+  "tool": "LH M0.1 localhost acceptance",
+  "createdAt": "2026-09-21T08:26:43.493Z",
+  "url": "http://127.0.0.1:18771/?controls=touch&m01=route-recovery",
+  "status": "INCOMPLETE",
+  "active": null,
+  "history": [
+    {
+      "runId": "m01-1789979841300-1",
+      "startedAt": "2026-09-21T08:37:21.300Z",
+      "status": "INCOMPLETE",
+      "type": "background",
+      "cases": [
+        {
+          "type": "background",
+          "label": "background 边界（显式测试）",
+          "trigger": {
+            "type": "real browser visibility transition",
+            "nativeRequired": true
+          },
+          "nativeEvents": [],
+          "assertions": [
+            {
+              "label": "真实后台与返回",
+              "status": "NOT TESTED",
+              "actual": "未取得真实hidden>=1s再返回"
+            }
+          ],
+          "status": "INCOMPLETE"
+        }
+      ],
+      "setups": [
+        {
+          "atMs": 639035.799999997,
+          "label": "background",
+          "operation": "test-only: motor.position + player.transform.position",
+          "before": [
+            51.900000000000006,
+            3.2949999427795413,
+            -30.199999999999996
+          ],
+          "requested": [
+            0,
+            1.88,
+            100
+          ],
+          "measurementActive": false,
+          "settled": [
+            0,
+            1.660000011920929,
+            100
+          ]
+        }
+      ],
+      "errors": [],
+      "inputSource": "synthetic-input",
+      "testOnlySetup": true,
+      "request": {
+        "targetFps": 15,
+        "view": "FP",
+        "setupPosition": [
+          0,
+          1.88,
+          100
+        ],
+        "holdMs": 2500,
+        "physicsStepSeconds": 0.016666666666666666,
+        "physicsStepBasis": "actual game.world.physicsSimulation.fixedTimeStep; no physics clock changes",
+        "scene3DPhysicsSettings": {
+          "fixedTimeStep": 0.016666666666666666,
+          "maxSubSteps": 4
+        },
+        "instanceMatchesScene3DSetting": true
+      },
+      "environmentBefore": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "viewport": [
+          1030,
+          898
+        ],
+        "devicePixelRatio": 1.5,
+        "engineVersion": null,
+        "renderFrameInterval": 16.666666666666668,
+        "stageFrameRate": "fast",
+        "canvases": [
+          {
+            "id": "layaCanvas",
+            "width": 860,
+            "height": 750,
+            "clientWidth": 860,
+            "clientHeight": 750
+          },
+          {
+            "id": "",
+            "width": 1024,
+            "height": 512,
+            "clientWidth": 1024,
+            "clientHeight": 512
+          }
+        ]
+      },
+      "rateSetting": {
+        "api": "Laya.Render.frameInterval = 1000/target; Laya.stage.frameRate = fast",
+        "timerMutation": false,
+        "setAtMs": 638034
+      },
+      "endedAt": "2026-09-21T08:37:53.738Z",
+      "wallElapsedMs": 32437.2,
+      "cleanup": {
+        "releasedPointerIds": true,
+        "restoredOwnedRunToggle": true,
+        "originalMethodsRestored": true,
+        "restoredFrameInterval": 16.666666666666668,
+        "restoredStageFrameRate": "fast"
+      },
+      "totalOriginalOnUpdateCalls": 486,
+      "totalPostPhysicsPositionSamples": 486,
+      "nativeEvents": [],
+      "finalState": {
+        "ready": true,
+        "firstPerson": true,
+        "grounded": true,
+        "position": [
+          -1.089801325236997,
+          1.7600085711868338,
+          49.527751115070316
+        ],
+        "yaw": -0.021592653589793065,
+        "speed": 1.6508245877048184,
+        "fps": 15,
+        "keys": [],
+        "triggerHeld": false,
+        "touch": {
+          "enabled": true,
+          "move": [
+            0,
+            0
+          ],
+          "running": false,
+          "shooting": false,
+          "shootPointers": 0,
+          "pointers": 0,
+          "moving": false,
+          "looking": false
+        },
+        "avatar": {
+          "motion": "Walk",
+          "base": "Walk",
+          "upper": "Shoot",
+          "shots": 153,
+          "shooting": true,
+          "triggerHeld": false
+        }
+      }
+    },
+    {
+      "runId": "m01-1789979886089-2",
+      "startedAt": "2026-09-21T08:38:06.089Z",
+      "status": "INCOMPLETE",
+      "type": "background",
+      "cases": [
+        {
+          "type": "background",
+          "label": "background 边界（显式测试）",
+          "trigger": {
+            "type": "real browser visibility transition",
+            "nativeRequired": true
+          },
+          "nativeEvents": [],
+          "assertions": [
+            {
+              "label": "真实后台与返回",
+              "status": "NOT TESTED",
+              "actual": "未取得真实hidden>=1s再返回"
+            }
+          ],
+          "status": "INCOMPLETE"
+        }
+      ],
+      "setups": [
+        {
+          "atMs": 683821.8999999985,
+          "label": "background",
+          "operation": "test-only: motor.position + player.transform.position",
+          "before": [
+            -1.089801325236997,
+            1.7600085711868338,
+            49.527751115070316
+          ],
+          "requested": [
+            0,
+            1.88,
+            100
+          ],
+          "measurementActive": false,
+          "settled": [
+            0,
+            1.660000011920929,
+            100
+          ]
+        }
+      ],
+      "errors": [],
+      "inputSource": "synthetic-input",
+      "testOnlySetup": true,
+      "request": {
+        "targetFps": 15,
+        "view": "FP",
+        "setupPosition": [
+          0,
+          1.88,
+          100
+        ],
+        "holdMs": 2500,
+        "physicsStepSeconds": 0.016666666666666666,
+        "physicsStepBasis": "actual game.world.physicsSimulation.fixedTimeStep; no physics clock changes",
+        "scene3DPhysicsSettings": {
+          "fixedTimeStep": 0.016666666666666666,
+          "maxSubSteps": 4
+        },
+        "instanceMatchesScene3DSetting": true
+      },
+      "environmentBefore": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "viewport": [
+          1030,
+          898
+        ],
+        "devicePixelRatio": 1.5,
+        "engineVersion": null,
+        "renderFrameInterval": 16.666666666666668,
+        "stageFrameRate": "fast",
+        "canvases": [
+          {
+            "id": "layaCanvas",
+            "width": 860,
+            "height": 750,
+            "clientWidth": 860,
+            "clientHeight": 750
+          },
+          {
+            "id": "",
+            "width": 1024,
+            "height": 512,
+            "clientWidth": 1024,
+            "clientHeight": 512
+          }
+        ]
+      },
+      "rateSetting": {
+        "api": "Laya.Render.frameInterval = 1000/target; Laya.stage.frameRate = fast",
+        "timerMutation": false,
+        "setAtMs": 682821.3999999985
+      },
+      "endedAt": "2026-09-21T08:38:38.495Z",
+      "wallElapsedMs": 32406.7,
+      "cleanup": {
+        "releasedPointerIds": true,
+        "restoredOwnedRunToggle": true,
+        "originalMethodsRestored": true,
+        "restoredFrameInterval": 16.666666666666668,
+        "restoredStageFrameRate": "fast"
+      },
+      "totalOriginalOnUpdateCalls": 486,
+      "totalPostPhysicsPositionSamples": 486,
+      "nativeEvents": [],
+      "finalState": {
+        "ready": true,
+        "firstPerson": true,
+        "grounded": true,
+        "position": [
+          -1.089801325236997,
+          1.7600085711868338,
+          49.527751115070316
+        ],
+        "yaw": -0.021592653589793065,
+        "speed": 1.6516516516510922,
+        "fps": 15,
+        "keys": [],
+        "triggerHeld": false,
+        "touch": {
+          "enabled": true,
+          "move": [
+            0,
+            0
+          ],
+          "running": false,
+          "shooting": false,
+          "shootPointers": 0,
+          "pointers": 0,
+          "moving": false,
+          "looking": false
+        },
+        "avatar": {
+          "motion": "Walk",
+          "base": "Walk",
+          "upper": "Shoot",
+          "shots": 306,
+          "shooting": true,
+          "triggerHeld": false
+        }
+      }
+    },
+    {
+      "runId": "m01-1789979981852-3",
+      "startedAt": "2026-09-21T08:39:41.853Z",
+      "status": "INCOMPLETE",
+      "type": "numeric",
+      "cases": [
+        {
+          "type": "movement",
+          "label": "Walk Forward · 120 FPS",
+          "inputSource": "synthetic-input: touch DOM",
+          "inputVector": [
+            0,
+            1
+          ],
+          "running": false,
+          "inputDownAtMs": 780392.1999999993,
+          "inputUpAtMs": 782898.3999999985,
+          "inputWallSeconds": 2.5062,
+          "start": [
+            0,
+            1.88,
+            100
+          ],
+          "end": [
+            0,
+            1.88,
+            100
+          ],
+          "startPositionSampleAtMs": 779720.8999999985,
+          "endPositionSampleAtMs": 783725.1999999993,
+          "postReleaseSampleDelayMs": 826.8,
+          "immediateUpPosition": [
+            0,
+            1.88,
+            100
+          ],
+          "positionSampling": "after original cameraFollow.follow; end is first real postphysics sample at/after inputUpAtMs",
+          "configuredSpeed": null,
+          "speedConfiguration": "Observed return from original avatar.getMovementSpeedScale, multiplied by actual walkSpeed/runSpeed",
+          "expectedDistance": null,
+          "projectedDistance": 0,
+          "lateralDistance": 0,
+          "distanceTolerance": null,
+          "distanceRule": "abs(projected - speed*T) <= 0.03*speed*T + 2*speed*actualPhysicsStepSeconds",
+          "speedWindowRule": "0.4..0.65s windows after startup: measured <= speed*(1.05 + actualPhysicsStepSeconds/windowSeconds)",
+          "perFrameSpeed": {
+            "n": 2,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "p50": 0,
+            "p95": 0
+          },
+          "perFrameSamples": [
+            {
+              "gameFrame": 11,
+              "atMs": 781720.799999997,
+              "seconds": 0.9995,
+              "metersPerSecond": 0
+            },
+            {
+              "gameFrame": 12,
+              "atMs": 782724.799999997,
+              "seconds": 1.004,
+              "metersPerSecond": 0
+            }
+          ],
+          "positionSamples": [
+            {
+              "atMs": 780721.299999997,
+              "gameFrame": 10,
+              "position": [
+                0,
+                1.88,
+                100
+              ],
+              "timerDeltaMs": 1008.4000000000233
+            },
+            {
+              "atMs": 781720.799999997,
+              "gameFrame": 11,
+              "position": [
+                0,
+                1.88,
+                100
+              ],
+              "timerDeltaMs": 1000
+            },
+            {
+              "atMs": 782724.799999997,
+              "gameFrame": 12,
+              "position": [
+                0,
+                1.88,
+                100
+              ],
+              "timerDeltaMs": 1000
+            }
+          ],
+          "actualPositionSampleCount": 3,
+          "longWindowCount": 0,
+          "failedWindows": [],
+          "longWindowSpeed": {
+            "n": 0,
+            "mean": null,
+            "min": null,
+            "max": null,
+            "p50": null,
+            "p95": null
+          },
+          "stopDrift": 0,
+          "stopDriftLimit": null,
+          "stopDriftRule": "After first post-release physics sample: two actual physics steps + 0.02m; no added render-frame tolerance",
+          "frameRate": {
+            "requestedFps": 120,
+            "actualOnUpdateHz": 1.197031,
+            "observedOnUpdateCount": 3,
+            "wallSeconds": 2.5062,
+            "targetStatus": "NOT TESTED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "measurementTeleportCount": 0,
+          "assertions": [
+            {
+              "label": "距离定量误差",
+              "status": "NOT TESTED",
+              "actual": 0,
+              "limit": null
+            },
+            {
+              "label": "长窗速度上界",
+              "status": "NOT TESTED",
+              "actual": null,
+              "limit": "5% + one physics-step sampling error"
+            },
+            {
+              "label": "固定平地与无横向障碍偏移",
+              "status": "NOT TESTED",
+              "actual": {
+                "lateral": 0,
+                "heightDelta": 0
+              }
+            },
+            {
+              "label": "释放后停止与输入清空",
+              "status": "NOT TESTED",
+              "actual": {
+                "stopDrift": 0,
+                "inputsClear": true
+              },
+              "limit": null
+            }
+          ],
+          "status": "INCOMPLETE"
+        },
+        {
+          "type": "movement",
+          "label": "Walk Back · 120 FPS",
+          "inputSource": "synthetic-input: touch DOM",
+          "inputVector": [
+            0,
+            -1
+          ],
+          "running": false,
+          "inputDownAtMs": 784889.6999999993,
+          "inputUpAtMs": 787391,
+          "inputWallSeconds": 2.5013,
+          "start": [
+            0,
+            1.88,
+            100
+          ],
+          "end": [
+            0,
+            1.88,
+            100
+          ],
+          "startPositionSampleAtMs": 784725.5999999978,
+          "endPositionSampleAtMs": 787733.5,
+          "postReleaseSampleDelayMs": 342.5,
+          "immediateUpPosition": [
+            0,
+            1.88,
+            100
+          ],
+          "positionSampling": "after original cameraFollow.follow; end is first real postphysics sample at/after inputUpAtMs",
+          "configuredSpeed": null,
+          "speedConfiguration": "Observed return from original avatar.getMovementSpeedScale, multiplied by actual walkSpeed/runSpeed",
+          "expectedDistance": null,
+          "projectedDistance": 0,
+          "lateralDistance": 0,
+          "distanceTolerance": null,
+          "distanceRule": "abs(projected - speed*T) <= 0.03*speed*T + 2*speed*actualPhysicsStepSeconds",
+          "speedWindowRule": "0.4..0.65s windows after startup: measured <= speed*(1.05 + actualPhysicsStepSeconds/windowSeconds)",
+          "perFrameSpeed": {
+            "n": 1,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "p50": 0,
+            "p95": 0
+          },
+          "perFrameSamples": [
+            {
+              "gameFrame": 16,
+              "atMs": 786729.3999999985,
+              "seconds": 1.0044,
+              "metersPerSecond": 0
+            }
+          ],
+          "positionSamples": [
+            {
+              "atMs": 785725,
+              "gameFrame": 15,
+              "position": [
+                0,
+                1.88,
+                100
+              ],
+              "timerDeltaMs": 1000.1000000000931
+            },
+            {
+              "atMs": 786729.3999999985,
+              "gameFrame": 16,
+              "position": [
+                0,
+                1.88,
+                100
+              ],
+              "timerDeltaMs": 1000
+            }
+          ],
+          "actualPositionSampleCount": 2,
+          "longWindowCount": 0,
+          "failedWindows": [],
+          "longWindowSpeed": {
+            "n": 0,
+            "mean": null,
+            "min": null,
+            "max": null,
+            "p50": null,
+            "p95": null
+          },
+          "stopDrift": 0,
+          "stopDriftLimit": null,
+          "stopDriftRule": "After first post-release physics sample: two actual physics steps + 0.02m; no added render-frame tolerance",
+          "frameRate": {
+            "requestedFps": 120,
+            "actualOnUpdateHz": 0.799584,
+            "observedOnUpdateCount": 2,
+            "wallSeconds": 2.5013,
+            "targetStatus": "NOT TESTED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "measurementTeleportCount": 0,
+          "assertions": [
+            {
+              "label": "距离定量误差",
+              "status": "NOT TESTED",
+              "actual": 0,
+              "limit": null
+            },
+            {
+              "label": "长窗速度上界",
+              "status": "NOT TESTED",
+              "actual": null,
+              "limit": "5% + one physics-step sampling error"
+            },
+            {
+              "label": "固定平地与无横向障碍偏移",
+              "status": "NOT TESTED",
+              "actual": {
+                "lateral": 0,
+                "heightDelta": 0
+              }
+            },
+            {
+              "label": "释放后停止与输入清空",
+              "status": "NOT TESTED",
+              "actual": {
+                "stopDrift": 0,
+                "inputsClear": true
+              },
+              "limit": null
+            }
+          ],
+          "status": "INCOMPLETE"
+        },
+        {
+          "type": "movement",
+          "label": "Walk Left · 120 FPS",
+          "inputSource": "synthetic-input: touch DOM",
+          "inputVector": [
+            -1,
+            0
+          ],
+          "running": false,
+          "inputDownAtMs": 788905.5999999978,
+          "inputUpAtMs": 791406.8999999985,
+          "inputWallSeconds": 2.5013,
+          "start": [
+            0,
+            1.88,
+            100
+          ],
+          "end": [
+            0,
+            1.88,
+            100
+          ],
+          "startPositionSampleAtMs": 788733.8999999985,
+          "endPositionSampleAtMs": 791740.299999997,
+          "postReleaseSampleDelayMs": 333.4,
+          "immediateUpPosition": [
+            0,
+            1.88,
+            100
+          ],
+          "positionSampling": "after original cameraFollow.follow; end is first real postphysics sample at/after inputUpAtMs",
+          "configuredSpeed": null,
+          "speedConfiguration": "Observed return from original avatar.getMovementSpeedScale, multiplied by actual walkSpeed/runSpeed",
+          "expectedDistance": null,
+          "projectedDistance": 0,
+          "lateralDistance": 0,
+          "distanceTolerance": null,
+          "distanceRule": "abs(projected - speed*T) <= 0.03*speed*T + 2*speed*actualPhysicsStepSeconds",
+          "speedWindowRule": "0.4..0.65s windows after startup: measured <= speed*(1.05 + actualPhysicsStepSeconds/windowSeconds)",
+          "perFrameSpeed": {
+            "n": 1,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "p50": 0,
+            "p95": 0
+          },
+          "perFrameSamples": [
+            {
+              "gameFrame": 20,
+              "atMs": 790733.299999997,
+              "seconds": 0.9995,
+              "metersPerSecond": 0
+            }
+          ],
+          "positionSamples": [
+            {
+              "atMs": 789733.799999997,
+              "gameFrame": 19,
+              "position": [
+                0,
+                1.88,
+                100
+              ],
+              "timerDeltaMs": 1000
+            },
+            {
+              "atMs": 790733.299999997,
+              "gameFrame": 20,
+              "position": [
+                0,
+                1.88,
+                100
+              ],
+              "timerDeltaMs": 1000
+            }
+          ],
+          "actualPositionSampleCount": 2,
+          "longWindowCount": 0,
+          "failedWindows": [],
+          "longWindowSpeed": {
+            "n": 0,
+            "mean": null,
+            "min": null,
+            "max": null,
+            "p50": null,
+            "p95": null
+          },
+          "stopDrift": 0,
+          "stopDriftLimit": null,
+          "stopDriftRule": "After first post-release physics sample: two actual physics steps + 0.02m; no added render-frame tolerance",
+          "frameRate": {
+            "requestedFps": 120,
+            "actualOnUpdateHz": 0.799584,
+            "observedOnUpdateCount": 2,
+            "wallSeconds": 2.5013,
+            "targetStatus": "NOT TESTED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "measurementTeleportCount": 0,
+          "assertions": [
+            {
+              "label": "距离定量误差",
+              "status": "NOT TESTED",
+              "actual": 0,
+              "limit": null
+            },
+            {
+              "label": "长窗速度上界",
+              "status": "NOT TESTED",
+              "actual": null,
+              "limit": "5% + one physics-step sampling error"
+            },
+            {
+              "label": "固定平地与无横向障碍偏移",
+              "status": "NOT TESTED",
+              "actual": {
+                "lateral": 0,
+                "heightDelta": 0
+              }
+            },
+            {
+              "label": "释放后停止与输入清空",
+              "status": "NOT TESTED",
+              "actual": {
+                "stopDrift": 0,
+                "inputsClear": true
+              },
+              "limit": null
+            }
+          ],
+          "status": "INCOMPLETE"
+        },
+        {
+          "type": "movement",
+          "label": "Walk Right · 120 FPS",
+          "inputSource": "synthetic-input: touch DOM",
+          "inputVector": [
+            1,
+            0
+          ],
+          "running": false,
+          "inputDownAtMs": 792907.0999999978,
+          "inputUpAtMs": 795420.0999999978,
+          "inputWallSeconds": 2.513,
+          "start": [
+            0,
+            1.88,
+            100
+          ],
+          "end": [
+            0,
+            1.88,
+            100
+          ],
+          "startPositionSampleAtMs": 792737.799999997,
+          "endPositionSampleAtMs": 795741.799999997,
+          "postReleaseSampleDelayMs": 321.7,
+          "immediateUpPosition": [
+            0,
+            1.88,
+            100
+          ],
+          "positionSampling": "after original cameraFollow.follow; end is first real postphysics sample at/after inputUpAtMs",
+          "configuredSpeed": null,
+          "speedConfiguration": "Observed return from original avatar.getMovementSpeedScale, multiplied by actual walkSpeed/runSpeed",
+          "expectedDistance": null,
+          "projectedDistance": 0,
+          "lateralDistance": 0,
+          "distanceTolerance": null,
+          "distanceRule": "abs(projected - speed*T) <= 0.03*speed*T + 2*speed*actualPhysicsStepSeconds",
+          "speedWindowRule": "0.4..0.65s windows after startup: measured <= speed*(1.05 + actualPhysicsStepSeconds/windowSeconds)",
+          "perFrameSpeed": {
+            "n": 1,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "p50": 0,
+            "p95": 0
+          },
+          "perFrameSamples": [
+            {
+              "gameFrame": 24,
+              "atMs": 794741.5999999978,
+              "seconds": 0.9996,
+              "metersPerSecond": 0
+            }
+          ],
+          "positionSamples": [
+            {
+              "atMs": 793742,
+              "gameFrame": 23,
+              "position": [
+                0,
+                1.88,
+                100
+              ],
+              "timerDeltaMs": 1000
+            },
+            {
+              "atMs": 794741.5999999978,
+              "gameFrame": 24,
+              "position": [
+                0,
+                1.88,
+                100
+              ],
+              "timerDeltaMs": 1004.0999999999767
+            }
+          ],
+          "actualPositionSampleCount": 2,
+          "longWindowCount": 0,
+          "failedWindows": [],
+          "longWindowSpeed": {
+            "n": 0,
+            "mean": null,
+            "min": null,
+            "max": null,
+            "p50": null,
+            "p95": null
+          },
+          "stopDrift": 0,
+          "stopDriftLimit": null,
+          "stopDriftRule": "After first post-release physics sample: two actual physics steps + 0.02m; no added render-frame tolerance",
+          "frameRate": {
+            "requestedFps": 120,
+            "actualOnUpdateHz": 0.795862,
+            "observedOnUpdateCount": 2,
+            "wallSeconds": 2.513,
+            "targetStatus": "NOT TESTED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "measurementTeleportCount": 0,
+          "assertions": [
+            {
+              "label": "距离定量误差",
+              "status": "NOT TESTED",
+              "actual": 0,
+              "limit": null
+            },
+            {
+              "label": "长窗速度上界",
+              "status": "NOT TESTED",
+              "actual": null,
+              "limit": "5% + one physics-step sampling error"
+            },
+            {
+              "label": "固定平地与无横向障碍偏移",
+              "status": "NOT TESTED",
+              "actual": {
+                "lateral": 0,
+                "heightDelta": 0
+              }
+            },
+            {
+              "label": "释放后停止与输入清空",
+              "status": "NOT TESTED",
+              "actual": {
+                "stopDrift": 0,
+                "inputsClear": true
+              },
+              "limit": null
+            }
+          ],
+          "status": "INCOMPLETE"
+        },
+        {
+          "type": "movement",
+          "label": "Walk ForwardLeft · 120 FPS",
+          "inputSource": "synthetic-input: touch DOM",
+          "inputVector": [
+            -1,
+            1
+          ],
+          "running": false,
+          "inputDownAtMs": 796917.5999999978,
+          "inputUpAtMs": 799428.299999997,
+          "inputWallSeconds": 2.5107,
+          "start": [
+            0,
+            1.88,
+            100
+          ],
+          "end": [
+            0,
+            1.88,
+            100
+          ],
+          "startPositionSampleAtMs": 796742.0999999978,
+          "endPositionSampleAtMs": 799754.5999999978,
+          "postReleaseSampleDelayMs": 326.3,
+          "immediateUpPosition": [
+            0,
+            1.88,
+            100
+          ],
+          "positionSampling": "after original cameraFollow.follow; end is first real postphysics sample at/after inputUpAtMs",
+          "configuredSpeed": null,
+          "speedConfiguration": "Observed return from original avatar.getMovementSpeedScale, multiplied by actual walkSpeed/runSpeed",
+          "expectedDistance": null,
+          "projectedDistance": 0,
+          "lateralDistance": 0,
+          "distanceTolerance": null,
+          "distanceRule": "abs(projected - speed*T) <= 0.03*speed*T + 2*speed*actualPhysicsStepSeconds",
+          "speedWindowRule": "0.4..0.65s windows after startup: measured <= speed*(1.05 + actualPhysicsStepSeconds/windowSeconds)",
+          "perFrameSpeed": {
+            "n": 1,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "p50": 0,
+            "p95": 0
+          },
+          "perFrameSamples": [
+            {
+              "gameFrame": 28,
+              "atMs": 798750.1999999993,
+              "seconds": 1.0041,
+              "metersPerSecond": 0
+            }
+          ],
+          "positionSamples": [
+            {
+              "atMs": 797746.0999999978,
+              "gameFrame": 27,
+              "position": [
+                0,
+                1.88,
+                100
+              ],
+              "timerDeltaMs": 1000.0999999999767
+            },
+            {
+              "atMs": 798750.1999999993,
+              "gameFrame": 28,
+              "position": [
+                0,
+                1.88,
+                100
+              ],
+              "timerDeltaMs": 1004.3000000000466
+            }
+          ],
+          "actualPositionSampleCount": 2,
+          "longWindowCount": 0,
+          "failedWindows": [],
+          "longWindowSpeed": {
+            "n": 0,
+            "mean": null,
+            "min": null,
+            "max": null,
+            "p50": null,
+            "p95": null
+          },
+          "stopDrift": 0,
+          "stopDriftLimit": null,
+          "stopDriftRule": "After first post-release physics sample: two actual physics steps + 0.02m; no added render-frame tolerance",
+          "frameRate": {
+            "requestedFps": 120,
+            "actualOnUpdateHz": 0.796591,
+            "observedOnUpdateCount": 2,
+            "wallSeconds": 2.5107,
+            "targetStatus": "NOT TESTED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "measurementTeleportCount": 0,
+          "assertions": [
+            {
+              "label": "距离定量误差",
+              "status": "NOT TESTED",
+              "actual": 0,
+              "limit": null
+            },
+            {
+              "label": "长窗速度上界",
+              "status": "NOT TESTED",
+              "actual": null,
+              "limit": "5% + one physics-step sampling error"
+            },
+            {
+              "label": "固定平地与无横向障碍偏移",
+              "status": "NOT TESTED",
+              "actual": {
+                "lateral": 0,
+                "heightDelta": 0
+              }
+            },
+            {
+              "label": "释放后停止与输入清空",
+              "status": "NOT TESTED",
+              "actual": {
+                "stopDrift": 0,
+                "inputsClear": true
+              },
+              "limit": null
+            }
+          ],
+          "status": "INCOMPLETE"
+        },
+        {
+          "type": "movement",
+          "label": "Walk ForwardRight · 120 FPS",
+          "inputSource": "synthetic-input: touch DOM",
+          "inputVector": [
+            1,
+            1
+          ],
+          "running": false,
+          "inputDownAtMs": 800923.8999999985,
+          "inputUpAtMs": 803424,
+          "inputWallSeconds": 2.5001,
+          "start": [
+            0,
+            1.88,
+            100
+          ],
+          "end": [
+            0,
+            1.88,
+            100
+          ],
+          "startPositionSampleAtMs": 800758.3999999985,
+          "endPositionSampleAtMs": 803759.0999999978,
+          "postReleaseSampleDelayMs": 335.1,
+          "immediateUpPosition": [
+            0,
+            1.88,
+            100
+          ],
+          "positionSampling": "after original cameraFollow.follow; end is first real postphysics sample at/after inputUpAtMs",
+          "configuredSpeed": null,
+          "speedConfiguration": "Observed return from original avatar.getMovementSpeedScale, multiplied by actual walkSpeed/runSpeed",
+          "expectedDistance": null,
+          "projectedDistance": 0,
+          "lateralDistance": 0,
+          "distanceTolerance": null,
+          "distanceRule": "abs(projected - speed*T) <= 0.03*speed*T + 2*speed*actualPhysicsStepSeconds",
+          "speedWindowRule": "0.4..0.65s windows after startup: measured <= speed*(1.05 + actualPhysicsStepSeconds/windowSeconds)",
+          "perFrameSpeed": {
+            "n": 1,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "p50": 0,
+            "p95": 0
+          },
+          "perFrameSamples": [
+            {
+              "gameFrame": 32,
+              "atMs": 802758.5999999978,
+              "seconds": 0.9995,
+              "metersPerSecond": 0
+            }
+          ],
+          "positionSamples": [
+            {
+              "atMs": 801759.0999999978,
+              "gameFrame": 31,
+              "position": [
+                0,
+                1.88,
+                100
+              ],
+              "timerDeltaMs": 1004.3000000000466
+            },
+            {
+              "atMs": 802758.5999999978,
+              "gameFrame": 32,
+              "position": [
+                0,
+                1.88,
+                100
+              ],
+              "timerDeltaMs": 999.8999999999069
+            }
+          ],
+          "actualPositionSampleCount": 2,
+          "longWindowCount": 0,
+          "failedWindows": [],
+          "longWindowSpeed": {
+            "n": 0,
+            "mean": null,
+            "min": null,
+            "max": null,
+            "p50": null,
+            "p95": null
+          },
+          "stopDrift": 0,
+          "stopDriftLimit": null,
+          "stopDriftRule": "After first post-release physics sample: two actual physics steps + 0.02m; no added render-frame tolerance",
+          "frameRate": {
+            "requestedFps": 120,
+            "actualOnUpdateHz": 0.799968,
+            "observedOnUpdateCount": 2,
+            "wallSeconds": 2.5001,
+            "targetStatus": "NOT TESTED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "measurementTeleportCount": 0,
+          "assertions": [
+            {
+              "label": "距离定量误差",
+              "status": "NOT TESTED",
+              "actual": 0,
+              "limit": null
+            },
+            {
+              "label": "长窗速度上界",
+              "status": "NOT TESTED",
+              "actual": null,
+              "limit": "5% + one physics-step sampling error"
+            },
+            {
+              "label": "固定平地与无横向障碍偏移",
+              "status": "NOT TESTED",
+              "actual": {
+                "lateral": 0,
+                "heightDelta": 0
+              }
+            },
+            {
+              "label": "释放后停止与输入清空",
+              "status": "NOT TESTED",
+              "actual": {
+                "stopDrift": 0,
+                "inputsClear": true
+              },
+              "limit": null
+            }
+          ],
+          "status": "INCOMPLETE"
+        },
+        {
+          "type": "movement",
+          "label": "Walk BackLeft · 120 FPS",
+          "inputSource": "synthetic-input: touch DOM",
+          "inputVector": [
+            -1,
+            -1
+          ],
+          "running": false,
+          "inputDownAtMs": 804930.3999999985,
+          "inputUpAtMs": 807432.5,
+          "inputWallSeconds": 2.5021,
+          "start": [
+            0,
+            1.88,
+            100
+          ],
+          "end": [
+            0,
+            1.88,
+            100
+          ],
+          "startPositionSampleAtMs": 804763.1999999993,
+          "endPositionSampleAtMs": 807766.8999999985,
+          "postReleaseSampleDelayMs": 334.4,
+          "immediateUpPosition": [
+            0,
+            1.88,
+            100
+          ],
+          "positionSampling": "after original cameraFollow.follow; end is first real postphysics sample at/after inputUpAtMs",
+          "configuredSpeed": null,
+          "speedConfiguration": "Observed return from original avatar.getMovementSpeedScale, multiplied by actual walkSpeed/runSpeed",
+          "expectedDistance": null,
+          "projectedDistance": 0,
+          "lateralDistance": 0,
+          "distanceTolerance": null,
+          "distanceRule": "abs(projected - speed*T) <= 0.03*speed*T + 2*speed*actualPhysicsStepSeconds",
+          "speedWindowRule": "0.4..0.65s windows after startup: measured <= speed*(1.05 + actualPhysicsStepSeconds/windowSeconds)",
+          "perFrameSpeed": {
+            "n": 1,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "p50": 0,
+            "p95": 0
+          },
+          "perFrameSamples": [
+            {
+              "gameFrame": 36,
+              "atMs": 806766.8999999985,
+              "seconds": 0.9998,
+              "metersPerSecond": 0
+            }
+          ],
+          "positionSamples": [
+            {
+              "atMs": 805767.0999999978,
+              "gameFrame": 35,
+              "position": [
+                0,
+                1.88,
+                100
+              ],
+              "timerDeltaMs": 1004.0999999999767
+            },
+            {
+              "atMs": 806766.8999999985,
+              "gameFrame": 36,
+              "position": [
+                0,
+                1.88,
+                100
+              ],
+              "timerDeltaMs": 1004.0999999999767
+            }
+          ],
+          "actualPositionSampleCount": 2,
+          "longWindowCount": 0,
+          "failedWindows": [],
+          "longWindowSpeed": {
+            "n": 0,
+            "mean": null,
+            "min": null,
+            "max": null,
+            "p50": null,
+            "p95": null
+          },
+          "stopDrift": 0,
+          "stopDriftLimit": null,
+          "stopDriftRule": "After first post-release physics sample: two actual physics steps + 0.02m; no added render-frame tolerance",
+          "frameRate": {
+            "requestedFps": 120,
+            "actualOnUpdateHz": 0.799329,
+            "observedOnUpdateCount": 2,
+            "wallSeconds": 2.5021,
+            "targetStatus": "NOT TESTED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "measurementTeleportCount": 0,
+          "assertions": [
+            {
+              "label": "距离定量误差",
+              "status": "NOT TESTED",
+              "actual": 0,
+              "limit": null
+            },
+            {
+              "label": "长窗速度上界",
+              "status": "NOT TESTED",
+              "actual": null,
+              "limit": "5% + one physics-step sampling error"
+            },
+            {
+              "label": "固定平地与无横向障碍偏移",
+              "status": "NOT TESTED",
+              "actual": {
+                "lateral": 0,
+                "heightDelta": 0
+              }
+            },
+            {
+              "label": "释放后停止与输入清空",
+              "status": "NOT TESTED",
+              "actual": {
+                "stopDrift": 0,
+                "inputsClear": true
+              },
+              "limit": null
+            }
+          ],
+          "status": "INCOMPLETE"
+        },
+        {
+          "type": "movement",
+          "label": "Walk BackRight · 120 FPS",
+          "inputSource": "synthetic-input: touch DOM",
+          "inputVector": [
+            1,
+            -1
+          ],
+          "running": false,
+          "inputDownAtMs": 808935.299999997,
+          "inputUpAtMs": 811447.8999999985,
+          "inputWallSeconds": 2.5126,
+          "start": [
+            0,
+            1.88,
+            100
+          ],
+          "end": [
+            0,
+            1.88,
+            100
+          ],
+          "startPositionSampleAtMs": 808771.0999999978,
+          "endPositionSampleAtMs": 811779.5,
+          "postReleaseSampleDelayMs": 331.6,
+          "immediateUpPosition": [
+            0,
+            1.88,
+            100
+          ],
+          "positionSampling": "after original cameraFollow.follow; end is first real postphysics sample at/after inputUpAtMs",
+          "configuredSpeed": null,
+          "speedConfiguration": "Observed return from original avatar.getMovementSpeedScale, multiplied by actual walkSpeed/runSpeed",
+          "expectedDistance": null,
+          "projectedDistance": 0,
+          "lateralDistance": 0,
+          "distanceTolerance": null,
+          "distanceRule": "abs(projected - speed*T) <= 0.03*speed*T + 2*speed*actualPhysicsStepSeconds",
+          "speedWindowRule": "0.4..0.65s windows after startup: measured <= speed*(1.05 + actualPhysicsStepSeconds/windowSeconds)",
+          "perFrameSpeed": {
+            "n": 1,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "p50": 0,
+            "p95": 0
+          },
+          "perFrameSamples": [
+            {
+              "gameFrame": 40,
+              "atMs": 810775.3999999985,
+              "seconds": 1.0041,
+              "metersPerSecond": 0
+            }
+          ],
+          "positionSamples": [
+            {
+              "atMs": 809771.299999997,
+              "gameFrame": 39,
+              "position": [
+                0,
+                1.88,
+                100
+              ],
+              "timerDeltaMs": 1004.1000000000931
+            },
+            {
+              "atMs": 810775.3999999985,
+              "gameFrame": 40,
+              "position": [
+                0,
+                1.88,
+                100
+              ],
+              "timerDeltaMs": 1000
+            }
+          ],
+          "actualPositionSampleCount": 2,
+          "longWindowCount": 0,
+          "failedWindows": [],
+          "longWindowSpeed": {
+            "n": 0,
+            "mean": null,
+            "min": null,
+            "max": null,
+            "p50": null,
+            "p95": null
+          },
+          "stopDrift": 0,
+          "stopDriftLimit": null,
+          "stopDriftRule": "After first post-release physics sample: two actual physics steps + 0.02m; no added render-frame tolerance",
+          "frameRate": {
+            "requestedFps": 120,
+            "actualOnUpdateHz": 0.795988,
+            "observedOnUpdateCount": 2,
+            "wallSeconds": 2.5126,
+            "targetStatus": "NOT TESTED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "measurementTeleportCount": 0,
+          "assertions": [
+            {
+              "label": "距离定量误差",
+              "status": "NOT TESTED",
+              "actual": 0,
+              "limit": null
+            },
+            {
+              "label": "长窗速度上界",
+              "status": "NOT TESTED",
+              "actual": null,
+              "limit": "5% + one physics-step sampling error"
+            },
+            {
+              "label": "固定平地与无横向障碍偏移",
+              "status": "NOT TESTED",
+              "actual": {
+                "lateral": 0,
+                "heightDelta": 0
+              }
+            },
+            {
+              "label": "释放后停止与输入清空",
+              "status": "NOT TESTED",
+              "actual": {
+                "stopDrift": 0,
+                "inputsClear": true
+              },
+              "limit": null
+            }
+          ],
+          "status": "INCOMPLETE"
+        },
+        {
+          "type": "movement",
+          "label": "Run Forward · 120 FPS",
+          "inputSource": "synthetic-input: touch DOM",
+          "inputVector": [
+            0,
+            1
+          ],
+          "running": true,
+          "inputDownAtMs": 812946.6999999993,
+          "inputUpAtMs": 815458.299999997,
+          "inputWallSeconds": 2.5116,
+          "start": [
+            0,
+            1.88,
+            100
+          ],
+          "end": [
+            0,
+            1.88,
+            100
+          ],
+          "startPositionSampleAtMs": 812783.6999999993,
+          "endPositionSampleAtMs": 815792.1999999993,
+          "postReleaseSampleDelayMs": 333.9,
+          "immediateUpPosition": [
+            0,
+            1.88,
+            100
+          ],
+          "positionSampling": "after original cameraFollow.follow; end is first real postphysics sample at/after inputUpAtMs",
+          "configuredSpeed": null,
+          "speedConfiguration": "Observed return from original avatar.getMovementSpeedScale, multiplied by actual walkSpeed/runSpeed",
+          "expectedDistance": null,
+          "projectedDistance": 0,
+          "lateralDistance": 0,
+          "distanceTolerance": null,
+          "distanceRule": "abs(projected - speed*T) <= 0.03*speed*T + 2*speed*actualPhysicsStepSeconds",
+          "speedWindowRule": "0.4..0.65s windows after startup: measured <= speed*(1.05 + actualPhysicsStepSeconds/windowSeconds)",
+          "perFrameSpeed": {
+            "n": 1,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "p50": 0,
+            "p95": 0
+          },
+          "perFrameSamples": [
+            {
+              "gameFrame": 44,
+              "atMs": 814787.8999999985,
+              "seconds": 0.9999,
+              "metersPerSecond": 0
+            }
+          ],
+          "positionSamples": [
+            {
+              "atMs": 813788,
+              "gameFrame": 43,
+              "position": [
+                0,
+                1.88,
+                100
+              ],
+              "timerDeltaMs": 1004.1999999999534
+            },
+            {
+              "atMs": 814787.8999999985,
+              "gameFrame": 44,
+              "position": [
+                0,
+                1.88,
+                100
+              ],
+              "timerDeltaMs": 1004
+            }
+          ],
+          "actualPositionSampleCount": 2,
+          "longWindowCount": 0,
+          "failedWindows": [],
+          "longWindowSpeed": {
+            "n": 0,
+            "mean": null,
+            "min": null,
+            "max": null,
+            "p50": null,
+            "p95": null
+          },
+          "stopDrift": 0,
+          "stopDriftLimit": null,
+          "stopDriftRule": "After first post-release physics sample: two actual physics steps + 0.02m; no added render-frame tolerance",
+          "frameRate": {
+            "requestedFps": 120,
+            "actualOnUpdateHz": 0.796305,
+            "observedOnUpdateCount": 2,
+            "wallSeconds": 2.5116,
+            "targetStatus": "NOT TESTED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "measurementTeleportCount": 0,
+          "assertions": [
+            {
+              "label": "距离定量误差",
+              "status": "NOT TESTED",
+              "actual": 0,
+              "limit": null
+            },
+            {
+              "label": "长窗速度上界",
+              "status": "NOT TESTED",
+              "actual": null,
+              "limit": "5% + one physics-step sampling error"
+            },
+            {
+              "label": "固定平地与无横向障碍偏移",
+              "status": "NOT TESTED",
+              "actual": {
+                "lateral": 0,
+                "heightDelta": 0
+              }
+            },
+            {
+              "label": "释放后停止与输入清空",
+              "status": "NOT TESTED",
+              "actual": {
+                "stopDrift": 0,
+                "inputsClear": true
+              },
+              "limit": null
+            }
+          ],
+          "status": "INCOMPLETE"
+        },
+        {
+          "type": "movement",
+          "label": "Run Back · 120 FPS",
+          "inputSource": "synthetic-input: touch DOM",
+          "inputVector": [
+            0,
+            -1
+          ],
+          "running": true,
+          "inputDownAtMs": 816958.8999999985,
+          "inputUpAtMs": 819478.5,
+          "inputWallSeconds": 2.5196,
+          "start": [
+            0,
+            1.88,
+            100
+          ],
+          "end": [
+            0,
+            1.88,
+            100
+          ],
+          "startPositionSampleAtMs": 816792.0999999978,
+          "endPositionSampleAtMs": 819792.5,
+          "postReleaseSampleDelayMs": 314,
+          "immediateUpPosition": [
+            0,
+            1.88,
+            100
+          ],
+          "positionSampling": "after original cameraFollow.follow; end is first real postphysics sample at/after inputUpAtMs",
+          "configuredSpeed": null,
+          "speedConfiguration": "Observed return from original avatar.getMovementSpeedScale, multiplied by actual walkSpeed/runSpeed",
+          "expectedDistance": null,
+          "projectedDistance": 0,
+          "lateralDistance": 0,
+          "distanceTolerance": null,
+          "distanceRule": "abs(projected - speed*T) <= 0.03*speed*T + 2*speed*actualPhysicsStepSeconds",
+          "speedWindowRule": "0.4..0.65s windows after startup: measured <= speed*(1.05 + actualPhysicsStepSeconds/windowSeconds)",
+          "perFrameSpeed": {
+            "n": 1,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "p50": 0,
+            "p95": 0
+          },
+          "perFrameSamples": [
+            {
+              "gameFrame": 48,
+              "atMs": 818792.5999999978,
+              "seconds": 1.0004,
+              "metersPerSecond": 0
+            }
+          ],
+          "positionSamples": [
+            {
+              "atMs": 817792.1999999993,
+              "gameFrame": 47,
+              "position": [
+                0,
+                1.88,
+                100
+              ],
+              "timerDeltaMs": 1000.1000000000931
+            },
+            {
+              "atMs": 818792.5999999978,
+              "gameFrame": 48,
+              "position": [
+                0,
+                1.88,
+                100
+              ],
+              "timerDeltaMs": 1000.0999999999767
+            }
+          ],
+          "actualPositionSampleCount": 2,
+          "longWindowCount": 0,
+          "failedWindows": [],
+          "longWindowSpeed": {
+            "n": 0,
+            "mean": null,
+            "min": null,
+            "max": null,
+            "p50": null,
+            "p95": null
+          },
+          "stopDrift": 0,
+          "stopDriftLimit": null,
+          "stopDriftRule": "After first post-release physics sample: two actual physics steps + 0.02m; no added render-frame tolerance",
+          "frameRate": {
+            "requestedFps": 120,
+            "actualOnUpdateHz": 0.793777,
+            "observedOnUpdateCount": 2,
+            "wallSeconds": 2.5196,
+            "targetStatus": "NOT TESTED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "measurementTeleportCount": 0,
+          "assertions": [
+            {
+              "label": "距离定量误差",
+              "status": "NOT TESTED",
+              "actual": 0,
+              "limit": null
+            },
+            {
+              "label": "长窗速度上界",
+              "status": "NOT TESTED",
+              "actual": null,
+              "limit": "5% + one physics-step sampling error"
+            },
+            {
+              "label": "固定平地与无横向障碍偏移",
+              "status": "NOT TESTED",
+              "actual": {
+                "lateral": 0,
+                "heightDelta": 0
+              }
+            },
+            {
+              "label": "释放后停止与输入清空",
+              "status": "NOT TESTED",
+              "actual": {
+                "stopDrift": 0,
+                "inputsClear": true
+              },
+              "limit": null
+            }
+          ],
+          "status": "INCOMPLETE"
+        },
+        {
+          "type": "movement",
+          "label": "Run Left · 120 FPS",
+          "inputSource": "synthetic-input: touch DOM",
+          "inputVector": [
+            -1,
+            0
+          ],
+          "running": true,
+          "inputDownAtMs": 820970.5,
+          "inputUpAtMs": 823477.0999999978,
+          "inputWallSeconds": 2.5066,
+          "start": [
+            0,
+            1.88,
+            100
+          ],
+          "end": [
+            0,
+            1.88,
+            100
+          ],
+          "startPositionSampleAtMs": 820792.5,
+          "endPositionSampleAtMs": 823800.5999999978,
+          "postReleaseSampleDelayMs": 323.5,
+          "immediateUpPosition": [
+            0,
+            1.88,
+            100
+          ],
+          "positionSampling": "after original cameraFollow.follow; end is first real postphysics sample at/after inputUpAtMs",
+          "configuredSpeed": null,
+          "speedConfiguration": "Observed return from original avatar.getMovementSpeedScale, multiplied by actual walkSpeed/runSpeed",
+          "expectedDistance": null,
+          "projectedDistance": 0,
+          "lateralDistance": 0,
+          "distanceTolerance": null,
+          "distanceRule": "abs(projected - speed*T) <= 0.03*speed*T + 2*speed*actualPhysicsStepSeconds",
+          "speedWindowRule": "0.4..0.65s windows after startup: measured <= speed*(1.05 + actualPhysicsStepSeconds/windowSeconds)",
+          "perFrameSpeed": {
+            "n": 1,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "p50": 0,
+            "p95": 0
+          },
+          "perFrameSamples": [
+            {
+              "gameFrame": 52,
+              "atMs": 822800.3999999985,
+              "seconds": 1.004,
+              "metersPerSecond": 0
+            }
+          ],
+          "positionSamples": [
+            {
+              "atMs": 821796.3999999985,
+              "gameFrame": 51,
+              "position": [
+                0,
+                1.88,
+                100
+              ],
+              "timerDeltaMs": 1000
+            },
+            {
+              "atMs": 822800.3999999985,
+              "gameFrame": 52,
+              "position": [
+                0,
+                1.88,
+                100
+              ],
+              "timerDeltaMs": 1004.1999999999534
+            }
+          ],
+          "actualPositionSampleCount": 2,
+          "longWindowCount": 0,
+          "failedWindows": [],
+          "longWindowSpeed": {
+            "n": 0,
+            "mean": null,
+            "min": null,
+            "max": null,
+            "p50": null,
+            "p95": null
+          },
+          "stopDrift": 0,
+          "stopDriftLimit": null,
+          "stopDriftRule": "After first post-release physics sample: two actual physics steps + 0.02m; no added render-frame tolerance",
+          "frameRate": {
+            "requestedFps": 120,
+            "actualOnUpdateHz": 0.797894,
+            "observedOnUpdateCount": 2,
+            "wallSeconds": 2.5066,
+            "targetStatus": "NOT TESTED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "measurementTeleportCount": 0,
+          "assertions": [
+            {
+              "label": "距离定量误差",
+              "status": "NOT TESTED",
+              "actual": 0,
+              "limit": null
+            },
+            {
+              "label": "长窗速度上界",
+              "status": "NOT TESTED",
+              "actual": null,
+              "limit": "5% + one physics-step sampling error"
+            },
+            {
+              "label": "固定平地与无横向障碍偏移",
+              "status": "NOT TESTED",
+              "actual": {
+                "lateral": 0,
+                "heightDelta": 0
+              }
+            },
+            {
+              "label": "释放后停止与输入清空",
+              "status": "NOT TESTED",
+              "actual": {
+                "stopDrift": 0,
+                "inputsClear": true
+              },
+              "limit": null
+            }
+          ],
+          "status": "INCOMPLETE"
+        },
+        {
+          "type": "movement",
+          "label": "Run Right · 120 FPS",
+          "inputSource": "synthetic-input: touch DOM",
+          "inputVector": [
+            1,
+            0
+          ],
+          "running": true,
+          "inputDownAtMs": 824963,
+          "inputUpAtMs": 827464.299999997,
+          "inputWallSeconds": 2.5013,
+          "start": [
+            0,
+            1.88,
+            100
+          ],
+          "end": [
+            0,
+            1.88,
+            100
+          ],
+          "startPositionSampleAtMs": 824804.8999999985,
+          "endPositionSampleAtMs": 827812.799999997,
+          "postReleaseSampleDelayMs": 348.5,
+          "immediateUpPosition": [
+            0,
+            1.88,
+            100
+          ],
+          "positionSampling": "after original cameraFollow.follow; end is first real postphysics sample at/after inputUpAtMs",
+          "configuredSpeed": null,
+          "speedConfiguration": "Observed return from original avatar.getMovementSpeedScale, multiplied by actual walkSpeed/runSpeed",
+          "expectedDistance": null,
+          "projectedDistance": 0,
+          "lateralDistance": 0,
+          "distanceTolerance": null,
+          "distanceRule": "abs(projected - speed*T) <= 0.03*speed*T + 2*speed*actualPhysicsStepSeconds",
+          "speedWindowRule": "0.4..0.65s windows after startup: measured <= speed*(1.05 + actualPhysicsStepSeconds/windowSeconds)",
+          "perFrameSpeed": {
+            "n": 1,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "p50": 0,
+            "p95": 0
+          },
+          "perFrameSamples": [
+            {
+              "gameFrame": 56,
+              "atMs": 826808.8999999985,
+              "seconds": 1,
+              "metersPerSecond": 0
+            }
+          ],
+          "positionSamples": [
+            {
+              "atMs": 825808.8999999985,
+              "gameFrame": 55,
+              "position": [
+                0,
+                1.88,
+                100
+              ],
+              "timerDeltaMs": 1004.0999999999767
+            },
+            {
+              "atMs": 826808.8999999985,
+              "gameFrame": 56,
+              "position": [
+                0,
+                1.88,
+                100
+              ],
+              "timerDeltaMs": 1004.0999999999767
+            }
+          ],
+          "actualPositionSampleCount": 2,
+          "longWindowCount": 0,
+          "failedWindows": [],
+          "longWindowSpeed": {
+            "n": 0,
+            "mean": null,
+            "min": null,
+            "max": null,
+            "p50": null,
+            "p95": null
+          },
+          "stopDrift": 0,
+          "stopDriftLimit": null,
+          "stopDriftRule": "After first post-release physics sample: two actual physics steps + 0.02m; no added render-frame tolerance",
+          "frameRate": {
+            "requestedFps": 120,
+            "actualOnUpdateHz": 0.799584,
+            "observedOnUpdateCount": 2,
+            "wallSeconds": 2.5013,
+            "targetStatus": "NOT TESTED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "measurementTeleportCount": 0,
+          "assertions": [
+            {
+              "label": "距离定量误差",
+              "status": "NOT TESTED",
+              "actual": 0,
+              "limit": null
+            },
+            {
+              "label": "长窗速度上界",
+              "status": "NOT TESTED",
+              "actual": null,
+              "limit": "5% + one physics-step sampling error"
+            },
+            {
+              "label": "固定平地与无横向障碍偏移",
+              "status": "NOT TESTED",
+              "actual": {
+                "lateral": 0,
+                "heightDelta": 0
+              }
+            },
+            {
+              "label": "释放后停止与输入清空",
+              "status": "NOT TESTED",
+              "actual": {
+                "stopDrift": 0,
+                "inputsClear": true
+              },
+              "limit": null
+            }
+          ],
+          "status": "INCOMPLETE"
+        },
+        {
+          "type": "movement",
+          "label": "Run ForwardLeft · 120 FPS",
+          "inputSource": "synthetic-input: touch DOM",
+          "inputVector": [
+            -1,
+            1
+          ],
+          "running": true,
+          "inputDownAtMs": 828996.0999999978,
+          "inputUpAtMs": 831497.6999999993,
+          "inputWallSeconds": 2.5016,
+          "start": [
+            0,
+            1.88,
+            100
+          ],
+          "end": [
+            0,
+            1.88,
+            100
+          ],
+          "startPositionSampleAtMs": 828813,
+          "endPositionSampleAtMs": 831817.299999997,
+          "postReleaseSampleDelayMs": 319.6,
+          "immediateUpPosition": [
+            0,
+            1.88,
+            100
+          ],
+          "positionSampling": "after original cameraFollow.follow; end is first real postphysics sample at/after inputUpAtMs",
+          "configuredSpeed": null,
+          "speedConfiguration": "Observed return from original avatar.getMovementSpeedScale, multiplied by actual walkSpeed/runSpeed",
+          "expectedDistance": null,
+          "projectedDistance": 0,
+          "lateralDistance": 0,
+          "distanceTolerance": null,
+          "distanceRule": "abs(projected - speed*T) <= 0.03*speed*T + 2*speed*actualPhysicsStepSeconds",
+          "speedWindowRule": "0.4..0.65s windows after startup: measured <= speed*(1.05 + actualPhysicsStepSeconds/windowSeconds)",
+          "perFrameSpeed": {
+            "n": 1,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "p50": 0,
+            "p95": 0
+          },
+          "perFrameSamples": [
+            {
+              "gameFrame": 60,
+              "atMs": 830817.1999999993,
+              "seconds": 1.0042,
+              "metersPerSecond": 0
+            }
+          ],
+          "positionSamples": [
+            {
+              "atMs": 829813,
+              "gameFrame": 59,
+              "position": [
+                0,
+                1.88,
+                100
+              ],
+              "timerDeltaMs": 1000
+            },
+            {
+              "atMs": 830817.1999999993,
+              "gameFrame": 60,
+              "position": [
+                0,
+                1.88,
+                100
+              ],
+              "timerDeltaMs": 1000
+            }
+          ],
+          "actualPositionSampleCount": 2,
+          "longWindowCount": 0,
+          "failedWindows": [],
+          "longWindowSpeed": {
+            "n": 0,
+            "mean": null,
+            "min": null,
+            "max": null,
+            "p50": null,
+            "p95": null
+          },
+          "stopDrift": 0,
+          "stopDriftLimit": null,
+          "stopDriftRule": "After first post-release physics sample: two actual physics steps + 0.02m; no added render-frame tolerance",
+          "frameRate": {
+            "requestedFps": 120,
+            "actualOnUpdateHz": 0.799488,
+            "observedOnUpdateCount": 2,
+            "wallSeconds": 2.5016,
+            "targetStatus": "NOT TESTED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "measurementTeleportCount": 0,
+          "assertions": [
+            {
+              "label": "距离定量误差",
+              "status": "NOT TESTED",
+              "actual": 0,
+              "limit": null
+            },
+            {
+              "label": "长窗速度上界",
+              "status": "NOT TESTED",
+              "actual": null,
+              "limit": "5% + one physics-step sampling error"
+            },
+            {
+              "label": "固定平地与无横向障碍偏移",
+              "status": "NOT TESTED",
+              "actual": {
+                "lateral": 0,
+                "heightDelta": 0
+              }
+            },
+            {
+              "label": "释放后停止与输入清空",
+              "status": "NOT TESTED",
+              "actual": {
+                "stopDrift": 0,
+                "inputsClear": true
+              },
+              "limit": null
+            }
+          ],
+          "status": "INCOMPLETE"
+        },
+        {
+          "type": "movement",
+          "label": "Run ForwardRight · 120 FPS",
+          "inputSource": "synthetic-input: touch DOM",
+          "inputVector": [
+            1,
+            1
+          ],
+          "running": true,
+          "inputDownAtMs": 832995.5,
+          "inputUpAtMs": 835498.0999999978,
+          "inputWallSeconds": 2.5026,
+          "start": [
+            0,
+            1.88,
+            100
+          ],
+          "end": [
+            0,
+            1.88,
+            100
+          ],
+          "startPositionSampleAtMs": 832821.6999999993,
+          "endPositionSampleAtMs": 835825.5,
+          "postReleaseSampleDelayMs": 327.4,
+          "immediateUpPosition": [
+            0,
+            1.88,
+            100
+          ],
+          "positionSampling": "after original cameraFollow.follow; end is first real postphysics sample at/after inputUpAtMs",
+          "configuredSpeed": null,
+          "speedConfiguration": "Observed return from original avatar.getMovementSpeedScale, multiplied by actual walkSpeed/runSpeed",
+          "expectedDistance": null,
+          "projectedDistance": 0,
+          "lateralDistance": 0,
+          "distanceTolerance": null,
+          "distanceRule": "abs(projected - speed*T) <= 0.03*speed*T + 2*speed*actualPhysicsStepSeconds",
+          "speedWindowRule": "0.4..0.65s windows after startup: measured <= speed*(1.05 + actualPhysicsStepSeconds/windowSeconds)",
+          "perFrameSpeed": {
+            "n": 1,
+            "mean": 0,
+            "min": 0,
+            "max": 0,
+            "p50": 0,
+            "p95": 0
+          },
+          "perFrameSamples": [
+            {
+              "gameFrame": 64,
+              "atMs": 834825.5,
+              "seconds": 1.0039,
+              "metersPerSecond": 0
+            }
+          ],
+          "positionSamples": [
+            {
+              "atMs": 833821.5999999978,
+              "gameFrame": 63,
+              "position": [
+                0,
+                1.88,
+                100
+              ],
+              "timerDeltaMs": 1004.1999999999534
+            },
+            {
+              "atMs": 834825.5,
+              "gameFrame": 64,
+              "position": [
+                0,
+                1.88,
+                100
+              ],
+              "timerDeltaMs": 1000
+            }
+          ],
+          "actualPositionSampleCount": 2,
+          "longWindowCount": 0,
+          "failedWindows": [],
+          "longWindowSpeed": {
+            "n": 0,
+            "mean": null,
+            "min": null,
+            "max": null,
+            "p50": null,
+            "p95": null
+          },
+          "stopDrift": 0,
+          "stopDriftLimit": null,
+          "stopDriftRule": "After first post-release physics sample: two actual physics steps + 0.02m; no added render-frame tolerance",
+          "frameRate": {
+            "requestedFps": 120,
+            "actualOnUpdateHz": 0.799169,
+            "observedOnUpdateCount": 2,
+            "wallSeconds": 2.5026,
+            "targetStatus": "NOT TESTED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "measurementTeleportCount": 0,
+          "assertions": [
+            {
+              "label": "距离定量误差",
+              "status": "NOT TESTED",
+              "actual": 0,
+              "limit": null
+            },
+            {
+              "label": "长窗速度上界",
+              "status": "NOT TESTED",
+              "actual": null,
+              "limit": "5% + one physics-step sampling error"
+            },
+            {
+              "label": "固定平地与无横向障碍偏移",
+              "status": "NOT TESTED",
+              "actual": {
+                "lateral": 0,
+                "heightDelta": 0
+              }
+            },
+            {
+              "label": "释放后停止与输入清空",
+              "status": "NOT TESTED",
+              "actual": {
+                "stopDrift": 0,
+                "inputsClear": true
+              },
+              "limit": null
+            }
+          ],
+          "status": "INCOMPLETE"
+        }
+      ],
+      "setups": [
+        {
+          "atMs": 779589.3999999985,
+          "label": "Forward",
+          "operation": "test-only: motor.position + player.transform.position",
+          "before": [
+            -1.089801325236997,
+            1.7600085711868338,
+            49.527751115070316
+          ],
+          "requested": [
+            0,
+            1.88,
+            100
+          ],
+          "measurementActive": false,
+          "settled": [
+            0,
+            1.88,
+            100
+          ]
+        },
+        {
+          "atMs": 784086.299999997,
+          "label": "Back",
+          "operation": "test-only: motor.position + player.transform.position",
+          "before": [
+            0,
+            1.88,
+            100
+          ],
+          "requested": [
+            0,
+            1.88,
+            100
+          ],
+          "measurementActive": false,
+          "settled": [
+            0,
+            1.88,
+            100
+          ]
+        },
+        {
+          "atMs": 788095,
+          "label": "Left",
+          "operation": "test-only: motor.position + player.transform.position",
+          "before": [
+            0,
+            1.88,
+            100
+          ],
+          "requested": [
+            0,
+            1.88,
+            100
+          ],
+          "measurementActive": false,
+          "settled": [
+            0,
+            1.88,
+            100
+          ]
+        },
+        {
+          "atMs": 792103.8999999985,
+          "label": "Right",
+          "operation": "test-only: motor.position + player.transform.position",
+          "before": [
+            0,
+            1.88,
+            100
+          ],
+          "requested": [
+            0,
+            1.88,
+            100
+          ],
+          "measurementActive": false,
+          "settled": [
+            0,
+            1.88,
+            100
+          ]
+        },
+        {
+          "atMs": 796096.3999999985,
+          "label": "ForwardLeft",
+          "operation": "test-only: motor.position + player.transform.position",
+          "before": [
+            0,
+            1.88,
+            100
+          ],
+          "requested": [
+            0,
+            1.88,
+            100
+          ],
+          "measurementActive": false,
+          "settled": [
+            0,
+            1.88,
+            100
+          ]
+        },
+        {
+          "atMs": 800112.299999997,
+          "label": "ForwardRight",
+          "operation": "test-only: motor.position + player.transform.position",
+          "before": [
+            0,
+            1.88,
+            100
+          ],
+          "requested": [
+            0,
+            1.88,
+            100
+          ],
+          "measurementActive": false,
+          "settled": [
+            0,
+            1.88,
+            100
+          ]
+        },
+        {
+          "atMs": 804119.799999997,
+          "label": "BackLeft",
+          "operation": "test-only: motor.position + player.transform.position",
+          "before": [
+            0,
+            1.88,
+            100
+          ],
+          "requested": [
+            0,
+            1.88,
+            100
+          ],
+          "measurementActive": false,
+          "settled": [
+            0,
+            1.88,
+            100
+          ]
+        },
+        {
+          "atMs": 808126.1999999993,
+          "label": "BackRight",
+          "operation": "test-only: motor.position + player.transform.position",
+          "before": [
+            0,
+            1.88,
+            100
+          ],
+          "requested": [
+            0,
+            1.88,
+            100
+          ],
+          "measurementActive": false,
+          "settled": [
+            0,
+            1.88,
+            100
+          ]
+        },
+        {
+          "atMs": 812141.5999999978,
+          "label": "Forward",
+          "operation": "test-only: motor.position + player.transform.position",
+          "before": [
+            0,
+            1.88,
+            100
+          ],
+          "requested": [
+            0,
+            1.88,
+            100
+          ],
+          "measurementActive": false,
+          "settled": [
+            0,
+            1.88,
+            100
+          ]
+        },
+        {
+          "atMs": 816155.0999999978,
+          "label": "Back",
+          "operation": "test-only: motor.position + player.transform.position",
+          "before": [
+            0,
+            1.88,
+            100
+          ],
+          "requested": [
+            0,
+            1.88,
+            100
+          ],
+          "measurementActive": false,
+          "settled": [
+            0,
+            1.88,
+            100
+          ]
+        },
+        {
+          "atMs": 820155.799999997,
+          "label": "Left",
+          "operation": "test-only: motor.position + player.transform.position",
+          "before": [
+            0,
+            1.88,
+            100
+          ],
+          "requested": [
+            0,
+            1.88,
+            100
+          ],
+          "measurementActive": false,
+          "settled": [
+            0,
+            1.88,
+            100
+          ]
+        },
+        {
+          "atMs": 824158.1999999993,
+          "label": "Right",
+          "operation": "test-only: motor.position + player.transform.position",
+          "before": [
+            0,
+            1.88,
+            100
+          ],
+          "requested": [
+            0,
+            1.88,
+            100
+          ],
+          "measurementActive": false,
+          "settled": [
+            0,
+            1.88,
+            100
+          ]
+        },
+        {
+          "atMs": 828180.8999999985,
+          "label": "ForwardLeft",
+          "operation": "test-only: motor.position + player.transform.position",
+          "before": [
+            0,
+            1.88,
+            100
+          ],
+          "requested": [
+            0,
+            1.88,
+            100
+          ],
+          "measurementActive": false,
+          "settled": [
+            0,
+            1.88,
+            100
+          ]
+        },
+        {
+          "atMs": 832183.799999997,
+          "label": "ForwardRight",
+          "operation": "test-only: motor.position + player.transform.position",
+          "before": [
+            0,
+            1.88,
+            100
+          ],
+          "requested": [
+            0,
+            1.88,
+            100
+          ],
+          "measurementActive": false,
+          "settled": [
+            0,
+            1.88,
+            100
+          ]
+        },
+        {
+          "atMs": 836200.799999997,
+          "label": "BackLeft",
+          "operation": "test-only: motor.position + player.transform.position",
+          "before": [
+            0,
+            1.88,
+            100
+          ],
+          "requested": [
+            0,
+            1.88,
+            100
+          ],
+          "measurementActive": false,
+          "settled": [
+            0,
+            1.88,
+            100
+          ]
+        }
+      ],
+      "errors": [],
+      "inputSource": "synthetic-input",
+      "testOnlySetup": true,
+      "request": {
+        "targetFps": 120,
+        "view": "TPS",
+        "setupPosition": [
+          0,
+          1.88,
+          100
+        ],
+        "holdMs": 2500,
+        "physicsStepSeconds": 0.016666666666666666,
+        "physicsStepBasis": "actual game.world.physicsSimulation.fixedTimeStep; no physics clock changes",
+        "scene3DPhysicsSettings": {
+          "fixedTimeStep": 0.016666666666666666,
+          "maxSubSteps": 4
+        },
+        "instanceMatchesScene3DSetting": true
+      },
+      "environmentBefore": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "viewport": [
+          1030,
+          898
+        ],
+        "devicePixelRatio": 1.5,
+        "engineVersion": null,
+        "renderFrameInterval": 16.666666666666668,
+        "stageFrameRate": "fast",
+        "canvases": [
+          {
+            "id": "layaCanvas",
+            "width": 860,
+            "height": 750,
+            "clientWidth": 860,
+            "clientHeight": 750
+          },
+          {
+            "id": "",
+            "width": 1024,
+            "height": 512,
+            "clientWidth": 1024,
+            "clientHeight": 512
+          }
+        ]
+      },
+      "rateSetting": {
+        "api": "Laya.Render.frameInterval = 1000/target; Laya.stage.frameRate = fast",
+        "timerMutation": false,
+        "setAtMs": 778586.0999999978
+      },
+      "reason": "检测到人工输入；本轮中止，保留已取得结果。",
+      "interruptedPhase": "Run BackLeft · 120 FPS",
+      "endedAt": "2026-09-21T08:40:43.106Z",
+      "wallElapsedMs": 61253.7,
+      "cleanup": {
+        "releasedPointerIds": true,
+        "restoredOwnedRunToggle": true,
+        "originalMethodsRestored": true,
+        "restoredFrameInterval": 16.666666666666668,
+        "restoredStageFrameRate": "fast"
+      },
+      "totalOriginalOnUpdateCalls": 69,
+      "totalPostPhysicsPositionSamples": 69,
+      "nativeEvents": [],
+      "finalState": {
+        "ready": true,
+        "firstPerson": false,
+        "grounded": true,
+        "position": [
+          0,
+          1.88,
+          100
+        ],
+        "yaw": -0.021592653589793065,
+        "speed": 0,
+        "fps": 1,
+        "keys": [],
+        "triggerHeld": false,
+        "touch": {
+          "enabled": true,
+          "move": [
+            0,
+            0
+          ],
+          "running": false,
+          "shooting": false,
+          "shootPointers": 0,
+          "pointers": 0,
+          "moving": false,
+          "looking": false
+        },
+        "avatar": {
+          "motion": "Idle",
+          "base": "Idle",
+          "upper": "UpperIdle",
+          "shots": 306,
+          "shooting": false,
+          "triggerHeld": false
+        }
+      }
+    }
+  ],
+  "archivedSummaries": [],
+  "discardedSummaryCount": 0,
+  "errors": [],
+  "live": {
+    "ready": true,
+    "firstPerson": false,
+    "grounded": true,
+    "position": [
+      0,
+      1.660000011920929,
+      100
+    ],
+    "yaw": -0.021592653589793065,
+    "speed": 0,
+    "fps": 1,
+    "keys": [],
+    "triggerHeld": false,
+    "touch": {
+      "enabled": true,
+      "move": [
+        0,
+        0
+      ],
+      "running": false,
+      "shooting": false,
+      "shootPointers": 0,
+      "pointers": 0,
+      "moving": false,
+      "looking": false
+    },
+    "avatar": {
+      "motion": "Idle",
+      "base": "Idle",
+      "upper": "UpperIdle",
+      "shots": 306,
+      "shooting": false,
+      "triggerHeld": false
+    }
+  },
+  "realBackgroundVerification": {
+    "status": "NOT TESTED"
+  },
+  "nativeEnginePauseVerification": {
+    "status": "NOT TESTED",
+    "doesNotVerifyNativeVisibility": true
+  },
+  "boundaries": [
+    "synthetic-input through existing touch controls",
+    "test-only setup position changes are logged; no measurement-stage teleport",
+    "Render.frameInterval changes only the real loop gate; no fake timer/delta/clock",
+    "GPU time, physical touch hardware and native Escape are not verified"
+  ],
+  "updatedAt": "2026-09-21T08:40:47.750Z"
+}

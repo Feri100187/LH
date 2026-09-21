@@ -41,7 +41,9 @@ IDE 路径也可通过各命令的 `--ide` 参数或不入库的 `project.local.
 
 ## 验证与操作
 
-- [本轮验收结果](docs/baseline/acceptance.md)
+- [M0.1 跨帧率修复验收](docs/m0.1/acceptance.md)、[数值前后对比](docs/m0.1/numeric-results.md)
+- [修复说明与复测入口](docs/m0.1/implementation.md)、[3.4.1 物理子步语义](docs/m0.1/physics-semantics.md)
+- [M0 稳定基线历史验收](docs/baseline/acceptance.md)
 - [测试分类与依赖](docs/baseline/testing.md)、[构建入口](docs/baseline/build.md)、[实际运行测试](docs/baseline/runtime-testing.md)
 - [当前功能与资源说明](README_凌水湖游戏.md)、[第三方素材许可](ASSET_CREDITS.md)
 

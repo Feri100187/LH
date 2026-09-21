@@ -9,6 +9,7 @@ const suites = [
     ["player-avatar", "test-player-avatar.cjs"],
     ["player-input", "test-player-input.cjs"],
     ["player-directional", "test-player-directional.cjs"],
+    ["frame-stability", "test-frame-stability.cjs"],
     ["lake-ducks", "test-lake-ducks.cjs"],
     ["asset-entry-contract", "testing/asset-entry-contract.cjs"]
 ];

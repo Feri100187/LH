@@ -6,6 +6,42 @@ import { FirstPersonArms } from "./FirstPersonArms";
 import "./LakeDuck";
 const { regClass, property } = Laya;
 
+export const MAX_INPUT_GAP_SECONDS = 0.25;
+
+/** 3.4.1 Bullet move() consumes this displacement on EACH fixed substep. */
+export function characterPhysicsStep(world: Laya.Scene3D) {
+    const settings = (Laya.Scene3D as any).physicsSettings;
+    const manager = world.physicsSimulation as any;
+    const h = manager?.fixedTimeStep;
+    if (!Number.isFinite(h) || h <= 0 || !settings || Math.abs(h - settings.fixedTimeStep) > 1e-10
+        || manager.maxSubSteps !== settings.maxSubSteps || !Number.isInteger(manager.maxSubSteps) || manager.maxSubSteps < 1)
+        throw new Error("角色物理步配置不一致；请使用已验证的 LayaAir 3.4.1 Bullet 配置。");
+    return h;
+}
+
+/** Pinned 3.4.1 adapter; called by the 2D root BEFORE Scene3D adds its timer delta.
+ * There is no public Scene3D accumulator-reset API in this engine version.
+ * Normal frames retain a fractional step, but never an unbounded catch-up debt.
+ */
+export function boundCharacterPhysicsTime(world: Laya.Scene3D, discardFrame: boolean) {
+    const scene = world as any;
+    const h = characterPhysicsStep(world), delta = scene.timer.delta / 1000;
+    const debt = scene._physicsStepTime;
+    if (!Number.isFinite(delta) || delta < 0 || !Number.isFinite(debt))
+        throw new Error("无法识别 LayaAir 3.4.1 场景物理时钟；拒绝继续移动。");
+    const total = debt + delta;
+    if (discardFrame) {
+        scene._physicsStepTime = -delta; // Scene3D subsequently adds delta, leaving exactly zero steps.
+        return Math.max(0, total);
+    }
+    const budget = (world.physicsSimulation as any).maxSubSteps * h;
+    if (total > budget + h) {
+        scene._physicsStepTime = budget - delta;
+        return total - budget;
+    }
+    return 0;
+}
+
 /** 凌水湖场景入口。单位为米，Y 轴向上。 */
 @regClass()
 export class LingshuiGame extends Laya.Script {
@@ -40,7 +76,15 @@ export class LingshuiGame extends Laya.Script {
     private speedSamples: { distance: number; seconds: number }[] = [];
     private speedDistance = 0;
     private speedTime = 0;
-    private statusElapsed = 0;
+    private monotonicNow = () => performance.now();
+    private lastUpdateAtMs: number = null;
+    private frameCount = 0;
+    private discardPhysicsFrame = true;
+    private physicsStepSeconds = 0;
+    private physicsDroppedSeconds = 0;
+    private lastResetAtMs = 0;
+    private lastResetReason = "startup";
+    private publishedAtMs = 0;
     private canvas: HTMLCanvasElement;
     private hud: HTMLDivElement;
     private prompt: HTMLDivElement;
@@ -131,6 +175,7 @@ export class LingshuiGame extends Laya.Script {
         this.motor.jumpSpeed = this.jumpSpeed;
         this.motor.collisionGroup = 2;
         this.motor.canCollideWith = 1;
+        this.physicsStepSeconds = characterPhysicsStep(this.world);
         this.cameraSphere = new Laya.SphereColliderShape(0.18);
         const capsuleMaterial = new Laya.BlinnPhongMaterial();
         capsuleMaterial.albedoColor = new Laya.Color(0.12, 0.45, 0.55, 1);
@@ -157,7 +202,9 @@ export class LingshuiGame extends Laya.Script {
             jump: () => { this.jumpQueued = true; },
             shoot: () => { this.shootQueued = true; },
             perspective: () => { this.setPerspective(!this.thirdPerson); },
-            modeChanged: this.updateInputPresentation
+            modeChanged: this.updateInputPresentation,
+            shootChanged: this.syncShootHeld,
+            cancelled: this.cancelQueuedActions
         });
         this.updateInputPresentation();
         this.setPerspective(false);
@@ -181,7 +228,7 @@ export class LingshuiGame extends Laya.Script {
         document.addEventListener("mousemove", this.handleMouseMove);
         document.addEventListener("keydown", this.handleKeyDown);
         document.addEventListener("keyup", this.handleKeyUp);
-        window.addEventListener("blur", this.releaseInput);
+        window.addEventListener("blur", this.onBlur);
         document.addEventListener("visibilitychange", this.onVisibility);
         this.canvas.addEventListener("contextmenu", this.preventMenu);
     }
@@ -218,6 +265,8 @@ export class LingshuiGame extends Laya.Script {
             (event.type === "pointercancel" || event.button === 0 || !(event.buttons & 1))) {
             this.mouseHeld = false;
             this.mousePointer = null;
+            if (event.type === "pointercancel") this.cancelQueuedActions();
+            this.syncShootHeld();
         }
         if (document.pointerLockElement === this.canvas && event.target === this.canvas) {
             // Locked input has no pointer capture. Skip Laya's unconditional pointerup release too.
@@ -230,6 +279,7 @@ export class LingshuiGame extends Laya.Script {
         if (event.button === 0) {
             this.mouseHeld = false;
             this.mousePointer = null;
+            this.syncShootHeld();
         }
     };
     private onLockChange = () => {
@@ -263,12 +313,14 @@ export class LingshuiGame extends Laya.Script {
         this.pitch = Math.max(-1.40, Math.min(1.40, this.pitch - dy * scale));
     };
     private handleKeyDown = (event: KeyboardEvent) => {
-        if (!this.locked || document.pointerLockElement !== this.canvas || !document.hasFocus() || document.hidden) return;
         if (event.code === "Escape") {
-            this.releaseInput();
-            document.exitPointerLock();
+            this.releaseInput("escape");
+            if (document.pointerLockElement === this.canvas) document.exitPointerLock();
             return;
         }
+        if (!this.locked || document.pointerLockElement !== this.canvas || !document.hasFocus() || document.hidden) return;
+        // A key held through blur/resume must not re-arm movement from OS auto-repeat.
+        if (event.repeat && !this.keys.has(event.code)) return;
         if (["KeyW", "KeyA", "KeyS", "KeyD", "Space", "ShiftLeft", "ShiftRight", "KeyV", "KeyF"].indexOf(event.code) >= 0) event.preventDefault();
         this.keys.add(event.code);
         if (event.repeat) return;
@@ -276,8 +328,8 @@ export class LingshuiGame extends Laya.Script {
         if (event.code === "Space") this.jumpQueued = true;
         if (event.code === "KeyF") this.shootQueued = true;
     };
-    private handleKeyUp = (event: KeyboardEvent) => { this.keys.delete(event.code); };
-    private releaseInput = () => {
+    private handleKeyUp = (event: KeyboardEvent) => { this.keys.delete(event.code); this.syncShootHeld(); };
+    private releaseInput = (reason = "release") => {
         this.keys.clear();
         this.jumpQueued = false;
         this.shootQueued = false;
@@ -288,9 +340,33 @@ export class LingshuiGame extends Laya.Script {
         this.avatar?.cancelTransientActions();
         this.mobileInput?.reset();
         if (this.motor) this.motor.move(new Laya.Vector3());
+        this.discardPhysicsFrame = true;
+        this.lastResetAtMs = this.monotonicNow();
+        this.lastResetReason = reason;
+        this.publishStatus(this.lastResetAtMs);
     };
-    private onVisibility = () => { if (document.hidden) this.releaseInput(); };
+    private onBlur = () => this.releaseInput("blur");
+    private onVisibility = () => this.releaseInput(document.hidden ? "hidden" : "visible-resume");
     private preventMenu = (event: Event) => { event.preventDefault(); };
+
+    private currentShootHeld() {
+        const focused = document.hasFocus() && !document.hidden;
+        const desktop = this.locked && document.pointerLockElement === this.canvas;
+        return focused && ((desktop && (this.mouseHeld || this.keys.has("KeyF"))) || !!this.mobileInput?.shooting);
+    }
+
+    private syncShootHeld = () => {
+        this.avatar?.setTriggerHeld(this.currentShootHeld());
+        this.publishStatus(this.monotonicNow());
+    };
+
+    private cancelQueuedActions = () => {
+        this.jumpQueued = this.shootQueued = false;
+        this.avatar?.clearShootRequest();
+        // Cancelling one pointer must not restart the cadence of another held trigger.
+        if (!this.currentShootHeld()) this.avatar?.cancelTransientActions();
+        this.publishStatus(this.monotonicNow());
+    };
 
     private updateShootInput() {
         const focused = document.hasFocus() && !document.hidden;
@@ -374,8 +450,18 @@ export class LingshuiGame extends Laya.Script {
 
     onUpdate() {
         if (!this.ready) return;
+        const nowMs = this.monotonicNow();
         const sampleSeconds = Math.max(0, Laya.timer.delta / 1000);
-        const dt = Math.min(sampleSeconds, 0.05);
+        const wallSeconds = this.lastUpdateAtMs === null ? sampleSeconds : Math.max(0, (nowMs - this.lastUpdateAtMs) / 1000);
+        this.lastUpdateAtMs = nowMs;
+        this.frameCount++;
+        const interrupted = !document.hasFocus() || document.hidden || wallSeconds > MAX_INPUT_GAP_SECONDS
+            || sampleSeconds > MAX_INPUT_GAP_SECONDS;
+        if (interrupted) this.releaseInput(document.hidden ? "hidden" : !document.hasFocus() ? "unfocused" : "long-frame");
+        const discard = this.discardPhysicsFrame;
+        this.physicsDroppedSeconds += boundCharacterPhysicsTime(this.world, discard);
+        this.discardPhysicsFrame = false;
+        const dt = interrupted || discard ? 0 : wallSeconds;
         const currentPosition = this.player.transform.position;
         const measuredDistance = Math.hypot(currentPosition.x - this.previousPlayerPosition.x,
             currentPosition.z - this.previousPlayerPosition.z);
@@ -386,14 +472,14 @@ export class LingshuiGame extends Laya.Script {
         for (const mat of this.waterMaterials) mat.shaderData.setMatrix3x3(Laya.Shader3D.propertyNameToID('u_NormalMapTransform'), this.rippleTransform);
         this.elapsed += dt;
         this.sampleFrames++;
-        this.sampleTime += Laya.timer.delta / 1000;
+        this.sampleTime += wallSeconds;
         if (this.sampleTime >= 1) { this.fps = this.sampleFrames / this.sampleTime; this.sampleFrames = 0; this.sampleTime = 0; }
         let x = 0, z = 0;
-        if (this.locked && document.hasFocus()) {
+        if (!interrupted && !discard && this.locked && document.hasFocus()) {
             x = (this.keys.has("KeyD") ? 1 : 0) - (this.keys.has("KeyA") ? 1 : 0);
             z = (this.keys.has("KeyW") ? 1 : 0) - (this.keys.has("KeyS") ? 1 : 0);
         }
-        if (this.mobileInput?.enabled && !document.hidden) {
+        if (!interrupted && !discard && this.mobileInput?.enabled && document.hasFocus() && !document.hidden) {
             x += this.mobileInput.moveX;
             z += this.mobileInput.moveZ;
         }
@@ -402,7 +488,7 @@ export class LingshuiGame extends Laya.Script {
         const running = (this.locked && (this.keys.has("ShiftLeft") || this.keys.has("ShiftRight"))) || this.mobileInput?.running;
         const speed = (running ? this.runSpeed : this.walkSpeed) * this.avatar.getMovementSpeedScale(x, z, !!running);
         // Normalize diagonal input without flattening the joystick's low-speed range.
-        const amount = magnitude > 0 ? speed * dt / Math.max(1, magnitude) : 0;
+        const amount = magnitude > 0 ? speed * this.physicsStepSeconds / Math.max(1, magnitude) : 0;
         this.move.setValue((Math.cos(this.yaw) * x + Math.sin(this.yaw) * z) * amount, 0,
             (Math.sin(this.yaw) * x - Math.cos(this.yaw) * z) * amount);
         this.motor.move(this.move);
@@ -412,7 +498,7 @@ export class LingshuiGame extends Laya.Script {
         this.jumpQueued = false;
         this.updateShootInput();
         this.avatar.step(dt, { speed: this.actualSpeed, running: !!running, moving: magnitude > .05,
-            grounded, jumped, yaw: this.yaw, pitch: this.pitch, moveX: this.move.x, moveZ: this.move.z });
+            grounded, jumped, yaw: this.yaw, pitch: this.pitch, moveX: this.move.x, moveZ: this.move.z, nowMs });
         this.firstPersonArms.update(dt, this.actualSpeed, !!running, this.avatar.isShooting, this.avatar.shotPhase);
         const p = this.player.transform.position;
         if (this.motor.isOnGround() && p.y > 1.22 && Math.abs(p.x) < 208 && Math.abs(p.z) < 188 && this.elapsed > 0.4) {
@@ -428,12 +514,14 @@ export class LingshuiGame extends Laya.Script {
         if (!this.ready) return;
         const dt = Math.min(Laya.timer.delta / 1000, .05);
         this.updateCamera(dt);
-        this.statusElapsed += dt;
-        if (this.statusElapsed > .1 && this.hud) {
-            this.statusElapsed = 0;
-            // Read-only DOM diagnostic for integration/interaction regression checks.
-            this.hud.dataset.playerStatus = JSON.stringify(this.getStatus());
-        }
+        const nowMs = this.monotonicNow();
+        if (nowMs - this.publishedAtMs >= 100) this.publishStatus(nowMs);
+    }
+
+    private publishStatus(nowMs: number) {
+        if (!this.hud) return;
+        this.publishedAtMs = nowMs;
+        this.hud.dataset.playerStatus = JSON.stringify(this.getStatus());
     }
 
     private updateCamera(dt: number) {
@@ -482,6 +570,9 @@ export class LingshuiGame extends Laya.Script {
         const p = this.player?.transform.position;
         const c = this.camera?.transform.position;
         return { ready: this.ready, firstPerson: !this.thirdPerson, locked: this.locked,
+            observedAtMs: this.monotonicNow(), updateAtMs: this.lastUpdateAtMs, updateFrame: this.frameCount,
+            publishedAtMs: this.publishedAtMs, inputResetAtMs: this.lastResetAtMs, inputResetReason: this.lastResetReason,
+            physicsStepSeconds: this.physicsStepSeconds, physicsDroppedSeconds: this.physicsDroppedSeconds,
             position: p ? [p.x, p.y, p.z] : null, camera: c ? [c.x, c.y, c.z] : null,
             yaw: this.yaw, pitch: this.pitch, grounded: this.motor?.isOnGround(),
             cameraDistance: this.cameraLength, fps: Math.round(this.fps), keys: Array.from(this.keys),
@@ -507,7 +598,7 @@ export class LingshuiGame extends Laya.Script {
         document.removeEventListener("mousemove", this.handleMouseMove);
         document.removeEventListener("keydown", this.handleKeyDown);
         document.removeEventListener("keyup", this.handleKeyUp);
-        window.removeEventListener("blur", this.releaseInput);
+        window.removeEventListener("blur", this.onBlur);
         document.removeEventListener("visibilitychange", this.onVisibility);
         this.mobileInput?.destroy();
         this.hud?.remove();

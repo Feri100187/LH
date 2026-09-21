@@ -1,0 +1,360 @@
+{
+  "scope": "Production input, PlayerAvatar firing/motion decisions, actual-position speed sampling and installed Laya pointer callbacks; DOM/physics-position fixtures, no live UI",
+  "source_sha256": {
+    "MobileInput.ts": "31d9cff60a78da29147dc00487cc42a41bf250814205268ef553a2e9b0bea7e1",
+    "LingshuiGame.ts": "6fa6ecc5af4d8d5968e7f20f5717b2ab88c554e4647a5952930453869659bf87",
+    "PlayerAvatar.ts": "47155e764b15ad593d338a7a62b091a2673f95a25497176f1165900d1673f24d",
+    "FirstPersonArms.ts": "436aa720b7b0b907e46009e37dc1a01871598ab83d40345da14fab6c60340156",
+    "PlayerCameraFollow.ts": "e8595c20aa7691049b035bf12356fc43f39d811d7a182317ecaf1b00ad76e76c",
+    "LakeDuck.ts": "dbc540931c8848ea80258c9bc7a57d2f812b1fdbc079aabb230e2411e7e2ffaa"
+  },
+  "engine_source": "D:\\a\\LayaAirIDE\\resources\\engine\\libs\\laya.core.js",
+  "engine_capture_line": 25606,
+  "engine_callbacks_used": true,
+  "pulse_duration_fixture_s": 0.2,
+  "suite": "player-input",
+  "run_id": "f3b54e6c-5478-45ca-8b0c-6ebb77e108dd",
+  "checked_utc": "2026-09-21T07:14:04.169Z",
+  "project_root": "D:\\a\\xiang_mu\\LH",
+  "node_version": "v24.16.0",
+  "typescript_version": "5.9.3",
+  "ide": {
+    "root": "D:\\a\\LayaAirIDE",
+    "version": "3.4.1"
+  },
+  "engine_sources": [
+    {
+      "available": true,
+      "filename": "laya.core.js",
+      "path": "D:\\a\\LayaAirIDE\\resources\\engine\\libs\\laya.core.js",
+      "sha256": "fdb94d646341eb297e94b93589464b06579bf3ef580a9126cf6eca7c61b7dffc"
+    }
+  ],
+  "status": "PASS",
+  "total": 28,
+  "passed": 28,
+  "failed": 0,
+  "not_tested": 0,
+  "categories": {
+    "engine_contract": {
+      "total": 7,
+      "passed": 7,
+      "failed": 0,
+      "not_tested": 0
+    },
+    "logic": {
+      "total": 21,
+      "passed": 21,
+      "failed": 0,
+      "not_tested": 0
+    }
+  },
+  "tests": [
+    {
+      "name": "native_engine_capture_conflict_reproduced",
+      "kind": "engine_contract",
+      "status": "PASS",
+      "details": {
+        "source": "D:\\a\\LayaAirIDE\\resources\\engine\\libs\\laya.core.js",
+        "native_callback": "InputManager.__init__: pointerdown",
+        "exception": "InvalidStateError"
+      }
+    },
+    {
+      "name": "first_lock_click_does_not_fire",
+      "kind": "engine_contract",
+      "status": "PASS",
+      "details": {
+        "shots": 0,
+        "legal_initial_capture": 1,
+        "locked_release_calls": 0
+      }
+    },
+    {
+      "name": "locked_mouse_hold_repeats_and_stops_without_engine_capture",
+      "kind": "engine_contract",
+      "status": "PASS",
+      "details": {
+        "shots_during_hold": 3,
+        "capture_calls": 0,
+        "release_calls": 0
+      }
+    },
+    {
+      "name": "mouse_tap_between_frames_fires_once",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "shots": 1
+      }
+    },
+    {
+      "name": "locked_right_button_never_captures_or_fires",
+      "kind": "engine_contract",
+      "status": "PASS"
+    },
+    {
+      "name": "F_hold_repeats_without_key_repeat_double_shots",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "shots_during_hold": 3,
+        "repeat_events": 10
+      }
+    },
+    {
+      "name": "F_tap_between_frames_fires_once",
+      "kind": "logic",
+      "status": "PASS"
+    },
+    {
+      "name": "mouse_and_F_hold_release_independently",
+      "kind": "logic",
+      "status": "PASS"
+    },
+    {
+      "name": "left_mouseup_in_button_chord_releases_hold",
+      "kind": "logic",
+      "status": "PASS"
+    },
+    {
+      "name": "mouse_pointercancel_releases_hold",
+      "kind": "engine_contract",
+      "status": "PASS"
+    },
+    {
+      "name": "blur_clears_queued_click_and_all_desktop_hold",
+      "kind": "logic",
+      "status": "PASS"
+    },
+    {
+      "name": "Escape_clears_queued_click_and_hold",
+      "kind": "logic",
+      "status": "PASS"
+    },
+    {
+      "name": "hidden_document_cancels_and_does_not_resume_fire",
+      "kind": "logic",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile_four_fingers_release_shoot_independently",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "shots_during_hold": 3,
+        "joystick_and_look_survived_shoot_release": true
+      }
+    },
+    {
+      "name": "canceling_move_pointer_preserves_independent_shoot_deadline",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "firstShotAtMs": 16.666666666666668,
+        "originalDeadlineMs": 216.66666666666666,
+        "afterCancel": {
+          "deadline": 216.66666666666666,
+          "firing": true,
+          "jumpQueued": false,
+          "shootQueued": false,
+          "avatarRequest": false,
+          "remainingInput": true
+        },
+        "nextFrameEvents": [
+          {
+            "id": 1,
+            "atMs": 16.666666666666668
+          }
+        ],
+        "beforeDeadlineEvents": [
+          {
+            "id": 1,
+            "atMs": 16.666666666666668
+          }
+        ],
+        "atDeadlineEvents": [
+          {
+            "id": 1,
+            "atMs": 16.666666666666668
+          },
+          {
+            "id": 2,
+            "atMs": 216.66666666666663
+          }
+        ]
+      }
+    },
+    {
+      "name": "canceling_one_of_two_shoot_pointers_preserves_original_deadline",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "firstShotAtMs": 16.666666666666668,
+        "originalDeadlineMs": 216.66666666666666,
+        "afterCancel": {
+          "deadline": 216.66666666666666,
+          "firing": true,
+          "jumpQueued": false,
+          "shootQueued": false,
+          "avatarRequest": false,
+          "remainingInput": true
+        },
+        "nextFrameEvents": [
+          {
+            "id": 1,
+            "atMs": 16.666666666666668
+          }
+        ],
+        "beforeDeadlineEvents": [
+          {
+            "id": 1,
+            "atMs": 16.666666666666668
+          }
+        ],
+        "atDeadlineEvents": [
+          {
+            "id": 1,
+            "atMs": 16.666666666666668
+          },
+          {
+            "id": 2,
+            "atMs": 216.66666666666663
+          }
+        ]
+      }
+    },
+    {
+      "name": "mouse_cancel_while_F_is_held_preserves_original_deadline",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "firstShotAtMs": 16.666666666666668,
+        "originalDeadlineMs": 216.66666666666666,
+        "afterCancel": {
+          "deadline": 216.66666666666666,
+          "firing": true,
+          "jumpQueued": false,
+          "shootQueued": false,
+          "avatarRequest": false,
+          "remainingInput": true
+        },
+        "nextFrameEvents": [
+          {
+            "id": 1,
+            "atMs": 16.666666666666668
+          }
+        ],
+        "beforeDeadlineEvents": [
+          {
+            "id": 1,
+            "atMs": 16.666666666666668
+          }
+        ],
+        "atDeadlineEvents": [
+          {
+            "id": 1,
+            "atMs": 16.666666666666668
+          },
+          {
+            "id": 2,
+            "atMs": 216.66666666666663
+          }
+        ]
+      }
+    },
+    {
+      "name": "mobile_reset_clears_shoot_pointer_set",
+      "kind": "logic",
+      "status": "PASS"
+    },
+    {
+      "name": "touch_switch_during_pointer_lock_skips_both_engine_capture_paths",
+      "kind": "engine_contract",
+      "status": "PASS"
+    },
+    {
+      "name": "respawn_clears_all_held_inputs",
+      "kind": "logic",
+      "status": "PASS"
+    },
+    {
+      "name": "destroy_removes_input_guards_and_listeners",
+      "kind": "engine_contract",
+      "status": "PASS"
+    },
+    {
+      "name": "actual_speed_zero_double_cadence_60hz_stays_run_right",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "render_hz": 60,
+        "raw_speed_samples": [
+          0,
+          8
+        ],
+        "steady_min_speed": 4,
+        "steady_max_speed": 4.000000000000001,
+        "idle_frames_after_motion_started": 0
+      }
+    },
+    {
+      "name": "actual_speed_zero_double_cadence_120hz_stays_run_right",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "render_hz": 120,
+        "raw_speed_samples": [
+          0,
+          8
+        ],
+        "steady_min_speed": 3.9999999999999996,
+        "steady_max_speed": 4.000000000000001,
+        "idle_frames_after_motion_started": 0
+      }
+    },
+    {
+      "name": "actual_speed_uses_measured_travel_not_target_speed",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "requested_run_speed": 4,
+        "measured_speed": 1.2000000000000015
+      }
+    },
+    {
+      "name": "wall_contact_clears_measured_speed_within_120ms",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "stopped_after_s": 0.1,
+        "movement_still_held": true,
+        "final_speed": 0
+      }
+    },
+    {
+      "name": "releasing_movement_clears_speed_on_next_frame",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "cleared_within_s": 0.008333333333333333,
+        "final_speed": 0
+      }
+    },
+    {
+      "name": "blur_and_respawn_clear_speed_history_immediately",
+      "kind": "logic",
+      "status": "PASS"
+    },
+    {
+      "name": "speed_uses_elapsed_time_before_control_dt_clamp",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "distance_m": 0.4,
+        "sample_seconds": 0.2,
+        "measured_speed": 2
+      }
+    }
+  ]
+}

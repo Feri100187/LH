@@ -1,0 +1,122 @@
+[
+  {
+    "base": "WalkForwardRight",
+    "time": 1164622.3,
+    "upper": ""
+  },
+  {
+    "base": "Idle",
+    "time": 1167117.7,
+    "upper": ""
+  },
+  {
+    "base": "WalkBackLeft",
+    "time": 1168334.5,
+    "upper": ""
+  },
+  {
+    "base": "Idle",
+    "time": 1170813.6,
+    "upper": ""
+  },
+  {
+    "base": "WalkBackRight",
+    "time": 1171997.2,
+    "upper": ""
+  },
+  {
+    "base": "Idle",
+    "time": 1174505.7,
+    "upper": ""
+  },
+  {
+    "base": "Run",
+    "time": 1175718,
+    "upper": ""
+  },
+  {
+    "base": "Idle",
+    "time": 1178193.2,
+    "upper": ""
+  },
+  {
+    "base": "RunBack",
+    "time": 1179388.7,
+    "upper": ""
+  },
+  {
+    "base": "Idle",
+    "time": 1181884.7,
+    "upper": ""
+  },
+  {
+    "base": "RunLeft",
+    "time": 1183093,
+    "upper": ""
+  },
+  {
+    "base": "Idle",
+    "time": 1185584.9,
+    "upper": ""
+  },
+  {
+    "base": "RunRight",
+    "time": 1186801.2,
+    "upper": ""
+  },
+  {
+    "base": "Idle",
+    "time": 1189276.1,
+    "upper": ""
+  },
+  {
+    "base": "RunForwardLeft",
+    "time": 1190472.4,
+    "upper": ""
+  },
+  {
+    "base": "Idle",
+    "time": 1192968,
+    "upper": ""
+  },
+  {
+    "base": "RunForwardRight",
+    "time": 1194176.5,
+    "upper": ""
+  },
+  {
+    "base": "Idle",
+    "time": 1196676.3,
+    "upper": ""
+  },
+  {
+    "base": "RunBackLeft",
+    "time": 1197880.6,
+    "upper": ""
+  },
+  {
+    "base": "Idle",
+    "time": 1200363.8,
+    "upper": ""
+  },
+  {
+    "base": "RunBackRight",
+    "time": 1201547.5,
+    "upper": ""
+  },
+  {
+    "base": "Idle",
+    "time": 1204056,
+    "upper": ""
+  },
+  {
+    "base": "Idle",
+    "time": 1205118,
+    "upper": "Shoot"
+  },
+  {
+    "base": "Idle",
+    "time": 1207209.6,
+    "upper": ""
+  }
+]

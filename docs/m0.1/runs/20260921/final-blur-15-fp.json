@@ -1,0 +1,1034 @@
+{
+  "schemaVersion": 1,
+  "numericProtocol": "m01-postphysics-v1",
+  "backgroundProtocol": "m01-native-interruption-v2",
+  "tool": "LH M0.1 localhost acceptance",
+  "createdAt": "2026-09-21T07:39:52.496Z",
+  "url": "http://127.0.0.1:18771/?controls=touch&m01=foreground",
+  "status": "PASS",
+  "active": null,
+  "history": [
+    {
+      "runId": "m01-1789976424795-1",
+      "startedAt": "2026-09-21T07:40:24.795Z",
+      "status": "INCOMPLETE",
+      "type": "stall",
+      "cases": [
+        {
+          "type": "stall",
+          "label": "stall 边界（显式测试）",
+          "trigger": {
+            "type": "test-only busy-wait",
+            "requestedMs": 400,
+            "noInputReleaseByProbe": true
+          },
+          "gapMs": 400,
+          "inputSource": "synthetic-input: held touch UI",
+          "before": {
+            "ready": true,
+            "firstPerson": true,
+            "grounded": true,
+            "position": [
+              0.31142089500995657,
+              1.660000011920929,
+              99.06025693609843
+            ],
+            "yaw": 0.32,
+            "speed": 1.6881188118810755,
+            "fps": 15,
+            "keys": [],
+            "triggerHeld": true,
+            "touch": {
+              "enabled": true,
+              "move": [
+                0,
+                1
+              ],
+              "running": false,
+              "shooting": true,
+              "shootPointers": 1,
+              "pointers": 2,
+              "moving": true,
+              "looking": false
+            },
+            "avatar": {
+              "motion": "Walk",
+              "base": "Walk",
+              "upper": "Shoot",
+              "shots": 3,
+              "shooting": true,
+              "triggerHeld": true
+            }
+          },
+          "after": {
+            "ready": true,
+            "firstPerson": true,
+            "grounded": true,
+            "position": [
+              0.31142089500995657,
+              1.660000011920929,
+              99.06025693609843
+            ],
+            "yaw": 0.32,
+            "speed": 0,
+            "fps": 11,
+            "keys": [],
+            "triggerHeld": false,
+            "touch": {
+              "enabled": true,
+              "move": [
+                0,
+                0
+              ],
+              "running": false,
+              "shooting": false,
+              "shootPointers": 0,
+              "pointers": 0,
+              "moving": false,
+              "looking": false
+            },
+            "avatar": {
+              "motion": "Idle",
+              "base": "Walk",
+              "upper": "UpperIdle",
+              "shots": 3,
+              "shooting": false,
+              "triggerHeld": false
+            }
+          },
+          "firstResumedFrame": {
+            "atMs": 35437.39999999851,
+            "gameFrame": 37,
+            "phase": "after original cameraFollow.follow / onAfterSceneUpdate",
+            "timerDeltaMs": 66.79999999999563,
+            "position": [
+              0.31142089500995657,
+              1.660000011920929,
+              99.06025693609843
+            ],
+            "speed": 0,
+            "grounded": true,
+            "firstPerson": true,
+            "motion": "Idle",
+            "base": "Walk",
+            "shots": 3,
+            "inputClear": true,
+            "target": {
+              "right": 0,
+              "forward": 0,
+              "running": false,
+              "scale": 1,
+              "speed": 1.65
+            }
+          },
+          "drift": 0,
+          "driftLimit": 0.075,
+          "addedShots": 0,
+          "recoveryBaselineAtMs": 35035.699999999255,
+          "resumedAtMs": 35435.699999999255,
+          "recoveryObservedMs": 550.8,
+          "backgroundTimeline": null,
+          "nativeEvents": [],
+          "noProbeReleaseBeforeMeasurement": true,
+          "frameRate": {
+            "requestedFps": 15,
+            "actualOnUpdateHz": 18.15541,
+            "observedOnUpdateCount": 10,
+            "wallSeconds": 0.5508,
+            "targetStatus": "NOT TESTED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "measurementTeleportCount": 0,
+          "assertions": [
+            {
+              "label": "游戏自身清空输入",
+              "status": "PASS",
+              "actual": {
+                "ready": true,
+                "firstPerson": true,
+                "grounded": true,
+                "position": [
+                  0.31142089500995657,
+                  1.660000011920929,
+                  99.06025693609843
+                ],
+                "yaw": 0.32,
+                "speed": 0,
+                "fps": 11,
+                "keys": [],
+                "triggerHeld": false,
+                "touch": {
+                  "enabled": true,
+                  "move": [
+                    0,
+                    0
+                  ],
+                  "running": false,
+                  "shooting": false,
+                  "shootPointers": 0,
+                  "pointers": 0,
+                  "moving": false,
+                  "looking": false
+                },
+                "avatar": {
+                  "motion": "Idle",
+                  "base": "Walk",
+                  "upper": "UpperIdle",
+                  "shots": 3,
+                  "shooting": false,
+                  "triggerHeld": false
+                }
+              }
+            },
+            {
+              "label": "恢复无大跳",
+              "status": "PASS",
+              "actual": {
+                "firstJump": 0,
+                "drift": 0
+              },
+              "limit": 0.075
+            },
+            {
+              "label": "恢复不补发",
+              "status": "PASS",
+              "actual": {
+                "added": 0,
+                "batchCounts": []
+              },
+              "limit": 0
+            }
+          ],
+          "status": "INCOMPLETE"
+        }
+      ],
+      "setups": [
+        {
+          "atMs": 33619.5,
+          "label": "stall",
+          "operation": "test-only: motor.position + player.transform.position",
+          "before": [
+            -26,
+            1.7599999761581422,
+            37.2
+          ],
+          "requested": [
+            0,
+            1.88,
+            100
+          ],
+          "measurementActive": false,
+          "settled": [
+            0,
+            1.660000011920929,
+            100
+          ]
+        }
+      ],
+      "errors": [],
+      "inputSource": "synthetic-input",
+      "testOnlySetup": true,
+      "request": {
+        "targetFps": 15,
+        "view": "FP",
+        "setupPosition": [
+          0,
+          1.88,
+          100
+        ],
+        "holdMs": 2500,
+        "physicsStepSeconds": 0.016666666666666666,
+        "physicsStepBasis": "actual game.world.physicsSimulation.fixedTimeStep; no physics clock changes",
+        "scene3DPhysicsSettings": {
+          "fixedTimeStep": 0.016666666666666666,
+          "maxSubSteps": 4
+        },
+        "instanceMatchesScene3DSetting": true
+      },
+      "environmentBefore": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "viewport": [
+          1036,
+          849
+        ],
+        "devicePixelRatio": 1.5,
+        "engineVersion": null,
+        "renderFrameInterval": 16.666666666666668,
+        "stageFrameRate": "fast",
+        "canvases": [
+          {
+            "id": "layaCanvas",
+            "width": 915,
+            "height": 750,
+            "clientWidth": 915,
+            "clientHeight": 750
+          },
+          {
+            "id": "",
+            "width": 1024,
+            "height": 512,
+            "clientWidth": 1024,
+            "clientHeight": 512
+          }
+        ]
+      },
+      "rateSetting": {
+        "api": "Laya.Render.frameInterval = 1000/target; Laya.stage.frameRate = fast",
+        "timerMutation": false,
+        "setAtMs": 32617.800000000745
+      },
+      "endedAt": "2026-09-21T07:40:28.165Z",
+      "wallElapsedMs": 3369.7,
+      "cleanup": {
+        "releasedPointerIds": true,
+        "restoredOwnedRunToggle": true,
+        "originalMethodsRestored": true,
+        "restoredFrameInterval": 16.666666666666668,
+        "restoredStageFrameRate": "fast"
+      },
+      "totalOriginalOnUpdateCalls": 46,
+      "totalPostPhysicsPositionSamples": 46,
+      "nativeEvents": [],
+      "finalState": {
+        "ready": true,
+        "firstPerson": true,
+        "grounded": true,
+        "position": [
+          0.31142089500995657,
+          1.660000011920929,
+          99.06025693609843
+        ],
+        "yaw": 0.32,
+        "speed": 0,
+        "fps": 11,
+        "keys": [],
+        "triggerHeld": false,
+        "touch": {
+          "enabled": true,
+          "move": [
+            0,
+            0
+          ],
+          "running": false,
+          "shooting": false,
+          "shootPointers": 0,
+          "pointers": 0,
+          "moving": false,
+          "looking": false
+        },
+        "avatar": {
+          "motion": "Idle",
+          "base": "Walk",
+          "upper": "UpperIdle",
+          "shots": 3,
+          "shooting": false,
+          "triggerHeld": false
+        }
+      }
+    },
+    {
+      "runId": "m01-1789976493960-2",
+      "startedAt": "2026-09-21T07:41:33.960Z",
+      "status": "PASS",
+      "type": "escape",
+      "cases": [
+        {
+          "type": "escape",
+          "label": "escape 边界（显式测试）",
+          "trigger": {
+            "type": "synthetic KeyboardEvent Escape",
+            "isTrusted": false,
+            "nativeEscapeVerified": false
+          },
+          "gapMs": 0,
+          "inputSource": "synthetic-input: held touch UI",
+          "before": {
+            "ready": true,
+            "firstPerson": true,
+            "grounded": true,
+            "position": [
+              0.31142089500995657,
+              1.660000011920929,
+              99.06025693609843
+            ],
+            "yaw": 0.32,
+            "speed": 1.6508245877060073,
+            "fps": 15,
+            "keys": [],
+            "triggerHeld": true,
+            "touch": {
+              "enabled": true,
+              "move": [
+                0,
+                1
+              ],
+              "running": false,
+              "shooting": true,
+              "shootPointers": 1,
+              "pointers": 2,
+              "moving": true,
+              "looking": false
+            },
+            "avatar": {
+              "motion": "Walk",
+              "base": "Walk",
+              "upper": "Shoot",
+              "shots": 6,
+              "shooting": true,
+              "triggerHeld": true
+            }
+          },
+          "after": {
+            "ready": true,
+            "firstPerson": true,
+            "grounded": true,
+            "position": [
+              0.31142089500995657,
+              1.660000011920929,
+              99.06025693609843
+            ],
+            "yaw": 0.32,
+            "speed": 0,
+            "fps": 15,
+            "keys": [],
+            "triggerHeld": false,
+            "touch": {
+              "enabled": true,
+              "move": [
+                0,
+                0
+              ],
+              "running": false,
+              "shooting": false,
+              "shootPointers": 0,
+              "pointers": 0,
+              "moving": false,
+              "looking": false
+            },
+            "avatar": {
+              "motion": "Idle",
+              "base": "Walk",
+              "upper": "UpperIdle",
+              "shots": 6,
+              "shooting": false,
+              "triggerHeld": false
+            }
+          },
+          "firstResumedFrame": {
+            "atMs": 104236.5,
+            "gameFrame": 37,
+            "phase": "after original cameraFollow.follow / onAfterSceneUpdate",
+            "timerDeltaMs": 66.59999999999127,
+            "position": [
+              0.31142089500995657,
+              1.660000011920929,
+              99.06025693609843
+            ],
+            "speed": 0,
+            "grounded": true,
+            "firstPerson": true,
+            "motion": "Idle",
+            "base": "Walk",
+            "shots": 6,
+            "inputClear": true,
+            "target": {
+              "right": 0,
+              "forward": 0,
+              "running": false,
+              "scale": 1,
+              "speed": 1.65
+            }
+          },
+          "drift": 0,
+          "driftLimit": 0.075,
+          "addedShots": 0,
+          "recoveryBaselineAtMs": 104194.19999999925,
+          "resumedAtMs": 104194.80000000075,
+          "recoveryObservedMs": 557.7,
+          "backgroundTimeline": null,
+          "nativeEvents": [],
+          "noProbeReleaseBeforeMeasurement": true,
+          "frameRate": {
+            "requestedFps": 15,
+            "actualOnUpdateHz": 14.34463,
+            "observedOnUpdateCount": 8,
+            "wallSeconds": 0.5577,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "measurementTeleportCount": 0,
+          "assertions": [
+            {
+              "label": "游戏自身清空输入",
+              "status": "PASS",
+              "actual": {
+                "ready": true,
+                "firstPerson": true,
+                "grounded": true,
+                "position": [
+                  0.31142089500995657,
+                  1.660000011920929,
+                  99.06025693609843
+                ],
+                "yaw": 0.32,
+                "speed": 0,
+                "fps": 15,
+                "keys": [],
+                "triggerHeld": false,
+                "touch": {
+                  "enabled": true,
+                  "move": [
+                    0,
+                    0
+                  ],
+                  "running": false,
+                  "shooting": false,
+                  "shootPointers": 0,
+                  "pointers": 0,
+                  "moving": false,
+                  "looking": false
+                },
+                "avatar": {
+                  "motion": "Idle",
+                  "base": "Walk",
+                  "upper": "UpperIdle",
+                  "shots": 6,
+                  "shooting": false,
+                  "triggerHeld": false
+                }
+              }
+            },
+            {
+              "label": "恢复无大跳",
+              "status": "PASS",
+              "actual": {
+                "firstJump": 0,
+                "drift": 0
+              },
+              "limit": 0.075
+            },
+            {
+              "label": "恢复不补发",
+              "status": "PASS",
+              "actual": {
+                "added": 0,
+                "batchCounts": []
+              },
+              "limit": 0
+            }
+          ],
+          "status": "PASS"
+        }
+      ],
+      "setups": [
+        {
+          "atMs": 102786.80000000075,
+          "label": "escape",
+          "operation": "test-only: motor.position + player.transform.position",
+          "before": [
+            0.31142089500995657,
+            1.660000011920929,
+            99.06025693609843
+          ],
+          "requested": [
+            0,
+            1.88,
+            100
+          ],
+          "measurementActive": false,
+          "settled": [
+            0,
+            1.660000011920929,
+            100
+          ]
+        }
+      ],
+      "errors": [],
+      "inputSource": "synthetic-input",
+      "testOnlySetup": true,
+      "request": {
+        "targetFps": 15,
+        "view": "FP",
+        "setupPosition": [
+          0,
+          1.88,
+          100
+        ],
+        "holdMs": 2500,
+        "physicsStepSeconds": 0.016666666666666666,
+        "physicsStepBasis": "actual game.world.physicsSimulation.fixedTimeStep; no physics clock changes",
+        "scene3DPhysicsSettings": {
+          "fixedTimeStep": 0.016666666666666666,
+          "maxSubSteps": 4
+        },
+        "instanceMatchesScene3DSetting": true
+      },
+      "environmentBefore": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "viewport": [
+          1036,
+          849
+        ],
+        "devicePixelRatio": 1.5,
+        "engineVersion": null,
+        "renderFrameInterval": 16.666666666666668,
+        "stageFrameRate": "fast",
+        "canvases": [
+          {
+            "id": "layaCanvas",
+            "width": 915,
+            "height": 750,
+            "clientWidth": 915,
+            "clientHeight": 750
+          },
+          {
+            "id": "",
+            "width": 1024,
+            "height": 512,
+            "clientWidth": 1024,
+            "clientHeight": 512
+          }
+        ]
+      },
+      "rateSetting": {
+        "api": "Laya.Render.frameInterval = 1000/target; Laya.stage.frameRate = fast",
+        "timerMutation": false,
+        "setAtMs": 101782.30000000075
+      },
+      "endedAt": "2026-09-21T07:41:36.930Z",
+      "wallElapsedMs": 2970.5,
+      "cleanup": {
+        "releasedPointerIds": true,
+        "restoredOwnedRunToggle": true,
+        "originalMethodsRestored": true,
+        "restoredFrameInterval": 16.666666666666668,
+        "restoredStageFrameRate": "fast"
+      },
+      "totalOriginalOnUpdateCalls": 44,
+      "totalPostPhysicsPositionSamples": 44,
+      "nativeEvents": [],
+      "finalState": {
+        "ready": true,
+        "firstPerson": true,
+        "grounded": true,
+        "position": [
+          0.31142089500995657,
+          1.660000011920929,
+          99.06025693609843
+        ],
+        "yaw": 0.32,
+        "speed": 0,
+        "fps": 15,
+        "keys": [],
+        "triggerHeld": false,
+        "touch": {
+          "enabled": true,
+          "move": [
+            0,
+            0
+          ],
+          "running": false,
+          "shooting": false,
+          "shootPointers": 0,
+          "pointers": 0,
+          "moving": false,
+          "looking": false
+        },
+        "avatar": {
+          "motion": "Idle",
+          "base": "Walk",
+          "upper": "UpperIdle",
+          "shots": 6,
+          "shooting": false,
+          "triggerHeld": false
+        }
+      }
+    },
+    {
+      "runId": "m01-1789976661880-3",
+      "startedAt": "2026-09-21T07:44:21.880Z",
+      "status": "PASS",
+      "type": "blur",
+      "cases": [
+        {
+          "type": "blur",
+          "label": "blur 边界（显式测试）",
+          "trigger": {
+            "type": "synthetic window Event blur",
+            "isTrusted": false,
+            "hiddenBefore": false,
+            "focusBefore": true,
+            "hiddenAfterDispatch": false,
+            "focusAfterDispatch": true
+          },
+          "gapMs": 0,
+          "inputSource": "synthetic-input: held touch UI",
+          "before": {
+            "ready": true,
+            "firstPerson": true,
+            "grounded": true,
+            "position": [
+              0.31142089500995657,
+              1.660000011920929,
+              99.06025693609843
+            ],
+            "yaw": 0.32,
+            "speed": 1.6500000000004125,
+            "fps": 15,
+            "keys": [],
+            "triggerHeld": true,
+            "touch": {
+              "enabled": true,
+              "move": [
+                0,
+                1
+              ],
+              "running": false,
+              "shooting": true,
+              "shootPointers": 1,
+              "pointers": 2,
+              "moving": true,
+              "looking": false
+            },
+            "avatar": {
+              "motion": "Walk",
+              "base": "Walk",
+              "upper": "Shoot",
+              "shots": 9,
+              "shooting": true,
+              "triggerHeld": true
+            }
+          },
+          "after": {
+            "ready": true,
+            "firstPerson": true,
+            "grounded": true,
+            "position": [
+              0.31142089500995657,
+              1.660000011920929,
+              99.06025693609843
+            ],
+            "yaw": 0.32,
+            "speed": 0,
+            "fps": 15,
+            "keys": [],
+            "triggerHeld": false,
+            "touch": {
+              "enabled": true,
+              "move": [
+                0,
+                0
+              ],
+              "running": false,
+              "shooting": false,
+              "shootPointers": 0,
+              "pointers": 0,
+              "moving": false,
+              "looking": false
+            },
+            "avatar": {
+              "motion": "Idle",
+              "base": "Walk",
+              "upper": "UpperIdle",
+              "shots": 9,
+              "shooting": false,
+              "triggerHeld": false
+            }
+          },
+          "firstResumedFrame": {
+            "atMs": 272159,
+            "gameFrame": 37,
+            "phase": "after original cameraFollow.follow / onAfterSceneUpdate",
+            "timerDeltaMs": 66.60000000003492,
+            "position": [
+              0.31142089500995657,
+              1.660000011920929,
+              99.06025693609843
+            ],
+            "speed": 0,
+            "grounded": true,
+            "firstPerson": true,
+            "motion": "Idle",
+            "base": "Walk",
+            "shots": 9,
+            "inputClear": true,
+            "target": {
+              "right": 0,
+              "forward": 0,
+              "running": false,
+              "scale": 1,
+              "speed": 1.65
+            }
+          },
+          "drift": 0,
+          "driftLimit": 0.075,
+          "addedShots": 0,
+          "recoveryBaselineAtMs": 272116.59999999776,
+          "resumedAtMs": 272117.19999999925,
+          "recoveryObservedMs": 553.3,
+          "backgroundTimeline": null,
+          "nativeEvents": [
+            {
+              "type": "blur",
+              "atMs": 272117,
+              "hidden": false,
+              "focused": true,
+              "isTrusted": false
+            }
+          ],
+          "noProbeReleaseBeforeMeasurement": true,
+          "frameRate": {
+            "requestedFps": 15,
+            "actualOnUpdateHz": 14.458702,
+            "observedOnUpdateCount": 8,
+            "wallSeconds": 0.5533,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "measurementTeleportCount": 0,
+          "assertions": [
+            {
+              "label": "游戏自身清空输入",
+              "status": "PASS",
+              "actual": {
+                "ready": true,
+                "firstPerson": true,
+                "grounded": true,
+                "position": [
+                  0.31142089500995657,
+                  1.660000011920929,
+                  99.06025693609843
+                ],
+                "yaw": 0.32,
+                "speed": 0,
+                "fps": 15,
+                "keys": [],
+                "triggerHeld": false,
+                "touch": {
+                  "enabled": true,
+                  "move": [
+                    0,
+                    0
+                  ],
+                  "running": false,
+                  "shooting": false,
+                  "shootPointers": 0,
+                  "pointers": 0,
+                  "moving": false,
+                  "looking": false
+                },
+                "avatar": {
+                  "motion": "Idle",
+                  "base": "Walk",
+                  "upper": "UpperIdle",
+                  "shots": 9,
+                  "shooting": false,
+                  "triggerHeld": false
+                }
+              }
+            },
+            {
+              "label": "恢复无大跳",
+              "status": "PASS",
+              "actual": {
+                "firstJump": 0,
+                "drift": 0
+              },
+              "limit": 0.075
+            },
+            {
+              "label": "恢复不补发",
+              "status": "PASS",
+              "actual": {
+                "added": 0,
+                "batchCounts": []
+              },
+              "limit": 0
+            }
+          ],
+          "status": "PASS"
+        }
+      ],
+      "setups": [
+        {
+          "atMs": 270704.59999999776,
+          "label": "blur",
+          "operation": "test-only: motor.position + player.transform.position",
+          "before": [
+            0.31142089500995657,
+            1.660000011920929,
+            99.06025693609843
+          ],
+          "requested": [
+            0,
+            1.88,
+            100
+          ],
+          "measurementActive": false,
+          "settled": [
+            0,
+            1.660000011920929,
+            100
+          ]
+        }
+      ],
+      "errors": [],
+      "inputSource": "synthetic-input",
+      "testOnlySetup": true,
+      "request": {
+        "targetFps": 15,
+        "view": "FP",
+        "setupPosition": [
+          0,
+          1.88,
+          100
+        ],
+        "holdMs": 2500,
+        "physicsStepSeconds": 0.016666666666666666,
+        "physicsStepBasis": "actual game.world.physicsSimulation.fixedTimeStep; no physics clock changes",
+        "scene3DPhysicsSettings": {
+          "fixedTimeStep": 0.016666666666666666,
+          "maxSubSteps": 4
+        },
+        "instanceMatchesScene3DSetting": true
+      },
+      "environmentBefore": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "viewport": [
+          1036,
+          849
+        ],
+        "devicePixelRatio": 1.5,
+        "engineVersion": null,
+        "renderFrameInterval": 16.666666666666668,
+        "stageFrameRate": "fast",
+        "canvases": [
+          {
+            "id": "layaCanvas",
+            "width": 915,
+            "height": 750,
+            "clientWidth": 915,
+            "clientHeight": 750
+          },
+          {
+            "id": "",
+            "width": 1024,
+            "height": 512,
+            "clientWidth": 1024,
+            "clientHeight": 512
+          }
+        ]
+      },
+      "rateSetting": {
+        "api": "Laya.Render.frameInterval = 1000/target; Laya.stage.frameRate = fast",
+        "timerMutation": false,
+        "setAtMs": 269702.8999999985
+      },
+      "endedAt": "2026-09-21T07:44:24.848Z",
+      "wallElapsedMs": 2968.1,
+      "cleanup": {
+        "releasedPointerIds": true,
+        "restoredOwnedRunToggle": true,
+        "originalMethodsRestored": true,
+        "restoredFrameInterval": 16.666666666666668,
+        "restoredStageFrameRate": "fast"
+      },
+      "totalOriginalOnUpdateCalls": 44,
+      "totalPostPhysicsPositionSamples": 44,
+      "nativeEvents": [
+        {
+          "type": "blur",
+          "atMs": 272117,
+          "hidden": false,
+          "focused": true,
+          "isTrusted": false
+        }
+      ],
+      "finalState": {
+        "ready": true,
+        "firstPerson": true,
+        "grounded": true,
+        "position": [
+          0.31142089500995657,
+          1.660000011920929,
+          99.06025693609843
+        ],
+        "yaw": 0.32,
+        "speed": 0,
+        "fps": 15,
+        "keys": [],
+        "triggerHeld": false,
+        "touch": {
+          "enabled": true,
+          "move": [
+            0,
+            0
+          ],
+          "running": false,
+          "shooting": false,
+          "shootPointers": 0,
+          "pointers": 0,
+          "moving": false,
+          "looking": false
+        },
+        "avatar": {
+          "motion": "Idle",
+          "base": "Walk",
+          "upper": "UpperIdle",
+          "shots": 9,
+          "shooting": false,
+          "triggerHeld": false
+        }
+      }
+    }
+  ],
+  "archivedSummaries": [],
+  "discardedSummaryCount": 0,
+  "errors": [],
+  "live": {
+    "ready": true,
+    "firstPerson": true,
+    "grounded": true,
+    "position": [
+      0.31142089500995657,
+      1.660000011920929,
+      99.06025693609843
+    ],
+    "yaw": 0.32,
+    "speed": 0,
+    "fps": 60,
+    "keys": [],
+    "triggerHeld": false,
+    "touch": {
+      "enabled": true,
+      "move": [
+        0,
+        0
+      ],
+      "running": false,
+      "shooting": false,
+      "shootPointers": 0,
+      "pointers": 0,
+      "moving": false,
+      "looking": false
+    },
+    "avatar": {
+      "motion": "Idle",
+      "base": "Walk",
+      "upper": "UpperIdle",
+      "shots": 9,
+      "shooting": false,
+      "triggerHeld": false
+    }
+  },
+  "realBackgroundVerification": {
+    "status": "NOT TESTED"
+  },
+  "boundaries": [
+    "synthetic-input through existing touch controls",
+    "test-only setup position changes are logged; no measurement-stage teleport",
+    "Render.frameInterval changes only the real loop gate; no fake timer/delta/clock",
+    "GPU time, physical touch hardware and native Escape are not verified"
+  ],
+  "updatedAt": "2026-09-21T07:45:42.251Z"
+}

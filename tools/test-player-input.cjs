@@ -123,6 +123,7 @@ function environment(coarse = false) {
 function fixture(coarse = false) {
     const env = environment(coarse);
     const Laya = {
+        Scene3D: { physicsSettings: { fixedTimeStep: 1 / 60, maxSubSteps: 4 } },
         Script: class {}, Vector3, Quaternion: class {}, HitResult: class {},
         Matrix3x3: class { constructor() { this.elements = new Float32Array(9); } },
         AnimatorController: class {}, regClass: () => value => value, property: () => () => {},
@@ -153,6 +154,10 @@ function fixture(coarse = false) {
         (index ? avatar.upperLayer : avatar.baseLayer).current = states.get(name);
     }};
     const game = new (load("LingshuiGame").LingshuiGame)();
+    game.world = { physicsSimulation: { fixedTimeStep: 1 / 60, maxSubSteps: 4 }, timer: Laya.timer, _physicsStepTime: 0 };
+    game.physicsStepSeconds = load("LingshuiGame").characterPhysicsStep(game.world);
+    game.discardPhysicsFrame = false;
+    game.monotonicNow = () => Laya.timer.currTimer;
     game.avatar = avatar;
     game.player = { transform: { position: new Vector3(0, 2, 0) } };
     game.previousPlayerPosition = new Vector3(0, 2, 0);
@@ -165,7 +170,8 @@ function fixture(coarse = false) {
     const mobile = new (load("MobileInput").MobileInput)(env.canvas, game.hud, {
         look: game.handleTouchLook,
         jump: () => { game.jumpQueued = true; }, shoot: () => { game.shootQueued = true; },
-        perspective() {}, modeChanged: game.updateInputPresentation
+        perspective() {}, modeChanged: game.updateInputPresentation,
+        shootChanged: game.syncShootHeld, cancelled: game.cancelQueuedActions
     });
     game.mobileInput = mobile; game.ready = true;
     const tick = (count, deltaSeconds = 1 / 60) => {
@@ -307,6 +313,67 @@ test("mobile_four_fingers_release_shoot_independently", () => {
     f.env.pointer(f.mobile.lookZone, "pointerup", { pointerId: 12, pointerType: "touch" });
     assert.equal(f.mobile.captures.size, 0); stopped(f);
     return { shots_during_hold: shots, joystick_and_look_survived_shoot_release: true };
+});
+
+function assertCancellationKeepsFireDeadline(f, cancel, remainingInput) {
+    f.tick(1);
+    const firstShot = f.avatar.getStatus().shotEvents[0].atMs;
+    const deadline = f.avatar.nextShotAtMs;
+    f.tick(2); // Cancel at 50ms, well before the original 216.667ms second shot.
+    f.game.jumpQueued = f.game.shootQueued = true;
+    f.avatar.requestShoot();
+    cancel();
+    const afterCancel = {
+        deadline: f.avatar.nextShotAtMs, firing: f.avatar.firing,
+        jumpQueued: f.game.jumpQueued, shootQueued: f.game.shootQueued,
+        avatarRequest: f.avatar.pendingShot, remainingInput: remainingInput()
+    };
+    f.tick(1);
+    const nextFrameEvents = f.avatar.getStatus().shotEvents;
+    f.tick(8); // 200ms: still before the original deadline.
+    const beforeDeadlineEvents = f.avatar.getStatus().shotEvents;
+    f.tick(1); // 216.667ms: the original 200ms interval has now elapsed.
+    const events = f.avatar.getStatus().shotEvents;
+    const evidence = { firstShotAtMs: firstShot, originalDeadlineMs: deadline, afterCancel,
+        nextFrameEvents, beforeDeadlineEvents, atDeadlineEvents: events };
+    const context = JSON.stringify(evidence);
+    assert.equal(afterCancel.remainingInput, true, context);
+    assert.equal(afterCancel.jumpQueued, false, context);
+    assert.equal(afterCancel.shootQueued, false, context);
+    assert.equal(afterCancel.avatarRequest, false, context);
+    assert.equal(afterCancel.deadline, deadline, `Cancellation reset an independent held trigger's deadline: ${context}`);
+    assert.equal(afterCancel.firing, true, context);
+    assert.equal(nextFrameEvents.length, 1, `Cancellation emitted an early new shot: ${context}`);
+    assert.equal(beforeDeadlineEvents.length, 1, context);
+    assert.equal(events.length, 2, context);
+    assert.ok(Math.abs(events[1].atMs - firstShot - 200) < 1e-6, context);
+    return evidence;
+}
+
+test("canceling_move_pointer_preserves_independent_shoot_deadline", () => {
+    const f = fixture(true), shoot = f.button(".touch-shoot");
+    f.env.pointer(f.mobile.joystick, "pointerdown", { pointerId: 11, pointerType: "touch", clientX: 110 });
+    f.env.pointer(shoot, "pointerdown", { pointerId: 14, pointerType: "touch" });
+    return assertCancellationKeepsFireDeadline(f,
+        () => f.env.pointer(f.mobile.joystick, "pointercancel", { pointerId: 11, pointerType: "touch" }),
+        () => f.mobile.shooting && f.mobile.shootPointers.has(14) && f.mobile.movePointer === null);
+});
+
+test("canceling_one_of_two_shoot_pointers_preserves_original_deadline", () => {
+    const f = fixture(true), shoot = f.button(".touch-shoot");
+    for (const pointerId of [13, 14]) f.env.pointer(shoot, "pointerdown", { pointerId, pointerType: "touch" });
+    return assertCancellationKeepsFireDeadline(f,
+        () => f.env.pointer(shoot, "pointercancel", { pointerId: 13, pointerType: "touch" }),
+        () => f.mobile.shooting && f.mobile.shootPointers.size === 1 && f.mobile.shootPointers.has(14));
+});
+
+test("mouse_cancel_while_F_is_held_preserves_original_deadline", () => {
+    const f = fixture(); f.env.lock(f.env.canvas);
+    f.key("keydown", "KeyF");
+    f.env.pointer(f.env.canvas, "pointerdown", { pointerId: 8 });
+    return assertCancellationKeepsFireDeadline(f,
+        () => f.env.pointer(f.env.canvas, "pointercancel", { pointerId: 8, button: -1 }),
+        () => f.game.keys.has("KeyF") && !f.game.mouseHeld && f.game.mousePointer === null);
 });
 
 test("mobile_reset_clears_shoot_pointer_set", () => {

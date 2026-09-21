@@ -4,6 +4,8 @@ export interface MobileInputCallbacks {
     shoot: () => void;
     perspective: () => void;
     modeChanged: () => void;
+    shootChanged?: () => void;
+    cancelled?: () => void;
 }
 
 /** DOM touch controls use independent pointer IDs, so looking never steals the movement finger. */
@@ -233,6 +235,7 @@ export class MobileInput {
         this.shootPointers.add(event.pointerId);
         button.dataset.pressed = "true";
         this.callbacks.shoot();
+        this.callbacks.shootChanged?.();
     };
 
     private updatePointer = (event: PointerEvent) => {
@@ -247,9 +250,9 @@ export class MobileInput {
     };
 
     private endPointer = (event: PointerEvent) => {
-        this.shootPointers.delete(event.pointerId);
+        const releasedShoot = this.shootPointers.delete(event.pointerId);
         const target = this.captures.get(event.pointerId);
-        if (!target) return;
+        if (!target) { if (releasedShoot) this.callbacks.shootChanged?.(); return; }
         this.captures.delete(event.pointerId);
         if (event.pointerId === this.movePointer) {
             this.movePointer = null;
@@ -259,6 +262,8 @@ export class MobileInput {
         if (event.pointerId === this.lookPointer) this.lookPointer = null;
         if (target !== this.runButton && !Array.from(this.captures.values()).some(owner => owner === target)) target.dataset.pressed = "false";
         try { if (target.hasPointerCapture(event.pointerId)) target.releasePointerCapture(event.pointerId); } catch (_) { }
+        if (event.type === "pointercancel" || event.type === "lostpointercapture") this.callbacks.cancelled?.();
+        if (releasedShoot) this.callbacks.shootChanged?.();
     };
 
     reset = () => {
@@ -274,6 +279,8 @@ export class MobileInput {
         }
         if (this.knob) this.knob.style.transform = "translate(0,0)";
         if (this.runButton) this.updateRunButton();
+        this.callbacks.cancelled?.();
+        this.callbacks.shootChanged?.();
     };
 
     getStatus() {

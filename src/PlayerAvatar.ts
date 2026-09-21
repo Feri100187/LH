@@ -24,6 +24,8 @@ export function movementSector(right: number, forward: number, previous = 0) {
 export interface PlayerMotionFrame {
     speed: number; running: boolean; moving: boolean; grounded: boolean; jumped: boolean;
     yaw: number; pitch: number; moveX: number; moveZ: number;
+    /** Monotonic milliseconds. Omit only for deterministic dt-driven callers. */
+    nowMs?: number;
 }
 
 /** Presentation follows the existing CharacterController. Physics owns all root motion. */
@@ -52,6 +54,12 @@ export class PlayerAvatar extends Laya.Script {
     private firing = false;
     private fireClock = 0;
     private fireDuration = 0.2;
+    private shotClockMs = 0;
+    private shotClockInitialized = false;
+    private fireStartedAtMs = 0;
+    private nextShotAtMs = 0;
+    private shotEvents: { id: number; atMs: number }[] = [];
+    private shotEventCursor = 0;
     private fireCount = 0;
     private burstCount = 0;
     private upperWeight = 0;
@@ -115,7 +123,14 @@ export class PlayerAvatar extends Laya.Script {
         return true;
     }
 
-    setTriggerHeld(held: boolean) { this.triggerHeld = held; }
+    clearShootRequest() { this.pendingShot = false; }
+
+    setTriggerHeld(held: boolean) {
+        // A released held trigger must not leave an old automatic request behind.
+        // A new frame-between tap can be requested after this release is applied.
+        if (this.triggerHeld && !held) this.pendingShot = false;
+        this.triggerHeld = held;
+    }
     get isShooting() { return this.firing; }
     get shotPhase() { return this.fireClock / this.fireDuration; }
 
@@ -126,25 +141,40 @@ export class PlayerAvatar extends Laya.Script {
         return Math.min(1, GAIT_REFERENCE_SPEEDS[family + DIRECTION_SUFFIXES[this.moveSector]] / GAIT_REFERENCE_SPEEDS[family]);
     }
 
-    private updateFire(dt: number) {
+    private emitShot(nowMs: number) {
+        this.fireCount++;
+        const event = { id: this.fireCount, atMs: nowMs };
+        if (this.shotEvents.length < 256) this.shotEvents.push(event);
+        else {
+            this.shotEvents[this.shotEventCursor] = event;
+            this.shotEventCursor = (this.shotEventCursor + 1) % 256;
+        }
+    }
+
+    private updateFire(dt: number, nowMs: number) {
+        const intervalMs = this.fireDuration * 1000;
+        const epsilonMs = .001; // Accommodate float32 clip duration at exact frame boundaries.
         if (!this.firing && (this.triggerHeld || this.pendingShot)) {
             this.firing = true;
             this.pendingShot = false;
-            this.fireClock = dt;
-            this.fireCount++;
+            this.fireClock = 0;
+            this.fireStartedAtMs = nowMs;
+            this.nextShotAtMs = nowMs + intervalMs;
+            this.emitShot(nowMs);
             this.burstCount = 1;
             this.animator.setParamsBool("Fire", true);
             // The clip begins in the ready pose with water already leaving the nozzle.
             this.animator.play("Shoot", 1, 0);
         } else if (this.firing) {
-            this.fireClock += dt;
-            // Holding the trigger repeats only the short firing cycle, with no lower/raise cycle.
-            while (this.fireClock >= this.fireDuration && this.firing) {
-                this.fireClock -= this.fireDuration;
+            this.fireClock = Math.max(0, (nowMs - this.fireStartedAtMs) / 1000) % this.fireDuration;
+            if (nowMs + epsilonMs >= this.nextShotAtMs) {
                 if (this.triggerHeld || this.pendingShot) {
                     this.pendingShot = false;
-                    this.fireCount++;
+                    // One actual emission per frame. Expired deadlines never become queued shots.
+                    this.emitShot(nowMs);
                     this.burstCount++;
+                    const expired = Math.floor((nowMs - this.nextShotAtMs + epsilonMs) / intervalMs) + 1;
+                    this.nextShotAtMs += expired * intervalMs;
                 } else {
                     this.firing = false;
                     this.animator.setParamsBool("Fire", false);
@@ -160,6 +190,17 @@ export class PlayerAvatar extends Laya.Script {
 
     step(dt: number, input: PlayerMotionFrame) {
         if (!this.ready) return;
+        const elapsedMs = Number.isFinite(dt) && dt > 0 ? dt * 1000 : 0;
+        const suppliedClock = input.nowMs !== undefined;
+        const validClock = !suppliedClock || (Number.isFinite(input.nowMs) && input.nowMs >= 0);
+        let nowMs = suppliedClock && validClock ? input.nowMs : this.shotClockMs + elapsedMs;
+        const gapMs = this.shotClockInitialized ? nowMs - this.shotClockMs : 0;
+        if (!validClock || gapMs < 0 || gapMs > 250 || elapsedMs > 250) {
+            this.cancelTransientActions();
+            if (!validClock || gapMs < 0) nowMs = this.shotClockMs;
+        }
+        this.shotClockMs = nowMs;
+        this.shotClockInitialized = true;
         this.viewYaw = input.yaw;
         this.viewPitch = input.pitch;
         if (input.moving) {
@@ -167,7 +208,7 @@ export class PlayerAvatar extends Laya.Script {
             const forward = Math.sin(input.yaw) * input.moveX - Math.cos(input.yaw) * input.moveZ;
             this.moveSector = movementSector(right, forward, this.moveSector);
         }
-        this.updateFire(dt);
+        this.updateFire(dt, nowMs);
 
         if (input.jumped) this.beginAir(input.running && input.moving);
         if (!input.grounded) {
@@ -260,6 +301,9 @@ export class PlayerAvatar extends Laya.Script {
     cancelTransientActions() {
         this.triggerHeld = this.pendingShot = this.firing = false;
         this.fireClock = 0;
+        this.nextShotAtMs = this.fireStartedAtMs = 0;
+        this.upperWeight = 0;
+        if (this.upperLayer) this.upperLayer.defaultWeight = 0;
         if (this.animator) this.animator.setParamsBool("Fire", false);
     }
 
@@ -279,6 +323,8 @@ export class PlayerAvatar extends Laya.Script {
             baseTime: base?.normalizedTime, upper: upper?.animatorState?.name, upperTime: upper?.normalizedTime,
             shooting: this.firing, triggerHeld: this.triggerHeld, shotQueued: this.pendingShot,
             shots: this.fireCount, shotInterval: this.fireDuration, upperWeight: this.upperWeight,
+            shotEvents: [...this.shotEvents.slice(this.shotEventCursor), ...this.shotEvents.slice(0, this.shotEventCursor)]
+                .map(event => ({ ...event })),
             airborne: this.airborne, rootLocal: r ? [r.x, r.y, r.z] : null,
             meshCount: this.renderers.length, visibleMeshes: this.renderers.filter(r => r.renderer.enabled).length,
             gaitRates: { walk: this.baseLayer?.getAnimatorState("Walk")?.speed, run: this.baseLayer?.getAnimatorState("Run")?.speed },

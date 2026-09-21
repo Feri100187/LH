@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-09-21T08:41:18.694771+00:00",
+  "runtimeSourceHashes": {
+    "src/LingshuiGame.ts": "6fa6ecc5af4d8d5968e7f20f5717b2ab88c554e4647a5952930453869659bf87",
+    "src/MobileInput.ts": "31d9cff60a78da29147dc00487cc42a41bf250814205268ef553a2e9b0bea7e1",
+    "src/PlayerAvatar.ts": "47155e764b15ad593d338a7a62b091a2673f95a25497176f1165900d1673f24d"
+  },
+  "assetCheck": "assets-final.json",
+  "lfsFsck": "PASS: git lfs fsck --objects",
+  "codeReview": {
+    "mode": "independent read-only subagent",
+    "result": "No newly introduced blocking code defect found",
+    "scope": [
+      "fixed-substep units",
+      "physics debt ordering",
+      "input release",
+      "multi-trigger cadence",
+      "unchanged gameplay parameters"
+    ],
+    "limitations": [
+      "3.4.1-specific private accumulator adapter",
+      "browser native hidden not verified",
+      "route failures retained separately"
+    ]
+  }
+}

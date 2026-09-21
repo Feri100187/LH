@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "numericProtocol": "m01-postphysics-v1",
+  "backgroundProtocol": "m01-native-interruption-v2",
+  "boundaryProtocol": "m01-recovery-observation-v3",
+  "tool": "LH M0.1 localhost acceptance",
+  "createdAt": "2026-09-21T08:26:43.493Z",
+  "url": "http://127.0.0.1:18771/?controls=touch&m01=route-recovery",
+  "status": "INCOMPLETE",
+  "active": null,
+  "history": [
+    {
+      "runId": "m01-1789979841300-1",
+      "startedAt": "2026-09-21T08:37:21.300Z",
+      "status": "INCOMPLETE",
+      "type": "background",
+      "cases": [
+        {
+          "type": "background",
+          "label": "background 边界（显式测试）",
+          "trigger": {
+            "type": "real browser visibility transition",
+            "nativeRequired": true
+          },
+          "nativeEvents": [],
+          "assertions": [
+            {
+              "label": "真实后台与返回",
+              "status": "NOT TESTED",
+              "actual": "未取得真实hidden>=1s再返回"
+            }
+          ],
+          "status": "INCOMPLETE"
+        }
+      ],
+      "setups": [
+        {
+          "atMs": 639035.799999997,
+          "label": "background",
+          "operation": "test-only: motor.position + player.transform.position",
+          "before": [
+            51.900000000000006,
+            3.2949999427795413,
+            -30.199999999999996
+          ],
+          "requested": [
+            0,
+            1.88,
+            100
+          ],
+          "measurementActive": false,
+          "settled": [
+            0,
+            1.660000011920929,
+            100
+          ]
+        }
+      ],
+      "errors": [],
+      "inputSource": "synthetic-input",
+      "testOnlySetup": true,
+      "request": {
+        "targetFps": 15,
+        "view": "FP",
+        "setupPosition": [
+          0,
+          1.88,
+          100
+        ],
+        "holdMs": 2500,
+        "physicsStepSeconds": 0.016666666666666666,
+        "physicsStepBasis": "actual game.world.physicsSimulation.fixedTimeStep; no physics clock changes",
+        "scene3DPhysicsSettings": {
+          "fixedTimeStep": 0.016666666666666666,
+          "maxSubSteps": 4
+        },
+        "instanceMatchesScene3DSetting": true
+      },
+      "environmentBefore": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "viewport": [
+          1030,
+          898
+        ],
+        "devicePixelRatio": 1.5,
+        "engineVersion": null,
+        "renderFrameInterval": 16.666666666666668,
+        "stageFrameRate": "fast",
+        "canvases": [
+          {
+            "id": "layaCanvas",
+            "width": 860,
+            "height": 750,
+            "clientWidth": 860,
+            "clientHeight": 750
+          },
+          {
+            "id": "",
+            "width": 1024,
+            "height": 512,
+            "clientWidth": 1024,
+            "clientHeight": 512
+          }
+        ]
+      },
+      "rateSetting": {
+        "api": "Laya.Render.frameInterval = 1000/target; Laya.stage.frameRate = fast",
+        "timerMutation": false,
+        "setAtMs": 638034
+      },
+      "endedAt": "2026-09-21T08:37:53.738Z",
+      "wallElapsedMs": 32437.2,
+      "cleanup": {
+        "releasedPointerIds": true,
+        "restoredOwnedRunToggle": true,
+        "originalMethodsRestored": true,
+        "restoredFrameInterval": 16.666666666666668,
+        "restoredStageFrameRate": "fast"
+      },
+      "totalOriginalOnUpdateCalls": 486,
+      "totalPostPhysicsPositionSamples": 486,
+      "nativeEvents": [],
+      "finalState": {
+        "ready": true,
+        "firstPerson": true,
+        "grounded": true,
+        "position": [
+          -1.089801325236997,
+          1.7600085711868338,
+          49.527751115070316
+        ],
+        "yaw": -0.021592653589793065,
+        "speed": 1.6508245877048184,
+        "fps": 15,
+        "keys": [],
+        "triggerHeld": false,
+        "touch": {
+          "enabled": true,
+          "move": [
+            0,
+            0
+          ],
+          "running": false,
+          "shooting": false,
+          "shootPointers": 0,
+          "pointers": 0,
+          "moving": false,
+          "looking": false
+        },
+        "avatar": {
+          "motion": "Walk",
+          "base": "Walk",
+          "upper": "Shoot",
+          "shots": 153,
+          "shooting": true,
+          "triggerHeld": false
+        }
+      }
+    }
+  ],
+  "archivedSummaries": [],
+  "discardedSummaryCount": 0,
+  "errors": [],
+  "live": {
+    "ready": true,
+    "firstPerson": true,
+    "grounded": true,
+    "position": [
+      -1.089801325236997,
+      1.7600085711868338,
+      49.527751115070316
+    ],
+    "yaw": -0.021592653589793065,
+    "speed": 0,
+    "fps": 60,
+    "keys": [],
+    "triggerHeld": false,
+    "touch": {
+      "enabled": true,
+      "move": [
+        0,
+        0
+      ],
+      "running": false,
+      "shooting": false,
+      "shootPointers": 0,
+      "pointers": 0,
+      "moving": false,
+      "looking": false
+    },
+    "avatar": {
+      "motion": "Idle",
+      "base": "Idle",
+      "upper": "UpperIdle",
+      "shots": 153,
+      "shooting": false,
+      "triggerHeld": false
+    }
+  },
+  "realBackgroundVerification": {
+    "status": "NOT TESTED"
+  },
+  "nativeEnginePauseVerification": {
+    "status": "NOT TESTED",
+    "doesNotVerifyNativeVisibility": true
+  },
+  "boundaries": [
+    "synthetic-input through existing touch controls",
+    "test-only setup position changes are logged; no measurement-stage teleport",
+    "Render.frameInterval changes only the real loop gate; no fake timer/delta/clock",
+    "GPU time, physical touch hardware and native Escape are not verified"
+  ],
+  "updatedAt": "2026-09-21T08:37:59.495Z"
+}

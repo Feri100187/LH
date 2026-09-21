@@ -1,0 +1,447 @@
+{
+  "status": "PASS",
+  "reviewedAt": "2026-09-21T08:37:20.855Z",
+  "source": "iab-final-camera-15.json",
+  "reviewer": "primary agent using official computer-use screenshots and native drag",
+  "blocked": {
+    "screenshot": "camera-blocked.png",
+    "status": {
+      "ready": true,
+      "firstPerson": false,
+      "locked": false,
+      "observedAtMs": 568185.5999999978,
+      "updateAtMs": 568184.1999999993,
+      "updateFrame": 27822,
+      "publishedAtMs": 568185.5999999978,
+      "inputResetAtMs": 1476.8999999985099,
+      "inputResetReason": "long-frame",
+      "physicsStepSeconds": 0.016666666666666666,
+      "physicsDroppedSeconds": 0.6743333333333542,
+      "position": [
+        51.900000000000006,
+        3.2949999427795413,
+        -30.199999999999996
+      ],
+      "camera": [
+        51.723573441549924,
+        3.9018560946318908,
+        -30.72927967535025
+      ],
+      "yaw": -3.1415926535897936,
+      "pitch": 0,
+      "grounded": true,
+      "cameraDistance": 0.564630229778755,
+      "fps": 60,
+      "keys": [],
+      "inputMode": "touch",
+      "touch": {
+        "enabled": true,
+        "move": [
+          0,
+          0
+        ],
+        "running": false,
+        "shooting": false,
+        "shootPointers": 0,
+        "pointers": 0,
+        "moving": false,
+        "looking": false
+      },
+      "triggerHeld": false,
+      "speed": 0,
+      "avatar": {
+        "loaded": true,
+        "motion": "Idle",
+        "direction": "Forward",
+        "base": "Idle",
+        "baseTime": 13.450199999999933,
+        "upper": "UpperIdle",
+        "upperTime": 189.1073000000071,
+        "shooting": false,
+        "triggerHeld": false,
+        "shotQueued": false,
+        "shots": 0,
+        "shotInterval": 0.20000000298023224,
+        "upperWeight": 0,
+        "shotEvents": [],
+        "airborne": false,
+        "rootLocal": [
+          0,
+          0.0012000000569969416,
+          0
+        ],
+        "meshCount": 44,
+        "visibleMeshes": 0,
+        "gaitRates": {
+          "walk": 0.05,
+          "run": 0.05
+        },
+        "gunDirection": [
+          -1.0401080885458214e-7,
+          -0.03489955514669418,
+          0.9993906617164612
+        ],
+        "gunForwardDotBody": 0.9993906617164612,
+        "heading": -2.4492935982947064e-16,
+        "history": [
+          {
+            "base": "Walk",
+            "upper": "",
+            "time": 424208.1
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 430541.5
+          },
+          {
+            "base": "Walk",
+            "upper": "",
+            "time": 496475.6
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 497875.5
+          },
+          {
+            "base": "Walk",
+            "upper": "",
+            "time": 498208.9
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 501276
+          },
+          {
+            "base": "Walk",
+            "upper": "",
+            "time": 501675.7
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 507009.1
+          },
+          {
+            "base": "Walk",
+            "upper": "",
+            "time": 507409.2
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 509142.4
+          },
+          {
+            "base": "Walk",
+            "upper": "",
+            "time": 509542.3
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 511875.9
+          },
+          {
+            "base": "Walk",
+            "upper": "",
+            "time": 512475.7
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 514675.7
+          },
+          {
+            "base": "Walk",
+            "upper": "",
+            "time": 515075.7
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 515609
+          },
+          {
+            "base": "Walk",
+            "upper": "",
+            "time": 515809.1
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 516675.8
+          },
+          {
+            "base": "Walk",
+            "upper": "",
+            "time": 517409
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 522675.8
+          },
+          {
+            "base": "Walk",
+            "upper": "",
+            "time": 523075.8
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 526075.7
+          },
+          {
+            "base": "Walk",
+            "upper": "",
+            "time": 526409.4
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 527942.7
+          }
+        ]
+      },
+      "firstPersonArms": {
+        "visible": false,
+        "cameraParent": "PlayerCamera",
+        "meshes": 15,
+        "base": "Idle",
+        "localMountPosition": [
+          1.0743197503748148e-91,
+          7.307502520506637e-92,
+          0
+        ],
+        "shooting": false
+      },
+      "cameraFollowPhase": "afterPhysicsAndAnimation",
+      "firstPersonCameraOffset": null
+    },
+    "observations": "镜头收缩至约0.565m，视线朝门外，画面没有穿入门面；近距离角色按既有规则隐藏。"
+  },
+  "restored": {
+    "screenshot": "camera-restored.png",
+    "status": {
+      "ready": true,
+      "firstPerson": false,
+      "locked": false,
+      "observedAtMs": 607494.1999999993,
+      "updateAtMs": 607493.299999997,
+      "updateFrame": 30181,
+      "publishedAtMs": 607494.1999999993,
+      "inputResetAtMs": 1476.8999999985099,
+      "inputResetReason": "long-frame",
+      "physicsStepSeconds": 0.016666666666666666,
+      "physicsDroppedSeconds": 0.6743333333333542,
+      "position": [
+        51.900000000000006,
+        3.2949999427795413,
+        -30.199999999999996
+      ],
+      "camera": [
+        52.5919508796793,
+        4.134999942779541,
+        -28.264488703181748
+      ],
+      "yaw": -0.021592653589793065,
+      "pitch": 0,
+      "grounded": true,
+      "cameraDistance": 2.0802403707264228,
+      "fps": 60,
+      "keys": [],
+      "inputMode": "touch",
+      "touch": {
+        "enabled": true,
+        "move": [
+          0,
+          0
+        ],
+        "running": false,
+        "shooting": false,
+        "shootPointers": 0,
+        "pointers": 0,
+        "moving": false,
+        "looking": false
+      },
+      "triggerHeld": false,
+      "speed": 0,
+      "avatar": {
+        "loaded": true,
+        "motion": "Idle",
+        "direction": "Forward",
+        "base": "Idle",
+        "baseTime": 26.55583333333358,
+        "upper": "UpperIdle",
+        "upperTime": 202.21293333331528,
+        "shooting": false,
+        "triggerHeld": false,
+        "shotQueued": false,
+        "shots": 0,
+        "shotInterval": 0.20000000298023224,
+        "upperWeight": 0,
+        "shotEvents": [],
+        "airborne": false,
+        "rootLocal": [
+          0,
+          0.0012000000569969416,
+          0
+        ],
+        "meshCount": 44,
+        "visibleMeshes": 44,
+        "gaitRates": {
+          "walk": 0.05,
+          "run": 0.05
+        },
+        "gunDirection": [
+          -0.021577797830104828,
+          -0.034899648278951645,
+          -0.9991575479507446
+        ],
+        "gunForwardDotBody": 0.9993905177587694,
+        "heading": -3.1200000000000006,
+        "history": [
+          {
+            "base": "Walk",
+            "upper": "",
+            "time": 424208.1
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 430541.5
+          },
+          {
+            "base": "Walk",
+            "upper": "",
+            "time": 496475.6
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 497875.5
+          },
+          {
+            "base": "Walk",
+            "upper": "",
+            "time": 498208.9
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 501276
+          },
+          {
+            "base": "Walk",
+            "upper": "",
+            "time": 501675.7
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 507009.1
+          },
+          {
+            "base": "Walk",
+            "upper": "",
+            "time": 507409.2
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 509142.4
+          },
+          {
+            "base": "Walk",
+            "upper": "",
+            "time": 509542.3
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 511875.9
+          },
+          {
+            "base": "Walk",
+            "upper": "",
+            "time": 512475.7
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 514675.7
+          },
+          {
+            "base": "Walk",
+            "upper": "",
+            "time": 515075.7
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 515609
+          },
+          {
+            "base": "Walk",
+            "upper": "",
+            "time": 515809.1
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 516675.8
+          },
+          {
+            "base": "Walk",
+            "upper": "",
+            "time": 517409
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 522675.8
+          },
+          {
+            "base": "Walk",
+            "upper": "",
+            "time": 523075.8
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 526075.7
+          },
+          {
+            "base": "Walk",
+            "upper": "",
+            "time": 526409.4
+          },
+          {
+            "base": "Idle",
+            "upper": "",
+            "time": 527942.7
+          }
+        ]
+      },
+      "firstPersonArms": {
+        "visible": false,
+        "cameraParent": "PlayerCamera",
+        "meshes": 15,
+        "base": "Idle",
+        "localMountPosition": [
+          1.0743197503748148e-91,
+          7.307502520506637e-92,
+          0
+        ],
+        "shooting": false
+      },
+      "cameraFollowPhase": "afterPhysicsAndAnimation",
+      "firstPersonCameraOffset": null
+    },
+    "observations": "两次实际鼠标拖动转回门面，镜头展开至约2.080m，人物重新可见；观察范围无近裁剪或穿墙异常。"
+  },
+  "scope": "仅当前入口点与所示方向，不代表全场景相机遍历"
+}

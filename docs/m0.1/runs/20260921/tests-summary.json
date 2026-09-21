@@ -1,0 +1,123 @@
+{
+  "status": "PASS",
+  "run_id": "f3b54e6c-5478-45ca-8b0c-6ebb77e108dd",
+  "started_utc": "2026-09-21T07:13:59.790Z",
+  "finished_utc": "2026-09-21T07:14:17.350Z",
+  "project_root": "D:\\a\\xiang_mu\\LH",
+  "report_directory": "D:\\a\\xiang_mu\\LH\\.test-reports\\m01-final-tests",
+  "node_version": "v24.16.0",
+  "typescript_version": "5.9.3",
+  "ide": {
+    "root": "D:\\a\\LayaAirIDE",
+    "version": "3.4.1"
+  },
+  "total": 125,
+  "passed": 125,
+  "failed": 0,
+  "not_tested": 0,
+  "categories": {
+    "typecheck": {
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "not_tested": 0
+    },
+    "logic": {
+      "total": 99,
+      "passed": 99,
+      "failed": 0,
+      "not_tested": 0
+    },
+    "engine_contract": {
+      "total": 11,
+      "passed": 11,
+      "failed": 0,
+      "not_tested": 0
+    },
+    "asset_contract": {
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "not_tested": 0
+    },
+    "tooling_contract": {
+      "total": 11,
+      "passed": 11,
+      "failed": 0,
+      "not_tested": 0
+    }
+  },
+  "suites": [
+    {
+      "suite": "player-avatar",
+      "status": "PASS",
+      "total": 35,
+      "passed": 35,
+      "failed": 0,
+      "not_tested": 0,
+      "report": "player-avatar.json"
+    },
+    {
+      "suite": "player-input",
+      "status": "PASS",
+      "total": 28,
+      "passed": 28,
+      "failed": 0,
+      "not_tested": 0,
+      "report": "player-input.json"
+    },
+    {
+      "suite": "player-directional",
+      "status": "PASS",
+      "total": 24,
+      "passed": 24,
+      "failed": 0,
+      "not_tested": 0,
+      "report": "player-directional.json"
+    },
+    {
+      "suite": "frame-stability",
+      "status": "PASS",
+      "total": 16,
+      "passed": 16,
+      "failed": 0,
+      "not_tested": 0,
+      "report": "frame-stability.json"
+    },
+    {
+      "suite": "lake-ducks",
+      "status": "PASS",
+      "total": 10,
+      "passed": 10,
+      "failed": 0,
+      "not_tested": 0,
+      "report": "lake-ducks.json"
+    },
+    {
+      "suite": "asset-entry-contract",
+      "status": "PASS",
+      "total": 11,
+      "passed": 11,
+      "failed": 0,
+      "not_tested": 0,
+      "report": "asset-entry-contract.json"
+    }
+  ],
+  "not_verified": [
+    {
+      "check": "Live Laya rendering, real browser/OS pointer lock and touch input",
+      "status": "NOT TESTED",
+      "required_by_npm_test": false
+    },
+    {
+      "check": "Real Bullet physics execution and cross-FPS traversal speed",
+      "status": "NOT TESTED",
+      "required_by_npm_test": false
+    },
+    {
+      "check": "Rendered deformation, texture correctness and full lake obstacle/visibility audit",
+      "status": "NOT TESTED",
+      "required_by_npm_test": false
+    }
+  ]
+}

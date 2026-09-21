@@ -1,0 +1,2275 @@
+{
+  "schemaVersion": 1,
+  "numericProtocol": "m01-postphysics-v1",
+  "tool": "LH M0.1 localhost acceptance",
+  "createdAt": "2026-09-21T06:40:46.468Z",
+  "url": "http://127.0.0.1:18769/?controls=touch",
+  "status": "FAIL",
+  "active": null,
+  "history": [
+    {
+      "runId": "m01-1789972877680-1",
+      "startedAt": "2026-09-21T06:41:17.680Z",
+      "status": "FAIL",
+      "type": "quick",
+      "cases": [
+        {
+          "type": "movement",
+          "label": "Walk Forward · 15 FPS",
+          "inputSource": "synthetic-input: touch DOM",
+          "inputVector": [
+            0,
+            1
+          ],
+          "running": false,
+          "inputDownAtMs": 33213.20000000298,
+          "inputUpAtMs": 35717.400000002235,
+          "inputWallSeconds": 2.5042,
+          "start": [
+            0,
+            1.660000011920929,
+            100
+          ],
+          "end": [
+            3.8408577051227915,
+            1.660000011920929,
+            88.40983554521392
+          ],
+          "startPositionSampleAtMs": 33206.300000000745,
+          "endPositionSampleAtMs": 35741.60000000149,
+          "postReleaseSampleDelayMs": 24.2,
+          "immediateUpPosition": [
+            3.8408577051227915,
+            1.660000011920929,
+            88.40983554521392
+          ],
+          "positionSampling": "after original cameraFollow.follow; end is first real postphysics sample at/after inputUpAtMs",
+          "configuredSpeed": 1.65,
+          "speedConfiguration": "Observed return from original avatar.getMovementSpeedScale, multiplied by actual walkSpeed/runSpeed",
+          "expectedDistance": 4.13193,
+          "projectedDistance": 12.21,
+          "lateralDistance": 0,
+          "distanceTolerance": 0.178958,
+          "distanceRule": "abs(projected - speed*T) <= 0.03*speed*T + 2*speed*actualPhysicsStepSeconds",
+          "speedWindowRule": "0.4..0.65s windows after startup: measured <= speed*(1.05 + actualPhysicsStepSeconds/windowSeconds)",
+          "perFrameSpeed": {
+            "n": 36,
+            "mean": 4.954346,
+            "min": 4.532967,
+            "max": 5.472637,
+            "p50": 4.94012,
+            "p95": 5.331179
+          },
+          "perFrameSamples": [
+            {
+              "gameFrame": 29,
+              "atMs": 33341.300000000745,
+              "seconds": 0.0674,
+              "metersPerSecond": 4.896142
+            },
+            {
+              "gameFrame": 30,
+              "atMs": 33409.70000000298,
+              "seconds": 0.0684,
+              "metersPerSecond": 4.824561
+            },
+            {
+              "gameFrame": 31,
+              "atMs": 33473.10000000149,
+              "seconds": 0.0634,
+              "metersPerSecond": 5.205047
+            },
+            {
+              "gameFrame": 32,
+              "atMs": 33539.900000002235,
+              "seconds": 0.0668,
+              "metersPerSecond": 4.94012
+            },
+            {
+              "gameFrame": 33,
+              "atMs": 33606.400000002235,
+              "seconds": 0.0665,
+              "metersPerSecond": 4.962406
+            },
+            {
+              "gameFrame": 34,
+              "atMs": 33674.10000000149,
+              "seconds": 0.0677,
+              "metersPerSecond": 4.874446
+            },
+            {
+              "gameFrame": 35,
+              "atMs": 33739.800000000745,
+              "seconds": 0.0657,
+              "metersPerSecond": 5.022831
+            },
+            {
+              "gameFrame": 36,
+              "atMs": 33806.900000002235,
+              "seconds": 0.0671,
+              "metersPerSecond": 4.918033
+            },
+            {
+              "gameFrame": 37,
+              "atMs": 33873.900000002235,
+              "seconds": 0.067,
+              "metersPerSecond": 4.925373
+            },
+            {
+              "gameFrame": 38,
+              "atMs": 33939.800000000745,
+              "seconds": 0.0659,
+              "metersPerSecond": 5.007587
+            },
+            {
+              "gameFrame": 39,
+              "atMs": 34008,
+              "seconds": 0.0682,
+              "metersPerSecond": 4.83871
+            },
+            {
+              "gameFrame": 40,
+              "atMs": 34074.5,
+              "seconds": 0.0665,
+              "metersPerSecond": 4.962406
+            },
+            {
+              "gameFrame": 41,
+              "atMs": 34140.400000002235,
+              "seconds": 0.0659,
+              "metersPerSecond": 5.007587
+            },
+            {
+              "gameFrame": 42,
+              "atMs": 34211,
+              "seconds": 0.0706,
+              "metersPerSecond": 4.674221
+            },
+            {
+              "gameFrame": 43,
+              "atMs": 34275,
+              "seconds": 0.064,
+              "metersPerSecond": 5.15625
+            },
+            {
+              "gameFrame": 44,
+              "atMs": 34346.10000000149,
+              "seconds": 0.0711,
+              "metersPerSecond": 4.64135
+            },
+            {
+              "gameFrame": 45,
+              "atMs": 34408,
+              "seconds": 0.0619,
+              "metersPerSecond": 5.331179
+            },
+            {
+              "gameFrame": 46,
+              "atMs": 34474,
+              "seconds": 0.066,
+              "metersPerSecond": 5
+            },
+            {
+              "gameFrame": 47,
+              "atMs": 34540.10000000149,
+              "seconds": 0.0661,
+              "metersPerSecond": 4.992436
+            },
+            {
+              "gameFrame": 48,
+              "atMs": 34606.70000000298,
+              "seconds": 0.0666,
+              "metersPerSecond": 4.954955
+            },
+            {
+              "gameFrame": 49,
+              "atMs": 34673.5,
+              "seconds": 0.0668,
+              "metersPerSecond": 4.94012
+            },
+            {
+              "gameFrame": 50,
+              "atMs": 34740,
+              "seconds": 0.0665,
+              "metersPerSecond": 4.962406
+            },
+            {
+              "gameFrame": 51,
+              "atMs": 34806.900000002235,
+              "seconds": 0.0669,
+              "metersPerSecond": 4.932735
+            },
+            {
+              "gameFrame": 52,
+              "atMs": 34874.20000000298,
+              "seconds": 0.0673,
+              "metersPerSecond": 4.903418
+            },
+            {
+              "gameFrame": 53,
+              "atMs": 34941.300000000745,
+              "seconds": 0.0671,
+              "metersPerSecond": 4.918033
+            },
+            {
+              "gameFrame": 54,
+              "atMs": 35006.800000000745,
+              "seconds": 0.0655,
+              "metersPerSecond": 5.038168
+            },
+            {
+              "gameFrame": 55,
+              "atMs": 35073.300000000745,
+              "seconds": 0.0665,
+              "metersPerSecond": 4.962406
+            },
+            {
+              "gameFrame": 56,
+              "atMs": 35146.10000000149,
+              "seconds": 0.0728,
+              "metersPerSecond": 4.532967
+            },
+            {
+              "gameFrame": 57,
+              "atMs": 35207.10000000149,
+              "seconds": 0.061,
+              "metersPerSecond": 5.409836
+            },
+            {
+              "gameFrame": 58,
+              "atMs": 35279.20000000298,
+              "seconds": 0.0721,
+              "metersPerSecond": 4.576976
+            },
+            {
+              "gameFrame": 59,
+              "atMs": 35339.5,
+              "seconds": 0.0603,
+              "metersPerSecond": 5.472637
+            },
+            {
+              "gameFrame": 60,
+              "atMs": 35406.60000000149,
+              "seconds": 0.0671,
+              "metersPerSecond": 4.918033
+            },
+            {
+              "gameFrame": 61,
+              "atMs": 35473.300000000745,
+              "seconds": 0.0667,
+              "metersPerSecond": 4.947526
+            },
+            {
+              "gameFrame": 62,
+              "atMs": 35539.900000002235,
+              "seconds": 0.0666,
+              "metersPerSecond": 4.954955
+            },
+            {
+              "gameFrame": 63,
+              "atMs": 35606.70000000298,
+              "seconds": 0.0668,
+              "metersPerSecond": 4.94012
+            },
+            {
+              "gameFrame": 64,
+              "atMs": 35675.300000000745,
+              "seconds": 0.0686,
+              "metersPerSecond": 4.810496
+            }
+          ],
+          "positionSamples": [
+            {
+              "atMs": 33273.900000002235,
+              "gameFrame": 28,
+              "position": [
+                0.10380696500331886,
+                1.660000011920929,
+                99.68675231203281
+              ],
+              "timerDeltaMs": 66.59999999999854
+            },
+            {
+              "atMs": 33341.300000000745,
+              "gameFrame": 29,
+              "position": [
+                0.20761393000663772,
+                1.660000011920929,
+                99.37350462406562
+              ],
+              "timerDeltaMs": 66.60000000000582
+            },
+            {
+              "atMs": 33409.70000000298,
+              "gameFrame": 30,
+              "position": [
+                0.31142089500995657,
+                1.660000011920929,
+                99.06025693609843
+              ],
+              "timerDeltaMs": 66.89999999999418
+            },
+            {
+              "atMs": 33473.10000000149,
+              "gameFrame": 31,
+              "position": [
+                0.41522786001327544,
+                1.660000011920929,
+                98.74700924813123
+              ],
+              "timerDeltaMs": 66.5
+            },
+            {
+              "atMs": 33539.900000002235,
+              "gameFrame": 32,
+              "position": [
+                0.5190348250165943,
+                1.660000011920929,
+                98.43376156016404
+              ],
+              "timerDeltaMs": 66.60000000000582
+            },
+            {
+              "atMs": 33606.400000002235,
+              "gameFrame": 33,
+              "position": [
+                0.6228417900199129,
+                1.660000011920929,
+                98.12051387219685
+              ],
+              "timerDeltaMs": 66.69999999999709
+            },
+            {
+              "atMs": 33674.10000000149,
+              "gameFrame": 34,
+              "position": [
+                0.7266487550232316,
+                1.660000011920929,
+                97.80726618422966
+              ],
+              "timerDeltaMs": 66.69999999999709
+            },
+            {
+              "atMs": 33739.800000000745,
+              "gameFrame": 35,
+              "position": [
+                0.8304557200265502,
+                1.660000011920929,
+                97.49401849626247
+              ],
+              "timerDeltaMs": 66.70000000000437
+            },
+            {
+              "atMs": 33806.900000002235,
+              "gameFrame": 36,
+              "position": [
+                0.9342626850298689,
+                1.660000011920929,
+                97.18077080829528
+              ],
+              "timerDeltaMs": 66.59999999999854
+            },
+            {
+              "atMs": 33873.900000002235,
+              "gameFrame": 37,
+              "position": [
+                1.0380696500331876,
+                1.660000011920929,
+                96.86752312032809
+              ],
+              "timerDeltaMs": 67.09999999999854
+            },
+            {
+              "atMs": 33939.800000000745,
+              "gameFrame": 38,
+              "position": [
+                1.1418766150365063,
+                1.660000011920929,
+                96.5542754323609
+              ],
+              "timerDeltaMs": 66.5
+            },
+            {
+              "atMs": 34008,
+              "gameFrame": 39,
+              "position": [
+                1.245683580039825,
+                1.660000011920929,
+                96.2410277443937
+              ],
+              "timerDeltaMs": 66.59999999999854
+            },
+            {
+              "atMs": 34074.5,
+              "gameFrame": 40,
+              "position": [
+                1.3494905450431436,
+                1.660000011920929,
+                95.92778005642651
+              ],
+              "timerDeltaMs": 67.20000000000437
+            },
+            {
+              "atMs": 34140.400000002235,
+              "gameFrame": 41,
+              "position": [
+                1.4532975100464625,
+                1.660000011920929,
+                95.61453236845932
+              ],
+              "timerDeltaMs": 66.59999999999854
+            },
+            {
+              "atMs": 34211,
+              "gameFrame": 42,
+              "position": [
+                1.5571044750497811,
+                1.660000011920929,
+                95.30128468049213
+              ],
+              "timerDeltaMs": 66.40000000000146
+            },
+            {
+              "atMs": 34275,
+              "gameFrame": 43,
+              "position": [
+                1.6609114400530998,
+                1.660000011920929,
+                94.98803699252494
+              ],
+              "timerDeltaMs": 70.59999999999854
+            },
+            {
+              "atMs": 34346.10000000149,
+              "gameFrame": 44,
+              "position": [
+                1.7647184050564184,
+                1.660000011920929,
+                94.67478930455775
+              ],
+              "timerDeltaMs": 63
+            },
+            {
+              "atMs": 34408,
+              "gameFrame": 45,
+              "position": [
+                1.868525370059737,
+                1.660000011920929,
+                94.36154161659056
+              ],
+              "timerDeltaMs": 70.69999999999709
+            },
+            {
+              "atMs": 34474,
+              "gameFrame": 46,
+              "position": [
+                1.9723323350630557,
+                1.660000011920929,
+                94.04829392862337
+              ],
+              "timerDeltaMs": 62
+            },
+            {
+              "atMs": 34540.10000000149,
+              "gameFrame": 47,
+              "position": [
+                2.0761393000663744,
+                1.660000011920929,
+                93.73504624065617
+              ],
+              "timerDeltaMs": 67.40000000000146
+            },
+            {
+              "atMs": 34606.70000000298,
+              "gameFrame": 48,
+              "position": [
+                2.179946265069693,
+                1.660000011920929,
+                93.42179855268898
+              ],
+              "timerDeltaMs": 66.40000000000146
+            },
+            {
+              "atMs": 34673.5,
+              "gameFrame": 49,
+              "position": [
+                2.2837532300730117,
+                1.660000011920929,
+                93.10855086472179
+              ],
+              "timerDeltaMs": 66.09999999999854
+            },
+            {
+              "atMs": 34740,
+              "gameFrame": 50,
+              "position": [
+                2.3875601950763303,
+                1.660000011920929,
+                92.7953031767546
+              ],
+              "timerDeltaMs": 67.20000000000437
+            },
+            {
+              "atMs": 34806.900000002235,
+              "gameFrame": 51,
+              "position": [
+                2.491367160079649,
+                1.660000011920929,
+                92.48205548878741
+              ],
+              "timerDeltaMs": 66.59999999999854
+            },
+            {
+              "atMs": 34874.20000000298,
+              "gameFrame": 52,
+              "position": [
+                2.5951741250829676,
+                1.660000011920929,
+                92.16880780082022
+              ],
+              "timerDeltaMs": 66.29999999999563
+            },
+            {
+              "atMs": 34941.300000000745,
+              "gameFrame": 53,
+              "position": [
+                2.6989810900862863,
+                1.660000011920929,
+                91.85556011285303
+              ],
+              "timerDeltaMs": 67.20000000000437
+            },
+            {
+              "atMs": 35006.800000000745,
+              "gameFrame": 54,
+              "position": [
+                2.802788055089605,
+                1.660000011920929,
+                91.54231242488584
+              ],
+              "timerDeltaMs": 66.59999999999854
+            },
+            {
+              "atMs": 35073.300000000745,
+              "gameFrame": 55,
+              "position": [
+                2.9065950200929236,
+                1.660000011920929,
+                91.22906473691864
+              ],
+              "timerDeltaMs": 66.80000000000291
+            },
+            {
+              "atMs": 35146.10000000149,
+              "gameFrame": 56,
+              "position": [
+                3.0104019850962422,
+                1.660000011920929,
+                90.91581704895145
+              ],
+              "timerDeltaMs": 66.5
+            },
+            {
+              "atMs": 35207.10000000149,
+              "gameFrame": 57,
+              "position": [
+                3.114208950099561,
+                1.660000011920929,
+                90.60256936098426
+              ],
+              "timerDeltaMs": 70.59999999999854
+            },
+            {
+              "atMs": 35279.20000000298,
+              "gameFrame": 58,
+              "position": [
+                3.2180159151028795,
+                1.660000011920929,
+                90.28932167301707
+              ],
+              "timerDeltaMs": 63
+            },
+            {
+              "atMs": 35339.5,
+              "gameFrame": 59,
+              "position": [
+                3.321822880106198,
+                1.660000011920929,
+                89.97607398504988
+              ],
+              "timerDeltaMs": 70.69999999999709
+            },
+            {
+              "atMs": 35406.60000000149,
+              "gameFrame": 60,
+              "position": [
+                3.425629845109517,
+                1.660000011920929,
+                89.66282629708269
+              ],
+              "timerDeltaMs": 62
+            },
+            {
+              "atMs": 35473.300000000745,
+              "gameFrame": 61,
+              "position": [
+                3.5294368101128355,
+                1.660000011920929,
+                89.3495786091155
+              ],
+              "timerDeltaMs": 66.90000000000146
+            },
+            {
+              "atMs": 35539.900000002235,
+              "gameFrame": 62,
+              "position": [
+                3.633243775116154,
+                1.660000011920929,
+                89.0363309211483
+              ],
+              "timerDeltaMs": 66.5
+            },
+            {
+              "atMs": 35606.70000000298,
+              "gameFrame": 63,
+              "position": [
+                3.737050740119473,
+                1.660000011920929,
+                88.72308323318111
+              ],
+              "timerDeltaMs": 66.69999999999709
+            },
+            {
+              "atMs": 35675.300000000745,
+              "gameFrame": 64,
+              "position": [
+                3.8408577051227915,
+                1.660000011920929,
+                88.40983554521392
+              ],
+              "timerDeltaMs": 66.70000000000437
+            }
+          ],
+          "actualPositionSampleCount": 37,
+          "longWindowCount": 27,
+          "failedWindows": [
+            {
+              "fromMs": 33409.70000000298,
+              "untilMs": 33939.800000000745,
+              "seconds": 0.5301,
+              "measured": 4.980192,
+              "upperBound": 1.784377,
+              "pass": false
+            },
+            {
+              "fromMs": 33473.10000000149,
+              "untilMs": 34008,
+              "seconds": 0.5349,
+              "measured": 4.935502,
+              "upperBound": 1.783911,
+              "pass": false
+            },
+            {
+              "fromMs": 33539.900000002235,
+              "untilMs": 34074.5,
+              "seconds": 0.5346,
+              "measured": 4.938272,
+              "upperBound": 1.78394,
+              "pass": false
+            },
+            {
+              "fromMs": 33606.400000002235,
+              "untilMs": 34140.400000002235,
+              "seconds": 0.534,
+              "measured": 4.94382,
+              "upperBound": 1.783998,
+              "pass": false
+            },
+            {
+              "fromMs": 33674.10000000149,
+              "untilMs": 34211,
+              "seconds": 0.5369,
+              "measured": 4.917117,
+              "upperBound": 1.78372,
+              "pass": false
+            },
+            {
+              "fromMs": 33739.800000000745,
+              "untilMs": 34275,
+              "seconds": 0.5352,
+              "measured": 4.932735,
+              "upperBound": 1.783883,
+              "pass": false
+            },
+            {
+              "fromMs": 33806.900000002235,
+              "untilMs": 34346.10000000149,
+              "seconds": 0.5392,
+              "measured": 4.896142,
+              "upperBound": 1.783501,
+              "pass": false
+            },
+            {
+              "fromMs": 33873.900000002235,
+              "untilMs": 34408,
+              "seconds": 0.5341,
+              "measured": 4.942895,
+              "upperBound": 1.783988,
+              "pass": false
+            },
+            {
+              "fromMs": 33939.800000000745,
+              "untilMs": 34474,
+              "seconds": 0.5342,
+              "measured": 4.941969,
+              "upperBound": 1.783979,
+              "pass": false
+            },
+            {
+              "fromMs": 34008,
+              "untilMs": 34540.10000000149,
+              "seconds": 0.5321,
+              "measured": 4.961473,
+              "upperBound": 1.784182,
+              "pass": false
+            },
+            {
+              "fromMs": 34074.5,
+              "untilMs": 34606.70000000298,
+              "seconds": 0.5322,
+              "measured": 4.960541,
+              "upperBound": 1.784172,
+              "pass": false
+            },
+            {
+              "fromMs": 34140.400000002235,
+              "untilMs": 34673.5,
+              "seconds": 0.5331,
+              "measured": 4.952167,
+              "upperBound": 1.784085,
+              "pass": false
+            },
+            {
+              "fromMs": 34211,
+              "untilMs": 34740,
+              "seconds": 0.529,
+              "measured": 4.990548,
+              "upperBound": 1.784485,
+              "pass": false
+            },
+            {
+              "fromMs": 34275,
+              "untilMs": 34806.900000002235,
+              "seconds": 0.5319,
+              "measured": 4.963339,
+              "upperBound": 1.784201,
+              "pass": false
+            },
+            {
+              "fromMs": 34346.10000000149,
+              "untilMs": 34874.20000000298,
+              "seconds": 0.5281,
+              "measured": 4.999053,
+              "upperBound": 1.784573,
+              "pass": false
+            },
+            {
+              "fromMs": 34408,
+              "untilMs": 34941.300000000745,
+              "seconds": 0.5333,
+              "measured": 4.950309,
+              "upperBound": 1.784066,
+              "pass": false
+            },
+            {
+              "fromMs": 34474,
+              "untilMs": 35006.800000000745,
+              "seconds": 0.5328,
+              "measured": 4.954955,
+              "upperBound": 1.784114,
+              "pass": false
+            },
+            {
+              "fromMs": 34540.10000000149,
+              "untilMs": 35073.300000000745,
+              "seconds": 0.5332,
+              "measured": 4.951238,
+              "upperBound": 1.784075,
+              "pass": false
+            },
+            {
+              "fromMs": 34606.70000000298,
+              "untilMs": 35146.10000000149,
+              "seconds": 0.5394,
+              "measured": 4.894327,
+              "upperBound": 1.783483,
+              "pass": false
+            },
+            {
+              "fromMs": 34673.5,
+              "untilMs": 35207.10000000149,
+              "seconds": 0.5336,
+              "measured": 4.947526,
+              "upperBound": 1.784037,
+              "pass": false
+            },
+            {
+              "fromMs": 34740,
+              "untilMs": 35279.20000000298,
+              "seconds": 0.5392,
+              "measured": 4.896142,
+              "upperBound": 1.783501,
+              "pass": false
+            },
+            {
+              "fromMs": 34806.900000002235,
+              "untilMs": 35339.5,
+              "seconds": 0.5326,
+              "measured": 4.956816,
+              "upperBound": 1.784133,
+              "pass": false
+            },
+            {
+              "fromMs": 34874.20000000298,
+              "untilMs": 35406.60000000149,
+              "seconds": 0.5324,
+              "measured": 4.958678,
+              "upperBound": 1.784153,
+              "pass": false
+            },
+            {
+              "fromMs": 34941.300000000745,
+              "untilMs": 35473.300000000745,
+              "seconds": 0.532,
+              "measured": 4.962406,
+              "upperBound": 1.784192,
+              "pass": false
+            },
+            {
+              "fromMs": 35006.800000000745,
+              "untilMs": 35539.900000002235,
+              "seconds": 0.5331,
+              "measured": 4.952167,
+              "upperBound": 1.784085,
+              "pass": false
+            },
+            {
+              "fromMs": 35073.300000000745,
+              "untilMs": 35606.70000000298,
+              "seconds": 0.5334,
+              "measured": 4.949381,
+              "upperBound": 1.784056,
+              "pass": false
+            },
+            {
+              "fromMs": 35146.10000000149,
+              "untilMs": 35675.300000000745,
+              "seconds": 0.5292,
+              "measured": 4.988662,
+              "upperBound": 1.784465,
+              "pass": false
+            }
+          ],
+          "longWindowSpeed": {
+            "n": 27,
+            "mean": 4.948829,
+            "min": 4.894327,
+            "max": 4.999053,
+            "p50": 4.951238,
+            "p95": 4.988662
+          },
+          "stopDrift": 0,
+          "stopDriftLimit": 0.075,
+          "stopDriftRule": "After first post-release physics sample: two actual physics steps + 0.02m; no added render-frame tolerance",
+          "frameRate": {
+            "requestedFps": 15,
+            "actualOnUpdateHz": 14.775178,
+            "observedOnUpdateCount": 37,
+            "wallSeconds": 2.5042,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "measurementTeleportCount": 0,
+          "assertions": [
+            {
+              "label": "距离定量误差",
+              "status": "FAIL",
+              "actual": 8.07807,
+              "limit": 0.178958
+            },
+            {
+              "label": "长窗速度上界",
+              "status": "FAIL",
+              "actual": 4.999053,
+              "limit": "5% + one physics-step sampling error"
+            },
+            {
+              "label": "固定平地与无横向障碍偏移",
+              "status": "PASS",
+              "actual": {
+                "lateral": 0,
+                "heightDelta": 0
+              }
+            },
+            {
+              "label": "释放后停止与输入清空",
+              "status": "PASS",
+              "actual": {
+                "stopDrift": 0,
+                "inputsClear": true
+              },
+              "limit": 0.075
+            }
+          ],
+          "status": "FAIL"
+        },
+        {
+          "type": "movement",
+          "label": "Run Forward · 15 FPS",
+          "inputSource": "synthetic-input: touch DOM",
+          "inputVector": [
+            0,
+            1
+          ],
+          "running": true,
+          "inputDownAtMs": 36901.70000000298,
+          "inputUpAtMs": 39408.900000002235,
+          "inputWallSeconds": 2.5072,
+          "start": [
+            0,
+            1.660000011920929,
+            100
+          ],
+          "end": [
+            9.56282344272996,
+            1.660000011920929,
+            71.14324329029432
+          ],
+          "startPositionSampleAtMs": 36877.20000000298,
+          "endPositionSampleAtMs": 39473.20000000298,
+          "postReleaseSampleDelayMs": 64.3,
+          "immediateUpPosition": [
+            9.56282344272996,
+            1.660000011920929,
+            71.14324329029432
+          ],
+          "positionSampling": "after original cameraFollow.follow; end is first real postphysics sample at/after inputUpAtMs",
+          "configuredSpeed": 4,
+          "speedConfiguration": "Observed return from original avatar.getMovementSpeedScale, multiplied by actual walkSpeed/runSpeed",
+          "expectedDistance": 10.0288,
+          "projectedDistance": 30.4,
+          "lateralDistance": 0,
+          "distanceTolerance": 0.434197,
+          "distanceRule": "abs(projected - speed*T) <= 0.03*speed*T + 2*speed*actualPhysicsStepSeconds",
+          "speedWindowRule": "0.4..0.65s windows after startup: measured <= speed*(1.05 + actualPhysicsStepSeconds/windowSeconds)",
+          "perFrameSpeed": {
+            "n": 37,
+            "mean": 12.01185,
+            "min": 11.235955,
+            "max": 12.903226,
+            "p50": 12.012012,
+            "p95": 12.759171
+          },
+          "perFrameSamples": [
+            {
+              "gameFrame": 84,
+              "atMs": 37008.800000000745,
+              "seconds": 0.0681,
+              "metersPerSecond": 11.74743
+            },
+            {
+              "gameFrame": 85,
+              "atMs": 37075.10000000149,
+              "seconds": 0.0663,
+              "metersPerSecond": 12.066365
+            },
+            {
+              "gameFrame": 86,
+              "atMs": 37139.900000002235,
+              "seconds": 0.0648,
+              "metersPerSecond": 12.345679
+            },
+            {
+              "gameFrame": 87,
+              "atMs": 37207,
+              "seconds": 0.0671,
+              "metersPerSecond": 11.922504
+            },
+            {
+              "gameFrame": 88,
+              "atMs": 37274.400000002235,
+              "seconds": 0.0674,
+              "metersPerSecond": 11.869436
+            },
+            {
+              "gameFrame": 89,
+              "atMs": 37340.900000002235,
+              "seconds": 0.0665,
+              "metersPerSecond": 12.030075
+            },
+            {
+              "gameFrame": 90,
+              "atMs": 37407,
+              "seconds": 0.0661,
+              "metersPerSecond": 12.102874
+            },
+            {
+              "gameFrame": 91,
+              "atMs": 37473.400000002235,
+              "seconds": 0.0664,
+              "metersPerSecond": 12.048193
+            },
+            {
+              "gameFrame": 92,
+              "atMs": 37540.20000000298,
+              "seconds": 0.0668,
+              "metersPerSecond": 11.976048
+            },
+            {
+              "gameFrame": 93,
+              "atMs": 37608.20000000298,
+              "seconds": 0.068,
+              "metersPerSecond": 11.764706
+            },
+            {
+              "gameFrame": 94,
+              "atMs": 37674,
+              "seconds": 0.0658,
+              "metersPerSecond": 12.158055
+            },
+            {
+              "gameFrame": 95,
+              "atMs": 37740.10000000149,
+              "seconds": 0.0661,
+              "metersPerSecond": 12.102874
+            },
+            {
+              "gameFrame": 96,
+              "atMs": 37807.300000000745,
+              "seconds": 0.0672,
+              "metersPerSecond": 11.904762
+            },
+            {
+              "gameFrame": 97,
+              "atMs": 37875.5,
+              "seconds": 0.0682,
+              "metersPerSecond": 11.730205
+            },
+            {
+              "gameFrame": 98,
+              "atMs": 37939.900000002235,
+              "seconds": 0.0644,
+              "metersPerSecond": 12.42236
+            },
+            {
+              "gameFrame": 99,
+              "atMs": 38007.20000000298,
+              "seconds": 0.0673,
+              "metersPerSecond": 11.887073
+            },
+            {
+              "gameFrame": 100,
+              "atMs": 38073.5,
+              "seconds": 0.0663,
+              "metersPerSecond": 12.066365
+            },
+            {
+              "gameFrame": 101,
+              "atMs": 38139.800000000745,
+              "seconds": 0.0663,
+              "metersPerSecond": 12.066365
+            },
+            {
+              "gameFrame": 102,
+              "atMs": 38209.400000002235,
+              "seconds": 0.0696,
+              "metersPerSecond": 11.494253
+            },
+            {
+              "gameFrame": 103,
+              "atMs": 38273.800000000745,
+              "seconds": 0.0644,
+              "metersPerSecond": 12.42236
+            },
+            {
+              "gameFrame": 104,
+              "atMs": 38344,
+              "seconds": 0.0702,
+              "metersPerSecond": 11.396011
+            },
+            {
+              "gameFrame": 105,
+              "atMs": 38412.400000002235,
+              "seconds": 0.0684,
+              "metersPerSecond": 11.695906
+            },
+            {
+              "gameFrame": 106,
+              "atMs": 38474.400000002235,
+              "seconds": 0.062,
+              "metersPerSecond": 12.903226
+            },
+            {
+              "gameFrame": 107,
+              "atMs": 38540.10000000149,
+              "seconds": 0.0657,
+              "metersPerSecond": 12.17656
+            },
+            {
+              "gameFrame": 108,
+              "atMs": 38610.70000000298,
+              "seconds": 0.0706,
+              "metersPerSecond": 11.331445
+            },
+            {
+              "gameFrame": 109,
+              "atMs": 38673,
+              "seconds": 0.0623,
+              "metersPerSecond": 12.841091
+            },
+            {
+              "gameFrame": 110,
+              "atMs": 38740.900000002235,
+              "seconds": 0.0679,
+              "metersPerSecond": 11.782032
+            },
+            {
+              "gameFrame": 111,
+              "atMs": 38809,
+              "seconds": 0.0681,
+              "metersPerSecond": 11.74743
+            },
+            {
+              "gameFrame": 112,
+              "atMs": 38874.10000000149,
+              "seconds": 0.0651,
+              "metersPerSecond": 12.288786
+            },
+            {
+              "gameFrame": 113,
+              "atMs": 38941.800000000745,
+              "seconds": 0.0677,
+              "metersPerSecond": 11.816839
+            },
+            {
+              "gameFrame": 114,
+              "atMs": 39008.400000002235,
+              "seconds": 0.0666,
+              "metersPerSecond": 12.012012
+            },
+            {
+              "gameFrame": 115,
+              "atMs": 39074,
+              "seconds": 0.0656,
+              "metersPerSecond": 12.195122
+            },
+            {
+              "gameFrame": 116,
+              "atMs": 39141,
+              "seconds": 0.067,
+              "metersPerSecond": 11.940299
+            },
+            {
+              "gameFrame": 117,
+              "atMs": 39206.70000000298,
+              "seconds": 0.0657,
+              "metersPerSecond": 12.17656
+            },
+            {
+              "gameFrame": 118,
+              "atMs": 39273.300000000745,
+              "seconds": 0.0666,
+              "metersPerSecond": 12.012012
+            },
+            {
+              "gameFrame": 119,
+              "atMs": 39344.5,
+              "seconds": 0.0712,
+              "metersPerSecond": 11.235955
+            },
+            {
+              "gameFrame": 120,
+              "atMs": 39407.20000000298,
+              "seconds": 0.0627,
+              "metersPerSecond": 12.759171
+            }
+          ],
+          "positionSamples": [
+            {
+              "atMs": 36940.70000000298,
+              "gameFrame": 83,
+              "position": [
+                0.2516532484928942,
+                1.660000011920929,
+                99.24061166553406
+              ],
+              "timerDeltaMs": 70.89999999999418
+            },
+            {
+              "atMs": 37008.800000000745,
+              "gameFrame": 84,
+              "position": [
+                0.5033064969857884,
+                1.660000011920929,
+                98.48122333106812
+              ],
+              "timerDeltaMs": 62.700000000004366
+            },
+            {
+              "atMs": 37075.10000000149,
+              "gameFrame": 85,
+              "position": [
+                0.7549597454786828,
+                1.660000011920929,
+                97.72183499660218
+              ],
+              "timerDeltaMs": 66.59999999999854
+            },
+            {
+              "atMs": 37139.900000002235,
+              "gameFrame": 86,
+              "position": [
+                1.006612993971577,
+                1.660000011920929,
+                96.96244666213624
+              ],
+              "timerDeltaMs": 66.80000000000291
+            },
+            {
+              "atMs": 37207,
+              "gameFrame": 87,
+              "position": [
+                1.258266242464471,
+                1.660000011920929,
+                96.2030583276703
+              ],
+              "timerDeltaMs": 66.39999999999418
+            },
+            {
+              "atMs": 37274.400000002235,
+              "gameFrame": 88,
+              "position": [
+                1.509919490957365,
+                1.660000011920929,
+                95.44366999320437
+              ],
+              "timerDeltaMs": 66.60000000000582
+            },
+            {
+              "atMs": 37340.900000002235,
+              "gameFrame": 89,
+              "position": [
+                1.761572739450259,
+                1.660000011920929,
+                94.68428165873843
+              ],
+              "timerDeltaMs": 67.29999999999563
+            },
+            {
+              "atMs": 37407,
+              "gameFrame": 90,
+              "position": [
+                2.013225987943153,
+                1.6600000119209288,
+                93.92489332427249
+              ],
+              "timerDeltaMs": 67.30000000000291
+            },
+            {
+              "atMs": 37473.400000002235,
+              "gameFrame": 91,
+              "position": [
+                2.2648792364360477,
+                1.660000011920929,
+                93.16550498980655
+              ],
+              "timerDeltaMs": 65.40000000000146
+            },
+            {
+              "atMs": 37540.20000000298,
+              "gameFrame": 92,
+              "position": [
+                2.5165324849289425,
+                1.660000011920929,
+                92.40611665534061
+              ],
+              "timerDeltaMs": 66.79999999999563
+            },
+            {
+              "atMs": 37608.20000000298,
+              "gameFrame": 93,
+              "position": [
+                2.7681857334218374,
+                1.660000011920929,
+                91.64672832087467
+              ],
+              "timerDeltaMs": 67
+            },
+            {
+              "atMs": 37674,
+              "gameFrame": 94,
+              "position": [
+                3.019838981914732,
+                1.660000011920929,
+                90.88733998640873
+              ],
+              "timerDeltaMs": 66.40000000000146
+            },
+            {
+              "atMs": 37740.10000000149,
+              "gameFrame": 95,
+              "position": [
+                3.271492230407627,
+                1.660000011920929,
+                90.1279516519428
+              ],
+              "timerDeltaMs": 67.09999999999854
+            },
+            {
+              "atMs": 37807.300000000745,
+              "gameFrame": 96,
+              "position": [
+                3.523145478900522,
+                1.660000011920929,
+                89.36856331747686
+              ],
+              "timerDeltaMs": 66.09999999999854
+            },
+            {
+              "atMs": 37875.5,
+              "gameFrame": 97,
+              "position": [
+                3.7747987273934167,
+                1.660000011920929,
+                88.60917498301092
+              ],
+              "timerDeltaMs": 67.20000000000437
+            },
+            {
+              "atMs": 37939.900000002235,
+              "gameFrame": 98,
+              "position": [
+                4.026451975886311,
+                1.660000011920929,
+                87.84978664854498
+              ],
+              "timerDeltaMs": 66.69999999999709
+            },
+            {
+              "atMs": 38007.20000000298,
+              "gameFrame": 99,
+              "position": [
+                4.278105224379204,
+                1.660000011920929,
+                87.09039831407904
+              ],
+              "timerDeltaMs": 66
+            },
+            {
+              "atMs": 38073.5,
+              "gameFrame": 100,
+              "position": [
+                4.529758472872097,
+                1.660000011920929,
+                86.3310099796131
+              ],
+              "timerDeltaMs": 67.30000000000291
+            },
+            {
+              "atMs": 38139.800000000745,
+              "gameFrame": 101,
+              "position": [
+                4.78141172136499,
+                1.660000011920929,
+                85.57162164514716
+              ],
+              "timerDeltaMs": 66.40000000000146
+            },
+            {
+              "atMs": 38209.400000002235,
+              "gameFrame": 102,
+              "position": [
+                5.033064969857883,
+                1.660000011920929,
+                84.81223331068122
+              ],
+              "timerDeltaMs": 66.29999999999563
+            },
+            {
+              "atMs": 38273.800000000745,
+              "gameFrame": 103,
+              "position": [
+                5.284718218350776,
+                1.660000011920929,
+                84.05284497621528
+              ],
+              "timerDeltaMs": 67.20000000000437
+            },
+            {
+              "atMs": 38344,
+              "gameFrame": 104,
+              "position": [
+                5.536371466843669,
+                1.660000011920929,
+                83.29345664174934
+              ],
+              "timerDeltaMs": 66.79999999999563
+            },
+            {
+              "atMs": 38412.400000002235,
+              "gameFrame": 105,
+              "position": [
+                5.7880247153365625,
+                1.660000011920929,
+                82.5340683072834
+              ],
+              "timerDeltaMs": 70.30000000000291
+            },
+            {
+              "atMs": 38474.400000002235,
+              "gameFrame": 106,
+              "position": [
+                6.0396779638294555,
+                1.660000011920929,
+                81.77467997281747
+              ],
+              "timerDeltaMs": 66.69999999999709
+            },
+            {
+              "atMs": 38540.10000000149,
+              "gameFrame": 107,
+              "position": [
+                6.291331212322349,
+                1.660000011920929,
+                81.01529163835153
+              ],
+              "timerDeltaMs": 63
+            },
+            {
+              "atMs": 38610.70000000298,
+              "gameFrame": 108,
+              "position": [
+                6.542984460815242,
+                1.660000011920929,
+                80.25590330388559
+              ],
+              "timerDeltaMs": 66.30000000000291
+            },
+            {
+              "atMs": 38673,
+              "gameFrame": 109,
+              "position": [
+                6.794637709308135,
+                1.660000011920929,
+                79.49651496941965
+              ],
+              "timerDeltaMs": 70.69999999999709
+            },
+            {
+              "atMs": 38740.900000002235,
+              "gameFrame": 110,
+              "position": [
+                7.046290957801028,
+                1.660000011920929,
+                78.73712663495371
+              ],
+              "timerDeltaMs": 62.400000000001455
+            },
+            {
+              "atMs": 38809,
+              "gameFrame": 111,
+              "position": [
+                7.297944206293921,
+                1.660000011920929,
+                77.97773830048777
+              ],
+              "timerDeltaMs": 67.5
+            },
+            {
+              "atMs": 38874.10000000149,
+              "gameFrame": 112,
+              "position": [
+                7.549597454786814,
+                1.660000011920929,
+                77.21834996602183
+              ],
+              "timerDeltaMs": 66.40000000000146
+            },
+            {
+              "atMs": 38941.800000000745,
+              "gameFrame": 113,
+              "position": [
+                7.801250703279707,
+                1.660000011920929,
+                76.4589616315559
+              ],
+              "timerDeltaMs": 66.69999999999709
+            },
+            {
+              "atMs": 39008.400000002235,
+              "gameFrame": 114,
+              "position": [
+                8.0529039517726,
+                1.660000011920929,
+                75.69957329708996
+              ],
+              "timerDeltaMs": 66.5
+            },
+            {
+              "atMs": 39074,
+              "gameFrame": 115,
+              "position": [
+                8.304557200265494,
+                1.660000011920929,
+                74.94018496262402
+              ],
+              "timerDeltaMs": 66.59999999999854
+            },
+            {
+              "atMs": 39141,
+              "gameFrame": 116,
+              "position": [
+                8.556210448758387,
+                1.660000011920929,
+                74.18079662815808
+              ],
+              "timerDeltaMs": 66.80000000000291
+            },
+            {
+              "atMs": 39206.70000000298,
+              "gameFrame": 117,
+              "position": [
+                8.80786369725128,
+                1.660000011920929,
+                73.42140829369214
+              ],
+              "timerDeltaMs": 66.69999999999709
+            },
+            {
+              "atMs": 39273.300000000745,
+              "gameFrame": 118,
+              "position": [
+                9.059516945744173,
+                1.660000011920929,
+                72.6620199592262
+              ],
+              "timerDeltaMs": 66.20000000000437
+            },
+            {
+              "atMs": 39344.5,
+              "gameFrame": 119,
+              "position": [
+                9.311170194237066,
+                1.660000011920929,
+                71.90263162476026
+              ],
+              "timerDeltaMs": 66.59999999999854
+            },
+            {
+              "atMs": 39407.20000000298,
+              "gameFrame": 120,
+              "position": [
+                9.56282344272996,
+                1.660000011920929,
+                71.14324329029432
+              ],
+              "timerDeltaMs": 71.30000000000291
+            }
+          ],
+          "actualPositionSampleCount": 38,
+          "longWindowCount": 28,
+          "failedWindows": [
+            {
+              "fromMs": 37075.10000000149,
+              "untilMs": 37608.20000000298,
+              "seconds": 0.5331,
+              "measured": 12.005252,
+              "upperBound": 4.325055,
+              "pass": false
+            },
+            {
+              "fromMs": 37139.900000002235,
+              "untilMs": 37674,
+              "seconds": 0.5341,
+              "measured": 11.982775,
+              "upperBound": 4.324821,
+              "pass": false
+            },
+            {
+              "fromMs": 37207,
+              "untilMs": 37740.10000000149,
+              "seconds": 0.5331,
+              "measured": 12.005252,
+              "upperBound": 4.325055,
+              "pass": false
+            },
+            {
+              "fromMs": 37274.400000002235,
+              "untilMs": 37807.300000000745,
+              "seconds": 0.5329,
+              "measured": 12.009758,
+              "upperBound": 4.325102,
+              "pass": false
+            },
+            {
+              "fromMs": 37340.900000002235,
+              "untilMs": 37875.5,
+              "seconds": 0.5346,
+              "measured": 11.971568,
+              "upperBound": 4.324704,
+              "pass": false
+            },
+            {
+              "fromMs": 37407,
+              "untilMs": 37939.900000002235,
+              "seconds": 0.5329,
+              "measured": 12.009758,
+              "upperBound": 4.325102,
+              "pass": false
+            },
+            {
+              "fromMs": 37473.400000002235,
+              "untilMs": 38007.20000000298,
+              "seconds": 0.5338,
+              "measured": 11.989509,
+              "upperBound": 4.324891,
+              "pass": false
+            },
+            {
+              "fromMs": 37540.20000000298,
+              "untilMs": 38073.5,
+              "seconds": 0.5333,
+              "measured": 12.00075,
+              "upperBound": 4.325008,
+              "pass": false
+            },
+            {
+              "fromMs": 37608.20000000298,
+              "untilMs": 38139.800000000745,
+              "seconds": 0.5316,
+              "measured": 12.039127,
+              "upperBound": 4.325408,
+              "pass": false
+            },
+            {
+              "fromMs": 37674,
+              "untilMs": 38209.400000002235,
+              "seconds": 0.5354,
+              "measured": 11.953679,
+              "upperBound": 4.324517,
+              "pass": false
+            },
+            {
+              "fromMs": 37740.10000000149,
+              "untilMs": 38273.800000000745,
+              "seconds": 0.5337,
+              "measured": 11.991756,
+              "upperBound": 4.324914,
+              "pass": false
+            },
+            {
+              "fromMs": 37807.300000000745,
+              "untilMs": 38344,
+              "seconds": 0.5367,
+              "measured": 11.924725,
+              "upperBound": 4.324216,
+              "pass": false
+            },
+            {
+              "fromMs": 37875.5,
+              "untilMs": 38412.400000002235,
+              "seconds": 0.5369,
+              "measured": 11.920283,
+              "upperBound": 4.32417,
+              "pass": false
+            },
+            {
+              "fromMs": 37939.900000002235,
+              "untilMs": 38474.400000002235,
+              "seconds": 0.5345,
+              "measured": 11.973807,
+              "upperBound": 4.324727,
+              "pass": false
+            },
+            {
+              "fromMs": 38007.20000000298,
+              "untilMs": 38540.10000000149,
+              "seconds": 0.5329,
+              "measured": 12.009758,
+              "upperBound": 4.325102,
+              "pass": false
+            },
+            {
+              "fromMs": 38073.5,
+              "untilMs": 38610.70000000298,
+              "seconds": 0.5372,
+              "measured": 11.913626,
+              "upperBound": 4.3241,
+              "pass": false
+            },
+            {
+              "fromMs": 38139.800000000745,
+              "untilMs": 38673,
+              "seconds": 0.5332,
+              "measured": 12.003001,
+              "upperBound": 4.325031,
+              "pass": false
+            },
+            {
+              "fromMs": 38209.400000002235,
+              "untilMs": 38740.900000002235,
+              "seconds": 0.5315,
+              "measured": 12.041392,
+              "upperBound": 4.325431,
+              "pass": false
+            },
+            {
+              "fromMs": 38273.800000000745,
+              "untilMs": 38809,
+              "seconds": 0.5352,
+              "measured": 11.958146,
+              "upperBound": 4.324564,
+              "pass": false
+            },
+            {
+              "fromMs": 38344,
+              "untilMs": 38874.10000000149,
+              "seconds": 0.5301,
+              "measured": 12.073194,
+              "upperBound": 4.325762,
+              "pass": false
+            },
+            {
+              "fromMs": 38412.400000002235,
+              "untilMs": 38941.800000000745,
+              "seconds": 0.5294,
+              "measured": 12.089158,
+              "upperBound": 4.325929,
+              "pass": false
+            },
+            {
+              "fromMs": 38474.400000002235,
+              "untilMs": 39008.400000002235,
+              "seconds": 0.534,
+              "measured": 11.985019,
+              "upperBound": 4.324844,
+              "pass": false
+            },
+            {
+              "fromMs": 38540.10000000149,
+              "untilMs": 39074,
+              "seconds": 0.5339,
+              "measured": 11.987264,
+              "upperBound": 4.324867,
+              "pass": false
+            },
+            {
+              "fromMs": 38610.70000000298,
+              "untilMs": 39141,
+              "seconds": 0.5303,
+              "measured": 12.06864,
+              "upperBound": 4.325715,
+              "pass": false
+            },
+            {
+              "fromMs": 38673,
+              "untilMs": 39206.70000000298,
+              "seconds": 0.5337,
+              "measured": 11.991756,
+              "upperBound": 4.324914,
+              "pass": false
+            },
+            {
+              "fromMs": 38740.900000002235,
+              "untilMs": 39273.300000000745,
+              "seconds": 0.5324,
+              "measured": 12.021037,
+              "upperBound": 4.325219,
+              "pass": false
+            },
+            {
+              "fromMs": 38809,
+              "untilMs": 39344.5,
+              "seconds": 0.5355,
+              "measured": 11.951447,
+              "upperBound": 4.324494,
+              "pass": false
+            },
+            {
+              "fromMs": 38874.10000000149,
+              "untilMs": 39407.20000000298,
+              "seconds": 0.5331,
+              "measured": 12.005252,
+              "upperBound": 4.325055,
+              "pass": false
+            }
+          ],
+          "longWindowSpeed": {
+            "n": 28,
+            "mean": 11.995596,
+            "min": 11.913626,
+            "max": 12.089158,
+            "p50": 11.991756,
+            "p95": 12.06864
+          },
+          "stopDrift": 0,
+          "stopDriftLimit": 0.153333,
+          "stopDriftRule": "After first post-release physics sample: two actual physics steps + 0.02m; no added render-frame tolerance",
+          "frameRate": {
+            "requestedFps": 15,
+            "actualOnUpdateHz": 15.15635,
+            "observedOnUpdateCount": 38,
+            "wallSeconds": 2.5072,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "measurementTeleportCount": 0,
+          "assertions": [
+            {
+              "label": "距离定量误差",
+              "status": "FAIL",
+              "actual": 20.3712,
+              "limit": 0.434197
+            },
+            {
+              "label": "长窗速度上界",
+              "status": "FAIL",
+              "actual": 12.089158,
+              "limit": "5% + one physics-step sampling error"
+            },
+            {
+              "label": "固定平地与无横向障碍偏移",
+              "status": "PASS",
+              "actual": {
+                "lateral": 0,
+                "heightDelta": 0
+              }
+            },
+            {
+              "label": "释放后停止与输入清空",
+              "status": "PASS",
+              "actual": {
+                "stopDrift": 0,
+                "inputsClear": true
+              },
+              "limit": 0.153333
+            }
+          ],
+          "status": "FAIL"
+        },
+        {
+          "type": "firing",
+          "label": "连续射击 2s / 释放 500ms · 15 FPS",
+          "inputSource": "synthetic-input: touch DOM",
+          "inputDownAtMs": 40633,
+          "inputUpAtMs": 42633.800000000745,
+          "inputWallSeconds": 2.0008,
+          "shotCount": 8,
+          "idealCountAt5Hz": 10.004,
+          "shotEvents": [
+            {
+              "id": "observed-1",
+              "atMs": 40671.60000000149,
+              "observedAtMs": 40671.60000000149,
+              "gameFrame": 139,
+              "frameIntervalMs": 67.40000000223517,
+              "source": "real avatar.step fireCount delta"
+            },
+            {
+              "id": "observed-2",
+              "atMs": 40938.10000000149,
+              "observedAtMs": 40938.10000000149,
+              "gameFrame": 143,
+              "frameIntervalMs": 65.79999999701977,
+              "source": "real avatar.step fireCount delta"
+            },
+            {
+              "id": "observed-3",
+              "atMs": 41204.400000002235,
+              "observedAtMs": 41204.400000002235,
+              "gameFrame": 147,
+              "frameIntervalMs": 66.69999999925494,
+              "source": "real avatar.step fireCount delta"
+            },
+            {
+              "id": "observed-4",
+              "atMs": 41475.300000000745,
+              "observedAtMs": 41475.300000000745,
+              "gameFrame": 151,
+              "frameIntervalMs": 70.90000000223517,
+              "source": "real avatar.step fireCount delta"
+            },
+            {
+              "id": "observed-5",
+              "atMs": 41742.300000000745,
+              "observedAtMs": 41742.300000000745,
+              "gameFrame": 155,
+              "frameIntervalMs": 70.80000000074506,
+              "source": "real avatar.step fireCount delta"
+            },
+            {
+              "id": "observed-6",
+              "atMs": 42004.800000000745,
+              "observedAtMs": 42004.800000000745,
+              "gameFrame": 159,
+              "frameIntervalMs": 66.60000000149012,
+              "source": "real avatar.step fireCount delta"
+            },
+            {
+              "id": "observed-7",
+              "atMs": 42271.20000000298,
+              "observedAtMs": 42271.20000000298,
+              "gameFrame": 163,
+              "frameIntervalMs": 66.90000000223517,
+              "source": "real avatar.step fireCount delta"
+            },
+            {
+              "id": "observed-8",
+              "atMs": 42538.10000000149,
+              "observedAtMs": 42538.10000000149,
+              "gameFrame": 167,
+              "frameIntervalMs": 67.29999999701977,
+              "source": "real avatar.step fireCount delta"
+            }
+          ],
+          "intervals": [
+            {
+              "seconds": 0.2665,
+              "allowedErrorSeconds": 0.0674
+            },
+            {
+              "seconds": 0.2663,
+              "allowedErrorSeconds": 0.0667
+            },
+            {
+              "seconds": 0.2709,
+              "allowedErrorSeconds": 0.0709
+            },
+            {
+              "seconds": 0.267,
+              "allowedErrorSeconds": 0.0709
+            },
+            {
+              "seconds": 0.2625,
+              "allowedErrorSeconds": 0.0708
+            },
+            {
+              "seconds": 0.2664,
+              "allowedErrorSeconds": 0.0669
+            },
+            {
+              "seconds": 0.2669,
+              "allowedErrorSeconds": 0.0673
+            }
+          ],
+          "batches": [
+            {
+              "atMs": 40671.60000000149,
+              "gameFrame": 139,
+              "delta": 1
+            },
+            {
+              "atMs": 40938.10000000149,
+              "gameFrame": 143,
+              "delta": 1
+            },
+            {
+              "atMs": 41204.400000002235,
+              "gameFrame": 147,
+              "delta": 1
+            },
+            {
+              "atMs": 41475.300000000745,
+              "gameFrame": 151,
+              "delta": 1
+            },
+            {
+              "atMs": 41742.300000000745,
+              "gameFrame": 155,
+              "delta": 1
+            },
+            {
+              "atMs": 42004.800000000745,
+              "gameFrame": 159,
+              "delta": 1
+            },
+            {
+              "atMs": 42271.20000000298,
+              "gameFrame": 163,
+              "delta": 1
+            },
+            {
+              "atMs": 42538.10000000149,
+              "gameFrame": 167,
+              "delta": 1
+            }
+          ],
+          "postRelease500msNewShots": 0,
+          "frameRate": {
+            "requestedFps": 15,
+            "actualOnUpdateHz": 14.994002,
+            "observedOnUpdateCount": 30,
+            "wallSeconds": 2.0008,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "measurementTeleportCount": 0,
+          "assertions": [
+            {
+              "label": "2秒约5Hz，计数允许±1",
+              "status": "FAIL",
+              "actual": 8,
+              "limit": {
+                "ideal": 10.004,
+                "toleranceShots": 1
+              }
+            },
+            {
+              "label": "相邻发射间隔0.2秒±一实际帧",
+              "status": "PASS",
+              "actual": {
+                "n": 7,
+                "mean": 0.266643,
+                "min": 0.2625,
+                "max": 0.2709,
+                "p50": 0.2665,
+                "p95": 0.267
+              },
+              "limit": "0.2 ± one observed game frame"
+            },
+            {
+              "label": "同一真实游戏帧不补发多枪",
+              "status": "PASS",
+              "actual": 1,
+              "limit": 1
+            },
+            {
+              "label": "松开500ms无新增发射且输入清空",
+              "status": "PASS",
+              "actual": {
+                "added": 0,
+                "clear": true
+              },
+              "limit": 0
+            }
+          ],
+          "status": "FAIL"
+        }
+      ],
+      "setups": [
+        {
+          "atMs": 32410.400000002235,
+          "label": "Forward",
+          "operation": "test-only: motor.position + player.transform.position",
+          "before": [
+            -26,
+            1.7599999761581422,
+            37.2
+          ],
+          "requested": [
+            0,
+            1.88,
+            100
+          ],
+          "measurementActive": false,
+          "settled": [
+            0,
+            1.660000011920929,
+            100
+          ]
+        },
+        {
+          "atMs": 36097,
+          "label": "Forward",
+          "operation": "test-only: motor.position + player.transform.position",
+          "before": [
+            3.8408577051227915,
+            1.660000011920929,
+            88.40983554521392
+          ],
+          "requested": [
+            0,
+            1.88,
+            100
+          ],
+          "measurementActive": false,
+          "settled": [
+            0,
+            1.660000011920929,
+            100
+          ]
+        },
+        {
+          "atMs": 39826.400000002235,
+          "label": "Firing",
+          "operation": "test-only: motor.position + player.transform.position",
+          "before": [
+            9.56282344272996,
+            1.660000011920929,
+            71.14324329029432
+          ],
+          "requested": [
+            0,
+            1.88,
+            100
+          ],
+          "measurementActive": false,
+          "settled": [
+            0,
+            1.660000011920929,
+            100
+          ]
+        }
+      ],
+      "errors": [],
+      "inputSource": "synthetic-input",
+      "testOnlySetup": true,
+      "request": {
+        "targetFps": 15,
+        "view": "FP",
+        "setupPosition": [
+          0,
+          1.88,
+          100
+        ],
+        "holdMs": 2500,
+        "physicsStepSeconds": 0.016666666666666666,
+        "physicsStepBasis": "actual game.world.physicsSimulation.fixedTimeStep; no physics clock changes",
+        "scene3DPhysicsSettings": {
+          "fixedTimeStep": 0.016666666666666666,
+          "maxSubSteps": 4
+        },
+        "instanceMatchesScene3DSetting": true
+      },
+      "environmentBefore": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "viewport": [
+          1036,
+          849
+        ],
+        "devicePixelRatio": 1.5,
+        "engineVersion": null,
+        "renderFrameInterval": 16.666666666666668,
+        "stageFrameRate": "fast",
+        "canvases": [
+          {
+            "id": "layaCanvas",
+            "width": 915,
+            "height": 750,
+            "clientWidth": 915,
+            "clientHeight": 750
+          },
+          {
+            "id": "",
+            "width": 1024,
+            "height": 512,
+            "clientWidth": 1024,
+            "clientHeight": 512
+          }
+        ]
+      },
+      "rateSetting": {
+        "api": "Laya.Render.frameInterval = 1000/target; Laya.stage.frameRate = fast",
+        "timerMutation": false,
+        "setAtMs": 31409.5
+      },
+      "endedAt": "2026-09-21T06:41:29.411Z",
+      "wallElapsedMs": 11730.2,
+      "cleanup": {
+        "releasedPointerIds": true,
+        "restoredOwnedRunToggle": true,
+        "originalMethodsRestored": true,
+        "restoredFrameInterval": 16.666666666666668,
+        "restoredStageFrameRate": "fast"
+      },
+      "totalOriginalOnUpdateCalls": 175,
+      "totalPostPhysicsPositionSamples": 175,
+      "nativeEvents": [],
+      "finalState": {
+        "ready": true,
+        "firstPerson": true,
+        "grounded": true,
+        "position": [
+          0,
+          1.660000011920929,
+          100
+        ],
+        "yaw": 0.32,
+        "speed": 0,
+        "fps": 15,
+        "keys": [],
+        "triggerHeld": false,
+        "touch": {
+          "enabled": true,
+          "move": [
+            0,
+            0
+          ],
+          "running": false,
+          "shooting": false,
+          "shootPointers": 0,
+          "pointers": 0,
+          "moving": false,
+          "looking": false
+        },
+        "avatar": {
+          "motion": "Idle",
+          "base": "Idle",
+          "upper": "UpperIdle",
+          "shots": 8,
+          "shooting": false,
+          "triggerHeld": false
+        }
+      }
+    }
+  ],
+  "archivedSummaries": [],
+  "discardedSummaryCount": 0,
+  "errors": [],
+  "live": {
+    "ready": true,
+    "firstPerson": true,
+    "grounded": true,
+    "position": [
+      0,
+      1.660000011920929,
+      100
+    ],
+    "yaw": 0.32,
+    "speed": 0,
+    "fps": 60,
+    "keys": [],
+    "triggerHeld": false,
+    "touch": {
+      "enabled": true,
+      "move": [
+        0,
+        0
+      ],
+      "running": false,
+      "shooting": false,
+      "shootPointers": 0,
+      "pointers": 0,
+      "moving": false,
+      "looking": false
+    },
+    "avatar": {
+      "motion": "Idle",
+      "base": "Idle",
+      "upper": "UpperIdle",
+      "shots": 8,
+      "shooting": false,
+      "triggerHeld": false
+    }
+  },
+  "realBackgroundVerification": {
+    "status": "NOT TESTED"
+  },
+  "boundaries": [
+    "synthetic-input through existing touch controls",
+    "test-only setup position changes are logged; no measurement-stage teleport",
+    "Render.frameInterval changes only the real loop gate; no fake timer/delta/clock",
+    "GPU time, physical touch hardware and native Escape are not verified"
+  ],
+  "updatedAt": "2026-09-21T06:42:35.727Z"
+}

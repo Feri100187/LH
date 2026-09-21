@@ -1,0 +1,35 @@
+{
+  "runId": "fa605726-a14d-434a-ada4-2d363ce31eed",
+  "category": "build",
+  "project": "C:\\Users\\freedom\\.codex\\worktrees\\lh-m01-verification\\LH",
+  "platform": "web",
+  "startedAt": "2026-09-21T06:21:44.858Z",
+  "status": "FAIL",
+  "before": {
+    "library": false,
+    "local": false,
+    "release": false,
+    "bin/js/bundles": false
+  },
+  "buildOptions": {
+    "name": "LH",
+    "sourcemap": true,
+    "sourcesContent": true
+  },
+  "manifestSHA256": "d100ccfdf5c1255b1e6c2dc669169aedc43351b0e58319cfe84108783903ab27",
+  "output": "C:\\Users\\freedom\\.codex\\worktrees\\lh-m01-verification\\LH\\release\\web",
+  "assetsCheck": {
+    "status": "FAIL",
+    "runId": "a6e9caeb-8fb9-4f05-bf23-3c3d712df157",
+    "report": "C:\\Users\\freedom\\.codex\\worktrees\\lh-m01-verification\\LH\\.test-reports\\m01-before-build\\assets-check\\assets-result.json",
+    "exitCode": 1
+  },
+  "error": "Error: assets:check failed; see this run's assets-check.log\n    at main (C:\\Users\\freedom\\.codex\\worktrees\\lh-m01-verification\\LH\\tools\\build.cjs:95:43)\n    at Object.<anonymous> (C:\\Users\\freedom\\.codex\\worktrees\\lh-m01-verification\\LH\\tools\\build.cjs:127:30)\n    at Module._compile (node:internal/modules/cjs/loader:1854:14)\n    at Object..js (node:internal/modules/cjs/loader:1985:10)\n    at Module.load (node:internal/modules/cjs/loader:1577:32)\n    at Module._load (node:internal/modules/cjs/loader:1379:12)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)\n    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)\n    at node:internal/main/run_main_module:33:47",
+  "finishedAt": "2026-09-21T06:21:45.667Z",
+  "after": {
+    "library": false,
+    "local": false,
+    "release": false,
+    "bin/js/bundles": false
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "scope": "Real asset/build entrypoints and actual copied baseline; only IDE boundary and corrupt checker output injected",
+  "native_ide_executions": 0,
+  "fixture_removed_after_pass": true,
+  "limitations": [
+    "No native IDE import/build or browser rendering was exercised by this tooling suite"
+  ],
+  "suite": "asset-entry-contract",
+  "run_id": "f3b54e6c-5478-45ca-8b0c-6ebb77e108dd",
+  "checked_utc": "2026-09-21T07:14:17.334Z",
+  "project_root": "D:\\a\\xiang_mu\\LH",
+  "node_version": "v24.16.0",
+  "typescript_version": "5.9.3",
+  "ide": {
+    "root": "D:\\a\\LayaAirIDE",
+    "version": "3.4.1"
+  },
+  "engine_sources": [],
+  "status": "PASS",
+  "total": 11,
+  "passed": 11,
+  "failed": 0,
+  "not_tested": 0,
+  "categories": {
+    "tooling_contract": {
+      "total": 11,
+      "passed": 11,
+      "failed": 0,
+      "not_tested": 0
+    }
+  },
+  "tests": [
+    {
+      "name": "real_asset_check_passes_in_isolated_project",
+      "kind": "tooling_contract",
+      "status": "PASS",
+      "details": {
+        "checks": 10,
+        "runtimeAndMetadataWrites": 0,
+        "report": "D:\\a\\xiang_mu\\LH\\.test-reports\\m01-final-tests\\asset-entry-cases\\baseline\\assets-result.json"
+      }
+    },
+    {
+      "name": "legacy_source_override_is_rejected_before_writes",
+      "kind": "tooling_contract",
+      "status": "PASS",
+      "details": {
+        "exitCode": 1,
+        "acceptedSourceOverride": false
+      }
+    },
+    {
+      "name": "unapproved_source_hash_blocks_prepare_before_generation",
+      "kind": "tooling_contract",
+      "status": "PASS",
+      "details": {
+        "exitCode": 1,
+        "generationStarted": false,
+        "report": "D:\\a\\xiang_mu\\LH\\.test-reports\\m01-final-tests\\asset-entry-cases\\source-hash\\assets-result.json"
+      }
+    },
+    {
+      "name": "native_import_failure_cannot_be_reported_as_pass",
+      "kind": "tooling_contract",
+      "status": "PASS",
+      "details": {
+        "exitCode": 1,
+        "nativeProcessStarted": false,
+        "runtimeAndMetadataWrites": 0,
+        "report": "D:\\a\\xiang_mu\\LH\\.test-reports\\m01-final-tests\\asset-entry-cases\\import-failure\\assets-result.json"
+      }
+    },
+    {
+      "name": "build_rejects_missing_checker_before_native_call",
+      "kind": "tooling_contract",
+      "status": "PASS",
+      "details": {
+        "exitCode": 1,
+        "nativeBoundaryCalled": false,
+        "report": "D:\\a\\xiang_mu\\LH\\.test-reports\\m01-final-tests\\asset-entry-cases\\build-missing_checker\\build-summary.json"
+      }
+    },
+    {
+      "name": "build_rejects_missing_current_result_before_native_call",
+      "kind": "tooling_contract",
+      "status": "PASS",
+      "details": {
+        "exitCode": 1,
+        "nativeBoundaryCalled": false,
+        "report": "D:\\a\\xiang_mu\\LH\\.test-reports\\m01-final-tests\\asset-entry-cases\\build-missing_current_result\\build-summary.json"
+      }
+    },
+    {
+      "name": "build_rejects_stale_run_id_before_native_call",
+      "kind": "tooling_contract",
+      "status": "PASS",
+      "details": {
+        "exitCode": 1,
+        "nativeBoundaryCalled": false,
+        "report": "D:\\a\\xiang_mu\\LH\\.test-reports\\m01-final-tests\\asset-entry-cases\\build-stale_run_id\\build-summary.json"
+      }
+    },
+    {
+      "name": "build_rejects_stale_timestamp_before_native_call",
+      "kind": "tooling_contract",
+      "status": "PASS",
+      "details": {
+        "exitCode": 1,
+        "nativeBoundaryCalled": false,
+        "report": "D:\\a\\xiang_mu\\LH\\.test-reports\\m01-final-tests\\asset-entry-cases\\build-stale_timestamp\\build-summary.json"
+      }
+    },
+    {
+      "name": "build_rejects_wrong_manifest_hash_before_native_call",
+      "kind": "tooling_contract",
+      "status": "PASS",
+      "details": {
+        "exitCode": 1,
+        "nativeBoundaryCalled": false,
+        "report": "D:\\a\\xiang_mu\\LH\\.test-reports\\m01-final-tests\\asset-entry-cases\\build-wrong_manifest_hash\\build-summary.json"
+      }
+    },
+    {
+      "name": "fresh_check_forwards_manifest_build_options_and_notices",
+      "kind": "tooling_contract",
+      "status": "PASS",
+      "details": {
+        "checks": 10,
+        "options": {
+          "name": "LH",
+          "sourcemap": true,
+          "sourcesContent": true
+        },
+        "notices": [
+          {
+            "source": "ASSET_CREDITS.md",
+            "output": "ASSET_CREDITS.md",
+            "bytes": 1000,
+            "sha256": "9e04d693e1eebb8e05c24d66d7485ce7e3a0367e98dde3dfe009d323135203a1"
+          },
+          {
+            "source": "source_art/LakeDucks/original/LICENSE_CC_BY_3.0.txt",
+            "output": "LICENSE_DUCK_CC_BY_3.0.txt",
+            "bytes": 19467,
+            "sha256": "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+          }
+        ],
+        "nativeExecution": "STUBBED; this verifies Node orchestration, not native engine build success"
+      }
+    },
+    {
+      "name": "all_entry_paths_leave_runtime_metadata_and_settings_untouched",
+      "kind": "tooling_contract",
+      "status": "PASS",
+      "details": {
+        "copiedProtectedFiles": 596,
+        "metadataFiles": 296,
+        "changedFiles": 0,
+        "newFiles": 0,
+        "deletedFiles": 0,
+        "timestampOnlyWrites": 0
+      }
+    }
+  ]
+}

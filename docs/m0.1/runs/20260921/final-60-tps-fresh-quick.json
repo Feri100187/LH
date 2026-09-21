@@ -1,0 +1,4519 @@
+{
+  "schemaVersion": 1,
+  "numericProtocol": "m01-postphysics-v1",
+  "tool": "LH M0.1 localhost acceptance",
+  "createdAt": "2026-09-21T07:30:22.828Z",
+  "url": "http://127.0.0.1:18771/?controls=touch&m01=foreground",
+  "status": "PASS",
+  "active": null,
+  "history": [
+    {
+      "runId": "m01-1789975860287-1",
+      "startedAt": "2026-09-21T07:31:00.287Z",
+      "status": "PASS",
+      "type": "quick",
+      "cases": [
+        {
+          "type": "movement",
+          "label": "Walk Forward · 60 FPS",
+          "inputSource": "synthetic-input: touch DOM",
+          "inputVector": [
+            0,
+            1
+          ],
+          "running": false,
+          "inputDownAtMs": 39430.699999999255,
+          "inputUpAtMs": 41935.10000000149,
+          "inputWallSeconds": 2.5044,
+          "start": [
+            0,
+            1.660000011920929,
+            100
+          ],
+          "end": [
+            1.2975870625414838,
+            1.660000011920929,
+            96.08440390041011
+          ],
+          "startPositionSampleAtMs": 39427.699999999255,
+          "endPositionSampleAtMs": 41945,
+          "postReleaseSampleDelayMs": 9.9,
+          "immediateUpPosition": [
+            1.2975870625414838,
+            1.660000011920929,
+            96.08440390041011
+          ],
+          "positionSampling": "after original cameraFollow.follow; end is first real postphysics sample at/after inputUpAtMs",
+          "configuredSpeed": 1.65,
+          "speedConfiguration": "Observed return from original avatar.getMovementSpeedScale, multiplied by actual walkSpeed/runSpeed",
+          "expectedDistance": 4.13226,
+          "projectedDistance": 4.125,
+          "lateralDistance": 0,
+          "distanceTolerance": 0.178968,
+          "distanceRule": "abs(projected - speed*T) <= 0.03*speed*T + 2*speed*actualPhysicsStepSeconds",
+          "speedWindowRule": "0.4..0.65s windows after startup: measured <= speed*(1.05 + actualPhysicsStepSeconds/windowSeconds)",
+          "perFrameSpeed": {
+            "n": 149,
+            "mean": 1.653848,
+            "min": 0,
+            "max": 3.525641,
+            "p50": 1.656627,
+            "p95": 2.894737
+          },
+          "perFrameSamples": [
+            {
+              "gameFrame": 108,
+              "atMs": 39460.400000002235,
+              "seconds": 0.0163,
+              "metersPerSecond": 0
+            },
+            {
+              "gameFrame": 109,
+              "atMs": 39479.199999999255,
+              "seconds": 0.0188,
+              "metersPerSecond": 1.462766
+            },
+            {
+              "gameFrame": 110,
+              "atMs": 39494.800000000745,
+              "seconds": 0.0156,
+              "metersPerSecond": 3.525641
+            },
+            {
+              "gameFrame": 112,
+              "atMs": 39527.800000000745,
+              "seconds": 0.0179,
+              "metersPerSecond": 3.072626
+            },
+            {
+              "gameFrame": 113,
+              "atMs": 39544,
+              "seconds": 0.0162,
+              "metersPerSecond": 1.697531
+            },
+            {
+              "gameFrame": 114,
+              "atMs": 39560.699999999255,
+              "seconds": 0.0167,
+              "metersPerSecond": 1.646707
+            },
+            {
+              "gameFrame": 115,
+              "atMs": 39578.199999999255,
+              "seconds": 0.0175,
+              "metersPerSecond": 1.571429
+            },
+            {
+              "gameFrame": 117,
+              "atMs": 39611.900000002235,
+              "seconds": 0.0169,
+              "metersPerSecond": 1.627219
+            },
+            {
+              "gameFrame": 118,
+              "atMs": 39628.10000000149,
+              "seconds": 0.0162,
+              "metersPerSecond": 1.697531
+            },
+            {
+              "gameFrame": 119,
+              "atMs": 39645,
+              "seconds": 0.0169,
+              "metersPerSecond": 1.627219
+            },
+            {
+              "gameFrame": 120,
+              "atMs": 39661.300000000745,
+              "seconds": 0.0163,
+              "metersPerSecond": 1.687117
+            },
+            {
+              "gameFrame": 122,
+              "atMs": 39694.699999999255,
+              "seconds": 0.0165,
+              "metersPerSecond": 1.666667
+            },
+            {
+              "gameFrame": 123,
+              "atMs": 39710.60000000149,
+              "seconds": 0.0159,
+              "metersPerSecond": 0
+            },
+            {
+              "gameFrame": 124,
+              "atMs": 39728.300000000745,
+              "seconds": 0.0177,
+              "metersPerSecond": 3.107345
+            },
+            {
+              "gameFrame": 125,
+              "atMs": 39744.5,
+              "seconds": 0.0162,
+              "metersPerSecond": 1.697531
+            },
+            {
+              "gameFrame": 127,
+              "atMs": 39777.699999999255,
+              "seconds": 0.0173,
+              "metersPerSecond": 1.589595
+            },
+            {
+              "gameFrame": 128,
+              "atMs": 39794.10000000149,
+              "seconds": 0.0164,
+              "metersPerSecond": 1.676829
+            },
+            {
+              "gameFrame": 129,
+              "atMs": 39810.5,
+              "seconds": 0.0164,
+              "metersPerSecond": 1.676829
+            },
+            {
+              "gameFrame": 130,
+              "atMs": 39827.5,
+              "seconds": 0.017,
+              "metersPerSecond": 1.617647
+            },
+            {
+              "gameFrame": 132,
+              "atMs": 39860.10000000149,
+              "seconds": 0.0163,
+              "metersPerSecond": 0
+            },
+            {
+              "gameFrame": 133,
+              "atMs": 39878,
+              "seconds": 0.0179,
+              "metersPerSecond": 3.072626
+            },
+            {
+              "gameFrame": 134,
+              "atMs": 39894.199999999255,
+              "seconds": 0.0162,
+              "metersPerSecond": 1.697531
+            },
+            {
+              "gameFrame": 135,
+              "atMs": 39911.60000000149,
+              "seconds": 0.0174,
+              "metersPerSecond": 1.58046
+            },
+            {
+              "gameFrame": 137,
+              "atMs": 39944.5,
+              "seconds": 0.0168,
+              "metersPerSecond": 1.636905
+            },
+            {
+              "gameFrame": 138,
+              "atMs": 39959.800000000745,
+              "seconds": 0.0153,
+              "metersPerSecond": 0
+            },
+            {
+              "gameFrame": 139,
+              "atMs": 39981.699999999255,
+              "seconds": 0.0219,
+              "metersPerSecond": 2.511416
+            },
+            {
+              "gameFrame": 140,
+              "atMs": 39999,
+              "seconds": 0.0173,
+              "metersPerSecond": 1.589595
+            },
+            {
+              "gameFrame": 142,
+              "atMs": 40027.900000002235,
+              "seconds": 0.0171,
+              "metersPerSecond": 1.608187
+            },
+            {
+              "gameFrame": 143,
+              "atMs": 40044.199999999255,
+              "seconds": 0.0163,
+              "metersPerSecond": 1.687117
+            },
+            {
+              "gameFrame": 144,
+              "atMs": 40060.400000002235,
+              "seconds": 0.0162,
+              "metersPerSecond": 1.697531
+            },
+            {
+              "gameFrame": 145,
+              "atMs": 40077.699999999255,
+              "seconds": 0.0173,
+              "metersPerSecond": 1.589595
+            },
+            {
+              "gameFrame": 147,
+              "atMs": 40111.300000000745,
+              "seconds": 0.0168,
+              "metersPerSecond": 1.636905
+            },
+            {
+              "gameFrame": 148,
+              "atMs": 40128.60000000149,
+              "seconds": 0.0173,
+              "metersPerSecond": 1.589595
+            },
+            {
+              "gameFrame": 149,
+              "atMs": 40144.10000000149,
+              "seconds": 0.0155,
+              "metersPerSecond": 1.774194
+            },
+            {
+              "gameFrame": 150,
+              "atMs": 40165.5,
+              "seconds": 0.0214,
+              "metersPerSecond": 1.285047
+            },
+            {
+              "gameFrame": 152,
+              "atMs": 40194.10000000149,
+              "seconds": 0.0157,
+              "metersPerSecond": 1.751592
+            },
+            {
+              "gameFrame": 153,
+              "atMs": 40211.10000000149,
+              "seconds": 0.017,
+              "metersPerSecond": 1.617647
+            },
+            {
+              "gameFrame": 154,
+              "atMs": 40231.699999999255,
+              "seconds": 0.0206,
+              "metersPerSecond": 1.334951
+            },
+            {
+              "gameFrame": 155,
+              "atMs": 40244.5,
+              "seconds": 0.0128,
+              "metersPerSecond": 2.148437
+            },
+            {
+              "gameFrame": 157,
+              "atMs": 40277.60000000149,
+              "seconds": 0.0171,
+              "metersPerSecond": 1.608187
+            },
+            {
+              "gameFrame": 158,
+              "atMs": 40294.5,
+              "seconds": 0.0169,
+              "metersPerSecond": 1.627219
+            },
+            {
+              "gameFrame": 159,
+              "atMs": 40311.10000000149,
+              "seconds": 0.0166,
+              "metersPerSecond": 1.656627
+            },
+            {
+              "gameFrame": 160,
+              "atMs": 40328.10000000149,
+              "seconds": 0.017,
+              "metersPerSecond": 1.617647
+            },
+            {
+              "gameFrame": 161,
+              "atMs": 40344.5,
+              "seconds": 0.0164,
+              "metersPerSecond": 1.676829
+            },
+            {
+              "gameFrame": 163,
+              "atMs": 40377.900000002235,
+              "seconds": 0.0173,
+              "metersPerSecond": 1.589595
+            },
+            {
+              "gameFrame": 164,
+              "atMs": 40394.5,
+              "seconds": 0.0166,
+              "metersPerSecond": 1.656627
+            },
+            {
+              "gameFrame": 165,
+              "atMs": 40411.300000000745,
+              "seconds": 0.0168,
+              "metersPerSecond": 1.636905
+            },
+            {
+              "gameFrame": 166,
+              "atMs": 40427.5,
+              "seconds": 0.0162,
+              "metersPerSecond": 1.697531
+            },
+            {
+              "gameFrame": 168,
+              "atMs": 40465.400000002235,
+              "seconds": 0.018,
+              "metersPerSecond": 3.055556
+            },
+            {
+              "gameFrame": 169,
+              "atMs": 40477.400000002235,
+              "seconds": 0.012,
+              "metersPerSecond": 2.291667
+            },
+            {
+              "gameFrame": 170,
+              "atMs": 40493.400000002235,
+              "seconds": 0.016,
+              "metersPerSecond": 0
+            },
+            {
+              "gameFrame": 171,
+              "atMs": 40511.199999999255,
+              "seconds": 0.0178,
+              "metersPerSecond": 3.089888
+            },
+            {
+              "gameFrame": 173,
+              "atMs": 40544.10000000149,
+              "seconds": 0.0166,
+              "metersPerSecond": 1.656627
+            },
+            {
+              "gameFrame": 174,
+              "atMs": 40560.900000002235,
+              "seconds": 0.0168,
+              "metersPerSecond": 1.636905
+            },
+            {
+              "gameFrame": 175,
+              "atMs": 40577.199999999255,
+              "seconds": 0.0163,
+              "metersPerSecond": 1.687117
+            },
+            {
+              "gameFrame": 176,
+              "atMs": 40593.199999999255,
+              "seconds": 0.016,
+              "metersPerSecond": 0
+            },
+            {
+              "gameFrame": 178,
+              "atMs": 40627.900000002235,
+              "seconds": 0.0173,
+              "metersPerSecond": 1.589595
+            },
+            {
+              "gameFrame": 179,
+              "atMs": 40645.10000000149,
+              "seconds": 0.0172,
+              "metersPerSecond": 1.598837
+            },
+            {
+              "gameFrame": 180,
+              "atMs": 40662.199999999255,
+              "seconds": 0.0171,
+              "metersPerSecond": 3.216374
+            },
+            {
+              "gameFrame": 181,
+              "atMs": 40678.199999999255,
+              "seconds": 0.016,
+              "metersPerSecond": 1.71875
+            },
+            {
+              "gameFrame": 183,
+              "atMs": 40715.900000002235,
+              "seconds": 0.0204,
+              "metersPerSecond": 1.348039
+            },
+            {
+              "gameFrame": 184,
+              "atMs": 40731.5,
+              "seconds": 0.0156,
+              "metersPerSecond": 1.762821
+            },
+            {
+              "gameFrame": 185,
+              "atMs": 40744.900000002235,
+              "seconds": 0.0134,
+              "metersPerSecond": 2.052239
+            },
+            {
+              "gameFrame": 186,
+              "atMs": 40761.199999999255,
+              "seconds": 0.0163,
+              "metersPerSecond": 1.687117
+            },
+            {
+              "gameFrame": 188,
+              "atMs": 40794.60000000149,
+              "seconds": 0.0169,
+              "metersPerSecond": 1.627219
+            },
+            {
+              "gameFrame": 189,
+              "atMs": 40815.10000000149,
+              "seconds": 0.0205,
+              "metersPerSecond": 1.341463
+            },
+            {
+              "gameFrame": 190,
+              "atMs": 40827.199999999255,
+              "seconds": 0.0121,
+              "metersPerSecond": 2.272727
+            },
+            {
+              "gameFrame": 191,
+              "atMs": 40849.10000000149,
+              "seconds": 0.0219,
+              "metersPerSecond": 1.255708
+            },
+            {
+              "gameFrame": 193,
+              "atMs": 40877.5,
+              "seconds": 0.0162,
+              "metersPerSecond": 1.697531
+            },
+            {
+              "gameFrame": 194,
+              "atMs": 40894.699999999255,
+              "seconds": 0.0172,
+              "metersPerSecond": 1.598837
+            },
+            {
+              "gameFrame": 195,
+              "atMs": 40911,
+              "seconds": 0.0163,
+              "metersPerSecond": 1.687117
+            },
+            {
+              "gameFrame": 196,
+              "atMs": 40927.699999999255,
+              "seconds": 0.0167,
+              "metersPerSecond": 1.646707
+            },
+            {
+              "gameFrame": 198,
+              "atMs": 40961.10000000149,
+              "seconds": 0.017,
+              "metersPerSecond": 1.617647
+            },
+            {
+              "gameFrame": 199,
+              "atMs": 40977.800000000745,
+              "seconds": 0.0167,
+              "metersPerSecond": 1.646707
+            },
+            {
+              "gameFrame": 200,
+              "atMs": 40994,
+              "seconds": 0.0162,
+              "metersPerSecond": 1.697531
+            },
+            {
+              "gameFrame": 201,
+              "atMs": 41011.10000000149,
+              "seconds": 0.0171,
+              "metersPerSecond": 1.608187
+            },
+            {
+              "gameFrame": 203,
+              "atMs": 41044.300000000745,
+              "seconds": 0.0128,
+              "metersPerSecond": 2.148437
+            },
+            {
+              "gameFrame": 204,
+              "atMs": 41060.800000000745,
+              "seconds": 0.0165,
+              "metersPerSecond": 1.666667
+            },
+            {
+              "gameFrame": 205,
+              "atMs": 41081.800000000745,
+              "seconds": 0.021,
+              "metersPerSecond": 1.309524
+            },
+            {
+              "gameFrame": 206,
+              "atMs": 41099.199999999255,
+              "seconds": 0.0174,
+              "metersPerSecond": 1.58046
+            },
+            {
+              "gameFrame": 207,
+              "atMs": 41111.699999999255,
+              "seconds": 0.0125,
+              "metersPerSecond": 2.2
+            },
+            {
+              "gameFrame": 209,
+              "atMs": 41148.300000000745,
+              "seconds": 0.0206,
+              "metersPerSecond": 1.334951
+            },
+            {
+              "gameFrame": 210,
+              "atMs": 41161.699999999255,
+              "seconds": 0.0134,
+              "metersPerSecond": 2.052239
+            },
+            {
+              "gameFrame": 211,
+              "atMs": 41177.699999999255,
+              "seconds": 0.016,
+              "metersPerSecond": 1.71875
+            },
+            {
+              "gameFrame": 212,
+              "atMs": 41194.300000000745,
+              "seconds": 0.0166,
+              "metersPerSecond": 1.656627
+            },
+            {
+              "gameFrame": 214,
+              "atMs": 41227.60000000149,
+              "seconds": 0.0167,
+              "metersPerSecond": 1.646707
+            },
+            {
+              "gameFrame": 215,
+              "atMs": 41244.400000002235,
+              "seconds": 0.0168,
+              "metersPerSecond": 1.636905
+            },
+            {
+              "gameFrame": 216,
+              "atMs": 41260.900000002235,
+              "seconds": 0.0165,
+              "metersPerSecond": 1.666667
+            },
+            {
+              "gameFrame": 217,
+              "atMs": 41277.699999999255,
+              "seconds": 0.0168,
+              "metersPerSecond": 1.636905
+            },
+            {
+              "gameFrame": 219,
+              "atMs": 41310.199999999255,
+              "seconds": 0.016,
+              "metersPerSecond": 0
+            },
+            {
+              "gameFrame": 220,
+              "atMs": 41333.199999999255,
+              "seconds": 0.023,
+              "metersPerSecond": 2.391304
+            },
+            {
+              "gameFrame": 221,
+              "atMs": 41344.5,
+              "seconds": 0.0113,
+              "metersPerSecond": 2.433628
+            },
+            {
+              "gameFrame": 222,
+              "atMs": 41361.5,
+              "seconds": 0.017,
+              "metersPerSecond": 1.617647
+            },
+            {
+              "gameFrame": 224,
+              "atMs": 41394.400000002235,
+              "seconds": 0.0125,
+              "metersPerSecond": 2.2
+            },
+            {
+              "gameFrame": 225,
+              "atMs": 41410.800000000745,
+              "seconds": 0.0164,
+              "metersPerSecond": 1.676829
+            },
+            {
+              "gameFrame": 226,
+              "atMs": 41427.400000002235,
+              "seconds": 0.0166,
+              "metersPerSecond": 1.656627
+            },
+            {
+              "gameFrame": 227,
+              "atMs": 41444.199999999255,
+              "seconds": 0.0168,
+              "metersPerSecond": 1.636905
+            },
+            {
+              "gameFrame": 229,
+              "atMs": 41477.60000000149,
+              "seconds": 0.0164,
+              "metersPerSecond": 1.676829
+            },
+            {
+              "gameFrame": 230,
+              "atMs": 41494.10000000149,
+              "seconds": 0.0165,
+              "metersPerSecond": 1.666667
+            },
+            {
+              "gameFrame": 231,
+              "atMs": 41511.10000000149,
+              "seconds": 0.017,
+              "metersPerSecond": 1.617647
+            },
+            {
+              "gameFrame": 232,
+              "atMs": 41528.10000000149,
+              "seconds": 0.017,
+              "metersPerSecond": 1.617647
+            },
+            {
+              "gameFrame": 234,
+              "atMs": 41560.900000002235,
+              "seconds": 0.0176,
+              "metersPerSecond": 1.5625
+            },
+            {
+              "gameFrame": 235,
+              "atMs": 41579.300000000745,
+              "seconds": 0.0184,
+              "metersPerSecond": 2.98913
+            },
+            {
+              "gameFrame": 236,
+              "atMs": 41593.5,
+              "seconds": 0.0142,
+              "metersPerSecond": 0
+            },
+            {
+              "gameFrame": 237,
+              "atMs": 41612.5,
+              "seconds": 0.019,
+              "metersPerSecond": 2.894737
+            },
+            {
+              "gameFrame": 239,
+              "atMs": 41644,
+              "seconds": 0.0153,
+              "metersPerSecond": 1.797386
+            },
+            {
+              "gameFrame": 240,
+              "atMs": 41660.60000000149,
+              "seconds": 0.0166,
+              "metersPerSecond": 1.656627
+            },
+            {
+              "gameFrame": 241,
+              "atMs": 41677.5,
+              "seconds": 0.0169,
+              "metersPerSecond": 1.627219
+            },
+            {
+              "gameFrame": 242,
+              "atMs": 41694.699999999255,
+              "seconds": 0.0172,
+              "metersPerSecond": 1.598837
+            },
+            {
+              "gameFrame": 244,
+              "atMs": 41727.699999999255,
+              "seconds": 0.0163,
+              "metersPerSecond": 1.687117
+            },
+            {
+              "gameFrame": 245,
+              "atMs": 41744.10000000149,
+              "seconds": 0.0164,
+              "metersPerSecond": 1.676829
+            },
+            {
+              "gameFrame": 246,
+              "atMs": 41760.699999999255,
+              "seconds": 0.0166,
+              "metersPerSecond": 1.656627
+            },
+            {
+              "gameFrame": 247,
+              "atMs": 41777.699999999255,
+              "seconds": 0.017,
+              "metersPerSecond": 1.617647
+            },
+            {
+              "gameFrame": 249,
+              "atMs": 41811.10000000149,
+              "seconds": 0.0169,
+              "metersPerSecond": 1.627219
+            },
+            {
+              "gameFrame": 250,
+              "atMs": 41827.60000000149,
+              "seconds": 0.0165,
+              "metersPerSecond": 1.666667
+            },
+            {
+              "gameFrame": 251,
+              "atMs": 41844.900000002235,
+              "seconds": 0.0173,
+              "metersPerSecond": 1.589595
+            },
+            {
+              "gameFrame": 252,
+              "atMs": 41861,
+              "seconds": 0.0161,
+              "metersPerSecond": 1.708075
+            },
+            {
+              "gameFrame": 254,
+              "atMs": 41894.699999999255,
+              "seconds": 0.0166,
+              "metersPerSecond": 1.656627
+            },
+            {
+              "gameFrame": 255,
+              "atMs": 41910.900000002235,
+              "seconds": 0.0162,
+              "metersPerSecond": 1.697531
+            },
+            {
+              "gameFrame": 256,
+              "atMs": 41928,
+              "seconds": 0.0171,
+              "metersPerSecond": 1.608187
+            }
+          ],
+          "positionSamples": [
+            {
+              "atMs": 39444.10000000149,
+              "gameFrame": 107,
+              "position": [
+                0.008650580416943237,
+                1.660000011920929,
+                99.97389602600273
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 39460.400000002235,
+              "gameFrame": 108,
+              "position": [
+                0.008650580416943237,
+                1.660000011920929,
+                99.97389602600273
+              ],
+              "timerDeltaMs": 16.5
+            },
+            {
+              "atMs": 39494.800000000745,
+              "gameFrame": 110,
+              "position": [
+                0.034602321667772946,
+                1.660000011920929,
+                99.89558410401094
+              ],
+              "timerDeltaMs": 16.80000000000291
+            },
+            {
+              "atMs": 39509.900000002235,
+              "gameFrame": 111,
+              "position": [
+                0.034602321667772946,
+                1.660000011920929,
+                99.89558410401094
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 39527.800000000745,
+              "gameFrame": 112,
+              "position": [
+                0.051903482501659416,
+                1.660000011920929,
+                99.8433761560164
+              ],
+              "timerDeltaMs": 16.700000000004366
+            },
+            {
+              "atMs": 39544,
+              "gameFrame": 113,
+              "position": [
+                0.06055406291860265,
+                1.660000011920929,
+                99.81727218201914
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 39578.199999999255,
+              "gameFrame": 115,
+              "position": [
+                0.07785522375248913,
+                1.660000011920929,
+                99.7650642340246
+              ],
+              "timerDeltaMs": 16.60000000000582
+            },
+            {
+              "atMs": 39595,
+              "gameFrame": 116,
+              "position": [
+                0.08650580416943236,
+                1.660000011920929,
+                99.73896026002734
+              ],
+              "timerDeltaMs": 16.799999999995634
+            },
+            {
+              "atMs": 39611.900000002235,
+              "gameFrame": 117,
+              "position": [
+                0.0951563845863756,
+                1.660000011920929,
+                99.71285628603007
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 39628.10000000149,
+              "gameFrame": 118,
+              "position": [
+                0.10380696500331883,
+                1.660000011920929,
+                99.68675231203281
+              ],
+              "timerDeltaMs": 16.700000000004366
+            },
+            {
+              "atMs": 39661.300000000745,
+              "gameFrame": 120,
+              "position": [
+                0.1211081258372053,
+                1.660000011920929,
+                99.63454436403828
+              ],
+              "timerDeltaMs": 16.80000000000291
+            },
+            {
+              "atMs": 39678.199999999255,
+              "gameFrame": 121,
+              "position": [
+                0.12975870625414854,
+                1.660000011920929,
+                99.60844039004101
+              ],
+              "timerDeltaMs": 16.5
+            },
+            {
+              "atMs": 39694.699999999255,
+              "gameFrame": 122,
+              "position": [
+                0.13840928667109179,
+                1.660000011920929,
+                99.58233641604374
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 39710.60000000149,
+              "gameFrame": 123,
+              "position": [
+                0.13840928667109179,
+                1.660000011920929,
+                99.58233641604374
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 39744.5,
+              "gameFrame": 125,
+              "position": [
+                0.16436102792192153,
+                1.660000011920929,
+                99.50402449405195
+              ],
+              "timerDeltaMs": 16.799999999995634
+            },
+            {
+              "atMs": 39760.400000002235,
+              "gameFrame": 126,
+              "position": [
+                0.17301160833886478,
+                1.660000011920929,
+                99.47792052005468
+              ],
+              "timerDeltaMs": 16.700000000004366
+            },
+            {
+              "atMs": 39777.699999999255,
+              "gameFrame": 127,
+              "position": [
+                0.18166218875580803,
+                1.660000011920929,
+                99.45181654605742
+              ],
+              "timerDeltaMs": 16.5
+            },
+            {
+              "atMs": 39794.10000000149,
+              "gameFrame": 128,
+              "position": [
+                0.19031276917275128,
+                1.660000011920929,
+                99.42571257206015
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 39827.5,
+              "gameFrame": 130,
+              "position": [
+                0.20761393000663778,
+                1.660000011920929,
+                99.37350462406562
+              ],
+              "timerDeltaMs": 16.5
+            },
+            {
+              "atMs": 39843.800000000745,
+              "gameFrame": 131,
+              "position": [
+                0.21626451042358102,
+                1.660000011920929,
+                99.34740065006835
+              ],
+              "timerDeltaMs": 16.799999999995634
+            },
+            {
+              "atMs": 39860.10000000149,
+              "gameFrame": 132,
+              "position": [
+                0.21626451042358102,
+                1.660000011920929,
+                99.34740065006835
+              ],
+              "timerDeltaMs": 16.5
+            },
+            {
+              "atMs": 39878,
+              "gameFrame": 133,
+              "position": [
+                0.23356567125746752,
+                1.660000011920929,
+                99.29519270207382
+              ],
+              "timerDeltaMs": 16.700000000004366
+            },
+            {
+              "atMs": 39911.60000000149,
+              "gameFrame": 135,
+              "position": [
+                0.250866832091354,
+                1.660000011920929,
+                99.24298475407929
+              ],
+              "timerDeltaMs": 16.700000000004366
+            },
+            {
+              "atMs": 39927.699999999255,
+              "gameFrame": 136,
+              "position": [
+                0.25951741250829724,
+                1.660000011920929,
+                99.21688078008202
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 39944.5,
+              "gameFrame": 137,
+              "position": [
+                0.26816799292524046,
+                1.660000011920929,
+                99.19077680608476
+              ],
+              "timerDeltaMs": 16.80000000000291
+            },
+            {
+              "atMs": 39959.800000000745,
+              "gameFrame": 138,
+              "position": [
+                0.26816799292524046,
+                1.660000011920929,
+                99.19077680608476
+              ],
+              "timerDeltaMs": 16.299999999995634
+            },
+            {
+              "atMs": 39999,
+              "gameFrame": 140,
+              "position": [
+                0.2941197341760701,
+                1.660000011920929,
+                99.11246488409296
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 40010.800000000745,
+              "gameFrame": 141,
+              "position": [
+                0.30277031459301335,
+                1.660000011920929,
+                99.08636091009569
+              ],
+              "timerDeltaMs": 21
+            },
+            {
+              "atMs": 40027.900000002235,
+              "gameFrame": 142,
+              "position": [
+                0.31142089500995657,
+                1.660000011920929,
+                99.06025693609843
+              ],
+              "timerDeltaMs": 12.30000000000291
+            },
+            {
+              "atMs": 40044.199999999255,
+              "gameFrame": 143,
+              "position": [
+                0.3200714754268998,
+                1.660000011920929,
+                99.03415296210116
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 40077.699999999255,
+              "gameFrame": 145,
+              "position": [
+                0.33737263626078623,
+                1.660000011920929,
+                98.98194501410663
+              ],
+              "timerDeltaMs": 16.5
+            },
+            {
+              "atMs": 40094.5,
+              "gameFrame": 146,
+              "position": [
+                0.34602321667772945,
+                1.660000011920929,
+                98.95584104010936
+              ],
+              "timerDeltaMs": 17
+            },
+            {
+              "atMs": 40111.300000000745,
+              "gameFrame": 147,
+              "position": [
+                0.35467379709467267,
+                1.660000011920929,
+                98.9297370661121
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 40128.60000000149,
+              "gameFrame": 148,
+              "position": [
+                0.3633243775116159,
+                1.660000011920929,
+                98.90363309211483
+              ],
+              "timerDeltaMs": 16.400000000001455
+            },
+            {
+              "atMs": 40165.5,
+              "gameFrame": 150,
+              "position": [
+                0.38062553834550233,
+                1.660000011920929,
+                98.8514251441203
+              ],
+              "timerDeltaMs": 16.39999999999418
+            },
+            {
+              "atMs": 40178.400000002235,
+              "gameFrame": 151,
+              "position": [
+                0.38927611876244556,
+                1.660000011920929,
+                98.82532117012303
+              ],
+              "timerDeltaMs": 21
+            },
+            {
+              "atMs": 40194.10000000149,
+              "gameFrame": 152,
+              "position": [
+                0.3979266991793888,
+                1.660000011920929,
+                98.79921719612577
+              ],
+              "timerDeltaMs": 12.700000000004366
+            },
+            {
+              "atMs": 40211.10000000149,
+              "gameFrame": 153,
+              "position": [
+                0.406577279596332,
+                1.660000011920929,
+                98.7731132221285
+              ],
+              "timerDeltaMs": 16.299999999995634
+            },
+            {
+              "atMs": 40244.5,
+              "gameFrame": 155,
+              "position": [
+                0.42387844043021844,
+                1.660000011920929,
+                98.72090527413397
+              ],
+              "timerDeltaMs": 20.5
+            },
+            {
+              "atMs": 40260.5,
+              "gameFrame": 156,
+              "position": [
+                0.43252902084716166,
+                1.660000011920929,
+                98.6948013001367
+              ],
+              "timerDeltaMs": 12.5
+            },
+            {
+              "atMs": 40277.60000000149,
+              "gameFrame": 157,
+              "position": [
+                0.4411796012641049,
+                1.660000011920929,
+                98.66869732613944
+              ],
+              "timerDeltaMs": 16.5
+            },
+            {
+              "atMs": 40294.5,
+              "gameFrame": 158,
+              "position": [
+                0.4498301816810481,
+                1.660000011920929,
+                98.64259335214217
+              ],
+              "timerDeltaMs": 17
+            },
+            {
+              "atMs": 40328.10000000149,
+              "gameFrame": 160,
+              "position": [
+                0.46713134251493454,
+                1.660000011920929,
+                98.59038540414764
+              ],
+              "timerDeltaMs": 16.700000000004366
+            },
+            {
+              "atMs": 40344.5,
+              "gameFrame": 161,
+              "position": [
+                0.47578192293187777,
+                1.660000011920929,
+                98.56428143015037
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 40360.60000000149,
+              "gameFrame": 162,
+              "position": [
+                0.484432503348821,
+                1.660000011920929,
+                98.53817745615311
+              ],
+              "timerDeltaMs": 16.5
+            },
+            {
+              "atMs": 40377.900000002235,
+              "gameFrame": 163,
+              "position": [
+                0.4930830837657642,
+                1.660000011920929,
+                98.51207348215584
+              ],
+              "timerDeltaMs": 16.400000000001455
+            },
+            {
+              "atMs": 40411.300000000745,
+              "gameFrame": 165,
+              "position": [
+                0.5103842445996507,
+                1.660000011920929,
+                98.45986553416131
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 40427.5,
+              "gameFrame": 166,
+              "position": [
+                0.5190348250165939,
+                1.660000011920929,
+                98.43376156016404
+              ],
+              "timerDeltaMs": 16.400000000001455
+            },
+            {
+              "atMs": 40447.400000002235,
+              "gameFrame": 167,
+              "position": [
+                0.5190348250165939,
+                1.660000011920929,
+                98.43376156016404
+              ],
+              "timerDeltaMs": 16.400000000001455
+            },
+            {
+              "atMs": 40465.400000002235,
+              "gameFrame": 168,
+              "position": [
+                0.5363359858504804,
+                1.660000011920929,
+                98.38155361216951
+              ],
+              "timerDeltaMs": 20.900000000001455
+            },
+            {
+              "atMs": 40493.400000002235,
+              "gameFrame": 170,
+              "position": [
+                0.5449865662674236,
+                1.660000011920929,
+                98.35544963817225
+              ],
+              "timerDeltaMs": 12.400000000001455
+            },
+            {
+              "atMs": 40511.199999999255,
+              "gameFrame": 171,
+              "position": [
+                0.56228772710131,
+                1.660000011920929,
+                98.30324169017771
+              ],
+              "timerDeltaMs": 16.799999999995634
+            },
+            {
+              "atMs": 40527.5,
+              "gameFrame": 172,
+              "position": [
+                0.5709383075182533,
+                1.660000011920929,
+                98.27713771618045
+              ],
+              "timerDeltaMs": 16.700000000004366
+            },
+            {
+              "atMs": 40544.10000000149,
+              "gameFrame": 173,
+              "position": [
+                0.5795888879351965,
+                1.660000011920929,
+                98.25103374218318
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 40577.199999999255,
+              "gameFrame": 175,
+              "position": [
+                0.5968900487690829,
+                1.660000011920929,
+                98.19882579418865
+              ],
+              "timerDeltaMs": 16.60000000000582
+            },
+            {
+              "atMs": 40593.199999999255,
+              "gameFrame": 176,
+              "position": [
+                0.5968900487690829,
+                1.660000011920929,
+                98.19882579418865
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 40610.60000000149,
+              "gameFrame": 177,
+              "position": [
+                0.6055406291860261,
+                1.660000011920929,
+                98.17272182019138
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 40627.900000002235,
+              "gameFrame": 178,
+              "position": [
+                0.6141912096029694,
+                1.660000011920929,
+                98.14661784619412
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 40662.199999999255,
+              "gameFrame": 180,
+              "position": [
+                0.640142950853799,
+                1.660000011920929,
+                98.06830592420232
+              ],
+              "timerDeltaMs": 17.099999999998545
+            },
+            {
+              "atMs": 40678.199999999255,
+              "gameFrame": 181,
+              "position": [
+                0.6487935312707422,
+                1.660000011920929,
+                98.04220195020505
+              ],
+              "timerDeltaMs": 16.400000000001455
+            },
+            {
+              "atMs": 40695.5,
+              "gameFrame": 182,
+              "position": [
+                0.6574441116876855,
+                1.660000011920929,
+                98.01609797620779
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 40715.900000002235,
+              "gameFrame": 183,
+              "position": [
+                0.6660946921046287,
+                1.660000011920929,
+                97.98999400221052
+              ],
+              "timerDeltaMs": 16.700000000004366
+            },
+            {
+              "atMs": 40744.900000002235,
+              "gameFrame": 185,
+              "position": [
+                0.6833958529385151,
+                1.660000011920929,
+                97.93778605421599
+              ],
+              "timerDeltaMs": 16.400000000001455
+            },
+            {
+              "atMs": 40761.199999999255,
+              "gameFrame": 186,
+              "position": [
+                0.6920464333554583,
+                1.660000011920929,
+                97.91168208021872
+              ],
+              "timerDeltaMs": 12.5
+            },
+            {
+              "atMs": 40777.699999999255,
+              "gameFrame": 187,
+              "position": [
+                0.7006970137724016,
+                1.660000011920929,
+                97.88557810622146
+              ],
+              "timerDeltaMs": 16.89999999999418
+            },
+            {
+              "atMs": 40794.60000000149,
+              "gameFrame": 188,
+              "position": [
+                0.7093475941893448,
+                1.660000011920929,
+                97.8594741322242
+              ],
+              "timerDeltaMs": 16.5
+            },
+            {
+              "atMs": 40827.199999999255,
+              "gameFrame": 190,
+              "position": [
+                0.7266487550232312,
+                1.660000011920929,
+                97.80726618422966
+              ],
+              "timerDeltaMs": 20.799999999995634
+            },
+            {
+              "atMs": 40849.10000000149,
+              "gameFrame": 191,
+              "position": [
+                0.7352993354401745,
+                1.660000011920929,
+                97.7811622102324
+              ],
+              "timerDeltaMs": 12.599999999998545
+            },
+            {
+              "atMs": 40861.300000000745,
+              "gameFrame": 192,
+              "position": [
+                0.7439499158571177,
+                1.660000011920929,
+                97.75505823623513
+              ],
+              "timerDeltaMs": 20.80000000000291
+            },
+            {
+              "atMs": 40877.5,
+              "gameFrame": 193,
+              "position": [
+                0.7526004962740609,
+                1.660000011920929,
+                97.72895426223786
+              ],
+              "timerDeltaMs": 12.400000000001455
+            },
+            {
+              "atMs": 40911,
+              "gameFrame": 195,
+              "position": [
+                0.7699016571079473,
+                1.660000011920929,
+                97.67674631424333
+              ],
+              "timerDeltaMs": 16.80000000000291
+            },
+            {
+              "atMs": 40927.699999999255,
+              "gameFrame": 196,
+              "position": [
+                0.7785522375248906,
+                1.660000011920929,
+                97.65064234024607
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 40944.10000000149,
+              "gameFrame": 197,
+              "position": [
+                0.7872028179418338,
+                1.660000011920929,
+                97.6245383662488
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 40961.10000000149,
+              "gameFrame": 198,
+              "position": [
+                0.795853398358777,
+                1.660000011920929,
+                97.59843439225153
+              ],
+              "timerDeltaMs": 16.700000000004366
+            },
+            {
+              "atMs": 40994,
+              "gameFrame": 200,
+              "position": [
+                0.8131545591926634,
+                1.660000011920929,
+                97.546226444257
+              ],
+              "timerDeltaMs": 16.19999999999709
+            },
+            {
+              "atMs": 41011.10000000149,
+              "gameFrame": 201,
+              "position": [
+                0.8218051396096067,
+                1.660000011920929,
+                97.52012247025974
+              ],
+              "timerDeltaMs": 16.80000000000291
+            },
+            {
+              "atMs": 41031.5,
+              "gameFrame": 202,
+              "position": [
+                0.8304557200265499,
+                1.660000011920929,
+                97.49401849626247
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 41044.300000000745,
+              "gameFrame": 203,
+              "position": [
+                0.8391063004434931,
+                1.660000011920929,
+                97.4679145222652
+              ],
+              "timerDeltaMs": 20.599999999998545
+            },
+            {
+              "atMs": 41081.800000000745,
+              "gameFrame": 205,
+              "position": [
+                0.8564074612773795,
+                1.660000011920929,
+                97.41570657427067
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 41099.199999999255,
+              "gameFrame": 206,
+              "position": [
+                0.8650580416943228,
+                1.660000011920929,
+                97.3896026002734
+              ],
+              "timerDeltaMs": 20.80000000000291
+            },
+            {
+              "atMs": 41111.699999999255,
+              "gameFrame": 207,
+              "position": [
+                0.873708622111266,
+                1.660000011920929,
+                97.36349862627614
+              ],
+              "timerDeltaMs": 16.80000000000291
+            },
+            {
+              "atMs": 41127.699999999255,
+              "gameFrame": 208,
+              "position": [
+                0.8823592025282092,
+                1.660000011920929,
+                97.33739465227887
+              ],
+              "timerDeltaMs": 12.39999999999418
+            },
+            {
+              "atMs": 41161.699999999255,
+              "gameFrame": 210,
+              "position": [
+                0.8996603633620956,
+                1.660000011920929,
+                97.28518670428434
+              ],
+              "timerDeltaMs": 20.69999999999709
+            },
+            {
+              "atMs": 41177.699999999255,
+              "gameFrame": 211,
+              "position": [
+                0.9083109437790389,
+                1.660000011920929,
+                97.25908273028708
+              ],
+              "timerDeltaMs": 12.69999999999709
+            },
+            {
+              "atMs": 41194.300000000745,
+              "gameFrame": 212,
+              "position": [
+                0.9169615241959821,
+                1.660000011920929,
+                97.23297875628981
+              ],
+              "timerDeltaMs": 16.400000000001455
+            },
+            {
+              "atMs": 41210.900000002235,
+              "gameFrame": 213,
+              "position": [
+                0.9256121046129253,
+                1.660000011920929,
+                97.20687478229254
+              ],
+              "timerDeltaMs": 17
+            },
+            {
+              "atMs": 41244.400000002235,
+              "gameFrame": 215,
+              "position": [
+                0.9429132654468118,
+                1.660000011920929,
+                97.15466683429801
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 41260.900000002235,
+              "gameFrame": 216,
+              "position": [
+                0.951563845863755,
+                1.660000011920929,
+                97.12856286030075
+              ],
+              "timerDeltaMs": 16.60000000000582
+            },
+            {
+              "atMs": 41277.699999999255,
+              "gameFrame": 217,
+              "position": [
+                0.9602144262806982,
+                1.660000011920929,
+                97.10245888630348
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 41294.199999999255,
+              "gameFrame": 218,
+              "position": [
+                0.9688650066976414,
+                1.660000011920929,
+                97.07635491230621
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 41333.199999999255,
+              "gameFrame": 220,
+              "position": [
+                0.9861661675315279,
+                1.660000011920929,
+                97.02414696431168
+              ],
+              "timerDeltaMs": 17.200000000004366
+            },
+            {
+              "atMs": 41344.5,
+              "gameFrame": 221,
+              "position": [
+                0.9948167479484711,
+                1.660000011920929,
+                96.99804299031442
+              ],
+              "timerDeltaMs": 20.39999999999418
+            },
+            {
+              "atMs": 41361.5,
+              "gameFrame": 222,
+              "position": [
+                1.0034673283654143,
+                1.660000011920929,
+                96.97193901631715
+              ],
+              "timerDeltaMs": 12.60000000000582
+            },
+            {
+              "atMs": 41381.900000002235,
+              "gameFrame": 223,
+              "position": [
+                1.0121179087823575,
+                1.660000011920929,
+                96.94583504231989
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 41410.800000000745,
+              "gameFrame": 225,
+              "position": [
+                1.029419069616244,
+                1.660000011920929,
+                96.89362709432535
+              ],
+              "timerDeltaMs": 12.799999999995634
+            },
+            {
+              "atMs": 41427.400000002235,
+              "gameFrame": 226,
+              "position": [
+                1.0380696500331872,
+                1.660000011920929,
+                96.86752312032809
+              ],
+              "timerDeltaMs": 16.200000000004366
+            },
+            {
+              "atMs": 41444.199999999255,
+              "gameFrame": 227,
+              "position": [
+                1.0467202304501304,
+                1.660000011920929,
+                96.84141914633082
+              ],
+              "timerDeltaMs": 16.799999999995634
+            },
+            {
+              "atMs": 41461.199999999255,
+              "gameFrame": 228,
+              "position": [
+                1.0553708108670736,
+                1.660000011920929,
+                96.81531517233356
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 41494.10000000149,
+              "gameFrame": 230,
+              "position": [
+                1.07267197170096,
+                1.660000011920929,
+                96.76310722433902
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 41511.10000000149,
+              "gameFrame": 231,
+              "position": [
+                1.0813225521179033,
+                1.660000011920929,
+                96.73700325034176
+              ],
+              "timerDeltaMs": 16.700000000004366
+            },
+            {
+              "atMs": 41528.10000000149,
+              "gameFrame": 232,
+              "position": [
+                1.0899731325348465,
+                1.660000011920929,
+                96.71089927634449
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 41543.300000000745,
+              "gameFrame": 233,
+              "position": [
+                1.0899731325348465,
+                1.660000011920929,
+                96.71089927634449
+              ],
+              "timerDeltaMs": 16.5
+            },
+            {
+              "atMs": 41579.300000000745,
+              "gameFrame": 235,
+              "position": [
+                1.1159248737856762,
+                1.660000011920929,
+                96.6325873543527
+              ],
+              "timerDeltaMs": 16.80000000000291
+            },
+            {
+              "atMs": 41593.5,
+              "gameFrame": 236,
+              "position": [
+                1.1159248737856762,
+                1.660000011920929,
+                96.6325873543527
+              ],
+              "timerDeltaMs": 16.5
+            },
+            {
+              "atMs": 41612.5,
+              "gameFrame": 237,
+              "position": [
+                1.1332260346195626,
+                1.660000011920929,
+                96.58037940635816
+              ],
+              "timerDeltaMs": 16.900000000001455
+            },
+            {
+              "atMs": 41628.699999999255,
+              "gameFrame": 238,
+              "position": [
+                1.1418766150365058,
+                1.660000011920929,
+                96.5542754323609
+              ],
+              "timerDeltaMs": 17
+            },
+            {
+              "atMs": 41660.60000000149,
+              "gameFrame": 240,
+              "position": [
+                1.1591777758703923,
+                1.660000011920929,
+                96.50206748436636
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 41677.5,
+              "gameFrame": 241,
+              "position": [
+                1.1678283562873355,
+                1.660000011920929,
+                96.4759635103691
+              ],
+              "timerDeltaMs": 16.700000000004366
+            },
+            {
+              "atMs": 41694.699999999255,
+              "gameFrame": 242,
+              "position": [
+                1.1764789367042787,
+                1.660000011920929,
+                96.44985953637183
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 41711.400000002235,
+              "gameFrame": 243,
+              "position": [
+                1.185129517121222,
+                1.660000011920929,
+                96.42375556237457
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 41744.10000000149,
+              "gameFrame": 245,
+              "position": [
+                1.2024306779551084,
+                1.660000011920929,
+                96.37154761438003
+              ],
+              "timerDeltaMs": 16.89999999999418
+            },
+            {
+              "atMs": 41760.699999999255,
+              "gameFrame": 246,
+              "position": [
+                1.2110812583720516,
+                1.660000011920929,
+                96.34544364038277
+              ],
+              "timerDeltaMs": 16.60000000000582
+            },
+            {
+              "atMs": 41777.699999999255,
+              "gameFrame": 247,
+              "position": [
+                1.2197318387889948,
+                1.660000011920929,
+                96.3193396663855
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 41794.199999999255,
+              "gameFrame": 248,
+              "position": [
+                1.228382419205938,
+                1.660000011920929,
+                96.29323569238824
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 41827.60000000149,
+              "gameFrame": 250,
+              "position": [
+                1.2456835800398245,
+                1.660000011920929,
+                96.2410277443937
+              ],
+              "timerDeltaMs": 16.89999999999418
+            },
+            {
+              "atMs": 41844.900000002235,
+              "gameFrame": 251,
+              "position": [
+                1.2543341604567677,
+                1.660000011920929,
+                96.21492377039644
+              ],
+              "timerDeltaMs": 16.5
+            },
+            {
+              "atMs": 41861,
+              "gameFrame": 252,
+              "position": [
+                1.262984740873711,
+                1.660000011920929,
+                96.18881979639917
+              ],
+              "timerDeltaMs": 16.80000000000291
+            },
+            {
+              "atMs": 41878.10000000149,
+              "gameFrame": 253,
+              "position": [
+                1.2716353212906542,
+                1.660000011920929,
+                96.1627158224019
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 41910.900000002235,
+              "gameFrame": 255,
+              "position": [
+                1.2889364821245406,
+                1.660000011920929,
+                96.11050787440738
+              ],
+              "timerDeltaMs": 16.799999999995634
+            },
+            {
+              "atMs": 41928,
+              "gameFrame": 256,
+              "position": [
+                1.2975870625414838,
+                1.660000011920929,
+                96.08440390041011
+              ],
+              "timerDeltaMs": 16.5
+            }
+          ],
+          "actualPositionSampleCount": 150,
+          "longWindowCount": 110,
+          "failedWindows": [],
+          "longWindowSpeed": {
+            "n": 110,
+            "mean": 1.651225,
+            "min": 1.585802,
+            "max": 1.713062,
+            "p50": 1.64967,
+            "p95": 1.701798
+          },
+          "stopDrift": 0,
+          "stopDriftLimit": 0.075,
+          "stopDriftRule": "After first post-release physics sample: two actual physics steps + 0.02m; no added render-frame tolerance",
+          "frameRate": {
+            "requestedFps": 60,
+            "actualOnUpdateHz": 59.894586,
+            "observedOnUpdateCount": 150,
+            "wallSeconds": 2.5044,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "measurementTeleportCount": 0,
+          "assertions": [
+            {
+              "label": "距离定量误差",
+              "status": "PASS",
+              "actual": 0.00726,
+              "limit": 0.178968
+            },
+            {
+              "label": "长窗速度上界",
+              "status": "PASS",
+              "actual": 1.713062,
+              "limit": "5% + one physics-step sampling error"
+            },
+            {
+              "label": "固定平地与无横向障碍偏移",
+              "status": "PASS",
+              "actual": {
+                "lateral": 0,
+                "heightDelta": 0
+              }
+            },
+            {
+              "label": "释放后停止与输入清空",
+              "status": "PASS",
+              "actual": {
+                "stopDrift": 0,
+                "inputsClear": true
+              },
+              "limit": 0.075
+            }
+          ],
+          "status": "PASS"
+        },
+        {
+          "type": "movement",
+          "label": "Run Forward · 60 FPS",
+          "inputSource": "synthetic-input: touch DOM",
+          "inputVector": [
+            0,
+            1
+          ],
+          "running": true,
+          "inputDownAtMs": 43118.699999999255,
+          "inputUpAtMs": 45622.10000000149,
+          "inputWallSeconds": 2.5034,
+          "start": [
+            0,
+            1.660000011920929,
+            100
+          ],
+          "end": [
+            3.1456656061611867,
+            1.660000011920929,
+            90.50764581917576
+          ],
+          "startPositionSampleAtMs": 43115.199999999255,
+          "endPositionSampleAtMs": 45628,
+          "postReleaseSampleDelayMs": 5.9,
+          "immediateUpPosition": [
+            3.1456656061611867,
+            1.660000011920929,
+            90.50764581917576
+          ],
+          "positionSampling": "after original cameraFollow.follow; end is first real postphysics sample at/after inputUpAtMs",
+          "configuredSpeed": 4,
+          "speedConfiguration": "Observed return from original avatar.getMovementSpeedScale, multiplied by actual walkSpeed/runSpeed",
+          "expectedDistance": 10.0136,
+          "projectedDistance": 10,
+          "lateralDistance": 0,
+          "distanceTolerance": 0.433741,
+          "distanceRule": "abs(projected - speed*T) <= 0.03*speed*T + 2*speed*actualPhysicsStepSeconds",
+          "speedWindowRule": "0.4..0.65s windows after startup: measured <= speed*(1.05 + actualPhysicsStepSeconds/windowSeconds)",
+          "perFrameSpeed": {
+            "n": 149,
+            "mean": 3.971475,
+            "min": 0,
+            "max": 7.490637,
+            "p50": 4.016064,
+            "p95": 7.407407
+          },
+          "perFrameSamples": [
+            {
+              "gameFrame": 329,
+              "atMs": 43143.60000000149,
+              "seconds": 0.0161,
+              "metersPerSecond": 0
+            },
+            {
+              "gameFrame": 330,
+              "atMs": 43161.900000002235,
+              "seconds": 0.0183,
+              "metersPerSecond": 7.285974
+            },
+            {
+              "gameFrame": 331,
+              "atMs": 43177.400000002235,
+              "seconds": 0.0155,
+              "metersPerSecond": 4.301075
+            },
+            {
+              "gameFrame": 333,
+              "atMs": 43211.699999999255,
+              "seconds": 0.0174,
+              "metersPerSecond": 3.831418
+            },
+            {
+              "gameFrame": 334,
+              "atMs": 43228,
+              "seconds": 0.0163,
+              "metersPerSecond": 4.08998
+            },
+            {
+              "gameFrame": 335,
+              "atMs": 43243.400000002235,
+              "seconds": 0.0154,
+              "metersPerSecond": 0
+            },
+            {
+              "gameFrame": 336,
+              "atMs": 43261.199999999255,
+              "seconds": 0.0178,
+              "metersPerSecond": 7.490637
+            },
+            {
+              "gameFrame": 338,
+              "atMs": 43294,
+              "seconds": 0.0158,
+              "metersPerSecond": 4.219409
+            },
+            {
+              "gameFrame": 339,
+              "atMs": 43309.900000002235,
+              "seconds": 0.0159,
+              "metersPerSecond": 0
+            },
+            {
+              "gameFrame": 340,
+              "atMs": 43327.900000002235,
+              "seconds": 0.018,
+              "metersPerSecond": 7.407407
+            },
+            {
+              "gameFrame": 341,
+              "atMs": 43344.10000000149,
+              "seconds": 0.0162,
+              "metersPerSecond": 4.115226
+            },
+            {
+              "gameFrame": 343,
+              "atMs": 43377.699999999255,
+              "seconds": 0.017,
+              "metersPerSecond": 3.921569
+            },
+            {
+              "gameFrame": 344,
+              "atMs": 43394.800000000745,
+              "seconds": 0.0171,
+              "metersPerSecond": 3.898635
+            },
+            {
+              "gameFrame": 345,
+              "atMs": 43409.699999999255,
+              "seconds": 0.0149,
+              "metersPerSecond": 0
+            },
+            {
+              "gameFrame": 346,
+              "atMs": 43428.400000002235,
+              "seconds": 0.0187,
+              "metersPerSecond": 7.130125
+            },
+            {
+              "gameFrame": 348,
+              "atMs": 43460.699999999255,
+              "seconds": 0.0167,
+              "metersPerSecond": 3.992016
+            },
+            {
+              "gameFrame": 349,
+              "atMs": 43479.199999999255,
+              "seconds": 0.0185,
+              "metersPerSecond": 3.603604
+            },
+            {
+              "gameFrame": 350,
+              "atMs": 43494.10000000149,
+              "seconds": 0.0149,
+              "metersPerSecond": 4.474273
+            },
+            {
+              "gameFrame": 351,
+              "atMs": 43510.800000000745,
+              "seconds": 0.0167,
+              "metersPerSecond": 3.992016
+            },
+            {
+              "gameFrame": 353,
+              "atMs": 43544.400000002235,
+              "seconds": 0.0164,
+              "metersPerSecond": 4.065041
+            },
+            {
+              "gameFrame": 354,
+              "atMs": 43561.699999999255,
+              "seconds": 0.0173,
+              "metersPerSecond": 3.853565
+            },
+            {
+              "gameFrame": 355,
+              "atMs": 43578.5,
+              "seconds": 0.0168,
+              "metersPerSecond": 3.968254
+            },
+            {
+              "gameFrame": 356,
+              "atMs": 43595.10000000149,
+              "seconds": 0.0166,
+              "metersPerSecond": 4.016064
+            },
+            {
+              "gameFrame": 358,
+              "atMs": 43629.300000000745,
+              "seconds": 0.0178,
+              "metersPerSecond": 3.745318
+            },
+            {
+              "gameFrame": 359,
+              "atMs": 43645.800000000745,
+              "seconds": 0.0165,
+              "metersPerSecond": 4.040404
+            },
+            {
+              "gameFrame": 360,
+              "atMs": 43660.900000002235,
+              "seconds": 0.0151,
+              "metersPerSecond": 4.415011
+            },
+            {
+              "gameFrame": 361,
+              "atMs": 43678.199999999255,
+              "seconds": 0.0173,
+              "metersPerSecond": 3.853565
+            },
+            {
+              "gameFrame": 363,
+              "atMs": 43710.800000000745,
+              "seconds": 0.0161,
+              "metersPerSecond": 4.140787
+            },
+            {
+              "gameFrame": 364,
+              "atMs": 43727.300000000745,
+              "seconds": 0.0165,
+              "metersPerSecond": 4.040404
+            },
+            {
+              "gameFrame": 365,
+              "atMs": 43745,
+              "seconds": 0.0177,
+              "metersPerSecond": 3.766478
+            },
+            {
+              "gameFrame": 366,
+              "atMs": 43761.300000000745,
+              "seconds": 0.0163,
+              "metersPerSecond": 4.08998
+            },
+            {
+              "gameFrame": 368,
+              "atMs": 43793.5,
+              "seconds": 0.0164,
+              "metersPerSecond": 0
+            },
+            {
+              "gameFrame": 369,
+              "atMs": 43811.60000000149,
+              "seconds": 0.0181,
+              "metersPerSecond": 7.366483
+            },
+            {
+              "gameFrame": 370,
+              "atMs": 43827.400000002235,
+              "seconds": 0.0158,
+              "metersPerSecond": 4.219409
+            },
+            {
+              "gameFrame": 371,
+              "atMs": 43844,
+              "seconds": 0.0166,
+              "metersPerSecond": 4.016064
+            },
+            {
+              "gameFrame": 373,
+              "atMs": 43878.900000002235,
+              "seconds": 0.0179,
+              "metersPerSecond": 3.724395
+            },
+            {
+              "gameFrame": 374,
+              "atMs": 43894.800000000745,
+              "seconds": 0.0159,
+              "metersPerSecond": 4.192872
+            },
+            {
+              "gameFrame": 375,
+              "atMs": 43914.900000002235,
+              "seconds": 0.0201,
+              "metersPerSecond": 3.31675
+            },
+            {
+              "gameFrame": 376,
+              "atMs": 43927.300000000745,
+              "seconds": 0.0124,
+              "metersPerSecond": 5.376344
+            },
+            {
+              "gameFrame": 378,
+              "atMs": 43961.199999999255,
+              "seconds": 0.0178,
+              "metersPerSecond": 7.490637
+            },
+            {
+              "gameFrame": 379,
+              "atMs": 43977.300000000745,
+              "seconds": 0.0161,
+              "metersPerSecond": 4.140787
+            },
+            {
+              "gameFrame": 380,
+              "atMs": 43994.10000000149,
+              "seconds": 0.0168,
+              "metersPerSecond": 3.968254
+            },
+            {
+              "gameFrame": 381,
+              "atMs": 44010.699999999255,
+              "seconds": 0.0166,
+              "metersPerSecond": 4.016064
+            },
+            {
+              "gameFrame": 382,
+              "atMs": 44027.5,
+              "seconds": 0.0168,
+              "metersPerSecond": 3.968254
+            },
+            {
+              "gameFrame": 384,
+              "atMs": 44060.800000000745,
+              "seconds": 0.0168,
+              "metersPerSecond": 3.968254
+            },
+            {
+              "gameFrame": 385,
+              "atMs": 44077.400000002235,
+              "seconds": 0.0166,
+              "metersPerSecond": 4.016064
+            },
+            {
+              "gameFrame": 386,
+              "atMs": 44094.300000000745,
+              "seconds": 0.0169,
+              "metersPerSecond": 3.944773
+            },
+            {
+              "gameFrame": 387,
+              "atMs": 44110.199999999255,
+              "seconds": 0.0159,
+              "metersPerSecond": 0
+            },
+            {
+              "gameFrame": 389,
+              "atMs": 44144.699999999255,
+              "seconds": 0.0167,
+              "metersPerSecond": 3.992016
+            },
+            {
+              "gameFrame": 390,
+              "atMs": 44161.5,
+              "seconds": 0.0168,
+              "metersPerSecond": 3.968254
+            },
+            {
+              "gameFrame": 391,
+              "atMs": 44178.199999999255,
+              "seconds": 0.0167,
+              "metersPerSecond": 3.992016
+            },
+            {
+              "gameFrame": 392,
+              "atMs": 44194.10000000149,
+              "seconds": 0.0159,
+              "metersPerSecond": 4.192872
+            },
+            {
+              "gameFrame": 394,
+              "atMs": 44227.400000002235,
+              "seconds": 0.0167,
+              "metersPerSecond": 3.992016
+            },
+            {
+              "gameFrame": 395,
+              "atMs": 44243.900000002235,
+              "seconds": 0.0165,
+              "metersPerSecond": 4.040404
+            },
+            {
+              "gameFrame": 396,
+              "atMs": 44260.5,
+              "seconds": 0.0166,
+              "metersPerSecond": 4.016064
+            },
+            {
+              "gameFrame": 397,
+              "atMs": 44277.699999999255,
+              "seconds": 0.0172,
+              "metersPerSecond": 3.875969
+            },
+            {
+              "gameFrame": 399,
+              "atMs": 44315.900000002235,
+              "seconds": 0.0175,
+              "metersPerSecond": 3.809524
+            },
+            {
+              "gameFrame": 400,
+              "atMs": 44327.60000000149,
+              "seconds": 0.0117,
+              "metersPerSecond": 5.698006
+            },
+            {
+              "gameFrame": 401,
+              "atMs": 44344.699999999255,
+              "seconds": 0.0171,
+              "metersPerSecond": 3.898635
+            },
+            {
+              "gameFrame": 402,
+              "atMs": 44360.900000002235,
+              "seconds": 0.0162,
+              "metersPerSecond": 4.115226
+            },
+            {
+              "gameFrame": 404,
+              "atMs": 44394.60000000149,
+              "seconds": 0.017,
+              "metersPerSecond": 3.921569
+            },
+            {
+              "gameFrame": 405,
+              "atMs": 44410.699999999255,
+              "seconds": 0.0161,
+              "metersPerSecond": 4.140787
+            },
+            {
+              "gameFrame": 406,
+              "atMs": 44432.800000000745,
+              "seconds": 0.0221,
+              "metersPerSecond": 3.016591
+            },
+            {
+              "gameFrame": 407,
+              "atMs": 44445.10000000149,
+              "seconds": 0.0123,
+              "metersPerSecond": 5.420054
+            },
+            {
+              "gameFrame": 409,
+              "atMs": 44477.699999999255,
+              "seconds": 0.0164,
+              "metersPerSecond": 4.065041
+            },
+            {
+              "gameFrame": 410,
+              "atMs": 44495.10000000149,
+              "seconds": 0.0174,
+              "metersPerSecond": 3.831418
+            },
+            {
+              "gameFrame": 411,
+              "atMs": 44511.199999999255,
+              "seconds": 0.0161,
+              "metersPerSecond": 4.140787
+            },
+            {
+              "gameFrame": 412,
+              "atMs": 44531.5,
+              "seconds": 0.0203,
+              "metersPerSecond": 3.284072
+            },
+            {
+              "gameFrame": 414,
+              "atMs": 44561.199999999255,
+              "seconds": 0.0165,
+              "metersPerSecond": 4.040404
+            },
+            {
+              "gameFrame": 415,
+              "atMs": 44578.199999999255,
+              "seconds": 0.017,
+              "metersPerSecond": 3.921569
+            },
+            {
+              "gameFrame": 416,
+              "atMs": 44594.199999999255,
+              "seconds": 0.016,
+              "metersPerSecond": 4.166667
+            },
+            {
+              "gameFrame": 417,
+              "atMs": 44611.300000000745,
+              "seconds": 0.0171,
+              "metersPerSecond": 3.898635
+            },
+            {
+              "gameFrame": 419,
+              "atMs": 44643.900000002235,
+              "seconds": 0.0162,
+              "metersPerSecond": 4.115226
+            },
+            {
+              "gameFrame": 420,
+              "atMs": 44660.199999999255,
+              "seconds": 0.0163,
+              "metersPerSecond": 0
+            },
+            {
+              "gameFrame": 421,
+              "atMs": 44678.10000000149,
+              "seconds": 0.0179,
+              "metersPerSecond": 7.44879
+            },
+            {
+              "gameFrame": 422,
+              "atMs": 44694.10000000149,
+              "seconds": 0.016,
+              "metersPerSecond": 4.166667
+            },
+            {
+              "gameFrame": 424,
+              "atMs": 44727.300000000745,
+              "seconds": 0.0164,
+              "metersPerSecond": 4.065041
+            },
+            {
+              "gameFrame": 425,
+              "atMs": 44744.699999999255,
+              "seconds": 0.0174,
+              "metersPerSecond": 3.831418
+            },
+            {
+              "gameFrame": 426,
+              "atMs": 44761,
+              "seconds": 0.0163,
+              "metersPerSecond": 4.08998
+            },
+            {
+              "gameFrame": 427,
+              "atMs": 44777.800000000745,
+              "seconds": 0.0168,
+              "metersPerSecond": 3.968254
+            },
+            {
+              "gameFrame": 428,
+              "atMs": 44794.5,
+              "seconds": 0.0167,
+              "metersPerSecond": 3.992016
+            },
+            {
+              "gameFrame": 430,
+              "atMs": 44827.900000002235,
+              "seconds": 0.0179,
+              "metersPerSecond": 7.44879
+            },
+            {
+              "gameFrame": 431,
+              "atMs": 44844,
+              "seconds": 0.0161,
+              "metersPerSecond": 4.140787
+            },
+            {
+              "gameFrame": 432,
+              "atMs": 44860.10000000149,
+              "seconds": 0.0161,
+              "metersPerSecond": 0
+            },
+            {
+              "gameFrame": 433,
+              "atMs": 44878.10000000149,
+              "seconds": 0.018,
+              "metersPerSecond": 7.407407
+            },
+            {
+              "gameFrame": 435,
+              "atMs": 44911.699999999255,
+              "seconds": 0.0171,
+              "metersPerSecond": 3.898635
+            },
+            {
+              "gameFrame": 436,
+              "atMs": 44927.900000002235,
+              "seconds": 0.0162,
+              "metersPerSecond": 4.115226
+            },
+            {
+              "gameFrame": 437,
+              "atMs": 44944,
+              "seconds": 0.0161,
+              "metersPerSecond": 4.140787
+            },
+            {
+              "gameFrame": 438,
+              "atMs": 44960.10000000149,
+              "seconds": 0.0161,
+              "metersPerSecond": 0
+            },
+            {
+              "gameFrame": 440,
+              "atMs": 44994.900000002235,
+              "seconds": 0.0164,
+              "metersPerSecond": 4.065041
+            },
+            {
+              "gameFrame": 441,
+              "atMs": 45014.800000000745,
+              "seconds": 0.0199,
+              "metersPerSecond": 3.350084
+            },
+            {
+              "gameFrame": 442,
+              "atMs": 45027.5,
+              "seconds": 0.0127,
+              "metersPerSecond": 5.249344
+            },
+            {
+              "gameFrame": 443,
+              "atMs": 45044.5,
+              "seconds": 0.017,
+              "metersPerSecond": 3.921569
+            },
+            {
+              "gameFrame": 445,
+              "atMs": 45077.199999999255,
+              "seconds": 0.0165,
+              "metersPerSecond": 4.040404
+            },
+            {
+              "gameFrame": 446,
+              "atMs": 45094.699999999255,
+              "seconds": 0.0175,
+              "metersPerSecond": 3.809524
+            },
+            {
+              "gameFrame": 447,
+              "atMs": 45110.900000002235,
+              "seconds": 0.0162,
+              "metersPerSecond": 4.115226
+            },
+            {
+              "gameFrame": 448,
+              "atMs": 45128.400000002235,
+              "seconds": 0.0175,
+              "metersPerSecond": 3.809524
+            },
+            {
+              "gameFrame": 450,
+              "atMs": 45161.5,
+              "seconds": 0.0133,
+              "metersPerSecond": 5.012531
+            },
+            {
+              "gameFrame": 451,
+              "atMs": 45177.900000002235,
+              "seconds": 0.0164,
+              "metersPerSecond": 4.065041
+            },
+            {
+              "gameFrame": 452,
+              "atMs": 45194.800000000745,
+              "seconds": 0.0169,
+              "metersPerSecond": 3.944773
+            },
+            {
+              "gameFrame": 453,
+              "atMs": 45211,
+              "seconds": 0.0162,
+              "metersPerSecond": 4.115226
+            },
+            {
+              "gameFrame": 455,
+              "atMs": 45244.10000000149,
+              "seconds": 0.0162,
+              "metersPerSecond": 4.115226
+            },
+            {
+              "gameFrame": 456,
+              "atMs": 45259.900000002235,
+              "seconds": 0.0158,
+              "metersPerSecond": 0
+            },
+            {
+              "gameFrame": 457,
+              "atMs": 45278.60000000149,
+              "seconds": 0.0187,
+              "metersPerSecond": 7.130125
+            },
+            {
+              "gameFrame": 458,
+              "atMs": 45294.900000002235,
+              "seconds": 0.0163,
+              "metersPerSecond": 4.08998
+            },
+            {
+              "gameFrame": 460,
+              "atMs": 45327.699999999255,
+              "seconds": 0.0125,
+              "metersPerSecond": 5.333333
+            },
+            {
+              "gameFrame": 461,
+              "atMs": 45344.5,
+              "seconds": 0.0168,
+              "metersPerSecond": 3.968254
+            },
+            {
+              "gameFrame": 462,
+              "atMs": 45361.699999999255,
+              "seconds": 0.0172,
+              "metersPerSecond": 3.875969
+            },
+            {
+              "gameFrame": 463,
+              "atMs": 45377.699999999255,
+              "seconds": 0.016,
+              "metersPerSecond": 4.166667
+            },
+            {
+              "gameFrame": 465,
+              "atMs": 45410,
+              "seconds": 0.0159,
+              "metersPerSecond": 0
+            },
+            {
+              "gameFrame": 466,
+              "atMs": 45428.699999999255,
+              "seconds": 0.0187,
+              "metersPerSecond": 7.130125
+            },
+            {
+              "gameFrame": 467,
+              "atMs": 45444.5,
+              "seconds": 0.0158,
+              "metersPerSecond": 4.219409
+            },
+            {
+              "gameFrame": 468,
+              "atMs": 45460.699999999255,
+              "seconds": 0.0162,
+              "metersPerSecond": 4.115226
+            },
+            {
+              "gameFrame": 470,
+              "atMs": 45494.199999999255,
+              "seconds": 0.0168,
+              "metersPerSecond": 3.968254
+            },
+            {
+              "gameFrame": 471,
+              "atMs": 45509.699999999255,
+              "seconds": 0.0155,
+              "metersPerSecond": 0
+            },
+            {
+              "gameFrame": 472,
+              "atMs": 45527.699999999255,
+              "seconds": 0.018,
+              "metersPerSecond": 7.407407
+            },
+            {
+              "gameFrame": 473,
+              "atMs": 45543.5,
+              "seconds": 0.0158,
+              "metersPerSecond": 0
+            },
+            {
+              "gameFrame": 475,
+              "atMs": 45578.10000000149,
+              "seconds": 0.0166,
+              "metersPerSecond": 4.016064
+            },
+            {
+              "gameFrame": 476,
+              "atMs": 45599.199999999255,
+              "seconds": 0.0211,
+              "metersPerSecond": 3.159558
+            },
+            {
+              "gameFrame": 477,
+              "atMs": 45615.400000002235,
+              "seconds": 0.0162,
+              "metersPerSecond": 4.115226
+            }
+          ],
+          "positionSamples": [
+            {
+              "atMs": 43127.5,
+              "gameFrame": 328,
+              "position": [
+                0.020971104041074516,
+                1.660000011920929,
+                99.9367176387945
+              ],
+              "timerDeltaMs": 20.80000000000291
+            },
+            {
+              "atMs": 43143.60000000149,
+              "gameFrame": 329,
+              "position": [
+                0.020971104041074516,
+                1.660000011920929,
+                99.9367176387945
+              ],
+              "timerDeltaMs": 12
+            },
+            {
+              "atMs": 43177.400000002235,
+              "gameFrame": 331,
+              "position": [
+                0.08388441616429806,
+                1.660000011920929,
+                99.74687055517802
+              ],
+              "timerDeltaMs": 16.60000000000582
+            },
+            {
+              "atMs": 43194.300000000745,
+              "gameFrame": 332,
+              "position": [
+                0.10485552020537259,
+                1.660000011920929,
+                99.68358819397253
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 43211.699999999255,
+              "gameFrame": 333,
+              "position": [
+                0.1258266242464471,
+                1.660000011920929,
+                99.62030583276703
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 43228,
+              "gameFrame": 334,
+              "position": [
+                0.14679772828752163,
+                1.660000011920929,
+                99.55702347156154
+              ],
+              "timerDeltaMs": 16.80000000000291
+            },
+            {
+              "atMs": 43261.199999999255,
+              "gameFrame": 336,
+              "position": [
+                0.18873993636967068,
+                1.660000011920929,
+                99.43045874915055
+              ],
+              "timerDeltaMs": 16.799999999995634
+            },
+            {
+              "atMs": 43278.199999999255,
+              "gameFrame": 337,
+              "position": [
+                0.2097110404107452,
+                1.660000011920929,
+                99.36717638794505
+              ],
+              "timerDeltaMs": 16.60000000000582
+            },
+            {
+              "atMs": 43294,
+              "gameFrame": 338,
+              "position": [
+                0.23068214445181973,
+                1.660000011920929,
+                99.30389402673956
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 43309.900000002235,
+              "gameFrame": 339,
+              "position": [
+                0.23068214445181973,
+                1.660000011920929,
+                99.30389402673956
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 43344.10000000149,
+              "gameFrame": 341,
+              "position": [
+                0.2935954565750432,
+                1.660000011920929,
+                99.11404694312307
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 43360.699999999255,
+              "gameFrame": 342,
+              "position": [
+                0.3145665606161177,
+                1.660000011920929,
+                99.05076458191758
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 43377.699999999255,
+              "gameFrame": 343,
+              "position": [
+                0.3355376646571922,
+                1.660000011920929,
+                98.98748222071208
+              ],
+              "timerDeltaMs": 16.700000000004366
+            },
+            {
+              "atMs": 43394.800000000745,
+              "gameFrame": 344,
+              "position": [
+                0.3565087686982667,
+                1.660000011920929,
+                98.92419985950659
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 43428.400000002235,
+              "gameFrame": 346,
+              "position": [
+                0.3984509767804157,
+                1.660000011920929,
+                98.7976351370956
+              ],
+              "timerDeltaMs": 16.700000000004366
+            },
+            {
+              "atMs": 43444,
+              "gameFrame": 347,
+              "position": [
+                0.4194220808214902,
+                1.660000011920929,
+                98.7343527758901
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 43460.699999999255,
+              "gameFrame": 348,
+              "position": [
+                0.4403931848625647,
+                1.660000011920929,
+                98.6710704146846
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 43479.199999999255,
+              "gameFrame": 349,
+              "position": [
+                0.4613642889036392,
+                1.660000011920929,
+                98.60778805347911
+              ],
+              "timerDeltaMs": 16.60000000000582
+            },
+            {
+              "atMs": 43510.800000000745,
+              "gameFrame": 351,
+              "position": [
+                0.5033064969857882,
+                1.660000011920929,
+                98.48122333106812
+              ],
+              "timerDeltaMs": 16.39999999999418
+            },
+            {
+              "atMs": 43528,
+              "gameFrame": 352,
+              "position": [
+                0.5242776010268627,
+                1.660000011920929,
+                98.41794096986263
+              ],
+              "timerDeltaMs": 16.60000000000582
+            },
+            {
+              "atMs": 43544.400000002235,
+              "gameFrame": 353,
+              "position": [
+                0.5452487050679372,
+                1.660000011920929,
+                98.35465860865713
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 43561.699999999255,
+              "gameFrame": 354,
+              "position": [
+                0.5662198091090117,
+                1.660000011920929,
+                98.29137624745164
+              ],
+              "timerDeltaMs": 16.80000000000291
+            },
+            {
+              "atMs": 43595.10000000149,
+              "gameFrame": 356,
+              "position": [
+                0.6081620171911607,
+                1.660000011920929,
+                98.16481152504065
+              ],
+              "timerDeltaMs": 16.5
+            },
+            {
+              "atMs": 43611.5,
+              "gameFrame": 357,
+              "position": [
+                0.6291331212322352,
+                1.660000011920929,
+                98.10152916383515
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 43629.300000000745,
+              "gameFrame": 358,
+              "position": [
+                0.6501042252733097,
+                1.660000011920929,
+                98.03824680262966
+              ],
+              "timerDeltaMs": 16.700000000004366
+            },
+            {
+              "atMs": 43645.800000000745,
+              "gameFrame": 359,
+              "position": [
+                0.6710753293143842,
+                1.660000011920929,
+                97.97496444142416
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 43678.199999999255,
+              "gameFrame": 361,
+              "position": [
+                0.7130175373965332,
+                1.660000011920929,
+                97.84839971901317
+              ],
+              "timerDeltaMs": 16.700000000004366
+            },
+            {
+              "atMs": 43694.699999999255,
+              "gameFrame": 362,
+              "position": [
+                0.7339886414376077,
+                1.660000011920929,
+                97.78511735780768
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 43710.800000000745,
+              "gameFrame": 363,
+              "position": [
+                0.7549597454786822,
+                1.660000011920929,
+                97.72183499660218
+              ],
+              "timerDeltaMs": 16.80000000000291
+            },
+            {
+              "atMs": 43727.300000000745,
+              "gameFrame": 364,
+              "position": [
+                0.7759308495197567,
+                1.660000011920929,
+                97.65855263539669
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 43761.300000000745,
+              "gameFrame": 366,
+              "position": [
+                0.8178730576019057,
+                1.660000011920929,
+                97.5319879129857
+              ],
+              "timerDeltaMs": 17.099999999998545
+            },
+            {
+              "atMs": 43777.10000000149,
+              "gameFrame": 367,
+              "position": [
+                0.8388441616429801,
+                1.660000011920929,
+                97.4687055517802
+              ],
+              "timerDeltaMs": 16.400000000001455
+            },
+            {
+              "atMs": 43793.5,
+              "gameFrame": 368,
+              "position": [
+                0.8388441616429801,
+                1.660000011920929,
+                97.4687055517802
+              ],
+              "timerDeltaMs": 16.400000000001455
+            },
+            {
+              "atMs": 43811.60000000149,
+              "gameFrame": 369,
+              "position": [
+                0.8807863697251291,
+                1.660000011920929,
+                97.34214082936921
+              ],
+              "timerDeltaMs": 16.900000000001455
+            },
+            {
+              "atMs": 43844,
+              "gameFrame": 371,
+              "position": [
+                0.9227285778072781,
+                1.660000011920929,
+                97.21557610695822
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 43861,
+              "gameFrame": 372,
+              "position": [
+                0.9436996818483526,
+                1.660000011920929,
+                97.15229374575273
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 43878.900000002235,
+              "gameFrame": 373,
+              "position": [
+                0.9646707858894271,
+                1.660000011920929,
+                97.08901138454723
+              ],
+              "timerDeltaMs": 16.700000000004366
+            },
+            {
+              "atMs": 43894.800000000745,
+              "gameFrame": 374,
+              "position": [
+                0.9856418899305016,
+                1.660000011920929,
+                97.02572902334174
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 43927.300000000745,
+              "gameFrame": 376,
+              "position": [
+                1.0275840980126507,
+                1.660000011920929,
+                96.89916430093075
+              ],
+              "timerDeltaMs": 20.69999999999709
+            },
+            {
+              "atMs": 43943.400000002235,
+              "gameFrame": 377,
+              "position": [
+                1.0275840980126507,
+                1.660000011920929,
+                96.89916430093075
+              ],
+              "timerDeltaMs": 12.30000000000291
+            },
+            {
+              "atMs": 43961.199999999255,
+              "gameFrame": 378,
+              "position": [
+                1.0695263060947997,
+                1.660000011920929,
+                96.77259957851976
+              ],
+              "timerDeltaMs": 16.799999999995634
+            },
+            {
+              "atMs": 43977.300000000745,
+              "gameFrame": 379,
+              "position": [
+                1.0904974101358742,
+                1.660000011920929,
+                96.70931721731426
+              ],
+              "timerDeltaMs": 16.700000000004366
+            },
+            {
+              "atMs": 44010.699999999255,
+              "gameFrame": 381,
+              "position": [
+                1.1324396182180232,
+                1.660000011920929,
+                96.58275249490327
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 44027.5,
+              "gameFrame": 382,
+              "position": [
+                1.1534107222590977,
+                1.660000011920929,
+                96.51947013369778
+              ],
+              "timerDeltaMs": 16.700000000004366
+            },
+            {
+              "atMs": 44044,
+              "gameFrame": 383,
+              "position": [
+                1.1743818263001722,
+                1.660000011920929,
+                96.45618777249229
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 44060.800000000745,
+              "gameFrame": 384,
+              "position": [
+                1.1953529303412467,
+                1.660000011920929,
+                96.39290541128679
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 44094.300000000745,
+              "gameFrame": 386,
+              "position": [
+                1.2372951384233957,
+                1.660000011920929,
+                96.2663406888758
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 44110.199999999255,
+              "gameFrame": 387,
+              "position": [
+                1.2372951384233957,
+                1.660000011920929,
+                96.2663406888758
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 44128,
+              "gameFrame": 388,
+              "position": [
+                1.2792373465055447,
+                1.660000011920929,
+                96.13977596646481
+              ],
+              "timerDeltaMs": 16.80000000000291
+            },
+            {
+              "atMs": 44144.699999999255,
+              "gameFrame": 389,
+              "position": [
+                1.3002084505466192,
+                1.660000011920929,
+                96.07649360525932
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 44178.199999999255,
+              "gameFrame": 391,
+              "position": [
+                1.3421506586287681,
+                1.660000011920929,
+                95.94992888284833
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 44194.10000000149,
+              "gameFrame": 392,
+              "position": [
+                1.3631217626698426,
+                1.660000011920929,
+                95.88664652164283
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 44210.699999999255,
+              "gameFrame": 393,
+              "position": [
+                1.3840928667109171,
+                1.660000011920929,
+                95.82336416043734
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 44227.400000002235,
+              "gameFrame": 394,
+              "position": [
+                1.4050639707519916,
+                1.660000011920929,
+                95.76008179923184
+              ],
+              "timerDeltaMs": 16.700000000004366
+            },
+            {
+              "atMs": 44260.5,
+              "gameFrame": 396,
+              "position": [
+                1.4470061788341406,
+                1.660000011920929,
+                95.63351707682085
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 44277.699999999255,
+              "gameFrame": 397,
+              "position": [
+                1.4679772828752151,
+                1.660000011920929,
+                95.57023471561536
+              ],
+              "timerDeltaMs": 16.60000000000582
+            },
+            {
+              "atMs": 44298.400000002235,
+              "gameFrame": 398,
+              "position": [
+                1.4889483869162896,
+                1.660000011920929,
+                95.50695235440986
+              ],
+              "timerDeltaMs": 17
+            },
+            {
+              "atMs": 44315.900000002235,
+              "gameFrame": 399,
+              "position": [
+                1.509919490957364,
+                1.660000011920929,
+                95.44366999320437
+              ],
+              "timerDeltaMs": 20.89999999999418
+            },
+            {
+              "atMs": 44344.699999999255,
+              "gameFrame": 401,
+              "position": [
+                1.551861699039513,
+                1.660000011920929,
+                95.31710527079338
+              ],
+              "timerDeltaMs": 17
+            },
+            {
+              "atMs": 44360.900000002235,
+              "gameFrame": 402,
+              "position": [
+                1.5728328030805876,
+                1.660000011920929,
+                95.25382290958788
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 44377.60000000149,
+              "gameFrame": 403,
+              "position": [
+                1.593803907121662,
+                1.660000011920929,
+                95.19054054838239
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 44394.60000000149,
+              "gameFrame": 404,
+              "position": [
+                1.6147750111627366,
+                1.660000011920929,
+                95.12725818717689
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 44432.800000000745,
+              "gameFrame": 406,
+              "position": [
+                1.6567172192448856,
+                1.660000011920929,
+                95.0006934647659
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 44445.10000000149,
+              "gameFrame": 407,
+              "position": [
+                1.67768832328596,
+                1.660000011920929,
+                94.93741110356041
+              ],
+              "timerDeltaMs": 21
+            },
+            {
+              "atMs": 44461.300000000745,
+              "gameFrame": 408,
+              "position": [
+                1.6986594273270346,
+                1.660000011920929,
+                94.87412874235491
+              ],
+              "timerDeltaMs": 12.19999999999709
+            },
+            {
+              "atMs": 44477.699999999255,
+              "gameFrame": 409,
+              "position": [
+                1.719630531368109,
+                1.660000011920929,
+                94.81084638114942
+              ],
+              "timerDeltaMs": 16.60000000000582
+            },
+            {
+              "atMs": 44511.199999999255,
+              "gameFrame": 411,
+              "position": [
+                1.761572739450258,
+                1.660000011920929,
+                94.68428165873843
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 44531.5,
+              "gameFrame": 412,
+              "position": [
+                1.7825438434913325,
+                1.660000011920929,
+                94.62099929753293
+              ],
+              "timerDeltaMs": 16.700000000004366
+            },
+            {
+              "atMs": 44544.699999999255,
+              "gameFrame": 413,
+              "position": [
+                1.803514947532407,
+                1.660000011920929,
+                94.55771693632744
+              ],
+              "timerDeltaMs": 20.799999999995634
+            },
+            {
+              "atMs": 44561.199999999255,
+              "gameFrame": 414,
+              "position": [
+                1.8244860515734815,
+                1.660000011920929,
+                94.49443457512194
+              ],
+              "timerDeltaMs": 12.5
+            },
+            {
+              "atMs": 44594.199999999255,
+              "gameFrame": 416,
+              "position": [
+                1.8664282596556305,
+                1.660000011920929,
+                94.36786985271095
+              ],
+              "timerDeltaMs": 16.5
+            },
+            {
+              "atMs": 44611.300000000745,
+              "gameFrame": 417,
+              "position": [
+                1.887399363696705,
+                1.660000011920929,
+                94.30458749150546
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 44627.699999999255,
+              "gameFrame": 418,
+              "position": [
+                1.9083704677377795,
+                1.660000011920929,
+                94.24130513029996
+              ],
+              "timerDeltaMs": 16.700000000004366
+            },
+            {
+              "atMs": 44643.900000002235,
+              "gameFrame": 419,
+              "position": [
+                1.929341571778854,
+                1.660000011920929,
+                94.17802276909447
+              ],
+              "timerDeltaMs": 17.099999999998545
+            },
+            {
+              "atMs": 44678.10000000149,
+              "gameFrame": 421,
+              "position": [
+                1.971283779861003,
+                1.660000011920929,
+                94.05145804668348
+              ],
+              "timerDeltaMs": 16.900000000001455
+            },
+            {
+              "atMs": 44694.10000000149,
+              "gameFrame": 422,
+              "position": [
+                1.9922548839020775,
+                1.660000011920929,
+                93.98817568547798
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 44710.900000002235,
+              "gameFrame": 423,
+              "position": [
+                2.013225987943152,
+                1.660000011920929,
+                93.92489332427249
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 44727.300000000745,
+              "gameFrame": 424,
+              "position": [
+                2.0341970919842267,
+                1.660000011920929,
+                93.861610963067
+              ],
+              "timerDeltaMs": 16.700000000004366
+            },
+            {
+              "atMs": 44761,
+              "gameFrame": 426,
+              "position": [
+                2.076139300066376,
+                1.660000011920929,
+                93.735046240656
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 44777.800000000745,
+              "gameFrame": 427,
+              "position": [
+                2.097110404107451,
+                1.660000011920929,
+                93.67176387945051
+              ],
+              "timerDeltaMs": 16.80000000000291
+            },
+            {
+              "atMs": 44794.5,
+              "gameFrame": 428,
+              "position": [
+                2.1180815081485256,
+                1.660000011920929,
+                93.60848151824501
+              ],
+              "timerDeltaMs": 16.5
+            },
+            {
+              "atMs": 44810,
+              "gameFrame": 429,
+              "position": [
+                2.1180815081485256,
+                1.660000011920929,
+                93.60848151824501
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 44844,
+              "gameFrame": 431,
+              "position": [
+                2.1809948202717497,
+                1.660000011920929,
+                93.41863443462853
+              ],
+              "timerDeltaMs": 16.799999999995634
+            },
+            {
+              "atMs": 44860.10000000149,
+              "gameFrame": 432,
+              "position": [
+                2.1809948202717497,
+                1.660000011920929,
+                93.41863443462853
+              ],
+              "timerDeltaMs": 16.5
+            },
+            {
+              "atMs": 44878.10000000149,
+              "gameFrame": 433,
+              "position": [
+                2.222937028353899,
+                1.660000011920929,
+                93.29206971221754
+              ],
+              "timerDeltaMs": 16.900000000001455
+            },
+            {
+              "atMs": 44894.60000000149,
+              "gameFrame": 434,
+              "position": [
+                2.243908132394974,
+                1.660000011920929,
+                93.22878735101204
+              ],
+              "timerDeltaMs": 16.80000000000291
+            },
+            {
+              "atMs": 44927.900000002235,
+              "gameFrame": 436,
+              "position": [
+                2.2858503404771233,
+                1.660000011920929,
+                93.10222262860106
+              ],
+              "timerDeltaMs": 16.799999999995634
+            },
+            {
+              "atMs": 44944,
+              "gameFrame": 437,
+              "position": [
+                2.306821444518198,
+                1.660000011920929,
+                93.03894026739556
+              ],
+              "timerDeltaMs": 16.400000000001455
+            },
+            {
+              "atMs": 44960.10000000149,
+              "gameFrame": 438,
+              "position": [
+                2.306821444518198,
+                1.660000011920929,
+                93.03894026739556
+              ],
+              "timerDeltaMs": 16.5
+            },
+            {
+              "atMs": 44978.5,
+              "gameFrame": 439,
+              "position": [
+                2.3487636526003475,
+                1.660000011920929,
+                92.91237554498457
+              ],
+              "timerDeltaMs": 16.700000000004366
+            },
+            {
+              "atMs": 45014.800000000745,
+              "gameFrame": 441,
+              "position": [
+                2.390705860682497,
+                1.6600000119209288,
+                92.78581082257358
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 45027.5,
+              "gameFrame": 442,
+              "position": [
+                2.4116769647235716,
+                1.6600000119209288,
+                92.72252846136809
+              ],
+              "timerDeltaMs": 20.900000000001455
+            },
+            {
+              "atMs": 45044.5,
+              "gameFrame": 443,
+              "position": [
+                2.4326480687646463,
+                1.660000011920929,
+                92.65924610016259
+              ],
+              "timerDeltaMs": 12.400000000001455
+            },
+            {
+              "atMs": 45060.699999999255,
+              "gameFrame": 444,
+              "position": [
+                2.453619172805721,
+                1.660000011920929,
+                92.5959637389571
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 45094.699999999255,
+              "gameFrame": 446,
+              "position": [
+                2.4955613808878705,
+                1.660000011920929,
+                92.4693990165461
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 45110.900000002235,
+              "gameFrame": 447,
+              "position": [
+                2.516532484928945,
+                1.660000011920929,
+                92.40611665534061
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 45128.400000002235,
+              "gameFrame": 448,
+              "position": [
+                2.53750358897002,
+                1.660000011920929,
+                92.34283429413512
+              ],
+              "timerDeltaMs": 16.700000000004366
+            },
+            {
+              "atMs": 45148.199999999255,
+              "gameFrame": 449,
+              "position": [
+                2.5584746930110946,
+                1.660000011920929,
+                92.27955193292962
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 45177.900000002235,
+              "gameFrame": 451,
+              "position": [
+                2.600416901093244,
+                1.660000011920929,
+                92.15298721051863
+              ],
+              "timerDeltaMs": 12.5
+            },
+            {
+              "atMs": 45194.800000000745,
+              "gameFrame": 452,
+              "position": [
+                2.621388005134319,
+                1.660000011920929,
+                92.08970484931314
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 45211,
+              "gameFrame": 453,
+              "position": [
+                2.6423591091753935,
+                1.660000011920929,
+                92.02642248810764
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 45227.900000002235,
+              "gameFrame": 454,
+              "position": [
+                2.6633302132164682,
+                1.660000011920929,
+                91.96314012690215
+              ],
+              "timerDeltaMs": 16.700000000004366
+            },
+            {
+              "atMs": 45259.900000002235,
+              "gameFrame": 456,
+              "position": [
+                2.684301317257543,
+                1.660000011920929,
+                91.89985776569665
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 45278.60000000149,
+              "gameFrame": 457,
+              "position": [
+                2.7262435253396924,
+                1.660000011920929,
+                91.77329304328566
+              ],
+              "timerDeltaMs": 16.700000000004366
+            },
+            {
+              "atMs": 45294.900000002235,
+              "gameFrame": 458,
+              "position": [
+                2.747214629380767,
+                1.660000011920929,
+                91.71001068208017
+              ],
+              "timerDeltaMs": 16.89999999999418
+            },
+            {
+              "atMs": 45315.199999999255,
+              "gameFrame": 459,
+              "position": [
+                2.768185733421842,
+                1.660000011920929,
+                91.64672832087467
+              ],
+              "timerDeltaMs": 17
+            },
+            {
+              "atMs": 45344.5,
+              "gameFrame": 461,
+              "position": [
+                2.8101279415039913,
+                1.660000011920929,
+                91.52016359846368
+              ],
+              "timerDeltaMs": 12.700000000004366
+            },
+            {
+              "atMs": 45361.699999999255,
+              "gameFrame": 462,
+              "position": [
+                2.831099045545066,
+                1.660000011920929,
+                91.45688123725819
+              ],
+              "timerDeltaMs": 16.799999999995634
+            },
+            {
+              "atMs": 45377.699999999255,
+              "gameFrame": 463,
+              "position": [
+                2.8520701495861407,
+                1.660000011920929,
+                91.39359887605269
+              ],
+              "timerDeltaMs": 16.80000000000291
+            },
+            {
+              "atMs": 45394.10000000149,
+              "gameFrame": 464,
+              "position": [
+                2.8730412536272154,
+                1.660000011920929,
+                91.3303165148472
+              ],
+              "timerDeltaMs": 16.5
+            },
+            {
+              "atMs": 45428.699999999255,
+              "gameFrame": 466,
+              "position": [
+                2.914983461709365,
+                1.660000011920929,
+                91.20375179243621
+              ],
+              "timerDeltaMs": 16.80000000000291
+            },
+            {
+              "atMs": 45444.5,
+              "gameFrame": 467,
+              "position": [
+                2.9359545657504396,
+                1.660000011920929,
+                91.14046943123071
+              ],
+              "timerDeltaMs": 16.69999999999709
+            },
+            {
+              "atMs": 45460.699999999255,
+              "gameFrame": 468,
+              "position": [
+                2.9569256697915143,
+                1.660000011920929,
+                91.07718707002522
+              ],
+              "timerDeltaMs": 16.700000000004366
+            },
+            {
+              "atMs": 45477.400000002235,
+              "gameFrame": 469,
+              "position": [
+                2.977896773832589,
+                1.660000011920929,
+                91.01390470881972
+              ],
+              "timerDeltaMs": 16.5
+            },
+            {
+              "atMs": 45509.699999999255,
+              "gameFrame": 471,
+              "position": [
+                2.9988678778736637,
+                1.660000011920929,
+                90.95062234761423
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 45527.699999999255,
+              "gameFrame": 472,
+              "position": [
+                3.040810085955813,
+                1.660000011920929,
+                90.82405762520324
+              ],
+              "timerDeltaMs": 16.700000000004366
+            },
+            {
+              "atMs": 45543.5,
+              "gameFrame": 473,
+              "position": [
+                3.040810085955813,
+                1.660000011920929,
+                90.82405762520324
+              ],
+              "timerDeltaMs": 16.599999999998545
+            },
+            {
+              "atMs": 45561.5,
+              "gameFrame": 474,
+              "position": [
+                3.0827522940379626,
+                1.660000011920929,
+                90.69749290279225
+              ],
+              "timerDeltaMs": 16.799999999995634
+            },
+            {
+              "atMs": 45599.199999999255,
+              "gameFrame": 476,
+              "position": [
+                3.124694502120112,
+                1.660000011920929,
+                90.57092818038126
+              ],
+              "timerDeltaMs": 17.099999999998545
+            },
+            {
+              "atMs": 45615.400000002235,
+              "gameFrame": 477,
+              "position": [
+                3.1456656061611867,
+                1.660000011920929,
+                90.50764581917576
+              ],
+              "timerDeltaMs": 16.5
+            }
+          ],
+          "actualPositionSampleCount": 150,
+          "longWindowCount": 110,
+          "failedWindows": [],
+          "longWindowSpeed": {
+            "n": 110,
+            "mean": 4.003181,
+            "min": 3.875969,
+            "max": 4.128379,
+            "p50": 3.998968,
+            "p95": 4.121587
+          },
+          "stopDrift": 0,
+          "stopDriftLimit": 0.153333,
+          "stopDriftRule": "After first post-release physics sample: two actual physics steps + 0.02m; no added render-frame tolerance",
+          "frameRate": {
+            "requestedFps": 60,
+            "actualOnUpdateHz": 59.918511,
+            "observedOnUpdateCount": 150,
+            "wallSeconds": 2.5034,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "measurementTeleportCount": 0,
+          "assertions": [
+            {
+              "label": "距离定量误差",
+              "status": "PASS",
+              "actual": 0.0136,
+              "limit": 0.433741
+            },
+            {
+              "label": "长窗速度上界",
+              "status": "PASS",
+              "actual": 4.128379,
+              "limit": "5% + one physics-step sampling error"
+            },
+            {
+              "label": "固定平地与无横向障碍偏移",
+              "status": "PASS",
+              "actual": {
+                "lateral": 0,
+                "heightDelta": 0
+              }
+            },
+            {
+              "label": "释放后停止与输入清空",
+              "status": "PASS",
+              "actual": {
+                "stopDrift": 0,
+                "inputsClear": true
+              },
+              "limit": 0.153333
+            }
+          ],
+          "status": "PASS"
+        },
+        {
+          "type": "firing",
+          "label": "连续射击 2s / 释放 500ms · 60 FPS",
+          "inputSource": "synthetic-input: touch DOM",
+          "inputDownAtMs": 46789.60000000149,
+          "inputUpAtMs": 48792.900000002235,
+          "inputWallSeconds": 2.0033,
+          "shotCount": 10,
+          "idealCountAt5Hz": 10.0165,
+          "shotEvents": [
+            {
+              "id": 1,
+              "atMs": 46793.699999999255,
+              "observedAtMs": 46794.300000000745,
+              "gameFrame": 548,
+              "frameIntervalMs": 17.399999998509884,
+              "source": "avatar.getStatus().shotEvents"
+            },
+            {
+              "id": 2,
+              "atMs": 47009.699999999255,
+              "observedAtMs": 47009.800000000745,
+              "gameFrame": 561,
+              "frameIntervalMs": 16.799999997019768,
+              "source": "avatar.getStatus().shotEvents"
+            },
+            {
+              "id": 3,
+              "atMs": 47209.800000000745,
+              "observedAtMs": 47209.800000000745,
+              "gameFrame": 573,
+              "frameIntervalMs": 17.100000001490116,
+              "source": "avatar.getStatus().shotEvents"
+            },
+            {
+              "id": 4,
+              "atMs": 47409.5,
+              "observedAtMs": 47409.699999999255,
+              "gameFrame": 585,
+              "frameIntervalMs": 16.099999997764826,
+              "source": "avatar.getStatus().shotEvents"
+            },
+            {
+              "id": 5,
+              "atMs": 47609.60000000149,
+              "observedAtMs": 47609.800000000745,
+              "gameFrame": 597,
+              "frameIntervalMs": 16.600000001490116,
+              "source": "avatar.getStatus().shotEvents"
+            },
+            {
+              "id": 6,
+              "atMs": 47809.800000000745,
+              "observedAtMs": 47810,
+              "gameFrame": 609,
+              "frameIntervalMs": 16.699999999254942,
+              "source": "avatar.getStatus().shotEvents"
+            },
+            {
+              "id": 7,
+              "atMs": 48009.60000000149,
+              "observedAtMs": 48009.800000000745,
+              "gameFrame": 621,
+              "frameIntervalMs": 16.699999999254942,
+              "source": "avatar.getStatus().shotEvents"
+            },
+            {
+              "id": 8,
+              "atMs": 48209.60000000149,
+              "observedAtMs": 48209.800000000745,
+              "gameFrame": 633,
+              "frameIntervalMs": 16.600000001490116,
+              "source": "avatar.getStatus().shotEvents"
+            },
+            {
+              "id": 9,
+              "atMs": 48413.900000002235,
+              "observedAtMs": 48414,
+              "gameFrame": 645,
+              "frameIntervalMs": 20.900000002235174,
+              "source": "avatar.getStatus().shotEvents"
+            },
+            {
+              "id": 10,
+              "atMs": 48613.800000000745,
+              "observedAtMs": 48614,
+              "gameFrame": 657,
+              "frameIntervalMs": 20.699999999254942,
+              "source": "avatar.getStatus().shotEvents"
+            }
+          ],
+          "intervals": [
+            {
+              "seconds": 0.216,
+              "allowedErrorSeconds": 0.0174
+            },
+            {
+              "seconds": 0.2001,
+              "allowedErrorSeconds": 0.0171
+            },
+            {
+              "seconds": 0.1997,
+              "allowedErrorSeconds": 0.0171
+            },
+            {
+              "seconds": 0.2001,
+              "allowedErrorSeconds": 0.016694
+            },
+            {
+              "seconds": 0.2002,
+              "allowedErrorSeconds": 0.0167
+            },
+            {
+              "seconds": 0.1998,
+              "allowedErrorSeconds": 0.0167
+            },
+            {
+              "seconds": 0.2,
+              "allowedErrorSeconds": 0.0167
+            },
+            {
+              "seconds": 0.2043,
+              "allowedErrorSeconds": 0.0209
+            },
+            {
+              "seconds": 0.1999,
+              "allowedErrorSeconds": 0.0209
+            }
+          ],
+          "batches": [
+            {
+              "atMs": 46794.300000000745,
+              "gameFrame": 548,
+              "delta": 1
+            },
+            {
+              "atMs": 47009.800000000745,
+              "gameFrame": 561,
+              "delta": 1
+            },
+            {
+              "atMs": 47209.800000000745,
+              "gameFrame": 573,
+              "delta": 1
+            },
+            {
+              "atMs": 47409.699999999255,
+              "gameFrame": 585,
+              "delta": 1
+            },
+            {
+              "atMs": 47609.800000000745,
+              "gameFrame": 597,
+              "delta": 1
+            },
+            {
+              "atMs": 47810,
+              "gameFrame": 609,
+              "delta": 1
+            },
+            {
+              "atMs": 48009.800000000745,
+              "gameFrame": 621,
+              "delta": 1
+            },
+            {
+              "atMs": 48209.800000000745,
+              "gameFrame": 633,
+              "delta": 1
+            },
+            {
+              "atMs": 48414,
+              "gameFrame": 645,
+              "delta": 1
+            },
+            {
+              "atMs": 48614,
+              "gameFrame": 657,
+              "delta": 1
+            }
+          ],
+          "postRelease500msNewShots": 0,
+          "frameRate": {
+            "requestedFps": 60,
+            "actualOnUpdateHz": 59.901163,
+            "observedOnUpdateCount": 120,
+            "wallSeconds": 2.0033,
+            "targetStatus": "ACHIEVED",
+            "explanation": "Measured original game.onUpdate calls per wall-clock second; loop cap is not a promise of display/engine throughput."
+          },
+          "measurementTeleportCount": 0,
+          "assertions": [
+            {
+              "label": "2秒约5Hz，计数允许±1",
+              "status": "PASS",
+              "actual": 10,
+              "limit": {
+                "ideal": 10.0165,
+                "toleranceShots": 1
+              }
+            },
+            {
+              "label": "相邻发射间隔0.2秒±一实际帧",
+              "status": "PASS",
+              "actual": {
+                "n": 9,
+                "mean": 0.202233,
+                "min": 0.1997,
+                "max": 0.216,
+                "p50": 0.2001,
+                "p95": 0.2043
+              },
+              "limit": "0.2 ± one observed game frame"
+            },
+            {
+              "label": "同一真实游戏帧不补发多枪",
+              "status": "PASS",
+              "actual": 1,
+              "limit": 1
+            },
+            {
+              "label": "松开500ms无新增发射且输入清空",
+              "status": "PASS",
+              "actual": {
+                "added": 0,
+                "clear": true
+              },
+              "limit": 0
+            }
+          ],
+          "status": "PASS"
+        }
+      ],
+      "setups": [
+        {
+          "atMs": 38622.900000002235,
+          "label": "Forward",
+          "operation": "test-only: motor.position + player.transform.position",
+          "before": [
+            -26,
+            1.7599999761581422,
+            37.2
+          ],
+          "requested": [
+            0,
+            1.88,
+            100
+          ],
+          "measurementActive": false,
+          "settled": [
+            0,
+            1.660000011920929,
+            100
+          ]
+        },
+        {
+          "atMs": 42307.10000000149,
+          "label": "Forward",
+          "operation": "test-only: motor.position + player.transform.position",
+          "before": [
+            1.2975870625414838,
+            1.660000011920929,
+            96.08440390041011
+          ],
+          "requested": [
+            0,
+            1.88,
+            100
+          ],
+          "measurementActive": false,
+          "settled": [
+            0,
+            1.660000011920929,
+            100
+          ]
+        },
+        {
+          "atMs": 45985.800000000745,
+          "label": "Firing",
+          "operation": "test-only: motor.position + player.transform.position",
+          "before": [
+            3.1456656061611867,
+            1.660000011920929,
+            90.50764581917576
+          ],
+          "requested": [
+            0,
+            1.88,
+            100
+          ],
+          "measurementActive": false,
+          "settled": [
+            0,
+            1.660000011920929,
+            100
+          ]
+        }
+      ],
+      "errors": [],
+      "inputSource": "synthetic-input",
+      "testOnlySetup": true,
+      "request": {
+        "targetFps": 60,
+        "view": "TPS",
+        "setupPosition": [
+          0,
+          1.88,
+          100
+        ],
+        "holdMs": 2500,
+        "physicsStepSeconds": 0.016666666666666666,
+        "physicsStepBasis": "actual game.world.physicsSimulation.fixedTimeStep; no physics clock changes",
+        "scene3DPhysicsSettings": {
+          "fixedTimeStep": 0.016666666666666666,
+          "maxSubSteps": 4
+        },
+        "instanceMatchesScene3DSetting": true
+      },
+      "environmentBefore": {
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "viewport": [
+          1036,
+          849
+        ],
+        "devicePixelRatio": 1.5,
+        "engineVersion": null,
+        "renderFrameInterval": 16.666666666666668,
+        "stageFrameRate": "fast",
+        "canvases": [
+          {
+            "id": "layaCanvas",
+            "width": 915,
+            "height": 750,
+            "clientWidth": 915,
+            "clientHeight": 750
+          },
+          {
+            "id": "",
+            "width": 1024,
+            "height": 512,
+            "clientWidth": 1024,
+            "clientHeight": 512
+          }
+        ]
+      },
+      "rateSetting": {
+        "api": "Laya.Render.frameInterval = 1000/target; Laya.stage.frameRate = fast",
+        "timerMutation": false,
+        "setAtMs": 37618.699999999255
+      },
+      "endedAt": "2026-09-21T07:31:11.968Z",
+      "wallElapsedMs": 11681.4,
+      "cleanup": {
+        "releasedPointerIds": true,
+        "restoredOwnedRunToggle": true,
+        "originalMethodsRestored": true,
+        "restoredFrameInterval": 16.666666666666668,
+        "restoredStageFrameRate": "fast"
+      },
+      "totalOriginalOnUpdateCalls": 698,
+      "totalPostPhysicsPositionSamples": 698,
+      "nativeEvents": [],
+      "finalState": {
+        "ready": true,
+        "firstPerson": false,
+        "grounded": true,
+        "position": [
+          0,
+          1.660000011920929,
+          100
+        ],
+        "yaw": 0.32,
+        "speed": 0,
+        "fps": 60,
+        "keys": [],
+        "triggerHeld": false,
+        "touch": {
+          "enabled": true,
+          "move": [
+            0,
+            0
+          ],
+          "running": false,
+          "shooting": false,
+          "shootPointers": 0,
+          "pointers": 0,
+          "moving": false,
+          "looking": false
+        },
+        "avatar": {
+          "motion": "Idle",
+          "base": "Idle",
+          "upper": "UpperIdle",
+          "shots": 10,
+          "shooting": false,
+          "triggerHeld": false
+        }
+      }
+    }
+  ],
+  "archivedSummaries": [],
+  "discardedSummaryCount": 0,
+  "errors": [],
+  "live": {
+    "ready": true,
+    "firstPerson": false,
+    "grounded": true,
+    "position": [
+      0,
+      1.660000011920929,
+      100
+    ],
+    "yaw": 0.32,
+    "speed": 0,
+    "fps": 60,
+    "keys": [],
+    "triggerHeld": false,
+    "touch": {
+      "enabled": true,
+      "move": [
+        0,
+        0
+      ],
+      "running": false,
+      "shooting": false,
+      "shootPointers": 0,
+      "pointers": 0,
+      "moving": false,
+      "looking": false
+    },
+    "avatar": {
+      "motion": "Idle",
+      "base": "Idle",
+      "upper": "UpperIdle",
+      "shots": 10,
+      "shooting": false,
+      "triggerHeld": false
+    }
+  },
+  "realBackgroundVerification": {
+    "status": "NOT TESTED"
+  },
+  "boundaries": [
+    "synthetic-input through existing touch controls",
+    "test-only setup position changes are logged; no measurement-stage teleport",
+    "Render.frameInterval changes only the real loop gate; no fake timer/delta/clock",
+    "GPU time, physical touch hardware and native Escape are not verified"
+  ],
+  "updatedAt": "2026-09-21T07:35:25.585Z"
+}

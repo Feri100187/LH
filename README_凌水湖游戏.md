@@ -1,6 +1,6 @@
 # 当前功能与资源
 
-本文件描述稳定基线的功能边界。**本轮实际验收结论见 [docs/baseline/acceptance.md](docs/baseline/acceptance.md)**；下列历史修复报告不代表本轮重新验证。
+本文件描述稳定基线的功能边界。**当前 M0.1 实际验收结论见 [docs/m0.1/acceptance.md](docs/m0.1/acceptance.md)**；[M0 基线验收](docs/baseline/acceptance.md)及下列历史修复报告不代表本轮重新验证。
 
 ## 当前有效资源
 

@@ -1,0 +1,997 @@
+{
+  "scope": "Real production direction, visibility, FPS mount and post-physics helper methods; scene/Animator doubles and installed engine ordering evidence; no live UI or deformation rendering",
+  "source_sha256": {
+    "PlayerAvatar.ts": "47155e764b15ad593d338a7a62b091a2673f95a25497176f1165900d1673f24d",
+    "LingshuiGame.ts": "6fa6ecc5af4d8d5968e7f20f5717b2ab88c554e4647a5952930453869659bf87",
+    "FirstPersonArms.ts": "436aa720b7b0b907e46009e37dc1a01871598ab83d40345da14fab6c60340156",
+    "PlayerCameraFollow.ts": "e8595c20aa7691049b035bf12356fc43f39d811d7a182317ecaf1b00ad76e76c",
+    "MobileInput.ts": "31d9cff60a78da29147dc00487cc42a41bf250814205268ef553a2e9b0bea7e1",
+    "LakeDuck.ts": "dbc540931c8848ea80258c9bc7a57d2f812b1fdbc079aabb230e2411e7e2ffaa"
+  },
+  "suite": "player-directional",
+  "run_id": "f3b54e6c-5478-45ca-8b0c-6ebb77e108dd",
+  "checked_utc": "2026-09-21T07:14:04.539Z",
+  "project_root": "D:\\a\\xiang_mu\\LH",
+  "node_version": "v24.16.0",
+  "typescript_version": "5.9.3",
+  "ide": {
+    "root": "D:\\a\\LayaAirIDE",
+    "version": "3.4.1"
+  },
+  "engine_sources": [
+    {
+      "available": true,
+      "filename": "laya.d3.js",
+      "path": "D:\\a\\LayaAirIDE\\resources\\engine\\libs\\laya.d3.js",
+      "sha256": "ca8bfea4b5701283364938751cb91d9ba7a048a207dd20027d13c5be867d0dcf"
+    }
+  ],
+  "status": "PASS",
+  "total": 24,
+  "passed": 24,
+  "failed": 0,
+  "not_tested": 0,
+  "categories": {
+    "logic": {
+      "total": 22,
+      "passed": 22,
+      "failed": 0,
+      "not_tested": 0
+    },
+    "engine_contract": {
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "not_tested": 0
+    },
+    "asset_contract": {
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "not_tested": 0
+    }
+  },
+  "tests": [
+    {
+      "name": "walk_eight_directions_yaw_0.000",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "yaw": 0,
+        "directions": [
+          {
+            "keys": "W",
+            "state": "Walk",
+            "body_heading": 3.141592653589793
+          },
+          {
+            "keys": "S",
+            "state": "WalkBack",
+            "body_heading": 3.141592653589793
+          },
+          {
+            "keys": "A",
+            "state": "WalkLeft",
+            "body_heading": 3.141592653589793
+          },
+          {
+            "keys": "D",
+            "state": "WalkRight",
+            "body_heading": 3.141592653589793
+          },
+          {
+            "keys": "W+A",
+            "state": "WalkForwardLeft",
+            "body_heading": 3.141592653589793
+          },
+          {
+            "keys": "W+D",
+            "state": "WalkForwardRight",
+            "body_heading": 3.141592653589793
+          },
+          {
+            "keys": "S+A",
+            "state": "WalkBackLeft",
+            "body_heading": 3.141592653589793
+          },
+          {
+            "keys": "S+D",
+            "state": "WalkBackRight",
+            "body_heading": 3.141592653589793
+          }
+        ]
+      }
+    },
+    {
+      "name": "walk_eight_directions_yaw_1.571",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "yaw": 1.5707963267948966,
+        "directions": [
+          {
+            "keys": "W",
+            "state": "Walk",
+            "body_heading": 1.5707963267948966
+          },
+          {
+            "keys": "S",
+            "state": "WalkBack",
+            "body_heading": 1.5707963267948966
+          },
+          {
+            "keys": "A",
+            "state": "WalkLeft",
+            "body_heading": 1.5707963267948966
+          },
+          {
+            "keys": "D",
+            "state": "WalkRight",
+            "body_heading": 1.5707963267948966
+          },
+          {
+            "keys": "W+A",
+            "state": "WalkForwardLeft",
+            "body_heading": 1.5707963267948966
+          },
+          {
+            "keys": "W+D",
+            "state": "WalkForwardRight",
+            "body_heading": 1.5707963267948966
+          },
+          {
+            "keys": "S+A",
+            "state": "WalkBackLeft",
+            "body_heading": 1.5707963267948966
+          },
+          {
+            "keys": "S+D",
+            "state": "WalkBackRight",
+            "body_heading": 1.5707963267948966
+          }
+        ]
+      }
+    },
+    {
+      "name": "walk_eight_directions_yaw_-1.047",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "yaw": -1.0471975511965976,
+        "directions": [
+          {
+            "keys": "W",
+            "state": "Walk",
+            "body_heading": -2.094395102393196
+          },
+          {
+            "keys": "S",
+            "state": "WalkBack",
+            "body_heading": -2.094395102393196
+          },
+          {
+            "keys": "A",
+            "state": "WalkLeft",
+            "body_heading": -2.094395102393196
+          },
+          {
+            "keys": "D",
+            "state": "WalkRight",
+            "body_heading": -2.094395102393196
+          },
+          {
+            "keys": "W+A",
+            "state": "WalkForwardLeft",
+            "body_heading": -2.094395102393196
+          },
+          {
+            "keys": "W+D",
+            "state": "WalkForwardRight",
+            "body_heading": -2.094395102393196
+          },
+          {
+            "keys": "S+A",
+            "state": "WalkBackLeft",
+            "body_heading": -2.094395102393196
+          },
+          {
+            "keys": "S+D",
+            "state": "WalkBackRight",
+            "body_heading": -2.094395102393196
+          }
+        ]
+      }
+    },
+    {
+      "name": "walk_eight_directions_yaw_28.474",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "yaw": 28.474333882308137,
+        "directions": [
+          {
+            "keys": "W",
+            "state": "Walk",
+            "body_heading": -0.19999999999999832
+          },
+          {
+            "keys": "S",
+            "state": "WalkBack",
+            "body_heading": -0.19999999999999832
+          },
+          {
+            "keys": "A",
+            "state": "WalkLeft",
+            "body_heading": -0.19999999999999832
+          },
+          {
+            "keys": "D",
+            "state": "WalkRight",
+            "body_heading": -0.19999999999999832
+          },
+          {
+            "keys": "W+A",
+            "state": "WalkForwardLeft",
+            "body_heading": -0.19999999999999832
+          },
+          {
+            "keys": "W+D",
+            "state": "WalkForwardRight",
+            "body_heading": -0.19999999999999832
+          },
+          {
+            "keys": "S+A",
+            "state": "WalkBackLeft",
+            "body_heading": -0.19999999999999832
+          },
+          {
+            "keys": "S+D",
+            "state": "WalkBackRight",
+            "body_heading": -0.19999999999999832
+          }
+        ]
+      }
+    },
+    {
+      "name": "run_eight_directions_yaw_0.000",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "yaw": 0,
+        "directions": [
+          {
+            "keys": "W",
+            "state": "Run",
+            "body_heading": 3.141592653589793
+          },
+          {
+            "keys": "S",
+            "state": "RunBack",
+            "body_heading": 3.141592653589793
+          },
+          {
+            "keys": "A",
+            "state": "RunLeft",
+            "body_heading": 3.141592653589793
+          },
+          {
+            "keys": "D",
+            "state": "RunRight",
+            "body_heading": 3.141592653589793
+          },
+          {
+            "keys": "W+A",
+            "state": "RunForwardLeft",
+            "body_heading": 3.141592653589793
+          },
+          {
+            "keys": "W+D",
+            "state": "RunForwardRight",
+            "body_heading": 3.141592653589793
+          },
+          {
+            "keys": "S+A",
+            "state": "RunBackLeft",
+            "body_heading": 3.141592653589793
+          },
+          {
+            "keys": "S+D",
+            "state": "RunBackRight",
+            "body_heading": 3.141592653589793
+          }
+        ]
+      }
+    },
+    {
+      "name": "run_eight_directions_yaw_1.571",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "yaw": 1.5707963267948966,
+        "directions": [
+          {
+            "keys": "W",
+            "state": "Run",
+            "body_heading": 1.5707963267948966
+          },
+          {
+            "keys": "S",
+            "state": "RunBack",
+            "body_heading": 1.5707963267948966
+          },
+          {
+            "keys": "A",
+            "state": "RunLeft",
+            "body_heading": 1.5707963267948966
+          },
+          {
+            "keys": "D",
+            "state": "RunRight",
+            "body_heading": 1.5707963267948966
+          },
+          {
+            "keys": "W+A",
+            "state": "RunForwardLeft",
+            "body_heading": 1.5707963267948966
+          },
+          {
+            "keys": "W+D",
+            "state": "RunForwardRight",
+            "body_heading": 1.5707963267948966
+          },
+          {
+            "keys": "S+A",
+            "state": "RunBackLeft",
+            "body_heading": 1.5707963267948966
+          },
+          {
+            "keys": "S+D",
+            "state": "RunBackRight",
+            "body_heading": 1.5707963267948966
+          }
+        ]
+      }
+    },
+    {
+      "name": "run_eight_directions_yaw_-1.047",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "yaw": -1.0471975511965976,
+        "directions": [
+          {
+            "keys": "W",
+            "state": "Run",
+            "body_heading": -2.094395102393196
+          },
+          {
+            "keys": "S",
+            "state": "RunBack",
+            "body_heading": -2.094395102393196
+          },
+          {
+            "keys": "A",
+            "state": "RunLeft",
+            "body_heading": -2.094395102393196
+          },
+          {
+            "keys": "D",
+            "state": "RunRight",
+            "body_heading": -2.094395102393196
+          },
+          {
+            "keys": "W+A",
+            "state": "RunForwardLeft",
+            "body_heading": -2.094395102393196
+          },
+          {
+            "keys": "W+D",
+            "state": "RunForwardRight",
+            "body_heading": -2.094395102393196
+          },
+          {
+            "keys": "S+A",
+            "state": "RunBackLeft",
+            "body_heading": -2.094395102393196
+          },
+          {
+            "keys": "S+D",
+            "state": "RunBackRight",
+            "body_heading": -2.094395102393196
+          }
+        ]
+      }
+    },
+    {
+      "name": "run_eight_directions_yaw_28.474",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "yaw": 28.474333882308137,
+        "directions": [
+          {
+            "keys": "W",
+            "state": "Run",
+            "body_heading": -0.19999999999999832
+          },
+          {
+            "keys": "S",
+            "state": "RunBack",
+            "body_heading": -0.19999999999999832
+          },
+          {
+            "keys": "A",
+            "state": "RunLeft",
+            "body_heading": -0.19999999999999832
+          },
+          {
+            "keys": "D",
+            "state": "RunRight",
+            "body_heading": -0.19999999999999832
+          },
+          {
+            "keys": "W+A",
+            "state": "RunForwardLeft",
+            "body_heading": -0.19999999999999832
+          },
+          {
+            "keys": "W+D",
+            "state": "RunForwardRight",
+            "body_heading": -0.19999999999999832
+          },
+          {
+            "keys": "S+A",
+            "state": "RunBackLeft",
+            "body_heading": -0.19999999999999832
+          },
+          {
+            "keys": "S+D",
+            "state": "RunBackRight",
+            "body_heading": -0.19999999999999832
+          }
+        ]
+      }
+    },
+    {
+      "name": "game_keyboard_eight_directions_walk_yaw_0.000",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "yaw": 0,
+        "directions": [
+          {
+            "keys": "W",
+            "state": "Walk",
+            "normalized_world_move": [
+              0,
+              -1
+            ]
+          },
+          {
+            "keys": "S",
+            "state": "WalkBack",
+            "normalized_world_move": [
+              0,
+              1
+            ]
+          },
+          {
+            "keys": "A",
+            "state": "WalkLeft",
+            "normalized_world_move": [
+              -1,
+              0
+            ]
+          },
+          {
+            "keys": "D",
+            "state": "WalkRight",
+            "normalized_world_move": [
+              1,
+              0
+            ]
+          },
+          {
+            "keys": "W+A",
+            "state": "WalkForwardLeft",
+            "normalized_world_move": [
+              -0.7071067811865475,
+              -0.7071067811865475
+            ]
+          },
+          {
+            "keys": "W+D",
+            "state": "WalkForwardRight",
+            "normalized_world_move": [
+              0.7071067811865475,
+              -0.7071067811865475
+            ]
+          },
+          {
+            "keys": "S+A",
+            "state": "WalkBackLeft",
+            "normalized_world_move": [
+              -0.7071067811865475,
+              0.7071067811865475
+            ]
+          },
+          {
+            "keys": "S+D",
+            "state": "WalkBackRight",
+            "normalized_world_move": [
+              0.7071067811865475,
+              0.7071067811865475
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "game_keyboard_eight_directions_walk_yaw_1.571",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "yaw": 1.5707963267948966,
+        "directions": [
+          {
+            "keys": "W",
+            "state": "Walk",
+            "normalized_world_move": [
+              1,
+              -6.123233995736766e-17
+            ]
+          },
+          {
+            "keys": "S",
+            "state": "WalkBack",
+            "normalized_world_move": [
+              -1,
+              6.123233995736766e-17
+            ]
+          },
+          {
+            "keys": "A",
+            "state": "WalkLeft",
+            "normalized_world_move": [
+              -6.123233995736766e-17,
+              -1
+            ]
+          },
+          {
+            "keys": "D",
+            "state": "WalkRight",
+            "normalized_world_move": [
+              6.123233995736766e-17,
+              1
+            ]
+          },
+          {
+            "keys": "W+A",
+            "state": "WalkForwardLeft",
+            "normalized_world_move": [
+              0.7071067811865475,
+              -0.7071067811865476
+            ]
+          },
+          {
+            "keys": "W+D",
+            "state": "WalkForwardRight",
+            "normalized_world_move": [
+              0.7071067811865476,
+              0.7071067811865475
+            ]
+          },
+          {
+            "keys": "S+A",
+            "state": "WalkBackLeft",
+            "normalized_world_move": [
+              -0.7071067811865476,
+              -0.7071067811865475
+            ]
+          },
+          {
+            "keys": "S+D",
+            "state": "WalkBackRight",
+            "normalized_world_move": [
+              -0.7071067811865475,
+              0.7071067811865476
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "game_keyboard_eight_directions_run_yaw_0.000",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "yaw": 0,
+        "directions": [
+          {
+            "keys": "W",
+            "state": "Run",
+            "normalized_world_move": [
+              0,
+              -1
+            ]
+          },
+          {
+            "keys": "S",
+            "state": "RunBack",
+            "normalized_world_move": [
+              0,
+              1
+            ]
+          },
+          {
+            "keys": "A",
+            "state": "RunLeft",
+            "normalized_world_move": [
+              -1,
+              0
+            ]
+          },
+          {
+            "keys": "D",
+            "state": "RunRight",
+            "normalized_world_move": [
+              1,
+              0
+            ]
+          },
+          {
+            "keys": "W+A",
+            "state": "RunForwardLeft",
+            "normalized_world_move": [
+              -0.7071067811865475,
+              -0.7071067811865475
+            ]
+          },
+          {
+            "keys": "W+D",
+            "state": "RunForwardRight",
+            "normalized_world_move": [
+              0.7071067811865475,
+              -0.7071067811865475
+            ]
+          },
+          {
+            "keys": "S+A",
+            "state": "RunBackLeft",
+            "normalized_world_move": [
+              -0.7071067811865475,
+              0.7071067811865475
+            ]
+          },
+          {
+            "keys": "S+D",
+            "state": "RunBackRight",
+            "normalized_world_move": [
+              0.7071067811865475,
+              0.7071067811865475
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "game_keyboard_eight_directions_run_yaw_1.571",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "yaw": 1.5707963267948966,
+        "directions": [
+          {
+            "keys": "W",
+            "state": "Run",
+            "normalized_world_move": [
+              1,
+              -6.123233995736766e-17
+            ]
+          },
+          {
+            "keys": "S",
+            "state": "RunBack",
+            "normalized_world_move": [
+              -1,
+              6.123233995736766e-17
+            ]
+          },
+          {
+            "keys": "A",
+            "state": "RunLeft",
+            "normalized_world_move": [
+              -6.123233995736766e-17,
+              -1
+            ]
+          },
+          {
+            "keys": "D",
+            "state": "RunRight",
+            "normalized_world_move": [
+              6.123233995736766e-17,
+              1
+            ]
+          },
+          {
+            "keys": "W+A",
+            "state": "RunForwardLeft",
+            "normalized_world_move": [
+              0.7071067811865476,
+              -0.7071067811865477
+            ]
+          },
+          {
+            "keys": "W+D",
+            "state": "RunForwardRight",
+            "normalized_world_move": [
+              0.7071067811865477,
+              0.7071067811865476
+            ]
+          },
+          {
+            "keys": "S+A",
+            "state": "RunBackLeft",
+            "normalized_world_move": [
+              -0.7071067811865476,
+              -0.7071067811865475
+            ]
+          },
+          {
+            "keys": "S+D",
+            "state": "RunBackRight",
+            "normalized_world_move": [
+              -0.7071067811865475,
+              0.7071067811865476
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "body_heading_follows_view_immediately_for_multiturn_yaw",
+      "kind": "logic",
+      "status": "PASS",
+      "details": [
+        {
+          "yaw": -628.5485307179587,
+          "heading": -2.911592653589782
+        },
+        {
+          "yaw": -12.266370614359172,
+          "heading": 2.841592653589792
+        },
+        {
+          "yaw": 0.7,
+          "heading": 2.441592653589793
+        },
+        {
+          "yaw": 24.932741228718346,
+          "heading": -2.941592653589793
+        },
+        {
+          "yaw": 629.2185307179586,
+          "heading": 2.241592653589801
+        }
+      ]
+    },
+    {
+      "name": "sector_hysteresis_holds_and_releases_both_boundaries",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "boundary_chatter_rejected": true,
+        "intentional_direction_change_accepted": true
+      }
+    },
+    {
+      "name": "side_and_backward_speed_scales_match_authored_gaits",
+      "kind": "logic",
+      "status": "PASS",
+      "details": [
+        {
+          "state": "Walk",
+          "scale": 1
+        },
+        {
+          "state": "WalkBack",
+          "scale": 0.7384259258863168
+        },
+        {
+          "state": "WalkLeft",
+          "scale": 0.4928315413872959
+        },
+        {
+          "state": "WalkRight",
+          "scale": 0.4928315413872959
+        },
+        {
+          "state": "WalkForwardLeft",
+          "scale": 0.7638888890586419
+        },
+        {
+          "state": "WalkForwardRight",
+          "scale": 0.7638888890586419
+        },
+        {
+          "state": "WalkBackLeft",
+          "scale": 0.5729166667939815
+        },
+        {
+          "state": "WalkBackRight",
+          "scale": 0.5729166667939815
+        },
+        {
+          "state": "Run",
+          "scale": 1
+        },
+        {
+          "state": "RunBack",
+          "scale": 0.5527272727807031
+        },
+        {
+          "state": "RunLeft",
+          "scale": 0.45238095245936505
+        },
+        {
+          "state": "RunRight",
+          "scale": 0.45238095245936505
+        },
+        {
+          "state": "RunForwardLeft",
+          "scale": 0.5655813954742077
+        },
+        {
+          "state": "RunForwardRight",
+          "scale": 0.5655813954742077
+        },
+        {
+          "state": "RunBackLeft",
+          "scale": 0.43557312255247427
+        },
+        {
+          "state": "RunBackRight",
+          "scale": 0.43557312255247427
+        }
+      ]
+    },
+    {
+      "name": "native_direction_transition_keeps_phase_Walk_to_WalkLeft",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "expected_phase": 0.41999999999999993,
+        "normal_transitions_updated": 20,
+        "explicit_crossfades": 0
+      }
+    },
+    {
+      "name": "native_direction_transition_keeps_phase_WalkForwardRight_to_RunBack",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "expected_phase": 0.75,
+        "normal_transitions_updated": 20,
+        "explicit_crossfades": 0
+      }
+    },
+    {
+      "name": "held_direction_does_not_retrigger_motion_transition",
+      "kind": "logic",
+      "status": "PASS"
+    },
+    {
+      "name": "FPS_hides_entire_world_body_and_TPS_restores_it",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "all_world_renderers_hidden_in_FPS": true,
+        "restored_in_TPS": true
+      }
+    },
+    {
+      "name": "camera_reads_post_physics_position_through_real_follow_callback",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "post_physics_player": [
+          10.08,
+          2.21,
+          19.93
+        ],
+        "camera": [
+          10.08,
+          2.9299999999999997,
+          19.93
+        ],
+        "offset": [
+          0,
+          0.7199999999999998,
+          0
+        ]
+      }
+    },
+    {
+      "name": "engine_after_scene_hook_runs_after_physics_and_animation_before_renderers",
+      "kind": "engine_contract",
+      "status": "PASS",
+      "details": {
+        "order": [
+          "physics",
+          "3D scripts",
+          "animation managers",
+          "afterSceneUpdate",
+          "renderers"
+        ]
+      }
+    },
+    {
+      "name": "scene_asset_parents_FPS_mount_under_PlayerCamera",
+      "kind": "asset_contract",
+      "status": "PASS",
+      "details": {
+        "parent": "PlayerCamera",
+        "child": "FirstPersonArms"
+      }
+    },
+    {
+      "name": "FPS_bob_is_local_and_never_moves_camera_or_duplicates_world_motion",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "meshes": 15,
+        "positions": [
+          {
+            "player": [
+              -30,
+              4,
+              40
+            ],
+            "local_mount": [
+              0.003804225611592985,
+              -0.03742704652060163,
+              0
+            ],
+            "world_camera_distance": 0.037619887609603615
+          },
+          {
+            "player": [
+              150,
+              5,
+              -120
+            ],
+            "local_mount": [
+              0.003804225611592985,
+              -0.03742704652060163,
+              0
+            ],
+            "world_camera_distance": 0.0376198876095987
+          },
+          {
+            "player": [
+              15,
+              3,
+              -15
+            ],
+            "local_mount": [
+              0.003804225611592985,
+              -0.03742704652060163,
+              0
+            ],
+            "world_camera_distance": 0.03761988760960306
+          }
+        ]
+      }
+    },
+    {
+      "name": "switching_TPS_FPS_preserves_continuous_shooting_and_phase",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "shots_while_held": 5,
+        "resumed_FPS_phase": 0.24999999999999467,
+        "stopped_after_release": true
+      }
+    }
+  ]
+}

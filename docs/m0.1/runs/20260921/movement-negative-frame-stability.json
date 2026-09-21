@@ -1,0 +1,470 @@
+{
+  "model": "verified-substep model; no native Bullet/collision execution",
+  "configured_physics": {
+    "fixedTimeStep": 0.016666666666666666,
+    "maxSubSteps": 4
+  },
+  "production_sources": {
+    "LingshuiGame": "22c80e8fd7b81e56fbb52e7055d9c1660864c1b26b92709be48da5c38daa0f52",
+    "MobileInput": "31d9cff60a78da29147dc00487cc42a41bf250814205268ef553a2e9b0bea7e1",
+    "PlayerAvatar": "3315d928ef9bc56d8b02424ed912d81fed6902325df5c27e0ec429a437bf8dd1",
+    "PlayerCameraFollow": "e8595c20aa7691049b035bf12356fc43f39d811d7a182317ecaf1b00ad76e76c",
+    "FirstPersonArms": "436aa720b7b0b907e46009e37dc1a01871598ab83d40345da14fab6c60340156",
+    "LakeDuck": "dbc540931c8848ea80258c9bc7a57d2f812b1fdbc079aabb230e2411e7e2ffaa"
+  },
+  "not_verified": [
+    "Native Bullet collisions/gravity and actual 15/30/60/high-FPS traversal",
+    "Real browser event delivery, rendering and pause/resume behavior"
+  ],
+  "suite": "frame-stability",
+  "run_id": "6063c4c5-3937-43e5-b839-15bb5984c1b7",
+  "checked_utc": "2026-09-21T06:39:34.636Z",
+  "project_root": "D:\\a\\xiang_mu\\LH",
+  "node_version": "v24.16.0",
+  "typescript_version": "5.9.3",
+  "ide": {
+    "root": "D:\\a\\LayaAirIDE",
+    "version": "3.4.1"
+  },
+  "engine_sources": [
+    {
+      "available": true,
+      "filename": "laya.core.js",
+      "path": "D:\\a\\LayaAirIDE\\resources\\engine\\libs\\laya.core.js",
+      "sha256": "fdb94d646341eb297e94b93589464b06579bf3ef580a9126cf6eca7c61b7dffc"
+    },
+    {
+      "available": true,
+      "filename": "laya.d3.js",
+      "path": "D:\\a\\LayaAirIDE\\resources\\engine\\libs\\laya.d3.js",
+      "sha256": "ca8bfea4b5701283364938751cb91d9ba7a048a207dd20027d13c5be867d0dcf"
+    },
+    {
+      "available": true,
+      "filename": "laya.physics3D.js",
+      "path": "D:\\a\\LayaAirIDE\\resources\\engine\\libs\\laya.physics3D.js",
+      "sha256": "ffd076984767167a3ed9ce6c211ba82ac8621fa79db985025f3cd09dcad439a3"
+    },
+    {
+      "available": true,
+      "filename": "laya.bullet.wasm.js",
+      "path": "D:\\a\\LayaAirIDE\\resources\\engine\\libs\\laya.bullet.wasm.js",
+      "sha256": "d5e2bfb5190888f75ce4f80de0acfb71cddcd4fbe969e3de97274830f1b71d1c"
+    }
+  ],
+  "status": "FAIL",
+  "total": 16,
+  "passed": 11,
+  "failed": 5,
+  "not_tested": 0,
+  "categories": {
+    "logic": {
+      "total": 13,
+      "passed": 8,
+      "failed": 5,
+      "not_tested": 0
+    },
+    "engine_contract": {
+      "total": 3,
+      "passed": 3,
+      "failed": 0,
+      "not_tested": 0
+    }
+  },
+  "tests": [
+    {
+      "name": "production_movement_distance_all_eight_directions_at_15_fps",
+      "kind": "logic",
+      "status": "FAIL",
+      "error": "Walk/Forward/15 FPS must submit speed * actual h",
+      "stack": "AssertionError [ERR_ASSERTION]: Walk/Forward/15 FPS must submit speed * actual h\n    at numericTrial (D:\\a\\xiang_mu\\LH\\tools\\test-frame-stability.cjs:152:16)\n    at D:\\a\\xiang_mu\\LH\\tools\\test-frame-stability.cjs:165:66\n    at Array.map (<anonymous>)\n    at D:\\a\\xiang_mu\\LH\\tools\\test-frame-stability.cjs:165:49\n    at Array.flatMap (<anonymous>)\n    at D:\\a\\xiang_mu\\LH\\tools\\test-frame-stability.cjs:165:19\n    at Object.test (D:\\a\\xiang_mu\\LH\\tools\\testing\\context.cjs:94:65)\n    at Object.<anonymous> (D:\\a\\xiang_mu\\LH\\tools\\test-frame-stability.cjs:164:49)\n    at Module._compile (node:internal/modules/cjs/loader:1854:14)\n    at Object..js (node:internal/modules/cjs/loader:1985:10)"
+    },
+    {
+      "name": "production_movement_distance_all_eight_directions_at_30_fps",
+      "kind": "logic",
+      "status": "FAIL",
+      "error": "Walk/Forward/30 FPS must submit speed * actual h",
+      "stack": "AssertionError [ERR_ASSERTION]: Walk/Forward/30 FPS must submit speed * actual h\n    at numericTrial (D:\\a\\xiang_mu\\LH\\tools\\test-frame-stability.cjs:152:16)\n    at D:\\a\\xiang_mu\\LH\\tools\\test-frame-stability.cjs:165:66\n    at Array.map (<anonymous>)\n    at D:\\a\\xiang_mu\\LH\\tools\\test-frame-stability.cjs:165:49\n    at Array.flatMap (<anonymous>)\n    at D:\\a\\xiang_mu\\LH\\tools\\test-frame-stability.cjs:165:19\n    at Object.test (D:\\a\\xiang_mu\\LH\\tools\\testing\\context.cjs:94:65)\n    at Object.<anonymous> (D:\\a\\xiang_mu\\LH\\tools\\test-frame-stability.cjs:164:49)\n    at Module._compile (node:internal/modules/cjs/loader:1854:14)\n    at Object..js (node:internal/modules/cjs/loader:1985:10)"
+    },
+    {
+      "name": "production_movement_distance_all_eight_directions_at_60_fps",
+      "kind": "logic",
+      "status": "PASS",
+      "details": [
+        {
+          "family": "Walk",
+          "direction": "Forward",
+          "fps": 60,
+          "h": 0.016666666666666666,
+          "scale": 1,
+          "speed": 1.65,
+          "seconds": 2,
+          "substeps": 120,
+          "actual": 3.3000000000000096,
+          "expected": 3.3,
+          "error": 9.769962616701378e-15,
+          "model": "verified-substep model; no native Bullet/collision execution"
+        },
+        {
+          "family": "Walk",
+          "direction": "Back",
+          "fps": 60,
+          "h": 0.016666666666666666,
+          "scale": 0.7384259258863168,
+          "speed": 1.2184027777124227,
+          "seconds": 2,
+          "substeps": 120,
+          "actual": 2.4368055554248538,
+          "expected": 2.4368055554248453,
+          "error": 8.43769498715119e-15,
+          "model": "verified-substep model; no native Bullet/collision execution"
+        },
+        {
+          "family": "Walk",
+          "direction": "Left",
+          "fps": 60,
+          "h": 0.016666666666666666,
+          "scale": 0.4928315413872959,
+          "speed": 0.8131720432890382,
+          "seconds": 2,
+          "substeps": 120,
+          "actual": 1.6263440865780798,
+          "expected": 1.6263440865780765,
+          "error": 3.3306690738754696e-15,
+          "model": "verified-substep model; no native Bullet/collision execution"
+        },
+        {
+          "family": "Walk",
+          "direction": "Right",
+          "fps": 60,
+          "h": 0.016666666666666666,
+          "scale": 0.4928315413872959,
+          "speed": 0.8131720432890382,
+          "seconds": 2,
+          "substeps": 120,
+          "actual": 1.6263440865780798,
+          "expected": 1.6263440865780765,
+          "error": 3.3306690738754696e-15,
+          "model": "verified-substep model; no native Bullet/collision execution"
+        },
+        {
+          "family": "Walk",
+          "direction": "ForwardLeft",
+          "fps": 60,
+          "h": 0.016666666666666666,
+          "scale": 0.7638888890586419,
+          "speed": 1.2604166669467591,
+          "seconds": 2,
+          "substeps": 120,
+          "actual": 2.520833333893523,
+          "expected": 2.5208333338935183,
+          "error": 4.884981308350689e-15,
+          "model": "verified-substep model; no native Bullet/collision execution"
+        },
+        {
+          "family": "Walk",
+          "direction": "ForwardRight",
+          "fps": 60,
+          "h": 0.016666666666666666,
+          "scale": 0.7638888890586419,
+          "speed": 1.2604166669467591,
+          "seconds": 2,
+          "substeps": 120,
+          "actual": 2.520833333893523,
+          "expected": 2.5208333338935183,
+          "error": 4.884981308350689e-15,
+          "model": "verified-substep model; no native Bullet/collision execution"
+        },
+        {
+          "family": "Walk",
+          "direction": "BackLeft",
+          "fps": 60,
+          "h": 0.016666666666666666,
+          "scale": 0.5729166667939815,
+          "speed": 0.9453125002100693,
+          "seconds": 2,
+          "substeps": 120,
+          "actual": 1.8906250004201413,
+          "expected": 1.8906250004201386,
+          "error": 2.6645352591003757e-15,
+          "model": "verified-substep model; no native Bullet/collision execution"
+        },
+        {
+          "family": "Walk",
+          "direction": "BackRight",
+          "fps": 60,
+          "h": 0.016666666666666666,
+          "scale": 0.5729166667939815,
+          "speed": 0.9453125002100693,
+          "seconds": 2,
+          "substeps": 120,
+          "actual": 1.8906250004201413,
+          "expected": 1.8906250004201386,
+          "error": 2.6645352591003757e-15,
+          "model": "verified-substep model; no native Bullet/collision execution"
+        },
+        {
+          "family": "Run",
+          "direction": "Forward",
+          "fps": 60,
+          "h": 0.016666666666666666,
+          "scale": 1,
+          "speed": 4,
+          "seconds": 2,
+          "substeps": 120,
+          "actual": 8.00000000000002,
+          "expected": 8,
+          "error": 1.9539925233402755e-14,
+          "model": "verified-substep model; no native Bullet/collision execution"
+        },
+        {
+          "family": "Run",
+          "direction": "Back",
+          "fps": 60,
+          "h": 0.016666666666666666,
+          "scale": 0.5527272727807031,
+          "speed": 2.2109090911228124,
+          "seconds": 2,
+          "substeps": 120,
+          "actual": 4.421818182245631,
+          "expected": 4.421818182245625,
+          "error": 6.217248937900877e-15,
+          "model": "verified-substep model; no native Bullet/collision execution"
+        },
+        {
+          "family": "Run",
+          "direction": "Left",
+          "fps": 60,
+          "h": 0.016666666666666666,
+          "scale": 0.45238095245936505,
+          "speed": 1.8095238098374602,
+          "seconds": 2,
+          "substeps": 120,
+          "actual": 3.6190476196749186,
+          "expected": 3.6190476196749204,
+          "error": -1.7763568394002505e-15,
+          "model": "verified-substep model; no native Bullet/collision execution"
+        },
+        {
+          "family": "Run",
+          "direction": "Right",
+          "fps": 60,
+          "h": 0.016666666666666666,
+          "scale": 0.45238095245936505,
+          "speed": 1.8095238098374602,
+          "seconds": 2,
+          "substeps": 120,
+          "actual": 3.6190476196749186,
+          "expected": 3.6190476196749204,
+          "error": -1.7763568394002505e-15,
+          "model": "verified-substep model; no native Bullet/collision execution"
+        },
+        {
+          "family": "Run",
+          "direction": "ForwardLeft",
+          "fps": 60,
+          "h": 0.016666666666666666,
+          "scale": 0.5655813954742077,
+          "speed": 2.262325581896831,
+          "seconds": 2,
+          "substeps": 120,
+          "actual": 4.5246511637936715,
+          "expected": 4.524651163793662,
+          "error": 9.769962616701378e-15,
+          "model": "verified-substep model; no native Bullet/collision execution"
+        },
+        {
+          "family": "Run",
+          "direction": "ForwardRight",
+          "fps": 60,
+          "h": 0.016666666666666666,
+          "scale": 0.5655813954742077,
+          "speed": 2.262325581896831,
+          "seconds": 2,
+          "substeps": 120,
+          "actual": 4.5246511637936715,
+          "expected": 4.524651163793662,
+          "error": 9.769962616701378e-15,
+          "model": "verified-substep model; no native Bullet/collision execution"
+        },
+        {
+          "family": "Run",
+          "direction": "BackLeft",
+          "fps": 60,
+          "h": 0.016666666666666666,
+          "scale": 0.43557312255247427,
+          "speed": 1.742292490209897,
+          "seconds": 2,
+          "substeps": 120,
+          "actual": 3.4845849804198084,
+          "expected": 3.484584980419794,
+          "error": 1.4210854715202004e-14,
+          "model": "verified-substep model; no native Bullet/collision execution"
+        },
+        {
+          "family": "Run",
+          "direction": "BackRight",
+          "fps": 60,
+          "h": 0.016666666666666666,
+          "scale": 0.43557312255247427,
+          "speed": 1.742292490209897,
+          "seconds": 2,
+          "substeps": 120,
+          "actual": 3.4845849804198084,
+          "expected": 3.484584980419794,
+          "error": 1.4210854715202004e-14,
+          "model": "verified-substep model; no native Bullet/collision execution"
+        }
+      ]
+    },
+    {
+      "name": "production_movement_distance_all_eight_directions_at_120_fps",
+      "kind": "logic",
+      "status": "FAIL",
+      "error": "Walk/Forward/120 FPS must submit speed * actual h",
+      "stack": "AssertionError [ERR_ASSERTION]: Walk/Forward/120 FPS must submit speed * actual h\n    at numericTrial (D:\\a\\xiang_mu\\LH\\tools\\test-frame-stability.cjs:152:16)\n    at D:\\a\\xiang_mu\\LH\\tools\\test-frame-stability.cjs:165:66\n    at Array.map (<anonymous>)\n    at D:\\a\\xiang_mu\\LH\\tools\\test-frame-stability.cjs:165:49\n    at Array.flatMap (<anonymous>)\n    at D:\\a\\xiang_mu\\LH\\tools\\test-frame-stability.cjs:165:19\n    at Object.test (D:\\a\\xiang_mu\\LH\\tools\\testing\\context.cjs:94:65)\n    at Object.<anonymous> (D:\\a\\xiang_mu\\LH\\tools\\test-frame-stability.cjs:164:49)\n    at Module._compile (node:internal/modules/cjs/loader:1854:14)\n    at Object..js (node:internal/modules/cjs/loader:1985:10)"
+    },
+    {
+      "name": "production_movement_distance_all_eight_directions_at_240_fps",
+      "kind": "logic",
+      "status": "FAIL",
+      "error": "Walk/Forward/240 FPS must submit speed * actual h",
+      "stack": "AssertionError [ERR_ASSERTION]: Walk/Forward/240 FPS must submit speed * actual h\n    at numericTrial (D:\\a\\xiang_mu\\LH\\tools\\test-frame-stability.cjs:152:16)\n    at D:\\a\\xiang_mu\\LH\\tools\\test-frame-stability.cjs:165:66\n    at Array.map (<anonymous>)\n    at D:\\a\\xiang_mu\\LH\\tools\\test-frame-stability.cjs:165:49\n    at Array.flatMap (<anonymous>)\n    at D:\\a\\xiang_mu\\LH\\tools\\test-frame-stability.cjs:165:19\n    at Object.test (D:\\a\\xiang_mu\\LH\\tools\\testing\\context.cjs:94:65)\n    at Object.<anonymous> (D:\\a\\xiang_mu\\LH\\tools\\test-frame-stability.cjs:164:49)\n    at Module._compile (node:internal/modules/cjs/loader:1854:14)\n    at Object..js (node:internal/modules/cjs/loader:1985:10)"
+    },
+    {
+      "name": "changed_fixed_step_120hz_does_not_use_a_hardcoded_60_multiplier",
+      "kind": "logic",
+      "status": "FAIL",
+      "error": "Walk/Forward/15 FPS must submit speed * actual h",
+      "stack": "AssertionError [ERR_ASSERTION]: Walk/Forward/15 FPS must submit speed * actual h\n    at numericTrial (D:\\a\\xiang_mu\\LH\\tools\\test-frame-stability.cjs:152:16)\n    at D:\\a\\xiang_mu\\LH\\tools\\test-frame-stability.cjs:168:72\n    at Array.map (<anonymous>)\n    at D:\\a\\xiang_mu\\LH\\tools\\test-frame-stability.cjs:168:57\n    at Array.flatMap (<anonymous>)\n    at D:\\a\\xiang_mu\\LH\\tools\\test-frame-stability.cjs:168:28\n    at Object.test (D:\\a\\xiang_mu\\LH\\tools\\testing\\context.cjs:94:65)\n    at Object.<anonymous> (D:\\a\\xiang_mu\\LH\\tools\\test-frame-stability.cjs:167:7)\n    at Module._compile (node:internal/modules/cjs/loader:1854:14)\n    at Object..js (node:internal/modules/cjs/loader:1985:10)"
+    },
+    {
+      "name": "real_touch_joystick_keeps_fractional_speed_range",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "distance": 1.6500000000000044,
+        "expected": 1.65,
+        "analog": 0.5000000000000007,
+        "model": "verified-substep model; no native Bullet/collision execution"
+      }
+    },
+    {
+      "name": "physics_configuration_mismatch_and_invalid_clocks_fail_explicitly",
+      "kind": "logic",
+      "status": "PASS"
+    },
+    {
+      "name": "500ms_wall_or_engine_gap_discards_pending_input_and_catchup",
+      "kind": "logic",
+      "status": "PASS",
+      "details": [
+        {
+          "delta": 0.5,
+          "wall": 0.5,
+          "droppedSeconds": 0.5333333333333333,
+          "resumedMaxSubsteps": 1,
+          "model": "verified-substep model; no native Bullet/collision execution"
+        },
+        {
+          "delta": 0.016666666666666666,
+          "wall": 0.5,
+          "droppedSeconds": 0.05,
+          "resumedMaxSubsteps": 1,
+          "model": "verified-substep model; no native Bullet/collision execution"
+        },
+        {
+          "delta": 0.5,
+          "wall": 0.016666666666666666,
+          "droppedSeconds": 0.5333333333333333,
+          "resumedMaxSubsteps": 1,
+          "model": "verified-substep model; no native Bullet/collision execution"
+        }
+      ]
+    },
+    {
+      "name": "blur_resume_clears_motion_and_os_repeat_cannot_rearm",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "repeatedKeysAccepted": 0,
+        "freshKeyPressMoves": true,
+        "model": "verified-substep model; no native Bullet/collision execution"
+      }
+    },
+    {
+      "name": "hidden_scene_skip_and_visible_resume_replace_the_discard_latch",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "resumedDebt": 0,
+        "resumedSubsteps": 0,
+        "model": "verified-substep model; no native Bullet/collision execution"
+      }
+    },
+    {
+      "name": "Escape_in_touch_mode_clears_independent_pointers_and_motion",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "activePointersAfterEscape": 0,
+        "retainedTouchMode": true,
+        "model": "verified-substep model; no native Bullet/collision execution"
+      }
+    },
+    {
+      "name": "sustained_10fps_debt_is_bounded_and_recovery_has_no_extended_catchup",
+      "kind": "logic",
+      "status": "PASS",
+      "details": {
+        "lowFpsMaxDebt": 0,
+        "droppedSeconds": 1.6666666666666685,
+        "recoverySubsteps": 60,
+        "recoveryDistance": 3.999999999999922,
+        "expectedRecoveryDistance": 4,
+        "model": "verified-substep model; no native Bullet/collision execution"
+      }
+    },
+    {
+      "name": "installed_move_forwards_to_persistent_bullet_walk_direction",
+      "kind": "engine_contract",
+      "status": "PASS",
+      "details": {
+        "frontend": "CharacterController.move",
+        "backend": "btCharacterCollider.move",
+        "semantics": "persistent displacement per Bullet substep"
+      }
+    },
+    {
+      "name": "installed_scene_accumulator_agrees_with_the_verified_substep_model",
+      "kind": "engine_contract",
+      "status": "PASS",
+      "details": {
+        "samples": [
+          0.004166666666666667,
+          0.008333333333333333,
+          0.016666666666666666,
+          0.03333333333333333,
+          0.06666666666666667,
+          0.1,
+          0.5,
+          0.016666666666666666,
+          0.004166666666666667
+        ],
+        "actualInstalledSceneMethodExecuted": true,
+        "physicsManager": "recording stub",
+        "model": "verified-substep model; no native Bullet/collision execution"
+      }
+    },
+    {
+      "name": "installed_2d_root_callback_precedes_scene_physics_for_the_adapter",
+      "kind": "engine_contract",
+      "status": "PASS",
+      "details": {
+        "rootScript": "05c791e1-eeac-4708-a700-002e211a5589",
+        "beforePhysics": true,
+        "timerUpdateOccursAfterScenes": true
+      }
+    }
+  ]
+}

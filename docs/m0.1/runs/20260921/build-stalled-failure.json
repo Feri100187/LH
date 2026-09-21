@@ -1,0 +1,44 @@
+{
+  "runId": "72970dbb-7f60-41d5-90ce-29ba84e094a2",
+  "category": "build",
+  "project": "C:\\Users\\freedom\\.codex\\worktrees\\lh-m01-verification\\LH",
+  "platform": "web",
+  "startedAt": "2026-09-21T06:53:56.628Z",
+  "status": "FAIL",
+  "before": {
+    "library": true,
+    "local": true,
+    "release": true,
+    "bin/js/bundles": true
+  },
+  "buildOptions": {
+    "name": "LH",
+    "sourcemap": true,
+    "sourcesContent": true
+  },
+  "manifestSHA256": "d100ccfdf5c1255b1e6c2dc669169aedc43351b0e58319cfe84108783903ab27",
+  "output": "C:\\Users\\freedom\\.codex\\worktrees\\lh-m01-verification\\LH\\release\\m01-after-final",
+  "assetsCheck": {
+    "status": "PASS",
+    "runId": "e782bba5-77b4-44ef-9f7c-7028bd31d73a",
+    "report": "C:\\Users\\freedom\\.codex\\worktrees\\lh-m01-verification\\LH\\.test-reports\\m01-after-build-2\\assets-check\\assets-result.json",
+    "exitCode": 0,
+    "checks": 10
+  },
+  "ideRun": "ide-run.json",
+  "engineVersion": "3.4.1",
+  "process": {
+    "pid": 41796,
+    "timedOut": false,
+    "exitCode": 1,
+    "signal": null
+  },
+  "error": "Error: Error: IDE produced no fresh native result (exit 1); inspect this run's logs\n    at runIdeScript (C:\\Users\\freedom\\.codex\\worktrees\\lh-m01-verification\\LH\\tools\\run-ide.cjs:88:47)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async main (C:\\Users\\freedom\\.codex\\worktrees\\lh-m01-verification\\LH\\tools\\build.cjs:104:27)\n    at main (C:\\Users\\freedom\\.codex\\worktrees\\lh-m01-verification\\LH\\tools\\build.cjs:109:48)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)",
+  "finishedAt": "2026-09-21T07:02:02.695Z",
+  "after": {
+    "library": true,
+    "local": true,
+    "release": true,
+    "bin/js/bundles": true
+  }
+}

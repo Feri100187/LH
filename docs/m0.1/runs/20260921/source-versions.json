@@ -1,0 +1,23 @@
+{
+  "baseCommit": "31881e478c0c2a1e6d9ea6fb00c11efdbeb4bf48",
+  "finalRuntimeSources": {
+    "src/LingshuiGame.ts": "6fa6ecc5af4d8d5968e7f20f5717b2ab88c554e4647a5952930453869659bf87",
+    "src/PlayerAvatar.ts": "47155e764b15ad593d338a7a62b091a2673f95a25497176f1165900d1673f24d",
+    "src/MobileInput.ts": "31d9cff60a78da29147dc00487cc42a41bf250814205268ef553a2e9b0bea7e1"
+  },
+  "firstCandidateSources": {
+    "src/LingshuiGame.ts": "311f9e9b08b399602ce57d647b4f4aec0e66da2c44c9b35f387d8f167775d8d6",
+    "src/PlayerAvatar.ts": "3315d928ef9bc56d8b02424ed912d81fed6902325df5c27e0ec429a437bf8dd1",
+    "src/MobileInput.ts": "31d9cff60a78da29147dc00487cc42a41bf250814205268ef553a2e9b0bea7e1"
+  },
+  "firstCandidateDifference": "Independent trigger cancellation cadence only; normal fixed-step movement and absolute fire deadlines unchanged",
+  "verificationWorktree": "C:\\Users\\freedom\\.codex\\worktrees\\lh-m01-verification\\LH",
+  "finalBuildDirectory": "release/m01-after-final",
+  "finalRuntimeURL": "http://127.0.0.1:18771/?controls=touch",
+  "finalProbeSources": {
+    "tools/testing/m01-runtime.js": "d81143a828db02290c0d69dd77b88bb126feb6603bb8aff027dfdae925211e44",
+    "tools/testing/m01-routes.js": "bdbfb775ad782cb6d75175d2a3a8eb718260538b484a88a33680b8ad7c2fb278",
+    "tools/testing/m01-input-timing.js": "c1237dd19199ff5ab1e82eadb4ab04166a3a946e2e76d9755f4857dd588d263e"
+  },
+  "probeRevisionNotes": "Numeric movement/firing protocol remained m01-postphysics-v1. Background recovery v2/v3 and native engine pause were added separately. Route final revision only adds input-reset diagnostics and aborts stale pointers; earlier raw results retained."
+}

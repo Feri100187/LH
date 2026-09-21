@@ -97,6 +97,7 @@ Animator.CULLINGMODE_ALWAYSANIMATE = 0;
 const document = { hidden: false, hasFocus: () => true, pointerLockElement: null };
 const window = { matchMedia: () => ({ matches: false }), location: { search: "" } };
 const Laya = {
+    Scene3D: { physicsSettings: { fixedTimeStep: 1 / 60, maxSubSteps: 4 } },
     Script: class {}, Sprite3D: Node, Node, MeshRenderer, SkinnedMeshRenderer, Animator, Vector3,
     Quaternion: class {}, HitResult: class {}, Matrix3x3: class { constructor() { this.elements = new Float32Array(9); } },
     Bounds: class { constructor(min, max) { this.min = min; this.max = max; } }, AnimatorController: class {},
@@ -144,7 +145,11 @@ function gameFixture() {
         cameraSphere: { shape: {} }, hud: { dataset: {} }, ready: true,
         mobileInput: { enabled: false, running: false, shooting: false, setPerspective() {}, getStatus() {}, reset() {} },
         canvas: {}, locked: true });
-    world.physicsSimulation = { shapeCast: () => false };
+    world.physicsSimulation = { shapeCast: () => false, fixedTimeStep: 1 / 60, maxSubSteps: 4 };
+    world.timer = Laya.timer; world._physicsStepTime = 0;
+    game.physicsStepSeconds = load("LingshuiGame").characterPhysicsStep(world);
+    game.discardPhysicsFrame = false;
+    game.monotonicNow = () => Laya.timer.currTimer;
     document.pointerLockElement = game.canvas;
     player.transform.position.cloneTo(game.previousPlayerPosition);
     const follow = new PlayerCameraFollow(); follow.owner = camera; follow.follow = () => game.followAfterPhysics(); game.cameraFollow = follow;
