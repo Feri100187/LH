@@ -1,0 +1,83 @@
+{
+  "baseCommit": "d44e0967938d2c4bb5b0d05d31593219b62e9cbb",
+  "verifiedAt": "2026-09-21T09:53:05.625748+00:00",
+  "environment": {
+    "os": "Linux",
+    "node": "22.16.0",
+    "typescriptUsed": "5.8.3",
+    "typescriptPinnedInRepository": "5.9.3",
+    "compilerIsPinnedVersion": false
+  },
+  "results": {
+    "pureRules": {
+      "passed": 29,
+      "total": 29,
+      "kind": "analytic-test-world"
+    },
+    "adapterContract": {
+      "passed": 17,
+      "total": 17,
+      "kind": "scene-dom-physics-doubles"
+    },
+    "pureRulesStrictTypecheck": "PASS",
+    "testScriptSyntax": "PASS",
+    "adapterSyntaxTranspilation": "PASS"
+  },
+  "notVerified": [
+    "Full project typecheck with the pinned compiler and complete declarations",
+    "LayaAir 3.4.1 Schema/import/build",
+    "Actual Bullet ray hits and filtering",
+    "Actual camera/bone/FX alignment",
+    "Original M0.1 full regression suite",
+    "Native keyboard, Pointer Lock, multitouch and background/resume",
+    "Web publication and performance"
+  ],
+  "initialFailure": {
+    "test": "pulse visibility follows ordinary sibling visibility across view switches",
+    "observedError": "Cannot set properties of undefined (setting 'follow')",
+    "cause": "Optional-chain equality compared undefined with undefined before initialization.",
+    "resolution": "Explicitly require follower and owned hook; add teardown-before-initialization regression."
+  },
+  "files": {
+    "src/WatergunHit.ts": {
+      "sha256": "5bccab26ac4c4bbe57ae35eb5320522be311cd78d86585b94364e5b7b009a7cc",
+      "gitBlobSha": "2c31d96d6b02feb058b4514930724b7b647eb4dc"
+    },
+    "src/WatergunHit.ts.meta": {
+      "sha256": "9fab4742448b36da641fa0316a59692a20fc5576d2f3e4b03d9dba670c282461",
+      "gitBlobSha": "c0baf2986860b35eee38ccbe90d81e7527a2a96f"
+    },
+    "src/WatergunTraining.ts": {
+      "sha256": "64e950f20aed9541dade3612fdd2d118537d2435644432a1cb4b75cfb415a144",
+      "gitBlobSha": "ebf04ded072e813baa8ce1641a3d21c1417a99f5"
+    },
+    "src/WatergunTraining.ts.meta": {
+      "sha256": "b94a58b2b54baf22ff74c48fa3fc6effab853c25d548f3e69145babff8ab8174",
+      "gitBlobSha": "784056aa829cf9a8aeebb9f88405d2b8915a162c"
+    },
+    "assets/M1Training.ls": {
+      "sha256": "0ef7b513f0c33ad96b86878120ffff991bc38f8011e6891ef88ed5dd85d732b8",
+      "gitBlobSha": "d635af7210f450c3072401fb597c8c9a1d7c50e7"
+    },
+    "assets/M1Training.ls.meta": {
+      "sha256": "1b9aa24fd1279c99a9755748a76abeb65947bb87c7d10ad9f62dd1e885e658ac",
+      "gitBlobSha": "df12eb6822e8fb031ce7602e7a9ebaf10ef50404"
+    },
+    "tools/test-watergun-hit.cjs": {
+      "sha256": "00ea5a71e6887910de7388dc5baf91c5ee7bc5d13d4505d1d7113575423ae32e",
+      "gitBlobSha": "22cd47549954ae7f8d4b086dd7964b09793ed166"
+    },
+    "tools/test-watergun-training.cjs": {
+      "sha256": "a3c8f7786fae5fed612fa299ba6b755919817d7f29fd059b049523ee74666550",
+      "gitBlobSha": "5f8f0f37917bd17b716476ba9e8998fd5332d16c"
+    },
+    "package.json": {
+      "sha256": "cec75331ff4d3543673fe6719010cc1ba771296b3006f2b46777b28c34ec9194",
+      "gitBlobSha": "b7d4188e1b07579bba59e6594c285b8bd2def4a5"
+    },
+    "docs/m1/README.md": {
+      "sha256": "6fa200674332485548da2ad992928d586455a98ea9b6c9e22e65769a384e3ff8",
+      "gitBlobSha": "7ee150c9a72318abfc2a209446e859b87e36de68"
+    }
+  }
+}

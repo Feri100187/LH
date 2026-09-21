@@ -14,7 +14,8 @@
     "assets:prepare": "node tools/assets.cjs prepare",
     "assets:import": "node tools/assets.cjs import",
     "build": "node tools/build.cjs",
-    "serve": "node tools/serve.cjs"
+    "serve": "node tools/serve.cjs",
+    "test:m1": "node tools/test-watergun-hit.cjs && node tools/test-watergun-training.cjs"
   },
   "devDependencies": {
     "typescript": "5.9.3"
